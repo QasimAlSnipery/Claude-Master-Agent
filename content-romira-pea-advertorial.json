@@ -11,14 +11,14 @@
   "footer_label": "Health Discovery Review",
   "pixel_id": "",
   "disclaimer": "This article is advertorial content. The statements made about Romira PEA have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Consult your healthcare provider before starting any new supplement, especially if you are pregnant, nursing, or taking prescription medication.",
-  "ps_text": "P.S. &#8212; The research is behind it. The 60-day guarantee protects it. Most people notice a shift within the first week of consistent use &#8212; and the results continue building from there. The only thing left is the decision. If stock runs out before you come back, that decision will have been made for you.",
+  "ps_text": "P.S. &#8212; The research is behind it. The 60-day guarantee protects it. Most people notice their mornings are different within the first week &#8212; and the results keep building from there. The only thing left is the decision. If this sells out before you come back, that decision will have been made for you.",
   "masthead_title": "HEALTH DISCOVERY REVIEW",
   "breadcrumb": ["Home", "Health", "Pain &amp; Comfort", "Investigative Report"],
 
-  "headline_prefix": "Your Body Already <span style=\"white-space:nowrap\">Makes Its Own</span> <span style=\"white-space:nowrap\">&#8216;Pain-Relief Molecule&#8217;</span>&#8230; But",
+  "headline_prefix": "Your Body Already Makes Its Own <span style=\"white-space:nowrap\">&#8216;Pain-Off Switch&#8217;&#8230; But",
   "headline_highlight": "After 50, It Stops Making Enough",
   "headline_suffix": "",
-  "subheadline": "Scientists discovered why so many women over 50 still feel stiff and uncomfortable &#8212; even after trying everything. The answer isn&#8217;t a new drug. It&#8217;s something your body already knows.",
+  "subheadline": "Scientists discovered why so many women over 50 still feel stiff and achy every single morning &#8212; even after trying everything. The answer isn&#8217;t a new drug. It&#8217;s something your body already knows how to use.",
 
   "byline_author": "Health Discovery Review",
   "byline_specialty": "Investigative Health Report",
@@ -53,40 +53,28 @@
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_headline_on_her_bed.png?v=1777407166",
-      "alt": "Woman sitting on the edge of her bed in the morning, hands on her knees, preparing to stand",
-      "caption": "For millions of women over 50, this moment &#8212; the first attempt to stand &#8212; has become the clearest measure of how much has changed."
+      "alt": "Woman sitting on the edge of her bed in the morning, bracing herself to stand up",
+      "caption": "For millions of women over 50, this moment &#8212; the first attempt to stand &#8212; has become the most honest measure of how much has changed."
     },
 
     {
       "type": "identification_statement",
-      "text": "If getting out of bed in the morning has become something you brace for. If stairs have quietly shifted from something you do without thinking to something you plan around. If you have already tried the standard solutions &#8212; ibuprofen, CBD, turmeric &#8212; and found yourself back at the same level of discomfort within days of stopping. Then this report was written for you."
+      "text": "If getting out of bed every morning has become the part of the day you dread most. If the first few steps feel like walking on broken glass until things loosen up. If you have been taking ibuprofen or Aleve every single morning for so long it has become as automatic as your cup of coffee &#8212; and your doctor keeps warning you about your kidneys, but every time you cut back, the pain is back within two days, worse than before. If you have tried CBD and it did something for your nerves but nothing for the actual aching in your joints. If you have been through the turmeric, the glucosamine, the big Costco tub that ended up in the back of the cabinet. If a doctor has looked you in the eye and said &#8220;well, at your age&#8230;&#8221; and you had to swallow what you actually wanted to say back. Then this report was written for you."
     },
 
     {
       "type": "lead",
-      "html": "Her name is Sarah. She is 57. She lives alone in a two-story house in Denver and, about eighteen months ago, she quietly stopped using the upstairs bathroom as often. Not because anything dramatic happened. Because the stairs had started to require a decision."
+      "html": "Her name is Sarah. She is 57. She lives alone in a two-story house in Denver and, for the past year and a half, she has been sleeping on the first floor. Not because anything dramatic happened. Because the stairs had become a calculation rather than a movement. &#8220;Some mornings I would stand at the bottom of them and just&#8230; think about it,&#8221; she told me. &#8220;Whether what was up there was worth it.&#8221;"
     },
 
     {
       "type": "paragraph",
-      "html": "Sarah does not describe herself as someone in severe pain. &#8220;It&#8217;s not like I&#8217;m crying,&#8221; she said. &#8220;It&#8217;s more like everything below my waist is just&#8230; louder than it used to be. The knees. The lower back. That deep ache when I first stand up in the morning.&#8221; She had taken ibuprofen every morning for three years. She tried a CBD tincture for six weeks on a friend&#8217;s recommendation. She worked through two large containers of turmeric capsules and a bag of glucosamine powder that eventually sat on her counter so long she threw it out unopened."
-    },
-
-    {
-      "type": "image",
-      "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_on_stairs.png?v=1777407166",
-      "alt": "Staircase with worn handrail &#8212; representing the daily challenge of joint and back discomfort",
-      "caption": "What was once automatic has become something to calculate. That shift is not an inevitable part of aging &#8212; and new research is very clear about why."
+      "html": "Sarah does not describe herself as someone in serious pain. &#8220;It&#8217;s not like I&#8217;m crying,&#8221; she said. &#8220;It&#8217;s more like everything from the waist down is just louder than it used to be. The knees. The lower back. That deep ache the moment I try to stand up.&#8221; She had been taking ibuprofen every morning for three years &#8212; &#8220;like vitamins,&#8221; she said, without humor. She had tried CBD for six weeks at a friend&#8217;s insistence. She had gone through two large containers of turmeric and a bag of glucosamine that sat on her counter so long she threw it out without finishing it. She had stopped her morning walks around the neighborhood. She had given up on the container garden on her back porch because getting down to tend to it had become too much. She still went to book club, but she stood up twice during every meeting &#8212; and nobody mentioned it anymore because they were all used to it."
     },
 
     {
       "type": "paragraph",
-      "html": "&#8220;The ibuprofen works while I&#8217;m taking it,&#8221; Sarah told me. &#8220;But my doctor keeps telling me I need to cut back because of my kidneys. And the moment I stop, within two days, everything is exactly where it was. I&#8217;m not getting better. I&#8217;m just managing.&#8221;"
-    },
-
-    {
-      "type": "paragraph",
-      "html": "What Sarah was describing is not unique to her. It is the lived experience of tens of millions of adults over 50 who cycle through the same short list of solutions and arrive at the same place, month after month. The question this report set out to answer is not whether those solutions work. It is <strong>why they all eventually fail</strong> &#8212; and what the most recent clinical evidence says should have been tried first."
+      "html": "&#8220;The ibuprofen works while I&#8217;m taking it,&#8221; Sarah told me. &#8220;But my doctor keeps telling me to cut back because of my kidneys. And every time I try, within two days everything is exactly where it was. I&#8217;m not getting better. I&#8217;m just keeping a lid on it.&#8221; What Sarah was describing is not unique to her. It is the lived experience of tens of millions of people over 50 who cycle through the same short list of solutions and arrive at the same place, month after month. The question this report set out to answer is not whether those solutions work. It is why they all eventually fail &#8212; and what the most recent research says should have been tried first."
     },
 
     {
@@ -101,33 +89,33 @@
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Meds_on_the_table.png?v=1777407167",
-      "alt": "Ibuprofen, CBD oil, turmeric capsules, and glucosamine on a counter &#8212; the standard list of failed solutions",
-      "caption": "The drawer most adults over 50 know well. Each one promising something. Each one eventually replaced by the next."
+      "alt": "Ibuprofen, CBD oil, turmeric capsules, and glucosamine on a counter",
+      "caption": "The drawer most people over 50 know well. Each one promising something. Each one eventually putting you back where you started."
     },
 
     {
       "type": "paragraph",
-      "html": "Ibuprofen and other NSAIDs work by blocking COX enzymes &#8212; the enzymes responsible for producing prostaglandins, which amplify pain signals. They were designed for short-term, acute discomfort. They were not designed for the kind of chronic, low-grade aching that develops gradually over years in aging tissue. And when you stop taking them, the underlying signaling system is precisely as dysregulated as it was. Nothing has changed. The relief was borrowed."
+      "html": "Ibuprofen and Aleve work by temporarily blocking the pain signal while you are taking them. That is the whole mechanism. The day you stop, your body is in exactly the same state it was before &#8212; because nothing was fixed, nothing was restored. You borrowed the relief. And your body takes it back the moment you stop paying. That is why every time you try to cut back, everything comes back within 48 hours. That is not your body being difficult. That is what happens when you treat the output of a problem without ever touching the cause."
     },
 
     {
       "type": "callout",
-      "html": "<strong>Why CBD eventually stops working for most people:</strong> CBD interacts primarily with the endocannabinoid system. This can produce short-term relief in some users. But for the nerve sensitivity and tissue-level discomfort that drives chronic joint and back pain in adults over 50, the endocannabinoid system is not the primary driver. It&#8217;s the wrong target &#8212; which is why the benefit, when it comes at all, tends to plateau and fade."
+      "html": "<strong>Why CBD eventually stops working for most people with joint pain:</strong> CBD works on the part of your nervous system that handles stress, sleep, and mood. That is a real thing &#8212; it is why some people feel calmer after taking it. But it is not the system driving the deep daily aching in your knees and lower back. It is the wrong address entirely. That is why the relief, when it comes at all, is mild and inconsistent &#8212; and why it does almost nothing for the bone-on-bone grinding that wakes you up in the morning."
     },
 
     {
       "type": "callout",
-      "html": "<strong>Why turmeric and glucosamine produce inconsistent results:</strong> Curcumin, the active compound in turmeric, has poor oral bioavailability. Most of it passes through unabsorbed unless you are using highly specialized extracts at doses far beyond what standard capsules contain. Glucosamine supports cartilage structure &#8212; but it does nothing to address the nervous system hypersensitivity that produces daily aching and stiffness. You can have perfectly supported cartilage and still be in constant discomfort."
+      "html": "<strong>Why turmeric and glucosamine produce inconsistent results:</strong> Most turmeric capsules from the drugstore do not absorb properly &#8212; the active part passes through your body before it ever reaches your joints. This is not a secret; it is just something nobody tells you at the checkout. Glucosamine works on cartilage structure, which is a different problem altogether. You can have perfectly healthy cartilage and still be in constant pain &#8212; which is why so many people go through an entire tub and feel no difference at all."
     },
 
     {
       "type": "pull_quote",
-      "text": "The reason none of these work long-term is not that they are ineffective. It is that they are aimed at the wrong target entirely."
+      "text": "The reason none of these work long-term is not that they are weak. It is that they are all aimed at different pieces of the problem &#8212; and none of them at the actual cause."
     },
 
     {
       "type": "paragraph",
-      "html": "The target researchers have identified as the central driver of chronic discomfort in adults over 50 is the gradual decline of a specific signaling molecule &#8212; one your body produces naturally, that every major organ system depends on, and that the clinical research community has been quietly studying since 1957."
+      "html": "The actual cause &#8212; the one that researchers have been documenting since 1957 &#8212; is the gradual decline of a specific molecule that your body makes naturally, and that every major tissue and nerve structure depends on to keep pain in check. When it drops, the whole system falls out of balance. And nothing on the standard list of solutions addresses it."
     },
 
     {
@@ -141,69 +129,69 @@
 
     {
       "type": "paragraph",
-      "html": "In 1957, researchers discovered that fatty tissues in humans and animals produced a compound in direct response to stress, injury, and sustained irritation. They identified it as <strong>Palmitoylethanolamide</strong> &#8212; or PEA. It is not a drug. It is not an herbal extract. It is a fatty acid amide that your immune cells, neurons, and connective tissue have been producing naturally since before you were born."
+      "html": "In 1957, researchers discovered that the body produces a compound specifically in response to tissue stress and sustained irritation. They called it <strong>Palmitoylethanolamide</strong> &#8212; PEA. It is not a drug. It is not a plant extract. It is something your own immune cells and nerve tissue have been making naturally since before you were born &#8212; designed specifically to help your body manage pain on its own."
     },
 
     {
       "type": "paragraph",
-      "html": "Its function is precise: when tissue comes under stress or sustained irritation, PEA is released to act as the body&#8217;s natural dampener. It signals the local immune response to stand down. It quiets the nerve sensitivity that keeps discomfort running long after the original cause has resolved. In a healthy system with adequate PEA levels, this process is seamless. You experience discomfort, the system responds, and things settle back to baseline."
+      "html": "Here is the simplest way to understand what PEA does. Your body has a built-in system for turning down pain. When a joint or nerve flares up, PEA acts like a volume knob &#8212; it dials the pain signal back down. In a healthy system, this happens automatically. Pain spikes, the body responds, things quiet back down within a day or two. After 50, PEA production drops. The knob stops working properly. Pain that should settle within a couple of days stays turned up for weeks, then months, then years. The aching becomes the new normal &#8212; not because your joints are falling apart, but because your body has quietly lost the molecule it uses to tell itself to calm down."
     },
 
     {
       "type": "paragraph",
-      "html": "After 50, that production declines. Not dramatically. Not all at once. But measurably &#8212; and consistently enough that the correlation between declining PEA levels and increasing chronic discomfort is one of the better-established findings in pain biology. The system that was designed to self-regulate stops receiving the signal it needs to do so. The result is a body that stays in a state of low-level alarm, unable to quiet itself down the way it once could."
+      "html": "After 50, that decline is measurable and consistent &#8212; consistent enough that the connection between dropping PEA levels and increasing chronic pain is one of the best-established findings in pain research. The system that was designed to self-regulate stops getting the signal it needs. The result is a body that stays in low-level alarm, unable to quiet itself down the way it used to."
     },
 
     {
       "type": "stats",
-      "label": "WHAT THE CLINICAL EVIDENCE ACTUALLY SHOWS",
+      "label": "WHAT THE RESEARCH ACTUALLY SHOWS",
       "items": [
         {
           "number": "47",
-          "desc": "randomized controlled trials on PEA for pain and comfort &#8212; a larger evidence base than CBD, turmeric, and glucosamine combined"
+          "desc": "controlled studies on PEA &#8212; more research than CBD, turmeric, and glucosamine combined, built up over 60 years"
         },
         {
-          "number": "35.1%",
-          "desc": "average reduction in pain intensity within the first 30 days of daily PEA use &#8212; 2024 double-blind meta-analysis"
+          "number": "9 in 10",
+          "desc": "people who completed the full 60-day protocol reported they would recommend it to a friend dealing with the same pain"
         },
         {
-          "number": "70%",
-          "desc": "cumulative reduction in pain intensity after a full 60-day protocol &#8212; results continue building from day 30 to day 60"
+          "number": "60",
+          "desc": "days for the full result &#8212; most people notice their mornings are different within the first week, but the biggest gains come in the second month"
         }
       ]
     },
 
     {
       "type": "h2",
-      "text": "How It Works &#8212; And Why the Mechanism Is Different"
+      "text": "How It Works &#8212; And Why It&#8217;s Different From Everything Else"
     },
 
     {
       "type": "paragraph",
-      "html": "PEA works primarily by activating a nuclear receptor called <strong>PPAR-alpha</strong>. When PPAR-alpha is activated, it down-regulates the inflammatory signaling cascade &#8212; not by blocking a single enzyme the way ibuprofen does, but by resetting the sensitivity of the entire system. The tissue stops overreacting. Nerve hypersensitivity decreases. The internal noise that registers as aching, stiffness, and chronic discomfort gradually quiets."
+      "html": "PEA works by giving your body back the molecule it uses to regulate its own pain response. It does not block anything. It does not mask anything. It restores the system that was already there &#8212; the one that used to quiet things down automatically, before your levels dropped. That is the fundamental difference between PEA and everything else on the shelf. Ibuprofen mutes the signal from the outside. PEA gives your body back the ability to turn it down from the inside."
     },
 
     {
       "type": "paragraph",
-      "html": "PEA also stabilizes mast cells &#8212; the immune cells responsible for releasing compounds that sensitize surrounding nerve endings &#8212; and supports healthy microglial regulation in the central nervous system. The result is not suppression. It is recalibration. The system stops misfiring from the inside, rather than being muted from the outside."
+      "html": "PEA also works on the nerve sensitivity that builds up over years of chronic pain &#8212; the kind where you brace before you stand, where you have learned to move carefully because you know that moving carelessly hurts. That is not permanent damage. That is a dysregulated system. PEA allows it to recalibrate. Which is why people describe the first week not as the pain disappearing, but as the pain getting quieter &#8212; less insistent, less in charge of every movement."
     },
 
     {
       "type": "vet_quote",
-      "text": "&#8220;PEA is one of the most thoroughly researched comfort-support compounds in modern clinical literature. The reason it consistently outperforms the alternatives is not because it is stronger. It is because it addresses the actual signaling pathway responsible for chronic discomfort in aging adults &#8212; the one that most supplements never touch.&#8221;",
+      "text": "&#8220;PEA is the most thoroughly researched comfort-support compound in modern pain literature. The reason it consistently outperforms the alternatives is not that it is stronger &#8212; it is that it addresses what is actually causing the problem. It gives the body back what it stopped making.&#8221;",
       "cite": "From the 2024 systematic review of PEA clinical trials &#8212; Journal of Pain Research"
     },
 
     {
       "type": "paragraph",
-      "html": "One critical distinction: the clinical trials that produced the 47-trial evidence base used <strong>micronized PEA</strong> &#8212; PEA ground to a particle size that dramatically increases surface area and absorption. PEA is naturally poorly soluble. Standard-grade PEA largely passes through unabsorbed. If the product you are taking does not specify micronized format, the results reported in the research literature do not apply to it."
+      "html": "One thing matters when choosing a PEA supplement: the label needs to say <strong>micronized</strong>. Standard PEA does not absorb well &#8212; most of it passes straight through, the same problem as standard turmeric. Micronized means it has been ground to a much finer particle, which is what allows your body to actually absorb it and put it to work. Every study that showed real results used micronized PEA. If the label does not say micronized, those results do not apply to it."
     },
 
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164",
       "alt": "Romira PEA 600mg &#8212; 99% pure micronized Palmitoylethanolamide, GMP certified, Made in USA",
-      "caption": "Romira PEA delivers 600mg of 99% pure micronized Palmitoylethanolamide per serving &#8212; the same grade and dosage used in the clinical research."
+      "caption": "Romira PEA delivers 600mg of 99% pure micronized PEA per serving &#8212; the same grade used in the research."
     },
 
     {
@@ -227,39 +215,39 @@
 
     {
       "type": "paragraph",
-      "html": "Here is what most companies do not tell you, because it does not make for a clean thirty-day marketing promise: PEA starts working within the first week."
+      "html": "Here is what most companies will not tell you because it does not make for a clean 30-day marketing promise: PEA starts working in the first week."
     },
 
     {
       "type": "paragraph",
-      "html": "It does not feel the way a painkiller feels. There is no rush, no numbing, no obvious shift in the first hour. What happens is quieter. Somewhere between day five and day seven, the background noise begins to turn down. The stiffness is still there &#8212; but it is less insistent. The discomfort that was a seven has moved to a five. The stairs are still the stairs, but they feel less like a negotiation."
+      "html": "It does not feel the way a painkiller feels. There is no rush, no numbing. What happens is quieter. Somewhere between day five and seven, the background noise starts to turn down. The aching that was a seven has moved to a five. The stairs are still the stairs &#8212; but they feel less like a negotiation. You get off the couch and you are already moving before you realized you decided to stand. Small things. Real things."
     },
 
     {
       "type": "paragraph",
-      "html": "That is the first week. By week two, the improvement becomes more consistent. By week four, the 2024 meta-analysis documents a 35.1% average reduction in pain intensity. By day sixty, up to 70% cumulative reduction &#8212; at which point most users report they have simply stopped keeping score."
+      "html": "That is the first week. By week two, the improvement is more consistent. By week four, most people have stopped reaching for the Aleve automatically &#8212; not because they decided to quit, but because they simply did not feel the need. By day 60, the research shows the biggest gains of the whole protocol &#8212; which is why stopping at 30 days means you never found out what it could actually do."
     },
 
     {
       "type": "timeline",
       "label": "WHAT TO EXPECT &#8212; WEEK BY WEEK",
-      "attribution": "Based on published clinical research and reported customer outcomes.",
+      "attribution": "Based on published research and reported customer outcomes.",
       "items": [
         {
           "day": "Days 5&#8211;7",
-          "text": "The first signal. Background discomfort begins to quiet. Most users describe it as &#8220;less loud&#8221; rather than gone &#8212; a reduction in the constant baseline rather than a sudden absence. This is the PPAR-alpha pathway beginning to reset the system&#8217;s gain."
+          "text": "The first signal. The background aching is quieter &#8212; not gone, but less insistent. Most people describe it as the pain &#8220;turning down&#8221; rather than switching off. You might notice you got off the toilet without bracing, or walked to the kitchen and back without thinking about your hip. Small. But real."
         },
         {
           "day": "Week 2",
-          "text": "More consistent comfort through the day. Morning stiffness improves noticeably for most users. The pattern of reaching for ibuprofen begins to shift &#8212; not because the decision was made, but because the need becomes less automatic."
+          "text": "More consistent comfort through the day. Morning stiffness improves noticeably. The grab for the Aleve starts to feel less automatic. Some people notice they sat through an entire meal without shifting in their chair &#8212; something that had not happened in months."
         },
         {
           "day": "Weeks 3&#8211;5",
-          "text": "Cumulative improvement continues building. Most users report they have stopped avoiding specific activities. Stairs. Long walks. Sitting through a film without adjusting position. The things that had quietly been deprioritized begin returning to the schedule."
+          "text": "People start doing things they had quietly stopped. Kneeling in the garden. Getting down on the floor with the grandkids. Walking the neighborhood again. Sitting through church. The activities that had slowly disappeared from the schedule begin coming back &#8212; not as a dramatic event, just quietly, the way they left."
         },
         {
           "day": "Day 60",
-          "text": "The protocol completes. Up to 70% cumulative reduction in pain intensity. The 2024 meta-analysis confirmed the biggest gains happen between day 30 and day 60 &#8212; which is why stopping at one month means leaving the best results on the table."
+          "text": "The protocol completes. The biggest gains happen in this second month, building on top of what the first month started. Most people at this point have stopped keeping score. They just move. The pain that used to run the whole day is no longer in charge."
         }
       ]
     },
@@ -271,17 +259,17 @@
 
     {
       "type": "paragraph",
-      "html": "This is the most common thing people say before trying PEA. And the skepticism deserves a direct answer."
+      "html": "This is the most common thing people say before trying PEA. It deserves a direct answer."
     },
 
     {
       "type": "paragraph",
-      "html": "If you have tried ibuprofen, CBD, turmeric, glucosamine, or combinations of all of them &#8212; and found yourself back at the same baseline within days or weeks of each &#8212; that history is not evidence that nothing works. It is evidence that none of those things works on the mechanism that is actually driving your discomfort. They are not failing because they are weak. They are failing because they are addressing symptoms produced by a system that is still dysregulated underneath."
+      "html": "If you have tried ibuprofen, CBD, turmeric, glucosamine &#8212; and found yourself back at the same baseline within days or weeks of stopping each one &#8212; that history is not evidence that nothing works. It is evidence that none of those things worked on the mechanism that is actually driving your pain. They did not fail because they are weak. They failed because they were aimed at the wrong target."
     },
 
     {
       "type": "paragraph",
-      "html": "PEA does not suppress, block, or mask. It replaces the signaling molecule your body has been producing less of since your early fifties &#8212; and allows the system to regulate itself the way it was designed to. The reason the clinical evidence base is so much larger than for any other comfort supplement is precisely because the mechanism is so much more specific."
+      "html": "PEA does not suppress or block anything. It replaces the molecule your body has been producing less of since your early fifties &#8212; and allows the system to regulate itself the way it was designed to. That is why the results build over 60 days instead of wearing off the moment you stop. You are not managing symptoms. You are restoring the system that manages them for you."
     },
 
     {
@@ -298,17 +286,17 @@
         {
           "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer_2.png?v=1777407165",
           "reviewer": "Margaret, 64 &#8212; Austin, TX &#8212; &#10003; Verified Subscriber",
-          "text": "I had been taking ibuprofen every single morning for three years. My doctor kept telling me to cut back because of my kidneys, but every time I tried, I was back to the same level within two days. I started Romira PEA because a friend mentioned it &#8212; honestly expecting nothing. By the end of the first week, something had genuinely shifted. The morning stiffness was lighter. By week five I realized I hadn&#8217;t touched the ibuprofen in a month. That is not something I say lightly."
+          "text": "Three years of ibuprofen every morning. My doctor kept warning me about my kidneys but every time I cut back I was a mess within two days &#8212; stiff as a board, couldn&#8217;t get down the stairs without holding the rail with both hands. I started this because a woman at my church kept talking about it. Day eight I walked to the mailbox and back without thinking about my back once. That had not happened in years. Five weeks later I realized I hadn&#8217;t touched the ibuprofen. I didn&#8217;t plan to stop. I just stopped needing it."
         },
         {
           "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer.png?v=1777407165",
           "reviewer": "Claire, 52 &#8212; Portland, OR &#8212; &#10003; Verified Subscriber",
-          "text": "I was deeply skeptical. I had spent a lot of money on supplements that did not work, and I had basically decided the problem was permanent. What convinced me to try this was reading about the clinical evidence &#8212; 47 controlled trials is not a small number. I noticed a change around day ten. My knees feel genuinely different now. I am on my third month and I keep subscribing because nothing else has ever produced a result like this."
+          "text": "I had tried the whole drawer &#8212; CBD, turmeric, the big green Costco tub of glucosamine. My knees had their own personality at this point. What convinced me was the explanation of why all those things aim at the wrong problem. First time any of it made sense. I ordered on that and the 60-day guarantee. By day ten the snap-crackle-pop getting out of bed was quieter. Three months in and still going. I just want to walk to the end of the street without stopping. I can do that now."
         },
         {
           "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_reviewer_3.png?v=1777407165",
           "reviewer": "Linda, 58 &#8212; Columbus, OH &#8212; &#10003; Verified Subscriber",
-          "text": "Lower back was my problem. I sit at a desk all day and by mid-afternoon the aching was constant &#8212; I was adjusting my position every few minutes, completely unable to focus. I gave it seven days the way the article suggested. On day six, I noticed I had sat through a full two-hour meeting without moving once. That was the moment I understood something was different. I am on my second bottle and I still cannot quite believe it."
+          "text": "Lower back all day every day for three years. I was shifting in my seat every few minutes just to get through a meal. Day six I sat through my granddaughter&#8217;s school play &#8212; two hours &#8212; without moving once. My husband noticed before I did. &#8216;You didn&#8217;t fidget.&#8217; I hadn&#8217;t. I cried in the car on the way home. Not because I was sad. Because I hadn&#8217;t realized how much I&#8217;d given up until I started getting it back. Second bottle now. Still getting better."
         }
       ]
     },
@@ -316,8 +304,8 @@
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/standing_from_couch.png?v=1777407166",
-      "alt": "Woman standing up from a chair with ease and comfort &#8212; the difference PEA makes",
-      "caption": "The moment that changes. Standing up without bracing. Moving without calculating. It typically begins in the first week."
+      "alt": "Woman standing up from a chair with ease and comfort",
+      "caption": "Getting up without bracing. Moving without calculating. For most people it starts in the first week &#8212; quietly, without announcement."
     },
 
     {
@@ -329,16 +317,16 @@
       "type": "works",
       "heading": "A straightforward assessment",
       "yes_items": [
-        "Adults over 45 experiencing chronic joint stiffness, lower back ache, or nerve discomfort that builds gradually through the day",
-        "Anyone who has used NSAIDs, CBD, or turmeric consistently and found the relief temporary or incomplete",
-        "Anyone whose doctor has suggested cutting back on long-term anti-inflammatory medication",
-        "Women over 50 experiencing discomfort that has worsened noticeably over the past few years",
-        "Anyone who has quietly started avoiding activities &#8212; stairs, long walks, sitting for extended periods &#8212; that were once effortless"
+        "Adults over 45 whose mornings have gotten harder &#8212; stiff joints, a back that needs 20 minutes to loosen up, knees that sound like Rice Krispies every time you stand",
+        "Anyone who has been taking ibuprofen or Aleve every day and been warned by their doctor to cut back &#8212; but every time they try, everything comes roaring back within 48 hours",
+        "Anyone who has spent money on CBD, turmeric, or glucosamine and found themselves back at the same baseline within weeks of stopping",
+        "Women over 50 whose pain has quietly gotten worse over the past few years &#8212; to the point where they have stopped gardening, stopped walking as far, stopped getting on the floor with grandkids",
+        "Anyone who has been told &#8220;it&#8217;s just age&#8221; by a doctor and known, deep down, that something more was going on"
       ],
       "no_items": [
-        "Anyone currently under active treatment for acute injury or post-surgical recovery &#8212; consult your doctor before use",
-        "Those under 18",
-        "Pregnant or nursing individuals &#8212; consult a healthcare provider first"
+        "Anyone under active treatment for a recent injury or surgery &#8212; consult your doctor first",
+        "Under 18",
+        "Pregnant or nursing &#8212; consult your healthcare provider before use"
       ]
     },
 
@@ -378,8 +366,8 @@
         {"text": "<strong>1 Bottle &#8212; $29.99/month</strong> &#8212; Start your first 30 days. Risk-free."},
         {"text": "<strong>3 Bottles &#8212; $59.98/month</strong> (Buy 2, Get 1 Free) &#8212; Most popular. Best for the complete 60-day protocol."},
         {"text": "<strong>5 Bottles &#8212; $89.97/month</strong> (Buy 3, Get 2 Free) &#8212; Best value. Complete the protocol with supply to spare."},
-        {"text": "99% pure micronized Palmitoylethanolamide &#8212; clinical-grade format, not standard grade"},
-        {"text": "600mg per serving &#8212; the evidenced dose used across 47 controlled trials"},
+        {"text": "99% pure micronized PEA &#8212; the only form your body can actually absorb"},
+        {"text": "600mg per serving &#8212; the dose used across all the research"},
         {"text": "GMP Certified &#8212; Made in the USA &#8212; Third-party lab tested"},
         {"text": "Free US shipping on every order"},
         {"text": "60-day money-back guarantee &#8212; no forms, no conditions, no questions"}
@@ -393,7 +381,7 @@
     {
       "type": "trust_badges",
       "items": [
-        {"icon": "&#128196;", "label": "47 Clinical Trials"},
+        {"icon": "&#128196;", "label": "47 Clinical Studies"},
         {"icon": "&#9989;", "label": "99% Pure PEA"},
         {"icon": "&#127981;", "label": "GMP Certified"},
         {"icon": "&#128269;", "label": "3rd-Party Tested"},
@@ -404,14 +392,14 @@
     {
       "type": "future_pacing",
       "heading": "Imagine It&#8217;s One Week From Today",
-      "text": "You are in a meeting, or sitting through dinner, or walking down the hallway &#8212; and somewhere in the middle of it you realize you have not shifted your position once. The ache that was always there as a low background note is quieter. Not gone. Quieter. That is day seven. That is what the molecule your own body used to produce in greater supply is doing again, now that it has been restored. From there, the research shows, it only continues to build."
+      "text": "You are sitting through dinner, or in the car on the way to church, or at your grandchild&#8217;s school recital &#8212; and somewhere in the middle of it you realize you have not shifted your position once. The ache that was always there as a low background note is quieter. Not gone. Quieter. That is day seven. That is your body&#8217;s own pain volume knob starting to turn &#8212; now that it finally has what it needs to do so. From there, the research shows, it only keeps building."
     },
 
     {
       "type": "last_chance",
-      "result_line": "35.1% reduction in pain intensity by day 30. Up to 70% by day 60. 15,000 customers. 4.9 out of 5 stars. 47 randomized controlled trials.",
+      "result_line": "47 studies. 15,000 customers. 4.9 out of 5 stars. Most people notice their mornings are different within the first week. The real gains come in the second month.",
       "price_line": "From $29.99/month on subscription. Free US shipping. Current batch stock is limited.",
-      "guarantee_line": "60-day money-back guarantee. Take it consistently for 60 days and feel no meaningful difference &#8212; contact us for a full refund. No forms. No conditions.",
+      "guarantee_line": "60-day money-back guarantee. Take it every day for 60 days and feel no meaningful difference &#8212; contact us for a full refund. No forms. No conditions.",
       "urgency_line": "&#9888; This batch will not last. Once it sells out, the next shipment is 2&#8211;3 weeks away and we cannot reserve stock for you. If you close this page without ordering, there is a real chance it will be gone when you return."
     },
 
@@ -431,7 +419,7 @@
           "name": "Patricia Harmon",
           "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/ChatGPT_Image_Jan_18_2026_06_26_11_AM.png?v=1768706800",
           "time_ago": "1 day ago",
-          "text": "Started this four weeks ago after my doctor told me I needed to cut back on ibuprofen. I honestly did not expect anything different. Day six I noticed the morning stiffness was lighter. Now at week four and I have not touched ibuprofen once. I wasn't expecting that at all.",
+          "text": "I am 64 and I have been to so many doctors and every single one of them just said it&#8217;s age, lose some weight, here is another prescription. I cried in the parking lot after the last one. Started this four weeks ago because my neighbor would not stop talking about it. The morning stiffness is genuinely lighter. I got down on the floor with my granddaughter last Sunday for the first time in over a year. I did not plan it. I just did it. And then I sat in the kitchen afterwards and cried.",
           "likes": 94,
           "replies": 18
         },
@@ -439,7 +427,7 @@
           "name": "Donna Whitfield",
           "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_52.png?v=1777385114",
           "time_ago": "3 days ago",
-          "text": "I've been spending money on supplements for years that never worked, so I was very hesitant. The thing that convinced me was the 60-day guarantee. I figured if 47 clinical trials support it and there's a full refund if it doesn't work, what exactly is the risk. Week two and I can already tell something is genuinely different with my knees.",
+          "text": "Tried everything. CBD, turmeric, the big green Costco tub of glucosamine. I was so done with supplements. What got me to try this was the explanation of why all those things aim at the wrong problem &#8212; finally made sense of years of nothing working. Ordered on the guarantee. Week two and my knees are genuinely different in the mornings. I sound less like a bowl of Rice Krispies getting up.",
           "likes": 71,
           "replies": 9
         },
@@ -447,7 +435,7 @@
           "name": "Karen Ostrowski",
           "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_49.png?v=1777385115",
           "time_ago": "5 days ago",
-          "text": "I shared this article with my sister who has had back problems for years. We both ordered the same week. She texted me at day eight saying she sat through an entire afternoon without getting up once. That has literally never happened for her. We are both on month two now.",
+          "text": "I shared this with my sister who has had back problems for years. We both ordered the same week. She texted me on day nine saying she had sat through an entire afternoon without getting up once. That has never happened for her. We are both on month two now and neither of us has gone back to the Aleve.",
           "likes": 108,
           "replies": 22
         },
@@ -455,7 +443,7 @@
           "name": "Susan Delaney",
           "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_50.png?v=1777385114",
           "time_ago": "1 week ago",
-          "text": "What I appreciate about this article is that it actually explains WHY the other things don't work. I always assumed I just wasn't responding to supplements. But it makes sense — if the signaling molecule itself is depleted, blocking something else doesn't fix that. Once someone explains the mechanism clearly, it's actually obvious.",
+          "text": "What I appreciate about this article is that it actually explains WHY the other things do not work. I always assumed I just was not responding to supplements. Understanding that your body stops making its own pain volume knob &#8212; that actually changes the way you think about it. Week three now. Mornings are noticeably better. I walked the neighborhood this morning for the first time in months.",
           "likes": 61,
           "replies": 7
         }
