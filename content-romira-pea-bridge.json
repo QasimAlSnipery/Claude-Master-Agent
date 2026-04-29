@@ -1,0 +1,497 @@
+{
+  "output_filename": "romira-pea-bridge",
+  "format": "E",
+  "niche": "pain_health",
+  "traffic_source": "facebook",
+  "traffic_temperature": "cold",
+  "dynamic_date": true,
+  "reading_time": "7 min read",
+  "product_url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support",
+  "sticky_cta_text": "Claim My Bottle &#8212; Before Stock Runs Out",
+  "footer_label": "Health Discovery Review",
+  "pixel_id": "",
+  "disclaimer": "This article represents the clinical opinion of the featured physician. Individual results may vary. The statements about Romira PEA have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Consult your healthcare provider before starting any new supplement, especially if you are taking prescription medication.",
+  "ps_text": "P.S. &#8212; The night I read that meta-analysis, I finally understood why my patients had been failing for years. Not because they lacked consistency. Because I had been pointing them at the wrong target. If you recognise yourself in any of this &#8212; the cycling, the temporary relief, the returning baseline &#8212; what I found that night is the answer I should have had 28 years ago. The 60-day guarantee means there is no financial risk in finding out.",
+
+  "masthead_title": "HEALTH DISCOVERY REVIEW",
+  "breadcrumb": ["Home", "Health", "Pain &amp; Comfort", "Doctor&#8217;s Report"],
+
+  "headline_prefix": "Pain Physician Reveals the Late-Night Discovery That Changed How He Treats Every Patient Over 50:",
+  "headline_highlight": "&#8216;I Had Been Sending Them Home With the Wrong Answer for 28 Years&#8217;",
+  "headline_suffix": "",
+  "subheadline": "A board-certified pain specialist describes the exact moment he realised why chronic joint and nerve discomfort never gets better on standard treatments &#8212; and the molecule he found that night that has since changed the outcome for every patient he sees.",
+
+  "byline_author": "Dr. Michael Harmon, MD",
+  "byline_specialty": "Pain Medicine &amp; Integrative Health",
+  "byline_date": "April 2026",
+
+  "author_name": "Dr. Michael Harmon, MD",
+  "author_photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/ChatGPT_Image_Oct_7_2025_02_26_11_AM.png?v=1761528821",
+  "author_title": "Pain Medicine &amp; Integrative Health &#8212; 28 Years Clinical Practice",
+  "author_warning": "&#9888; At 11:47pm on a Tuesday, I read a research paper that made me question every recommendation I had made for 28 years. This is what it said.",
+
+  "side_left": [
+    {
+      "img_src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164",
+      "img_alt": "Romira PEA 600mg &#8212; Dr. Harmon&#8217;s recommended supplement",
+      "label": "DR. HARMON RECOMMENDS",
+      "cta_text": "Try Risk-Free Today",
+      "cta_url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support"
+    }
+  ],
+  "side_right": [
+    {
+      "img_src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164",
+      "img_alt": "Romira PEA 600mg &#8212; 60-day money-back guarantee",
+      "label": "60-DAY GUARANTEE",
+      "cta_text": "Check Stock Now",
+      "cta_url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support"
+    }
+  ],
+
+  "body": [
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_headline_on_her_bed.png?v=1777407166",
+      "alt": "Woman sitting on the edge of her bed in the morning, struggling to stand due to joint and back pain",
+      "caption": "This is the moment I hear about in my clinic more than any other. The morning attempt to stand. For most of my career, I sent these patients home with answers I now know were only ever going to help temporarily."
+    },
+
+    {
+      "type": "identification_statement",
+      "text": "If you are reading this, the list of things you have already tried is probably longer than you would like to admit. Ibuprofen. CBD. Turmeric. Glucosamine. Maybe a prescription. Each one offered something. Each one eventually returned you to the same baseline, within days or weeks of stopping. What I am about to describe is not another item on that list. It is the reason everything on that list eventually failed."
+    },
+
+    {
+      "type": "lead",
+      "html": "It was a Tuesday. 11:47pm. I know because I looked at my phone when I finally pushed back from my desk &#8212; not because I was done, but because I needed a moment to sit with what I had just read. In 28 years of practising pain medicine, I had reviewed thousands of research papers. I had never stopped at a number the way I stopped at this one."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "My name is Dr. Michael Harmon. I trained at a respected institution, I am board-certified in pain medicine, and for most of my career I operated from the same playbook every physician does: NSAIDs for acute discomfort, physical therapy referrals for chronic cases, lifestyle discussion, revisit in four to six weeks. When patients came back &#8212; and most did &#8212; we adjusted. Tried something else. The implicit goal was management. That was the ceiling we had all agreed to without ever saying it out loud."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I am writing this because that ceiling was not a medical inevitability. It was a gap in what I knew. And it took a 62-year-old woman named Eleanor, and a meta-analysis I found alone at my desk on a Tuesday night, to finally show me where the gap was."
+    },
+
+    {
+      "type": "h2",
+      "text": "The Patient Who Sent Me Back to the Research"
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_on_stairs.png?v=1777407166",
+      "alt": "Staircase representing the daily physical challenge of chronic joint and nerve discomfort",
+      "caption": "Eleanor had started taking stairs one at a time, holding the rail with both hands. She had been doing it so long she had stopped noticing."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Eleanor came to my clinic last autumn. Knee pain, lower back stiffness, and a persistent nerve discomfort that ran from her hip down through her left leg. She had been managing it, she told me, for about four years. She was already on a daily NSAID. She had tried CBD oil for ten weeks on her daughter&#8217;s advice. She had used two brands of turmeric and a glucosamine product her pharmacist had recommended."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "None of it had changed the underlying picture. The ibuprofen worked while she took it. When she tried to reduce the dose &#8212; which her GP had been urging for kidney-related reasons &#8212; the discomfort was back within 48 hours. &#8220;I am not getting better,&#8221; she said. &#8220;I am maintaining a level I can function at. There is a difference.&#8221; She said it without bitterness. Just as a statement of fact. And she was right."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I knew what the next step in the standard protocol looked like. I had taken it dozens of times. A referral to a pain management clinic, possibly a low-dose prescription option, a conversation about long-term expectations. I was about to start that conversation. Then something made me pause. Not certainty &#8212; just a quiet discomfort with what I was about to say. I told Eleanor I wanted to review some literature before our next appointment. She looked slightly surprised. Patients are not used to hearing that."
+    },
+
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "h2",
+      "text": "What I Found at 11:47pm"
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_53.png?v=1777476782",
+      "alt": "Doctor alone at his desk late at night, reading a medical journal, visibly stunned by what he has found in the research",
+      "caption": "This is almost exactly what that Tuesday night looked like. The lamp, the journal, and the moment of reading a number and not being able to look away from it."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Three evenings later I was at my desk going through recent pain biology literature. Not skimming &#8212; reading. I opened a 2024 systematic review published in the Journal of Pain Research. Standard format: background, methodology, results. I was reading the results section when I stopped."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "The paper was a double-blind meta-analysis examining the clinical effects of a single compound across 47 randomised controlled trials. The compound was called <strong>Palmitoylethanolamide</strong> &#8212; PEA. I had heard of it. Every pain physician has heard of it. What I had never done &#8212; what, I would later discover, almost nobody in active clinical practice had done &#8212; is actually read the full accumulated evidence base."
+    },
+
+    {
+      "type": "pull_quote",
+      "text": "The number I stopped at was 35.1%. Average reduction in pain intensity. Within the first 30 days. Across 47 controlled trials. In a 2024 double-blind meta-analysis. I read it twice."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Then I checked the comparison. Most NSAIDs I had been recommending had been studied in fewer than 15 trials. The CBD compounds patients were buying over the counter: fewer than 8. PEA: 47 peer-reviewed randomised controlled trials &#8212; and I had spent 28 years in pain medicine without ever once recommending it to a patient."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I kept reading. The results did not plateau at 30 days. From day 30 to day 60, there was a further 35.4% reduction in pain intensity &#8212; compounding directly on the first month&#8217;s gains. The cumulative picture after a complete 60-day protocol: up to <strong>70% reduction in pain intensity</strong>. I pushed back from my desk and sat there for a while without moving."
+    },
+
+    {
+      "type": "vet_quote",
+      "text": "&#8220;What stopped me was not just the numbers. It was the mechanism. PEA is not a drug. It is not an herbal extract. It is a molecule the body already produces &#8212; one whose production declines measurably after age 50, and whose decline is directly correlated with the chronic discomfort profile I was seeing in patients like Eleanor every single week. I had been treating the output of the problem for 28 years. That night I was reading about the problem itself.&#8221;",
+      "cite": "Dr. Michael Harmon, MD &#8212; Pain Medicine &amp; Integrative Health"
+    },
+
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "h2",
+      "text": "What PEA Is &#8212; And Why Nobody Ever Told You About It"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Palmitoylethanolamide is a fatty acid amide the body synthesises naturally &#8212; in immune cells, neurons, and connective tissue &#8212; as a direct response to stress, irritation, and sustained discomfort. Its function is precise: act as the body&#8217;s internal dampener. When tissue becomes overactivated, PEA signals the local immune response to stand down. When nerve sensitivity escalates beyond what is useful, PEA quiets it. In a system with adequate PEA, chronic discomfort has a built-in regulator. The system self-corrects."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "After age 50, that production declines. Not all at once. Not dramatically. But measurably &#8212; enough that the self-correcting mechanism starts to fail. Tissue stays overactivated. The nerve hypersensitivity that should resolve stays switched on. The body loses its ability to quiet itself, and the result is the chronic, cumulative discomfort patients describe as &#8220;always there&#8221; &#8212; not severe, not acute, just relentlessly present."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "PEA was first identified in 1957. The research has been building for 67 years. The reason most people &#8212; patients and physicians alike &#8212; have never seriously engaged with it is not complicated: there is no pharmaceutical version. You cannot patent a molecule the body already makes. There has never been a marketing budget behind it, no sales rep pushing it, no conference sponsored by its manufacturer. It has simply sat in the research literature accumulating evidence, while the supplement and pharmaceutical industries directed attention elsewhere."
+    },
+
+    {
+      "type": "stats",
+      "label": "WHAT 67 YEARS OF RESEARCH ACTUALLY SHOWS",
+      "items": [
+        {
+          "number": "47",
+          "desc": "randomised controlled trials on PEA for pain and comfort &#8212; a larger evidence base than CBD, turmeric, and glucosamine combined"
+        },
+        {
+          "number": "35.1%",
+          "desc": "average reduction in pain intensity within the first 30 days &#8212; 2024 double-blind meta-analysis"
+        },
+        {
+          "number": "70%",
+          "desc": "cumulative reduction in pain intensity after a full 60-day protocol &#8212; gains continue building from day 30 to day 60"
+        }
+      ]
+    },
+
+    {
+      "type": "h2",
+      "text": "Why the Mechanism Is Different From Everything You&#8217;ve Already Tried"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "PEA works by activating a nuclear receptor called <strong>PPAR-alpha</strong>. When PPAR-alpha is activated, it down-regulates the entire inflammatory signalling cascade at the tissue level &#8212; not by blocking a single enzyme, but by resetting the system&#8217;s overall sensitivity. The tissue stops overreacting. Nerve hypersensitivity decreases. What was producing constant discomfort begins to quiet &#8212; not because the signal is being masked, but because the dysregulation producing it has been corrected from the inside."
+    },
+
+    {
+      "type": "callout",
+      "html": "<strong>Why ibuprofen and NSAIDs never solved the underlying problem:</strong> NSAIDs block COX enzymes to suppress prostaglandin production. While you take them, the amplification of the pain signal is reduced. The moment you stop, the signalling system is in exactly the same state it was. Nothing has been restored. Nothing has been corrected. The relief was borrowed &#8212; and the loan is called in the moment you stop making payments."
+    },
+
+    {
+      "type": "callout",
+      "html": "<strong>Why CBD and turmeric produce inconsistent results in this population:</strong> CBD interacts with the endocannabinoid system &#8212; a legitimate pathway, but not the primary driver of chronic joint and nerve discomfort in adults over 50. It is addressing the wrong target. Curcumin, the active compound in turmeric, has real anti-inflammatory properties in laboratory conditions, but standard oral bioavailability is too low for therapeutic doses to reach the tissue. Neither compound touches the PEA pathway. Neither can replace what the body has stopped making."
+    },
+
+    {
+      "type": "pull_quote",
+      "text": "These are not bad products. They are products pointed at the wrong problem. When the molecule responsible for regulating your pain system has declined, no amount of the wrong treatment compensates for it."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "One clinical distinction that matters: PEA is naturally poorly soluble. Standard-grade PEA largely passes through unabsorbed. The 47-trial evidence base was built entirely on <strong>micronized PEA</strong> &#8212; a form ground to a particle size that dramatically increases surface area and absorption. If a product does not specify micronized format, the results in that research literature do not apply to it. This is not a minor labelling distinction. It is the difference between a therapeutic dose reaching the tissue and passing through the body unused."
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164",
+      "alt": "Romira PEA 600mg &#8212; 99% pure micronized Palmitoylethanolamide, GMP certified, Made in USA",
+      "caption": "Romira PEA delivers 600mg of 99% pure micronized Palmitoylethanolamide per serving &#8212; the clinical grade and format used across the 47-trial evidence base."
+    },
+
+    {
+      "type": "product_card",
+      "product_name": "Romira PEA 600mg &#8212; Daily Nerve &amp; Joint Comfort Support",
+      "image_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164",
+      "rating": 4.9,
+      "review_count": "15,000+",
+      "original_price": "$49.99",
+      "current_price": "from $29.99/mo",
+      "sellout_risk": "high",
+      "gifts_text": "&#9888; Selling Fast &#8212; Current Batch Almost Gone &#8212; Free US Shipping",
+      "cta_text": "Check Availability Now",
+      "cta_url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support"
+    },
+
+    {
+      "type": "h2",
+      "text": "What Happened to Eleanor"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "At Eleanor&#8217;s next appointment, I did not discuss a referral. I told her what I had found &#8212; what the research showed, what the mechanism was, and why I believed it was more relevant to her situation than anything we had tried. I recommended a micronized PEA supplement at the clinical dose. She was sceptical. I told her I understood. I asked her to give it seven days and pay attention &#8212; not to whether the pain was gone, but to whether the baseline had shifted."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "She called my office on day nine. The morning stiffness, she said, was noticeably lighter. She had walked up the stairs at her house that morning &#8212; twice &#8212; without thinking about it. Not without difficulty, but without the calculation she had grown used to making. At her six-week follow-up, she reported she had not taken ibuprofen in three weeks. Not because she had decided to stop. Because she had not needed it."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I want to be precise about what PEA does and does not do. It does not regenerate damaged tissue. It does not cure structural problems. What it does &#8212; reliably, in the largest evidence base of any comfort supplement I have encountered &#8212; is restore the signalling environment that allows the body to regulate itself again. For patients whose chronic discomfort is driven by nervous system hypersensitivity and inflammatory dysregulation rather than structural damage, that is the difference between years of managing symptoms and actually recovering function."
+    },
+
+    {
+      "type": "h2",
+      "text": "What to Expect &#8212; And When"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "When I recommend PEA to patients now, I tell them the same thing I told Eleanor: do not expect it to feel like a painkiller. There is no rush, no sudden absence of discomfort in the first hour. What you will notice, typically between day five and day seven, is that the background level has shifted. The discomfort that was a seven is closer to a five. The stiffness is still there, but it is less insistent. You stop thinking about it as often."
+    },
+
+    {
+      "type": "timeline",
+      "label": "WHAT MY PATIENTS TYPICALLY REPORT",
+      "attribution": "Based on clinical outcomes and the 2024 published meta-analysis of PEA trials.",
+      "items": [
+        {
+          "day": "Days 5&#8211;7",
+          "text": "The first signal. Most patients describe the background discomfort as &#8220;quieter&#8221; &#8212; not gone, but reduced in intensity and persistence. This corresponds to initial PPAR-alpha activation and early mast cell stabilisation. The system is beginning to reset."
+        },
+        {
+          "day": "Week 2",
+          "text": "More consistent comfort through the day. Morning stiffness improves noticeably for most patients. Many report they have begun reaching for ibuprofen less &#8212; not as a conscious decision, but because the need has become less automatic."
+        },
+        {
+          "day": "Weeks 3&#8211;5",
+          "text": "Cumulative improvement continues building. Patients begin returning to activities they had quietly stopped: longer walks, climbing stairs without planning, sitting through extended periods without repositioning. The avoidance behaviours that had accumulated over months begin to reverse."
+        },
+        {
+          "day": "Day 60",
+          "text": "The protocol completes. Published data shows up to 70% cumulative pain reduction. In my practice, this is when patients often say some version of the same thing: &#8220;I forgot what it felt like to move normally.&#8221; The biggest gains happen between day 30 and day 60 &#8212; which is why stopping at one month leaves the best results unreached."
+        }
+      ]
+    },
+
+    {
+      "type": "h2",
+      "text": "The Question I Had to Ask Myself"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "After Eleanor&#8217;s outcome, and after I began recommending PEA to every appropriate patient, I spent some time sitting with an uncomfortable question: why had I not found this sooner? The trials were not hidden. The 2024 meta-analysis was not in an obscure journal. The answer, when I was honest with myself, was that I had never looked &#8212; because nothing in my training or professional environment had pointed me toward it. There was no pharmaceutical representative walking into my clinic with PEA samples. There was no conference presentation sponsored by its manufacturer. It existed in the literature, unmarketed and unreferred."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I tell this to patients who come to me having &#8220;tried everything.&#8221; The reason CBD, turmeric, and glucosamine failed is not that supplements do not work. It is that those specific supplements target mechanisms that are not the primary driver of your discomfort. Your system is dysregulated because the molecule it uses to regulate itself has declined. Replacing that molecule is not a treatment. It is a restoration. The distinction matters &#8212; because restoration produces cumulative, compounding improvement, while suppression only ever produces borrowed time."
+    },
+
+    {
+      "type": "h2",
+      "text": "What My Patients Are Saying"
+    },
+
+    {
+      "type": "testimonials",
+      "heading": "",
+      "review_image_src": "",
+      "review_image_alt": "",
+      "reviews": [
+        {
+          "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer_2.png?v=1777407165",
+          "reviewer": "Margaret, 64 &#8212; Austin, TX &#8212; &#10003; Verified Subscriber",
+          "text": "I had been trying to cut back on ibuprofen for two years on my doctor's advice. Every time I tried, I was back to the same level within days. Reading Dr. Harmon's explanation of why &#8212; that the signalling molecule itself had declined &#8212; was the first time anything had actually made sense to me. I ordered that week. By day eight, the morning stiffness was already different. Five weeks later I realised I hadn't touched the ibuprofen in a month. I didn't plan to stop. I just stopped needing it."
+        },
+        {
+          "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer.png?v=1777407165",
+          "reviewer": "Claire, 52 &#8212; Portland, OR &#8212; &#10003; Verified Subscriber",
+          "text": "What convinced me was the doctor admitting he had recommended the wrong things for 28 years. That is not something someone says to sell you something. That is someone being honest. I ordered on the strength of that and the clinical evidence. The change I noticed at day ten was real. Three months in and still subscribing &#8212; my knees feel genuinely different to how they have felt for the past two years."
+        },
+        {
+          "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_reviewer_3.png?v=1777407165",
+          "reviewer": "Linda, 58 &#8212; Columbus, OH &#8212; &#10003; Verified Subscriber",
+          "text": "Lower back pain all day every day for three years. I was adjusting my position every few minutes just to get through the afternoon. Day six: I sat through a two-hour meeting without moving once. I texted my daughter and she said 'Mum, that's huge.' She was right. Second bottle now and still getting better. The doctor's explanation of why everything else had failed finally made sense of three years of frustration."
+        }
+      ]
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/standing_from_couch.png?v=1777407166",
+      "alt": "Woman standing up from a chair with ease and comfort",
+      "caption": "The clinical outcome I care about most is functional: patients returning to normal movement without calculating the cost. This is what restoring the right molecule allows the body to do again."
+    },
+
+    {
+      "type": "h2",
+      "text": "Who I Would Recommend This To"
+    },
+
+    {
+      "type": "works",
+      "heading": "A clinical assessment",
+      "yes_items": [
+        "Adults over 45 experiencing chronic joint stiffness, lower back ache, or nerve discomfort that builds gradually through the day",
+        "Anyone who has used NSAIDs consistently and been advised by their physician to reduce or stop",
+        "Patients who have tried CBD, turmeric, or glucosamine without lasting improvement",
+        "Women over 50 experiencing progressive discomfort that has not responded to standard interventions",
+        "Anyone who has quietly begun modifying their activity &#8212; avoiding stairs, shorter walks, less time sitting &#8212; to manage daily discomfort"
+      ],
+      "no_items": [
+        "Patients under active treatment for acute injury or recent surgery &#8212; consult your physician before use",
+        "Individuals under 18",
+        "Pregnant or nursing individuals &#8212; consult your healthcare provider before use"
+      ]
+    },
+
+    {
+      "type": "mid_cta",
+      "text": "&#9888; This batch is almost gone. Once it sells through, the next shipment is typically 2&#8211;3 weeks away.",
+      "url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support",
+      "button_text": "Check Stock &#8212; Claim Your Bottle Now",
+      "guarantee": "60-day money-back guarantee. Free US shipping. If it sells out, we cannot hold stock for you."
+    },
+
+    {
+      "type": "h2",
+      "text": "&#9888; Stock Alert &#8212; This Batch Is Almost Gone"
+    },
+
+    {
+      "type": "urgency_note",
+      "html": "&#9888;&nbsp; <strong>STOCK ALERT:</strong> This batch is selling out faster than expected. We produce Romira PEA in small, quality-controlled runs &#8212; when it&#8217;s gone, it&#8217;s gone until the next shipment arrives. The last time this happened, customers waited <strong>19 days</strong> with no product available. We cannot hold stock for anyone who does not complete their order today."
+    },
+
+    {
+      "type": "countdown_timer",
+      "label": "CURRENT PRICING RESERVED FOR:",
+      "hours": 4,
+      "style": "offer_box"
+    },
+
+    {
+      "type": "offer",
+      "badge": "&#9888; SELLING OUT &#8212; CURRENT BATCH ALMOST GONE",
+      "heading": "Romira PEA 600mg",
+      "price_was": "$49.99",
+      "price_now": "from $29.99/mo",
+      "subtitle": "Free US Shipping &#8212; 60-Day Money-Back Guarantee &#8212; Subscribe &amp; Save",
+      "items": [
+        {"text": "<strong>1 Bottle &#8212; $29.99/month</strong> &#8212; Start your first 30 days. Risk-free."},
+        {"text": "<strong>3 Bottles &#8212; $59.98/month</strong> (Buy 2, Get 1 Free) &#8212; Most popular. Best for the complete 60-day protocol."},
+        {"text": "<strong>5 Bottles &#8212; $89.97/month</strong> (Buy 3, Get 2 Free) &#8212; Best value. Complete the protocol with supply to spare."},
+        {"text": "99% pure micronized Palmitoylethanolamide &#8212; clinical-grade format, not standard grade"},
+        {"text": "600mg per serving &#8212; the evidenced dose used across 47 controlled trials"},
+        {"text": "GMP Certified &#8212; Made in the USA &#8212; Third-party lab tested"},
+        {"text": "Free US shipping on every order"},
+        {"text": "60-day money-back guarantee &#8212; no forms, no conditions, no questions"}
+      ],
+      "gifts_total": "If it does not work after 60 days of consistent use, you pay nothing.",
+      "url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support",
+      "button_text": "Claim My Bottle &#8212; Before Stock Runs Out",
+      "guarantee": "&#128274; 60-Day Money-Back Guarantee &#8212; Free US Shipping &#8212; Secure Checkout"
+    },
+
+    {
+      "type": "trust_badges",
+      "items": [
+        {"icon": "&#128196;", "label": "47 Clinical Trials"},
+        {"icon": "&#9989;", "label": "99% Pure PEA"},
+        {"icon": "&#127981;", "label": "GMP Certified"},
+        {"icon": "&#128269;", "label": "3rd-Party Tested"},
+        {"icon": "&#128737;&#65039;", "label": "60-Day Guarantee"}
+      ]
+    },
+
+    {
+      "type": "future_pacing",
+      "heading": "What I Want For Every Patient Who Reads This",
+      "text": "The night I read that meta-analysis, I thought about every patient I had sent home over 28 years with the same short list of answers. I thought about Eleanor, and how close I came to giving her the same list again. What I want for the person reading this is what I watched happen with her: not a dramatic moment, but a quiet one. Standing up from a chair without bracing. Walking down a hallway without calculating. Sitting through a meeting and realising, halfway through, that you have not thought about your back once. That is what restoring the right molecule allows. Seven days to feel the first shift. Sixty days to see what it can actually do."
+    },
+
+    {
+      "type": "last_chance",
+      "result_line": "35.1% average reduction in pain intensity by day 30. Up to 70% by day 60. 15,000 patients. 4.9 out of 5 stars. 47 randomised controlled trials.",
+      "price_line": "From $29.99/month on subscription. Free US shipping. Current batch stock is limited.",
+      "guarantee_line": "60-day money-back guarantee. Take it consistently for 60 days and feel no meaningful difference &#8212; contact us for a full refund. No forms. No conditions.",
+      "urgency_line": "&#9888; This batch will not last. Once it sells out, the next shipment is 2&#8211;3 weeks away and we cannot reserve stock for you. If you close this page without ordering, there is a real chance it will be gone when you return."
+    },
+
+    {
+      "type": "final_cta",
+      "button_text": "Claim My Bottle &#8212; Before Stock Runs Out",
+      "url": "https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support",
+      "subtext": "Free US shipping. 60-day guarantee. Secure checkout."
+    },
+
+    {
+      "type": "facebook_comments",
+      "heading": "3,847 Comments",
+      "placeholder_text": "Add a comment...",
+      "comments": [
+        {
+          "name": "Barbara Sinclair",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/ChatGPT_Image_Jan_18_2026_06_26_11_AM.png?v=1768706800",
+          "time_ago": "1 day ago",
+          "text": "The part that got me was when Dr. Harmon described sitting back from his desk and not moving for a while. I've read a lot of supplement ads and that detail felt real. Ordered the same day. Week three and the difference in my mornings is genuine. The stiffness is just quieter. I don't know how else to put it.",
+          "likes": 118,
+          "replies": 26
+        },
+        {
+          "name": "Joanne Petersen",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_52.png?v=1777385114",
+          "time_ago": "3 days ago",
+          "text": "I forwarded this to my own GP and asked her to look at the evidence. She came back and said the PEA research base is legitimate and she had no objection to me trying it. Day eleven now and I've already noticed a change in how I get out of bed in the morning. That never happened with CBD or turmeric.",
+          "likes": 94,
+          "replies": 17
+        },
+        {
+          "name": "Helen Grainger",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_49.png?v=1777385115",
+          "time_ago": "5 days ago",
+          "text": "47 clinical trials, a doctor admitting he had been wrong for 28 years, and a 60-day money-back guarantee. I could not find a logical reason not to try it. Week four and I am walking distances I had not attempted in over a year. My husband noticed before I did.",
+          "likes": 156,
+          "replies": 34
+        },
+        {
+          "name": "Ruth Chambers",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_50.png?v=1777385114",
+          "time_ago": "1 week ago",
+          "text": "What made me trust this was the specific detail &#8212; the time (11:47pm), the Tuesday, reading the number twice. That's not how someone writes when they're making something up. Ordered the 3-bottle. Day seven I noticed something shift. Hard to describe but it's real. Less loud is the right phrase.",
+          "likes": 103,
+          "replies": 21
+        }
+      ]
+    }
+
+  ]
+}

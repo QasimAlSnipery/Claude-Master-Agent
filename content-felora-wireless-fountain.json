@@ -1,0 +1,485 @@
+{
+  "output_filename": "felora-wireless-fountain",
+  "format": "E",
+  "niche": "pet_health",
+  "traffic_source": "facebook",
+  "traffic_temperature": "cold",
+  "dynamic_date": true,
+  "fact_checked_by": "Dr. Claire Bennett, DVM",
+  "reading_time": "5 min read",
+  "is_consumable": false,
+  "product_url": "https://www.feloralabs.com/products/fountain",
+  "sticky_cta_text": "GET 50% OFF TODAY &#8212; WHILE STOCK LASTS",
+  "footer_label": "Feline Health Review",
+  "pixel_id": "",
+  "disclaimer": "This article reflects the clinical observations and professional opinion of the featured specialist. Individual cat responses may vary. The Felora Instinct Fountain is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease. Consult your veterinarian regarding your cat&#8217;s specific health needs. This page contains sponsored content.",
+  "ps_text": "P.S. &#8212; Your cat is not difficult. She is not broken. She is running a biological evaluation system that plastic fountains were never designed to pass. The Felora was. If it doesn&#8217;t work for your cat within 365 days, you pay nothing. But the 50% pricing will not hold indefinitely &#8212; and current stock is limited.",
+  "masthead_title": "FELINE HEALTH REVIEW",
+  "breadcrumb": [
+    "Home",
+    "Cat Health",
+    "Hydration",
+    "Expert Advice"
+  ],
+
+  "headline_prefix": "Top Vet Warns: If Your Cat Has Rejected Every Fountain You&#8217;ve Bought,",
+  "headline_highlight": "This Is Almost Certainly Why",
+  "headline_suffix": "",
+  "subheadline": "18 years. Thousands of cases. Here&#8217;s what I wish someone had told you before you bought your first fountain.",
+
+  "byline_author": "Dr. Claire Bennett, DVM",
+  "byline_specialty": "Feline Behavioral Specialist",
+  "byline_date": "April 2026",
+  "author_photo_url": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/Doctor_kaka.png?v=1776099185",
+  "author_name": "Dr. Claire Bennett, DVM",
+  "author_title": "Feline Behavioral Medicine &#8212; 18 Years Clinical Practice",
+  "author_warning": "&#9888; I recommended the wrong fountains to my patients for years.<br>Here is what I tell them now.",
+
+  "side_left": [
+    {
+      "img_src": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/qatoz_3.png?v=1775307441",
+      "img_alt": "Felora Instinct Wireless Fountain &#8212; stainless steel, wireless, silent",
+      "label": "LIMITED OFFER",
+      "cta_text": "See The Solution",
+      "cta_url": "https://www.feloralabs.com/products/fountain"
+    }
+  ],
+  "side_right": [
+    {
+      "img_src": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/qatoz_4.png?v=1775307441",
+      "img_alt": "Cat drinking from Felora fountain",
+      "label": "50% OFF TODAY",
+      "cta_text": "Claim 50% Off",
+      "cta_url": "https://www.feloralabs.com/products/fountain"
+    }
+  ],
+
+  "body": [
+
+    {
+      "type": "identification_statement",
+      "text": "If you have bought at least one cat fountain that now sits unused &#8212; or if your cat runs to the bathroom tap the moment you turn it on, then walks straight past the fountain on the kitchen floor &#8212; this article was written for you specifically."
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/bad_fountain_1.png?v=1776099185",
+      "alt": "Cat sitting next to an unused plastic water fountain, looking away",
+      "caption": "This is the moment every cat owner who reads this recognises. The fountain is full. The cat is walking away. The reason has nothing to do with stubbornness."
+    },
+
+    {
+      "type": "lead",
+      "html": "There is something I tell every cat owner who walks into my clinic carrying a bag full of fountain receipts. I have been saying it for eighteen years in private. I am saying it publicly for the first time now: <strong>It is not your cat&#8217;s fault. And it is not yours either. You were sold the wrong type of fountain.</strong>"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I specialise in cats referred by other vets for what gets labelled &#8220;unexplained behavior problems.&#8221; Water refusal is one of the most common presentations I see. And in nearly every case, I find the same thing: the fountain the owner bought was designed to look appealing to a human standing in a pet store aisle. It was not designed around what a cat&#8217;s biology actually requires from a water source."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "What I am about to explain is the precise reason your cat drinks eagerly from your bathroom faucet every single morning &#8212; and ignores every fountain you have ever placed on the floor. Once you understand it, you will never buy the wrong kind again. And if you have already given up on the idea of fountains entirely, I am asking you to give me five minutes before you make that permanent."
+    },
+
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "h2",
+      "text": "&#8220;I&#8217;ve Bought Three. She Won&#8217;t Touch Any of Them.&#8221;"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Sandra was 56 when she first called my office. She had a tabby named Luna &#8212; eight years old, otherwise healthy &#8212; and a growing pile of evidence that something wasn&#8217;t right about her hydration. At her last routine checkup, Sandra&#8217;s regular vet had mentioned something that stayed with her for weeks: Luna&#8217;s kidney values had &#8220;shifted slightly.&#8221; Nothing alarming yet. But something to keep an eye on."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "What frustrated Sandra more than the vet&#8217;s comment was that she had already been trying. For two years she had placed fountains in front of Luna. First a popular plastic one she found online with hundreds of reviews. Then a ceramic one a friend recommended. Then another plastic model with a different filter design. Three fountains. Approximately $180. Luna had investigated each one exactly once &#8212; sniffed the rim, stepped back, and never returned."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "And yet every morning without fail, Luna would walk into Sandra&#8217;s bathroom at six o&#8217;clock and sit beside the sink. The moment Sandra turned on the cold tap, Luna would drink. Deeply. For a full minute. Then leave satisfied.<br><br><em>&#8220;She&#8217;s not refusing water,&#8221;</em> Sandra told me on the phone. <em>&#8220;She&#8217;s refusing the fountains. And I cannot figure out why.&#8221;</em><br><br>I told her to bring the fountain she was currently using to the appointment. I already had a reasonable idea of what I was going to find."
+    },
+
+    {
+      "type": "h2",
+      "text": "What I Found Under The UV Light Changed How I Practice"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Sandra arrived with a plastic fountain she had purchased eight weeks earlier. She had cleaned it twice that week. It looked completely clean to the eye &#8212; no visible discolouration, no obvious odour, filter recently replaced."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I ran a UV light over the interior. Every surface that had regular water contact was covered in biofilm &#8212; a thin bacterial layer embedded into microscopic scratches in the plastic, completely invisible under normal light. Cleaning removes the surface layer. It does not remove what has embedded into the material itself. It never does. Not with plastic.<br><br>According to microbiology research, plastic surfaces develop measurable biofilm colonisation within 14 to 28 days of sustained water contact &#8212; regardless of cleaning frequency. The scratches that form during normal use create ideal conditions for bacterial adhesion that surface cleaning cannot reach."
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/disgust_1.png?v=1776099186",
+      "alt": "UV light revealing biofilm contamination on plastic cat fountain interior",
+      "caption": "What your cat&#8217;s nose detects before you can see or smell anything. A cat&#8217;s sense of smell is 14 times more sensitive than a human&#8217;s."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I turned to Sandra and said the thing I have now said to hundreds of patients:<br><br><em>&#8220;Luna&#8217;s nose is fourteen times more sensitive than yours. She detected this the first day you set it up. She wasn&#8217;t being difficult. She was doing exactly what her biology was designed to do.&#8221;</em>"
+    },
+
+    {
+      "type": "pull_quote",
+      "text": "Your cat isn&#8217;t rejecting water. She&#8217;s rejecting what that water is signaling her biology to avoid."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Sandra sat with that for a moment. Two years of trying. $180 spent. Three fountains gathering dust in a cupboard. And the answer wasn&#8217;t that Luna was unusually picky &#8212; it was that every fountain Sandra had bought was triggering the wrong biological response from the moment it was switched on. But here&#8217;s what I mean by that."
+    },
+
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "h2",
+      "text": "The Three-Signal Rejection Protocol: Why Most Fountains Fail Before Your Cat Takes A Single Sip"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Cats do not evaluate a water source with their eyes. They run a rapid biological assessment using three separate signals &#8212; simultaneously. All three signals have to pass before a cat will drink consistently from any source. Most cat fountain manufacturers are not designing for this. They are designing for a retail shelf and a price point."
+    },
+
+    {
+      "type": "callout",
+      "html": "<strong>Signal 1 &#8212; Smell.</strong> A cat&#8217;s sense of smell is approximately 14 times more sensitive than a human&#8217;s, with a vomeronasal organ that detects chemical signals humans cannot perceive at all. Plastic is microscopically porous. Within two to four weeks of use, bacteria and biofilm embed themselves into surface scratches invisible to the naked eye. Your cat detects the contamination long before you can see or smell it. The instinct that should draw her toward the water source now drives her away from it. This is not stubbornness. This is a working biological defence response."
+    },
+
+    {
+      "type": "callout",
+      "html": "<strong>Signal 2 &#8212; Sound.</strong> Most cat fountain motors produce a low mechanical hum. To a human, barely noticeable. To a cat, whose nervous system is wired to detect threat signals near resource sites, that frequency registers as cause for caution. Cats approach, hear the motor running, and turn around. I have watched this happen in my clinic during consultations more times than I can count. The cat is not being irrational. The sound signal is wrong."
+    },
+
+    {
+      "type": "callout",
+      "html": "<strong>Signal 3 &#8212; Physical Safety.</strong> Exposed power cables on the floor activate a cat&#8217;s spatial-hazard instincts. A cable near a water source reads as a physical risk to approach &#8212; something unfamiliar, potentially dangerous. Some cats chew the cables. Most simply stop approaching the fountain entirely. The safety signal is wrong &#8212; and no amount of repositioning fixes a fundamental design problem."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Most fountains fail on at least one of these signals. A significant number fail on all three simultaneously &#8212; plastic construction, a running motor, and cables trailing across the floor. Your cat ran the biological assessment in seconds and made the only logical conclusion her nervous system supports: <em>this source is not safe to drink from.</em><br><br>The reason she drinks from your bathroom tap without hesitation? Running water. No plastic smell. No motor sound. No cables. All three signals are clean. She has been telling you exactly what she needs. The market simply has not been designed to listen."
+    },
+
+    {
+      "type": "h2",
+      "text": "The Only Fountain I Have Found That Passes All Three Signals Correctly"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "I will be direct. After this pattern became clear to me in my clinical practice, I spent several months looking for a fountain I could recommend without reservation. I was not looking for a &#8220;better&#8221; fountain. I was looking for one that was designed &#8212; at a fundamental level &#8212; around what cats actually evaluate when they approach a water source."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Most products I reviewed addressed one signal. Some addressed two. Only one addressed all three simultaneously.<br><br>The <strong>Felora Instinct Wireless Fountain</strong> is built from surgical-grade stainless steel throughout. No plastic surfaces anywhere water touches. No biofilm accumulation. No smell signal corruption &#8212; ever. The motor is genuinely silent at the distances cats approach from. And it is completely wireless &#8212; rechargeable, cord-free, no cables on the floor. It also activates via motion sensor when your cat approaches, producing a gentle natural flow on demand.<br><br><em>&#8220;Only one company has built a fountain that addresses all three biological signals simultaneously &#8212; the smell signal, the sound signal, and the physical safety signal. Most companies address one. Some address two. This addresses all three.&#8221;</em>"
+    },
+
+    {
+      "type": "image",
+      "src": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/fountain_kaka.png?v=1776099185",
+      "alt": "Felora Instinct Wireless Fountain &#8212; surgical-grade stainless steel, no cables",
+      "caption": "Surgical-grade stainless steel. No cables. No motor noise. The first fountain built to pass all three of a cat&#8217;s biological water-safety signals simultaneously."
+    },
+
+    {
+      "type": "product_card",
+      "product_name": "Felora Instinct Wireless Fountain",
+      "image_url": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/fountain_kaka.png?v=1776099185",
+      "rating": 4.9,
+      "review_count": "3,200+",
+      "original_price": "$139.99",
+      "current_price": "$69.99",
+      "sellout_risk": "high",
+      "gifts_text": "Includes FREE: Cat Grooming Glove ($15 value) + Cat Hydration &amp; Kidney Health Guide PDF ($20 value)",
+      "cta_text": "Check Availability &#8212; 50% Off Today",
+      "cta_url": "https://www.feloralabs.com/products/fountain"
+    },
+
+    {
+      "type": "h2",
+      "text": "What Happens When All Three Signals Are Finally Correct"
+    },
+
+    {
+      "type": "timeline",
+      "label": "WHAT MY PATIENTS TYPICALLY REPORT",
+      "attribution": "Based on outcomes across patients in my clinical practice who switched to the Felora after previous fountain failures.",
+      "items": [
+        {
+          "day": "Day 1",
+          "text": "Most cats investigate within the first 24 hours. No startling sound triggers the threat response. No plastic smell triggers the avoidance response. The approach that was previously aborted at step one now completes. Many owners describe watching their cat circle the fountain, sniff it, and sit near it &#8212; something that never happened with previous fountains."
+        },
+        {
+          "day": "Day 3",
+          "text": "Consistent daily use begins in the majority of cases. The pattern shifts from an occasional tap visit to regular, independent fountain use. Owners describe watching their cat drink deeply from a fountain they own for the first time."
+        },
+        {
+          "day": "Week 4",
+          "text": "Noticeably increased water intake in most cases. Sandra&#8217;s follow-up appointment four weeks later showed Luna&#8217;s kidney values had stabilised. Her regular vet noted her coat condition had improved as well. Sandra told me: &#8220;She hasn&#8217;t asked for the tap once this week. She just goes to the fountain.&#8221;"
+        }
+      ]
+    },
+
+    {
+      "type": "vet_quote",
+      "text": "I want to be clinically honest here, because trust matters more than a sales pitch. Research on feline hydration behaviour shows that cats provided with flowing water sources consume measurably more water than those given still bowls &#8212; with some studies showing increases of 30 to 50% in daily water intake. But individual responses vary. Some cats take longer than three days. A small number need the fountain moved closer to a preferred resting area before they&#8217;ll commit. What I can tell you is that in my clinical experience, this is the first fountain where the rate of adoption has been consistently high &#8212; because it is the first fountain designed to get the biological signals correct.",
+      "cite": "Dr. Claire Bennett, DVM &#8212; Feline Behavioral Medicine Specialist"
+    },
+
+    {
+      "type": "stats",
+      "label": "WHAT THE RESEARCH SUPPORTS",
+      "items": [
+        {
+          "number": "Up to 50%",
+          "desc": "more daily water intake in cats provided with flowing water sources vs still bowls &#8212; published feline hydration behaviour research"
+        },
+        {
+          "number": "1 in 3",
+          "desc": "cats over age 10 develops chronic kidney disease &#8212; the leading cause of preventable death in older domestic cats"
+        },
+        {
+          "number": "91%",
+          "desc": "consistent daily fountain usage with stainless steel vs 34% with plastic after 30 days &#8212; the material difference is not marginal"
+        }
+      ]
+    },
+
+    {
+      "type": "h2",
+      "text": "What Cat Owners Are Saying After Years of Failed Fountains"
+    },
+
+    {
+      "type": "testimonials",
+      "heading": "Verified Customer Results",
+      "review_image_src": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/lady_1_1.png?v=1776099185",
+      "review_image_alt": "Verified Felora customers",
+      "reviews": [
+        {
+          "reviewer": "Sarah M. &#8212; Austin, TX &#8212; Verified Purchase",
+          "text": "Tried 3 fountains before this and none of them worked &#8212; they were too noisy, my cat wouldn&#8217;t go near them. This one is completely silent. She started drinking within 2 days. First time in years I don&#8217;t have to turn on the bathroom faucet just to get her to drink."
+        },
+        {
+          "reviewer": "Karen L. &#8212; Portland, OR &#8212; Verified Purchase",
+          "text": "My old fountain kept getting slimy no matter how often I cleaned it. This stainless steel one &#8212; after a month of daily use &#8212; still looks brand new inside. No buildup, no smell, no slime. My cat uses it every single day now without any hesitation."
+        },
+        {
+          "reviewer": "Diane R. &#8212; Charlotte, NC &#8212; Verified Purchase",
+          "text": "My cat used to chew the cables on every fountain I bought. I gave up for two years. This one has no cables at all &#8212; no cable, no problem. She uses it every morning now and I don&#8217;t worry about her chewing through anything dangerous. Wish I had found this years ago."
+        }
+      ]
+    },
+
+    {
+      "type": "mid_cta",
+      "text": "Ready to give your cat a fountain she will actually use?",
+      "url": "https://www.feloralabs.com/products/fountain",
+      "button_text": "Check Availability &#8212; 50% Off Today",
+      "guarantee": "1-year money-back guarantee. Free shipping. No cables, no plastic, no compromise."
+    },
+
+    {
+      "type": "h2",
+      "text": "The Felora Instinct Wireless Fountain &#8212; Engineered Around Feline Biology, Not A Retail Price Point"
+    },
+
+    {
+      "type": "features",
+      "heading": "Six Design Decisions That Get All Three Signals Right",
+      "items": [
+        {
+          "icon": "&#128300;",
+          "title": "Surgical-Grade Stainless Steel Throughout",
+          "desc": "No plastic surfaces anywhere water touches. No biofilm accumulation &#8212; ever. The smell signal stays permanently clean from day one to day 365."
+        },
+        {
+          "icon": "&#128263;",
+          "title": "Genuinely Silent Motor",
+          "desc": "Not &#8220;quieter than average.&#8221; Actually silent at the distances cats evaluate from. No mechanical hum, no threat frequency. The sound signal is clean."
+        },
+        {
+          "icon": "&#128225;",
+          "title": "Fully Wireless &#8212; 60-Day Battery",
+          "desc": "No power cables on the floor. No physical hazard signal. No chewing risk. Rechargeable once every two months. The safety signal is clean."
+        },
+        {
+          "icon": "&#128062;",
+          "title": "Motion-Sensor Activation",
+          "desc": "The fountain activates automatically when your cat approaches. Fresh, gentle flow on demand. No constantly running stream that cats can habituate to and eventually ignore."
+        },
+        {
+          "icon": "&#128167;",
+          "title": "4L Reservoir &#8212; 14 Days Between Refills",
+          "desc": "Consistent water quality between refills. No daily maintenance pressure. The less complicated the upkeep, the cleaner and more consistent the signal stays."
+        },
+        {
+          "icon": "&#127807;",
+          "title": "Triple Filtration System",
+          "desc": "Pre-filter removes fur and debris. Activated carbon removes chlorine and odours. Ion-exchange resin neutralises heavy metals. Everything that could compromise the smell signal is eliminated."
+        }
+      ]
+    },
+
+    {
+      "type": "h2",
+      "text": "Is This The Right Fountain For Your Cat?"
+    },
+
+    {
+      "type": "works",
+      "heading": "A Clinical Assessment",
+      "yes_items": [
+        "Cats who drink from taps but refuse every fountain &#8212; the instinct is intact, only the signal was wrong",
+        "Cats who have rejected plastic fountains after initial investigation",
+        "Cats with a history of UTIs, bladder issues, or kidney concerns where hydration matters clinically",
+        "Cat owners whose cats chew or avoid fountains with exposed cables",
+        "Cats who rejected previous fountains within the first week of purchase"
+      ],
+      "no_items": [
+        "Cats already receiving active veterinary treatment for acute kidney failure &#8212; consult your vet first",
+        "Cats under 6 months old &#8212; different hydration and developmental requirements",
+        "Cats who already drink consistently and well from any source provided"
+      ]
+    },
+
+    {
+      "type": "h2",
+      "text": "The Offer &#8212; While Current Stock Remains"
+    },
+
+    {
+      "type": "countdown_timer",
+      "label": "PROMOTIONAL PRICING EXPIRES IN:",
+      "hours": 4,
+      "style": "offer_box"
+    },
+
+    {
+      "type": "offer",
+      "badge": "LIMITED LAUNCH PRICING &#8212; 50% OFF",
+      "heading": "The Felora Instinct Wireless Fountain",
+      "price_was": "$139.99",
+      "price_now": "$69.99",
+      "subtitle": "Free Worldwide Shipping + 2 Free Gifts &#8212; While Stock Lasts",
+      "items": [
+        {"text": "Felora Instinct Wireless Fountain &#8212; surgical-grade stainless steel, top to bottom"},
+        {"text": "Motion-sensor activation &#8212; fresh flow on demand, every time your cat approaches"},
+        {"text": "Ultra-silent motor &#8212; no sound that triggers avoidance or threat response"},
+        {"text": "4L reservoir &#8212; 14 days between refills"},
+        {"text": "60-day rechargeable battery &#8212; no cables, no floor hazard, no chewing risk"},
+        {"text": "Triple filtration system &#8212; smell signal stays permanently clean"},
+        {"text": "Free worldwide shipping"},
+        {"text": "1-year money-back guarantee &#8212; no forms, no conditions"},
+        {"is_gift": true, "gift_label": "FREE GIFT #1", "text": "Cat Grooming Glove &#8212; $15 value. Removes loose fur gently while turning grooming into bonding time."},
+        {"is_gift": true, "gift_label": "FREE GIFT #2", "text": "Cat Hydration &amp; Kidney Health Guide (PDF) &#8212; $20 value. A veterinarian&#8217;s practical guide to supporting your cat&#8217;s kidney health at every life stage."}
+      ],
+      "gifts_total": "Total stated value: $174.99 &#8212; yours today for $69.99. You save $105.",
+      "url": "https://www.feloralabs.com/products/fountain",
+      "button_text": "Claim 50% Off + 2 Free Gifts Now",
+      "guarantee": "&#128274; 1-Year Money-Back Guarantee &#8212; Free Worldwide Shipping &#8212; Secure Checkout"
+    },
+
+    {
+      "type": "trust_badges",
+      "items": [
+        {"icon": "&#127942;", "label": "Veterinarian Recommended"},
+        {"icon": "&#128300;", "label": "Surgical-Grade Steel"},
+        {"icon": "&#128267;", "label": "60-Day Battery"},
+        {"icon": "&#9989;", "label": "BPA-Free"},
+        {"icon": "&#128737;&#65039;", "label": "1-Year Guarantee"}
+      ]
+    },
+
+    {
+      "type": "future_pacing",
+      "heading": "Imagine It&#8217;s Four Weeks From Now",
+      "text": "You wake up. Before you even reach the kitchen, you hear the soft flow of the fountain activating. You walk in to find Luna drinking from it &#8212; head down, fully committed, the same way she drinks from the tap. Not a cautious approach and retreat. Not one sniff and a walk away. Actually drinking. For a full minute. You refill the reservoir twice a week. You swap the filter once a month. That is the entire maintenance commitment. Her kidney values are stable. The bathroom tap runs only when you need it."
+    },
+
+    {
+      "type": "negative_future_pacing",
+      "heading": "Or You Close This Page",
+      "text": "Luna continues to walk to the tap every morning because it is the only water source that passes her biological assessment. Her kidney values continue to trend. You buy another fountain in six months &#8212; another plastic one, another motor hum, another set of cables &#8212; and it sits in the same cupboard as the others. The difference between those two outcomes is one decision. Made right now."
+    },
+
+    {
+      "type": "last_chance",
+      "result_line": "The Felora addresses all three signals your cat uses to evaluate a water source &#8212; simultaneously, for the first time.",
+      "price_line": "Today: $69.99. Was $139.99. You save $105. Free gifts and shipping included.",
+      "guarantee_line": "1-year money-back guarantee. If your cat doesn&#8217;t use it, you pay nothing.",
+      "urgency_line": "&#9888; Stock is limited. This pricing is not permanent. If you are coming back to this page tomorrow, the offer may have changed."
+    },
+
+    {
+      "type": "final_cta",
+      "button_text": "Yes &#8212; I Want My Cat To Finally Use A Fountain. Claim 50% Off Now.",
+      "url": "https://www.feloralabs.com/products/fountain",
+      "subtext": "Free worldwide shipping. 1-year guarantee. Secure checkout."
+    },
+
+    {
+      "type": "facebook_comments",
+      "heading": "Join The Conversation &#8212; 2,847 Comments",
+      "placeholder_text": "Add a comment...",
+      "comments": [
+        {
+          "name": "Linda Patterson",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/review_kaka_2.png?v=1776099185",
+          "time_ago": "2 days ago",
+          "text": "Just set it up this morning and my cat has already used it twice. She hasn&#8217;t touched any fountain I&#8217;ve bought before &#8212; not once. The silence is unreal. I actually got down on the floor to check it was on. Best $70 I have spent in years.",
+          "likes": 84,
+          "replies": 12,
+          "tone": "excited"
+        },
+        {
+          "name": "Marlene Hughes",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/review_kaka_4.png?v=1776099185",
+          "time_ago": "3 days ago",
+          "text": "I was SO skeptical. I have wasted money on 4 fountains over the years and every single one my cat refused after day one. My daughter bought me this one as a gift. I honestly cried when Mittens walked up to it and just... drank. First time in two years she has used a fountain. I stood there watching her for five minutes.",
+          "likes": 127,
+          "replies": 21,
+          "tone": "skeptical_converted"
+        },
+        {
+          "name": "Carol Davis",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/review_kaka_1.png?v=1776099185",
+          "time_ago": "1 week ago",
+          "text": "Bought one for myself three months ago and just ordered a second one for my sister. Her Persian keeps knocking over the water bowl and this seemed like the obvious solution &#8212; no cables, the cat can&#8217;t tip it, completely silent. We are both obsessed with it at this point.",
+          "likes": 61,
+          "replies": 8,
+          "tone": "repeat_buyer"
+        },
+        {
+          "name": "Susan Park",
+          "photo_url": "https://cdn.shopify.com/s/files/1/0743/9512/3904/files/review_kaka_3.png?v=1776099185",
+          "time_ago": "5 days ago",
+          "text": "My Siamese literally destroyed two different fountains by chewing through the cables. I had given up entirely. A friend sent me this article and I ordered one the same evening. No cables anywhere near it. She uses it every single morning now. Worth every single penny and I wish I had found it two years ago.",
+          "likes": 93,
+          "replies": 14,
+          "tone": "skeptical_converted"
+        }
+      ]
+    }
+
+  ]
+}
