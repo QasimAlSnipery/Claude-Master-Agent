@@ -1,0 +1,1736 @@
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lato:wght@300;400;700;900&display=swap');
+
+/* ---- OUTER LAYOUT (desktop side panels) ---- */
+.fav2-outer {
+  display: flex;
+  gap: 36px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fav2-side {
+  width: 230px;
+  flex: 0 0 230px;
+  position: sticky;
+  top: 24px;
+}
+.fav2-side-inner {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.fav2-side-inner img {
+  width: 100%;
+  display: block;
+}
+.fav2-side-label {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #bbb;
+  text-align: center;
+  padding: 6px 0 8px;
+}
+.fav2-side-cta {
+  background: #2C6E8A;
+  color: #fff !important;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.fav2-side-cta:hover { background: #1f506a; }
+
+@media (max-width: 1100px) {
+  .fav2-side { display: none; }
+  .fav2-outer { padding: 0; }
+}
+
+/* ---- MAIN ARTICLE ---- */
+.fa2 { box-sizing: border-box; margin: 0; padding: 0; flex: 1; min-width: 0; }
+.fa2 *, .fa2 *::before, .fa2 *::after { box-sizing: border-box; }
+
+.fa2 {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #2d2d2d;
+  line-height: 1.85;
+}
+
+.fa2 .category-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 14px 0;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #1a1a2e;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.fa2 .category-tag .ct-line {
+  height: 1px;
+  width: 36px;
+  background: #1a1a2e;
+  display: inline-block;
+}
+.fa2 .category-tag .ct-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #2C6E8A;
+  display: inline-block;
+}
+
+.fa2 h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.12;
+  color: #1a1a2e;
+  text-align: center;
+  margin: 0 0 26px;
+  letter-spacing: -0.5px;
+}
+.fa2 h1 em {
+  font-style: italic;
+  color: #2C6E8A;
+}
+
+.fa2 .subheadline {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.65;
+  margin: 0 0 26px;
+  padding: 0 12px;
+}
+
+.fa2 .byline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+  margin: 0 0 36px;
+}
+.fa2 .byline .sep { color: #ccc; }
+
+.fa2 .adv-img-wrap { margin: 24px 0 6px; }
+.fa2 .adv-img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+}
+.fa2 .img-caption {
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #999;
+  margin: 9px 0 26px;
+  line-height: 1.6;
+}
+
+.fa2 p {
+  font-size: 20px;
+  line-height: 1.75;
+  color: #333;
+  margin: 0 0 24px;
+  font-family: Georgia, serif;
+}
+.fa2 p.lead {
+  font-size: 22px;
+  color: #1a1a2e;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.fa2 h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 34px 0 14px;
+  line-height: 1.25;
+  border-left: 4px solid #2C6E8A;
+  padding-left: 18px;
+}
+
+.fa2 .divider {
+  text-align: center;
+  margin: 28px 0;
+  color: #ccc;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.fa2 .vet-quote {
+  font-style: italic;
+  color: #333;
+  padding: 20px 28px;
+  border-left: 4px solid #2C6E8A;
+  background: #f4f9fc;
+  margin: 28px 0;
+  font-size: 17px;
+  line-height: 1.8;
+  border-radius: 0 6px 6px 0;
+}
+.fa2 .vet-quote cite {
+  display: block;
+  font-style: normal;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2C6E8A;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.fa2 .pull-quote {
+  border-top: 3px solid #2C6E8A;
+  border-bottom: 3px solid #2C6E8A;
+  padding: 28px 36px;
+  margin: 44px 0;
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-style: italic;
+  color: #1a1a2e;
+  line-height: 1.5;
+  background: #f8fbfd;
+}
+
+.fa2 .callout {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 28px 0;
+  padding: 20px 24px;
+  background: #f0f7fa;
+  border-left: 4px solid #2C6E8A;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.6;
+}
+
+.fa2 .emph {
+  font-weight: 900;
+  font-size: 1.02em;
+  color: #1a1a2e;
+}
+
+.fa2 .stats-box {
+  background: #1a1a2e;
+  padding: 44px 28px;
+  margin: 44px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+.fa2 .stats-box .stats-label {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4eb8d4;
+  margin: 0 0 32px;
+}
+.fa2 .stats-grid {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fa2 .stat-item {
+  flex: 1;
+  padding: 0 18px;
+  border-right: 1px solid rgba(255,255,255,0.12);
+}
+.fa2 .stat-item:last-child { border-right: none; }
+.fa2 .stat-num {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 54px;
+  font-weight: 900;
+  color: #4eb8d4;
+  line-height: 1;
+  display: block;
+  margin-bottom: 10px;
+}
+.fa2 .stat-desc {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 13px;
+  color: #aaa;
+  line-height: 1.55;
+}
+
+.fa2 .features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 36px 0;
+}
+.fa2 .feature-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-top: 3px solid #2C6E8A;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.fa2 .feature-card h4 {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #2C6E8A;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+.fa2 .feature-card p {
+  font-size: 15px;
+  margin: 0;
+  color: #555;
+  line-height: 1.7;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+.fa2 .cta-mid {
+  text-align: center;
+  background: #f0f7fa;
+  border: 1px solid #d0e8f0;
+  padding: 36px 28px;
+  border-radius: 8px;
+  margin: 48px 0;
+}
+.fa2 .cta-mid p {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin: 0 0 20px;
+}
+.fa2 .btn {
+  display: inline-block;
+  background: #2C6E8A;
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 18px 44px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.fa2 .btn:hover { background: #1f506a; color: #fff !important; }
+
+.fa2 .testimonials { margin: 52px 0; }
+.fa2 .testimonials h2 {
+  border-left: none;
+  padding-left: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.fa2 .review-card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 28px 30px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+.fa2 .stars {
+  color: #f5a623;
+  font-size: 17px;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+.fa2 .review-text {
+  font-size: 16px;
+  font-style: italic;
+  color: #444;
+  margin: 0 0 16px;
+  line-height: 1.8;
+  font-family: Georgia, serif;
+}
+.fa2 .reviewer {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.fa2 .offer-box {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 52px 44px;
+  border-radius: 10px;
+  margin: 52px 0;
+  text-align: center;
+}
+.fa2 .offer-badge {
+  display: inline-block;
+  background: #c9a227;
+  color: #1a1a2e;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 7px 22px;
+  border-radius: 2px;
+  margin-bottom: 22px;
+}
+.fa2 .offer-box h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 34px;
+  color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0 0 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+.fa2 .offer-sub {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  color: #8ab8cc;
+  margin: 0 0 36px;
+}
+.fa2 .offer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 36px;
+  max-width: 520px;
+  text-align: left;
+}
+.fa2 .offer-list li {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 15px;
+  color: #ddd;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  line-height: 1.55;
+}
+.fa2 .offer-list li:last-child { border-bottom: none; }
+.fa2 .check { color: #4eb8d4; font-size: 15px; flex-shrink: 0; padding-top: 1px; }
+.fa2 .gift { color: #c9a227; font-weight: 700; }
+.fa2 .offer-total {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 14px;
+  color: #8ab8cc;
+  font-style: italic;
+  margin: 0 0 32px;
+}
+.fa2 .btn-gold {
+  display: inline-block;
+  background: #c9a227;
+  color: #1a1a2e !important;
+  text-decoration: none !important;
+  padding: 20px 52px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+.fa2 .btn-gold:hover { background: #b8911e; color: #1a1a2e !important; }
+.fa2 .offer-guarantee {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+.fa2 .editorial-note {
+  background: #f9f9f9;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 30px 34px;
+  margin: 36px 0;
+}
+.fa2 .editorial-note .note-label {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #2C6E8A;
+  margin: 0 0 14px;
+  display: block;
+}
+.fa2 .editorial-note p {
+  font-size: 16px;
+  color: #555;
+  margin: 0 0 14px;
+  line-height: 1.8;
+}
+.fa2 .editorial-note p:last-child { margin: 0; }
+
+.fa2 .final-cta {
+  text-align: center;
+  margin: 48px 0 36px;
+}
+.fa2 .final-cta p {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 14px;
+  color: #aaa;
+  margin: 14px 0 0;
+  letter-spacing: 1px;
+}
+
+.fa2 .footer-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 14px 0;
+  margin: 36px 0 20px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 2px solid #1a1a2e;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #1a1a2e;
+}
+.fa2 .footer-label .fl-line {
+  height: 1px;
+  width: 36px;
+  background: #1a1a2e;
+  display: inline-block;
+}
+
+.fa2 .disclaimer {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 12px;
+  color: #bbb;
+  text-align: center;
+  margin-top: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .fa2 { padding: 0 10px 52px; }
+  .fa2 .category-tag { gap: 8px; padding: 10px 0; margin-top: 0; margin-bottom: 14px; font-size: 9px; letter-spacing: 2.1px; white-space: nowrap; }
+  .fa2 .category-tag .ct-line { width: 24px; }
+  .fa2 .category-tag .ct-dot { width: 3px; height: 3px; }
+  .fa2 h1 { font-size: 30px; line-height: 1.12; letter-spacing: -0.4px; margin: 0 0 12px; max-width: 100%; }
+  .fa2 .subheadline { font-size: 17px; line-height: 1.45; color: #5e5e5e; padding: 0 2px; margin: 0 0 16px; max-width: 100%; }
+  .fa2 .byline { flex-wrap: nowrap; white-space: nowrap; overflow: visible; justify-content: center; gap: 4px; font-size: 10px; letter-spacing: 0.7px; padding: 10px 0; margin: 0 0 22px; }
+  .fa2 .byline .sep { margin: 0 1px; }
+  .fa2 p { font-size: 18px; line-height: 1.65; margin-bottom: 22px; }
+  .fa2 p.lead { font-size: 20px; line-height: 1.58; }
+  .fa2 h2 { font-size: 24px; margin: 38px 0 16px; }
+  .fa2 .vet-quote { font-size: 18px; padding: 20px 18px; line-height: 1.72; }
+  .fa2 .pull-quote { font-size: 22px; padding: 24px 18px; line-height: 1.42; margin: 34px 0; }
+  .fa2 .callout { font-size: 18px; padding: 18px 18px; }
+  .fa2 .adv-img-wrap { margin: 28px -4px 8px; }
+  .fa2 .adv-img-wrap img { width: 100%; border-radius: 4px; }
+  .fa2 > .adv-img-wrap:first-of-type img { aspect-ratio: 1.5 / 1; object-fit: cover; object-position: center center; }
+  .fa2 .img-caption { font-size: 14px; line-height: 1.5; margin: 8px 0 28px; padding: 0 4px; }
+  .fa2 .stats-box { padding: 34px 18px; }
+  .fa2 .stats-grid { flex-direction: column; }
+  .fa2 .stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.12); padding: 18px 0; }
+  .fa2 .stat-item:last-child { border-bottom: none; }
+  .fa2 .stat-num { font-size: 48px; }
+  .fa2 .stat-desc { font-size: 16px; line-height: 1.55; }
+  .fa2 .features-grid { grid-template-columns: 1fr; gap: 14px; margin: 28px 0; }
+  .fa2 .feature-card { padding: 20px 18px; }
+  .fa2 .feature-card p { font-size: 16px; line-height: 1.65; }
+  .fa2 .btn { padding: 18px 22px; font-size: 17px; width: 100%; display: block; text-align: center; }
+  .fa2 .review-card { padding: 20px 18px; }
+  .fa2 .review-text { font-size: 18px; line-height: 1.75; }
+  .fa2 .offer-box { padding: 34px 18px; }
+  .fa2 .offer-box h2 { font-size: 25px; }
+  .fa2 .offer-list li { font-size: 17px; padding: 12px 0; }
+  .fa2 .btn-gold { padding: 18px 20px; font-size: 17px; width: 100%; display: block; }
+  .fa2 .editorial-note { padding: 20px 18px; }
+  .fa2 .editorial-note p { font-size: 18px; line-height: 1.75; }
+  .fa2 .cta-mid { padding: 26px 18px; }
+  .fa2 .cta-mid p { font-size: 18px; }
+  .fa2 .footer-label { gap: 8px; font-size: 9px; letter-spacing: 2px; }
+  .fa2 .footer-label .fl-line { width: 24px; }
+}
+
+@media (max-width: 480px) {
+  .fa2 { padding: 0 9px 48px; }
+  .fa2 .category-tag { font-size: 8px; letter-spacing: 1.6px; gap: 6px; }
+  .fa2 .category-tag .ct-line { width: 20px; }
+  .fa2 h1 { font-size: 27px; line-height: 1.1; margin-bottom: 10px; }
+  .fa2 .subheadline { font-size: 16px; line-height: 1.4; margin-bottom: 14px; }
+  .fa2 .byline { font-size: 9px; letter-spacing: 0.45px; gap: 3px; margin-bottom: 18px; }
+  .fa2 p { font-size: 17px; }
+  .fa2 p.lead { font-size: 19px; }
+  .fa2 .pull-quote { font-size: 20px; }
+  .fa2 .vet-quote { font-size: 17px; }
+}
+
+.main-page-title, .page-title, .template-page .title, .page__title,
+.page-header__title, .shopify-section .main-page-title { display: none !important; }
+
+.page-width, .template-page .page-width, .main-page .page-width,
+.shopify-section .page-width, .rte, .page-content, .main-page-content {
+  max-width: 1600px !important;
+  width: 100% !important;
+}
+
+.fa2 { padding-top: 0 !important; }
+.fa2 .category-tag { margin-top: 6px; margin-bottom: 22px; }
+.fa2 h1 { max-width: 860px; margin-left: auto; margin-right: auto; font-size: 56px; line-height: 1.12; }
+.fa2 .subheadline { max-width: 820px; margin-left: auto; margin-right: auto; }
+.fa2 .byline { flex-wrap: nowrap; white-space: nowrap; justify-content: center; gap: 8px; }
+.fa2 .pull-quote { font-size: 30px; line-height: 1.45; padding: 34px 42px; }
+.fa2 .vet-quote { font-size: 19px; line-height: 1.9; padding: 24px 30px; }
+
+@media (max-width: 768px) {
+  .fa2 { padding: 0 10px 48px !important; }
+  .fa2 .category-tag { gap: 8px !important; font-size: 10px !important; letter-spacing: 1.6px !important; padding: 10px 0 !important; margin: 2px 0 14px !important; }
+  .fa2 .category-tag .ct-line { width: 24px !important; }
+  .fa2 h1 { max-width: 100% !important; width: 100% !important; font-size: 24px !important; line-height: 1.14 !important; letter-spacing: -0.4px !important; text-align: left !important; margin: 0 0 14px !important; }
+  .fa2 h1 em { display: inline !important; }
+  .fa2 .subheadline { max-width: 100% !important; font-size: 16px !important; line-height: 1.45 !important; text-align: left !important; color: #666 !important; margin: 0 0 14px !important; padding: 0 !important; }
+  .fa2 .byline { font-size: 10px !important; letter-spacing: 0.6px !important; gap: 4px !important; flex-wrap: nowrap !important; white-space: nowrap !important; overflow: hidden !important; justify-content: flex-start !important; padding: 10px 0 !important; margin: 0 0 18px !important; }
+  .fa2 .adv-img-wrap { margin: 18px 0 6px !important; }
+  .fa2 .adv-img-wrap img { width: 100% !important; max-width: none !important; }
+  .fa2 .adv-img-wrap:first-of-type img { aspect-ratio: 1.5 / 1 !important; object-fit: cover !important; }
+  .fa2 .adv-img-wrap:not(:first-of-type) img { min-height: 300px !important; object-fit: cover !important; }
+  .fa2 p { font-size: 18px !important; line-height: 1.7 !important; }
+  .fa2 p.lead { font-size: 20px !important; line-height: 1.6 !important; }
+}
+
+@media (max-width: 480px) {
+  .fa2 { padding: 0 8px 42px !important; }
+  .fa2 h1 { font-size: 22px !important; line-height: 1.12 !important; }
+  .fa2 .subheadline { font-size: 15px !important; line-height: 1.42 !important; }
+  .fa2 .byline { font-size: 9px !important; letter-spacing: 0.3px !important; gap: 3px !important; }
+  .fa2 .adv-img-wrap:first-of-type img { aspect-ratio: 1.55 / 1 !important; }
+  .fa2 .adv-img-wrap:not(:first-of-type) img { min-height: 260px !important; }
+}
+
+@media (max-width: 768px) {
+  .fa2 { padding: 0 10px 48px !important; }
+  .fa2 h1 { max-width: 100% !important; width: 100% !important; font-size: 26px !important; line-height: 1.14 !important; letter-spacing: -0.4px !important; text-align: left !important; margin: 0 0 14px !important; }
+  .fa2 .subheadline { max-width: 100% !important; font-size: 16px !important; line-height: 1.45 !important; text-align: left !important; color: #666 !important; margin: 0 0 14px !important; padding: 0 !important; }
+  .fa2 .byline { font-size: 9.5px !important; letter-spacing: 0.4px !important; gap: 4px !important; flex-wrap: nowrap !important; white-space: nowrap !important; overflow: hidden !important; justify-content: flex-start !important; padding: 10px 0 !important; margin: 0 0 18px !important; }
+  .fa2 p { font-size: 20px !important; line-height: 1.75 !important; margin-bottom: 24px !important; font-family: Georgia, serif !important; }
+  .fa2 p.lead { font-size: 22px !important; line-height: 1.7 !important; }
+  .fa2 .img-caption { font-size: 10px !important; letter-spacing: 0.9px !important; line-height: 1.55 !important; margin-top: 8px !important; margin-bottom: 20px !important; }
+}
+
+@media (max-width: 480px) {
+  .fa2 { padding: 0 8px 42px !important; }
+  .fa2 h1 { font-size: 24px !important; line-height: 1.12 !important; }
+  .fa2 .byline { font-size: 10px !important; letter-spacing: 0.2px !important; gap: 3px !important; }
+  .fa2 p { font-size: 20px !important; line-height: 1.72 !important; }
+  .fa2 .img-caption { font-size: 10.5px !important; }
+}
+
+.fa2 .editorial-masthead { margin: 4px 0 22px; text-align: center; }
+.fa2 .masthead-rule { height: 1px; background: #9fb6bf; opacity: .9; margin: 0 0 16px; }
+.fa2 .masthead-title { font-family: 'Playfair Display', Georgia, serif; font-size: 48px; line-height: 1.02; font-weight: 700; letter-spacing: -1px; color: #2C6E8A; text-transform: uppercase; margin: 0 0 16px; }
+.fa2 .masthead-breadcrumb { font-family: 'Lato', Arial, sans-serif; font-size: 18px; line-height: 1.35; color: #9fb6bf; text-decoration: underline; text-underline-offset: 4px; margin: 0; }
+.fa2 h1 { font-size: 58px; }
+
+.felora-sticky-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 9999; display: flex; justify-content: center; pointer-events: none; }
+.felora-sticky-cta a { pointer-events: auto; display: block; width: 100%; max-width: 980px; margin: 0 auto; background: #377c9b; color: #fff !important; text-decoration: none !important; text-align: center; font-family: 'Lato', Arial, sans-serif; font-size: 17px; font-weight: 900; letter-spacing: .4px; line-height: 1.2; padding: 16px 18px calc(16px + env(safe-area-inset-bottom)); box-shadow: 0 -3px 14px rgba(0,0,0,.16); text-transform: none; white-space: nowrap; }
+body { padding-bottom: 72px !important; }
+
+@media (max-width: 768px) {
+  .fa2 .editorial-masthead { margin: 2px 0 18px; }
+  .fa2 .masthead-rule { margin-bottom: 12px; }
+  .fa2 .masthead-title { font-size: 22px; letter-spacing: -.3px; line-height: 1.05; margin-bottom: 10px; }
+  .fa2 .masthead-breadcrumb { font-size: 13px; line-height: 1.25; }
+  .fa2 h1 { font-size: 27px !important; }
+  .felora-sticky-cta a { max-width: none; font-size: 14px; padding: 14px 10px calc(14px + env(safe-area-inset-bottom)); white-space: nowrap; }
+  body { padding-bottom: 64px !important; }
+}
+@media (max-width: 480px) {
+  .fa2 .masthead-title { font-size: 20px; }
+  .fa2 .masthead-breadcrumb { font-size: 12px; }
+  .fa2 h1 { font-size: 25px !important; }
+  .felora-sticky-cta a { font-size: 13px; letter-spacing: .2px; }
+}
+
+.fa2 .editorial-masthead { padding-top: 12px !important; margin: 0 0 18px !important; text-align: center; }
+.fa2 .masthead-rule { margin: 0 0 14px !important; }
+.fa2 .masthead-title { margin: 0 0 12px !important; }
+.fa2 .masthead-breadcrumb { text-align: left !important; font-family: 'Lato', Arial, sans-serif !important; font-size: 18px !important; line-height: 1.35 !important; color: #9fb6bf !important; text-decoration: none !important; max-width: 100% !important; }
+.fa2 .masthead-breadcrumb .crumb { text-decoration: underline !important; text-underline-offset: 4px; display: inline-block; }
+.fa2 .masthead-breadcrumb .sep { text-decoration: none !important; }
+
+.fa2 .masthead-separator { display: block !important; width: 100% !important; height: 2px !important; margin: 16px 0 10px !important; border: 0 !important; background: linear-gradient(to right, rgba(160,180,190,0) 0%, rgba(160,180,190,0.35) 12%, rgba(160,180,190,0.70) 50%, rgba(160,180,190,0.35) 88%, rgba(160,180,190,0) 100%) !important; opacity: 1 !important; box-shadow: 0 1px 0 rgba(255,255,255,0.55) inset !important; }
+@media (max-width: 768px) { .fa2 .masthead-separator { height: 2px !important; margin: 14px 0 8px !important; } }
+
+.fa2 h1 { font-size: 60px !important; line-height: 1.1 !important; }
+
+.felora-sticky-cta { opacity: 0; transform: translateY(100%); transition: opacity .25s ease, transform .25s ease; }
+.felora-sticky-cta.is-visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 768px) {
+  .fa2 .editorial-masthead { padding-top: 12px !important; margin: 0 0 16px !important; }
+  .fa2 .masthead-title { font-size: 20px !important; line-height: 1.05 !important; margin-bottom: 8px !important; }
+  .fa2 .masthead-breadcrumb { font-size: 12px !important; line-height: 1.3 !important; }
+  .fa2 .masthead-separator { margin-top: 12px !important; }
+  .fa2 h1 { font-size: 26px !important; line-height: 1.1 !important; }
+}
+@media (max-width: 480px) {
+  .fa2 .masthead-title { font-size: 19px !important; }
+  .fa2 .masthead-breadcrumb { font-size: 11.5px !important; }
+  .fa2 h1 { font-size: 25px !important; }
+}
+
+.fa2 .editorial-masthead { text-align: left !important; }
+.fa2 .masthead-title { text-align: left !important; }
+
+.felora-sticky-cta { position: fixed !important; left: 0 !important; right: 0 !important; bottom: 14px !important; z-index: 9999 !important; display: flex !important; justify-content: center !important; align-items: center !important; pointer-events: none !important; background: transparent !important; padding: 0 12px !important; opacity: 0; transform: translateY(12px); transition: opacity .25s ease, transform .25s ease; }
+.felora-sticky-cta.is-visible { opacity: 1 !important; transform: translateY(0) !important; }
+.felora-sticky-cta a { pointer-events: auto !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; width: auto !important; min-width: 280px !important; max-width: 92vw !important; margin: 0 auto !important; background: #377c9b !important; color: #fff !important; text-decoration: none !important; text-align: center !important; font-family: 'Lato', Arial, sans-serif !important; font-size: 16px !important; font-weight: 900 !important; letter-spacing: .2px !important; line-height: 1.2 !important; padding: 14px 24px !important; border-radius: 999px !important; box-shadow: 0 8px 24px rgba(0,0,0,.18) !important; border: 1px solid rgba(255,255,255,.18) !important; white-space: nowrap !important; text-transform: none !important; }
+body { padding-bottom: 90px !important; }
+
+@media (max-width: 768px) {
+  .felora-sticky-cta { bottom: 12px !important; padding: 0 10px !important; }
+  .felora-sticky-cta a { min-width: 0 !important; max-width: calc(100vw - 20px) !important; width: auto !important; font-size: 14px !important; padding: 13px 18px !important; border-radius: 999px !important; }
+  body { padding-bottom: 82px !important; }
+}
+@media (min-width: 769px) { .felora-sticky-cta a { min-width: 380px !important; } }
+</style>
+<style>
+.fa2 .author-photo-row { display: flex; gap: 28px; align-items: center; justify-content: flex-start; margin: 14px 0 26px; }
+.fa2 .author-photo-item { display: flex; align-items: center; gap: 10px; }
+.fa2 .author-thumb { width: 62px; height: 62px; border-radius: 50%; object-fit: cover; border: 2px solid #dde6ea; flex-shrink: 0; display: block; }
+.fa2 .author-thumb-label { font-family: 'Lato', Arial, sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #444; margin: 0; line-height: 1.5; }
+.fa2 .author-thumb-label span { display: block; font-weight: 400; color: #999; text-transform: none; letter-spacing: 0; font-size: 11px; }
+@media (max-width: 480px) { .fa2 .author-photo-row { gap: 16px; margin: 10px 0 20px; } .fa2 .author-thumb { width: 50px; height: 50px; } .fa2 .author-thumb-label { font-size: 10px; } }
+
+.fa2 .soft-skip-cta { font-family: Georgia, serif; font-size: 16px; font-style: italic; color: #666; text-align: center; margin: 18px 0 22px; padding: 14px 22px; background: #f7f9fa; border: 1px solid #dde6ea; border-radius: 6px; line-height: 1.7; }
+.fa2 .soft-skip-cta a { color: #2C6E8A; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 768px) { .fa2 .soft-skip-cta { font-size: 18px !important; padding: 14px 16px; } }
+
+.fa2 .soft-hint { font-family: Georgia, serif; font-size: 16px; font-style: italic; color: #777; text-align: center; margin: 18px 0; line-height: 1.7; }
+@media (max-width: 768px) { .fa2 .soft-hint { font-size: 18px !important; } }
+
+.fa2 .early-proof { margin: 44px 0 36px; }
+.fa2 .early-proof-heading { font-family: 'Lato', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #999; text-align: center; margin: 0 0 22px; }
+
+.fa2 .offer-price-row { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 0 0 10px; font-family: 'Lato', Arial, sans-serif; }
+.fa2 .price-was { font-size: 18px; color: #8ab8cc; text-decoration: line-through; font-weight: 700; }
+.fa2 .price-sep { font-size: 18px; color: #c9a227; }
+.fa2 .price-now { font-size: 30px; font-weight: 900; color: #c9a227; letter-spacing: -0.5px; }
+
+.fa2 .mid-guarantee { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #999; font-style: italic; margin: 10px 0 0; text-align: center; }
+@media (max-width: 768px) { .fa2 .mid-guarantee { font-size: 15px !important; } }
+
+.felora-sticky-cta a { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }
+
+@media (min-width: 769px) { .fa2 h1 { font-size: 65px !important; line-height: 1.09 !important; } }
+@media (max-width: 768px) {
+  .fa2 .reviewer { font-size: 11px !important; letter-spacing: 0.8px !important; margin-top: 10px !important; }
+  .fa2 .review-text { font-size: 16px !important; line-height: 1.65 !important; }
+  .fa2 .offer-guarantee { font-size: 12px !important; line-height: 1.6 !important; letter-spacing: 0 !important; }
+}
+</style>
+<style>
+.fa2 h1 mark { background: #F1E77C; padding: 4px 8px; line-height: 1.3; display: inline; font-style: normal; color: #1a1a2e; border-radius: 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+
+.fa2 .breadcrumb { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #999; margin: 0 0 14px; letter-spacing: 0.5px; }
+.fa2 .breadcrumb span { color: #bbb; margin: 0 6px; }
+
+.fa2 .author-box { display: flex; align-items: center; gap: 20px; background: #f4f9fc; border: 1px solid #d0e8f2; border-left: 4px solid #2C6E8A; border-radius: 0 8px 8px 0; padding: 20px 24px; margin: 24px 0 32px; }
+.fa2 .author-photo { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; object-position: top center; flex-shrink: 0; border: 3px solid #2C6E8A; }
+.fa2 .author-name { font-family: 'Lato', Arial, sans-serif; font-weight: 900; font-size: 16px; color: #1a1a2e; margin: 0 0 4px; letter-spacing: 0.3px; }
+.fa2 .author-title { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #2C6E8A; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 6px; }
+.fa2 .author-bio { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #666; line-height: 1.55; margin: 0; font-style: italic; }
+.fa2 .author-warning { font-family: 'Lato', Arial, sans-serif; font-size: 12px; color: #c0392b; font-weight: 700; letter-spacing: 0.5px; margin: 8px 0 0; text-transform: uppercase; }
+.fa2 h1 { line-height: 1.25 !important; }
+.fa2 .pull-quote { font-family: Arial, sans-serif !important; font-size: 24px !important; font-weight: 900 !important; font-style: normal !important; line-height: 1.25 !important; padding: 22px 28px !important; }
+@media (max-width: 768px) { .fa2 .pull-quote { font-size: 18px !important; line-height: 1.25 !important; padding: 18px 16px !important; } }
+@media (max-width: 480px) { .fa2 .pull-quote { font-size: 17px !important; line-height: 1.22 !important; padding: 16px 14px !important; } }
+
+.fa2 .conspiracy-box { background: #1a1a2e; color: #fff; padding: 32px 36px; border-radius: 8px; margin: 32px 0; border-left: 5px solid #2C6E8A; }
+.fa2 .conspiracy-box h2 { color: #fff; border-left: none; padding-left: 0; font-size: 26px; margin-top: 0; }
+.fa2 .conspiracy-box p { color: rgba(255,255,255,0.88); font-size: 19px; line-height: 1.75; }
+.fa2 .conspiracy-box p:last-child { margin-bottom: 0; }
+
+.fa2 .timeline-box { background: #f4f9fc; border-left: 4px solid #2C6E8A; border-radius: 0 8px 8px 0; padding: 28px 30px; margin: 32px 0; }
+.fa2 .timeline-label { font-family: 'Lato', Arial, sans-serif; font-size: 10px; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; color: #2C6E8A; margin: 0 0 20px; }
+.fa2 .timeline-item { display: flex; gap: 16px; margin-bottom: 16px; align-items: flex-start; }
+.fa2 .timeline-item:last-of-type { margin-bottom: 20px; }
+.fa2 .timeline-day { font-family: 'Lato', Arial, sans-serif; font-weight: 900; font-size: 12px; color: #fff; background: #2C6E8A; padding: 3px 10px; border-radius: 20px; white-space: nowrap; letter-spacing: 0.5px; flex-shrink: 0; margin-top: 3px; text-transform: uppercase; }
+.fa2 .timeline-text { font-family: Georgia, serif; font-size: 18px; color: #333; line-height: 1.65; margin: 0; }
+.fa2 .timeline-attribution { font-family: 'Lato', Arial, sans-serif; font-size: 12px; color: #999; letter-spacing: 1.5px; text-transform: uppercase; border-top: 1px solid #d0e8f2; padding-top: 14px; margin-top: 4px; }
+
+.fa2 .comparison-block { margin: 28px 0; }
+.fa2 .comparison-block h4 { font-family: 'Lato', Arial, sans-serif; font-size: 11px; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; color: #999; margin: 0 0 14px; }
+.fa2 .comparison-row { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid #eee; gap: 12px; }
+.fa2 .comparison-row:last-child { border-bottom: none; }
+.fa2 .comp-label { font-family: Georgia, serif; font-size: 18px; color: #333; flex: 1; }
+.fa2 .comp-result { font-family: 'Lato', Arial, sans-serif; font-weight: 900; font-size: 15px; letter-spacing: 0.5px; white-space: nowrap; }
+.fa2 .comp-result.good { color: #2C6E8A; }
+.fa2 .comp-result.bad { color: #aaa; }
+.fa2 .comp-icon { font-size: 18px; flex-shrink: 0; }
+
+.fa2 .works-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 28px 0; }
+.fa2 .works-box { padding: 26px 24px; border-radius: 8px; }
+.fa2 .works-box.yes { background: #f0faf5; border: 1px solid #b8e0c8; }
+.fa2 .works-box.no { background: #fdf4f4; border: 1px solid #e8c0c0; }
+.fa2 .works-title { font-family: 'Lato', Arial, sans-serif; font-weight: 900; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; margin: 0 0 16px; display: flex; align-items: center; gap: 8px; }
+.fa2 .works-box.yes .works-title { color: #1a6b3a; }
+.fa2 .works-box.no .works-title { color: #8b2020; }
+.fa2 .works-item { font-family: Georgia, serif; font-size: 17px; color: #333; line-height: 1.55; margin-bottom: 10px; padding-left: 22px; position: relative; }
+.fa2 .works-item::before { position: absolute; left: 0; top: 1px; }
+.fa2 .works-box.yes .works-item::before { content: "✓"; color: #1a6b3a; font-weight: 900; }
+.fa2 .works-box.no .works-item::before { content: "✗"; color: #8b2020; font-weight: 900; }
+
+.fa2 .price-story { background: #1a1a2e; color: #fff; padding: 36px 40px; border-radius: 8px; margin: 36px 0; position: relative; overflow: hidden; }
+.fa2 .price-story::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: #2C6E8A; }
+.fa2 .price-story h2 { color: #fff; border-left: none; padding-left: 0; font-size: 28px; margin-top: 0; }
+.fa2 .price-story p { color: rgba(255,255,255,0.88); font-size: 19px; line-height: 1.78; }
+.fa2 .price-story p:last-child { margin-bottom: 0; }
+.fa2 .price-compare-row { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.12); }
+.fa2 .price-compare-row:last-child { border-bottom: none; }
+.fa2 .price-compare-label { font-family: Georgia, serif; font-size: 18px; color: rgba(255,255,255,0.85); }
+.fa2 .price-compare-value { font-family: 'Lato', Arial, sans-serif; font-weight: 900; font-size: 20px; color: #fff; }
+.fa2 .price-compare-value.highlight { color: #F1E77C; }
+
+.fa2 .urgency-note { background: #fff8e6; border: 1px solid #f5c842; border-left: 4px solid #f5c842; border-radius: 0 6px 6px 0; padding: 16px 20px; margin: 24px 0; font-family: 'Lato', Arial, sans-serif; font-size: 15px; color: #7a5c00; font-weight: 700; letter-spacing: 0.3px; }
+
+@media (max-width: 768px) {
+  .fa2 .author-box { flex-direction: column; text-align: center; padding: 20px 16px; gap: 14px; }
+  .fa2 .author-photo { width: 70px; height: 70px; }
+  .fa2 .author-name { font-size: 15px; }
+  .fa2 .author-title { font-size: 11px; }
+  .fa2 .author-bio { font-size: 13px; }
+  .fa2 .conspiracy-box { padding: 24px 18px; }
+  .fa2 .conspiracy-box h2 { font-size: 22px !important; }
+  .fa2 .conspiracy-box p { font-size: 17px !important; }
+  .fa2 .timeline-box { padding: 22px 16px; }
+  .fa2 .timeline-day { font-size: 10px; padding: 3px 8px; }
+  .fa2 .timeline-text { font-size: 16px; }
+  .fa2 .works-grid { grid-template-columns: 1fr; gap: 14px; }
+  .fa2 .works-item { font-size: 16px; }
+  .fa2 .price-story { padding: 24px 18px; }
+  .fa2 .price-story h2 { font-size: 22px !important; }
+  .fa2 .price-story p { font-size: 17px !important; }
+  .fa2 .price-compare-label { font-size: 16px; }
+  .fa2 .price-compare-value { font-size: 18px; }
+  .fa2 .comparison-row { flex-wrap: wrap; gap: 6px; }
+  .fa2 .comp-label { font-size: 16px; }
+  .fa2 .comp-result { font-size: 14px; }
+  .fa2 h1 mark { padding: 1px 4px; }
+}
+@media (max-width: 480px) {
+  .fa2 .conspiracy-box h2 { font-size: 20px !important; }
+  .fa2 .price-story h2 { font-size: 20px !important; }
+  .fa2 .timeline-text { font-size: 15px; }
+  .fa2 .works-item { font-size: 15px; }
+}
+</style>
+
+<style>
+/* =====================================================
+   NEW COMPONENTS — Phase 6
+   ===================================================== */
+
+/* ANNOUNCEMENT BAR */
+.adv-announcement-bar { background: #1a1a2e; color: #fff; text-align: center; padding: 10px 16px; font-family: 'Lato', Arial, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.5px; display: flex; align-items: center; justify-content: center; gap: 12px; }
+.adv-announcement-bar .announcement-text { color: #c9a227; }
+.adv-announcement-bar .announcement-timer { color: #fff; font-variant-numeric: tabular-nums; }
+@media (max-width: 768px) { .adv-announcement-bar { font-size: 12px; padding: 8px 12px; flex-wrap: wrap; gap: 6px; } }
+
+/* FACEBOOK COMMENTS */
+.fa2 .fb-comments-section { margin: 40px 0; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #fff; }
+.fa2 .fb-comments-header { display: flex; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid #eee; background: #f7f7f7; }
+.fa2 .fb-logo { background: #1877f2; color: #fff; font-family: Georgia, serif; font-weight: 900; font-size: 16px; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.fa2 .fb-heading { font-family: 'Lato', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #333; }
+.fa2 .fb-add-comment { display: flex; align-items: center; gap: 10px; padding: 12px 18px; border-bottom: 1px solid #f0f0f0; }
+.fa2 .fb-avatar-placeholder { width: 36px; height: 36px; border-radius: 50%; background: #ccc; flex-shrink: 0; }
+.fa2 .fb-comment-input { flex: 1; border: 1px solid #ddd; border-radius: 20px; padding: 8px 16px; font-family: 'Lato', Arial, sans-serif; font-size: 14px; color: #888; background: #f0f2f5; cursor: default; }
+.fa2 .fb-comment { display: flex; gap: 10px; padding: 14px 18px; border-bottom: 1px solid #f5f5f5; align-items: flex-start; }
+.fa2 .fb-comment:last-child { border-bottom: none; }
+.fa2 .fb-comment-avatar { width: 36px; height: 36px; border-radius: 50%; overflow: hidden; flex-shrink: 0; background: #ccc; }
+.fa2 .fb-comment-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.fa2 .fb-comment-body { flex: 1; }
+.fa2 .fb-comment-bubble { background: #f0f2f5; border-radius: 18px; padding: 10px 14px; display: inline-block; max-width: 100%; }
+.fa2 .fb-commenter-name { font-family: 'Lato', Arial, sans-serif; font-size: 13px; font-weight: 900; color: #1c1e21; display: block; margin-bottom: 4px; }
+.fa2 .fb-comment-bubble p { font-family: 'Lato', Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.5; margin: 0; }
+.fa2 .fb-comment-meta { display: flex; gap: 12px; margin-top: 6px; padding-left: 4px; align-items: center; flex-wrap: wrap; }
+.fa2 .fb-like-btn, .fa2 .fb-reply-btn { font-family: 'Lato', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #606770; cursor: pointer; }
+.fa2 .fb-time { font-family: 'Lato', Arial, sans-serif; font-size: 11px; color: #999; }
+.fa2 .fb-likes-count { font-family: 'Lato', Arial, sans-serif; font-size: 12px; color: #606770; margin-left: auto; }
+@media (max-width: 768px) { .fa2 .fb-comment-bubble p { font-size: 15px !important; } .fa2 .fb-commenter-name { font-size: 14px !important; } }
+
+/* COUNTDOWN TIMER */
+.fa2 .countdown-timer { background: #1a1a2e; color: #fff; padding: 20px 28px; border-radius: 8px; margin: 24px 0; text-align: center; }
+.fa2 .countdown-banner { background: #c9a227; }
+.fa2 .countdown-offer_box { background: transparent; border: 1px solid rgba(255,255,255,0.2); padding: 14px 20px; margin: 12px 0 0; }
+.fa2 .countdown-label { font-family: 'Lato', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #8ab8cc; display: block; margin-bottom: 10px; }
+.fa2 .countdown-banner .countdown-label { color: #1a1a2e; }
+.fa2 .countdown-display { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.fa2 .countdown-unit { text-align: center; }
+.fa2 .countdown-num { font-family: 'Lato', Arial, sans-serif; font-size: 40px; font-weight: 900; color: #c9a227; font-variant-numeric: tabular-nums; display: block; line-height: 1; }
+.fa2 .countdown-banner .countdown-num { color: #1a1a2e; }
+.fa2 .countdown-unit-label { font-family: 'Lato', Arial, sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #8ab8cc; }
+.fa2 .countdown-banner .countdown-unit-label { color: #1a1a2e; }
+.fa2 .countdown-sep { font-size: 32px; font-weight: 900; color: #c9a227; line-height: 1; padding-bottom: 14px; }
+@media (max-width: 768px) { .fa2 .countdown-num { font-size: 32px !important; } }
+
+/* PRODUCT CARD (mid-article) */
+.fa2 .product-card-mid { display: flex; gap: 20px; align-items: flex-start; background: #f4f9fc; border: 1px solid #d0e8f2; border-radius: 10px; padding: 20px; margin: 32px 0; }
+.fa2 .product-card-img { width: 120px; height: 120px; object-fit: contain; flex-shrink: 0; border-radius: 6px; }
+.fa2 .product-card-info { flex: 1; }
+.fa2 .product-card-name { font-family: 'Lato', Arial, sans-serif; font-size: 16px; font-weight: 900; color: #1a1a2e; margin: 0 0 6px; }
+.fa2 .product-card-rating { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #f5a623; margin-bottom: 8px; }
+.fa2 .product-card-rating span { color: #888; }
+.fa2 .product-card-price { margin-bottom: 10px; }
+.fa2 .product-price-was { font-family: 'Lato', Arial, sans-serif; font-size: 14px; color: #aaa; text-decoration: line-through; margin-right: 8px; }
+.fa2 .product-price-now { font-family: 'Lato', Arial, sans-serif; font-size: 20px; font-weight: 900; color: #c9a227; }
+.fa2 .sellout-bar { height: 6px; background: #eee; border-radius: 3px; margin-bottom: 4px; overflow: hidden; }
+.fa2 .sellout-fill { height: 100%; border-radius: 3px; }
+.fa2 .sellout-high { width: 85%; background: linear-gradient(to right, #e74c3c, #c0392b); }
+.fa2 .sellout-medium { width: 55%; background: linear-gradient(to right, #f39c12, #d68910); }
+.fa2 .sellout-low { width: 30%; background: #2ecc71; }
+.fa2 .sellout-label { font-family: 'Lato', Arial, sans-serif; font-size: 11px; color: #c0392b; font-weight: 700; margin: 0 0 10px; }
+@media (max-width: 600px) { .fa2 .product-card-mid { flex-direction: column; } .fa2 .product-card-img { width: 100%; height: auto; max-height: 180px; } }
+
+/* COST COMPARISON TABLE */
+.fa2 .cost-comparison { margin: 36px 0; }
+.fa2 .cost-comparison-heading { font-family: 'Playfair Display', Georgia, serif; font-size: 24px; font-weight: 700; color: #1a1a2e; margin: 0 0 16px; }
+.fa2 .cost-table { width: 100%; border-collapse: collapse; font-family: 'Lato', Arial, sans-serif; }
+.fa2 .cost-table th { background: #1a1a2e; color: #fff; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; padding: 12px 16px; text-align: left; }
+.fa2 .cost-table td { padding: 12px 16px; font-size: 15px; color: #333; border-bottom: 1px solid #eee; }
+.fa2 .cost-table tr:nth-child(even) td { background: #f9f9f9; }
+.fa2 .cost-table tr.cost-winner td { background: #e8f5f0; font-weight: 700; color: #1a6b3a; border-left: 3px solid #1a6b3a; }
+@media (max-width: 600px) { .fa2 .cost-table th, .fa2 .cost-table td { padding: 10px 10px; font-size: 14px; } }
+
+/* TRUST BADGES */
+.fa2 .trust-badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin: 32px 0; padding: 24px; background: #f9f9f9; border-radius: 8px; border: 1px solid #eee; }
+.fa2 .trust-badge { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 80px; }
+.fa2 .badge-icon { font-size: 24px; line-height: 1; }
+.fa2 .badge-label { font-family: 'Lato', Arial, sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #555; text-align: center; line-height: 1.3; }
+@media (max-width: 480px) { .fa2 .trust-badges { gap: 12px; padding: 18px 14px; } .fa2 .trust-badge { min-width: 70px; } }
+
+/* INGREDIENT SPOTLIGHT */
+.fa2 .ingredient-spotlight { display: flex; gap: 20px; align-items: flex-start; background: #f0faf5; border: 1px solid #b8e0c8; border-left: 4px solid #1a6b3a; border-radius: 0 8px 8px 0; padding: 20px 24px; margin: 24px 0; }
+.fa2 .ingredient-img { width: 80px; height: 80px; object-fit: contain; flex-shrink: 0; }
+.fa2 .ingredient-name { font-family: 'Lato', Arial, sans-serif; font-size: 14px; font-weight: 900; text-transform: uppercase; letter-spacing: 1.5px; color: #1a6b3a; margin: 0 0 6px; }
+.fa2 .ingredient-desc { font-family: Georgia, serif; font-size: 16px; color: #333; line-height: 1.65; margin: 0 0 8px; }
+.fa2 .ingredient-stat { font-family: 'Lato', Arial, sans-serif; font-size: 13px; font-weight: 700; color: #2C6E8A; margin: 0; }
+@media (max-width: 600px) { .fa2 .ingredient-spotlight { flex-direction: column; } }
+
+/* FUTURE PACING */
+.fa2 .future-pacing { background: linear-gradient(135deg, #e8f5f0, #f0faf5); border: 1px solid #b8e0c8; border-left: 4px solid #1a6b3a; border-radius: 0 8px 8px 0; padding: 28px 32px; margin: 36px 0; }
+.fa2 .future-pacing-heading { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; font-style: italic; color: #1a6b3a; margin: 0 0 14px; }
+.fa2 .future-pacing-text { font-family: Georgia, serif; font-size: 19px; font-style: italic; color: #2d4a35; line-height: 1.8; margin: 0; }
+@media (max-width: 768px) { .fa2 .future-pacing { padding: 20px 18px; } .fa2 .future-pacing-text { font-size: 18px !important; } }
+
+/* NEGATIVE FUTURE PACING */
+.fa2 .negative-future-pacing { background: #f9f5f0; border: 1px solid #e0d0c0; border-left: 4px solid #999; border-radius: 0 8px 8px 0; padding: 24px 32px; margin: 16px 0 36px; }
+.fa2 .neg-pacing-heading { font-family: 'Lato', Arial, sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #888; margin: 0 0 10px; }
+.fa2 .neg-pacing-text { font-family: Georgia, serif; font-size: 18px; color: #666; line-height: 1.75; margin: 0; font-style: italic; }
+@media (max-width: 768px) { .fa2 .negative-future-pacing { padding: 18px 16px; } .fa2 .neg-pacing-text { font-size: 17px !important; } }
+
+/* IDENTIFICATION STATEMENT */
+.fa2 .identification-statement { background: #f0f7fa; border: 1px solid #d0e8f0; border-radius: 6px; padding: 20px 24px; margin: 24px 0; font-family: 'Lato', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #2C6E8A; line-height: 1.6; }
+.fa2 .identification-statement p { font-family: 'Lato', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #2C6E8A; margin: 0; }
+@media (max-width: 768px) { .fa2 .identification-statement p { font-size: 17px !important; } }
+
+/* PERMISSION TO HOPE */
+.fa2 .permission-to-hope { border-top: 2px solid #2C6E8A; border-bottom: 2px solid #2C6E8A; padding: 24px 8px; margin: 36px 0; text-align: center; }
+.fa2 .permission-to-hope p { font-family: Georgia, serif; font-size: 20px; font-style: italic; color: #1a1a2e; line-height: 1.75; margin: 0; }
+@media (max-width: 768px) { .fa2 .permission-to-hope p { font-size: 19px !important; } }
+
+/* PAIN AMPLIFICATION */
+.fa2 .pain-amplification { background: #1a1a2e; border-left: 5px solid #c0392b; border-radius: 0 8px 8px 0; padding: 28px 32px; margin: 32px 0; }
+.fa2 .pain-amplification p { font-family: Georgia, serif; font-size: 19px; color: rgba(255,255,255,0.88); line-height: 1.8; margin: 0; }
+@media (max-width: 768px) { .fa2 .pain-amplification { padding: 20px 18px; } .fa2 .pain-amplification p { font-size: 17px !important; } }
+
+/* SUNK COST REFRAME */
+.fa2 .sunk-cost-reframe { background: #f9f9f9; border: 1px solid #e0e0e0; border-radius: 8px; padding: 24px 28px; margin: 28px 0; font-style: italic; }
+.fa2 .sunk-cost-reframe p { font-family: Georgia, serif; font-size: 18px; color: #444; line-height: 1.8; margin: 0; }
+@media (max-width: 768px) { .fa2 .sunk-cost-reframe p { font-size: 17px !important; } }
+
+/* FAQ */
+.fa2 .faq-section { margin: 36px 0; }
+.fa2 .faq-heading { font-family: 'Playfair Display', Georgia, serif; font-size: 24px; font-weight: 700; color: #1a1a2e; margin: 0 0 20px; }
+.fa2 .faq-item { border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 10px; overflow: hidden; }
+.fa2 .faq-question { width: 100%; background: #f9f9f9; border: none; padding: 16px 20px; font-family: 'Lato', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #1a1a2e; text-align: left; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.fa2 .faq-question:hover { background: #f0f7fa; }
+.fa2 .faq-arrow { font-size: 12px; color: #2C6E8A; transition: transform 0.2s; flex-shrink: 0; }
+.fa2 .faq-item.faq-open .faq-arrow { transform: rotate(180deg); }
+.fa2 .faq-answer { display: none; padding: 16px 20px; background: #fff; border-top: 1px solid #eee; }
+.fa2 .faq-item.faq-open .faq-answer { display: block; }
+.fa2 .faq-answer p { font-family: Georgia, serif; font-size: 17px; color: #444; line-height: 1.75; margin: 0; }
+@media (max-width: 768px) { .fa2 .faq-question { font-size: 17px !important; padding: 14px 16px !important; } .fa2 .faq-answer p { font-size: 17px !important; } }
+
+/* VIDEO EMBED */
+.fa2 .video-embed-wrap { margin: 28px 0; }
+.fa2 .video-thumbnail { position: relative; cursor: pointer; border-radius: 8px; overflow: hidden; }
+.fa2 .video-thumbnail img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
+.fa2 .video-play-btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 64px; height: 64px; background: rgba(0,0,0,0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; color: #fff; pointer-events: none; }
+.fa2 .video-thumbnail:hover .video-play-btn { background: rgba(44,110,138,0.9); }
+
+/* VIDEO TESTIMONIAL */
+.fa2 .video-testimonial { margin: 28px 0; }
+.fa2 .video-testimonial-name { font-family: 'Lato', Arial, sans-serif; font-size: 13px; font-weight: 700; color: #2C6E8A; text-transform: uppercase; letter-spacing: 1px; margin: 10px 0 4px; }
+.fa2 .video-testimonial-result { font-family: Georgia, serif; font-size: 15px; font-style: italic; color: #555; margin: 0; }
+
+/* BEFORE / AFTER */
+.fa2 .before-after { margin: 32px 0; }
+.fa2 .before-after-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.fa2 .before-panel, .fa2 .after-panel { text-align: center; }
+.fa2 .before-panel img, .fa2 .after-panel img { width: 100%; border-radius: 6px; display: block; }
+.fa2 .ba-label { font-family: 'Lato', Arial, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin: 8px 0 0; }
+.fa2 .before-label { color: #c0392b; }
+.fa2 .after-label { color: #1a6b3a; }
+@media (max-width: 480px) { .fa2 .before-after-grid { grid-template-columns: 1fr; } }
+
+/* MEDIA MENTIONS */
+.fa2 .media-mentions { margin: 36px 0; text-align: center; }
+.fa2 .media-mentions-label { font-family: 'Lato', Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #999; margin: 0 0 18px; }
+.fa2 .media-logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 24px; }
+.fa2 .media-logo-item img { height: 28px; width: auto; filter: grayscale(100%); opacity: 0.5; }
+.fa2 .media-logo-item:hover img { filter: none; opacity: 1; }
+.fa2 .media-outlet-text { font-family: 'Lato', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #bbb; text-transform: uppercase; letter-spacing: 1.5px; }
+
+/* UGC SCREENSHOTS */
+.fa2 .ugc-section { margin: 36px 0; }
+.fa2 .ugc-heading { font-family: 'Playfair Display', Georgia, serif; font-size: 22px; color: #1a1a2e; margin: 0 0 20px; }
+.fa2 .ugc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.fa2 .ugc-item img { width: 100%; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+.fa2 .ugc-caption { font-family: 'Lato', Arial, sans-serif; font-size: 12px; color: #888; margin: 6px 0 0; }
+@media (max-width: 480px) { .fa2 .ugc-grid { grid-template-columns: 1fr; } }
+
+/* WHAT HAPPENS AFTER CLICK */
+.fa2 .what-happens { background: #f0f7fa; border: 1px solid #d0e8f0; border-radius: 8px; padding: 20px 24px; margin: 16px 0 24px; }
+.fa2 .what-happens-steps { list-style: none; padding: 0; margin: 0; counter-reset: steps; }
+.fa2 .what-happens-steps li { counter-increment: steps; display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid #e0eef5; font-family: 'Lato', Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.5; }
+.fa2 .what-happens-steps li:last-child { border-bottom: none; }
+.fa2 .what-happens-steps li::before { content: counter(steps); background: #2C6E8A; color: #fff; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+/* LAST CHANCE */
+.fa2 .last-chance { border-top: 1px solid #eee; margin: 32px 0 16px; padding: 20px 0 0; }
+.fa2 .last-chance p { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #888; line-height: 1.65; margin: 0 0 6px; }
+.fa2 .last-chance p:last-child { margin: 0; }
+
+/* Product card gifts text */
+.fa2 .product-card-gifts { font-family: 'Lato', Arial, sans-serif; font-size: 13px; color: #2C6E8A; font-weight: 700; margin: 8px 0 4px; line-height: 1.5; }
+
+/* Tighten gap between countdown timer and offer box */
+.fa2 .countdown-timer { margin-bottom: 0 !important; }
+.fa2 .offer-box { margin-top: 16px !important; }
+
+/* P.S. LINE */
+.fa2 .ps-line { margin: 16px 0 24px; padding: 16px 0; border-top: 1px solid #eee; }
+.fa2 .ps-line p { font-family: Georgia, serif; font-size: 15px; font-style: italic; color: #666; line-height: 1.75; margin: 0; }
+@media (max-width: 768px) { .fa2 .ps-line p { font-size: 16px !important; } }
+
+/* LEGAL FOOTER */
+.fa2 .legal-footer { margin-top: 24px; padding-top: 18px; border-top: 1px solid #eee; }
+.fa2 .fda-disclaimer { font-family: 'Lato', Arial, sans-serif; font-size: 10px; color: #bbb; line-height: 1.6; text-align: center; margin-bottom: 8px; font-style: italic; }
+.fa2 .disclaimer { font-family: 'Lato', Arial, sans-serif; font-size: 10px !important; color: #bbb; text-align: center; line-height: 1.6; margin-top: 0; }
+</style>
+
+<!-- OUTER WRAPPER WITH SIDE PANELS -->
+<div class="fav2-outer">
+
+<!-- LEFT SIDE PANEL (desktop only) -->
+<div class="fav2-side">
+
+<div class="fav2-side-inner">
+  <img alt="Romira PEA 600mg &#8212; 99% pure micronized Palmitoylethanolamide" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164"/>
+  <div class="fav2-side-label">LIMITED STOCK</div>
+  <a class="fav2-side-cta" href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support">Try Risk-Free Today</a>
+</div>
+
+</div>
+
+<!-- MAIN ARTICLE -->
+<div class="fa2">
+
+<!-- EDITORIAL MASTHEAD -->
+<div class="editorial-masthead">
+  <div class="masthead-title">HEALTH DISCOVERY REVIEW</div>
+  <div class="masthead-breadcrumb">
+    
+    <span class="crumb">Home</span><span class="sep">&rarr;</span>
+    
+    <span class="crumb">Health</span><span class="sep">&rarr;</span>
+    
+    <span class="crumb">Pain &amp; Comfort</span><span class="sep">&rarr;</span>
+    
+    <span class="crumb">Investigative Report</span>
+    
+  </div>
+  <div class="masthead-separator"></div>
+</div>
+
+<!-- HEADLINE -->
+<h1>Why Stretching and Painkillers <mark>Don&#8217;t Fix Recurring Lower Back Discomfort</mark> &#8212; And the Molecule a Nobel Prize-Winning Neuroscientist Says Actually Does</h1>
+
+<!-- SUBHEADLINE -->
+<p class="subheadline"><em><strong>Doctors have been telling people with chronic back and nerve discomfort to stretch more, take ibuprofen, and manage their expectations. A Nobel Prize-winning neuroscientist spent decades researching why that advice was missing something critical &#8212; and what the body actually needs.</strong></em></p>
+
+<!-- BYLINE -->
+<div class="byline">
+  By Health Discovery Review
+  <span class="sep">|</span>
+  Investigative Health Report
+  <span class="sep">|</span>
+  May 2026
+  <span class="sep">|</span>
+  Advertorial
+</div>
+
+<!-- AUTHOR BOX --><p class="author-warning author-warning-below">&#9888; This report has been shared over 47,000 times. Read it now while it&#8217;s still available.</p>
+
+<!-- ARTICLE BODY -->
+
+  <div class="adv-img-wrap">
+    <img alt="Woman sitting on the edge of her bed in the morning, bracing herself to stand up" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_headline_on_her_bed.png?v=1777407166"/>
+  </div>
+  <p class="img-caption">For millions of people over 50, this moment &#8212; the first attempt to stand &#8212; has become the most honest measure of how much has quietly changed.</p>
+
+  <div class="identification-statement">
+    <p>If you brace before you stand. If the first ten steps of the morning are the worst of the day. If you&#8217;ve been taking ibuprofen so long your doctor is worried about your kidneys &#8212; but every time you try to stop, everything comes roaring back within 48 hours. If you&#8217;ve tried the CBD, the turmeric, the physio, the stretching routine that helps for a day and then doesn&#8217;t. If a doctor has told you it&#8217;s just age, and somewhere in the back of your mind you knew there had to be more to it than that. Then keep reading.</p>
+  </div>
+
+  <p class="lead">Carol was 57 when she stopped going to church on Sunday mornings. Not because of anything dramatic. Because the wooden pews had become something she could no longer sit through. The aching in her lower back &#8212; which had started in her early fifties as morning stiffness, graduated to all-day discomfort by 54, and settled into a constant background companion by 56 &#8212; had quietly taken over the decisions in her life. Where she sat. How long she stood. Whether she went at all. &#8220;I had stopped making plans,&#8221; she said. &#8220;Because I could never be sure how I&#8217;d feel.&#8221;</p>
+
+  <p>She had done everything a person is supposed to do. Physical therapy &#8212; twice. Yoga, then swimming, then a specific stretching routine her daughter found online designed for lower back pain. The big Costco tub of glucosamine. Two bottles of turmeric capsules. CBD oil for six weeks, faithfully, twice a day. Ibuprofen every morning for over two years &#8212; until her doctor started warning her about her kidneys. Every time she tried to cut back, she was in more pain within 48 hours than before she started.</p>
+
+  <p>None of it had failed exactly. All of it had stopped working &#8212; or had never quite started. And she had begun to quietly accept that this was just what being 57 felt like. That the part of her that gardened and walked and got on the floor with her grandkids was simply not coming back. &#8220;I wasn&#8217;t even angry about it anymore,&#8221; she said. &#8220;I was just tired. I&#8217;d made peace with a smaller life.&#8221;</p>
+
+  <p>What Carol didn&#8217;t know &#8212; and what millions of people in the same situation don&#8217;t know &#8212; is that the reason none of those things worked long-term has nothing to do with her joints, her fitness level, or her age. It has to do with a specific type of immune cell inside her nervous system. And what happens to it after 50.</p>
+
+  <div class="divider">* * *</div>
+
+  <h2>Why Everything You&#8217;ve Tried Has Stopped Working</h2>
+
+  <div class="adv-img-wrap">
+    <img alt="Bottles of pain medication and supplements spread across a table" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Meds_on_the_table.png?v=1777407167"/>
+  </div>
+  <p class="img-caption">The drawer. Most people with chronic back and joint discomfort know it by heart. Everything in it has a story. None of them ended the way you hoped.</p>
+
+  <p>Here is something very few doctors explain clearly: stretching, ibuprofen, physical therapy, and most supplements are all aimed at different parts of a problem. The problem is that none of them are aimed at the actual cause of why the pain keeps returning.</p>
+
+  <p><strong>Stretching and physical therapy</strong> work on the mechanical structure of your body &#8212; the muscles, posture, and load on your joints. For some kinds of pain, that is exactly the right approach. But chronic recurring discomfort &#8212; the kind that comes back every morning, never fully quiets down, and has been there every day for years &#8212; is not primarily a mechanical problem. It is a chemical one. You can do the stretches perfectly and still hurt because the thing driving the pain is happening at the cellular level, not in your hamstrings.</p>
+
+  <p><strong>Ibuprofen and Aleve</strong> explain the trap better than anything else. They work by blocking a signal. While you take them, the signal is muffled. The moment you stop, the signal comes back &#8212; exactly as loud as before &#8212; because nothing was ever actually resolved. Your body is in exactly the same state it was before you took the first one. You borrowed the relief, and your body takes it back the day you stop paying. That is not a flaw in the medication. That is how it was designed. It was never meant to fix the cause.</p>
+
+  <p><strong>CBD, turmeric, and glucosamine</strong> are aimed at real things &#8212; just different real things. CBD works on the part of the nervous system that handles stress and mood. That is why some people feel calmer after taking it but notice almost nothing in their joints. Turmeric has genuine properties, but most capsules from the drugstore do not absorb &#8212; the active part passes through before it reaches anything useful. Glucosamine supports cartilage structure, which is a different issue entirely. You can have perfectly preserved cartilage and still be in daily pain. These products are not fraudulent. They are aimed at the wrong target.</p>
+
+  <div class="pull-quote">&#8220;The reason nothing has worked long-term is not that you&#8217;ve been unlucky or that your body is unusually broken. It&#8217;s that everything you&#8217;ve tried has been aimed at the symptom. Not the cause. And the cause is something entirely different.&#8221;</div>
+
+  <div class="divider">* * *</div>
+
+  <h2>The Real Reason the Pain Keeps Coming Back</h2>
+
+  <p>Inside your nervous system there is a type of immune cell called a <strong>glial cell</strong>. Think of it as your body&#8217;s internal alarm system. When you injure a joint, strain a muscle, or compress a nerve, glial cells activate immediately. They flood the area with inflammatory signals &#8212; which is exactly what they are supposed to do. Inflammation is how the body begins to heal. Under normal circumstances, once the injury is addressed, the glial cells quiet back down and the inflammation resolves.</p>
+
+  <p>After 50, something changes. The glial cells &#8212; and their partners, a type of cell called mast cells &#8212; become less responsive to the signal telling them to switch off. They get stuck in the &#8220;on&#8221; position. The original injury or structural issue may have healed years ago. But the cellular fire keeps burning. And it keeps sending pain signals along the nerves &#8212; through the lower back, down the leg, into the hips &#8212; long after the original trigger is gone.</p>
+
+  <p>This is why recurring back and nerve discomfort feels different from an acute injury. An acute injury hurts badly, then gets better. Chronic discomfort driven by overactive glial and mast cells just stays. It is not getting worse because you are doing something wrong. It is staying because the cellular switch that should turn it off has stopped working the way it used to. And no amount of stretching, icing, or painkillers addresses that switch.</p>
+
+  <p>This is the cellular cause that most doctors have never explained &#8212; not because they are hiding it, but because the research that clarifies it only became fully understood in the last 30 years. Thanks, in large part, to one woman.</p>
+
+  <div class="divider">* * *</div>
+
+  <h2>The Nobel Prize-Winning Discovery Most People Have Never Heard Of</h2>
+
+  <div class="adv-img-wrap">
+    <img alt="Woman carefully holding a rail while descending stairs &#8212; a daily challenge for millions with chronic back and joint discomfort" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_on_stairs.png?v=1777407166"/>
+  </div>
+  <p class="img-caption">The stairs. The couch. The car door. Every small movement becomes a calculation when the cellular switch is stuck in the &#8220;on&#8221; position. Understanding why that happens &#8212; and how to fix it &#8212; was the life&#8217;s work of a Nobel Prize-winning neuroscientist.</p>
+
+  <p>Dr. Rita Levi-Montalcini won the Nobel Prize in Physiology or Medicine in 1986 for her work on how cells grow and communicate in the nervous system. She continued working until she was over 100 years old. What she spent much of her later career investigating was the question of how the body naturally resolves inflammation &#8212; not suppresses it, but actually finishes it and turns it off.</p>
+
+  <p>Her research centered on a molecule called <strong>Palmitoylethanolamide</strong>, or PEA. Not a drug. Not a plant extract. A molecule your own body produces &#8212; or used to produce in adequate amounts. PEA is what the body uses to tell overactive mast cells and glial cells to stand down. It does not block the pain signal. It is an <strong>inflammation resolver</strong> &#8212; it completes the inflammatory response and switches it off. That is a fundamental difference from everything you have already tried, and it explains why it works when everything else eventually stops.</p>
+
+  <div class="vet-quote">
+    &#8220;PEA is the body&#8217;s own natural anti-inflammatory autacoid. It is produced on demand in response to cellular stress and inflammation &#8212; and it works by instructing overactive immune cells to resolve their response and stand down. It does not block the signal. It completes it. That is what the body was designed to do &#8212; and what chronic sufferers lose the ability to do on their own as they age.&#8221;
+    <cite>Based on the ALIAmide research framework developed by Dr. Rita Levi-Montalcini, Nobel Laureate in Physiology or Medicine</cite>
+  </div>
+
+  <p>She named the mechanism ALIA &#8212; Autacoid Local Inflammation Antagonism. In plain terms: the body has its own system for finishing an inflammatory response and switching it off. PEA is the key molecule in that system. And according to more than 30 years of research built on her original framework, it works.</p>
+
+  <p>What she also found &#8212; and what the research that followed has confirmed repeatedly &#8212; is that PEA production drops significantly with age. After your early fifties, the body makes less and less of it. The inflammatory response is still triggered normally. But the resolution signal gets weaker. The cellular alarm rings, and the system that should answer it and say &#8220;enough &#8212; we&#8217;re done&#8221; has gone quiet. That is not wear and tear. That is a specific, measurable biological change. And one that can be directly addressed.</p>
+
+  <div class="divider">* * *</div>
+
+  <h2>What the Research Actually Shows</h2>
+
+  <p>The clinical evidence behind PEA is unlike anything else in the natural supplement category. More than 30 controlled trials. Over 6,000 patients studied. And a safety record showing zero serious adverse events, zero drug-drug interactions documented, and clear safety even in patients over 65 &#8212; a population that most supplements have never been studied in at all.</p>
+
+  <p>The most striking single result came from a 2010 clinical trial involving 636 patients with sciatic nerve discomfort &#8212; one of the most common forms of lower back and leg pain. The researchers used a measure called Number Needed to Treat: a scientific way of asking how many people actually benefit for every one who takes a treatment. For PEA, the result was approximately 1.5. That means for roughly every 2 people who took PEA, at least 1 experienced clinically meaningful relief within three weeks. For context, most prescription pain medications score between 3 and 6. Most natural supplements have never published an NNT at all.</p>
+
+  <p>A 2024 analysis of 742 patients across multiple trials added a critical finding: the results are time-dependent. People who took micronized PEA for 60 days saw significantly more relief than those who stopped at 30. The benefit compounds. The cellular repair the body begins in the first month keeps building through the second. This is not a supplement that works quickly and levels off. It is one that keeps working as the body&#8217;s own resolution system is gradually restored.</p>
+
+  <div class="stats-box">
+    <p class="stats-label">WHAT THE CLINICAL RESEARCH SHOWS</p>
+    <div class="stats-grid">
+      
+      <div class="stat-item">
+        <span class="stat-num">30+</span>
+        <span class="stat-desc">controlled clinical trials on PEA &#8212; more published research than CBD, turmeric, and glucosamine combined</span>
+      </div>
+      
+      <div class="stat-item">
+        <span class="stat-num">6,000+</span>
+        <span class="stat-desc">patients studied across trials, including adults specifically aged 65 and over &#8212; zero serious adverse events reported in any trial</span>
+      </div>
+      
+      <div class="stat-item">
+        <span class="stat-num">60</span>
+        <span class="stat-desc">days for the full protocol &#8212; results compound through the second month, which is why the research shows stopping at 30 days leaves the best results on the table</span>
+      </div>
+      
+    </div>
+  </div>
+
+  <h2>The One Thing That Determines Whether PEA Works</h2>
+
+  <p>There is a reason most people have never heard of PEA despite this research existing for decades. Standard PEA has a significant problem: it does not absorb well. The molecule is large and poorly water-soluble, which means that in its standard form, most of it is broken down in the stomach before it ever reaches the bloodstream. Early results from researchers were promising but inconsistent &#8212; because they were using standard PEA, and the absorption was unreliable.</p>
+
+  <p>The breakthrough came when pharmaceutical researchers developed a process called <strong>micronization</strong> &#8212; grinding the PEA particles down to a fraction of their original size. At that smaller size, the molecule survives the digestive process, enters the bloodstream, and reaches the nervous system where it needs to work. Every clinical trial that produced the results described above &#8212; the 6,000-patient safety record, the 60-day compounding effect &#8212; used micronized PEA. If a supplement does not say micronized on the label, that research does not apply to it.</p>
+
+  <div class="adv-img-wrap">
+    <img alt="Romira PEA 600mg &#8212; 99% pure micronized Palmitoylethanolamide, GMP certified, Made in USA" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164"/>
+  </div>
+  <p class="img-caption">Romira PEA uses 99% pure micronized Palmitoylethanolamide at 600mg per serving &#8212; the dose and form used across all 30+ clinical trials. Made in the USA. GMP certified. Third-party lab tested.</p>
+
+  <div class="product-card-mid">
+    <img class="product-card-img" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164" alt="Romira PEA 600mg &#8212; Daily Nerve &amp; Joint Comfort Support"/>
+    <div class="product-card-info">
+      <h4 class="product-card-name">Romira PEA 600mg &#8212; Daily Nerve &amp; Joint Comfort Support</h4>
+      <div class="product-card-rating">★★★★★ <span>4.9 (15,000+ reviews)</span></div>
+      <div class="product-card-price">
+        <span class="product-price-was">$49.99</span>
+        <span class="product-price-now">from $29.99/mo</span>
+      </div>
+      <div class="sellout-bar"><div class="sellout-fill sellout-high"></div></div>
+      <p class="sellout-label">⚠ High demand — limited stock remaining</p>
+      <p class="product-card-gifts">&#9888; Selling Fast &#8212; Current Batch Almost Gone &#8212; Free US Shipping</p>
+      <a class="btn-gold" href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support" style="margin-top:12px;display:block;text-align:center;">Check Availability Now</a>
+    </div>
+  </div>
+
+  <h2>What Most People Notice &#8212; And When</h2>
+
+  <p>This is not a painkiller. There is no rush, no sudden silence in the first hour. What most people report &#8212; typically somewhere between day five and day ten &#8212; is quieter than that. The background aching is a little less loud. The pain that was sitting at a 7 has moved to a 5. Morning stiffness is still there, but it lifts faster. You get off the couch without grabbing the armrest. You walk to the kitchen and back and realize halfway through that you did not think about your hip. It is a small shift &#8212; but for someone who has been hurting every single day for years, small feels enormous.</p>
+
+  <div class="timeline-box">
+    <p class="timeline-label">WHAT MOST PEOPLE EXPERIENCE &#8212; WEEK BY WEEK</p>
+    
+    <div class="timeline-item">
+      <span class="timeline-day">Days 5&#8211;7</span>
+      <p class="timeline-text">The first shift. Morning stiffness is still there &#8212; but it&#8217;s quieter. Less like broken glass, more like something the body is beginning to manage. Most people describe the background noise turning down slightly. Getting off a chair without bracing. Walking to the mailbox without stopping. Small. Real.</p>
+    </div>
+    
+    <div class="timeline-item">
+      <span class="timeline-day">Week 2</span>
+      <p class="timeline-text">More consistent relief through the day. The mid-afternoon pain spike &#8212; the one that makes it hard to sit through dinner &#8212; starts to soften. Many people report reaching for ibuprofen less, not because they decided to cut back, but because they simply didn&#8217;t feel the need.</p>
+    </div>
+    
+    <div class="timeline-item">
+      <span class="timeline-day">Weeks 3&#8211;5</span>
+      <p class="timeline-text">People start doing things they had quietly stopped doing. Kneeling in the garden. Getting on the floor with grandchildren. Taking stairs without holding the rail. Sitting through a full meal without shifting every ten minutes. The life that had gotten smaller starts to get a little larger.</p>
+    </div>
+    
+    <div class="timeline-item">
+      <span class="timeline-day">Day 60</span>
+      <p class="timeline-text">The point where research shows the biggest gains arrive. Stopping at 30 days means leaving the best results on the table. Most people at this point have stopped keeping score. The pain that used to run the decisions of their day is no longer in charge.</p>
+    </div>
+    
+    <p class="timeline-attribution">Based on clinical trial outcomes and verified customer feedback.</p>
+  </div>
+
+  <h2>&#8220;But I&#8217;ve Already Tried Everything&#8221;</h2>
+
+  <p>This is the most common response &#8212; and the most understandable one. Because most people reading this have genuinely tried a lot. And most of it genuinely did not work. But here is the important distinction: none of what you tried was aimed at overactive glial and mast cells. None of it was designed to restore the body&#8217;s own inflammation resolution system. The ibuprofen masked the signal. The stretching addressed the structure. The supplements targeted cartilage, circulation, or the wrong inflammatory pathway entirely. You did not fail those treatments. Those treatments failed to address the actual cause.</p>
+
+  <p>PEA is not another thing to add to the drawer. It is the first thing aimed at the specific biological mechanism that explains why everything else eventually stopped working. And unlike most products in this space, the clinical evidence behind it was built up over decades in peer-reviewed journals &#8212; not funded by the company that sells it.</p>
+
+  <h2>What Happened to Carol</h2>
+
+  <p>Carol started Romira PEA after reading about the research. She did not notice anything dramatic in the first few days. Day eight, she walked her daughter to the car after dinner &#8212; down the front path, down the steps, back up again &#8212; and stood talking for twenty minutes without shifting her weight or looking for somewhere to sit. It was the first time in two years she had done that without planning for it first.</p>
+
+  <p>At week five, she went back to her church. She sat through the whole service. She told her daughter afterward that she hadn&#8217;t been looking for a miracle &#8212; she had just wanted her Sunday mornings back. &#8220;I got more than that,&#8221; she said. &#8220;I got my Sundays. And my garden. And the floor time with the grandkids. I didn&#8217;t realize how much I&#8217;d quietly given up until I started getting it back.&#8221;</p>
+
+  <h2>What Our Customers Are Saying</h2>
+
+  <div class="testimonials">
+    
+    <div class="review-card">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:14px;">
+        <img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer_2.png?v=1777407165" alt="Margaret, 64 &#8212; Austin, TX &#8212; &#10003; Verified Subscriber" style="width:54px;height:54px;border-radius:50%;object-fit:cover;object-position:top center;flex-shrink:0;border:2px solid #dde6ea;">
+        <p class="reviewer" style="margin:0;">Margaret, 64 &#8212; Austin, TX &#8212; &#10003; Verified Subscriber</p>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">&#8220;I was taking Aleve every single morning for three years. My doctor kept warning me about my kidneys. Every time I tried to cut back I was stiff as a board within two days &#8212; couldn&#8217;t get off the couch without grabbing the armrest, couldn&#8217;t do the stairs without the rail. Day eight, I noticed I&#8217;d walked to the mailbox and back without stopping. That hadn&#8217;t happened in years. Five weeks in, I realized I hadn&#8217;t touched the Aleve once. I didn&#8217;t plan to stop. I just stopped needing it.&#8221;</p>
+    </div>
+    
+    <div class="review-card">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:14px;">
+        <img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer.png?v=1777407165" alt="Claire, 52 &#8212; Portland, OR &#8212; &#10003; Verified Subscriber" style="width:54px;height:54px;border-radius:50%;object-fit:cover;object-position:top center;flex-shrink:0;border:2px solid #dde6ea;">
+        <p class="reviewer" style="margin:0;">Claire, 52 &#8212; Portland, OR &#8212; &#10003; Verified Subscriber</p>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">&#8220;I&#8217;d tried the whole drawer &#8212; turmeric, CBD, glucosamine from the big Costco tub. My back had its own personality at this point. What made me order this was reading the explanation of why all those things aim at the wrong problem. That was the first time anything had made sense to me. The 60-day guarantee meant I had nothing to lose. By day ten, the snap-crackle-pop getting out of bed was quieter. Three months in and still going. I just want my mornings back. I&#8217;m getting them.&#8221;</p>
+    </div>
+    
+    <div class="review-card">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:14px;">
+        <img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_reviewer_3.png?v=1777407165" alt="Linda, 58 &#8212; Columbus, OH &#8212; &#10003; Verified Subscriber" style="width:54px;height:54px;border-radius:50%;object-fit:cover;object-position:top center;flex-shrink:0;border:2px solid #dde6ea;">
+        <p class="reviewer" style="margin:0;">Linda, 58 &#8212; Columbus, OH &#8212; &#10003; Verified Subscriber</p>
+      </div>
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">&#8220;Lower back, all day every day, for three years. I was shifting in my chair every few minutes just to get through a meal. Day six I sat through my granddaughter&#8217;s entire school play &#8212; two hours &#8212; without moving once. My husband noticed before I did. &#8216;You didn&#8217;t fidget.&#8217; I hadn&#8217;t. I cried in the car on the way home. Not because I was sad &#8212; because I hadn&#8217;t realized how much I&#8217;d given up until I got a piece of it back. Second bottle now. Still getting better.&#8221;</p>
+    </div>
+    
+  </div>
+
+  <div class="adv-img-wrap">
+    <img alt="Woman rising from a chair with ease &#8212; the moment of getting up without bracing or calculating" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/standing_from_couch.png?v=1777407166"/>
+  </div>
+  <p class="img-caption">Getting up without grabbing the armrest. Moving without calculating it first. For most people it starts quietly, somewhere in the first week. Then it becomes the new normal.</p>
+
+  <h2>Who This Is For</h2>
+
+  <div class="works-grid">
+    <div class="works-box yes">
+      <p class="works-title">&#10003;&nbsp; Perfect For</p>
+      
+      <p class="works-item">Adults over 45 whose mornings have gotten harder &#8212; stiff joints, an aching back, needing 20 minutes just to feel normal before the day starts</p>
+      
+      <p class="works-item">Anyone who has been taking ibuprofen or Aleve daily and been told by their doctor to cut back &#8212; but every time they try, everything comes back within 48 hours</p>
+      
+      <p class="works-item">Anyone who has spent money on CBD, turmeric, or glucosamine and found themselves back at the same baseline within weeks of stopping</p>
+      
+      <p class="works-item">People whose daily discomfort has quietly taken things away &#8212; the gardening, the stairs, the floor time with grandchildren &#8212; to the point where their world has gotten smaller without them planning it that way</p>
+      
+      <p class="works-item">Anyone who has been told &#8220;it&#8217;s just age&#8221; by a doctor and known, somewhere in the back of their mind, that something more specific had to be going on</p>
+      
+    </div>
+    <div class="works-box no">
+      <p class="works-title">&#10005;&nbsp; Not Recommended For</p>
+      
+      <p class="works-item">Anyone currently under treatment for a recent acute injury or post-surgical recovery &#8212; check with your doctor first</p>
+      
+      <p class="works-item">Under 18</p>
+      
+      <p class="works-item">Pregnant or nursing &#8212; consult your healthcare provider before use</p>
+      
+    </div>
+  </div>
+
+  <div class="cta-mid">
+    <p>&#9888; This batch is almost gone. Once it sells through, the next shipment is typically 2&#8211;3 weeks away.</p>
+    <a class="btn" href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support">Check Stock &#8212; Claim Your Bottle Now</a>
+    <p class="mid-guarantee">60-day money-back guarantee. Free US shipping. If it sells out, we cannot hold stock for you.</p>
+  </div>
+
+  <h2>&#9888; Stock Alert &#8212; This Batch Is Almost Gone</h2>
+
+  <div class="urgency-note">&#9888;&nbsp; <strong>STOCK ALERT:</strong> This batch is selling out faster than expected. We produce Romira PEA in small, quality-controlled runs &#8212; when it&#8217;s gone, it&#8217;s gone until the next shipment arrives. The last time this happened, customers waited <strong>19 days</strong> with no product available. We cannot hold stock for anyone who does not complete their order today.</div>
+
+  <div class="countdown-timer countdown-offer_box">
+    <span class="countdown-label">CURRENT PRICING RESERVED FOR:</span>
+    <div class="countdown-display">
+      <div class="countdown-unit"><span class="countdown-num" data-hours="4">4</span><span class="countdown-unit-label">hrs</span></div>
+      <span class="countdown-sep">:</span>
+      <div class="countdown-unit"><span class="countdown-num countdown-mins">00</span><span class="countdown-unit-label">min</span></div>
+      <span class="countdown-sep">:</span>
+      <div class="countdown-unit"><span class="countdown-num countdown-secs">00</span><span class="countdown-unit-label">sec</span></div>
+    </div>
+  </div>
+
+  <div class="offer-box">
+    <div class="offer-badge">&#9888; SELLING OUT &#8212; CURRENT BATCH ALMOST GONE</div>
+    <h2>Romira PEA 600mg</h2>
+    <div class="offer-price-row">
+      <span class="price-was">$49.99</span>
+      <span class="price-sep">&rarr;</span>
+      <span class="price-now">from $29.99/mo</span>
+    </div>
+    <p class="offer-sub">Free US Shipping &#8212; 60-Day Money-Back Guarantee &#8212; Subscribe &amp; Save</p>
+    <ul class="offer-list">
+      
+      <li>
+        <span class="check">&#10003;</span>
+        <strong>1 Bottle &#8212; $29.99/month</strong> &#8212; Start your first 30 days. Risk-free.
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        <strong>3 Bottles &#8212; $59.98/month</strong> (Buy 2, Get 1 Free) &#8212; Most popular. Best for the full 60-day protocol.
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        <strong>5 Bottles &#8212; $89.97/month</strong> (Buy 3, Get 2 Free) &#8212; Best value. Complete the protocol with supply to spare.
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        99% pure micronized PEA &#8212; the only form that survives digestion and reaches your nervous system
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        600mg per serving &#8212; the dose used across all 30+ clinical trials
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        GMP Certified &#8212; Made in the USA &#8212; Third-party lab tested
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        Free US shipping on every order
+      </li>
+      
+      <li>
+        <span class="check">&#10003;</span>
+        60-day money-back guarantee &#8212; no forms, no conditions, no questions
+      </li>
+      
+    </ul>
+    <p class="offer-total">If it does not work after 60 days of consistent use, you pay nothing.</p>
+    <a class="btn-gold" href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support">Claim My Bottle &#8212; Before Stock Runs Out</a>
+    <p class="offer-guarantee">&#128274; 60-Day Money-Back Guarantee &#8212; Free US Shipping &#8212; Secure Checkout</p>
+  </div>
+
+  <div class="trust-badges">
+    
+    <div class="trust-badge">
+      <span class="badge-icon">&#128196;</span>
+      <span class="badge-label">30+ Clinical Trials</span>
+    </div>
+    
+    <div class="trust-badge">
+      <span class="badge-icon">&#9989;</span>
+      <span class="badge-label">99% Pure PEA</span>
+    </div>
+    
+    <div class="trust-badge">
+      <span class="badge-icon">&#127981;</span>
+      <span class="badge-label">GMP Certified</span>
+    </div>
+    
+    <div class="trust-badge">
+      <span class="badge-icon">&#128269;</span>
+      <span class="badge-label">3rd-Party Tested</span>
+    </div>
+    
+    <div class="trust-badge">
+      <span class="badge-icon">&#128737;&#65039;</span>
+      <span class="badge-label">60-Day Guarantee</span>
+    </div>
+    
+  </div>
+
+  <div class="future-pacing"><h3 class="future-pacing-heading">The Decision That Changes Everything</h3>
+    <p class="future-pacing-text">Carol did not get back everything she had lost. Some of what the years had taken was gone for other reasons. But she got back the stairs. She got back the garden. She got back Sunday mornings. She got back the ability to get down on the floor with her grandchildren and not spend ten minutes calculating how she was going to get back up. Those are the things chronic back and nerve discomfort steals from people, quietly, one by one, without ever announcing itself. That is what giving your body back the molecule it stopped making actually does. The 60-day guarantee means the risk of finding out is zero. The only real risk is reading this and doing nothing.</p>
+  </div>
+
+  <div class="last-chance"><p>30+ clinical trials. 6,000+ patients studied. Nobel Prize-winning research. Most people notice their mornings are different within the first week. The real gains come in the second month.</p><p>From $29.99/month on subscription. Free US shipping. Current batch stock is limited.</p><p>60-day money-back guarantee. Take it every day for 60 days and feel no meaningful difference &#8212; contact us for a full refund. No forms. No conditions. No questions.</p><p>&#9888; This batch will not last. Once it sells out, the next shipment is 2&#8211;3 weeks away and we cannot reserve stock for you. If you close this page without ordering, there is a real chance it will be gone when you return.</p>
+  </div>
+
+  <div class="final-cta">
+    <a class="btn-gold" href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support">Claim My Bottle &#8212; Before Stock Runs Out</a>
+    <p>Free US shipping. 60-day guarantee. Secure checkout.</p>
+  </div>
+
+  <div class="fb-comments-section">
+    <div class="fb-comments-header">
+      <span class="fb-logo">f</span>
+      <span class="fb-heading">4,213 Comments</span>
+    </div>
+    <div class="fb-add-comment">
+      <div class="fb-avatar-placeholder"></div>
+      <input class="fb-comment-input" placeholder="Add a comment..." disabled/>
+    </div>
+    
+    <div class="fb-comment">
+      <div class="fb-comment-avatar"><img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/ChatGPT_Image_Jan_18_2026_06_26_11_AM.png?v=1768706800" alt="Barbara Sinclair"/>
+      </div>
+      <div class="fb-comment-body">
+        <div class="fb-comment-bubble">
+          <span class="fb-commenter-name">Barbara Sinclair</span>
+          <p>I&#8217;m 67 and I&#8217;ve been to three different doctors in two years. Every single one said the same thing &#8212; it&#8217;s just age, what do you expect. I cried in the car after the last one. A friend sent me this article and I ordered that same night. Three weeks in and my mornings are different. The first ten steps don&#8217;t feel like broken glass anymore. I don&#8217;t have words for how much that means to me.</p>
+        </div>
+        <div class="fb-comment-meta">
+          <span class="fb-like-btn">👍 Like</span>
+          <span class="fb-reply-btn">Reply</span>
+          <span class="fb-time">1 day ago</span><span class="fb-likes-count">👍 118</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="fb-comment">
+      <div class="fb-comment-avatar"><img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_52.png?v=1777385114" alt="Joanne Petersen"/>
+      </div>
+      <div class="fb-comment-body">
+        <div class="fb-comment-bubble">
+          <span class="fb-commenter-name">Joanne Petersen</span>
+          <p>At 61 I shouldn&#8217;t feel 90 when I wake up. That&#8217;s what I kept telling my daughter. She found this for me. The part about the glial cells getting stuck in the &#8216;on&#8217; position &#8212; that was the first time anything had actually explained what was happening to me in a way that made sense. Eleven days in and I went up the stairs this morning without holding the rail. Small win. Enormous deal.</p>
+        </div>
+        <div class="fb-comment-meta">
+          <span class="fb-like-btn">👍 Like</span>
+          <span class="fb-reply-btn">Reply</span>
+          <span class="fb-time">3 days ago</span><span class="fb-likes-count">👍 94</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="fb-comment">
+      <div class="fb-comment-avatar"><img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_49.png?v=1777485115" alt="Helen Grainger"/>
+      </div>
+      <div class="fb-comment-body">
+        <div class="fb-comment-bubble">
+          <span class="fb-commenter-name">Helen Grainger</span>
+          <p>I was taking Aleve like candy &#8212; my doctor&#8217;s exact words. She kept warning me about my kidneys. Tried CBD for two months, nothing. Turmeric, nothing. The big green Costco tub of glucosamine, nothing. The part about why those things aim at the wrong target &#8212; that finally made sense of three years of frustration. Week four now. Walked to the mailbox and back without stopping. First time in I honestly don&#8217;t know how long.</p>
+        </div>
+        <div class="fb-comment-meta">
+          <span class="fb-like-btn">👍 Like</span>
+          <span class="fb-reply-btn">Reply</span>
+          <span class="fb-time">5 days ago</span><span class="fb-likes-count">👍 156</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="fb-comment">
+      <div class="fb-comment-avatar"><img src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_50.png?v=1777485114" alt="Ruth Chambers"/>
+      </div>
+      <div class="fb-comment-body">
+        <div class="fb-comment-bubble">
+          <span class="fb-commenter-name">Ruth Chambers</span>
+          <p>61 going on 102, that&#8217;s what I always say. My husband got this up for me and sat down while I read the whole thing. We both ordered that same night &#8212; he&#8217;s got bad knees, I&#8217;ve got my back. Day seven he said &#8216;something&#8217;s different&#8217; and I knew exactly what he meant because I felt it too. Second month now. He carried all the groceries in from the car last week without stopping halfway. I could have cried.</p>
+        </div>
+        <div class="fb-comment-meta">
+          <span class="fb-like-btn">👍 Like</span>
+          <span class="fb-reply-btn">Reply</span>
+          <span class="fb-time">1 week ago</span><span class="fb-likes-count">👍 103</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+<!-- P.S. LINE -->
+<div class="ps-line">
+  <p>P.S. &#8212; Most people who read this spend another few months going back to the same drawer of things that have already failed them. The 60-day guarantee means there is nothing to lose by finding out whether the real problem has finally been addressed. If the stock sells out before you come back, that decision will have been made for you.</p>
+</div>
+
+<!-- FOOTER -->
+<div class="footer-label">
+  <span class="fl-line"></span>
+  Health Discovery Review
+  <span class="fl-line"></span>
+</div>
+
+<!-- LEGAL FOOTER — tiny font, FDA disclaimer for consumables -->
+<div class="legal-footer">
+  <p class="disclaimer">This article is advertorial content. The statements made about Romira PEA have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Consult your healthcare provider before starting any new supplement, especially if you are pregnant, nursing, or taking prescription medication.</p>
+</div>
+
+</div><!-- end .fa2 -->
+
+<!-- RIGHT SIDE PANEL (desktop only) -->
+<div class="fav2-side">
+
+<div class="fav2-side-inner">
+  <img alt="Romira PEA 600mg &#8212; 60-day money-back guarantee" loading="lazy" src="https://cdn.shopify.com/s/files/1/0626/9825/8507/files/main_product_image_1.png?v=1777407164"/>
+  <div class="fav2-side-label">60-DAY GUARANTEE</div>
+  <a class="fav2-side-cta" href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support">Check Stock Now</a>
+</div>
+
+</div>
+
+</div><!-- end .fav2-outer -->
+
+<!-- STICKY CTA -->
+<div class="felora-sticky-cta">
+  <a href="https://romira.store/products/romira-pea-600mg-daily-nerve-joint-comfort-support">Claim My Bottle &#8212; Before Stock Runs Out</a>
+</div>
+
+<style>
+.review-owners-image { display: block !important; width: 100%; }
+@media (max-width: 768px) {
+  .fa2 .adv-img-wrap.review-owners-image-wrap img { min-height: auto !important; height: auto !important; object-fit: fill !important; width: 100% !important; }
+  .felora-sticky-cta { bottom: 10px !important; }
+  body { padding-bottom: 156px !important; }
+}
+@media (max-width: 480px) {
+  .felora-sticky-cta { bottom: 10px !important; }
+  body { padding-bottom: 150px !important; }
+}
+</style>
+
+<style>
+.fa2 .author-box { display: flex !important; align-items: flex-start !important; gap: 12px !important; padding: 10px 12px !important; margin: 14px 0 10px !important; background: #f4f9fc !important; border: 1px solid #d0e8f2 !important; border-left: 4px solid #2C6E8A !important; border-radius: 6px !important; }
+.fa2 .author-photo { width: 54px !important; height: 54px !important; margin: 0 !important; flex: 0 0 54px !important; }
+.fa2 .author-info { display: block !important; text-align: left !important; flex: 1 !important; min-width: 0 !important; }
+.fa2 .author-name { margin: 0 0 4px !important; text-align: left !important; font-size: 16px !important; line-height: 1.25 !important; }
+.fa2 .author-title { margin: 0 !important; text-align: left !important; font-size: 13px !important; line-height: 1.45 !important; letter-spacing: .6px !important; }
+.fa2 .author-warning-below { text-align: center !important; font-family: 'Lato', Arial, sans-serif !important; font-size: 18px !important; line-height: 1.45 !important; font-weight: 900 !important; color: #c0392b !important; margin: 8px 0 14px !important; letter-spacing: .3px !important; }
+@media (max-width: 768px) {
+  .fa2 .author-box { padding: 8px 10px !important; gap: 10px !important; margin: 10px 0 8px !important; }
+  .fa2 .author-photo { width: 46px !important; height: 46px !important; flex-basis: 46px !important; }
+  .fa2 .author-name { font-size: 14px !important; margin-bottom: 3px !important; }
+  .fa2 .author-title { font-size: 11.5px !important; line-height: 1.4 !important; letter-spacing: .4px !important; }
+  .fa2 .author-warning-below { font-size: 14px !important; line-height: 1.4 !important; margin: 8px 0 12px !important; letter-spacing: 0 !important; }
+}
+@media (max-width: 480px) {
+  .fa2 .author-warning-below { font-size: 13px !important; letter-spacing: 0 !important; }
+}
+@media (min-width: 769px) {
+  .fa2 .author-box { flex-direction: row !important; }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  // --- STICKY CTA ---
+  var sticky = document.querySelector('.felora-sticky-cta');
+  if (sticky) {
+    var triggerEl = document.querySelector('.pull-quote');
+    if (!triggerEl) triggerEl = document.querySelector('.vet-quote');
+    if (triggerEl) {
+      function updateSticky() {
+        var rect = triggerEl.getBoundingClientRect();
+        if (rect.bottom <= window.innerHeight) { sticky.classList.add('is-visible'); }
+        else { sticky.classList.remove('is-visible'); }
+      }
+      sticky.classList.remove('is-visible');
+      updateSticky();
+      window.addEventListener('scroll', updateSticky, { passive: true });
+      window.addEventListener('resize', updateSticky);
+    }
+  }
+
+  // --- COUNTDOWN TIMERS ---
+  document.querySelectorAll('.countdown-num[data-hours]').forEach(function(el) {
+    var totalSeconds = parseInt(el.getAttribute('data-hours')) * 3600;
+    var container = el.closest('.countdown-display');
+    if (!container) return;
+    var minsEl = container.querySelector('.countdown-mins');
+    var secsEl = container.querySelector('.countdown-secs');
+    function tick() {
+      if (totalSeconds <= 0) return;
+      totalSeconds--;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = totalSeconds % 60;
+      el.textContent = h;
+      if (minsEl) minsEl.textContent = String(m).padStart(2, '0');
+      if (secsEl) secsEl.textContent = String(s).padStart(2, '0');
+    }
+    // initialise display
+    var h0 = Math.floor(totalSeconds / 3600);
+    var m0 = Math.floor((totalSeconds % 3600) / 60);
+    var s0 = totalSeconds % 60;
+    el.textContent = h0;
+    if (minsEl) minsEl.textContent = String(m0).padStart(2, '0');
+    if (secsEl) secsEl.textContent = String(s0).padStart(2, '0');
+    setInterval(tick, 1000);
+  });
+
+  // --- ANNOUNCEMENT BAR COUNTDOWN ---
+  var annTimer = document.getElementById('announcement-countdown');
+  if (annTimer) {
+    var annSeconds = 3 * 3600; // default 3 hours
+    function tickAnn() {
+      if (annSeconds <= 0) { annTimer.textContent = 'EXPIRED'; return; }
+      annSeconds--;
+      var h = Math.floor(annSeconds / 3600);
+      var m = Math.floor((annSeconds % 3600) / 60);
+      var s = annSeconds % 60;
+      annTimer.textContent = String(h).padStart(2,'0') + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+    }
+    tickAnn();
+    setInterval(tickAnn, 1000);
+  }
+
+  // --- FAQ ACCORDION ---
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var item = this.closest('.faq-item');
+      if (item) item.classList.toggle('faq-open');
+    });
+  });
+
+  // --- VIDEO THUMBNAIL CLICK-TO-EMBED ---
+  document.querySelectorAll('.video-thumbnail[data-video-url]').forEach(function(thumb) {
+    thumb.addEventListener('click', function() {
+      var url = this.getAttribute('data-video-url');
+      // convert YouTube watch URLs to embed URLs
+      url = url.replace('watch?v=', 'embed/').replace('youtu.be/', 'www.youtube.com/embed/');
+      var iframe = document.createElement('iframe');
+      iframe.src = url + (url.indexOf('?') > -1 ? '&' : '?') + 'autoplay=1';
+      iframe.frameBorder = '0';
+      iframe.allowFullscreen = true;
+      iframe.allow = 'autoplay; fullscreen';
+      iframe.style.cssText = 'width:100%;aspect-ratio:16/9;border-radius:8px;';
+      this.parentNode.replaceChild(iframe, this);
+    });
+  });
+
+});
+</script>
