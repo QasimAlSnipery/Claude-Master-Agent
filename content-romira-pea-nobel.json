@@ -16,10 +16,10 @@
   "masthead_title": "HEALTH DISCOVERY REVIEW",
   "breadcrumb": ["Home", "Health", "Pain &amp; Comfort"],
 
-  "headline_prefix": "Your Back Pain Keeps Coming Back.",
-  "headline_highlight": "A Nobel Prize Winner Finally Found Why.",
+  "headline_prefix": "There&#8217;s One Reason Your Back Pain Never Fully Goes Away.",
+  "headline_highlight": "A Nobel Prize Winner Spent Her Life Finding It.",
   "headline_suffix": "",
-  "subheadline": "The molecule your body stopped making after 50 &#8212; and why it explains every failed treatment.",
+  "subheadline": "It&#8217;s not your spine. It&#8217;s not your age. It&#8217;s a cellular switch that got stuck &#8212; and a molecule your body stopped making that turns it off.",
 
   "byline_author": "Health Discovery Review",
   "byline_specialty": "Investigative Health Report",
@@ -54,23 +54,28 @@
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_headline_on_her_bed.png?v=1777407166",
-      "alt": "Woman sitting on the edge of her bed in the morning, struggling to stand due to back pain",
-      "caption": "For millions over 50, the first attempt to stand has become the moment that defines the whole day."
+      "alt": "Woman sitting on the edge of her bed in the morning, bracing herself before standing due to back pain",
+      "caption": "Eyes open. Already calculating. That first moment before standing has become the most honest part of the day."
     },
 
     {
       "type": "identification_statement",
-      "text": "If your back pain never fully goes away, painkillers stop working the moment you cut back, or you feel that shooting discomfort down your leg &#8212; this is for you."
+      "text": "If mornings start with the armrest grab. If ibuprofen is the only thing standing between you and that shooting fire from your lower back to your leg. If a doctor has looked you in the eye and said &#8220;it&#8217;s just age&#8221; &#8212; this is for you."
     },
 
     {
       "type": "lead",
-      "html": "Carol was 57 when her lower back pain and sciatic nerve discomfort forced her to stop going to church on Sunday mornings. Not because of anything dramatic &#8212; the wooden pews had become something she could no longer sit through. The pain had quietly taken over the decisions in her life. Where she sat. How long she stood. Whether she went at all."
+      "html": "Carol was 57 when she realised her world had gotten smaller. Not all at once &#8212; one quiet decision at a time. The garden she used to spend Sunday mornings in became too hard to kneel in. The stairs to her bedroom became something she timed herself on. Church stopped being an option. The wooden pews felt like punishment after twenty minutes. And every morning started the same way: eyes open, already calculating. Lie still for a moment. Roll carefully. Grab the headboard. Wait for the lower back to decide how bad today was going to be."
     },
 
     {
       "type": "paragraph",
-      "html": "She&#8217;d tried everything. Physical therapy. CBD. The big Costco tub of glucosamine. Ibuprofen every morning for two years until her doctor warned her about her kidneys. Every time she cut back, the back pain and leg discomfort came roaring back within 48 hours. None of it worked long-term. She had started to accept a smaller life. What she didn&#8217;t know &#8212; what most people don&#8217;t know &#8212; is that none of it was aimed at the actual cause."
+      "html": "The pain had started as morning stiffness in her early fifties &#8212; stiff as a board, snap-crackle-pop getting out of bed. By 56 it was a constant companion: that shooting fire from her lower back to her knee every time she stood up too fast, the sciatic nerve discomfort that woke her at 3am, the deep ache that never fully left no matter how many Aleve she took. She started keeping them in her purse, her car, and both bathrooms. &#8220;I wasn&#8217;t managing the pain anymore,&#8221; she said later. &#8220;The pain was managing me.&#8221;"
+    },
+
+    {
+      "type": "paragraph",
+      "html": "She&#8217;d tried everything. Physical therapy &#8212; twice. CBD oil for two months. The Costco tub of glucosamine. Ibuprofen every single morning until her doctor warned her about her kidneys. Every time she tried to cut back, the back pain and that searing sciatic discomfort were back within 48 hours, worse than before. None of it worked long-term. None of it was ever going to &#8212; because none of it was aimed at the actual cause."
     },
 
     {
@@ -86,22 +91,27 @@
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Meds_on_the_table.png?v=1777407167",
       "alt": "Bottles of pain medication and supplements on a table",
-      "caption": "Everything in that drawer has a story. None of them ended the way you hoped."
+      "caption": "The drawer. Most people with chronic back pain and sciatica know it by heart. Everything in it has a story. None of them ended the way you hoped."
     },
 
     {
       "type": "paragraph",
-      "html": "Ibuprofen blocks the back pain signal while you take it. Stop taking it, the signal returns &#8212; because nothing was fixed. Stretching works on your muscles and posture, not on what&#8217;s driving the pain at the cellular level. CBD and turmeric target entirely different pathways. You didn&#8217;t fail these treatments. They were aimed at the wrong problem."
+      "html": "Here is what nobody explains: ibuprofen doesn&#8217;t fix back pain. It borrows against it. Every pill buys temporary quiet &#8212; and charges interest the moment you stop. The pain signal was never resolved. It was only muffled. That&#8217;s why stopping feels like starting from scratch. That&#8217;s why cutting back for even three days sends everything roaring back. It wasn&#8217;t supposed to work long-term. It was never designed to."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "Stretching and physical therapy work on the mechanical structure &#8212; your muscles, posture, and spinal load. For some kinds of back pain, that is the right approach. But the pain that comes back every morning, that never fully quiets, that has been there every day for years &#8212; that is not a mechanical problem. It is a chemical one. You can do every stretch perfectly and still hurt because what is driving the pain is happening inside your nervous system, not in your hamstrings. CBD and turmeric target entirely different pathways. Glucosamine works on cartilage. You didn&#8217;t fail those treatments. They were aimed at the wrong problem."
     },
 
     {
       "type": "pull_quote",
-      "text": "&#8220;The back pain keeps returning because the cellular switch that should turn it off has stopped working. That&#8217;s not aging. That&#8217;s a specific biological deficiency.&#8221;"
+      "text": "&#8220;That shooting fire down your leg. The stiffness that takes twenty minutes to clear. The back pain that comes back the moment the pill wears off. All of it traces to one thing &#8212; and most doctors have never once explained it.&#8221;"
     },
 
     {
       "type": "paragraph",
-      "html": "Inside your nervous system, immune cells called <strong>glial cells</strong> activate whenever a nerve is compressed or a joint is inflamed. In a healthy body they switch back off. After 50, they get stuck in the &#8220;on&#8221; position &#8212; constantly flooding the lower back and sciatic nerve with inflammatory signals long after the original cause is gone. That is why the shooting pain down your leg comes back. That is why the morning stiffness never fully clears. Not because your spine is collapsing. Because a cellular alarm is stuck, and nothing you&#8217;ve tried has been designed to switch it off."
+      "html": "Inside your nervous system there is a type of immune cell called a <strong>glial cell</strong>. When a nerve gets compressed &#8212; the way the sciatic nerve does in lower back and leg pain &#8212; glial cells activate and flood the area with inflammatory signals. Under normal circumstances, they switch back off once the threat is gone. After 50, something changes. They get stuck in the &#8220;on&#8221; position. The original compression may have resolved. But the cellular alarm keeps firing &#8212; constantly sending discomfort signals through the lower back and down the sciatic nerve, day after day, for years. That is why the shooting pain returns every time the medication wears off. That is why the mornings never fully clear. Not because your spine is collapsing. Because a cellular switch that should have turned itself off a long time ago is still running."
     },
 
     {
@@ -110,35 +120,40 @@
 
     {
       "type": "h2",
-      "text": "The Nobel Prize-Winning Discovery"
+      "text": "The Nobel Prize Winner Who Found the Off Switch"
     },
 
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_on_stairs.png?v=1777407166",
-      "alt": "Woman carefully holding a rail on stairs due to lower back and leg pain",
-      "caption": "Back pain and sciatic discomfort make every step a calculation. Understanding the cellular cause changed everything."
+      "alt": "Woman carefully gripping the rail descending stairs due to lower back and sciatic nerve pain",
+      "caption": "The stairs. The couch. The car door. Every movement becomes a calculation when the cellular alarm is stuck in the on position."
     },
 
     {
       "type": "paragraph",
-      "html": "Dr. Rita Levi-Montalcini won the Nobel Prize in Physiology or Medicine in 1986. She spent her later career investigating how the body naturally resolves inflammation &#8212; not suppresses it, but actually finishes it and switches it off. Her research identified the molecule the body uses to do this: <strong>Palmitoylethanolamide (PEA)</strong>. It is not a drug. It is a molecule your own body produces to tell overactive glial and mast cells to stand down."
+      "html": "Dr. Rita Levi-Montalcini won the Nobel Prize in Physiology or Medicine in 1986. She continued working in her laboratory until she was over 100 years old. What she spent her later decades investigating was the question most researchers were not asking: not how to suppress inflammation, but how the body actually <em>finishes</em> it &#8212; how the cellular alarm gets switched off."
     },
 
     {
       "type": "paragraph",
-      "html": "In a landmark 2010 clinical trial of 636 patients with sciatic nerve discomfort, micronized PEA achieved 50% pain reduction within three weeks &#8212; with a Number Needed to Treat of 1.5. That means for every 2 people who took it, at least 1 experienced meaningful relief. Most prescription pain medications score between 3 and 6. PEA doesn&#8217;t block the back pain signal. It <em>resolves</em> the inflammation driving it. That is a different thing entirely."
+      "html": "Her research identified the molecule the body uses to do this: <strong>Palmitoylethanolamide</strong>, or PEA. Not a drug. Not a plant extract. A molecule your own body has been producing since before you were born &#8212; specifically to tell overactive glial and mast cells to stand down. When PEA is present in sufficient amounts, the inflammatory response finishes. The cellular alarm quiets. The sciatic nerve stops receiving the constant bombardment of pain signals. She named the mechanism ALIA &#8212; and she took PEA herself, every day, until the end of her life at 103."
     },
 
     {
       "type": "vet_quote",
-      "text": "&#8220;PEA is the body&#8217;s own natural autacoid. It instructs overactive immune cells around the lumbar and sciatic nerves to resolve their response and stand down &#8212; completing the inflammatory signal rather than simply muting it.&#8221;",
-      "cite": "Based on the ALIAmide framework &#8212; Dr. Rita Levi-Montalcini, Nobel Laureate"
+      "text": "&#8220;PEA is the body&#8217;s own natural autacoid &#8212; produced on demand to instruct overactive immune cells around the lumbar and sciatic nerves to resolve their response and stand down. It does not block the pain signal. It completes it. That is what the body was designed to do.&#8221;",
+      "cite": "Based on the ALIAmide research framework &#8212; Dr. Rita Levi-Montalcini, Nobel Laureate"
     },
 
     {
       "type": "paragraph",
-      "html": "One thing determines whether it works: <strong>micronization</strong>. Standard PEA is destroyed in the gut before reaching the bloodstream. Micronized PEA &#8212; ground to particles under 10 micrometers &#8212; survives digestion, enters circulation, and reaches the inflamed nerve tissue. Every trial showing results used the micronized form. If the label does not say micronized, the research does not apply."
+      "html": "The critical finding: PEA production drops significantly after 50. The inflammatory response still fires normally. But the resolution signal &#8212; the molecule that should arrive and say &#8220;enough, we&#8217;re done&#8221; &#8212; gets weaker every year. That is not wear and tear. That is a specific, measurable deficiency. And one that a 2010 clinical trial of 636 patients with sciatic nerve discomfort confirmed could be directly addressed &#8212; with a Number Needed to Treat of 1.5. For every 2 people who took PEA, at least 1 experienced meaningful relief within three weeks. Most prescription pain medications score between 3 and 6."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "One thing determines whether it works: <strong>micronization</strong>. Standard PEA is destroyed by stomach acid before it ever reaches the bloodstream. Micronized PEA &#8212; ground to particles under 10 micrometers &#8212; survives digestion, enters circulation, and reaches the inflamed nerve tissue where it actually needs to work. Every trial that produced meaningful results used the micronized form. If the label does not say micronized, the research does not apply to it."
     },
 
     {
@@ -147,15 +162,15 @@
       "items": [
         {
           "number": "30+",
-          "desc": "controlled clinical trials on back pain and nerve discomfort &#8212; more than CBD, turmeric, and glucosamine combined"
+          "desc": "controlled clinical trials on back pain and sciatic nerve discomfort &#8212; more published research than CBD, turmeric, and glucosamine combined"
         },
         {
           "number": "6,000+",
-          "desc": "patients studied including adults 65+ &#8212; zero serious adverse events, zero drug interactions reported"
+          "desc": "patients studied including adults specifically aged 65 and over &#8212; zero serious adverse events and zero drug interactions reported across all trials"
         },
         {
           "number": "60",
-          "desc": "days for full results &#8212; benefits compound through the second month; stopping at 30 days leaves the best results behind"
+          "desc": "days for the full result &#8212; benefits compound through the second month; most people who stopped at 30 days left the biggest gains behind"
         }
       ]
     },
@@ -186,22 +201,32 @@
       "items": [
         {
           "day": "Days 5&#8211;7",
-          "text": "The background noise turns down. Morning back stiffness is still there &#8212; but quieter. Getting off a chair without bracing. The shooting sensation down the leg is less sharp."
+          "text": "The background noise turns down. The morning stiffness is still there &#8212; but quieter, less like broken glass. The shooting sensation down the leg is less sharp. Getting off a chair without bracing. Small. Real."
         },
         {
           "day": "Week 2",
-          "text": "More consistent through the day. Many people reach for ibuprofen less &#8212; not because they decided to, but because they didn&#8217;t need it."
+          "text": "More consistent through the day. The 3am wake-up softens. Many people reach for ibuprofen less &#8212; not because they decided to, but because they forgot to."
         },
         {
           "day": "Day 60",
-          "text": "The biggest gains. Most people at this point have stopped keeping score. The back pain that used to run the day is no longer in charge."
+          "text": "The biggest gains arrive. Most people at this point have stopped keeping score. The back pain that used to plan their whole day is no longer in charge."
         }
       ]
     },
 
     {
+      "type": "h2",
+      "text": "What Happened to Carol"
+    },
+
+    {
       "type": "paragraph",
-      "html": "At week five, Carol went back to her church. She sat through the whole service &#8212; no shifting, no planning an exit. &#8220;I didn&#8217;t realize how much I&#8217;d quietly given up,&#8221; she said, &#8220;until I started getting it back.&#8221;"
+      "html": "On week four, Carol almost didn&#8217;t go to church. She stood at the door, keys in hand, running the familiar calculation &#8212; how hard will the pews be today, where will I park so the walk is short, what&#8217;s the fastest way out if I need to leave early. She went anyway."
+    },
+
+    {
+      "type": "paragraph",
+      "html": "She sat through the entire service. No shifting. No exit strategy. No calculation. Just sitting &#8212; the way she used to, before any of this started. Her daughter noticed on the way out. &#8220;Mum. You stayed the whole time.&#8221; She had. &#8220;I didn&#8217;t realise how much I&#8217;d quietly given up,&#8221; she said in the car, &#8220;until I started getting it back.&#8221;"
     },
 
     {
@@ -218,12 +243,12 @@
         {
           "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/white_lady_reviewer_2.png?v=1777407165",
           "reviewer": "Margaret, 64 &#8212; Austin, TX &#8212; &#10003; Verified Subscriber",
-          "text": "Lower back pain and that shooting feeling down my left leg for three years. I was on Aleve every morning. Day eight, I walked to the mailbox and back without stopping. Five weeks in, I hadn&#8217;t touched the Aleve once. I didn&#8217;t plan to stop &#8212; I just stopped needing it."
+          "text": "Lower back pain and that shooting feeling down my left leg for three years. Taking Aleve like candy &#8212; my doctor&#8217;s exact words. She kept warning me about my kidneys. Day eight I walked to the mailbox and back without stopping to rest. Hadn&#8217;t done that in years. Five weeks in I realised I hadn&#8217;t touched the Aleve once. I didn&#8217;t plan to stop. I just stopped needing it."
         },
         {
           "reviewer_img": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/lady_reviewer_3.png?v=1777407165",
           "reviewer": "Linda, 58 &#8212; Columbus, OH &#8212; &#10003; Verified Subscriber",
-          "text": "Chronic lower back pain every day for three years. Day six I sat through my granddaughter&#8217;s school play &#8212; two hours &#8212; without shifting once. My husband said &#8216;you didn&#8217;t fidget.&#8217; I cried in the car on the way home."
+          "text": "Chronic lower back pain every single day for three years. 58 going on 102, that&#8217;s what I told my husband. Day six I sat through my granddaughter&#8217;s school play &#8212; two hours &#8212; without shifting once. He noticed before I did. &#8216;You didn&#8217;t fidget.&#8217; I cried in the car on the way home. Not because I was sad. Because I hadn&#8217;t realised how much I&#8217;d given up until I got a piece of it back."
         }
       ]
     },
@@ -231,8 +256,8 @@
     {
       "type": "image",
       "src": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/standing_from_couch.png?v=1777407166",
-      "alt": "Woman rising from a chair with ease, free from back pain",
-      "caption": "Getting up without grabbing the armrest. For most people it starts in the first week."
+      "alt": "Woman rising from a chair without bracing &#8212; free from lower back pain",
+      "caption": "Getting up without the armrest grab. Without calculating it first. For most people it starts quietly, somewhere in the first week."
     },
 
     {
@@ -244,10 +269,10 @@
       "type": "works",
       "heading": "A straightforward assessment",
       "yes_items": [
-        "Adults over 45 with chronic lower back pain or sciatic nerve discomfort that never fully goes away",
-        "Anyone taking ibuprofen or Aleve every day who has been told to cut back but can&#8217;t",
-        "Anyone who has tried CBD, turmeric, or glucosamine with no lasting result",
-        "Anyone who feels that shooting or burning sensation down the leg and has been told &#8220;it&#8217;s just age&#8221;"
+        "Adults over 45 with lower back pain or sciatic nerve discomfort that never fully goes away &#8212; even on good days",
+        "Anyone whose back pain comes roaring back within 48 hours of stopping ibuprofen or Aleve",
+        "Anyone who has spent money on CBD, turmeric, or glucosamine and ended up back at the same baseline",
+        "Anyone who feels that shooting or burning sensation from the lower back to the leg and has been told &#8220;it&#8217;s just age&#8221;"
       ],
       "no_items": [
         "Currently recovering from recent surgery or acute injury &#8212; check with your doctor first",
@@ -308,6 +333,12 @@
     },
 
     {
+      "type": "future_pacing",
+      "heading": "The Calculation You Stop Making",
+      "text": "Carol still goes to church. Every Sunday. She stopped calculating the pews, the parking, the exit routes. She got back in her garden. She got back on the floor with her grandkids. The back pain and sciatic discomfort that used to plan her whole day are no longer in charge. That is not a miracle. That is what happens when the body finally gets the molecule it stopped making. The 60-day guarantee means the risk of finding out is zero. The only real risk is reading this and doing nothing."
+    },
+
+    {
       "type": "last_chance",
       "result_line": "30+ clinical trials. 6,000+ patients. Nobel Prize-winning research. Back pain and sciatic nerve discomfort. Most people notice mornings are different within the first week.",
       "price_line": "From $29.99/month. Free US shipping. Limited batch stock.",
@@ -331,7 +362,7 @@
           "name": "Barbara Sinclair",
           "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/ChatGPT_Image_Jan_18_2026_06_26_11_AM.png?v=1768706800",
           "time_ago": "1 day ago",
-          "text": "67 years old with lower back pain and that awful shooting down my left leg for two years. Three doctors told me it&#8217;s just age. Three weeks in and my mornings are different. The first ten steps don&#8217;t feel like broken glass anymore.",
+          "text": "67 years old. Lower back pain and that shooting down my left leg for two years. Three doctors all said the same thing &#8212; it&#8217;s just age, what do you expect. I cried in the car after the last one. Three weeks in and the first ten steps of the morning don&#8217;t feel like broken glass anymore. I don&#8217;t have words.",
           "likes": 118,
           "replies": 26
         },
@@ -339,7 +370,7 @@
           "name": "Helen Grainger",
           "photo_url": "https://cdn.shopify.com/s/files/1/0626/9825/8507/files/Untitled_design_49.png?v=1777485115",
           "time_ago": "5 days ago",
-          "text": "Chronic back pain for three years. Aleve, CBD, turmeric, the big Costco glucosamine tub &#8212; none of it lasted. The explanation of why those things aim at the wrong target finally made sense of years of frustration. Week four now. Walked to the mailbox without stopping for the first time in I don&#8217;t know how long.",
+          "text": "Chronic back pain and sciatica for three years. Aleve, CBD, turmeric, the big Costco glucosamine tub &#8212; none of it lasted more than a few days. The part in this article explaining WHY those things aim at the wrong problem &#8212; that finally made sense of years of frustration. Week four. Walked to the mailbox without stopping. First time in I honestly don&#8217;t know how long.",
           "likes": 156,
           "replies": 34
         }
