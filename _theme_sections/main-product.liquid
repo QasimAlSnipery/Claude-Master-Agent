@@ -1019,8 +1019,12 @@
                   {%- endif -%}
                 </div>
                 {%- if block.settings.show_payment_icons -%}
+                  {%- assign rmr_payment_types = shop.enabled_payment_types -%}
+                  {%- if block.settings.payment_types_filter != blank -%}
+                    {%- assign rmr_payment_types = block.settings.payment_types_filter | remove: ' ' | split: ',' -%}
+                  {%- endif -%}
                   <div style="display:flex;align-items:center;justify-content:{{ block.settings.alignment }};gap:6px;flex-wrap:wrap;margin-top:{{ block.settings.payments_gap }}px;">
-                    {%- for type in shop.enabled_payment_types -%}
+                    {%- for type in rmr_payment_types -%}
                       {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
                     {%- endfor -%}
                   </div>
@@ -9492,6 +9496,7 @@
         { "type": "text", "id": "item_3_text", "label": "Text (leave blank to hide)" },
         { "type": "header", "content": "Payment icons" },
         { "type": "checkbox", "id": "show_payment_icons", "label": "Show payment method icons", "default": true },
+        { "type": "text", "id": "payment_types_filter", "label": "Icons to show (comma-separated)", "info": "Leave blank to show all. Example: visa,master,paypal,apple_pay,shop_pay,google_pay,american_express,discover" },
         { "type": "range", "id": "payments_gap", "min": 4, "max": 24, "step": 2, "unit": "px", "label": "Gap above payment icons", "default": 8 }
       ]
     },
