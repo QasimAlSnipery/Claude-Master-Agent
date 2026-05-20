@@ -1,0 +1,704 @@
+{%- liquid
+  assign section_bg     = section.settings.section_bg
+  assign eyebrow        = section.settings.eyebrow
+  assign eyebrow_color  = section.settings.eyebrow_color
+  assign eyebrow_size   = section.settings.eyebrow_size
+  assign heading        = section.settings.heading
+  assign heading_color  = section.settings.heading_color
+  assign heading_size   = section.settings.heading_size
+  assign heading_size_m = section.settings.heading_size_mobile
+  assign show_rating    = section.settings.show_overall_rating
+  assign rating_text    = section.settings.overall_rating_text
+  assign o_star_color   = section.settings.overall_star_color
+  assign show_divider   = section.settings.show_divider
+  assign divider_color  = section.settings.divider_color
+  assign c_star_color   = section.settings.card_star_color
+  assign body_color     = section.settings.body_color
+  assign name_color     = section.settings.name_color
+  assign verified_color = section.settings.verified_color
+  assign col_gap        = section.settings.col_gap
+  assign btn_text       = section.settings.btn_text
+  assign btn_style      = section.settings.btn_style
+  assign btn_text_color = section.settings.btn_text_color
+  assign btn_bg         = section.settings.btn_bg
+  assign btn_border     = section.settings.btn_border_color
+  assign btn_radius     = section.settings.btn_radius
+  assign target_section = section.settings.target_section
+  assign pt             = section.settings.padding_top
+  assign pb             = section.settings.padding_bottom
+  assign ph             = section.settings.padding_h
+  assign ph_m           = section.settings.padding_h_mobile
+  assign max_w          = section.settings.max_width
+-%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section_bg }};
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .rtr-outer-{{ section.id }} {
+    background-color: {{ section_bg }};
+    padding-top: {{ pt | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ pb | times: 0.75 | round: 0 }}px;
+    padding-left: {{ ph_m }}rem;
+    padding-right: {{ ph_m }}rem;
+  }
+
+  .rtr-inner-{{ section.id }} {
+    max-width: {{ max_w }}px;
+    margin: 0 auto;
+  }
+
+  /* ── Header ── */
+  .rtr-header-{{ section.id }} {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .rtr-eyebrow-{{ section.id }} {
+    font-size: {{ eyebrow_size }}px;
+    color: {{ eyebrow_color }};
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+  }
+
+  .rtr-heading-{{ section.id }} {
+    font-size: {{ heading_size_m }}px;
+    color: {{ heading_color }};
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 14px;
+  }
+
+  .rtr-overall-{{ section.id }} {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: {{ heading_color }};
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rtr-ostars-{{ section.id }} {
+    display: flex;
+    gap: 3px;
+  }
+
+  .rtr-ostar-{{ section.id }} {
+    width: 22px;
+    height: 22px;
+    background: {{ o_star_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .rtr-ostar-{{ section.id }} svg { width: 65%; height: 65%; }
+
+  /* ── Divider ── */
+  .rtr-divider-{{ section.id }} {
+    border: none;
+    border-top: 1px solid {{ divider_color }};
+    margin: 24px 0 36px;
+  }
+
+  /* ── Grid ── */
+  .rtr-grid-{{ section.id }} {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  /* ── Card ── */
+  .rtr-card-{{ section.id }} {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rtr-card-top-{{ section.id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .rtr-cstars-{{ section.id }} {
+    display: flex;
+    gap: 3px;
+  }
+
+  .rtr-cstar-{{ section.id }} {
+    width: 20px;
+    height: 20px;
+    background: {{ c_star_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .rtr-cstar-{{ section.id }} svg { width: 65%; height: 65%; }
+
+  .rtr-card-rating-{{ section.id }} {
+    font-size: 15px;
+    font-weight: 600;
+    color: {{ body_color }};
+  }
+
+  .rtr-card-body-{{ section.id }} {
+    font-size: 15px;
+    color: {{ body_color }};
+    line-height: 1.7;
+    margin: 0 0 18px;
+  }
+
+  .rtr-card-reviewer-{{ section.id }} {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+  }
+
+  .rtr-avatar-{{ section.id }} {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #d0d0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rtr-avatar-{{ section.id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .rtr-avatar-placeholder-{{ section.id }} {
+    font-size: 16px;
+    font-weight: 700;
+    color: #888;
+  }
+
+  .rtr-reviewer-name-{{ section.id }} {
+    font-size: 14px;
+    color: {{ name_color }};
+    font-weight: 600;
+  }
+
+  .rtr-verified-{{ section.id }} {
+    font-size: 14px;
+    color: {{ verified_color }};
+    font-weight: 400;
+  }
+
+  /* ── Footer / button ── */
+  .rtr-footer-{{ section.id }} {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .rtr-btn-{{ section.id }} {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .rtr-btn-{{ section.id }}:hover { opacity: 0.75; }
+
+  .rtr-btn--button-{{ section.id }} {
+    padding: 13px 32px;
+    background: {{ btn_bg }};
+    color: {{ btn_text_color }};
+    border: 2px solid {{ btn_border }};
+    border-radius: {{ btn_radius }}px;
+  }
+
+  .rtr-btn--underline-{{ section.id }} {
+    background: none;
+    border: none;
+    padding: 0;
+    color: {{ btn_text_color }};
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+  }
+
+  /* ── Desktop ── */
+  @media (min-width: 750px) {
+    .rtr-outer-{{ section.id }} {
+      padding-top: {{ pt }}px;
+      padding-bottom: {{ pb }}px;
+      padding-left: {{ ph }}rem;
+      padding-right: {{ ph }}rem;
+    }
+
+    .rtr-heading-{{ section.id }} {
+      font-size: {{ heading_size }}px;
+    }
+
+    .rtr-grid-{{ section.id }} {
+      grid-template-columns: repeat(3, 1fr);
+      gap: {{ col_gap }}px;
+    }
+  }
+</style>
+
+<div class="rtr-outer-{{ section.id }}">
+  <div class="rtr-inner-{{ section.id }}">
+
+    {{- '<!-- header -->' -}}
+    <div class="rtr-header-{{ section.id }}">
+      {%- if eyebrow != blank -%}
+        <p class="rtr-eyebrow-{{ section.id }}">{{ eyebrow }}</p>
+      {%- endif -%}
+      {%- if heading != blank -%}
+        <h2 class="rtr-heading-{{ section.id }}">{{ heading }}</h2>
+      {%- endif -%}
+      {%- if show_rating -%}
+        <div class="rtr-overall-{{ section.id }}">
+          <div class="rtr-ostars-{{ section.id }}">
+            {%- for i in (1..5) -%}
+              <div class="rtr-ostar-{{ section.id }}">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="50,5 61,35 95,35 68,57 79,91 50,70 21,91 32,57 5,35 39,35" fill="white"/>
+                </svg>
+              </div>
+            {%- endfor -%}
+          </div>
+          <span>{{ rating_text }}</span>
+        </div>
+      {%- endif -%}
+    </div>
+
+    {%- if show_divider -%}
+      <hr class="rtr-divider-{{ section.id }}">
+    {%- endif -%}
+
+    {{- '<!-- reviews grid -->' -}}
+    <div class="rtr-grid-{{ section.id }}">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'review' -%}
+          <div class="rtr-card-{{ section.id }}" {{ block.shopify_attributes }}>
+
+            <div class="rtr-card-top-{{ section.id }}">
+              <div class="rtr-cstars-{{ section.id }}">
+                {%- for i in (1..block.settings.stars) -%}
+                  <div class="rtr-cstar-{{ section.id }}">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <polygon points="50,5 61,35 95,35 68,57 79,91 50,70 21,91 32,57 5,35 39,35" fill="white"/>
+                    </svg>
+                  </div>
+                {%- endfor -%}
+              </div>
+              <span class="rtr-card-rating-{{ section.id }}">{{ block.settings.rating_text }}</span>
+            </div>
+
+            <p class="rtr-card-body-{{ section.id }}">{{ block.settings.body }}</p>
+
+            <div class="rtr-card-reviewer-{{ section.id }}">
+              <div class="rtr-avatar-{{ section.id }}">
+                {%- if block.settings.avatar != blank -%}
+                  {{ block.settings.avatar | image_url: width: 80 | image_tag: loading: 'lazy', width: 40, height: 40 }}
+                {%- else -%}
+                  <span class="rtr-avatar-placeholder-{{ section.id }}">{{ block.settings.reviewer_name | slice: 0 }}</span>
+                {%- endif -%}
+              </div>
+              <div>
+                <span class="rtr-reviewer-name-{{ section.id }}">{{ block.settings.reviewer_name }}</span>
+                {%- if block.settings.show_verified -%}
+                  <span class="rtr-verified-{{ section.id }}"> &bull; {{ block.settings.verified_text }}</span>
+                {%- endif -%}
+              </div>
+            </div>
+
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    {{- '<!-- load more -->' -}}
+    {%- if btn_text != blank -%}
+      <div class="rtr-footer-{{ section.id }}">
+        <a href="#" id="rtr-btn-{{ section.id }}" class="rtr-btn-{{ section.id }} {% if btn_style == 'button' %}rtr-btn--button-{{ section.id }}{% else %}rtr-btn--underline-{{ section.id }}{% endif %}">{{ btn_text }}</a>
+      </div>
+    {%- endif -%}
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var btn = document.getElementById('rtr-btn-{{ section.id }}');
+  if (!btn) return;
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    var raw = '{{ target_section }}';
+    var key = raw.toLowerCase().replace(/[\s\-]+/g, '_');
+    var el = document.querySelector('[id$="__' + key + '"]')
+          || document.querySelector('[id$="__' + raw + '"]')
+          || document.getElementById('shopify-section-' + key)
+          || document.getElementById('shopify-section-' + raw);
+    if (el) {
+      window.scrollTo({ top: el.getBoundingClientRect().top + window.pageYOffset, behavior: 'smooth' });
+    }
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Romira Text Reviews",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Header"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "Reviews"
+    },
+    {
+      "type": "color",
+      "id": "eyebrow_color",
+      "label": "Eyebrow color",
+      "default": "#1a5c32"
+    },
+    {
+      "type": "range",
+      "id": "eyebrow_size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Eyebrow size",
+      "default": 13
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Verified Customer Reviews"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 24,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 18,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size - mobile",
+      "default": 28
+    },
+    {
+      "type": "header",
+      "content": "Overall rating"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overall_rating",
+      "label": "Show overall rating row",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "overall_rating_text",
+      "label": "Rating text",
+      "default": "Rated 4.8 / 5.0 | 'Excellent'"
+    },
+    {
+      "type": "color",
+      "id": "overall_star_color",
+      "label": "Star color",
+      "default": "#00b67a"
+    },
+    {
+      "type": "header",
+      "content": "Divider"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider",
+      "label": "Show divider line",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "header",
+      "content": "Review cards"
+    },
+    {
+      "type": "color",
+      "id": "card_star_color",
+      "label": "Star color",
+      "default": "#00b67a"
+    },
+    {
+      "type": "color",
+      "id": "body_color",
+      "label": "Body text color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "name_color",
+      "label": "Reviewer name color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "verified_color",
+      "label": "Verified badge color",
+      "default": "#1a5c32"
+    },
+    {
+      "type": "range",
+      "id": "col_gap",
+      "min": 16,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Gap between columns",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "Load More button"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button text",
+      "default": "Load More Reviews"
+    },
+    {
+      "type": "select",
+      "id": "btn_style",
+      "label": "Button style",
+      "default": "underline",
+      "options": [
+        { "label": "Underlined text", "value": "underline" },
+        { "label": "Button", "value": "button" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Text / button color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg",
+      "label": "Button background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "btn_border_color",
+      "label": "Button border",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "range",
+      "id": "btn_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Button roundness",
+      "default": 4
+    },
+    {
+      "type": "text",
+      "id": "target_section",
+      "label": "Scroll-to section ID",
+      "info": "Section ID to jump to when clicked (e.g. romira_reviews). Leave blank to disable scroll.",
+      "default": "romira_reviews"
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "color",
+      "id": "section_bg",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_h",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "unit": "rem",
+      "label": "Horizontal padding",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "padding_h_mobile",
+      "min": 0,
+      "max": 5,
+      "step": 0.5,
+      "unit": "rem",
+      "label": "Horizontal padding - mobile",
+      "default": 1.5
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 800,
+      "max": 1600,
+      "step": 40,
+      "unit": "px",
+      "label": "Max content width",
+      "default": 1200
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "range",
+          "id": "stars",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Stars",
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "rating_text",
+          "label": "Rating label",
+          "default": "5.0"
+        },
+        {
+          "type": "textarea",
+          "id": "body",
+          "label": "Review text",
+          "default": "Write the review here."
+        },
+        {
+          "type": "image_picker",
+          "id": "avatar",
+          "label": "Reviewer photo"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer name",
+          "default": "Sandra B."
+        },
+        {
+          "type": "checkbox",
+          "id": "show_verified",
+          "label": "Show verified badge",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "verified_text",
+          "label": "Verified badge text",
+          "default": "Verified Customer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Romira Text Reviews",
+      "blocks": [
+        {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Sandra B.",
+            "rating_text": "5.0",
+            "body": "I had given up. Two years of Gabapentin and all it gave me was brain fog and 20 extra pounds. The numbness just kept spreading. My daughter found Romira for me and I figured I had nothing to lose. By week three, I woke up and realized the burning was gone. Not dulled. Gone. I stood in my bathroom and wiggled my toes and I could feel them. I am 67 years old and I sat on the edge of my bathtub and cried."
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Mike K.",
+            "rating_text": "5.0",
+            "body": "The neuropathy had stolen my retirement. I could not travel, could not walk the beach with my wife, could not even stand long enough to cook dinner. I tried every nerve supplement on the market. B12, ALA, magnesium, creams, grounding mats, you name it. Nothing worked because nothing was fixing the real problem. Romira was the first thing that actually made a difference. The tingling is almost gone. My balance is better. I walked on the beach last month for the first time in three years."
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "reviewer_name": "Robert R.",
+            "rating_text": "5.0",
+            "body": "I used to dread bedtime. The second my feet hit the sheets the burning would start and I knew I was in for another night of waking up every two hours drenched in sweat. I started Romira and within two weeks the burning had calmed enough for me to sleep through the night. Now at month two, I actually look forward to bed. I wake up rested. My wife says I seem like a different person. I feel like one."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

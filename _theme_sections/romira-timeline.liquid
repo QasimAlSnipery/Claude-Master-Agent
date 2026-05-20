@@ -1,0 +1,366 @@
+﻿{%- style -%}
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.background_color }} !important;
+    overflow: clip;
+    max-width: {{ section.settings.section_max_width }}px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  @media (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      max-width: {{ section.settings.section_max_width_mobile }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    background-color: {{ section.settings.background_color }} !important;
+    overflow: clip;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-inner {
+    max-width: {{ section.settings.content_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ section.settings.horizontal_padding_mobile }}px;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-inner {
+      padding: 0 {{ section.settings.horizontal_padding }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-header {
+    text-align: {{ section.settings.heading_alignment }};
+    margin-bottom: 36px;
+    padding: 0 4px;
+  }
+  .romira-timeline-{{ section.id }} .rt-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    color: {{ section.settings.heading_color }};
+    margin: 0 0 12px;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-heading {
+      font-size: {{ section.settings.heading_size }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-subheading {
+    font-size: 15px;
+    color: {{ section.settings.subheading_color }};
+    margin: 0 auto;
+    max-width: 680px;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-subheading {
+      font-size: 16px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-blocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: {{ section.settings.block_gap_mobile }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-blocks {
+      grid-template-columns: repeat({{ section.blocks.size }}, 1fr);
+      gap: {{ section.settings.block_gap }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-block {
+    background: {{ section.settings.block_bg_color }};
+    border-radius: {{ section.settings.block_border_radius }}px;
+    overflow: hidden;
+    border-top: {{ section.settings.accent_bar_height }}px solid var(--rt-accent);
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .romira-timeline-{{ section.id }} .rt-block.rt-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .romira-timeline-{{ section.id }} .rt-block-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 0 0 8px 0;
+  }
+  .romira-timeline-{{ section.id }} .rt-block-content {
+    padding: {{ section.settings.block_padding_mobile }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-block-content {
+      padding: {{ section.settings.block_padding }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-block-heading {
+    font-size: {{ section.settings.block_heading_size_mobile }}px;
+    margin: 10px 0 10px;
+    line-height: 1.3;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-block-heading {
+      font-size: {{ section.settings.block_heading_size }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-block-text {
+    font-size: {{ section.settings.block_text_size }}px;
+    line-height: 1.6;
+    margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .romira-timeline-{{ section.id }} .rt-block-text p { margin: 0; }
+
+  /* ── GUARANTEE BAR ── */
+  .romira-timeline-{{ section.id }} .rt-guarantee {
+    margin-top: {{ section.settings.guarantee_margin_top_mobile }}px;
+    background: {{ section.settings.guarantee_bg }};
+    border-radius: {{ section.settings.guarantee_radius }}px;
+    padding: {{ section.settings.guarantee_pad_v_mobile }}px {{ section.settings.guarantee_pad_h_mobile }}px;
+    display: flex;
+    align-items: center;
+    gap: {{ section.settings.guarantee_gap_mobile }}px;
+    border-left: {{ section.settings.guarantee_border_width }}px solid {{ section.settings.guarantee_border_color }};
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease 0.5s, transform 0.6s ease 0.5s;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-guarantee {
+      margin-top: {{ section.settings.guarantee_margin_top }}px;
+      padding: {{ section.settings.guarantee_pad_v }}px {{ section.settings.guarantee_pad_h }}px;
+      gap: {{ section.settings.guarantee_gap }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-guarantee.rt-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .romira-timeline-{{ section.id }} .rt-guarantee-icon {
+    flex-shrink: 0;
+    width: {{ section.settings.guarantee_icon_size_mobile }}px;
+    height: {{ section.settings.guarantee_icon_size_mobile }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-guarantee-icon {
+      width: {{ section.settings.guarantee_icon_size }}px;
+      height: {{ section.settings.guarantee_icon_size }}px;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-guarantee-text { flex: 1; min-width: 0; }
+  .romira-timeline-{{ section.id }} .rt-guarantee-heading {
+    font-size: {{ section.settings.guarantee_heading_size_mobile }}px !important;
+    font-weight: {{ section.settings.guarantee_heading_weight }};
+    color: {{ section.settings.guarantee_heading_color }};
+    margin: 0 0 4px;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-guarantee-heading {
+      font-size: {{ section.settings.guarantee_heading_size }}px !important;
+    }
+  }
+  .romira-timeline-{{ section.id }} .rt-guarantee-sub {
+    font-size: {{ section.settings.guarantee_sub_size_mobile }}px;
+    color: {{ section.settings.guarantee_sub_color }};
+    margin: 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-timeline-{{ section.id }} .rt-guarantee-sub {
+      font-size: {{ section.settings.guarantee_sub_size }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="romira-timeline-{{ section.id }}">
+  <div class="rt-inner">
+    {%- if section.settings.heading != blank or section.settings.subheading != blank -%}
+      <div class="rt-header">
+        {%- if section.settings.heading != blank -%}
+          <{{ section.settings.heading_tag }} class="rt-heading">{{ section.settings.heading }}</{{ section.settings.heading_tag }}>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <p class="rt-subheading">{{ section.settings.subheading }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+    <div class="rt-blocks" id="rt-blocks-{{ section.id }}">
+      {%- for block in section.blocks -%}
+        <div class="rt-block" {{ block.shopify_attributes }} style="--rt-accent: {{ block.settings.accent_color }};" data-delay="{{ forloop.index0 | times: 150 }}">
+          <div class="rt-block-label" style="background: {{ block.settings.accent_color }}; color: {{ block.settings.label_text_color }};">
+            {{ block.settings.label }}
+          </div>
+          <div class="rt-block-content">
+            {%- if block.settings.heading != blank -%}
+              <h3 class="rt-block-heading" style="color: {{ block.settings.heading_color }};">{{ block.settings.heading }}</h3>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="rt-block-text" style="color: {{ block.settings.text_color }};">{{ block.settings.text }}</div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+
+    {%- if section.settings.show_guarantee -%}
+      <div class="rt-guarantee" id="rt-guarantee-{{ section.id }}">
+        <svg class="rt-guarantee-icon" viewBox="0 0 60 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 3L5 14v20c0 16.6 10.7 32.1 25 36 14.3-3.9 25-19.4 25-36V14L30 3z" fill="{{ section.settings.guarantee_shield_fill }}" stroke="{{ section.settings.guarantee_shield_stroke }}" stroke-width="2"/>
+          <path d="M20 33l7 7 13-14" stroke="{{ section.settings.guarantee_shield_check }}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="rt-guarantee-text">
+          {%- if section.settings.guarantee_heading != blank -%}
+            <p class="rt-guarantee-heading">{{ section.settings.guarantee_heading }}</p>
+          {%- endif -%}
+          {%- if section.settings.guarantee_sub != blank -%}
+            <p class="rt-guarantee-sub">{{ section.settings.guarantee_sub }}</p>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+(function() {
+  var container = document.getElementById('rt-blocks-{{ section.id }}');
+  if (!container) return;
+  var cards = container.querySelectorAll('.rt-block');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var delay = parseInt(el.getAttribute('data-delay') || 0);
+        setTimeout(function() { el.classList.add('rt-visible'); }, delay);
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.15 });
+  cards.forEach(function(card) { observer.observe(card); });
+
+  var guarantee = document.getElementById('rt-guarantee-{{ section.id }}');
+  if (guarantee) {
+    new IntersectionObserver(function(entries, obs) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) { guarantee.classList.add('rt-visible'); obs.unobserve(guarantee); }
+      });
+    }, { threshold: 0.2 }).observe(guarantee);
+  }
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Romira — Timeline",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "color", "id": "background_color", "label": "Section background color", "default": "#f8f8f6" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "What to Expect Week by Week" },
+    { "type": "select", "id": "heading_tag", "label": "Heading tag", "options": [{"value":"h1","label":"H1"},{"value":"h2","label":"H2"},{"value":"h3","label":"H3"}], "default": "h2" },
+    { "type": "range", "id": "heading_size", "min": 20, "max": 60, "step": 2, "unit": "px", "label": "Heading size (desktop)", "default": 36 },
+    { "type": "range", "id": "heading_size_mobile", "min": 16, "max": 40, "step": 1, "unit": "px", "label": "Heading size (mobile)", "default": 24 },
+    { "type": "select", "id": "heading_alignment", "label": "Heading alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
+    { "type": "color", "id": "subheading_color", "label": "Subheading color", "default": "#555555" },
+    { "type": "color", "id": "block_bg_color", "label": "Card background", "default": "#ffffff" },
+    { "type": "range", "id": "block_border_radius", "min": 0, "max": 24, "step": 2, "unit": "px", "label": "Card border radius", "default": 12 },
+    { "type": "range", "id": "accent_bar_height", "min": 2, "max": 8, "step": 1, "unit": "px", "label": "Accent bar height", "default": 4 },
+    { "type": "range", "id": "block_gap", "min": 8, "max": 48, "step": 4, "unit": "px", "label": "Gap between cards (desktop)", "default": 20 },
+    { "type": "range", "id": "block_gap_mobile", "min": 8, "max": 48, "step": 4, "unit": "px", "label": "Gap between cards (mobile)", "default": 16 },
+    { "type": "range", "id": "block_padding", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Card padding (desktop)", "default": 24 },
+    { "type": "range", "id": "block_padding_mobile", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Card padding (mobile)", "default": 16 },
+    { "type": "range", "id": "block_heading_size", "min": 14, "max": 28, "step": 1, "unit": "px", "label": "Card heading (desktop)", "default": 18 },
+    { "type": "range", "id": "block_heading_size_mobile", "min": 14, "max": 24, "step": 1, "unit": "px", "label": "Card heading (mobile)", "default": 16 },
+    { "type": "range", "id": "block_text_size", "min": 12, "max": 18, "step": 1, "unit": "px", "label": "Card text size", "default": 14 },
+    { "type": "range", "id": "content_width", "min": 600, "max": 1400, "step": 20, "unit": "px", "label": "Max content width", "default": 1200 },
+    { "type": "header", "content": "Guarantee bar" },
+    { "type": "checkbox", "id": "show_guarantee", "label": "Show guarantee bar", "default": true },
+    { "type": "text", "id": "guarantee_heading", "label": "Guarantee heading", "default": "60-Day Money-Back Guarantee" },
+    { "type": "text", "id": "guarantee_sub", "label": "Guarantee subtext", "default": "Try Romira R-ALA for 60 days. If you are not completely satisfied, get 100% of your money back — no questions asked." },
+    { "type": "range", "id": "guarantee_heading_size", "min": 13, "max": 28, "step": 1, "unit": "px", "label": "Heading size (desktop)", "default": 18 },
+    { "type": "range", "id": "guarantee_heading_size_mobile", "min": 13, "max": 22, "step": 1, "unit": "px", "label": "Heading size (mobile)", "default": 16 },
+    { "type": "select", "id": "guarantee_heading_weight", "label": "Heading weight", "options": [{"value":"400","label":"Regular"},{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"}], "default": "700" },
+    { "type": "range", "id": "guarantee_sub_size", "min": 12, "max": 18, "step": 1, "unit": "px", "label": "Subtext size (desktop)", "default": 14 },
+    { "type": "range", "id": "guarantee_sub_size_mobile", "min": 12, "max": 16, "step": 1, "unit": "px", "label": "Subtext size (mobile)", "default": 13 },
+    { "type": "color", "id": "guarantee_bg", "label": "Background color", "default": "#264165" },
+    { "type": "color", "id": "guarantee_heading_color", "label": "Heading color", "default": "#ffffff" },
+    { "type": "color", "id": "guarantee_sub_color", "label": "Subtext color", "default": "#a8bdd4" },
+    { "type": "color", "id": "guarantee_border_color", "label": "Left border color", "default": "#ffcc00" },
+    { "type": "range", "id": "guarantee_border_width", "min": 0, "max": 8, "step": 1, "unit": "px", "label": "Left border width", "default": 4 },
+    { "type": "range", "id": "guarantee_radius", "min": 0, "max": 24, "step": 2, "unit": "px", "label": "Border radius", "default": 12 },
+    { "type": "color", "id": "guarantee_shield_fill", "label": "Shield fill color", "default": "#ffcc00" },
+    { "type": "color", "id": "guarantee_shield_stroke", "label": "Shield stroke color", "default": "#e6b800" },
+    { "type": "color", "id": "guarantee_shield_check", "label": "Shield check color", "default": "#264165" },
+    { "type": "range", "id": "guarantee_icon_size", "min": 32, "max": 80, "step": 4, "unit": "px", "label": "Shield icon size (desktop)", "default": 52 },
+    { "type": "range", "id": "guarantee_icon_size_mobile", "min": 32, "max": 60, "step": 4, "unit": "px", "label": "Shield icon size (mobile)", "default": 44 },
+    { "type": "range", "id": "guarantee_pad_v", "min": 12, "max": 48, "step": 4, "unit": "px", "label": "Padding top/bottom (desktop)", "default": 24 },
+    { "type": "range", "id": "guarantee_pad_v_mobile", "min": 12, "max": 40, "step": 4, "unit": "px", "label": "Padding top/bottom (mobile)", "default": 20 },
+    { "type": "range", "id": "guarantee_pad_h", "min": 16, "max": 60, "step": 4, "unit": "px", "label": "Padding left/right (desktop)", "default": 32 },
+    { "type": "range", "id": "guarantee_pad_h_mobile", "min": 16, "max": 40, "step": 4, "unit": "px", "label": "Padding left/right (mobile)", "default": 20 },
+    { "type": "range", "id": "guarantee_gap", "min": 12, "max": 40, "step": 4, "unit": "px", "label": "Icon-to-text gap (desktop)", "default": 20 },
+    { "type": "range", "id": "guarantee_gap_mobile", "min": 12, "max": 32, "step": 4, "unit": "px", "label": "Icon-to-text gap (mobile)", "default": 16 },
+    { "type": "range", "id": "guarantee_margin_top", "min": 8, "max": 60, "step": 4, "unit": "px", "label": "Gap above bar (desktop)", "default": 32 },
+    { "type": "range", "id": "guarantee_margin_top_mobile", "min": 8, "max": 48, "step": 4, "unit": "px", "label": "Gap above bar (mobile)", "default": 24 },
+    { "type": "header", "content": "Section spacing" },
+    { "type": "range", "id": "section_max_width", "min": 400, "max": 2000, "step": 20, "unit": "px", "label": "Max width (desktop)", "default": 2000 },
+    { "type": "range", "id": "section_max_width_mobile", "min": 320, "max": 800, "step": 20, "unit": "px", "label": "Max width (mobile)", "default": 800 },
+    { "type": "range", "id": "horizontal_padding", "min": 0, "max": 80, "step": 4, "unit": "px", "label": "Horizontal padding (desktop)", "default": 20 },
+    { "type": "range", "id": "horizontal_padding_mobile", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Horizontal padding (mobile)", "default": 16 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (desktop)", "default": 60 },
+    { "type": "range", "id": "mobile_padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (mobile)", "default": 36 },
+    { "type": "range", "id": "mobile_padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (mobile)", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "phase",
+      "name": "Timeline Phase",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Phase label", "default": "WEEKS 1–2" },
+        { "type": "text", "id": "heading", "label": "Phase heading", "default": "The Foundation Builds" },
+        { "type": "richtext", "id": "text", "label": "Description", "default": "<p>R-ALA begins accumulating in nerve tissue. The cellular groundwork phase begins.</p>" },
+        { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#264165" },
+        { "type": "color", "id": "label_text_color", "label": "Label text color", "default": "#ffffff" },
+        { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
+        { "type": "color", "id": "text_color", "label": "Text color", "default": "#444444" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Romira — Timeline",
+      "blocks": [
+        { "type": "phase", "settings": { "label": "WEEKS 1–2", "heading": "The Foundation Builds", "text": "<p>R-ALA begins accumulating in nerve tissue. You may not feel dramatic changes yet — this is the cellular groundwork phase. Some customers notice mild improvements in sleep quality and reduced nighttime irritation.</p>" } },
+        { "type": "phase", "settings": { "label": "WEEKS 3–4", "heading": "The Shift Begins", "text": "<p>Most customers start noticing real changes here. The burning and tingling that was worst at night begins to ease. Standing and walking feel less uncomfortable. Sleep improves noticeably.</p>" } },
+        { "type": "phase", "settings": { "label": "WEEKS 5–8", "heading": "Sustained Relief", "text": "<p>Nerve comfort continues improving. Sensitivity in hands and feet reduces. Many customers describe feeling more comfortable, more mobile, and more rested than they have in years.</p>" } },
+        { "type": "phase", "settings": { "label": "WEEKS 9–12+", "heading": "Long-Term Support", "text": "<p>With continued daily use, the improvements compound. Customers report the lowest levels of nerve discomfort in years. The 60-day guarantee gives you the full evaluation window.</p>" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

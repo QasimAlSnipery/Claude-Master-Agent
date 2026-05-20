@@ -1,0 +1,417 @@
+﻿{%- style -%}
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.background_color }} !important;
+    overflow: clip;
+    max-width: {{ section.settings.section_max_width }}px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  @media (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      max-width: {{ section.settings.section_max_width_mobile }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    background-color: {{ section.settings.background_color }} !important;
+    overflow: clip;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-inner {
+    max-width: {{ section.settings.content_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ section.settings.horizontal_padding_mobile }}px;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-inner {
+      padding: 0 {{ section.settings.horizontal_padding }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-header {
+    text-align: {{ section.settings.heading_alignment }};
+    margin-bottom: 32px;
+    padding: 0 4px;
+  }
+  .romira-comparison-{{ section.id }} .rc-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    color: {{ section.settings.heading_color }};
+    margin: 0 0 10px;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-heading {
+      font-size: {{ section.settings.heading_size }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-subheading {
+    color: {{ section.settings.subheading_color }};
+    font-size: 15px;
+    margin: 0;
+    word-wrap: break-word;
+  }
+  /* Scroll wrapper for mobile */
+  .romira-comparison-{{ section.id }} .rc-scroll {
+    overflow-x: auto;
+    border-radius: {{ section.settings.table_radius }}px;
+    border: 1px solid {{ section.settings.border_color }};
+  }
+  /* Table */
+  .romira-comparison-{{ section.id }} table {
+    width: 100%;
+    min-width: 340px;
+    border-collapse: collapse;
+  }
+  /* Column widths */
+  .romira-comparison-{{ section.id }} .col-romira { width: {{ section.settings.brand_col_width }}%; }
+  .romira-comparison-{{ section.id }} .col-feature { width: {{ section.settings.feature_col_width }}%; }
+  .romira-comparison-{{ section.id }} .col-others  { width: {{ section.settings.brand_col_width }}%; }
+  /* Header row with images */
+  .romira-comparison-{{ section.id }} .rc-header-row th {
+    padding: {{ section.settings.header_padding }}px {{ section.settings.col_padding_mobile }}px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid {{ section.settings.border_color }};
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-header-row th {
+      padding: {{ section.settings.header_padding }}px {{ section.settings.col_padding }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-header-row .th-romira {
+    background: {{ section.settings.romira_header_bg }};
+    color: {{ section.settings.romira_header_color }};
+    border-right: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} .rc-header-row .th-feature {
+    background: {{ section.settings.feature_header_bg }};
+    color: {{ section.settings.feature_header_color }};
+    text-align: {{ section.settings.feature_text_align }};
+  }
+  .romira-comparison-{{ section.id }} .rc-header-row .th-others {
+    background: {{ section.settings.others_header_bg }};
+    color: {{ section.settings.others_header_color }};
+    border-left: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} .rc-brand-img {
+    width: {{ section.settings.brand_img_size_mobile }}px;
+    height: {{ section.settings.brand_img_size_mobile }}px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto {{ section.settings.brand_img_gap }}px;
+    border-radius: {{ section.settings.brand_img_radius }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-brand-img {
+      width: {{ section.settings.brand_img_size }}px;
+      height: {{ section.settings.brand_img_size }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-brand-name {
+    font-size: {{ section.settings.brand_name_size_mobile }}px !important;
+    font-weight: {{ section.settings.brand_name_weight }} !important;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    display: block;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-brand-name {
+      font-size: {{ section.settings.brand_name_size }}px !important;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-feature-header {
+    font-size: {{ section.settings.feature_header_size_mobile }}px !important;
+    font-weight: {{ section.settings.feature_header_weight }} !important;
+    color: {{ section.settings.feature_header_color }} !important;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    display: block;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-feature-header {
+      font-size: {{ section.settings.feature_header_size }}px !important;
+    }
+  }
+  /* Data rows */
+  .romira-comparison-{{ section.id }} .rc-row td {
+    padding: {{ section.settings.row_padding_mobile }}px {{ section.settings.col_padding_mobile }}px;
+    border-bottom: 1px solid {{ section.settings.border_color }};
+    vertical-align: middle;
+    line-height: 1.4;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-row td {
+      padding: {{ section.settings.row_padding }}px {{ section.settings.col_padding }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-row:last-child td { border-bottom: none; }
+  .romira-comparison-{{ section.id }} .rc-row .td-romira {
+    background: {{ section.settings.romira_cell_bg }};
+    text-align: center;
+    border-right: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} .rc-row .td-feature {
+    background: {{ section.settings.feature_cell_bg }};
+    text-align: {{ section.settings.feature_text_align }};
+    font-size: {{ section.settings.feature_text_size_mobile }}px;
+    font-weight: {{ section.settings.feature_text_weight }};
+    color: {{ section.settings.feature_text_color }};
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-row .td-feature {
+      font-size: {{ section.settings.feature_text_size }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-row .td-others {
+    background: {{ section.settings.others_cell_bg }};
+    text-align: center;
+    border-left: 1px solid {{ section.settings.border_color }};
+  }
+  /* Check / Cross icons */
+  .romira-comparison-{{ section.id }} .rc-check,
+  .romira-comparison-{{ section.id }} .rc-cross {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: {{ section.settings.icon_size }}px;
+    height: {{ section.settings.icon_size }}px;
+    border-radius: 50%;
+    font-size: {{ section.settings.icon_font_size }}px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .romira-comparison-{{ section.id }} .rc-check {
+    background: {{ section.settings.check_bg }};
+    color: {{ section.settings.check_color }};
+  }
+  .romira-comparison-{{ section.id }} .rc-cross {
+    background: {{ section.settings.cross_bg }};
+    color: {{ section.settings.cross_color }};
+  }
+  /* Custom text below icon */
+  .romira-comparison-{{ section.id }} .rc-icon-label {
+    display: block;
+    font-size: {{ section.settings.icon_label_size }}px;
+    color: {{ section.settings.icon_label_color }};
+    margin-top: 4px;
+    word-wrap: break-word;
+  }
+  /* Animation */
+  .romira-comparison-{{ section.id }} .rc-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .romira-comparison-{{ section.id }} .rc-scroll.rc-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+{%- endstyle -%}
+
+<div class="romira-comparison-{{ section.id }}">
+  <div class="rc-inner">
+    {%- if section.settings.heading != blank or section.settings.subheading != blank -%}
+      <div class="rc-header">
+        {%- if section.settings.heading != blank -%}
+          <{{ section.settings.heading_tag }} class="rc-heading">{{ section.settings.heading }}</{{ section.settings.heading_tag }}>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <p class="rc-subheading">{{ section.settings.subheading }}</span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="rc-scroll" id="rc-table-{{ section.id }}">
+      <table>
+        <colgroup>
+          <col class="col-romira">
+          <col class="col-feature">
+          <col class="col-others">
+        </colgroup>
+        <thead>
+          <tr class="rc-header-row">
+            <th class="th-romira">
+              {%- if section.settings.romira_image != blank -%}
+                {{ section.settings.romira_image | image_url: width: 200 | image_tag: class: 'rc-brand-img', loading: 'lazy' }}
+              {%- endif -%}
+              <span class="rc-brand-name">{{ section.settings.romira_col_label }}</span>
+            </th>
+            <th class="th-feature"><span class="rc-feature-header">{{ section.settings.feature_col_label }}</span></th>
+            <th class="th-others">
+              {%- if section.settings.others_image != blank -%}
+                {{ section.settings.others_image | image_url: width: 200 | image_tag: class: 'rc-brand-img', loading: 'lazy' }}
+              {%- endif -%}
+              <span class="rc-brand-name">{{ section.settings.others_col_label }}</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for block in section.blocks -%}
+            <tr class="rc-row" {{ block.shopify_attributes }}>
+              <td class="td-romira">
+                <span class="rc-check">{{ section.settings.check_symbol }}</span>
+                {%- if block.settings.romira_label != blank -%}
+                  <span class="rc-icon-label">{{ block.settings.romira_label }}</span>
+                {%- endif -%}
+              </td>
+              <td class="td-feature">{{ block.settings.feature }}</td>
+              <td class="td-others">
+                {%- if block.settings.others_has_check -%}
+                  <span class="rc-check">{{ section.settings.check_symbol }}</span>
+                {%- else -%}
+                  <span class="rc-cross">{{ section.settings.cross_symbol }}</span>
+                {%- endif -%}
+                {%- if block.settings.others_label != blank -%}
+                  <span class="rc-icon-label">{{ block.settings.others_label }}</span>
+                {%- endif -%}
+              </td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var el = document.getElementById('rc-table-{{ section.id }}');
+  if (!el) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        el.classList.add('rc-visible');
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1 });
+  observer.observe(el);
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Romira — Comparison Table",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "color", "id": "background_color", "label": "Section background color", "default": "#f8f8f6" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Why Romira R-ALA?" },
+    { "type": "select", "id": "heading_tag", "label": "Heading tag", "options": [{"value":"h1","label":"H1"},{"value":"h2","label":"H2"},{"value":"h3","label":"H3"}], "default": "h2" },
+    { "type": "range", "id": "heading_size", "min": 20, "max": 60, "step": 2, "unit": "px", "label": "Heading size (desktop)", "default": 36 },
+    { "type": "range", "id": "heading_size_mobile", "min": 16, "max": 40, "step": 1, "unit": "px", "label": "Heading size (mobile)", "default": 24 },
+    { "type": "select", "id": "heading_alignment", "label": "Heading alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
+    { "type": "color", "id": "subheading_color", "label": "Subheading color", "default": "#555555" },
+    { "type": "header", "content": "Column widths" },
+    { "type": "range", "id": "brand_col_width", "min": 15, "max": 40, "step": 1, "unit": "%", "label": "Brand column width (each)", "default": 25 },
+    { "type": "range", "id": "feature_col_width", "min": 20, "max": 70, "step": 1, "unit": "%", "label": "Feature column width", "default": 50 },
+    { "type": "header", "content": "Romira column" },
+    { "type": "text", "id": "romira_col_label", "label": "Romira column name", "default": "Romira R-ALA" },
+    { "type": "image_picker", "id": "romira_image", "label": "Romira product image" },
+    { "type": "color", "id": "romira_header_bg", "label": "Romira header background", "default": "#264165" },
+    { "type": "color", "id": "romira_header_color", "label": "Romira header text color", "default": "#ffffff" },
+    { "type": "color", "id": "romira_cell_bg", "label": "Romira cell background", "default": "#eef2f7" },
+    { "type": "header", "content": "Feature / Benefit column" },
+    { "type": "text", "id": "feature_col_label", "label": "Feature column heading" },
+    { "type": "select", "id": "feature_text_align", "label": "Feature text alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "left" },
+    { "type": "color", "id": "feature_header_bg", "label": "Feature header background", "default": "#ffffff" },
+    { "type": "color", "id": "feature_header_color", "label": "Feature header text color", "default": "#1a1a1a" },
+    { "type": "color", "id": "feature_cell_bg", "label": "Feature cell background", "default": "#ffffff" },
+    { "type": "color", "id": "feature_text_color", "label": "Feature text color", "default": "#1a1a1a" },
+    { "type": "range", "id": "feature_text_size", "min": 12, "max": 20, "step": 1, "unit": "px", "label": "Feature text size (desktop)", "default": 15 },
+    { "type": "range", "id": "feature_text_size_mobile", "min": 11, "max": 18, "step": 1, "unit": "px", "label": "Feature text size (mobile)", "default": 13 },
+    { "type": "select", "id": "feature_text_weight", "label": "Feature text weight", "options": [{"value":"400","label":"Regular"},{"value":"500","label":"Medium"},{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"}], "default": "500" },
+    { "type": "header", "content": "Others column" },
+    { "type": "text", "id": "others_col_label", "label": "Others column name", "default": "Other Supplements" },
+    { "type": "image_picker", "id": "others_image", "label": "Others product image" },
+    { "type": "color", "id": "others_header_bg", "label": "Others header background", "default": "#f0f0f0" },
+    { "type": "color", "id": "others_header_color", "label": "Others header text color", "default": "#666666" },
+    { "type": "color", "id": "others_cell_bg", "label": "Others cell background", "default": "#fafafa" },
+    { "type": "header", "content": "Brand name typography" },
+    { "type": "range", "id": "brand_name_size", "min": 12, "max": 24, "step": 1, "unit": "px", "label": "Brand name size (desktop)", "default": 15 },
+    { "type": "range", "id": "brand_name_size_mobile", "min": 11, "max": 20, "step": 1, "unit": "px", "label": "Brand name size (mobile)", "default": 13 },
+    { "type": "select", "id": "brand_name_weight", "label": "Brand name weight", "options": [{"value":"400","label":"Regular"},{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"}], "default": "700" },
+    { "type": "header", "content": "Feature column heading typography" },
+    { "type": "range", "id": "feature_header_size", "min": 10, "max": 28, "step": 1, "unit": "px", "label": "Feature heading size (desktop)", "default": 15 },
+    { "type": "range", "id": "feature_header_size_mobile", "min": 10, "max": 24, "step": 1, "unit": "px", "label": "Feature heading size (mobile)", "default": 13 },
+    { "type": "select", "id": "feature_header_weight", "label": "Feature heading weight", "options": [{"value":"400","label":"Regular"},{"value":"500","label":"Medium"},{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"}], "default": "600" },
+    { "type": "header", "content": "Brand image" },
+    { "type": "range", "id": "brand_img_size", "min": 40, "max": 160, "step": 4, "unit": "px", "label": "Image size (desktop)", "default": 80 },
+    { "type": "range", "id": "brand_img_size_mobile", "min": 40, "max": 120, "step": 4, "unit": "px", "label": "Image size (mobile)", "default": 64 },
+    { "type": "range", "id": "brand_img_gap", "min": 0, "max": 20, "step": 2, "unit": "px", "label": "Image-to-name gap", "default": 8 },
+    { "type": "range", "id": "brand_img_radius", "min": 0, "max": 20, "step": 2, "unit": "px", "label": "Image border radius", "default": 8 },
+    { "type": "header", "content": "Check and cross icons" },
+    { "type": "text", "id": "check_symbol", "label": "Check symbol", "default": "✓" },
+    { "type": "text", "id": "cross_symbol", "label": "Cross symbol", "default": "✕" },
+    { "type": "range", "id": "icon_size", "min": 24, "max": 60, "step": 2, "unit": "px", "label": "Icon circle size", "default": 36 },
+    { "type": "range", "id": "icon_font_size", "min": 12, "max": 28, "step": 1, "unit": "px", "label": "Icon symbol size", "default": 16 },
+    { "type": "color", "id": "check_bg", "label": "Check background", "default": "#264165" },
+    { "type": "color", "id": "check_color", "label": "Check symbol color", "default": "#ffffff" },
+    { "type": "color", "id": "cross_bg", "label": "Cross background", "default": "#eeeeee" },
+    { "type": "color", "id": "cross_color", "label": "Cross symbol color", "default": "#aaaaaa" },
+    { "type": "range", "id": "icon_label_size", "min": 10, "max": 16, "step": 1, "unit": "px", "label": "Icon label text size", "default": 11 },
+    { "type": "color", "id": "icon_label_color", "label": "Icon label text color", "default": "#666666" },
+    { "type": "header", "content": "Table styling" },
+    { "type": "color", "id": "border_color", "label": "Border color", "default": "#e0e0e0" },
+    { "type": "range", "id": "table_radius", "min": 0, "max": 24, "step": 2, "unit": "px", "label": "Table border radius", "default": 12 },
+    { "type": "range", "id": "header_padding", "min": 8, "max": 32, "step": 4, "unit": "px", "label": "Header padding", "default": 16 },
+    { "type": "range", "id": "col_padding", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Column padding (desktop)", "default": 20 },
+    { "type": "range", "id": "col_padding_mobile", "min": 6, "max": 24, "step": 2, "unit": "px", "label": "Column padding (mobile)", "default": 12 },
+    { "type": "range", "id": "row_padding", "min": 8, "max": 28, "step": 2, "unit": "px", "label": "Row padding (desktop)", "default": 14 },
+    { "type": "range", "id": "row_padding_mobile", "min": 8, "max": 24, "step": 2, "unit": "px", "label": "Row padding (mobile)", "default": 12 },
+    { "type": "header", "content": "Section spacing" },
+    { "type": "range", "id": "section_max_width", "min": 400, "max": 2000, "step": 20, "unit": "px", "label": "Max width (desktop)", "default": 2000 },
+    { "type": "range", "id": "section_max_width_mobile", "min": 320, "max": 800, "step": 20, "unit": "px", "label": "Max width (mobile)", "default": 800 },
+    { "type": "range", "id": "content_width", "min": 400, "max": 1200, "step": 20, "unit": "px", "label": "Max content width", "default": 900 },
+    { "type": "range", "id": "horizontal_padding", "min": 0, "max": 80, "step": 4, "unit": "px", "label": "Horizontal padding (desktop)", "default": 20 },
+    { "type": "range", "id": "horizontal_padding_mobile", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Horizontal padding (mobile)", "default": 16 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (desktop)", "default": 60 },
+    { "type": "range", "id": "mobile_padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (mobile)", "default": 36 },
+    { "type": "range", "id": "mobile_padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (mobile)", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Comparison row",
+      "settings": [
+        { "type": "text", "id": "feature", "label": "Feature / Benefit text", "default": "Pure R-Form Alpha-Lipoic Acid" },
+        { "type": "text", "id": "romira_label", "label": "Romira extra label (optional, shows below checkmark)" },
+        { "type": "checkbox", "id": "others_has_check", "label": "Others gets a checkmark (instead of cross)", "default": false },
+        { "type": "text", "id": "others_label", "label": "Others extra label (optional, shows below icon)" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Romira — Comparison Table",
+      "blocks": [
+        { "type": "row", "settings": { "feature": "Pure R-Form Alpha-Lipoic Acid" } },
+        { "type": "row", "settings": { "feature": "Organic Coconut Oil for absorption" } },
+        { "type": "row", "settings": { "feature": "600mg clinical-grade dose" } },
+        { "type": "row", "settings": { "feature": "Third-party lab tested" } },
+        { "type": "row", "settings": { "feature": "GMP certified, Made in USA" } },
+        { "type": "row", "settings": { "feature": "60-Day Money-Back Guarantee" } },
+        { "type": "row", "settings": { "feature": "No fillers or synthetic additives" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

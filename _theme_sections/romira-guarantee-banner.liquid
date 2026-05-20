@@ -1,0 +1,264 @@
+﻿{%- style -%}
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.background_color }} !important;
+    overflow: clip;
+    max-width: {{ section.settings.section_max_width }}px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  @media (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      max-width: {{ section.settings.section_max_width_mobile }}px;
+    }
+  }
+  .romira-guarantee-{{ section.id }} {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    background-color: {{ section.settings.background_color }} !important;
+    text-align: {{ section.settings.alignment }};
+    overflow: clip;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .romira-guarantee-{{ section.id }} .rg-inner {
+    max-width: {{ section.settings.content_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ section.settings.horizontal_padding_mobile }}px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: {% if section.settings.alignment == 'center' %}center{% elsif section.settings.alignment == 'left' %}flex-start{% else %}flex-end{% endif %};
+    gap: {{ section.settings.gap_mobile }}px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .romira-guarantee-{{ section.id }} .rg-inner.rg-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-inner {
+      padding: 0 {{ section.settings.horizontal_padding }}px;
+      gap: {{ section.settings.gap }}px;
+    }
+  }
+  .romira-guarantee-{{ section.id }} .rg-icon { width: {{ section.settings.icon_size_mobile }}px; height: auto; flex-shrink: 0; }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-icon { width: {{ section.settings.icon_size }}px; }
+  }
+  .romira-guarantee-{{ section.id }} .rg-eyebrow {
+    font-size: {{ section.settings.eyebrow_size_mobile }}px !important;
+    font-weight: {{ section.settings.eyebrow_weight }} !important;
+    letter-spacing: {{ section.settings.eyebrow_letter_spacing }}px;
+    text-transform: {{ section.settings.eyebrow_transform }};
+    color: {{ section.settings.eyebrow_color }};
+    margin: 0;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-eyebrow {
+      font-size: {{ section.settings.eyebrow_size }}px !important;
+    }
+  }
+  .romira-guarantee-{{ section.id }} .rg-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    color: {{ section.settings.heading_color }};
+    margin: 0;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-heading { font-size: {{ section.settings.heading_size }}px; }
+  }
+  .romira-guarantee-{{ section.id }} .rg-sub {
+    font-size: {{ section.settings.subheading_size_mobile }}px;
+    color: {{ section.settings.subheading_color }};
+    margin: 0;
+    max-width: {{ section.settings.text_max_width }}px;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-sub { font-size: {{ section.settings.subheading_size }}px; }
+  }
+  .romira-guarantee-{{ section.id }} .rg-text {
+    font-size: {{ section.settings.text_size_mobile }}px;
+    color: {{ section.settings.text_color }};
+    line-height: 1.6;
+    margin: 0;
+    max-width: {{ section.settings.text_max_width }}px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-text { font-size: {{ section.settings.text_size }}px; }
+  }
+  .romira-guarantee-{{ section.id }} .rg-text p { margin: 0 0 8px; }
+  .romira-guarantee-{{ section.id }} .rg-text p:last-child { margin: 0; }
+  .romira-guarantee-{{ section.id }} .rg-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  .romira-guarantee-{{ section.id }} .rg-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: {{ section.settings.text_size_mobile }}px;
+    color: {{ section.settings.text_color }};
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-guarantee-{{ section.id }} .rg-bullets li { font-size: {{ section.settings.text_size }}px; }
+  }
+  .romira-guarantee-{{ section.id }} .rg-bullets li::before {
+    content: '✓';
+    color: {{ section.settings.check_color }};
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .romira-guarantee-{{ section.id }} .rg-btn {
+    display: inline-block;
+    padding: {{ section.settings.btn_pad_v }}px {{ section.settings.btn_pad_h }}px;
+    background: {{ section.settings.btn_bg }};
+    color: {{ section.settings.btn_color }};
+    border-radius: {{ section.settings.btn_radius }}px;
+    font-size: {{ section.settings.btn_size }}px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    word-wrap: break-word;
+  }
+{%- endstyle -%}
+
+<div class="romira-guarantee-{{ section.id }}">
+  <div class="rg-inner" id="rg-inner-{{ section.id }}">
+    {%- if section.settings.custom_icon != blank -%}
+      {{ section.settings.custom_icon | image_url: width: 200 | image_tag: class: 'rg-icon', loading: 'lazy' }}
+    {%- elsif section.settings.show_shield -%}
+      <svg class="rg-icon" viewBox="0 0 60 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 3L5 14v20c0 16.6 10.7 32.1 25 36 14.3-3.9 25-19.4 25-36V14L30 3z" fill="{{ section.settings.shield_fill }}" stroke="{{ section.settings.shield_stroke }}" stroke-width="2"/>
+        <path d="M20 33l7 7 13-14" stroke="{{ section.settings.shield_check }}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    {%- endif -%}
+    {%- if section.settings.eyebrow != blank -%}<p class="rg-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+    {%- if section.settings.heading != blank -%}
+      <{{ section.settings.heading_tag }} class="rg-heading">{{ section.settings.heading }}</{{ section.settings.heading_tag }}>
+    {%- endif -%}
+    {%- if section.settings.subheading != blank -%}<p class="rg-sub">{{ section.settings.subheading }}</p>{%- endif -%}
+    {%- if section.settings.text != blank -%}<div class="rg-text">{{ section.settings.text }}</div>{%- endif -%}
+    {%- if section.settings.bullet_1 != blank or section.settings.bullet_2 != blank or section.settings.bullet_3 != blank -%}
+      <ul class="rg-bullets">
+        {%- if section.settings.bullet_1 != blank -%}<li>{{ section.settings.bullet_1 }}</li>{%- endif -%}
+        {%- if section.settings.bullet_2 != blank -%}<li>{{ section.settings.bullet_2 }}</li>{%- endif -%}
+        {%- if section.settings.bullet_3 != blank -%}<li>{{ section.settings.bullet_3 }}</li>{%- endif -%}
+        {%- if section.settings.bullet_4 != blank -%}<li>{{ section.settings.bullet_4 }}</li>{%- endif -%}
+      </ul>
+    {%- endif -%}
+    {%- if section.settings.btn_label != blank -%}
+      <a href="{{ section.settings.btn_url }}" class="rg-btn">{{ section.settings.btn_label }}</a>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+(function() {
+  var el = document.getElementById('rg-inner-{{ section.id }}');
+  if (!el) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        el.classList.add('rg-visible');
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1 });
+  observer.observe(el);
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Romira — Guarantee Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "color", "id": "background_color", "label": "Section background color", "default": "#f8f8f6" },
+    { "type": "header", "content": "Icon" },
+    { "type": "checkbox", "id": "show_shield", "label": "Show shield icon", "default": true },
+    { "type": "image_picker", "id": "custom_icon", "label": "Custom icon (overrides shield)" },
+    { "type": "range", "id": "icon_size", "min": 40, "max": 200, "step": 4, "unit": "px", "label": "Icon size (desktop)", "default": 100 },
+    { "type": "range", "id": "icon_size_mobile", "min": 40, "max": 160, "step": 4, "unit": "px", "label": "Icon size (mobile)", "default": 72 },
+    { "type": "color", "id": "shield_fill", "label": "Shield fill", "default": "#264165" },
+    { "type": "color", "id": "shield_stroke", "label": "Shield stroke", "default": "#1a2e47" },
+    { "type": "color", "id": "shield_check", "label": "Shield check mark", "default": "#ffffff" },
+    { "type": "header", "content": "Content" },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "OUR PROMISE" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "60-Day Money-Back Guarantee" },
+    { "type": "select", "id": "heading_tag", "label": "Heading tag", "options": [{"value":"h1","label":"H1"},{"value":"h2","label":"H2"},{"value":"h3","label":"H3"}], "default": "h2" },
+    { "type": "range", "id": "heading_size", "min": 20, "max": 60, "step": 2, "unit": "px", "label": "Heading size (desktop)", "default": 36 },
+    { "type": "range", "id": "heading_size_mobile", "min": 18, "max": 44, "step": 1, "unit": "px", "label": "Heading size (mobile)", "default": 26 },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Try Romira R-ALA for 60 days. If you are not completely satisfied, get 100% of your money back — no questions asked." },
+    { "type": "richtext", "id": "text", "label": "Body text" },
+    { "type": "text", "id": "bullet_1", "label": "Bullet 1", "default": "100% Money-Back Guarantee" },
+    { "type": "text", "id": "bullet_2", "label": "Bullet 2", "default": "No Questions Asked" },
+    { "type": "text", "id": "bullet_3", "label": "Bullet 3", "default": "Simply contact our team and we take care of the rest" },
+    { "type": "text", "id": "bullet_4", "label": "Bullet 4" },
+    { "type": "text", "id": "btn_label", "label": "Button label" },
+    { "type": "url", "id": "btn_url", "label": "Button URL" },
+    { "type": "header", "content": "Layout" },
+    { "type": "select", "id": "alignment", "label": "Alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+    { "type": "range", "id": "text_max_width", "min": 280, "max": 900, "step": 20, "unit": "px", "label": "Max text width", "default": 580 },
+    { "type": "range", "id": "content_width", "min": 400, "max": 1400, "step": 20, "unit": "px", "label": "Max content width", "default": 1000 },
+    { "type": "range", "id": "gap", "min": 4, "max": 48, "step": 4, "unit": "px", "label": "Inner gap (desktop)", "default": 16 },
+    { "type": "range", "id": "gap_mobile", "min": 4, "max": 40, "step": 4, "unit": "px", "label": "Inner gap (mobile)", "default": 12 },
+    { "type": "header", "content": "Eyebrow text" },
+    { "type": "range", "id": "eyebrow_size", "min": 8, "max": 24, "step": 1, "unit": "px", "label": "Eyebrow size (desktop)", "default": 11 },
+    { "type": "range", "id": "eyebrow_size_mobile", "min": 8, "max": 20, "step": 1, "unit": "px", "label": "Eyebrow size (mobile)", "default": 11 },
+    { "type": "select", "id": "eyebrow_weight", "label": "Eyebrow weight", "options": [{"value":"400","label":"Regular"},{"value":"500","label":"Medium"},{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"}], "default": "700" },
+    { "type": "range", "id": "eyebrow_letter_spacing", "min": 0, "max": 6, "step": 0.5, "unit": "px", "label": "Letter spacing", "default": 2 },
+    { "type": "select", "id": "eyebrow_transform", "label": "Text transform", "options": [{"value":"uppercase","label":"Uppercase"},{"value":"lowercase","label":"Lowercase"},{"value":"capitalize","label":"Capitalize"},{"value":"none","label":"None"}], "default": "uppercase" },
+    { "type": "header", "content": "Colors" },
+    { "type": "color", "id": "eyebrow_color", "label": "Eyebrow color", "default": "#264165" },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
+    { "type": "color", "id": "subheading_color", "label": "Subheading color", "default": "#444444" },
+    { "type": "color", "id": "text_color", "label": "Text/bullet color", "default": "#555555" },
+    { "type": "color", "id": "check_color", "label": "Check mark color", "default": "#264165" },
+    { "type": "header", "content": "Typography" },
+    { "type": "range", "id": "subheading_size", "min": 14, "max": 24, "step": 1, "unit": "px", "label": "Subheading size (desktop)", "default": 18 },
+    { "type": "range", "id": "subheading_size_mobile", "min": 14, "max": 20, "step": 1, "unit": "px", "label": "Subheading size (mobile)", "default": 16 },
+    { "type": "range", "id": "text_size", "min": 12, "max": 20, "step": 1, "unit": "px", "label": "Body text size (desktop)", "default": 15 },
+    { "type": "range", "id": "text_size_mobile", "min": 12, "max": 18, "step": 1, "unit": "px", "label": "Body text size (mobile)", "default": 14 },
+    { "type": "header", "content": "Button" },
+    { "type": "color", "id": "btn_bg", "label": "Button background", "default": "#264165" },
+    { "type": "color", "id": "btn_color", "label": "Button text", "default": "#ffffff" },
+    { "type": "range", "id": "btn_radius", "min": 0, "max": 40, "step": 2, "unit": "px", "label": "Button radius", "default": 8 },
+    { "type": "range", "id": "btn_pad_v", "min": 8, "max": 24, "step": 2, "unit": "px", "label": "Button padding vertical", "default": 14 },
+    { "type": "range", "id": "btn_pad_h", "min": 16, "max": 60, "step": 4, "unit": "px", "label": "Button padding horizontal", "default": 32 },
+    { "type": "range", "id": "btn_size", "min": 12, "max": 22, "step": 1, "unit": "px", "label": "Button font size", "default": 15 },
+    { "type": "header", "content": "Section spacing" },
+    { "type": "range", "id": "section_max_width", "min": 400, "max": 2000, "step": 20, "unit": "px", "label": "Max width (desktop)", "default": 2000 },
+    { "type": "range", "id": "section_max_width_mobile", "min": 320, "max": 800, "step": 20, "unit": "px", "label": "Max width (mobile)", "default": 800 },
+    { "type": "range", "id": "horizontal_padding", "min": 0, "max": 80, "step": 4, "unit": "px", "label": "Horizontal padding (desktop)", "default": 20 },
+    { "type": "range", "id": "horizontal_padding_mobile", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Horizontal padding (mobile)", "default": 20 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (desktop)", "default": 60 },
+    { "type": "range", "id": "mobile_padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (mobile)", "default": 40 },
+    { "type": "range", "id": "mobile_padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (mobile)", "default": 40 }
+  ],
+  "presets": [{ "name": "Romira — Guarantee Banner" }]
+}
+{% endschema %}

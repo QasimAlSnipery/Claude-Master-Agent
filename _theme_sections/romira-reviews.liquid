@@ -1,0 +1,485 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.section_bg }} !important;
+    overflow: hidden;
+    max-width: {{ section.settings.section_max_width }}px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  @media (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      max-width: {{ section.settings.section_max_width_mobile }}px;
+    }
+  }
+
+  .rrev-{{ section.id }} {
+    background-color: {{ section.settings.section_bg }} !important;
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  /* ── Header ── */
+  .rrev-{{ section.id }} .rrev-header {
+    padding: 0 {{ section.settings.header_h_pad_mobile }}px {{ section.settings.header_gap_mobile }}px;
+    box-sizing: border-box;
+  }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} .rrev-header {
+      padding: 0 {{ section.settings.header_h_pad }}px {{ section.settings.header_gap }}px;
+    }
+  }
+
+  .rrev-{{ section.id }} .rrev-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px !important;
+    font-weight: {{ section.settings.heading_weight }};
+    color: {{ section.settings.heading_color }};
+    margin: 0 0 {{ section.settings.heading_gap }}px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    text-align: {{ section.settings.heading_alignment }};
+  }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} .rrev-heading {
+      font-size: {{ section.settings.heading_size }}px !important;
+    }
+  }
+
+  .rrev-{{ section.id }} .rrev-overall {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    {% if section.settings.overall_alignment == 'center' %}justify-content: center;
+    {% elsif section.settings.overall_alignment == 'right' %}justify-content: flex-end;
+    {% else %}justify-content: flex-start;{% endif %}
+  }
+  .rrev-{{ section.id }} .rrev-overall-stars { display: flex; gap: 2px; align-items: center; }
+  .rrev-{{ section.id }} .rrev-overall-star {
+    font-size: {{ section.settings.overall_star_size }}px;
+    color: {{ section.settings.heading_color }};
+    line-height: 1;
+  }
+  .rrev-{{ section.id }} .rrev-overall-text {
+    font-size: {{ section.settings.overall_text_size }}px;
+    color: {{ section.settings.heading_color }};
+    font-weight: 500;
+  }
+
+  /* ── Slider ── */
+  .rrev-{{ section.id }} .rrev-slider {
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    scroll-padding-left: {{ section.settings.slider_inset_mobile }}px;
+    gap: {{ section.settings.card_gap_mobile }}px;
+    padding: 0 0 {{ section.settings.slider_pad_bottom_mobile }}px {{ section.settings.slider_inset_mobile }}px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+  }
+  .rrev-{{ section.id }} .rrev-slider::-webkit-scrollbar { display: none; }
+  .rrev-{{ section.id }} .rrev-slider::after {
+    content: '';
+    flex: 0 0 {{ section.settings.slider_inset_mobile }}px;
+    height: 1px;
+  }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} .rrev-slider {
+      gap: {{ section.settings.card_gap }}px;
+      padding: 0 0 {{ section.settings.slider_pad_bottom }}px {{ section.settings.slider_inset }}px;
+      scroll-padding-left: {{ section.settings.slider_inset }}px;
+    }
+    .rrev-{{ section.id }} .rrev-slider::after {
+      flex: 0 0 {{ section.settings.slider_inset }}px;
+    }
+  }
+
+  /* ── Cards ── */
+  {%- assign cpv_m = section.settings.cards_per_view_mobile -%}
+  {%- assign cpv_d = section.settings.cards_per_view -%}
+  {%- assign card_pct_m = 100.0 | divided_by: cpv_m | round: 2 -%}
+  {%- assign card_pct_d = 100.0 | divided_by: cpv_d | round: 2 -%}
+
+  .rrev-{{ section.id }} .rrev-card {
+    flex: 0 0 {{ card_pct_m }}%;
+    scroll-snap-align: start;
+    background: {{ section.settings.card_bg }};
+    border-radius: {{ section.settings.card_radius }}px;
+    padding: {{ section.settings.card_pad_mobile }}px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: {{ section.settings.card_min_height_mobile }}px;
+  }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} .rrev-card {
+      flex: 0 0 {{ card_pct_d }}%;
+      padding: {{ section.settings.card_pad }}px;
+      min-height: {{ section.settings.card_min_height }}px;
+    }
+  }
+
+  .rrev-{{ section.id }} .rrev-card-title {
+    font-size: {{ section.settings.card_title_size_mobile }}px !important;
+    font-weight: {{ section.settings.card_title_weight }};
+    color: {{ section.settings.card_title_color }};
+    margin: 0 0 {{ section.settings.card_title_gap }}px;
+    line-height: 1.3;
+    word-wrap: break-word;
+  }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} .rrev-card-title {
+      font-size: {{ section.settings.card_title_size }}px !important;
+    }
+  }
+
+  /* ── Trustpilot stars ── */
+  .rrev-{{ section.id }} .rrev-stars-row {
+    display: flex;
+    align-items: center;
+    gap: {{ section.settings.stars_score_gap }}px;
+    margin-bottom: {{ section.settings.stars_gap }}px;
+  }
+  .rrev-{{ section.id }} .rrev-tp-stars { display: flex; gap: 2px; }
+  .rrev-{{ section.id }} .rrev-tp-star {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: {{ section.settings.star_size }}px;
+    height: {{ section.settings.star_size }}px;
+    background: {{ section.settings.star_color }};
+    border-radius: {{ section.settings.star_radius }}px;
+    color: #ffffff;
+    font-size: {{ section.settings.star_size | times: 65 | divided_by: 100 }}px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .rrev-{{ section.id }} .rrev-tp-star--empty { background: #dcdce6; }
+  .rrev-{{ section.id }} .rrev-tp-star--partial {
+    background: linear-gradient(to right, {{ section.settings.star_color }} var(--pct), #dcdce6 var(--pct));
+  }
+  .rrev-{{ section.id }} .rrev-score {
+    font-size: {{ section.settings.card_score_size }}px;
+    font-weight: 600;
+    color: {{ section.settings.card_text_color }};
+  }
+
+  /* ── Body ── */
+  .rrev-{{ section.id }} .rrev-body {
+    font-size: {{ section.settings.card_text_size_mobile }}px;
+    color: {{ section.settings.card_text_color }};
+    line-height: 1.65;
+    word-wrap: break-word;
+    margin: 0;
+  }
+  .rrev-{{ section.id }} .rrev-body p { margin: 0; }
+  @media (min-width: 750px) {
+    .rrev-{{ section.id }} .rrev-body { font-size: {{ section.settings.card_text_size }}px; }
+  }
+
+  /* ── Reviewer ── */
+  .rrev-{{ section.id }} .rrev-reviewer {
+    display: flex;
+    align-items: center;
+    gap: {{ section.settings.reviewer_gap }}px;
+    margin-top: auto;
+    padding-top: {{ section.settings.reviewer_margin_top }}px;
+  }
+  .rrev-{{ section.id }} .rrev-avatar,
+  .rrev-{{ section.id }} .rrev-avatar-placeholder {
+    width: {{ section.settings.avatar_size }}px;
+    height: {{ section.settings.avatar_size }}px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+    background: {{ section.settings.avatar_bg }};
+  }
+  .rrev-{{ section.id }} .rrev-info { display: flex; flex-direction: column; gap: 2px; }
+  .rrev-{{ section.id }} .rrev-name {
+    font-size: {{ section.settings.reviewer_name_size }}px;
+    font-weight: 600;
+    color: {{ section.settings.card_text_color }};
+    margin: 0; line-height: 1.3;
+  }
+  .rrev-{{ section.id }} .rrev-verified {
+    font-size: {{ section.settings.reviewer_verified_size }}px;
+    font-weight: 500;
+    color: {{ section.settings.verified_color }};
+    margin: 0; line-height: 1.3;
+  }
+  .rrev-{{ section.id }} .rrev-date {
+    font-size: {{ section.settings.reviewer_date_size }}px;
+    color: {{ section.settings.reviewer_date_color }};
+    margin: 0; line-height: 1.3;
+  }
+
+  /* ── Navigation ── */
+  .rrev-{{ section.id }} .rrev-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: {{ section.settings.nav_gap }}px;
+    padding-top: {{ section.settings.nav_pad_top }}px;
+  }
+  .rrev-{{ section.id }} .rrev-nav-btn {
+    width: {{ section.settings.nav_btn_size }}px;
+    height: {{ section.settings.nav_btn_size }}px;
+    border-radius: 50%;
+    border: 1px solid {{ section.settings.nav_btn_border_color }};
+    background: {{ section.settings.nav_btn_bg }};
+    color: {{ section.settings.nav_btn_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    flex-shrink: 0;
+    padding: 0;
+  }
+  .rrev-{{ section.id }} .rrev-nav-btn:disabled { opacity: 0.35; cursor: default; }
+  .rrev-{{ section.id }} .rrev-nav-btn:not(:disabled):hover { opacity: 0.75; }
+  .rrev-{{ section.id }} .rrev-nav-btn svg { width: 18px; height: 18px; }
+{%- endstyle -%}
+
+<div class="rrev-{{ section.id }}">
+
+  <div class="rrev-header">
+    {%- if section.settings.heading != blank -%}
+      <{{ section.settings.heading_tag }} class="rrev-heading">{{ section.settings.heading }}</{{ section.settings.heading_tag }}>
+    {%- endif -%}
+    {%- if section.settings.overall_rating_text != blank -%}
+      <div class="rrev-overall">
+        <div class="rrev-overall-stars">
+          {%- for i in (1..5) -%}<span class="rrev-overall-star">★</span>{%- endfor -%}
+        </div>
+        <span class="rrev-overall-text">{{ section.settings.overall_rating_text }}</span>
+      </div>
+    {%- endif -%}
+  </div>
+
+  <div class="rrev-slider" id="rrev-slider-{{ section.id }}">
+    {%- for block in section.blocks -%}
+      {%- assign r_full = block.settings.rating | floor -%}
+      {%- assign r_dec  = block.settings.rating | minus: r_full -%}
+      {%- assign r_next = r_full | plus: 1 -%}
+      {%- assign r_floor_check = block.settings.rating | floor -%}
+      {%- if block.settings.rating == r_floor_check -%}
+        {%- assign r_display = r_floor_check | append: '.0' -%}
+      {%- else -%}
+        {%- assign r_display = block.settings.rating -%}
+      {%- endif -%}
+      <div class="rrev-card" {{ block.shopify_attributes }}>
+        {%- if block.settings.title != blank -%}
+          <{{ section.settings.card_title_tag }} class="rrev-card-title">{{ block.settings.title }}</{{ section.settings.card_title_tag }}>
+        {%- endif -%}
+
+        <div class="rrev-stars-row">
+          <div class="rrev-tp-stars">
+            {%- for i in (1..5) -%}
+              {%- if i <= r_full -%}
+                <span class="rrev-tp-star">★</span>
+              {%- elsif i == r_next and r_dec > 0 -%}
+                {%- assign pct_val = r_dec | times: 100 | round -%}
+                <span class="rrev-tp-star rrev-tp-star--partial" style="--pct: {{ pct_val }}%">★</span>
+              {%- else -%}
+                <span class="rrev-tp-star rrev-tp-star--empty">★</span>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+          <span class="rrev-score">{{ r_display }}</span>
+        </div>
+
+        {%- if block.settings.body != blank -%}
+          <div class="rrev-body">{{ block.settings.body }}</div>
+        {%- endif -%}
+
+        <div class="rrev-reviewer">
+          {%- if block.settings.avatar != blank -%}
+            {{ block.settings.avatar | image_url: width: 120 | image_tag: class: 'rrev-avatar', loading: 'lazy', alt: block.settings.reviewer_name }}
+          {%- else -%}
+            <div class="rrev-avatar-placeholder"></div>
+          {%- endif -%}
+          <div class="rrev-info">
+            {%- if block.settings.reviewer_name != blank -%}
+              <p class="rrev-name">{{ block.settings.reviewer_name }}</p>
+            {%- endif -%}
+            {%- if block.settings.verified_text != blank -%}
+              <p class="rrev-verified">{{ block.settings.verified_text }}</p>
+            {%- endif -%}
+            {%- if block.settings.date != blank -%}
+              <p class="rrev-date">{{ block.settings.date }}</p>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <div class="rrev-nav">
+    <button class="rrev-nav-btn" id="rrev-prev-{{ section.id }}" aria-label="Previous" disabled>
+      <svg viewBox="0 0 18 18" fill="none"><path d="M11 4L6 9L11 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="rrev-nav-btn" id="rrev-next-{{ section.id }}" aria-label="Next">
+      <svg viewBox="0 0 18 18" fill="none"><path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  var slider = document.getElementById('rrev-slider-{{ section.id }}');
+  var prev   = document.getElementById('rrev-prev-{{ section.id }}');
+  var next   = document.getElementById('rrev-next-{{ section.id }}');
+  if (!slider) return;
+
+  function cardStep() {
+    var card = slider.querySelector('.rrev-card');
+    if (!card) return slider.clientWidth;
+    var gap = parseFloat(window.getComputedStyle(slider).gap) || 0;
+    return card.offsetWidth + gap;
+  }
+
+  function updateButtons() {
+    var max = slider.scrollWidth - slider.clientWidth;
+    if (prev) prev.disabled = slider.scrollLeft <= 0;
+    if (next) next.disabled = max <= 0 || slider.scrollLeft >= max - 1;
+  }
+
+  if (prev) prev.addEventListener('click', function() {
+    slider.scrollBy({ left: -cardStep(), behavior: 'smooth' });
+    setTimeout(updateButtons, 400);
+  });
+  if (next) next.addEventListener('click', function() {
+    slider.scrollBy({ left: cardStep(), behavior: 'smooth' });
+    setTimeout(updateButtons, 400);
+  });
+  slider.addEventListener('scroll', updateButtons, { passive: true });
+
+  updateButtons();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Romira — Reviews",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "color", "id": "section_bg", "label": "Section background color", "default": "#264165" },
+    { "type": "header", "content": "Heading" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Hear from customers who trust Romira" },
+    { "type": "select", "id": "heading_tag", "label": "Heading tag", "options": [{"value":"h1","label":"H1"},{"value":"h2","label":"H2"},{"value":"h3","label":"H3"}], "default": "h2" },
+    { "type": "select", "id": "card_title_tag", "label": "Card title tag", "options": [{"value":"h2","label":"H2"},{"value":"h3","label":"H3"},{"value":"h4","label":"H4"}], "default": "h3" },
+    { "type": "range", "id": "heading_size", "min": 20, "max": 72, "step": 1, "unit": "px", "label": "Heading size (desktop)", "default": 44 },
+    { "type": "range", "id": "heading_size_mobile", "min": 18, "max": 52, "step": 1, "unit": "px", "label": "Heading size (mobile)", "default": 32 },
+    { "type": "select", "id": "heading_weight", "label": "Heading weight", "options": [{"value":"400","label":"Regular"},{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"},{"value":"800","label":"Extra bold"}], "default": "700" },
+    { "type": "color", "id": "heading_color", "label": "Heading and rating text color", "default": "#ffffff" },
+    { "type": "range", "id": "heading_gap", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Gap below heading", "default": 16 },
+    { "type": "select", "id": "heading_alignment", "label": "Heading alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+    { "type": "header", "content": "Overall rating" },
+    { "type": "text", "id": "overall_rating_text", "label": "Rating text", "default": "Rated 4.9 / 5.0 | 'Excellent'" },
+    { "type": "select", "id": "overall_alignment", "label": "Overall rating alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+    { "type": "range", "id": "overall_star_size", "min": 16, "max": 40, "step": 2, "unit": "px", "label": "Overall star size", "default": 24 },
+    { "type": "range", "id": "overall_text_size", "min": 12, "max": 24, "step": 1, "unit": "px", "label": "Rating text size", "default": 16 },
+    { "type": "range", "id": "header_gap", "min": 8, "max": 80, "step": 4, "unit": "px", "label": "Header bottom gap (desktop)", "default": 32 },
+    { "type": "range", "id": "header_gap_mobile", "min": 8, "max": 60, "step": 4, "unit": "px", "label": "Header bottom gap (mobile)", "default": 24 },
+    { "type": "range", "id": "header_h_pad", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Header horizontal padding (desktop)", "default": 40 },
+    { "type": "range", "id": "header_h_pad_mobile", "min": 0, "max": 60, "step": 4, "unit": "px", "label": "Header horizontal padding (mobile)", "default": 20 },
+    { "type": "header", "content": "Review cards" },
+    { "type": "color", "id": "card_bg", "label": "Card background", "default": "#ffffff" },
+    { "type": "range", "id": "card_pad", "min": 16, "max": 60, "step": 4, "unit": "px", "label": "Card padding (desktop)", "default": 32 },
+    { "type": "range", "id": "card_pad_mobile", "min": 12, "max": 48, "step": 4, "unit": "px", "label": "Card padding (mobile)", "default": 24 },
+    { "type": "range", "id": "card_radius", "min": 0, "max": 32, "step": 2, "unit": "px", "label": "Card border radius", "default": 8 },
+    { "type": "range", "id": "card_min_height", "min": 0, "max": 700, "step": 20, "unit": "px", "label": "Card min height (desktop) — 0 = auto", "default": 0 },
+    { "type": "range", "id": "card_min_height_mobile", "min": 0, "max": 700, "step": 20, "unit": "px", "label": "Card min height (mobile) — 0 = auto", "default": 0 },
+    { "type": "color", "id": "card_title_color", "label": "Card title color", "default": "#1a1a1a" },
+    { "type": "range", "id": "card_title_size", "min": 14, "max": 32, "step": 1, "unit": "px", "label": "Card title size (desktop)", "default": 20 },
+    { "type": "range", "id": "card_title_size_mobile", "min": 14, "max": 28, "step": 1, "unit": "px", "label": "Card title size (mobile)", "default": 17 },
+    { "type": "select", "id": "card_title_weight", "label": "Card title weight", "options": [{"value":"600","label":"Semi-bold"},{"value":"700","label":"Bold"},{"value":"800","label":"Extra bold"}], "default": "700" },
+    { "type": "range", "id": "card_title_gap", "min": 4, "max": 24, "step": 2, "unit": "px", "label": "Gap below card title", "default": 8 },
+    { "type": "color", "id": "card_text_color", "label": "Review text and reviewer color", "default": "#1a1a1a" },
+    { "type": "range", "id": "card_text_size", "min": 13, "max": 20, "step": 1, "unit": "px", "label": "Review text size (desktop)", "default": 16 },
+    { "type": "range", "id": "card_text_size_mobile", "min": 13, "max": 18, "step": 1, "unit": "px", "label": "Review text size (mobile)", "default": 15 },
+    { "type": "header", "content": "Stars (Trustpilot style)" },
+    { "type": "color", "id": "star_color", "label": "Star color", "default": "#00b67a" },
+    { "type": "range", "id": "star_size", "min": 16, "max": 40, "step": 2, "unit": "px", "label": "Star square size", "default": 24 },
+    { "type": "range", "id": "star_radius", "min": 0, "max": 8, "step": 1, "unit": "px", "label": "Star corner radius", "default": 2 },
+    { "type": "range", "id": "card_score_size", "min": 12, "max": 20, "step": 1, "unit": "px", "label": "Score number size", "default": 14 },
+    { "type": "range", "id": "stars_score_gap", "min": 4, "max": 20, "step": 2, "unit": "px", "label": "Stars-to-score gap", "default": 6 },
+    { "type": "range", "id": "stars_gap", "min": 4, "max": 32, "step": 2, "unit": "px", "label": "Gap below stars row", "default": 16 },
+    { "type": "header", "content": "Reviewer" },
+    { "type": "range", "id": "avatar_size", "min": 36, "max": 80, "step": 4, "unit": "px", "label": "Avatar size", "default": 52 },
+    { "type": "color", "id": "avatar_bg", "label": "Avatar placeholder color", "default": "#e0e0e0" },
+    { "type": "range", "id": "reviewer_gap", "min": 8, "max": 24, "step": 2, "unit": "px", "label": "Avatar to info gap", "default": 12 },
+    { "type": "range", "id": "reviewer_margin_top", "min": 12, "max": 60, "step": 4, "unit": "px", "label": "Reviewer top margin", "default": 24 },
+    { "type": "range", "id": "reviewer_name_size", "min": 12, "max": 18, "step": 1, "unit": "px", "label": "Reviewer name size", "default": 15 },
+    { "type": "range", "id": "reviewer_verified_size", "min": 11, "max": 16, "step": 1, "unit": "px", "label": "Verified label size", "default": 13 },
+    { "type": "color", "id": "verified_color", "label": "Verified label color", "default": "#00b67a" },
+    { "type": "range", "id": "reviewer_date_size", "min": 11, "max": 16, "step": 1, "unit": "px", "label": "Date size", "default": 13 },
+    { "type": "color", "id": "reviewer_date_color", "label": "Date color", "default": "#777777" },
+    { "type": "header", "content": "Slider" },
+    { "type": "range", "id": "cards_per_view", "min": 1, "max": 5, "step": 0.1, "label": "Cards visible at once (desktop)", "default": 2.2 },
+    { "type": "range", "id": "cards_per_view_mobile", "min": 1, "max": 4, "step": 0.1, "label": "Cards visible at once (mobile)", "default": 1.2 },
+    { "type": "range", "id": "card_gap", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Gap between cards (desktop)", "default": 20 },
+    { "type": "range", "id": "card_gap_mobile", "min": 8, "max": 32, "step": 4, "unit": "px", "label": "Gap between cards (mobile)", "default": 16 },
+    { "type": "range", "id": "slider_inset", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Cards left inset (desktop)", "default": 40 },
+    { "type": "range", "id": "slider_inset_mobile", "min": 0, "max": 60, "step": 4, "unit": "px", "label": "Cards left inset (mobile)", "default": 20 },
+    { "type": "range", "id": "slider_pad_bottom", "min": 0, "max": 40, "step": 4, "unit": "px", "label": "Slider bottom padding (desktop)", "default": 8 },
+    { "type": "range", "id": "slider_pad_bottom_mobile", "min": 0, "max": 40, "step": 4, "unit": "px", "label": "Slider bottom padding (mobile)", "default": 8 },
+    { "type": "header", "content": "Navigation" },
+    { "type": "range", "id": "nav_pad_top", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Nav top padding", "default": 20 },
+    { "type": "range", "id": "nav_btn_size", "min": 32, "max": 64, "step": 4, "unit": "px", "label": "Button size", "default": 44 },
+    { "type": "range", "id": "nav_gap", "min": 8, "max": 32, "step": 4, "unit": "px", "label": "Gap between buttons", "default": 12 },
+    { "type": "color", "id": "nav_btn_bg", "label": "Button background", "default": "#1e3a5f" },
+    { "type": "color", "id": "nav_btn_border_color", "label": "Button border", "default": "#5a7a9a" },
+    { "type": "color", "id": "nav_btn_color", "label": "Button arrow color", "default": "#ffffff" },
+    { "type": "header", "content": "Section spacing" },
+    { "type": "range", "id": "section_max_width", "min": 400, "max": 2000, "step": 20, "unit": "px", "label": "Max width (desktop)", "default": 2000 },
+    { "type": "range", "id": "section_max_width_mobile", "min": 320, "max": 800, "step": 20, "unit": "px", "label": "Max width (mobile)", "default": 800 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (desktop)", "default": 60 },
+    { "type": "range", "id": "mobile_padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (mobile)", "default": 40 },
+    { "type": "range", "id": "mobile_padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (mobile)", "default": 40 }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Review title", "default": "I can feel my feet again" },
+        { "type": "range", "id": "rating", "min": 1, "max": 5, "step": 0.1, "label": "Star rating (e.g. 4.8, 5.0)", "default": 5 },
+        { "type": "richtext", "id": "body", "label": "Review body" },
+        { "type": "image_picker", "id": "avatar", "label": "Reviewer photo (optional)" },
+        { "type": "text", "id": "reviewer_name", "label": "Reviewer name", "default": "Patricia M." },
+        { "type": "text", "id": "verified_text", "label": "Verified label", "default": "Verified Customer" },
+        { "type": "text", "id": "date", "label": "Review date", "default": "November 8th 2025" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Romira — Reviews",
+      "blocks": [
+        { "type": "review", "settings": { "title": "I can feel my feet again", "rating": 5, "body": "<p>I had almost forgotten what normal felt like. After about three weeks on Romira R-ALA, I was standing in my kitchen and realised I could actually feel the floor beneath me. The constant burning in my feet had just... quieted. My husband noticed before I even said anything.</p>", "reviewer_name": "Patricia M.", "verified_text": "Verified Customer", "date": "November 8th 2025" } },
+        { "type": "review", "settings": { "title": "The burning stopped — I can actually sleep", "rating": 5, "body": "<p>For years I would wake up two or three times a night with that awful burning and tingling in my legs. I tried magnesium, B12, CBD — nothing worked consistently. By week six on Romira I was sleeping through the night. I cannot overstate what that means to daily life.</p>", "reviewer_name": "Diane C.", "verified_text": "Verified Customer", "date": "October 29th 2025" } },
+        { "type": "review", "settings": { "title": "Finally something that reaches the nerve itself", "rating": 5, "body": "<p>I researched R-ALA extensively before buying — the pure R-form specifically mattered to me. After about a month I noticed the sensitivity in my feet easing. By month two I was genuinely more comfortable walking and standing for any length of time.</p>", "reviewer_name": "Alan M.", "verified_text": "Verified Customer", "date": "December 3rd 2025" } },
+        { "type": "review", "settings": { "title": "Pins and needles gone after years", "rating": 5, "body": "<p>I have had pins and needles in my hands and feet for years. Waking up at 3am because your hands have gone numb is exhausting. After 60 days on Romira, the nighttime episodes dropped dramatically. Sleeping and moving so much better now.</p>", "reviewer_name": "Helen P.", "verified_text": "Verified Customer", "date": "November 21st 2025" } },
+        { "type": "review", "settings": { "title": "My doctor said nothing would help. He was wrong.", "rating": 5, "body": "<p>I was told the nerve damage was just something I would have to manage. I refused to accept that. After two months on Romira the tingling in my feet is a fraction of what it was. The daily burning that made every step uncomfortable has genuinely reduced.</p>", "reviewer_name": "Thomas R.", "verified_text": "Verified Customer", "date": "January 5th 2026" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

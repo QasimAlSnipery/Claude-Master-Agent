@@ -1,0 +1,248 @@
+{%- style -%}
+  .romira-comparison-{{ section.id }} {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    background-color: {{ section.settings.background_color }};
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-inner {
+    max-width: {{ section.settings.content_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ section.settings.horizontal_padding_mobile }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-inner {
+      padding: 0 {{ section.settings.horizontal_padding }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-header {
+    text-align: {{ section.settings.heading_alignment }};
+    margin-bottom: 32px;
+  }
+  .romira-comparison-{{ section.id }} .rc-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    color: {{ section.settings.heading_color }};
+    margin: 0 0 10px;
+    line-height: 1.2;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} .rc-heading {
+      font-size: {{ section.settings.heading_size }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} .rc-subheading {
+    color: {{ section.settings.subheading_color }};
+    font-size: 16px;
+    margin: 0;
+  }
+  .romira-comparison-{{ section.id }} .rc-table-wrap { overflow-x: auto; }
+  .romira-comparison-{{ section.id }} table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: {{ section.settings.border_radius }}px;
+    overflow: hidden;
+    border: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} th {
+    padding: {{ section.settings.header_padding }}px {{ section.settings.col_padding }}px;
+    font-size: {{ section.settings.col_heading_size }}px;
+    font-weight: 700;
+    border-bottom: 2px solid {{ section.settings.border_color }};
+    vertical-align: middle;
+  }
+  .romira-comparison-{{ section.id }} th.th-feature {
+    background: {{ section.settings.feature_col_bg }};
+    color: {{ section.settings.feature_col_color }};
+    text-align: left;
+    width: {{ section.settings.feature_col_width }}%;
+  }
+  .romira-comparison-{{ section.id }} th.th-romira {
+    background: {{ section.settings.romira_header_bg }};
+    color: {{ section.settings.romira_header_color }};
+    text-align: center;
+    border-left: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} th.th-others {
+    background: {{ section.settings.others_header_bg }};
+    color: {{ section.settings.others_header_color }};
+    text-align: center;
+    border-left: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} th img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 6px;
+  }
+  .romira-comparison-{{ section.id }} td {
+    padding: {{ section.settings.row_padding_mobile }}px {{ section.settings.col_padding }}px;
+    border-bottom: 1px solid {{ section.settings.border_color }};
+    font-size: {{ section.settings.row_text_size }}px;
+    vertical-align: middle;
+  }
+  @media screen and (min-width: 750px) {
+    .romira-comparison-{{ section.id }} td {
+      padding: {{ section.settings.row_padding }}px {{ section.settings.col_padding }}px;
+    }
+  }
+  .romira-comparison-{{ section.id }} td.td-feature {
+    background: {{ section.settings.feature_col_bg }};
+    color: {{ section.settings.feature_col_color }};
+    font-weight: 500;
+    text-align: left;
+  }
+  .romira-comparison-{{ section.id }} td.td-romira {
+    background: {{ section.settings.romira_cell_bg }};
+    color: {{ section.settings.romira_cell_color }};
+    text-align: center;
+    font-weight: 600;
+    border-left: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} td.td-others {
+    background: {{ section.settings.others_cell_bg }};
+    color: {{ section.settings.others_cell_color }};
+    text-align: center;
+    border-left: 1px solid {{ section.settings.border_color }};
+  }
+  .romira-comparison-{{ section.id }} tr:last-child td { border-bottom: none; }
+  .romira-comparison-{{ section.id }} .icon-check { color: {{ section.settings.check_color }}; font-size: 18px; font-weight: 700; }
+  .romira-comparison-{{ section.id }} .icon-cross { color: {{ section.settings.cross_color }}; font-size: 18px; }
+{%- endstyle -%}
+
+<div class="romira-comparison-{{ section.id }}">
+  <div class="rc-inner">
+    {%- if section.settings.heading != blank or section.settings.subheading != blank -%}
+      <div class="rc-header">
+        {%- if section.settings.heading != blank -%}
+          <{{ section.settings.heading_tag }} class="rc-heading">{{ section.settings.heading }}</{{ section.settings.heading_tag }}>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <p class="rc-subheading">{{ section.settings.subheading }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+    <div class="rc-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="th-feature">{{ section.settings.feature_col_label }}</th>
+            <th class="th-romira">
+              {%- if section.settings.romira_image != blank -%}{{ section.settings.romira_image | image_url: width: 100 | image_tag }}{%- endif -%}
+              {{ section.settings.romira_col_label }}
+            </th>
+            <th class="th-others">
+              {%- if section.settings.others_image != blank -%}{{ section.settings.others_image | image_url: width: 100 | image_tag }}{%- endif -%}
+              {{ section.settings.others_col_label }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for block in section.blocks -%}
+            <tr {{ block.shopify_attributes }}>
+              <td class="td-feature">{{ block.settings.feature }}</td>
+              <td class="td-romira">
+                {%- if block.settings.romira_type == 'check' -%}<span class="icon-check">✓</span>
+                {%- elsif block.settings.romira_type == 'cross' -%}<span class="icon-cross">✕</span>
+                {%- else -%}{{ block.settings.romira_custom }}{%- endif -%}
+              </td>
+              <td class="td-others">
+                {%- if block.settings.others_type == 'check' -%}<span class="icon-check">✓</span>
+                {%- elsif block.settings.others_type == 'cross' -%}<span class="icon-cross">✕</span>
+                {%- else -%}{{ block.settings.others_custom }}{%- endif -%}
+              </td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Romira — Comparison Table",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Why Romira R-ALA?" },
+    { "type": "select", "id": "heading_tag", "label": "Heading tag", "options": [{"value":"h1","label":"H1"},{"value":"h2","label":"H2"},{"value":"h3","label":"H3"}], "default": "h2" },
+    { "type": "range", "id": "heading_size", "min": 20, "max": 60, "step": 2, "unit": "px", "label": "Heading size (desktop)", "default": 36 },
+    { "type": "range", "id": "heading_size_mobile", "min": 16, "max": 48, "step": 2, "unit": "px", "label": "Heading size (mobile)", "default": 26 },
+    { "type": "select", "id": "heading_alignment", "label": "Heading alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+    { "type": "text", "id": "subheading", "label": "Subheading" },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
+    { "type": "color", "id": "subheading_color", "label": "Subheading color", "default": "#555555" },
+    { "type": "color", "id": "background_color", "label": "Background color", "default": "#f8f8f6" },
+    { "type": "header", "content": "Columns" },
+    { "type": "text", "id": "feature_col_label", "label": "Feature column label", "default": "" },
+    { "type": "range", "id": "feature_col_width", "min": 20, "max": 60, "step": 2, "unit": "%", "label": "Feature column width", "default": 40 },
+    { "type": "text", "id": "romira_col_label", "label": "Romira column label", "default": "Romira R-ALA" },
+    { "type": "image_picker", "id": "romira_image", "label": "Romira product image" },
+    { "type": "text", "id": "others_col_label", "label": "Others column label", "default": "Other Supplements" },
+    { "type": "image_picker", "id": "others_image", "label": "Others product image" },
+    { "type": "header", "content": "Colors" },
+    { "type": "color", "id": "feature_col_bg", "label": "Feature col background", "default": "#ffffff" },
+    { "type": "color", "id": "feature_col_color", "label": "Feature col text", "default": "#1a1a1a" },
+    { "type": "color", "id": "romira_header_bg", "label": "Romira header background", "default": "#264165" },
+    { "type": "color", "id": "romira_header_color", "label": "Romira header text", "default": "#ffffff" },
+    { "type": "color", "id": "romira_cell_bg", "label": "Romira cell background", "default": "#eef2f7" },
+    { "type": "color", "id": "romira_cell_color", "label": "Romira cell text", "default": "#264165" },
+    { "type": "color", "id": "others_header_bg", "label": "Others header background", "default": "#f0f0f0" },
+    { "type": "color", "id": "others_header_color", "label": "Others header text", "default": "#666666" },
+    { "type": "color", "id": "others_cell_bg", "label": "Others cell background", "default": "#fafafa" },
+    { "type": "color", "id": "others_cell_color", "label": "Others cell text", "default": "#999999" },
+    { "type": "color", "id": "check_color", "label": "Check color", "default": "#264165" },
+    { "type": "color", "id": "cross_color", "label": "Cross color", "default": "#cccccc" },
+    { "type": "color", "id": "border_color", "label": "Border color", "default": "#e0e0e0" },
+    { "type": "range", "id": "border_radius", "min": 0, "max": 24, "step": 2, "unit": "px", "label": "Table border radius", "default": 12 },
+    { "type": "header", "content": "Sizing" },
+    { "type": "range", "id": "header_padding", "min": 8, "max": 32, "step": 4, "unit": "px", "label": "Header padding", "default": 16 },
+    { "type": "range", "id": "col_padding", "min": 8, "max": 40, "step": 4, "unit": "px", "label": "Column padding", "default": 20 },
+    { "type": "range", "id": "row_padding", "min": 8, "max": 32, "step": 4, "unit": "px", "label": "Row padding (desktop)", "default": 16 },
+    { "type": "range", "id": "row_padding_mobile", "min": 8, "max": 32, "step": 4, "unit": "px", "label": "Row padding (mobile)", "default": 12 },
+    { "type": "range", "id": "col_heading_size", "min": 12, "max": 24, "step": 1, "unit": "px", "label": "Column heading size", "default": 15 },
+    { "type": "range", "id": "row_text_size", "min": 12, "max": 20, "step": 1, "unit": "px", "label": "Row text size", "default": 14 },
+    { "type": "range", "id": "content_width", "min": 400, "max": 1200, "step": 20, "unit": "px", "label": "Max content width", "default": 900 },
+    { "type": "range", "id": "horizontal_padding", "min": 0, "max": 80, "step": 4, "unit": "px", "label": "Horizontal padding (desktop)", "default": 20 },
+    { "type": "range", "id": "horizontal_padding_mobile", "min": 0, "max": 40, "step": 4, "unit": "px", "label": "Horizontal padding (mobile)", "default": 16 },
+    { "type": "header", "content": "Spacing" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (desktop)", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (desktop)", "default": 60 },
+    { "type": "range", "id": "mobile_padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding top (mobile)", "default": 36 },
+    { "type": "range", "id": "mobile_padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Padding bottom (mobile)", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Comparison row",
+      "settings": [
+        { "type": "text", "id": "feature", "label": "Feature", "default": "Pure R-Form ALA" },
+        { "type": "select", "id": "romira_type", "label": "Romira value", "options": [{"value":"check","label":"Check ✓"},{"value":"cross","label":"Cross ✕"},{"value":"custom","label":"Custom text"}], "default": "check" },
+        { "type": "text", "id": "romira_custom", "label": "Romira custom value" },
+        { "type": "select", "id": "others_type", "label": "Others value", "options": [{"value":"check","label":"Check ✓"},{"value":"cross","label":"Cross ✕"},{"value":"custom","label":"Custom text"}], "default": "cross" },
+        { "type": "text", "id": "others_custom", "label": "Others custom value" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Romira — Comparison Table",
+      "blocks": [
+        { "type": "row", "settings": { "feature": "Pure R-Form Alpha-Lipoic Acid", "romira_type": "check", "others_type": "cross" } },
+        { "type": "row", "settings": { "feature": "Organic Coconut Oil for absorption", "romira_type": "check", "others_type": "cross" } },
+        { "type": "row", "settings": { "feature": "600mg clinical-grade dose", "romira_type": "check", "others_type": "cross" } },
+        { "type": "row", "settings": { "feature": "Third-party lab tested", "romira_type": "check", "others_type": "cross" } },
+        { "type": "row", "settings": { "feature": "GMP certified, Made in USA", "romira_type": "check", "others_type": "cross" } },
+        { "type": "row", "settings": { "feature": "60-Day Money-Back Guarantee", "romira_type": "check", "others_type": "cross" } },
+        { "type": "row", "settings": { "feature": "No fillers or synthetic additives", "romira_type": "check", "others_type": "cross" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
