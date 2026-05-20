@@ -1,5 +1,5 @@
 # Session Notes — Romira Store Build
-## Last updated: 2026-05-19 04:30
+## Last updated: 2026-05-20
 
 ---
 
@@ -14,11 +14,14 @@ If expired → re-run: `shopify store auth --store 3rnv2d-i3.myshopify.com --sco
 
 **HOW TO UPLOAD FILES — only reliable method:**
 ```javascript
-// Node.js REST API — use upload_rest.mjs or copy this pattern:
+// Node.js ESM — run as: node --input-type=module << 'EOF' ... EOF
+import { getToken } from './_token.mjs';  // reads token from CLI config automatically
+import { readFileSync } from 'fs';
+import { request } from 'https';
+const TOKEN = getToken();
 const content = readFileSync('file.liquid', 'utf8');
 const body = JSON.stringify({ asset: { key: 'sections/file.liquid', value: content } });
 // PUT to https://3rnv2d-i3.myshopify.com/admin/api/2024-01/themes/139682218059/assets.json
-// Header: X-Shopify-Access-Token: (read from _token.mjs — never hardcode)
 ```
 Upload script: `_theme_sections\upload_rest.mjs`
 
@@ -37,41 +40,79 @@ shopify store execute ... --allow-mutations  (for writes)
 
 ---
 
-## All Local Files (C:\Users\Darin Game\OneDrive\Desktop\Claude Master Agent\_theme_sections\)
+## Git Rule (CRITICAL)
+Every change gets committed and pushed immediately — no exceptions.
+Repo: https://github.com/QasimAlSnipery/Claude-Master-Agent
 
-| File | Status | Description |
-|---|---|---|
-| `romira-timeline.liquid` | ✅ LIVE | Week-by-week timeline + 60-day guarantee bar at bottom |
-| `romira-nerve-stages.liquid` | ✅ LIVE | 3 stages — image LEFT, text RIGHT. Needs 3 images |
-| `romira-comparison.liquid` | ✅ LIVE | Alevia-style 3-col comparison table |
-| `romira-guarantee-banner.liquid` | ✅ LIVE | Standalone guarantee banner with SVG shield |
-| `romira-problem-solution.liquid` | ✅ LIVE | Dark bg section: problem (image+bullets) + solution card |
-| `product.lipoic.json` | ✅ LIVE | Full product template — all sections wired in |
-| `LIVE_*.liquid / LIVE_*.json` | ✅ SAVED | Current live snapshots pulled 2026-05-19 04:27 |
-| `upload_rest.mjs` | ✅ READY | Node.js upload script |
+When user returns: read git log + this file → brief them on what was done + what to do next.
 
 ---
 
-## Full Section Order (product page top to bottom)
+## All Local Files (`_theme_sections/`)
 
-1. `main` — product (title, stars, bullets, variant picker, buy button, guarantee, reviews, shipping, tabs)
-2. `ss_testimonial_12` — customer testimonial carousel
-3. `romira_timeline` — week-by-week timeline + guarantee bar
-4. `romira_problem_solution` — "The Real Reason" dark section
-5. `faq_section_pea` — FAQ (8 questions)
-6. `romira_nerve_stages` — 3-stage nerve breakdown
-7. `icon_bar` — How to use (4 icons)
-8. `romira_comparison` — Romira vs. Others table
-9. `results_7448bX` — 71%, 88%, 92% stats
-10. `romira_guarantee_callout` — small guarantee banner
-11. `romira_guarantee_large` — full-width dark blue guarantee banner
-12. `apps + divider`
+| File | Status | Description |
+|---|---|---|
+| `romira-timeline.liquid` | ✅ LIVE | Week-by-week timeline + guarantee bar. Has stagger scroll animations. |
+| `romira-nerve-stages.liquid` | ✅ LIVE | 3-stage nerve breakdown. Has scroll animations (header + staggered stages). |
+| `romira-comparison.liquid` | ✅ LIVE | Alevia 3-col comparison table. Has scroll animation. |
+| `romira-guarantee-banner.liquid` | ✅ LIVE | Standalone guarantee banner with SVG shield. Has scroll animation. |
+| `romira-problem-solution.liquid` | ✅ LIVE | Dark bg: problem (image+bullets) + solution card. Has scroll animations. |
+| `romira-reviews.liquid` | ✅ LIVE | Reviews carousel. No animation (sits above fold). |
+| `romira-text-reviews.liquid` | ✅ LIVE | Text review cards grid. Has scroll animations (header + staggered cards). |
+| `ss-scrolling-media.liquid` | ✅ LIVE | "Why Everything Else Failed?" section. Has scroll animation. |
+| `ss-video-with-text-3.liquid` | ✅ LIVE | Video + text section. Has scroll animation (media + content staggered). |
+| `collapsible-content.liquid` | ✅ LIVE | FAQ section. Uses Dawn animate-item (already animated). |
+| `results.liquid` | ✅ LOCAL | 71%/88%/92% stats section. Uses Dawn animate-section (already animated). |
+| `main-product.liquid` | ✅ LIVE | Main product section — has trust_bar + guarantee_box block types added. |
+| `buy-buttons.liquid` | ✅ LIVE | ATC button with custom label, sub-text, Material icon support. |
+| `product.lipoic.json` | ✅ LIVE | Full product template — all sections wired in. |
+| `_token.mjs` | ✅ READY | Reads Shopify token from CLI config automatically. |
+| `upload_rest.mjs` | ✅ READY | Batch uploader for custom sections. |
+
+---
+
+## Full Section Order (product.lipoic.json — top to bottom)
+
+1. `main` — main-product (title, stars, benefits checklist, variant picker, buy buttons, guarantee, trust bar, avatars, reviews, shipping, tabs)
+2. `romira_reviews` — custom reviews carousel ← **ABOVE THIS = no animations needed**
+3. `faq_section_pea` — FAQ collapsible-content (Dawn animate-item) ✅
+4. `romira_problem_solution` — "The Real Reason" dark section ✅
+5. `romira_timeline` — week-by-week timeline ✅
+6. `romira_nerve_stages` — 3-stage nerve breakdown ✅
+7. `ss_video_with_text_3_wwtDfY` — "Why Everything Else Failed?" ✅
+8. `romira_comparison` — Romira vs. Others table ✅
+9. `results_7448bX` — 71%, 88%, 92% stats (Dawn animate-section) ✅
+10. `ss_scrolling_media_yXenpQ` — scrolling media section ✅
+11. `romira_text_reviews` — text review cards grid ✅
+12. `romira_guarantee_large` — full-width dark blue guarantee banner ✅
+13. `apps_section` — apps
+
+*(ss_testimonial_12_aKxHaF is DISABLED)*
+
+---
+
+## New Block Types Added to main-product (2026-05-20)
+
+### trust_bar block
+Horizontal trust icons + payment icons row.
+- Up to 3 items: icon (Material Symbols name) + text
+- Separator character between items
+- Payment icons row: show/hide + **filter by name** (comma-separated, e.g. `visa,master,paypal,apple_pay,shop_pay`)
+- Full color, padding, font size, margin controls
+- Icon names from: fonts.google.com/icons
+
+### guarantee_box block
+Bordered box with filled icon + bold headline + body text.
+- Icon (filled Material Symbol), headline, body text
+- Border color, border width, border radius, background color
+- Padding top/bottom/left-right independently
+- Full color and font size controls per element
 
 ---
 
 ## APPROVED COPY — Ready to place on page
 
-**"Why Everything Else Failed" section:**
+**"Why Everything Else Failed" section (NOT YET BUILT AS CUSTOM SECTION):**
 > **THE ONLY SUPPLEMENT THAT GETS INSIDE THE NERVE CELL**
 >
 > B12 supports nerves. Magnesium relaxes muscles. Turmeric fights inflammation. CBD calms your system.
@@ -82,69 +123,68 @@ shopify store execute ... --allow-mutations  (for writes)
 >
 > That is why nothing worked. They never got inside.
 
-*(This copy is NOT yet placed on the page — build it as a custom section tomorrow)*
+---
+
+## TOMORROW'S GAME PLAN
+
+### What YOU need to do (theme editor / Shopify admin — no code needed)
+
+1. **Fix the price** — Go to Shopify Admin → Products → Romira R-ALA → Edit the variant. Set:
+   - Compare at price: $49.99
+   - Price: $39.99
+   This flips it so the sale price shows correctly (crossed out $49.99, sale $39.99).
+
+2. **Add missing images in theme editor** — Open the R-ALA product page in Customize:
+   - Problem/Solution section → Part 1: add a burning feet/hands image
+   - Problem/Solution section → Part 2: add the Romira bottle image
+   - Nerve Stages section → add Stage 1, Stage 2, Stage 3 images
+   - Comparison table → add Romira bottle image + generic "others" bottle image
+
+3. **Add the trust_bar and guarantee_box blocks** — In Customize, click the main product section → Add block → place them below the Buy Buttons block. Set the guarantee_box to your 60-day guarantee copy.
+
+4. **Configure the trust_bar payment icons** — In the trust_bar block settings, type the ones you want in "Icons to show": e.g. `visa,master,paypal,apple_pay,shop_pay`
+
+### What CLAUDE builds next session (just say "start" and I'll begin)
+
+1. **"Why Everything Else Failed" section** — custom section with the approved copy. Dark bg, big headline, punchy body. Ready to upload.
+2. **Fix section order** — move nerve stages up, above the FAQ.
+3. **"Why Everything Else Failed" copy** — place the approved copy into the ss-video-with-text-3 section OR build a dedicated simpler section.
 
 ---
 
-## What Was Built This Session
+## TO-DO LIST (priority order)
 
-### Custom sections created (all live):
-1. `romira-timeline` — stagger-animated week cards + gold shield guarantee bar at bottom
-2. `romira-nerve-stages` — image-left/text-right layout (Alevia style), scroll animations
-3. `romira-comparison` — Alevia 3-column table (Romira | Feature | Others), full font control
-4. `romira-guarantee-banner` — standalone banner with SVG shield, eyebrow controls
-5. `romira-problem-solution` — 2-part section: dark problem area + green solution card with 4 icons
+### 🔴 CRITICAL — Images needed (user adds in theme editor)
+- [ ] **Problem/Solution section** — burning feet/hands image (Part 1 left side)
+- [ ] **Problem/Solution section** — Romira product bottle image (Part 2 right side)
+- [ ] **Nerve stages** — 3 stage images (Stage 1, 2, 3)
+- [ ] **Comparison table** — Romira product image (column header)
+- [ ] **Comparison table** — generic "other supplements" bottle image
 
-### Copy changes:
-- Bullet points: outcome-focused (wake up without burning, stop bracing, sleep through night)
-- Removed fake "Dr. Rachel Morgan" reviewer
-- "Why Does This Work?" tab: full 4-mechanism R-ALA science
-- FAQ: 8 Alevia-style balanced questions
-- "Why Choose Romira?" section: DELETED (was redundant with comparison table)
-
-### Fixes made:
-- Comparison table feature column heading now independently controllable (font size, weight, color)
-- Guarantee banner eyebrow text: full typography control added
-- All sections: `overflow-x: hidden`, `word-wrap: break-word`, mobile-first padding
-- Inventory set to 500 units
-
----
-
-## TO-DO LIST FOR TOMORROW (priority order)
-
-### 🔴 CRITICAL — Images needed (user adds these)
-- [ ] **Problem/Solution section** — add burning feet/hands image (Part 1 left side)
-- [ ] **Problem/Solution section** — add Romira product bottle image (Part 2 right side)
-- [ ] **Nerve stages** — add 3 stage images (Stage 1, 2, 3)
-- [ ] **Comparison table** — add Romira product image (column header)
-- [ ] **Comparison table** — add generic "other supplements" bottle image
-
-### 🟠 HIGH — Build tomorrow
-- [ ] **"Why Everything Else Failed" section** — the approved copy above needs its own custom section built and placed between the problem/solution section and the FAQ. Dark background, big headline top, body copy below. Simple but punchy.
-- [ ] **Fix the price display** — site shows "$39.99 Sale price $49.99" which is backwards/confusing. Regular should be $49.99, sale should be $39.99.
-- [ ] **Fix section order** — nerve stages currently appears AFTER FAQ. Should be earlier (after problem/solution or after timeline).
-- [ ] **Spring Sale announcement bar** — update copy, make it more compelling or tied to the R-ALA offer
+### 🟠 HIGH — Build next session
+- [ ] **Fix the price display** — shows "$39.99 Sale price $49.99" (backwards). Fix in Shopify product settings: regular = $49.99, sale = $39.99.
+- [ ] **"Why Everything Else Failed" custom section** — approved copy above. Dark background, big headline, body copy. Simple but punchy. Place between problem/solution and FAQ.
+- [ ] **Fix section order** — nerve stages should be earlier (after problem/solution, before FAQ)
+- [ ] **Spring Sale announcement bar** — update copy, tie it to R-ALA offer
 
 ### 🟡 MEDIUM — Polish
-- [ ] **Reviews app** — install Judge.me (free) or Loox for real verified reviews with "Load More" button — currently reviews are manually written
-- [ ] **Subscription toggle** — install Loop (same app Alevia uses) for "Save 25% with subscription" option
-- [ ] **Stats section** — 71%, 88%, 92% — add a small disclaimer/source line below so it looks credible, not made up
-- [ ] **Testimonials** — some names appear with variations (Helen P./Patricia M., Alan M./Diane C.) — standardise across all review blocks
-- [ ] **FAQ** — review the visual hierarchy, might need bigger heading sizes on mobile
+- [ ] **Reviews app** — install Judge.me (free) or Loox for real verified reviews
+- [ ] **Subscription toggle** — install Loop app for "Save 25% with subscription" option
+- [ ] **Stats section** — add disclaimer/source line under 71%, 88%, 92% stats
+- [ ] **FAQ** — check heading size on mobile, may need to increase
+- [ ] **Sticky ATC bar** — review stars label says "(xxxx Reviews)" — update with real count
 
 ### 🟢 NICE TO HAVE
-- [ ] **Real customer photos** — replace AI-generated profile photos with real customer photos if available
-- [ ] **Video testimonial** — add one video testimonial if available (massive trust builder)
-- [ ] **"As seen on" / press logos** — if there's any media coverage, add a trust bar
-- [ ] **Sticky ATC bar** — review stars label currently says "(xxxx Reviews)" — update with real number
+- [ ] **Real customer photos** — replace AI profile photos if real ones available
+- [ ] **Video testimonial** — massive trust builder if available
+- [ ] **"As seen on" press logos** — if any media coverage exists
 
 ---
 
-## Issues Spotted on Live Site (2026-05-19)
+## Issues on Live Site
 1. Pricing shows "$39.99 Sale price $49.99" — sale price is HIGHER than regular. Fix in Shopify product settings.
-2. Multiple "Add image in theme editor" placeholders visible (nerve stages, problem/solution section)
+2. Some "Add image in theme editor" placeholders still visible (nerve stages, problem/solution)
 3. Comparison table needs product images to look complete
-4. Section order could be tightened — nerve stages is too far down the page
 
 ---
 
