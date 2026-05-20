@@ -226,7 +226,11 @@ For inquiries or permissions, contact daniel@section.store
       font-size: {{ text_size }}px;
     }
   }
-  
+  /* Scroll-in animations */
+  .scrolling-{{ section.id }} .scrolling-body-{{ section.id }} { opacity: 0; transform: translateY(25px); transition: opacity 0.65s ease, transform 0.65s ease; }
+  .scrolling-{{ section.id }} .scrolling-body-{{ section.id }}.ss-scroll-in { opacity: 1; transform: translateY(0); }
+  .scrolling-{{ section.id }} .scrolling-wrapper-{{ section.id }} { opacity: 0; transform: translateY(35px); transition: opacity 0.65s ease 0.18s, transform 0.65s ease 0.18s; }
+  .scrolling-{{ section.id }} .scrolling-wrapper-{{ section.id }}.ss-scroll-in { opacity: 1; transform: translateY(0); }
 {%- endstyle -%}
 
 {% if width == 'custom' %}
@@ -722,6 +726,20 @@ For inquiries or permissions, contact daniel@section.store
     document.addEventListener('shopify:section:unload', initScrollingMedia);
     document.addEventListener('shopify:section:load', initScrollingMedia);
   }
+</script>
+
+<script>
+(function() {
+  var body = document.querySelector('.scrolling-{{ section.id }} .scrolling-body-{{ section.id }}');
+  var wrapper = document.querySelector('.scrolling-{{ section.id }} .scrolling-wrapper-{{ section.id }}');
+  var obs = new IntersectionObserver(function(entries, o) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) { e.target.classList.add('ss-scroll-in'); o.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  if (body) obs.observe(body);
+  if (wrapper) obs.observe(wrapper);
+})();
 </script>
 
 {% schema %}
