@@ -83,75 +83,48 @@
     btn.setAttribute('aria-disabled', 'true');
     btn.classList.add('loading');
 
-    var body = 'id=' + VARIANT_ID
-             + '&quantity=' + qty
-             + '&selling_plan=' + PLAN_ID
-             + '&sections=cart-icon-bubble%2Ccart-notification-product%2Ccart-notification-button'
-             + '&sections_url=' + encodeURIComponent(window.location.pathname);
-
     fetch('/cart/add.js', {
       method:  'POST',
-      headers: {
-        'Content-Type':    'application/x-www-form-urlencoded',
-        'X-Requested-With': 'XMLHttpRequest'
-      },
-      body: body
+      headers: { 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest' },
+      body: JSON.stringify({ id: 42401035419723, quantity: qty, selling_plan: 1864597579 })
     })
     .then(function(r){ return r.json(); })
     .then(function(data){
+      btn.removeAttribute('aria-disabled');
+      btn.classList.remove('loading');
+
       if (data.status >= 400 || data.errors) {
-        var msg = data.description || data.errors || 'Could not add to cart';
-        alert(msg);
-        btn.removeAttribute('aria-disabled');
-        btn.classList.remove('loading');
+        alert('Cart error: ' + (data.description || JSON.stringify(data.errors)));
         return;
       }
 
-      /* Re-render cart sections Shopify returned */
-      if (data.sections) {
-        Object.keys(data.sections).forEach(function(id){
-          var el = document.getElementById(id);
-          if (el) {
-            var tmp = document.createElement('div');
-            tmp.innerHTML = data.sections[id];
-            if (tmp.firstElementChild) el.replaceWith(tmp.firstElementChild);
-          }
+      /* Success — update cart count then open drawer/notification */
+      fetch('/cart.js').then(function(r){ return r.json(); }).then(function(cart){
+        document.querySelectorAll('.cart-count-bubble').forEach(function(el){
+          el.innerHTML = '<span aria-hidden="true">'+cart.item_count+'</span><span class="visually-hidden">'+cart.item_count+' items</span>';
         });
-      }
+        document.querySelectorAll('[data-cart-count]').forEach(function(el){ el.textContent = cart.item_count; });
+      }).catch(function(){});
 
-      /* Fire the events the theme's cart drawer and notification listen for */
-      try {
-        if (typeof publish === 'function' && typeof PUB_SUB_EVENTS !== 'undefined') {
-          publish(PUB_SUB_EVENTS.cartUpdate, { source: 'product-form' });
-        }
-      } catch(x){}
-      ['cart:refresh','cart:update','cart-update'].forEach(function(ev){
-        document.dispatchEvent(new CustomEvent(ev, { bubbles: true }));
-      });
+      /* Fire theme pub/sub events */
+      try { if (typeof publish === 'function') publish(PUB_SUB_EVENTS.cartUpdate, { source: 'product-form' }); } catch(x){}
+      document.dispatchEvent(new CustomEvent('cart:refresh', { bubbles: true }));
 
       /* Open cart drawer or notification */
       var drawer = document.querySelector('cart-drawer');
       var notif  = document.querySelector('cart-notification');
       if (drawer && typeof drawer.open === 'function') {
-        try { drawer.open(btn); } catch(x){}
+        try { drawer.open(btn); } catch(x){ window.location.href = '/cart'; }
       } else if (notif && typeof notif.open === 'function') {
-        try { notif.open(data); } catch(x){}
+        try { notif.open(data); } catch(x){ window.location.href = '/cart'; }
       } else {
-        /* Fallback: update bubble manually */
-        fetch('/cart.js').then(function(r){ return r.json(); }).then(function(cart){
-          document.querySelectorAll('.cart-count-bubble').forEach(function(el){
-            el.innerHTML = '<span aria-hidden="true">'+cart.item_count+'</span>';
-          });
-        }).catch(function(){});
+        window.location.href = '/cart';
       }
-
-      btn.removeAttribute('aria-disabled');
-      btn.classList.remove('loading');
     })
     .catch(function(err){
-      console.error('Bundle ATC failed:', err);
       btn.removeAttribute('aria-disabled');
       btn.classList.remove('loading');
+      alert('Cart error: ' + err.message);
     });
 
   }, true); /* capture phase — fires before ProductForm web component */
