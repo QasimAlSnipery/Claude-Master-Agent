@@ -48,6 +48,73 @@
 })();
 </script>
 
+{%- comment -%}
+  Enforce selling plan on subscription-only products.
+  Shopify native subscriptions app JS can override/clear the selling_plan input
+  when its hidden "one-time" radio is default-selected. We fight back by:
+  1. Rendering the plan ID server-side via Liquid
+  2. Re-injecting it in JS capture phase (beats all app handlers)
+  3. Watching via MutationObserver so any clear is immediately reversed
+{%- endcomment -%}
+{%- assign rmr_sp_id = 0 -%}
+{%- for _group in product.selling_plan_groups -%}
+  {%- for _plan in _group.selling_plans -%}
+    {%- assign rmr_sp_id = _plan.id -%}
+    {%- break -%}
+  {%- endfor -%}
+  {%- if rmr_sp_id > 0 -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if rmr_sp_id > 0 -%}
+<script>
+(function(){
+  if (window.Shopify && window.Shopify.designMode) return;
+  var spId = {{ rmr_sp_id }};
+
+  function enforce(form) {
+    if (!form) return;
+    var inp = form.querySelector('input[name="selling_plan"]');
+    if (!inp) {
+      inp = document.createElement('input');
+      inp.type = 'hidden';
+      inp.name = 'selling_plan';
+      form.appendChild(inp);
+    }
+    if (String(inp.value) !== String(spId)) inp.value = spId;
+  }
+
+  function init() {
+    /* target the product add-to-cart form */
+    var form = document.querySelector('form[data-type="add-to-cart-form"]');
+    if (!form) return;
+
+    enforce(form);
+
+    /* capture phase — runs before subscription app handlers */
+    form.addEventListener('submit', function(){ enforce(this); }, true);
+
+    /* watch for the app clearing the value */
+    try {
+      new MutationObserver(function(){
+        var inp = form.querySelector('input[name="selling_plan"]');
+        if (!inp || String(inp.value) !== String(spId)) enforce(form);
+      }).observe(form, { subtree: true, childList: true, attributes: true, attributeFilter: ['value'] });
+    } catch(e){}
+
+    /* intercept ATC button click before the form fires */
+    document.addEventListener('click', function(e){
+      if (e.target.closest('button[name="add"], .product-form__submit')) enforce(form);
+    }, true);
+  }
+
+  document.readyState === 'loading'
+    ? document.addEventListener('DOMContentLoaded', init)
+    : init();
+
+  [200, 600, 1200, 2500].forEach(function(t){ setTimeout(init, t); });
+})();
+</script>
+{%- endif -%}
+
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
