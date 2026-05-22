@@ -132,6 +132,19 @@
             data-skip-cart="true"
           {% endif %}
         >
+        {%- comment -%}
+          Auto-inject selling plan when variant requires one (subscription-only products).
+          Picks the first available selling plan from the product's plan groups.
+          This silently attaches the subscription so customers can add to cart normally.
+        {%- endcomment -%}
+        {%- if product.selected_or_first_available_variant.requires_selling_plan -%}
+          {%- for selling_plan_group in product.selling_plan_groups -%}
+            {%- if selling_plan_group.selling_plans.size > 0 -%}
+              <input type="hidden" name="selling_plan" value="{{ selling_plan_group.selling_plans.first.id }}" class="product-selling-plan-id">
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
         <div class="product-form__buttons{% if block.settings.uppercase_text %} product-form__buttons--uppercase{% endif %}">
           {%- liquid
             assign check_against_inventory = true
