@@ -1,4 +1,4 @@
-{
+﻿{
   "sections": {
     "main": {
       "type": "main-product",
@@ -20,7 +20,7 @@
             "star_color": "#ffcc00",
             "bg_stars_style": "full",
             "bg_star_color": "#ececec",
-            "label": "<strong>4.9 | 15,000+ Happy Customers<\/strong>",
+            "label": "<strong>4.9 | 2,300+ Happy Customers<\/strong>",
             "size": 13,
             "alignment": "flex-start",
             "scroll_id": "",
@@ -118,7 +118,7 @@
             "btn_subtext_icon": "✓",
             "btn_subtext_google_icon": "verified_user",
             "btn_subtext_color": "#ffffff",
-            "btn_subtext_size": 11,
+            "btn_subtext_size": 13,
             "enable_secondary_btn": false,
             "secondary_btn_label": "Buy It Now",
             "secondary_btn_enable_custom_color": false,
@@ -127,40 +127,76 @@
             "margin_bottom": 9
           }
         },
-        "text_guarantee": {
-          "type": "text",
+        "payment_badges_JzACb7": {
+          "type": "payment_badges",
           "disabled": true,
           "settings": {
-            "mobile_text_size": 14,
-            "desktop_text_size": 14,
+            "enabled_payment_types": "american_express,apple_pay, discover, google_pay, master, paypal, shopify_pay, visa",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "trust_bar_zTG3BC": {
+          "type": "trust_bar",
+          "settings": {
             "alignment": "center",
-            "text_color": "#555555",
-            "text_1": "✓  <strong>60-Day Money-Back Guarantee<\/strong>",
-            "text_2": "",
-            "text_3": "",
-            "icon_scale": 120,
-            "icon_color": "#264165",
-            "icon_1": "",
-            "filled_icon_1": false,
-            "icon_2": "",
-            "filled_icon_2": false,
-            "icon_3": "",
-            "filled_icon_3": false,
-            "width": "100%",
-            "direction": "vertical",
-            "column_gap": 1,
-            "enable_bg": false,
-            "bg_color": "#f3f3f3",
-            "corner_radius": 40,
-            "padding": 3,
-            "border_size": 0,
-            "border_color": "#b7b7b7",
+            "bg_color": "#f6f5f2",
+            "radius": 0,
+            "pad_v": 10,
+            "pad_h": 0,
             "margin_top": 0,
-            "margin_bottom": 0
+            "margin_bottom": 0,
+            "font_size": 13,
+            "text_color": "#000000",
+            "item_gap": 14,
+            "separator": "·",
+            "sep_color": "#999999",
+            "sep_size": 18,
+            "icon_size": 18,
+            "icon_color": "#000000",
+            "icon_gap": 5,
+            "item_1_icon": "local_shipping",
+            "item_1_text": "Fast Delivery",
+            "item_2_icon": "lock",
+            "item_2_text": "Secure Checkout",
+            "item_3_icon": "",
+            "item_3_text": "",
+            "show_payment_icons": true,
+            "payment_types_filter": "",
+            "payments_gap": 8
+          }
+        },
+        "guarantee_box_UwrBGT": {
+          "type": "guarantee_box",
+          "settings": {
+            "bg_color": "#e7f0fc",
+            "border_color": "#264165",
+            "border_width": 1,
+            "radius": 8,
+            "pad_top": 4,
+            "pad_bottom": 16,
+            "pad_h": 16,
+            "margin_top": 0,
+            "margin_bottom": 12,
+            "icon": "verified_user",
+            "icon_size": 22,
+            "icon_color": "#264165",
+            "icon_gap": 8,
+            "headline": "60-Day Money Back Guarantee",
+            "headline_size": 16,
+            "headline_weight": "700",
+            "headline_color": "#264165",
+            "headline_gap": 6,
+            "body": "Love your results within 60 days or get 100% of your money back, no questions asked.",
+            "body_size": 14,
+            "body_color": "#264165",
+            "body_weight": "400",
+            "body_line_height": 15
           }
         },
         "review_avatars": {
           "type": "review_avatars",
+          "disabled": true,
           "settings": {
             "alignment": "center",
             "corner_radius": 6,
@@ -183,7 +219,7 @@
             "text_1_line_2": "",
             "text_1_line_2_size": 12,
             "text_1_color": "#ff0000",
-            "text_1_bg_color": "#ffc2c2",
+            "text_1_bg_color": "#e7f0fc",
             "text_1_border_size": 0,
             "text_1_border_color": "#ae2d3e",
             "text_1_offset": -30,
@@ -242,6 +278,7 @@
         },
         "shipping_checkpoints": {
           "type": "shipping_checkpoints",
+          "disabled": true,
           "settings": {
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
@@ -368,6 +405,22 @@
             "margin_top": 24,
             "margin_bottom": 0
           }
+        },
+        "collapsible_tab_mtE9t9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "heading_size": "large",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>Fast Shipping<\/strong><br\/>Orders are processed within 24 hours from our US facility.<\/p><p><strong>US Delivery<\/strong><br\/>Packages typically arrive within 6–12 business days.<\/p><p><strong>Easy Returns<\/strong><br\/>If you aren't happy, our US support team makes the return process simple and hassle-free.<\/p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
         }
       },
       "block_order": [
@@ -376,7 +429,9 @@
         "benefits_checklist",
         "variant_picker",
         "buy_buttons",
-        "text_guarantee",
+        "payment_badges_JzACb7",
+        "trust_bar_zTG3BC",
+        "guarantee_box_UwrBGT",
         "review_avatars",
         "reviews",
         "shipping_checkpoints",
@@ -384,7 +439,8 @@
         "tab_why_it_works",
         "tab_safety",
         "tab_ingredients",
-        "tab_guarantee"
+        "tab_guarantee",
+        "collapsible_tab_mtE9t9"
       ],
       "custom_css": [],
       "settings": {
@@ -435,7 +491,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 20,
         "desktop_padding_top": 12,
-        "desktop_padding_bottom": 36
+        "desktop_padding_bottom": 52
       }
     },
     "romira_reviews": {
@@ -447,6 +503,7 @@
             "title": "I can feel my feet again",
             "rating": 5,
             "body": "<p>I had almost forgotten what normal felt like. After about three weeks on Romira R-ALA, I was standing in my kitchen and realised I could actually feel the floor beneath me. The constant burning in my feet had just... quieted. My husband noticed before I even said anything. I am not dramatic about supplements but this one genuinely changed my mornings.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_38_AM.png",
             "reviewer_name": "Sandra B.",
             "verified_text": "Verified Customer",
             "date": "November 8th 2025"
@@ -458,6 +515,7 @@
             "title": "The burning stopped — I can actually sleep",
             "rating": 5,
             "body": "<p>For years I would wake up two or three times a night with that awful burning and tingling in my legs. I tried magnesium, B12, CBD — nothing worked consistently. I started Romira and by week four the nighttime flare-ups had calmed significantly. By week six I was sleeping through the night. I cannot overstate what that means to daily life.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_32_AM.png",
             "reviewer_name": "Margaret H.",
             "verified_text": "Verified Customer",
             "date": "October 29th 2025"
@@ -469,6 +527,7 @@
             "title": "Finally something that reaches the nerve itself",
             "rating": 5,
             "body": "<p>I researched R-ALA extensively before buying — the pure R-form specifically mattered to me. After about a month I noticed the sensitivity in my feet easing. By month two I was genuinely more comfortable walking and standing for any length of time. It works in a way that is different from anything else I have tried.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_35_AM.png",
             "reviewer_name": "David K.",
             "verified_text": "Verified Customer",
             "date": "December 3rd 2025"
@@ -480,6 +539,7 @@
             "title": "Pins and needles gone after years",
             "rating": 5,
             "body": "<p>I have had pins and needles in my hands and feet for years. Waking up at 3am because your hands have gone numb is exhausting. After staying consistent with Romira for 60 days, the nighttime episodes dropped dramatically. I am sleeping better, moving more freely. Worth every single penny.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_37_57_AM.png",
             "reviewer_name": "Barbara W.",
             "verified_text": "Verified Customer",
             "date": "November 21st 2025"
@@ -491,6 +551,7 @@
             "title": "My doctor said nothing would help. He was wrong.",
             "rating": 5,
             "body": "<p>I was told the nerve damage was just something I would have to manage. I refused to accept that. After two months on Romira the tingling in my feet is a fraction of what it was. The daily burning that made every step uncomfortable has genuinely reduced. I wish I had found this two years ago.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_37_55_AM.png",
             "reviewer_name": "James C.",
             "verified_text": "Verified Customer",
             "date": "January 5th 2026"
@@ -502,6 +563,7 @@
             "title": "My hands stopped going numb at night",
             "rating": 5,
             "body": "<p>I would wake up every single night with both hands completely numb — I'd have to shake them for minutes before they felt normal again. It was exhausting. After about six weeks on Romira the episodes became less frequent and by week ten they had almost stopped entirely. I sleep straight through now. Something I had genuinely stopped believing was possible.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_00_AM.png",
             "reviewer_name": "Linda M.",
             "verified_text": "Verified Customer",
             "date": "February 14th 2026"
@@ -513,6 +575,7 @@
             "title": "I can walk the dog again without stopping",
             "rating": 5,
             "body": "<p>The burning in my feet made every walk a negotiation with myself about how far I could go before it became too much. I had cut my dog walks from 40 minutes down to 10. After two months on Romira I am back to full walks. The burning is still there slightly but it no longer stops me. That is a meaningful change to my daily life.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_04_AM.png",
             "reviewer_name": "Gary S.",
             "verified_text": "Verified Customer",
             "date": "March 2nd 2026"
@@ -590,9 +653,9 @@
         "nav_btn_bg": "#1e3a5f",
         "nav_btn_border_color": "#ffffff",
         "nav_btn_color": "#ffffff",
-        "section_max_width": 2000,
+        "section_max_width": 1500,
         "section_max_width_mobile": 800,
-        "padding_top": 16,
+        "padding_top": 28,
         "padding_bottom": 28,
         "mobile_padding_top": 20,
         "mobile_padding_bottom": 24
@@ -607,7 +670,7 @@
             "heading": "When and how should I take it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Take 2 capsules daily with a meal that contains some healthy fat — this supports absorption since R-ALA is fat-soluble. Morning or evening both work well. Stay consistent �� R-ALA works cumulatively, so daily use over 60 days gives you the best results and the full benefit of our guarantee.<\/p>",
+            "row_content": "<p>Take 2 capsules daily with a meal that contains some healthy fat — this supports absorption since R-ALA is fat-soluble. Morning or evening both work well. Stay consistent, R-ALA works cumulatively, so daily use over 60 days gives you the best results and the full benefit of our guarantee.<\/p>",
             "page": ""
           }
         },
@@ -751,13 +814,15 @@
         "feat_1": {
           "type": "feature",
           "settings": {
-            "icon_emoji": "��",
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_80.png",
+            "icon_emoji": "⚡",
             "label": "Clears Oxidative Damage"
           }
         },
         "feat_2": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_79.png",
             "icon_emoji": "🔋",
             "label": "Restores Nerve Energy"
           }
@@ -765,6 +830,7 @@
         "feat_3": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_82.png",
             "icon_emoji": "🛡️",
             "label": "Rebuilds Myelin Protection"
           }
@@ -772,6 +838,7 @@
         "feat_4": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_81.png",
             "icon_emoji": "🩸",
             "label": "Improves Nerve Blood Flow"
           }
@@ -786,19 +853,19 @@
       "settings": {
         "outer_bg": "#264165",
         "content_width": 1400,
-        "p1_image": "shopify:\/\/shop_images\/lady_headline_on_her_bed.png",
+        "p1_image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_57_14_AM.png",
         "p1_image_position": "left",
         "p1_img_width": 50,
         "p1_img_ratio": "16\/9",
         "p1_img_ratio_mobile": "16\/9",
-        "p1_img_radius": 18,
-        "p1_heading": "The Real Reason Your Nerves Won't Stop Burning",
+        "p1_img_radius": 8,
+        "p1_heading": "The Real Reason Your Nerves <em>Won't Stop Burning<\/em>",
         "p1_heading_tag": "h2",
         "p1_heading_size": 32,
         "p1_heading_size_mobile": 31,
         "p1_heading_weight": "700",
         "p1_heading_color": "#ffffff",
-        "p1_heading_highlight": "#264165",
+        "p1_heading_highlight": "#dd1d1d",
         "p1_heading_gap": 16,
         "p1_body": "<p><strong>Your nerve cells are the most energy-hungry cells in your body. They need constant fuel just to stay alive, send signals, and repair themselves. When that fuel runs out — your nerves are the first to break down. And once they start, they do not stop on their own.<\/strong><\/p>",
         "p1_body_size": 15,
@@ -817,7 +884,7 @@
         "bullet_gap": 14,
         "bullet_icon_symbol": "✓",
         "bullet_icon_size": 24,
-        "bullet_icon_font_size": 12,
+        "bullet_icon_font_size": 19,
         "bullet_icon_radius": 4,
         "bullet_icon_gap": 12,
         "bullet_icon_bg": "#dd1d1d",
@@ -846,10 +913,10 @@
         "p2_body_size": 15,
         "p2_body_size_mobile": 14,
         "p2_body_color": "#ccddcc",
-        "feat_icon_size": 52,
-        "feat_icon_size_mobile": 44,
+        "feat_icon_size": 100,
+        "feat_icon_size_mobile": 80,
         "feat_label_size": 13,
-        "feat_label_size_mobile": 12,
+        "feat_label_size_mobile": 14,
         "feat_label_weight": "600",
         "feat_label_color": "#ffffff",
         "feat_gap": 20,
@@ -868,7 +935,7 @@
         "p2_pad_mobile": 20,
         "p2_gap": 0,
         "p2_gap_mobile": -40,
-        "section_max_width": 1320,
+        "section_max_width": 1500,
         "section_max_width_mobile": 800,
         "p1_h_pad": 24,
         "p1_h_pad_mobile": 16,
@@ -997,18 +1064,10 @@
     "romira_nerve_stages": {
       "type": "romira-nerve-stages",
       "blocks": {
-        "stage_1": {
-          "type": "stage",
-          "disabled": true,
-          "settings": {
-            "stage_label": "STAGE 1",
-            "heading": "Early Warning Signs",
-            "text": "<p>Occasional tingling or numbness in hands and feet. Usually worse at night. Most people assume it will pass — and ignore it for months.<\/p>"
-          }
-        },
         "stage_wGG9hb": {
           "type": "stage",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_07_57_AM.png",
             "stage_label": "STAGE 1",
             "heading": "Early Warning Signs",
             "text": "<p>Occasional tingling or numbness in hands and feet. Usually worse at night. Most people assume it will pass — and ignore it for months.<\/p>"
@@ -1017,6 +1076,7 @@
         "stage_2": {
           "type": "stage",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_07_55_AM.png",
             "stage_label": "STAGE 2",
             "heading": "The Discomfort Sets In",
             "text": "<p>Burning, electric shocks, and pins-and-needles become daily. Sleep suffers. Simple tasks — walking, holding objects — become uncomfortable.<\/p>"
@@ -1025,6 +1085,7 @@
         "stage_3": {
           "type": "stage",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_08_00_AM.png",
             "stage_label": "STAGE 3",
             "heading": "Your World Gets Smaller",
             "text": "<p>Chronic nerve discomfort limits mobility, disrupts sleep, and affects mood. Many have tried multiple approaches with little lasting relief. This is where R-ALA works differently.<\/p>"
@@ -1032,35 +1093,34 @@
         }
       },
       "block_order": [
-        "stage_1",
         "stage_wGG9hb",
         "stage_2",
         "stage_3"
       ],
       "settings": {
         "background_color": "#f6f5f2",
-        "heading": "The 3 Stages of Nerve Breakdown",
+        "heading": "How Nerve Breakdown Progresses Over Time",
         "heading_tag": "h2",
-        "heading_size": 36,
-        "heading_size_mobile": 24,
+        "heading_size": 37,
+        "heading_size_mobile": 27,
         "heading_weight": "700",
         "heading_color": "#1a1a1a",
         "heading_alignment": "center",
         "subheading": "Most nerve discomfort builds through predictable stages. Recognising yours is the first step.",
-        "subheading_size": 16,
-        "subheading_size_mobile": 15,
+        "subheading_size": 15,
+        "subheading_size_mobile": 14,
         "subheading_color": "#555555",
-        "header_gap": 48,
-        "header_gap_mobile": 32,
-        "block_bg_color": "#ffffff",
-        "stage_radius": 8,
-        "stage_pad_v": 28,
-        "stage_pad_h": 24,
-        "stage_pad_v_mobile": 20,
-        "stage_pad_h_mobile": 16,
+        "header_gap": 24,
+        "header_gap_mobile": 20,
+        "block_bg_color": "#e7f0fc",
+        "stage_radius": 12,
+        "stage_pad_v": 12,
+        "stage_pad_h": 12,
+        "stage_pad_v_mobile": 12,
+        "stage_pad_h_mobile": 8,
         "content_valign": "center",
-        "image_width": 40,
-        "image_width_mobile": 35,
+        "image_width": 35,
+        "image_width_mobile": 40,
         "min_image_height": 200,
         "min_image_height_mobile": 160,
         "img_position": "center center",
@@ -1090,198 +1150,7 @@
         "padding_top": 0,
         "padding_bottom": 60,
         "mobile_padding_top": 8,
-        "mobile_padding_bottom": 36
-      }
-    },
-    "icon_bar_ebx4KY": {
-      "type": "icon-bar",
-      "blocks": {
-        "column_z7dXJB": {
-          "type": "column",
-          "settings": {
-            "icon": "pill",
-            "filled_icon": false,
-            "title": "Take 2 Capsules Daily",
-            "text": ""
-          }
-        },
-        "column_QAqjxk": {
-          "type": "column",
-          "settings": {
-            "icon": "restaurant",
-            "filled_icon": true,
-            "title": "Take With a Meal",
-            "text": ""
-          }
-        },
-        "column_Tj8amX": {
-          "type": "column",
-          "settings": {
-            "icon": "schedule",
-            "filled_icon": false,
-            "title": "Morning or Evening",
-            "text": ""
-          }
-        },
-        "column_Thj8Ah": {
-          "type": "column",
-          "settings": {
-            "icon": "sync",
-            "filled_icon": false,
-            "title": "Stay Consistent for 60 Days",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_z7dXJB",
-        "column_QAqjxk",
-        "column_Tj8amX",
-        "column_Thj8Ah"
-      ],
-      "disabled": true,
-      "name": "Icon Bar",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "",
-        "title_highlight_color": "#000000",
-        "heading_size": "h1",
-        "text": "<h1>How To Use R-Alpha Lipoic Acid<\/h1>",
-        "color_scheme": "custom",
-        "icon_layout": "vertical",
-        "icon_size": "large",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 4,
-        "arrows_color_scheme": "background-2",
-        "transparent_arrows": true,
-        "dots_color_scheme": "accent-1",
-        "desktop_full_page": false,
-        "columns_desktop": 4,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 32,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": true,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": true,
-        "mobile_dots_position": "hidden",
-        "mobile_arrows_position": "under",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#000000",
-        "custom_cards_colors_background": "#ffffff",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#000000"
-      }
-    },
-    "ss_video_with_text_3_fTa3mc": {
-      "type": "ss-video-with-text-3",
-      "disabled": true,
-      "name": "SS - Video with Text #3",
-      "settings": {
-        "media": "image",
-        "image": "shopify:\/\/shop_images\/Untitled_design_66.png",
-        "video_url": "",
-        "media_width": 37,
-        "media_width_mobile": 100,
-        "media_position": "second",
-        "media_position_mobile": "first",
-        "media_ratio": "original",
-        "media_ratio_mobile": "original",
-        "media_border_thickness": 0,
-        "media_radius": 0,
-        "controls": false,
-        "autoplay": true,
-        "loop": true,
-        "content_padding_vertical": 0,
-        "content_padding_vertical_mobile": 14,
-        "content_padding_horizontal": 26,
-        "content_padding_horizontal_mobile": 12,
-        "heading": "<h2>Why Choose Romira?<\/h2>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 50,
-        "heading_size_mobile": 40,
-        "heading_height": 110,
-        "heading_align": "left",
-        "heading_align_mobile": "left",
-        "heading_position": "1",
-        "heading_position_mobile": "1",
-        "sub_heading": "<h3>Most people who find Romira have already tried everything — magnesium, B12, CBD, prescription creams. Nothing touched it. R-ALA works at the cellular level where nerve damage actually starts.<\/h3>",
-        "sub_heading_custom": false,
-        "sub_heading_font": "josefin_sans_n4",
-        "sub_heading_size": 18,
-        "sub_heading_size_mobile": 16,
-        "sub_heading_height": 150,
-        "sub_heading_align": "left",
-        "sub_heading_align_mobile": "left",
-        "sub_heading_mt": 16,
-        "sub_heading_position": "2",
-        "sub_heading_position_mobile": "2",
-        "text": "<p>✅ <strong>Made in the USA — GMP Certified<\/strong><br\/>Every batch produced in a certified facility with full quality controls in place.<\/p><p><br\/>✅ <strong>Third-Party Lab Tested<\/strong><br\/>Independently verified for purity, potency, and consistency.<\/p><p><br\/>✅ <strong>Pure R-Form ALA with Organic Coconut Oil<\/strong><br\/>The naturally active form, paired with Organic Coconut Oil for absorption.<\/p><p><br\/>✅ <strong>60-Day Money-Back Guarantee<\/strong><br\/>Give it 60 days of consistent daily use — or your money back, no questions asked.<\/p>",
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 18,
-        "text_size_mobile": 16,
-        "text_height": 150,
-        "text_align": "left",
-        "text_align_mobile": "left",
-        "text_mt": 40,
-        "text_position": "3",
-        "text_position_mobile": "4",
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 18,
-        "button_size_mobile": 18,
-        "button_height": 100,
-        "button_align": "left",
-        "button_align_mobile": "center",
-        "button_mt": 32,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 26,
-        "button_padding_horizontal_mobile": 26,
-        "button_radius": 32,
-        "button_border_thickness": 0,
-        "button_use_arrow": true,
-        "button_position": "4",
-        "button_position_mobile": "3",
-        "button_color": "#ffffff",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#264165",
-        "button_bg_hover_color": "#1a2e47",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "media_border_color": "#000000",
-        "heading_color": "#000000",
-        "sub_heading_color": "#000000",
-        "text_color": "#000000",
-        "background_color": "#f6f5f2",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 20,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 100,
-        "border_thickness": 0,
-        "lazy": true
+        "mobile_padding_bottom": 12
       }
     },
     "ss_video_with_text_3_wwtDfY": {
@@ -1289,7 +1158,7 @@
       "name": "SS - Video with Text #3",
       "settings": {
         "media": "image",
-        "image": "shopify:\/\/shop_images\/Untitled_design_66.png",
+        "image": "shopify:\/\/shop_images\/kasim_4.png",
         "video_url": "",
         "media_width": 37,
         "media_width_mobile": 100,
@@ -1379,6 +1248,225 @@
         "full_width": true,
         "content_width": 100,
         "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_scrolling_media_yXenpQ": {
+      "type": "ss-scrolling-media",
+      "blocks": {
+        "tp_stars_wfyXwi": {
+          "type": "tp_stars",
+          "settings": {
+            "star_count": 5,
+            "star_color": "#00b67a",
+            "star_size": 36,
+            "star_size_mobile": 30,
+            "star_gap": 4,
+            "stars_mt": 0,
+            "stars_mt_mobile": 0,
+            "stars_pt": 0,
+            "stars_pb": 18,
+            "stars_pt_mobile": 0,
+            "stars_pb_mobile": 14
+          }
+        },
+        "heading_q4AJBD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Real Stories, Real Results<\/h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 34,
+            "heading_size_mobile": 32,
+            "heading_advanced": false,
+            "heading_height": 130,
+            "heading_color": "#000000",
+            "heading_pt": 0,
+            "heading_pb": 0,
+            "heading_pt_mobile": 0,
+            "heading_pb_mobile": 0,
+            "heading_highlight": "Real Results",
+            "heading_highlight_color": "#00b67a"
+          }
+        },
+        "text_4nE3NE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tell your story<\/p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 16,
+            "text_mt_mobile": 12,
+            "text_color": "#121212"
+          }
+        },
+        "media_QEyjyf": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_35_44_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_9bftrR": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_34_30_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_jN9FRK": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_35_12_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_WeMAf8": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_31_05_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_eEwatn": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_31_09_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_NiLLXr": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_31_03_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_T4hCVJ": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_20_37_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_xAEBaw": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_19_14_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        },
+        "media_WAff8X": {
+          "type": "media",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_34_08_AM.png",
+            "source": "uploaded",
+            "media_url": "",
+            "text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "tp_stars_wfyXwi",
+        "heading_q4AJBD",
+        "text_4nE3NE",
+        "media_QEyjyf",
+        "media_9bftrR",
+        "media_jN9FRK",
+        "media_WeMAf8",
+        "media_eEwatn",
+        "media_NiLLXr",
+        "media_T4hCVJ",
+        "media_xAEBaw",
+        "media_WAff8X"
+      ],
+      "name": "SS - Scrolling media",
+      "settings": {
+        "content_max_width": 80,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "scrolling_velocity": 34,
+        "scrolling_velocity_mobile": 26,
+        "reverse_direction": false,
+        "pause_hover": false,
+        "cards_advanced": false,
+        "scrolling_gap": 16,
+        "scrolling_gap_mobile": 16,
+        "cards_mt": 28,
+        "cards_mt_mobile": 24,
+        "card_width": 280,
+        "card_width_mobile": 240,
+        "card_content_align": "left",
+        "card_content_align_mobile": "left",
+        "media_radius": 14,
+        "media_border_thickness": 0,
+        "media_ratio": "portrait",
+        "media_ratio_mobile": "portrait",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 14,
+        "text_advanced": false,
+        "text_height": 150,
+        "text_mt": 10,
+        "text_mt_mobile": 10,
+        "text_color": "#121212",
+        "media_border_color": "#121212",
+        "background_style": "solid",
+        "background_color": "#f6f5f2",
+        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 12,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
         "lazy": true
       }
     },
@@ -1542,14 +1630,14 @@
           "type": "row",
           "settings": {
             "percentage": 88,
-            "row_text": "<p><strong>88% of Romira customers report noticeable improvements in sleep quality within the first 30 days — no more waking up to burning or pins and needles<\/strong><\/p>"
+            "row_text": "<p><strong>88% of Customers report noticeable improvements in sleep quality within the first 30 days — no more waking up to burning or pins and needles<\/strong><\/p>"
           }
         },
         "row_76XHzi": {
           "type": "row",
           "settings": {
             "percentage": 92,
-            "row_text": "<p><strong>92% of Romira R-ALA customers report meaningful improvements in daily nerve comfort and reduced sensitivity with consistent use over 60 days<\/strong><\/p>"
+            "row_text": "<p><strong>92% of  R-ALA users report meaningful improvements in daily nerve comfort and reduced sensitivity with consistent use over 60 days<\/strong><\/p>"
           }
         }
       },
@@ -1561,7 +1649,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "<strong>What The Research & Our Customers Show<\/strong>",
+        "title": "<strong>What The Research & Customers Show<\/strong>",
         "title_highlight_color": "#000000",
         "heading_size": "h1",
         "text": "",
@@ -1581,7 +1669,7 @@
         "atc_product": "",
         "atc_skip_cart": false,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "custom_colors_background": "#f6f5f1",
         "custom_gradient_background": "",
         "custom_colors_text": "#2e2a39",
@@ -1649,6 +1737,7 @@
         "slide_3",
         "slide_4"
       ],
+      "disabled": true,
       "name": "SS - Testimonials #12",
       "settings": {
         "heading": "<h1><strong>What Real Customers Are Saying<\/strong><\/h1>",
@@ -1754,63 +1843,82 @@
         "lazy": true
       }
     },
-    "romira_guarantee_callout": {
-      "type": "romira-guarantee-banner",
-      "disabled": true,
+    "romira_text_reviews": {
+      "type": "romira-text-reviews",
+      "blocks": {
+        "tr_review_1": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "rating_text": "5.0",
+            "body": "I had given up. Two years of Gabapentin and all it gave me was brain fog and 20 extra pounds. The numbness just kept spreading. My daughter found Romira for me and I figured I had nothing to lose. By week three, I woke up and realized the burning was gone. Not dulled. Gone. I stood in my bathroom and wiggled my toes and I could feel them. I am 67 years old and I sat on the edge of my bathtub and cried.",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_49_07_AM.png",
+            "reviewer_name": "Emily B.",
+            "show_verified": true,
+            "verified_text": "Verified Customer"
+          }
+        },
+        "tr_review_2": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "rating_text": "5.0",
+            "body": "The neuropathy had stolen my retirement. I could not travel, could not walk the beach with my wife, could not even stand long enough to cook dinner. I tried every nerve supplement on the market. B12, ALA, magnesium, creams, grounding mats, you name it. Nothing worked because nothing was fixing the real problem. Romira was the first thing that actually made a difference. The tingling is almost gone. My balance is better. I walked on the beach last month for the first time in three years.",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_49_09_AM.png",
+            "reviewer_name": "Mike K.",
+            "show_verified": true,
+            "verified_text": "Verified Customer"
+          }
+        },
+        "tr_review_3": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "rating_text": "5.0",
+            "body": "I used to dread bedtime. The second my feet hit the sheets the burning would start and I knew I was in for another night of waking up every two hours drenched in sweat. I started Romira and within two weeks the burning had calmed enough for me to sleep through the night. Now at month two, I actually look forward to bed. I wake up rested. My wife says I seem like a different person. I feel like one.",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_49_12_AM.png",
+            "reviewer_name": "Robert R.",
+            "show_verified": true,
+            "verified_text": "Verified Customer"
+          }
+        }
+      },
+      "block_order": [
+        "tr_review_1",
+        "tr_review_2",
+        "tr_review_3"
+      ],
       "settings": {
-        "background_color": "#f8f8f6",
-        "show_shield": true,
-        "icon_size": 100,
-        "icon_size_mobile": 80,
-        "shield_fill": "#264165",
-        "shield_stroke": "#1a2e47",
-        "shield_check": "#ffffff",
-        "eyebrow": "OUR PROMISE",
-        "heading": "60-Day Money-Back Guarantee",
-        "heading_tag": "h2",
-        "heading_size": 36,
+        "eyebrow": "Reviews",
+        "eyebrow_color": "#1a5c32",
+        "eyebrow_size": 17,
+        "heading": "Verified Customer Reviews",
+        "heading_color": "#000000",
+        "heading_size": 48,
         "heading_size_mobile": 28,
-        "subheading": "Try Romira R-ALA for 60 days. If you are not completely satisfied, get 100% of your money back — no questions asked.",
-        "text": "",
-        "bullet_1": "100% Money-Back Guarantee",
-        "bullet_2": "No Questions Asked",
-        "bullet_3": "Simply contact our team and we take care of the rest",
-        "bullet_4": "",
-        "btn_label": "",
-        "btn_url": "",
-        "alignment": "center",
-        "text_max_width": 600,
-        "content_width": 1000,
-        "gap": 16,
-        "gap_mobile": 12,
-        "eyebrow_size": 11,
-        "eyebrow_size_mobile": 11,
-        "eyebrow_weight": "700",
-        "eyebrow_letter_spacing": 2,
-        "eyebrow_transform": "uppercase",
-        "eyebrow_color": "#264165",
-        "heading_color": "#1a1a1a",
-        "subheading_color": "#444444",
-        "text_color": "#555555",
-        "check_color": "#264165",
-        "subheading_size": 18,
-        "subheading_size_mobile": 16,
-        "text_size": 15,
-        "text_size_mobile": 14,
-        "btn_bg": "#264165",
-        "btn_color": "#ffffff",
-        "btn_radius": 8,
-        "btn_pad_v": 14,
-        "btn_pad_h": 32,
-        "btn_size": 15,
-        "section_max_width": 2000,
-        "section_max_width_mobile": 800,
-        "horizontal_padding": 20,
-        "horizontal_padding_mobile": 16,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "show_overall_rating": true,
+        "overall_rating_text": "Rated 4.9 \/ 5.0 | 'Excellent'",
+        "overall_star_color": "#00b67a",
+        "show_divider": true,
+        "divider_color": "#e0e0e0",
+        "card_star_color": "#00b67a",
+        "body_color": "#1a1a1a",
+        "name_color": "#1a1a1a",
+        "verified_color": "#1a5c32",
+        "col_gap": 48,
+        "btn_text": "Load More Reviews",
+        "btn_style": "underline",
+        "btn_text_color": "#1a1a1a",
+        "btn_bg": "#ffffff",
+        "btn_border_color": "#1a1a1a",
+        "btn_radius": 4,
+        "target_section": "Romira-Reviews",
+        "section_bg": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 64,
+        "padding_h": 2,
+        "padding_h_mobile": 1,
+        "max_width": 1200
       }
     },
     "romira_guarantee_large": {
@@ -1877,23 +1985,109 @@
         "display_id": false,
         "include_margins": true
       }
+    },
+    "countdown_urgency": {
+      "type": "countdown-urgency-timer",
+      "settings": {
+        "headline": "⚡ Sale Ends In:",
+        "headline_highlight": "",
+        "sub_message": "Free shipping on all orders — today only",
+        "end_date": "2026-12-31T23:59:00",
+        "reset_behavior": "midnight",
+        "expired_message": "This offer has ended.",
+        "btn_label": "Shop Now →",
+        "btn_link": "\/products\/romira-r-ala",
+        "show_labels": true,
+        "show_days": false,
+        "hide_hours": false,
+        "hide_seconds": false,
+        "label_days": "DAYS",
+        "label_hours": "HRS",
+        "label_mins": "MINS",
+        "label_secs": "SECS",
+        "bg_color": "#264165",
+        "headline_color": "#ffffff",
+        "highlight_color": "#a8bdd4",
+        "sub_color": "#ffffff",
+        "box_bg": "#1a2e47",
+        "box_border_color": "#4a6d9a",
+        "num_color": "#ffffff",
+        "colon_color": "#7fa8cc",
+        "label_color": "#a8bdd4",
+        "btn_bg": "#ffffff",
+        "btn_text_color": "#264165",
+        "layout_desktop": "inline",
+        "text_align_desktop": "center",
+        "layout_align": "center",
+        "headline_size": 17,
+        "sub_size": 13,
+        "num_size": 40,
+        "label_size": 10,
+        "btn_size": 14,
+        "box_min_width": 56,
+        "box_pad_v": 8,
+        "box_pad_h": 8,
+        "box_radius": 6,
+        "box_border_width": 1,
+        "colon_opacity": 45,
+        "btn_pad_v": 9,
+        "btn_pad_h": 22,
+        "btn_radius": 50,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_lr": 48,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "max_width": 1200,
+        "unit_gap": 6,
+        "label_gap": 5,
+        "inner_gap": 8,
+        "inner_gap_h": 32,
+        "sub_opacity": 80,
+        "layout_mob": "timer-right",
+        "text_align_mob": "left",
+        "layout_align_mob": "center",
+        "headline_size_mob": 14,
+        "sub_size_mob": 12,
+        "num_size_mob": 26,
+        "label_size_mob": 8,
+        "btn_size_mob": 12,
+        "box_min_width_mob": 36,
+        "box_pad_v_mob": 5,
+        "box_pad_h_mob": 5,
+        "box_radius_mob": 4,
+        "btn_pad_v_mob": 7,
+        "btn_pad_h_mob": 14,
+        "btn_radius_mob": 50,
+        "padding_top_mob": 12,
+        "padding_bottom_mob": 12,
+        "padding_lr_mob": 16,
+        "margin_top_mob": 0,
+        "margin_bottom_mob": 0,
+        "unit_gap_mob": 4,
+        "label_gap_mob": 3,
+        "inner_gap_mob": 6,
+        "inner_gap_h_mob": 10,
+        "hide_on_mobile": false
+      }
     }
   },
   "order": [
     "main",
+    "countdown_urgency",
     "romira_reviews",
     "faq_section_pea",
     "romira_problem_solution",
     "romira_timeline",
     "romira_nerve_stages",
-    "icon_bar_ebx4KY",
-    "ss_video_with_text_3_fTa3mc",
     "ss_video_with_text_3_wwtDfY",
+    "ss_scrolling_media_yXenpQ",
     "romira_comparison",
     "results_7448bX",
     "ss_testimonial_12_aKxHaF",
-    "romira_guarantee_callout",
+    "romira_text_reviews",
     "romira_guarantee_large",
     "apps_section"
   ]
 }
+
