@@ -1,0 +1,370 @@
+{%- assign sid = 'rmr-sc-' | append: section.id -%}
+{%- assign dl  = section.settings.layout_desktop -%}
+{%- assign ml  = section.settings.layout_mob -%}
+
+{%- comment %} Desktop text-align → flex align-items map {%- endcomment %}
+{%- if section.settings.text_align == 'center' -%}{%- assign d_ai = 'center' -%}
+{%- elsif section.settings.text_align == 'right' -%}{%- assign d_ai = 'flex-end' -%}
+{%- else -%}{%- assign d_ai = 'flex-start' -%}
+{%- endif -%}
+
+{%- comment %} Mobile text-align → flex align-items map {%- endcomment %}
+{%- if section.settings.text_align_mob == 'center' -%}{%- assign m_ai = 'center' -%}
+{%- elsif section.settings.text_align_mob == 'right' -%}{%- assign m_ai = 'flex-end' -%}
+{%- else -%}{%- assign m_ai = 'flex-start' -%}
+{%- endif -%}
+
+<style>
+  /* ── Section wrapper ─────────────────────────────────── */
+  #{{ sid }} {
+    background-color: {{ section.settings.bg_color }};
+    padding: {{ section.settings.padding_top }}px {{ section.settings.padding_lr }}px {{ section.settings.padding_bottom }}px;
+    margin-top: {{ section.settings.margin_top }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+  #{{ sid }} .rmr-sc__inner {
+    max-width: {{ section.settings.max_width }}px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  /* ── Desktop layout ──────────────────────────────────── */
+  {%- if dl == 'image-left' or dl == 'image-right' -%}
+  #{{ sid }} .rmr-sc__inner   { flex-direction:row; flex-wrap:nowrap; align-items:{{ section.settings.vertical_align }}; gap:{{ section.settings.col_gap }}px; }
+  #{{ sid }} .rmr-sc__media   { width:{{ section.settings.image_width }}%; flex-shrink:0; order:{%- if dl == 'image-left' -%}1{%- else -%}2{%- endif -%}; }
+  #{{ sid }} .rmr-sc__content { flex:1; order:{%- if dl == 'image-left' -%}2{%- else -%}1{%- endif -%}; }
+  {%- elsif dl == 'image-above' or dl == 'image-below' -%}
+  #{{ sid }} .rmr-sc__inner   { flex-direction:column; align-items:center; gap:{{ section.settings.col_gap }}px; }
+  #{{ sid }} .rmr-sc__media   { width:{{ section.settings.image_width_stacked }}%; order:{%- if dl == 'image-above' -%}1{%- else -%}2{%- endif -%}; }
+  #{{ sid }} .rmr-sc__content { width:100%; order:{%- if dl == 'image-above' -%}2{%- else -%}1{%- endif -%}; }
+  {%- endif -%}
+
+  /* ── Image ───────────────────────────────────────────── */
+  #{{ sid }} .rmr-sc__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: {{ section.settings.image_radius }}px;
+    object-fit: cover;
+  }
+  #{{ sid }} .rmr-sc__img--placeholder { background:#f0f0f0; aspect-ratio:4/3; }
+
+  /* ── Content column ──────────────────────────────────── */
+  #{{ sid }} .rmr-sc__content {
+    display: flex;
+    flex-direction: column;
+    align-items: {{ d_ai }};
+    gap: {{ section.settings.content_gap }}px;
+    text-align: {{ section.settings.text_align }};
+  }
+  #{{ sid }} .rmr-sc__eyebrow {
+    margin: 0;
+    font-size: {{ section.settings.eyebrow_size }}px;
+    color: {{ section.settings.eyebrow_color }};
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+  }
+  #{{ sid }} .rmr-sc__heading {
+    margin: 0;
+    font-size: {{ section.settings.heading_size }}px;
+    color: {{ section.settings.heading_color }};
+    font-weight: 700;
+    line-height: {{ section.settings.heading_line_height | divided_by: 10.0 }};
+  }
+  #{{ sid }} .rmr-sc__hl { color: {{ section.settings.heading_hl_color }}; }
+  #{{ sid }} .rmr-sc__subheading {
+    margin: 0;
+    font-size: {{ section.settings.subheading_size }}px;
+    color: {{ section.settings.subheading_color }};
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  #{{ sid }} .rmr-sc__body {
+    margin: 0;
+    font-size: {{ section.settings.body_size }}px;
+    color: {{ section.settings.body_color }};
+    line-height: {{ section.settings.body_line_height | divided_by: 10.0 }};
+  }
+  #{{ sid }} .rmr-sc__body p { margin: 0 0 0.75em; }
+  #{{ sid }} .rmr-sc__body p:last-child { margin-bottom: 0; }
+  #{{ sid }} .rmr-sc__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ section.settings.btn_pad_v }}px {{ section.settings.btn_pad_h }}px;
+    background: {{ section.settings.btn_bg }};
+    color: {{ section.settings.btn_text_color }};
+    font-size: {{ section.settings.btn_font_size }}px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: {{ section.settings.btn_radius }}px;
+    border: {{ section.settings.btn_border_width }}px solid {{ section.settings.btn_border_color }};
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    transition: opacity 0.2s ease;
+  }
+  #{{ sid }} .rmr-sc__btn:hover { opacity: 0.85; }
+
+  /* ── Mobile layout ───────────────────────────────────── */
+  @media(max-width:749px) {
+    #{{ sid }} {
+      padding: {{ section.settings.padding_top_mob }}px {{ section.settings.padding_lr_mob }}px {{ section.settings.padding_bottom_mob }}px;
+      margin-top: {{ section.settings.margin_top_mob }}px;
+      margin-bottom: {{ section.settings.margin_bottom_mob }}px;
+    }
+    {%- if ml == 'image-left' or ml == 'image-right' -%}
+    #{{ sid }} .rmr-sc__inner   { flex-direction:row; flex-wrap:nowrap; align-items:{{ section.settings.vertical_align_mob }}; gap:{{ section.settings.col_gap_mob }}px; }
+    #{{ sid }} .rmr-sc__media   { width:{{ section.settings.image_width_mob }}%; flex-shrink:0; order:{%- if ml == 'image-left' -%}1{%- else -%}2{%- endif -%}; }
+    #{{ sid }} .rmr-sc__content { flex:1; order:{%- if ml == 'image-left' -%}2{%- else -%}1{%- endif -%}; }
+    {%- elsif ml == 'image-above' or ml == 'image-below' -%}
+    #{{ sid }} .rmr-sc__inner   { flex-direction:column; align-items:center; gap:{{ section.settings.col_gap_mob }}px; }
+    #{{ sid }} .rmr-sc__media   { width:{{ section.settings.image_width_stacked_mob }}%; order:{%- if ml == 'image-above' -%}1{%- else -%}2{%- endif -%}; }
+    #{{ sid }} .rmr-sc__content { width:100%; order:{%- if ml == 'image-above' -%}2{%- else -%}1{%- endif -%}; }
+    {%- endif -%}
+    #{{ sid }} .rmr-sc__img     { border-radius: {{ section.settings.image_radius_mob }}px; }
+    #{{ sid }} .rmr-sc__content { align-items:{{ m_ai }}; gap:{{ section.settings.content_gap_mob }}px; text-align:{{ section.settings.text_align_mob }}; }
+    #{{ sid }} .rmr-sc__eyebrow    { font-size: {{ section.settings.eyebrow_size_mob }}px; }
+    #{{ sid }} .rmr-sc__heading    { font-size: {{ section.settings.heading_size_mob }}px; line-height: {{ section.settings.heading_line_height_mob | divided_by: 10.0 }}; }
+    #{{ sid }} .rmr-sc__subheading { font-size: {{ section.settings.subheading_size_mob }}px; }
+    #{{ sid }} .rmr-sc__body       { font-size: {{ section.settings.body_size_mob }}px; line-height: {{ section.settings.body_line_height_mob | divided_by: 10.0 }}; }
+    #{{ sid }} .rmr-sc__btn {
+      font-size: {{ section.settings.btn_font_size_mob }}px;
+      padding: {{ section.settings.btn_pad_v_mob }}px {{ section.settings.btn_pad_h_mob }}px;
+      border-radius: {{ section.settings.btn_radius_mob }}px;
+    }
+  }
+</style>
+
+<div id="{{ sid }}" class="rmr-split-content">
+  <div class="rmr-sc__inner">
+
+    <div class="rmr-sc__media">
+      {%- if section.settings.image != blank -%}
+        {%- if section.settings.image_mobile != blank -%}
+          <picture>
+            <source media="(max-width:749px)" srcset="{{ section.settings.image_mobile | image_url: width: 800 }}">
+            <img src="{{ section.settings.image | image_url: width: 1200 }}"
+                 alt="{{ section.settings.image_alt | escape | default: section.settings.heading | escape }}"
+                 class="rmr-sc__img" loading="lazy"
+                 width="{{ section.settings.image.width }}"
+                 height="{{ section.settings.image.height }}">
+          </picture>
+        {%- else -%}
+          <img src="{{ section.settings.image | image_url: width: 1200 }}"
+               alt="{{ section.settings.image_alt | escape | default: section.settings.heading | escape }}"
+               class="rmr-sc__img" loading="lazy"
+               width="{{ section.settings.image.width }}"
+               height="{{ section.settings.image.height }}">
+        {%- endif -%}
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'rmr-sc__img rmr-sc__img--placeholder' }}
+      {%- endif -%}
+    </div>
+
+    <div class="rmr-sc__content">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="rmr-sc__eyebrow">{{ section.settings.eyebrow }}</p>
+      {%- endif -%}
+      {%- if section.settings.heading != blank -%}
+        <h2 class="rmr-sc__heading">
+          {%- if section.settings.heading_highlight != blank -%}
+            {{- section.settings.heading | split: section.settings.heading_highlight | first -}}<span class="rmr-sc__hl">{{- section.settings.heading_highlight -}}</span>{{- section.settings.heading | split: section.settings.heading_highlight | last -}}
+          {%- else -%}
+            {{- section.settings.heading -}}
+          {%- endif -%}
+        </h2>
+      {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <p class="rmr-sc__subheading">{{ section.settings.subheading }}</p>
+      {%- endif -%}
+      {%- if section.settings.body != blank -%}
+        <div class="rmr-sc__body">{{ section.settings.body }}</div>
+      {%- endif -%}
+      {%- if section.settings.btn_label != blank -%}
+        <a href="{{ section.settings.btn_link | default: '#' }}" class="rmr-sc__btn">
+          {{- section.settings.btn_label -}}
+        </a>
+      {%- endif -%}
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Split Content",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "header", "content": "── Content ──────────────────" },
+    { "type": "text",     "id": "eyebrow",           "label": "Eyebrow (small label above heading)",   "info": "Leave blank to hide" },
+    { "type": "text",     "id": "heading",            "label": "Heading",    "default": "Built on Science. Delivered with Integrity." },
+    { "type": "text",     "id": "heading_highlight",  "label": "Highlight text", "info": "Exact word(s) from heading to colour differently. Leave blank to skip." },
+    { "type": "text",     "id": "subheading",         "label": "Subheading", "info": "Leave blank to hide" },
+    { "type": "richtext", "id": "body",               "label": "Body text",  "default": "<p>Add your body text here.</p>" },
+    { "type": "text",     "id": "btn_label",          "label": "Button label (blank = hidden)" },
+    { "type": "url",      "id": "btn_link",           "label": "Button link" },
+
+    { "type": "header", "content": "── Image ────────────────────" },
+    { "type": "image_picker", "id": "image",        "label": "Image (desktop)" },
+    { "type": "image_picker", "id": "image_mobile", "label": "Image (mobile) — falls back to desktop if blank" },
+    { "type": "text",         "id": "image_alt",    "label": "Image alt text" },
+
+    { "type": "header", "content": "── Colors (shared) ──────────" },
+    { "type": "color", "id": "bg_color",         "label": "Section background",     "default": "#ffffff" },
+    { "type": "color", "id": "eyebrow_color",    "label": "Eyebrow color",          "default": "#264165" },
+    { "type": "color", "id": "heading_color",    "label": "Heading color",          "default": "#1a1a1a" },
+    { "type": "color", "id": "heading_hl_color", "label": "Heading highlight color","default": "#264165" },
+    { "type": "color", "id": "subheading_color", "label": "Subheading color",       "default": "#555555" },
+    { "type": "color", "id": "body_color",       "label": "Body text color",        "default": "#444444" },
+    { "type": "color", "id": "btn_bg",           "label": "Button background",      "default": "#264165" },
+    { "type": "color", "id": "btn_text_color",   "label": "Button text color",      "default": "#ffffff" },
+    { "type": "color", "id": "btn_border_color", "label": "Button border color",    "default": "#264165" },
+
+    { "type": "header", "content": "━━ DESKTOP ━━━━━━━━━━━━━━━━━━" },
+
+    { "type": "header", "content": "Layout — Desktop" },
+    {
+      "type": "select", "id": "layout_desktop", "label": "Image position",
+      "options": [
+        { "value": "image-left",  "label": "Image left · Text right"  },
+        { "value": "image-right", "label": "Text left · Image right"  },
+        { "value": "image-above", "label": "Image above · Text below" },
+        { "value": "image-below", "label": "Text above · Image below" }
+      ],
+      "default": "image-right"
+    },
+    {
+      "type": "select", "id": "text_align", "label": "Text alignment",
+      "options": [
+        { "value": "left",   "label": "Left"   },
+        { "value": "center", "label": "Center" },
+        { "value": "right",  "label": "Right"  }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select", "id": "vertical_align", "label": "Vertical alignment (side-by-side only)",
+      "options": [
+        { "value": "flex-start", "label": "Top"    },
+        { "value": "center",     "label": "Middle" },
+        { "value": "flex-end",   "label": "Bottom" }
+      ],
+      "default": "center"
+    },
+    { "type": "range", "id": "image_width",         "min": 20, "max": 70,  "step": 5,  "unit": "%",  "label": "Image column width (side-by-side)",  "default": 50 },
+    { "type": "range", "id": "image_width_stacked",  "min": 30, "max": 100, "step": 5,  "unit": "%",  "label": "Image width (stacked layouts)",       "default": 70 },
+
+    { "type": "header", "content": "Font Sizes — Desktop" },
+    { "type": "range", "id": "eyebrow_size",     "min": 10, "max": 20, "step": 1, "unit": "px", "label": "Eyebrow",                        "default": 13 },
+    { "type": "range", "id": "heading_size",     "min": 18, "max": 72, "step": 2, "unit": "px", "label": "Heading",                        "default": 38 },
+    { "type": "range", "id": "heading_line_height","min": 10,"max": 20, "step": 1,               "label": "Heading line height (×10 = 1.x)", "default": 12 },
+    { "type": "range", "id": "subheading_size",  "min": 12, "max": 28, "step": 1, "unit": "px", "label": "Subheading",                     "default": 17 },
+    { "type": "range", "id": "body_size",        "min": 12, "max": 24, "step": 1, "unit": "px", "label": "Body text",                      "default": 16 },
+    { "type": "range", "id": "body_line_height", "min": 12, "max": 22, "step": 1,               "label": "Body line height (×10 = 1.x)",    "default": 17 },
+    { "type": "range", "id": "btn_font_size",    "min": 12, "max": 22, "step": 1, "unit": "px", "label": "Button font size",               "default": 16 },
+
+    { "type": "header", "content": "Button Style — Desktop" },
+    { "type": "range", "id": "btn_pad_v",        "min": 4,  "max": 28, "step": 2, "unit": "px", "label": "Button padding top/bottom",  "default": 12 },
+    { "type": "range", "id": "btn_pad_h",        "min": 12, "max": 60, "step": 2, "unit": "px", "label": "Button padding left/right",  "default": 28 },
+    { "type": "range", "id": "btn_radius",       "min": 0,  "max": 50, "step": 2, "unit": "px", "label": "Button border radius",       "default": 50 },
+    { "type": "range", "id": "btn_border_width", "min": 0,  "max": 4,  "step": 1, "unit": "px", "label": "Button border width",        "default": 0  },
+
+    { "type": "header", "content": "Image Style — Desktop" },
+    { "type": "range", "id": "image_radius",     "min": 0,  "max": 32, "step": 2, "unit": "px", "label": "Image border radius",        "default": 8  },
+
+    { "type": "header", "content": "Spacing — Desktop" },
+    { "type": "range", "id": "padding_top",      "min": 0,   "max": 120, "step": 4, "unit": "px", "label": "Padding top",              "default": 60 },
+    { "type": "range", "id": "padding_bottom",   "min": 0,   "max": 120, "step": 4, "unit": "px", "label": "Padding bottom",           "default": 60 },
+    { "type": "range", "id": "padding_lr",       "min": 0,   "max": 80,  "step": 4, "unit": "px", "label": "Padding left / right",     "default": 40 },
+    { "type": "range", "id": "margin_top",       "min": 0,   "max": 80,  "step": 4, "unit": "px", "label": "Margin top",               "default": 0  },
+    { "type": "range", "id": "margin_bottom",    "min": 0,   "max": 80,  "step": 4, "unit": "px", "label": "Margin bottom",            "default": 0  },
+    { "type": "range", "id": "max_width",        "min": 600, "max": 1600,"step": 20,"unit": "px", "label": "Inner max-width",          "default": 1200 },
+    { "type": "range", "id": "col_gap",          "min": 0,   "max": 80,  "step": 4, "unit": "px", "label": "Gap — image ↔ text",       "default": 60 },
+    { "type": "range", "id": "content_gap",      "min": 4,   "max": 40,  "step": 2, "unit": "px", "label": "Gap between text elements","default": 16 },
+
+    { "type": "header", "content": "━━ MOBILE ━━━━━━━━━━━━━━━━━━━" },
+
+    { "type": "header", "content": "Layout — Mobile" },
+    {
+      "type": "select", "id": "layout_mob", "label": "Image position",
+      "options": [
+        { "value": "image-left",  "label": "Image left · Text right"  },
+        { "value": "image-right", "label": "Text left · Image right"  },
+        { "value": "image-above", "label": "Image above · Text below" },
+        { "value": "image-below", "label": "Text above · Image below" }
+      ],
+      "default": "image-above"
+    },
+    {
+      "type": "select", "id": "text_align_mob", "label": "Text alignment",
+      "options": [
+        { "value": "left",   "label": "Left"   },
+        { "value": "center", "label": "Center" },
+        { "value": "right",  "label": "Right"  }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select", "id": "vertical_align_mob", "label": "Vertical alignment (side-by-side only)",
+      "options": [
+        { "value": "flex-start", "label": "Top"    },
+        { "value": "center",     "label": "Middle" },
+        { "value": "flex-end",   "label": "Bottom" }
+      ],
+      "default": "center"
+    },
+    { "type": "range", "id": "image_width_mob",         "min": 20, "max": 70,  "step": 5, "unit": "%", "label": "Image column width (side-by-side)", "default": 45 },
+    { "type": "range", "id": "image_width_stacked_mob", "min": 40, "max": 100, "step": 5, "unit": "%", "label": "Image width (stacked layouts)",      "default": 85 },
+
+    { "type": "header", "content": "Font Sizes — Mobile" },
+    { "type": "range", "id": "eyebrow_size_mob",       "min": 9,  "max": 18, "step": 1, "unit": "px", "label": "Eyebrow",                         "default": 11 },
+    { "type": "range", "id": "heading_size_mob",       "min": 16, "max": 52, "step": 2, "unit": "px", "label": "Heading",                         "default": 26 },
+    { "type": "range", "id": "heading_line_height_mob","min": 10, "max": 20, "step": 1,               "label": "Heading line height (×10 = 1.x)",  "default": 13 },
+    { "type": "range", "id": "subheading_size_mob",    "min": 11, "max": 22, "step": 1, "unit": "px", "label": "Subheading",                      "default": 15 },
+    { "type": "range", "id": "body_size_mob",          "min": 11, "max": 20, "step": 1, "unit": "px", "label": "Body text",                       "default": 15 },
+    { "type": "range", "id": "body_line_height_mob",   "min": 12, "max": 22, "step": 1,               "label": "Body line height (×10 = 1.x)",     "default": 17 },
+    { "type": "range", "id": "btn_font_size_mob",      "min": 11, "max": 20, "step": 1, "unit": "px", "label": "Button font size",                "default": 14 },
+
+    { "type": "header", "content": "Button Style — Mobile" },
+    { "type": "range", "id": "btn_pad_v_mob",   "min": 4,  "max": 20, "step": 2, "unit": "px", "label": "Button padding top/bottom", "default": 10 },
+    { "type": "range", "id": "btn_pad_h_mob",   "min": 12, "max": 50, "step": 2, "unit": "px", "label": "Button padding left/right", "default": 22 },
+    { "type": "range", "id": "btn_radius_mob",  "min": 0,  "max": 50, "step": 2, "unit": "px", "label": "Button border radius",      "default": 50 },
+
+    { "type": "header", "content": "Image Style — Mobile" },
+    { "type": "range", "id": "image_radius_mob","min": 0,  "max": 32, "step": 2, "unit": "px", "label": "Image border radius",       "default": 8  },
+
+    { "type": "header", "content": "Spacing — Mobile" },
+    { "type": "range", "id": "padding_top_mob",    "min": 0, "max": 80,  "step": 4, "unit": "px", "label": "Padding top",              "default": 40 },
+    { "type": "range", "id": "padding_bottom_mob", "min": 0, "max": 80,  "step": 4, "unit": "px", "label": "Padding bottom",           "default": 40 },
+    { "type": "range", "id": "padding_lr_mob",     "min": 0, "max": 40,  "step": 4, "unit": "px", "label": "Padding left / right",     "default": 20 },
+    { "type": "range", "id": "margin_top_mob",     "min": 0, "max": 80,  "step": 4, "unit": "px", "label": "Margin top",               "default": 0  },
+    { "type": "range", "id": "margin_bottom_mob",  "min": 0, "max": 80,  "step": 4, "unit": "px", "label": "Margin bottom",            "default": 0  },
+    { "type": "range", "id": "col_gap_mob",        "min": 0, "max": 40,  "step": 4, "unit": "px", "label": "Gap — image ↔ text",       "default": 24 },
+    { "type": "range", "id": "content_gap_mob",    "min": 4, "max": 32,  "step": 2, "unit": "px", "label": "Gap between text elements","default": 14 }
+  ],
+  "presets": [
+    {
+      "name": "Split Content",
+      "settings": {
+        "heading": "Built on Science. Delivered with Integrity.",
+        "body": "<p>We don't use mystery blends or hide behind proprietary formulas. Every ingredient is listed clearly — with the dose that the science actually supports. No fillers. No shortcuts. No empty promises.</p>",
+        "btn_label": "See the Full Formula",
+        "bg_color": "#ffffff",
+        "heading_color": "#1a1a1a",
+        "heading_hl_color": "#264165",
+        "body_color": "#444444",
+        "btn_bg": "#264165",
+        "btn_text_color": "#ffffff",
+        "btn_border_color": "#264165",
+        "layout_desktop": "image-right",
+        "layout_mob": "image-above",
+        "text_align": "left",
+        "text_align_mob": "center"
+      }
+    }
+  ]
+}
+{% endschema %}
