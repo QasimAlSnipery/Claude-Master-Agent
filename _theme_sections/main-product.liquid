@@ -66,12 +66,25 @@
      Name: "Deliver every month, 25% off" */
   var PLAN_ID = '1864597579';
 
-  /* --- Layer 1: intercept fetch (Dawn submits via fetch, not form POST) --- */
+  /* --- Layer 1: intercept fetch — fix selling_plan AND quantity --- */
   var _fetch = window.fetch;
   window.fetch = function(input, init) {
     var url = (typeof input === 'string') ? input : (input && input.url) || '';
-    if (url.indexOf('/cart/add') !== -1 && init && init.body instanceof FormData) {
-      init.body.set('selling_plan', PLAN_ID);
+    if (url.indexOf('/cart/add') !== -1 && init && init.body) {
+      var body = init.body;
+      /* duck-type: works for FormData, URLSearchParams, or anything with .set() */
+      if (typeof body.set === 'function') {
+        body.set('selling_plan', PLAN_ID);
+        /* fix quantity from selected bundle card */
+        var sel = document.querySelector('.rmr-bp__option.is-selected[data-cart-qty]');
+        if (sel && sel.dataset.cartQty) body.set('quantity', sel.dataset.cartQty);
+      } else if (typeof body === 'string') {
+        var p = new URLSearchParams(body);
+        p.set('selling_plan', PLAN_ID);
+        var sel2 = document.querySelector('.rmr-bp__option.is-selected[data-cart-qty]');
+        if (sel2 && sel2.dataset.cartQty) p.set('quantity', sel2.dataset.cartQty);
+        init.body = p.toString();
+      }
     }
     return _fetch.apply(this, arguments);
   };
