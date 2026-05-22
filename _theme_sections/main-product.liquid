@@ -1132,8 +1132,8 @@
                 #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:600; line-height:1.25; }
                 #{{ rmr_bp_id }} .rmr-bp__free-word { color:{{ block.settings.free_text_color }}; font-weight:700; }
                 /* ── Product image ── */
-                #{{ rmr_bp_id }} .rmr-bp__img { height:{{ block.settings.image_height }}px; object-fit:contain; width:auto; max-width:100%; display:block; }
-                @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__img { height:{{ block.settings.image_height | times: 0.7 | round }}px; } }
+                #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width }}px; height:{{ block.settings.image_height }}px; object-fit:contain; max-width:100%; display:block; }
+                @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width_mob }}px; height:{{ block.settings.image_height_mob }}px; } }
                 /* ── Below-card section (save badge + prices) ── */
                 #{{ rmr_bp_id }} .rmr-bp__below { padding-top:{{ block.settings.below_gap }}px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:{{ block.settings.price_gap }}px; }
                 #{{ rmr_bp_id }} .rmr-bp__save-badge { display:inline-block; background:{{ block.settings.save_badge_bg }}; color:{{ block.settings.save_badge_text_color }}; font-size:{{ block.settings.save_badge_font_size }}px; font-weight:700; padding:{{ block.settings.save_badge_pad_v }}px {{ block.settings.save_badge_pad_h }}px; border-radius:{{ block.settings.save_badge_radius }}px; line-height:1.2; }
@@ -9853,7 +9853,10 @@
         { "type": "color", "id": "compare_color",        "label": "Compare price color","default": "#888888" },
 
         { "type": "header", "content": "── Images ───────────────────" },
-        { "type": "range", "id": "image_height",        "min": 40, "max": 180, "step": 4, "unit": "px", "label": "Image height",        "default": 88 },
+        { "type": "range", "id": "image_width",     "min": 40, "max": 300, "step": 4, "unit": "px", "label": "Image width — desktop",  "default": 120 },
+        { "type": "range", "id": "image_height",    "min": 40, "max": 300, "step": 4, "unit": "px", "label": "Image height — desktop", "default": 120 },
+        { "type": "range", "id": "image_width_mob", "min": 40, "max": 200, "step": 4, "unit": "px", "label": "Image width — mobile",   "default": 80  },
+        { "type": "range", "id": "image_height_mob","min": 40, "max": 200, "step": 4, "unit": "px", "label": "Image height — mobile",  "default": 80  },
         { "type": "range", "id": "image_margin_bottom", "min": 0,  "max": 24,  "step": 2, "unit": "px", "label": "Gap below image",     "default": 6  },
 
         { "type": "header", "content": "── Spacing & Options ────────" },
