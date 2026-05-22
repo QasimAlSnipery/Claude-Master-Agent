@@ -1058,32 +1058,48 @@
 
             {%- when 'bundle_picker' -%}
               {%- assign rmr_bp_id = 'rmr-bp-' | append: section.id | append: '-' | append: block.id -%}
-              {%- assign rmr_bp_cols = 0 -%}
-              {%- if block.settings.opt1_show -%}{%- assign rmr_bp_cols = rmr_bp_cols | plus: 1 -%}{%- endif -%}
-              {%- if block.settings.opt2_show -%}{%- assign rmr_bp_cols = rmr_bp_cols | plus: 1 -%}{%- endif -%}
-              {%- if block.settings.opt3_show -%}{%- assign rmr_bp_cols = rmr_bp_cols | plus: 1 -%}{%- endif -%}
 
               <style>
                 #{{ rmr_bp_id }} { margin-top:{{ block.settings.margin_top }}px; margin-bottom:{{ block.settings.margin_bottom }}px; }
-                #{{ rmr_bp_id }} .rmr-bp__heading { font-size:{{ block.settings.heading_font_size }}px; color:{{ block.settings.heading_color }}; font-weight:700; margin-bottom:{{ block.settings.heading_margin_bottom }}px; }
-                #{{ rmr_bp_id }} .rmr-bp__grid { display:grid; grid-template-columns:repeat({{ rmr_bp_cols }},1fr); gap:{{ block.settings.card_gap }}px; }
-                #{{ rmr_bp_id }} .rmr-bp__option { position:relative; cursor:pointer; user-select:none; display:flex; flex-direction:column; }
-                #{{ rmr_bp_id }} .rmr-bp__badge-wrap { min-height:28px; display:flex; align-items:flex-end; justify-content:center; position:relative; z-index:1; }
-                #{{ rmr_bp_id }} .rmr-bp__header-badge { display:inline-block; font-size:{{ block.settings.header_badge_font_size }}px; font-weight:700; padding:{{ block.settings.header_badge_pad_v }}px {{ block.settings.header_badge_pad_h }}px; border-radius:{{ block.settings.header_badge_radius }}px {{ block.settings.header_badge_radius }}px 0 0; line-height:1; white-space:nowrap; position:relative; bottom:-1px; }
-                #{{ rmr_bp_id }} .rmr-bp__card { flex:1; background:{{ block.settings.card_bg }}; border:{{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }}; border-radius:{{ block.settings.card_radius }}px; padding:{{ block.settings.card_pad_v }}px {{ block.settings.card_pad_h }}px; text-align:center; transition:border-color 0.15s,background 0.15s,border-width 0.05s; display:flex; flex-direction:column; align-items:center; gap:4px; }
+                #{{ rmr_bp_id }} .rmr-bp__heading-wrap { display:flex; align-items:center; gap:{{ block.settings.heading_gap }}px; margin-bottom:{{ block.settings.heading_margin_bottom }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__heading-line { flex:1; height:{{ block.settings.heading_line_height }}px; background:{{ block.settings.heading_line_color }}; border-radius:2px; }
+                #{{ rmr_bp_id }} .rmr-bp__heading { font-size:{{ block.settings.heading_font_size }}px; color:{{ block.settings.heading_color }}; font-weight:700; margin:0; white-space:nowrap; }
+                /* ── Grid: always 3 cols, horizontal on all screen sizes ── */
+                #{{ rmr_bp_id }} .rmr-bp__grid { display:grid; grid-template-columns:repeat(3,1fr); gap:{{ block.settings.card_gap }}px; align-items:start; }
+                @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__grid { grid-template-columns:repeat(3,minmax(88px,1fr)); gap:{{ block.settings.card_gap | divided_by: 2 | ceil }}px; } }
+                /* ── Option wrapper ── */
+                #{{ rmr_bp_id }} .rmr-bp__option { cursor:pointer; user-select:none; display:flex; flex-direction:column; -webkit-tap-highlight-color:transparent; }
+                /* ── Card box ── */
+                #{{ rmr_bp_id }} .rmr-bp__card { flex:1; background:{{ block.settings.card_bg }}; border:{{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }}; border-radius:{{ block.settings.card_radius }}px; overflow:hidden; transition:border-color 0.15s,border-width 0.05s,background 0.15s; display:flex; flex-direction:column; }
                 #{{ rmr_bp_id }} .rmr-bp__option.is-selected .rmr-bp__card { background:{{ block.settings.selected_bg }}; border-color:{{ block.settings.selected_border_color }}; border-width:{{ block.settings.selected_border_width }}px; }
-                #{{ rmr_bp_id }} .rmr-bp__img { height:{{ block.settings.image_height }}px; object-fit:contain; width:auto; margin-bottom:{{ block.settings.image_margin_bottom }}px; display:block; }
-                #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size }}px; color:{{ block.settings.label_color }}; font-weight:600; line-height:1.2; }
-                #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:500; line-height:1.2; }
+                /* ── Card header strip (badge inside card at top) ── */
+                #{{ rmr_bp_id }} .rmr-bp__card-top { font-size:{{ block.settings.header_badge_font_size }}px; font-weight:700; text-align:center; padding:{{ block.settings.header_badge_pad_v }}px {{ block.settings.header_badge_pad_h }}px; line-height:1.2; min-height:{{ block.settings.header_badge_min_height }}px; display:flex; align-items:center; justify-content:center; }
+                /* ── Card inner body (label + image) ── */
+                #{{ rmr_bp_id }} .rmr-bp__card-inner { flex:1; padding:{{ block.settings.card_pad_v }}px {{ block.settings.card_pad_h }}px {{ block.settings.card_pad_v }}px; display:flex; flex-direction:column; align-items:center; gap:{{ block.settings.inner_gap }}px; }
+                /* ── Label + FREE text block ── */
+                #{{ rmr_bp_id }} .rmr-bp__label-block { display:flex; flex-direction:column; align-items:center; text-align:center; gap:2px; }
+                #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size }}px; color:{{ block.settings.label_color }}; font-weight:700; line-height:1.25; }
+                #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:600; line-height:1.25; }
                 #{{ rmr_bp_id }} .rmr-bp__free-word { color:{{ block.settings.free_text_color }}; font-weight:700; }
-                #{{ rmr_bp_id }} .rmr-bp__save-badge { display:inline-block; background:{{ block.settings.save_badge_bg }}; color:{{ block.settings.save_badge_text_color }}; font-size:{{ block.settings.save_badge_font_size }}px; font-weight:700; padding:{{ block.settings.save_badge_pad_v }}px {{ block.settings.save_badge_pad_h }}px; border-radius:{{ block.settings.save_badge_radius }}px; line-height:1; margin-top:2px; }
-                #{{ rmr_bp_id }} .rmr-bp__price { font-size:{{ block.settings.price_font_size }}px; color:{{ block.settings.price_color }}; font-weight:800; line-height:1; margin-top:4px; }
+                /* ── Product image ── */
+                #{{ rmr_bp_id }} .rmr-bp__img { height:{{ block.settings.image_height }}px; object-fit:contain; width:auto; max-width:100%; display:block; }
+                @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__img { height:{{ block.settings.image_height | times: 0.7 | round }}px; } }
+                /* ── Below-card section (save badge + prices) ── */
+                #{{ rmr_bp_id }} .rmr-bp__below { padding-top:{{ block.settings.below_gap }}px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:{{ block.settings.price_gap }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__save-badge { display:inline-block; background:{{ block.settings.save_badge_bg }}; color:{{ block.settings.save_badge_text_color }}; font-size:{{ block.settings.save_badge_font_size }}px; font-weight:700; padding:{{ block.settings.save_badge_pad_v }}px {{ block.settings.save_badge_pad_h }}px; border-radius:{{ block.settings.save_badge_radius }}px; line-height:1.2; }
+                #{{ rmr_bp_id }} .rmr-bp__price { font-size:{{ block.settings.price_font_size }}px; color:{{ block.settings.price_color }}; font-weight:800; line-height:1; }
                 #{{ rmr_bp_id }} .rmr-bp__compare { font-size:{{ block.settings.compare_font_size }}px; color:{{ block.settings.compare_color }}; text-decoration:line-through; line-height:1; }
-                {%- if block.settings.mobile_stack -%}
-                @media(max-width:749px){ #{{ rmr_bp_id }} .rmr-bp__grid { grid-template-columns:1fr; } }
-                {%- else -%}
-                @media(max-width:749px){ #{{ rmr_bp_id }} .rmr-bp__grid { grid-template-columns:repeat({{ rmr_bp_cols }},minmax(110px,1fr)); overflow-x:auto; -webkit-overflow-scrolling:touch; } }
-                {%- endif -%}
+                @media(max-width:480px){
+                  #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size | times: 0.82 | round }}px; }
+                  #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size | times: 0.82 | round }}px; }
+                  #{{ rmr_bp_id }} .rmr-bp__price { font-size:{{ block.settings.price_font_size | times: 0.8 | round }}px; }
+                  #{{ rmr_bp_id }} .rmr-bp__compare { font-size:{{ block.settings.compare_font_size | times: 0.85 | round }}px; }
+                  #{{ rmr_bp_id }} .rmr-bp__save-badge { font-size:{{ block.settings.save_badge_font_size | times: 0.85 | round }}px; padding:2px 6px; }
+                  #{{ rmr_bp_id }} .rmr-bp__card-top { font-size:{{ block.settings.header_badge_font_size | times: 0.85 | round }}px; }
+                }
+                /* ── Stock line ── */
+                #{{ rmr_bp_id }} .rmr-bp__stock { display:flex; align-items:center; justify-content:center; gap:{{ block.settings.stock_gap }}px; margin-top:{{ block.settings.stock_margin_top }}px; font-size:{{ block.settings.stock_font_size }}px; color:{{ block.settings.stock_text_color }}; }
+                #{{ rmr_bp_id }} .rmr-bp__stock-dot { width:{{ block.settings.stock_dot_size }}px; height:{{ block.settings.stock_dot_size }}px; background:{{ block.settings.stock_dot_color }}; border-radius:50%; flex-shrink:0; box-shadow:0 0 0 3px {{ block.settings.stock_dot_color | color_modify: 'alpha', 0.2 }}; }
               </style>
 
               {%- if block.settings.hide_qty_selector -%}
@@ -1091,26 +1107,41 @@
               {%- endif -%}
 
               <div id="{{ rmr_bp_id }}" class="rmr-bundle-picker" {{ block.shopify_attributes }}>
+
                 {%- if block.settings.heading != blank -%}
-                  <p class="rmr-bp__heading">{{ block.settings.heading }}</p>
+                  <div class="rmr-bp__heading-wrap">
+                    {%- if block.settings.heading_lines -%}<span class="rmr-bp__heading-line"></span>{%- endif -%}
+                    <h3 class="rmr-bp__heading">{{ block.settings.heading }}</h3>
+                    {%- if block.settings.heading_lines -%}<span class="rmr-bp__heading-line"></span>{%- endif -%}
+                  </div>
                 {%- endif -%}
+
                 <div class="rmr-bp__grid">
 
                   {%- if block.settings.opt1_show -%}
                     <div class="rmr-bp__option{% if block.settings.opt1_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt1_cart_qty }}">
-                      {%- if block.settings.opt1_header_badge != blank -%}
-                        <div class="rmr-bp__badge-wrap"><span class="rmr-bp__header-badge" style="background:{{ block.settings.opt1_badge_bg }};color:{{ block.settings.opt1_badge_text_color }};">{{ block.settings.opt1_header_badge }}</span></div>
-                      {%- else -%}
-                        <div class="rmr-bp__badge-wrap" aria-hidden="true"></div>
-                      {%- endif -%}
                       <div class="rmr-bp__card">
-                        {%- if block.settings.opt1_image != blank -%}
-                          <img src="{{ block.settings.opt1_image | image_url: width: 200 }}" alt="{{ block.settings.opt1_label | escape }}" class="rmr-bp__img" loading="lazy" width="200">
-                        {%- endif -%}
-                        <span class="rmr-bp__label">{{ block.settings.opt1_label }}</span>
-                        {%- if block.settings.opt1_free_qty > 0 -%}
-                          <span class="rmr-bp__free-line">Get {{ block.settings.opt1_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt1_free_label }}</span></span>
-                        {%- endif -%}
+                        <div class="rmr-bp__card-top"
+                          {%- if block.settings.opt1_header_badge != blank -%}
+                            style="background:{{ block.settings.opt1_badge_bg }};color:{{ block.settings.opt1_badge_text_color }};"
+                          {%- else -%}
+                            style="background:transparent;"
+                          {%- endif -%}>
+                          {{- block.settings.opt1_header_badge -}}
+                        </div>
+                        <div class="rmr-bp__card-inner">
+                          <div class="rmr-bp__label-block">
+                            <span class="rmr-bp__label">{{ block.settings.opt1_label }}</span>
+                            {%- if block.settings.opt1_free_qty > 0 -%}
+                              <span class="rmr-bp__free-line">Get {{ block.settings.opt1_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt1_free_label }}</span></span>
+                            {%- endif -%}
+                          </div>
+                          {%- if block.settings.opt1_image != blank -%}
+                            <img src="{{ block.settings.opt1_image | image_url: width: 300 }}" alt="{{ block.settings.opt1_label | escape }}" class="rmr-bp__img" loading="lazy" width="300">
+                          {%- endif -%}
+                        </div>
+                      </div>
+                      <div class="rmr-bp__below">
                         {%- if block.settings.opt1_save_badge != blank -%}<span class="rmr-bp__save-badge">{{ block.settings.opt1_save_badge }}</span>{%- endif -%}
                         <span class="rmr-bp__price">{{ block.settings.opt1_sale_price }}</span>
                         {%- if block.settings.opt1_compare_price != blank -%}<s class="rmr-bp__compare">{{ block.settings.opt1_compare_price }}</s>{%- endif -%}
@@ -1120,19 +1151,28 @@
 
                   {%- if block.settings.opt2_show -%}
                     <div class="rmr-bp__option{% if block.settings.opt2_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt2_cart_qty }}">
-                      {%- if block.settings.opt2_header_badge != blank -%}
-                        <div class="rmr-bp__badge-wrap"><span class="rmr-bp__header-badge" style="background:{{ block.settings.opt2_badge_bg }};color:{{ block.settings.opt2_badge_text_color }};">{{ block.settings.opt2_header_badge }}</span></div>
-                      {%- else -%}
-                        <div class="rmr-bp__badge-wrap" aria-hidden="true"></div>
-                      {%- endif -%}
                       <div class="rmr-bp__card">
-                        {%- if block.settings.opt2_image != blank -%}
-                          <img src="{{ block.settings.opt2_image | image_url: width: 200 }}" alt="{{ block.settings.opt2_label | escape }}" class="rmr-bp__img" loading="lazy" width="200">
-                        {%- endif -%}
-                        <span class="rmr-bp__label">{{ block.settings.opt2_label }}</span>
-                        {%- if block.settings.opt2_free_qty > 0 -%}
-                          <span class="rmr-bp__free-line">Get {{ block.settings.opt2_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt2_free_label }}</span></span>
-                        {%- endif -%}
+                        <div class="rmr-bp__card-top"
+                          {%- if block.settings.opt2_header_badge != blank -%}
+                            style="background:{{ block.settings.opt2_badge_bg }};color:{{ block.settings.opt2_badge_text_color }};"
+                          {%- else -%}
+                            style="background:transparent;"
+                          {%- endif -%}>
+                          {{- block.settings.opt2_header_badge -}}
+                        </div>
+                        <div class="rmr-bp__card-inner">
+                          <div class="rmr-bp__label-block">
+                            <span class="rmr-bp__label">{{ block.settings.opt2_label }}</span>
+                            {%- if block.settings.opt2_free_qty > 0 -%}
+                              <span class="rmr-bp__free-line">Get {{ block.settings.opt2_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt2_free_label }}</span></span>
+                            {%- endif -%}
+                          </div>
+                          {%- if block.settings.opt2_image != blank -%}
+                            <img src="{{ block.settings.opt2_image | image_url: width: 300 }}" alt="{{ block.settings.opt2_label | escape }}" class="rmr-bp__img" loading="lazy" width="300">
+                          {%- endif -%}
+                        </div>
+                      </div>
+                      <div class="rmr-bp__below">
                         {%- if block.settings.opt2_save_badge != blank -%}<span class="rmr-bp__save-badge">{{ block.settings.opt2_save_badge }}</span>{%- endif -%}
                         <span class="rmr-bp__price">{{ block.settings.opt2_sale_price }}</span>
                         {%- if block.settings.opt2_compare_price != blank -%}<s class="rmr-bp__compare">{{ block.settings.opt2_compare_price }}</s>{%- endif -%}
@@ -1142,19 +1182,28 @@
 
                   {%- if block.settings.opt3_show -%}
                     <div class="rmr-bp__option{% if block.settings.opt3_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt3_cart_qty }}">
-                      {%- if block.settings.opt3_header_badge != blank -%}
-                        <div class="rmr-bp__badge-wrap"><span class="rmr-bp__header-badge" style="background:{{ block.settings.opt3_badge_bg }};color:{{ block.settings.opt3_badge_text_color }};">{{ block.settings.opt3_header_badge }}</span></div>
-                      {%- else -%}
-                        <div class="rmr-bp__badge-wrap" aria-hidden="true"></div>
-                      {%- endif -%}
                       <div class="rmr-bp__card">
-                        {%- if block.settings.opt3_image != blank -%}
-                          <img src="{{ block.settings.opt3_image | image_url: width: 200 }}" alt="{{ block.settings.opt3_label | escape }}" class="rmr-bp__img" loading="lazy" width="200">
-                        {%- endif -%}
-                        <span class="rmr-bp__label">{{ block.settings.opt3_label }}</span>
-                        {%- if block.settings.opt3_free_qty > 0 -%}
-                          <span class="rmr-bp__free-line">Get {{ block.settings.opt3_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt3_free_label }}</span></span>
-                        {%- endif -%}
+                        <div class="rmr-bp__card-top"
+                          {%- if block.settings.opt3_header_badge != blank -%}
+                            style="background:{{ block.settings.opt3_badge_bg }};color:{{ block.settings.opt3_badge_text_color }};"
+                          {%- else -%}
+                            style="background:transparent;"
+                          {%- endif -%}>
+                          {{- block.settings.opt3_header_badge -}}
+                        </div>
+                        <div class="rmr-bp__card-inner">
+                          <div class="rmr-bp__label-block">
+                            <span class="rmr-bp__label">{{ block.settings.opt3_label }}</span>
+                            {%- if block.settings.opt3_free_qty > 0 -%}
+                              <span class="rmr-bp__free-line">Get {{ block.settings.opt3_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt3_free_label }}</span></span>
+                            {%- endif -%}
+                          </div>
+                          {%- if block.settings.opt3_image != blank -%}
+                            <img src="{{ block.settings.opt3_image | image_url: width: 300 }}" alt="{{ block.settings.opt3_label | escape }}" class="rmr-bp__img" loading="lazy" width="300">
+                          {%- endif -%}
+                        </div>
+                      </div>
+                      <div class="rmr-bp__below">
                         {%- if block.settings.opt3_save_badge != blank -%}<span class="rmr-bp__save-badge">{{ block.settings.opt3_save_badge }}</span>{%- endif -%}
                         <span class="rmr-bp__price">{{ block.settings.opt3_sale_price }}</span>
                         {%- if block.settings.opt3_compare_price != blank -%}<s class="rmr-bp__compare">{{ block.settings.opt3_compare_price }}</s>{%- endif -%}
@@ -1163,6 +1212,14 @@
                   {%- endif -%}
 
                 </div>
+
+                {%- if block.settings.stock_text != blank -%}
+                  <div class="rmr-bp__stock">
+                    <span class="rmr-bp__stock-dot"></span>
+                    <span>{{ block.settings.stock_text }}</span>
+                  </div>
+                {%- endif -%}
+
               </div>
 
               <script>
@@ -1195,8 +1252,7 @@
                     var tn = el.tagName.toLowerCase();
                     var cn = el.className || '';
                     if (tn === 'quantity-input' || cn.indexOf('product-form__quantity') >= 0 || cn.indexOf('quantity__wrapper') >= 0 || cn.indexOf('quantity-wrapper') >= 0) {
-                      el.style.display = 'none';
-                      break;
+                      el.style.display = 'none'; break;
                     }
                   }
                 }
@@ -9688,22 +9744,37 @@
       "type": "bundle_picker",
       "name": "Bundle Picker",
       "settings": [
-        { "type": "text", "id": "heading", "label": "Heading above cards", "default": "Choose Your Bundle:" },
-        { "type": "range", "id": "heading_font_size", "min": 12, "max": 28, "step": 1, "unit": "px", "label": "Heading font size", "default": 16 },
-        { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
-        { "type": "range", "id": "heading_margin_bottom", "min": 4, "max": 32, "step": 2, "unit": "px", "label": "Heading bottom gap", "default": 12 },
+        { "type": "text",  "id": "heading",               "label": "Heading",                                "default": "Limited Time Offer" },
+        { "type": "range", "id": "heading_font_size",    "min": 16, "max": 48, "step": 2,  "unit": "px", "label": "Heading font size",          "default": 28 },
+        { "type": "color", "id": "heading_color",        "label": "Heading color",                          "default": "#264165" },
+        { "type": "range", "id": "heading_margin_bottom","min": 8,  "max": 48, "step": 4,  "unit": "px", "label": "Heading bottom gap",         "default": 24 },
+        { "type": "range", "id": "heading_gap",          "min": 8,  "max": 40, "step": 4,  "unit": "px", "label": "Gap between heading & lines", "default": 16 },
+        { "type": "checkbox", "id": "heading_lines",     "label": "Show decorative lines beside heading",   "default": true },
+        { "type": "color",  "id": "heading_line_color",  "label": "Decorative line color",                  "default": "#264165" },
+        { "type": "range",  "id": "heading_line_height", "min": 1, "max": 4, "step": 1, "unit": "px",    "label": "Decorative line thickness",  "default": 1 },
 
         { "type": "header", "content": "── Card Layout ──────────────" },
-        { "type": "range", "id": "card_gap",          "min": 4,  "max": 32, "step": 2,  "unit": "px", "label": "Gap between cards",           "default": 12 },
-        { "type": "range", "id": "card_radius",        "min": 0,  "max": 24, "step": 2,  "unit": "px", "label": "Card border radius",           "default": 8  },
-        { "type": "range", "id": "card_border_width",  "min": 1,  "max": 4,  "step": 1,  "unit": "px", "label": "Card border width",            "default": 1  },
-        { "type": "color", "id": "card_border_color",  "label": "Card border color",  "default": "#e0e0e0" },
-        { "type": "color", "id": "card_bg",            "label": "Card background",    "default": "#ffffff" },
-        { "type": "range", "id": "card_pad_v",         "min": 8,  "max": 40, "step": 2,  "unit": "px", "label": "Card padding top/bottom",      "default": 16 },
-        { "type": "range", "id": "card_pad_h",         "min": 4,  "max": 40, "step": 2,  "unit": "px", "label": "Card padding left/right",      "default": 10 },
-        { "type": "color", "id": "selected_border_color", "label": "Selected card border",     "default": "#264165" },
-        { "type": "range", "id": "selected_border_width", "min": 1, "max": 6, "step": 1, "unit": "px", "label": "Selected card border width", "default": 2 },
-        { "type": "color", "id": "selected_bg",        "label": "Selected card background",   "default": "#f0f4fa" },
+        { "type": "range", "id": "card_gap",             "min": 4,  "max": 32, "step": 2,  "unit": "px", "label": "Gap between cards",           "default": 12 },
+        { "type": "range", "id": "card_radius",          "min": 0,  "max": 24, "step": 2,  "unit": "px", "label": "Card border radius",           "default": 10 },
+        { "type": "range", "id": "card_border_width",    "min": 1,  "max": 4,  "step": 1,  "unit": "px", "label": "Card border width",            "default": 1  },
+        { "type": "color", "id": "card_border_color",    "label": "Card border color",                     "default": "#d0d0d0" },
+        { "type": "color", "id": "card_bg",              "label": "Card background",                       "default": "#ffffff" },
+        { "type": "range", "id": "card_pad_v",           "min": 8,  "max": 40, "step": 2,  "unit": "px", "label": "Card body padding top/bottom", "default": 16 },
+        { "type": "range", "id": "card_pad_h",           "min": 4,  "max": 40, "step": 2,  "unit": "px", "label": "Card body padding left/right", "default": 10 },
+        { "type": "range", "id": "inner_gap",            "min": 4,  "max": 32, "step": 2,  "unit": "px", "label": "Gap: label block ↔ image",    "default": 12 },
+        { "type": "color", "id": "selected_border_color","label": "Selected card border",                  "default": "#264165" },
+        { "type": "range", "id": "selected_border_width","min": 1, "max": 6, "step": 1, "unit": "px",   "label": "Selected card border width",  "default": 2  },
+        { "type": "color", "id": "selected_bg",          "label": "Selected card background",              "default": "#eef4f0" },
+
+        { "type": "header", "content": "── Header Badge (inside card top) ──" },
+        { "type": "range", "id": "header_badge_font_size","min": 10, "max": 22, "step": 1, "unit": "px", "label": "Badge font size",              "default": 14 },
+        { "type": "range", "id": "header_badge_pad_v",    "min": 6,  "max": 20, "step": 2, "unit": "px", "label": "Badge padding top/bottom",    "default": 10 },
+        { "type": "range", "id": "header_badge_pad_h",    "min": 4,  "max": 32, "step": 2, "unit": "px", "label": "Badge padding left/right",    "default": 8  },
+        { "type": "range", "id": "header_badge_min_height","min": 20,"max": 60, "step": 2, "unit": "px", "label": "Badge min-height",             "default": 36 },
+
+        { "type": "header", "content": "── Below-Card Spacing ───────" },
+        { "type": "range", "id": "below_gap",  "min": 4,  "max": 24, "step": 2, "unit": "px", "label": "Gap: card bottom → save badge",  "default": 12 },
+        { "type": "range", "id": "price_gap",  "min": 2,  "max": 16, "step": 2, "unit": "px", "label": "Gap between price elements",     "default": 4  },
 
         { "type": "header", "content": "── Save % Badge ─────────────" },
         { "type": "color", "id": "save_badge_bg",         "label": "Save badge background", "default": "#e53e3e" },
@@ -9731,8 +9802,15 @@
         { "type": "header", "content": "── Spacing & Options ────────" },
         { "type": "range", "id": "margin_top",    "min": 0, "max": 60, "step": 4, "unit": "px", "label": "Margin top",    "default": 0  },
         { "type": "range", "id": "margin_bottom", "min": 0, "max": 60, "step": 4, "unit": "px", "label": "Margin bottom", "default": 16 },
-        { "type": "checkbox", "id": "hide_qty_selector", "label": "Hide standalone quantity input (recommended)",       "default": true  },
-        { "type": "checkbox", "id": "mobile_stack",      "label": "Stack cards vertically on mobile",                  "default": true  },
+        { "type": "checkbox", "id": "hide_qty_selector", "label": "Hide standalone quantity input (recommended)", "default": true },
+        { "type": "header", "content": "── Stock / Availability Line ─" },
+        { "type": "text",  "id": "stock_text",       "label": "Stock line text (blank = hidden)",    "default": "In Stock, ready to ship — arrives within 3–5 days" },
+        { "type": "color", "id": "stock_text_color", "label": "Stock text color",                    "default": "#1a1a1a" },
+        { "type": "range", "id": "stock_font_size",  "min": 10, "max": 20, "step": 1, "unit": "px", "label": "Stock text font size",    "default": 14 },
+        { "type": "color", "id": "stock_dot_color",  "label": "Green dot color",                     "default": "#22863a" },
+        { "type": "range", "id": "stock_dot_size",   "min": 6,  "max": 16, "step": 2, "unit": "px", "label": "Dot size",               "default": 10 },
+        { "type": "range", "id": "stock_gap",        "min": 4,  "max": 20, "step": 2, "unit": "px", "label": "Gap: dot ↔ text",        "default": 8  },
+        { "type": "range", "id": "stock_margin_top", "min": 8,  "max": 40, "step": 4, "unit": "px", "label": "Margin above stock line", "default": 16 },
 
         { "type": "header", "content": "── Option 1 ─────────────────" },
         { "type": "checkbox",    "id": "opt1_show",           "label": "Show Option 1",                              "default": true   },
@@ -9779,11 +9857,7 @@
         { "type": "image_picker","id": "opt3_image",          "label": "Product image"                               },
         { "type": "range",       "id": "opt3_cart_qty",       "min": 1, "max": 20, "step": 1, "label": "Quantity added to cart", "default": 5 },
 
-        { "type": "header", "content": "── Header Badge Style ───────", "info": "Shared padding/radius. Colour is set per option above." },
-        { "type": "range", "id": "header_badge_font_size", "min": 10, "max": 20, "step": 1, "unit": "px", "label": "Badge font size",       "default": 13 },
-        { "type": "range", "id": "header_badge_pad_v",     "min": 2,  "max": 12, "step": 1, "unit": "px", "label": "Badge padding top/bottom","default": 5  },
-        { "type": "range", "id": "header_badge_pad_h",     "min": 8,  "max": 32, "step": 2, "unit": "px", "label": "Badge padding left/right","default": 16 },
-        { "type": "range", "id": "header_badge_radius",    "min": 0,  "max": 12, "step": 1, "unit": "px", "label": "Badge border radius",    "default": 6  }
+        { "type": "header", "content": "── (Badge size/spacing above) ─", "info": "Header badge size and padding are in the Card Layout section." }
       ]
     }
   ],
