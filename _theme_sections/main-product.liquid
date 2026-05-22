@@ -1417,42 +1417,84 @@
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" media="all">
                 {%- assign rmr_mat_font_loaded = true -%}
               {%- endunless -%}
+              {%- assign rmr_sb_id = 'rmr-sb-' | append: block.id -%}
               {%- assign rmr_icon_fill = '0' -%}
               {%- if block.settings.icon_filled -%}{%- assign rmr_icon_fill = '1' -%}{%- endif -%}
-              <div class="rmr-sub-bar" {{ block.shopify_attributes }}
-                style="
-                  background:{{ block.settings.bg_color }};
-                  border-radius:{{ block.settings.radius }}px;
-                  padding:{{ block.settings.pad_v }}px {{ block.settings.pad_h }}px;
-                  margin-top:{{ block.settings.margin_top | divided_by: 10.0 }}rem;
-                  margin-bottom:{{ block.settings.margin_bottom | divided_by: 10.0 }}rem;
-                ">
-                <div style="display:flex;align-items:center;justify-content:{{ block.settings.alignment }};gap:{{ block.settings.item_gap }}px;flex-wrap:wrap;font-size:{{ block.settings.font_size }}px;color:{{ block.settings.text_color }};">
-                  {%- comment %} Item 1 {%- endcomment %}
+
+              <style>
+                /* ── Subscription bar — desktop ── */
+                #{{ rmr_sb_id }} {
+                  background: {{ block.settings.bg_color }};
+                  border-radius: {{ block.settings.radius }}px;
+                  padding: {{ block.settings.pad_v }}px {{ block.settings.pad_h }}px;
+                  margin-top: {{ block.settings.margin_top | divided_by: 10.0 }}rem;
+                  margin-bottom: {{ block.settings.margin_bottom | divided_by: 10.0 }}rem;
+                }
+                #{{ rmr_sb_id }} .rmr-sb__row {
+                  display: flex;
+                  flex-wrap: nowrap;
+                  align-items: center;
+                  justify-content: {{ block.settings.alignment }};
+                  gap: {{ block.settings.item_gap }}px;
+                  font-size: {{ block.settings.font_size }}px;
+                  color: {{ block.settings.text_color }};
+                  white-space: nowrap;
+                }
+                #{{ rmr_sb_id }} .rmr-sb__item {
+                  display: inline-flex;
+                  align-items: center;
+                  gap: {{ block.settings.icon_gap }}px;
+                  flex-shrink: 0;
+                }
+                #{{ rmr_sb_id }} .rmr-sb__icon {
+                  font-size: {{ block.settings.icon_size }}px;
+                  color: {{ block.settings.icon_color }};
+                  font-variation-settings: 'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;
+                  line-height: 1;
+                  flex-shrink: 0;
+                }
+                /* ── Subscription bar — mobile ── */
+                @media(max-width:749px) {
+                  #{{ rmr_sb_id }} {
+                    padding: {{ block.settings.pad_v_mob }}px {{ block.settings.pad_h_mob }}px;
+                    margin-top: {{ block.settings.margin_top_mob | divided_by: 10.0 }}rem;
+                    margin-bottom: {{ block.settings.margin_bottom_mob | divided_by: 10.0 }}rem;
+                  }
+                  #{{ rmr_sb_id }} .rmr-sb__row {
+                    flex-wrap: nowrap;
+                    justify-content: {{ block.settings.alignment_mob }};
+                    gap: {{ block.settings.item_gap_mob }}px;
+                    font-size: {{ block.settings.font_size_mob }}px;
+                  }
+                  #{{ rmr_sb_id }} .rmr-sb__item { gap: {{ block.settings.icon_gap_mob }}px; }
+                  #{{ rmr_sb_id }} .rmr-sb__icon { font-size: {{ block.settings.icon_size_mob }}px; }
+                }
+              </style>
+
+              <div id="{{ rmr_sb_id }}" {{ block.shopify_attributes }}>
+                <div class="rmr-sb__row">
                   {%- if block.settings.item_1_text != blank -%}
-                    <span style="display:inline-flex;align-items:center;gap:{{ block.settings.icon_gap }}px;">
+                    <span class="rmr-sb__item">
                       {%- if block.settings.item_1_icon != blank -%}
-                        <span class="material-symbols-outlined" style="font-size:{{ block.settings.icon_size }}px;color:{{ block.settings.icon_color }};font-variation-settings:'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;line-height:1;flex-shrink:0;">{{ block.settings.item_1_icon }}</span>
+                        <span class="material-symbols-outlined rmr-sb__icon">{{ block.settings.item_1_icon }}</span>
                       {%- endif -%}
                       <span>{{ block.settings.item_1_text }}</span>
                     </span>
                   {%- endif -%}
-                  {%- comment %} Item 2 {%- endcomment %}
                   {%- if block.settings.item_2_text != blank -%}
-                    <span style="color:{{ block.settings.sep_color }};font-size:{{ block.settings.sep_size }}px;line-height:1;user-select:none;" aria-hidden="true">{{ block.settings.separator }}</span>
-                    <span style="display:inline-flex;align-items:center;gap:{{ block.settings.icon_gap }}px;">
+                    <span style="color:{{ block.settings.sep_color }};font-size:{{ block.settings.sep_size }}px;line-height:1;user-select:none;flex-shrink:0;" aria-hidden="true">{{ block.settings.separator }}</span>
+                    <span class="rmr-sb__item">
                       {%- if block.settings.item_2_icon != blank -%}
-                        <span class="material-symbols-outlined" style="font-size:{{ block.settings.icon_size }}px;color:{{ block.settings.icon_color }};font-variation-settings:'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;line-height:1;flex-shrink:0;">{{ block.settings.item_2_icon }}</span>
+                        <span class="material-symbols-outlined rmr-sb__icon">{{ block.settings.item_2_icon }}</span>
                       {%- endif -%}
                       <span>{{ block.settings.item_2_text }}</span>
                     </span>
                   {%- endif -%}
-                  {%- comment %} Item 3 (optional) {%- endcomment %}
                   {%- if block.settings.item_3_text != blank -%}
-                    <span style="color:{{ block.settings.sep_color }};font-size:{{ block.settings.sep_size }}px;line-height:1;user-select:none;" aria-hidden="true">{{ block.settings.separator }}</span>
-                    <span style="display:inline-flex;align-items:center;gap:{{ block.settings.icon_gap }}px;">
+                    <span style="color:{{ block.settings.sep_color }};font-size:{{ block.settings.sep_size }}px;line-height:1;user-select:none;flex-shrink:0;" aria-hidden="true">{{ block.settings.separator }}</span>
+                    <span class="rmr-sb__item">
                       {%- if block.settings.item_3_icon != blank -%}
-                        <span class="material-symbols-outlined" style="font-size:{{ block.settings.icon_size }}px;color:{{ block.settings.icon_color }};font-variation-settings:'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;line-height:1;flex-shrink:0;">{{ block.settings.item_3_icon }}</span>
+                        <span class="material-symbols-outlined rmr-sb__icon">{{ block.settings.item_3_icon }}</span>
                       {%- endif -%}
                       <span>{{ block.settings.item_3_text }}</span>
                     </span>
@@ -9977,10 +10019,28 @@
         { "type": "color", "id": "text_color", "label": "Text color",          "default": "#555555" },
         { "type": "range", "id": "item_gap",   "min": 4,  "max": 48, "step": 2, "unit": "px", "label": "Gap between items",   "default": 16 },
         { "type": "header", "content": "── Icons ────────────────────" },
-        { "type": "range", "id": "icon_size",  "min": 12, "max": 32, "step": 2, "unit": "px", "label": "Icon size",           "default": 16 },
-        { "type": "color", "id": "icon_color", "label": "Icon color",          "default": "#264165" },
-        { "type": "range", "id": "icon_gap",   "min": 2,  "max": 16, "step": 1, "unit": "px", "label": "Icon to text gap",    "default": 5  },
-        { "type": "checkbox", "id": "icon_filled", "label": "Filled icons",   "default": false }
+        { "type": "range", "id": "icon_size",  "min": 12, "max": 32, "step": 2, "unit": "px", "label": "Icon size",        "default": 16 },
+        { "type": "color", "id": "icon_color", "label": "Icon color",       "default": "#264165" },
+        { "type": "range", "id": "icon_gap",   "min": 2,  "max": 16, "step": 1, "unit": "px", "label": "Icon to text gap", "default": 5  },
+        { "type": "checkbox", "id": "icon_filled", "label": "Filled icons", "default": false },
+
+        { "type": "header", "content": "━━ MOBILE ━━━━━━━━━━━━━━━━━━━" },
+        { "type": "select", "id": "alignment_mob", "label": "Alignment — mobile",
+          "options": [
+            { "value": "flex-start", "label": "Left" },
+            { "value": "center",     "label": "Center" },
+            { "value": "flex-end",   "label": "Right" }
+          ],
+          "default": "center"
+        },
+        { "type": "range", "id": "font_size_mob",  "min": 9,  "max": 18, "step": 1, "unit": "px", "label": "Font size — mobile",        "default": 11 },
+        { "type": "range", "id": "icon_size_mob",  "min": 10, "max": 28, "step": 2, "unit": "px", "label": "Icon size — mobile",        "default": 14 },
+        { "type": "range", "id": "icon_gap_mob",   "min": 2,  "max": 12, "step": 1, "unit": "px", "label": "Icon to text gap — mobile", "default": 4  },
+        { "type": "range", "id": "item_gap_mob",   "min": 4,  "max": 32, "step": 2, "unit": "px", "label": "Gap between items — mobile","default": 12 },
+        { "type": "range", "id": "pad_v_mob",      "min": 0,  "max": 32, "step": 2, "unit": "px", "label": "Padding top/bottom — mobile","default": 6  },
+        { "type": "range", "id": "pad_h_mob",      "min": 0,  "max": 32, "step": 2, "unit": "px", "label": "Padding left/right — mobile","default": 0  },
+        { "type": "range", "id": "margin_top_mob",    "min": 0, "max": 60, "step": 3, "label": "Margin top — mobile",    "default": 3 },
+        { "type": "range", "id": "margin_bottom_mob", "min": 0, "max": 60, "step": 3, "label": "Margin bottom — mobile", "default": 3 }
       ]
     },
     {
