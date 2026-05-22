@@ -130,7 +130,7 @@
             "price_gap": 4,
             "save_badge_bg": "#e53e3e",
             "save_badge_text_color": "#ffffff",
-            "save_badge_font_size": 12,
+            "save_badge_font_size": 14,
             "save_badge_pad_v": 3,
             "save_badge_pad_h": 8,
             "save_badge_radius": 50,
@@ -143,7 +143,7 @@
             "free_line_font_size": 17,
             "free_line_color": "#1a1a1a",
             "free_text_color": "#22863a",
-            "price_font_size": 22,
+            "price_font_size": 24,
             "price_color": "#1a1a1a",
             "compare_font_size": 13,
             "compare_color": "#888888",
@@ -205,7 +205,7 @@
             "opt2_free_qty": 1,
             "opt2_free_label": "FREE",
             "opt2_save_badge": "Save 66%",
-            "opt2_sale_price": "$59.99",
+            "opt2_sale_price": "$59.97",
             "opt2_compare_price": "$179.97",
             "opt2_image": "shopify://shop_images/ChatGPT_Image_May_22_2026_07_01_02_AM.png",
             "opt2_cart_qty": 3,
@@ -218,13 +218,10 @@
             "opt3_free_qty": 2,
             "opt3_free_label": "FREE",
             "opt3_save_badge": "Save 69%",
-            "opt3_sale_price": "$89.99",
+            "opt3_sale_price": "$89.95",
             "opt3_compare_price": "$299.95",
             "opt3_image": "shopify://shop_images/ChatGPT_Image_May_22_2026_07_08_48_AM.png",
-            "opt3_cart_qty": 5,
-            "opt1_buy_qty": 1,
-            "opt2_buy_qty": 2,
-            "opt3_buy_qty": 3
+            "opt3_cart_qty": 5
           }
         },
         "buy_buttons": {
@@ -548,6 +545,32 @@
             "margin_top": 24,
             "margin_bottom": 0
           }
+        },
+        "sub_bar_main": {
+          "type": "subscription_bar",
+          "settings": {
+            "item_1_icon": "autorenew",
+            "item_1_text": "Refills Ship Every Month",
+            "item_2_icon": "schedule",
+            "item_2_text": "Stop or Cancel Anytime",
+            "separator": "|",
+            "sep_color": "#cccccc",
+            "sep_size": 16,
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "radius": 0,
+            "pad_v": 8,
+            "pad_h": 0,
+            "margin_top": 3,
+            "margin_bottom": 3,
+            "font_size": 13,
+            "text_color": "#555555",
+            "item_gap": 20,
+            "icon_size": 16,
+            "icon_color": "#264165",
+            "icon_gap": 5,
+            "icon_filled": false
+          }
         }
       },
       "block_order": [
@@ -557,6 +580,7 @@
         "variant_picker",
         "bundle_picker_FXYfbm",
         "buy_buttons",
+        "sub_bar_main",
         "payment_badges_JzACb7",
         "trust_bar_zTG3BC",
         "guarantee_box_UwrBGT",

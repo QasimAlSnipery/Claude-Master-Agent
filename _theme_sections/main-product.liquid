@@ -1411,6 +1411,55 @@
               })();
               </script>
 
+            {%- when 'subscription_bar' -%}
+              {%- unless rmr_mat_font_loaded -%}
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" media="all">
+                {%- assign rmr_mat_font_loaded = true -%}
+              {%- endunless -%}
+              {%- assign rmr_icon_fill = '0' -%}
+              {%- if block.settings.icon_filled -%}{%- assign rmr_icon_fill = '1' -%}{%- endif -%}
+              <div class="rmr-sub-bar" {{ block.shopify_attributes }}
+                style="
+                  background:{{ block.settings.bg_color }};
+                  border-radius:{{ block.settings.radius }}px;
+                  padding:{{ block.settings.pad_v }}px {{ block.settings.pad_h }}px;
+                  margin-top:{{ block.settings.margin_top | divided_by: 10.0 }}rem;
+                  margin-bottom:{{ block.settings.margin_bottom | divided_by: 10.0 }}rem;
+                ">
+                <div style="display:flex;align-items:center;justify-content:{{ block.settings.alignment }};gap:{{ block.settings.item_gap }}px;flex-wrap:wrap;font-size:{{ block.settings.font_size }}px;color:{{ block.settings.text_color }};">
+                  {%- comment %} Item 1 {%- endcomment %}
+                  {%- if block.settings.item_1_text != blank -%}
+                    <span style="display:inline-flex;align-items:center;gap:{{ block.settings.icon_gap }}px;">
+                      {%- if block.settings.item_1_icon != blank -%}
+                        <span class="material-symbols-outlined" style="font-size:{{ block.settings.icon_size }}px;color:{{ block.settings.icon_color }};font-variation-settings:'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;line-height:1;flex-shrink:0;">{{ block.settings.item_1_icon }}</span>
+                      {%- endif -%}
+                      <span>{{ block.settings.item_1_text }}</span>
+                    </span>
+                  {%- endif -%}
+                  {%- comment %} Item 2 {%- endcomment %}
+                  {%- if block.settings.item_2_text != blank -%}
+                    <span style="color:{{ block.settings.sep_color }};font-size:{{ block.settings.sep_size }}px;line-height:1;user-select:none;" aria-hidden="true">{{ block.settings.separator }}</span>
+                    <span style="display:inline-flex;align-items:center;gap:{{ block.settings.icon_gap }}px;">
+                      {%- if block.settings.item_2_icon != blank -%}
+                        <span class="material-symbols-outlined" style="font-size:{{ block.settings.icon_size }}px;color:{{ block.settings.icon_color }};font-variation-settings:'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;line-height:1;flex-shrink:0;">{{ block.settings.item_2_icon }}</span>
+                      {%- endif -%}
+                      <span>{{ block.settings.item_2_text }}</span>
+                    </span>
+                  {%- endif -%}
+                  {%- comment %} Item 3 (optional) {%- endcomment %}
+                  {%- if block.settings.item_3_text != blank -%}
+                    <span style="color:{{ block.settings.sep_color }};font-size:{{ block.settings.sep_size }}px;line-height:1;user-select:none;" aria-hidden="true">{{ block.settings.separator }}</span>
+                    <span style="display:inline-flex;align-items:center;gap:{{ block.settings.icon_gap }}px;">
+                      {%- if block.settings.item_3_icon != blank -%}
+                        <span class="material-symbols-outlined" style="font-size:{{ block.settings.icon_size }}px;color:{{ block.settings.icon_color }};font-variation-settings:'FILL' {{ rmr_icon_fill }},'wght' 400,'GRAD' 0,'opsz' 24;line-height:1;flex-shrink:0;">{{ block.settings.item_3_icon }}</span>
+                      {%- endif -%}
+                      <span>{{ block.settings.item_3_text }}</span>
+                    </span>
+                  {%- endif -%}
+                </div>
+              </div>
+
             {%- when 'icon_with_text' -%}
               {% render 'icon-with-text',
                 block: block
@@ -9889,6 +9938,49 @@
         { "type": "color", "id": "body_color", "label": "Body text color", "default": "#2a5a3a" },
         { "type": "select", "id": "body_weight", "label": "Body text weight", "options": [{"value":"400","label":"Regular"},{"value":"500","label":"Medium"},{"value":"600","label":"Semi-bold"}], "default": "400" },
         { "type": "range", "id": "body_line_height", "min": 12, "max": 20, "step": 1, "label": "Line height (×10, e.g. 15 = 1.5)", "default": 15 }
+      ]
+    },
+    {
+      "type": "subscription_bar",
+      "name": "Subscription Info Bar",
+      "settings": [
+        { "type": "header", "content": "── Item 1 ───────────────────" },
+        { "type": "text", "id": "item_1_icon", "label": "Icon (Material Symbol name)", "default": "autorenew", "info": "[Browse icons →](https://fonts.google.com/icons)" },
+        { "type": "text", "id": "item_1_text", "label": "Text", "default": "Refills Ship Every Month" },
+        { "type": "header", "content": "── Item 2 ───────────────────" },
+        { "type": "text", "id": "item_2_icon", "label": "Icon (Material Symbol name)", "default": "schedule" },
+        { "type": "text", "id": "item_2_text", "label": "Text", "default": "Stop or Cancel Anytime" },
+        { "type": "header", "content": "── Item 3 (optional) ────────" },
+        { "type": "text", "id": "item_3_icon", "label": "Icon (Material Symbol name)" },
+        { "type": "text", "id": "item_3_text", "label": "Text (blank = hidden)" },
+        { "type": "header", "content": "── Separator ────────────────" },
+        { "type": "text",  "id": "separator",  "label": "Separator character", "default": "|" },
+        { "type": "color", "id": "sep_color",  "label": "Separator color",     "default": "#cccccc" },
+        { "type": "range", "id": "sep_size",   "min": 10, "max": 30, "step": 1, "unit": "px", "label": "Separator size", "default": 16 },
+        { "type": "header", "content": "── Layout & Style ───────────" },
+        { "type": "select", "id": "alignment", "label": "Alignment",
+          "options": [
+            { "value": "flex-start", "label": "Left" },
+            { "value": "center",     "label": "Center" },
+            { "value": "flex-end",   "label": "Right" }
+          ],
+          "default": "center"
+        },
+        { "type": "color", "id": "bg_color",   "label": "Background color", "default": "#ffffff" },
+        { "type": "range", "id": "radius",     "min": 0,  "max": 24, "step": 2, "unit": "px", "label": "Border radius",          "default": 0  },
+        { "type": "range", "id": "pad_v",      "min": 0,  "max": 40, "step": 2, "unit": "px", "label": "Padding top/bottom",     "default": 8  },
+        { "type": "range", "id": "pad_h",      "min": 0,  "max": 40, "step": 2, "unit": "px", "label": "Padding left/right",     "default": 0  },
+        { "type": "range", "id": "margin_top",    "min": 0, "max": 60, "step": 3, "label": "Margin top",    "default": 3  },
+        { "type": "range", "id": "margin_bottom", "min": 0, "max": 60, "step": 3, "label": "Margin bottom", "default": 3  },
+        { "type": "header", "content": "── Text ─────────────────────" },
+        { "type": "range", "id": "font_size",  "min": 10, "max": 22, "step": 1, "unit": "px", "label": "Font size",            "default": 13 },
+        { "type": "color", "id": "text_color", "label": "Text color",          "default": "#555555" },
+        { "type": "range", "id": "item_gap",   "min": 4,  "max": 48, "step": 2, "unit": "px", "label": "Gap between items",   "default": 16 },
+        { "type": "header", "content": "── Icons ────────────────────" },
+        { "type": "range", "id": "icon_size",  "min": 12, "max": 32, "step": 2, "unit": "px", "label": "Icon size",           "default": 16 },
+        { "type": "color", "id": "icon_color", "label": "Icon color",          "default": "#264165" },
+        { "type": "range", "id": "icon_gap",   "min": 2,  "max": 16, "step": 1, "unit": "px", "label": "Icon to text gap",    "default": 5  },
+        { "type": "checkbox", "id": "icon_filled", "label": "Filled icons",   "default": false }
       ]
     },
     {
