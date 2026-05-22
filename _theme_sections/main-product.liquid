@@ -1248,7 +1248,8 @@
                 <div class="rmr-bp__grid">
 
                   {%- if block.settings.opt1_show -%}
-                    <div class="rmr-bp__option{% if block.settings.opt1_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt1_cart_qty }}">
+                    {%- assign opt1_total_qty = block.settings.opt1_buy_qty | plus: block.settings.opt1_free_qty -%}
+                    <div class="rmr-bp__option{% if block.settings.opt1_selected %} is-selected{% endif %}" data-cart-qty="{{ opt1_total_qty }}">
                       <div class="rmr-bp__card">
                         <div class="rmr-bp__card-top"
                           {%- if block.settings.opt1_header_badge != blank -%}
@@ -1279,7 +1280,8 @@
                   {%- endif -%}
 
                   {%- if block.settings.opt2_show -%}
-                    <div class="rmr-bp__option{% if block.settings.opt2_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt2_cart_qty }}">
+                    {%- assign opt2_total_qty = block.settings.opt2_buy_qty | plus: block.settings.opt2_free_qty -%}
+                    <div class="rmr-bp__option{% if block.settings.opt2_selected %} is-selected{% endif %}" data-cart-qty="{{ opt2_total_qty }}">
                       <div class="rmr-bp__card">
                         <div class="rmr-bp__card-top"
                           {%- if block.settings.opt2_header_badge != blank -%}
@@ -1310,7 +1312,8 @@
                   {%- endif -%}
 
                   {%- if block.settings.opt3_show -%}
-                    <div class="rmr-bp__option{% if block.settings.opt3_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt3_cart_qty }}">
+                    {%- assign opt3_total_qty = block.settings.opt3_buy_qty | plus: block.settings.opt3_free_qty -%}
+                    <div class="rmr-bp__option{% if block.settings.opt3_selected %} is-selected{% endif %}" data-cart-qty="{{ opt3_total_qty }}">
                       <div class="rmr-bp__card">
                         <div class="rmr-bp__card-top"
                           {%- if block.settings.opt3_header_badge != blank -%}
