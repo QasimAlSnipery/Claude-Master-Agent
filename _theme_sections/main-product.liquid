@@ -1108,37 +1108,40 @@
 
             {%- when 'bundle_picker' -%}
               {%- assign rmr_bp_id = 'rmr-bp-' | append: section.id | append: '-' | append: block.id -%}
+              {%- comment %} alignment → flex align-items maps {%- endcomment %}
+              {%- if block.settings.label_align == 'left' -%}{%- assign rmr_label_ai = 'flex-start' -%}{%- elsif block.settings.label_align == 'right' -%}{%- assign rmr_label_ai = 'flex-end' -%}{%- else -%}{%- assign rmr_label_ai = 'center' -%}{%- endif -%}
+              {%- if block.settings.prices_align == 'left' -%}{%- assign rmr_prices_ai = 'flex-start' -%}{%- elsif block.settings.prices_align == 'right' -%}{%- assign rmr_prices_ai = 'flex-end' -%}{%- else -%}{%- assign rmr_prices_ai = 'center' -%}{%- endif -%}
 
               <style>
                 #{{ rmr_bp_id }} { margin-top:{{ block.settings.margin_top }}px; margin-bottom:{{ block.settings.margin_bottom }}px; }
                 #{{ rmr_bp_id }} .rmr-bp__heading-wrap { display:flex; align-items:center; gap:{{ block.settings.heading_gap }}px; margin-bottom:{{ block.settings.heading_margin_bottom }}px; }
                 #{{ rmr_bp_id }} .rmr-bp__heading-line { flex:1; height:{{ block.settings.heading_line_height }}px; background:{{ block.settings.heading_line_color }}; border-radius:2px; }
-                #{{ rmr_bp_id }} .rmr-bp__heading { font-size:{{ block.settings.heading_font_size }}px; color:{{ block.settings.heading_color }}; font-weight:700; margin:0; white-space:nowrap; }
-                /* ── Grid: always 3 cols, horizontal on all screen sizes ── */
-                #{{ rmr_bp_id }} .rmr-bp__grid { display:grid; grid-template-columns:repeat(3,1fr); gap:{{ block.settings.card_gap }}px; align-items:start; }
+                #{{ rmr_bp_id }} .rmr-bp__heading { font-size:{{ block.settings.heading_font_size }}px; color:{{ block.settings.heading_color }}; font-weight:{%- if block.settings.heading_bold -%}700{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.heading_italic -%}italic{%- else -%}normal{%- endif -%}; text-align:{{ block.settings.heading_align }}; margin:0; white-space:nowrap; }
+                /* ── Grid: equal-height rows, always 3 cols ── */
+                #{{ rmr_bp_id }} .rmr-bp__grid { display:grid; grid-template-columns:repeat(3,1fr); gap:{{ block.settings.card_gap }}px; align-items:stretch; }
                 @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__grid { grid-template-columns:repeat(3,minmax(88px,1fr)); gap:{{ block.settings.card_gap | divided_by: 2 | ceil }}px; } }
-                /* ── Option wrapper ── */
+                /* ── Option wrapper — flex column so card stretches and below pins to bottom ── */
                 #{{ rmr_bp_id }} .rmr-bp__option { cursor:pointer; user-select:none; display:flex; flex-direction:column; -webkit-tap-highlight-color:transparent; }
-                /* ── Card box ── */
+                /* ── Card box — flex:1 fills full row height ── */
                 #{{ rmr_bp_id }} .rmr-bp__card { flex:1; background:{{ block.settings.card_bg }}; border:{{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }}; border-radius:{{ block.settings.card_radius }}px; overflow:hidden; transition:border-color 0.15s,border-width 0.05s,background 0.15s; display:flex; flex-direction:column; }
                 #{{ rmr_bp_id }} .rmr-bp__option.is-selected .rmr-bp__card { background:{{ block.settings.selected_bg }}; border-color:{{ block.settings.selected_border_color }}; border-width:{{ block.settings.selected_border_width }}px; }
-                /* ── Card header strip (badge inside card at top) ── */
-                #{{ rmr_bp_id }} .rmr-bp__card-top { font-size:{{ block.settings.header_badge_font_size }}px; font-weight:700; text-align:center; padding:{{ block.settings.header_badge_pad_v }}px {{ block.settings.header_badge_pad_h }}px; line-height:1.2; min-height:{{ block.settings.header_badge_min_height }}px; display:flex; align-items:center; justify-content:center; }
-                /* ── Card inner body (label + image) ── */
+                /* ── Card header strip ── */
+                #{{ rmr_bp_id }} .rmr-bp__card-top { font-size:{{ block.settings.header_badge_font_size }}px; font-weight:{%- if block.settings.header_badge_bold -%}700{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.header_badge_italic -%}italic{%- else -%}normal{%- endif -%}; padding:{{ block.settings.header_badge_pad_v }}px {{ block.settings.header_badge_pad_h }}px; line-height:1.2; min-height:{{ block.settings.header_badge_min_height }}px; display:flex; align-items:center; justify-content:center; text-align:center; }
+                /* ── Card inner body ── */
                 #{{ rmr_bp_id }} .rmr-bp__card-inner { flex:1; padding:{{ block.settings.card_pad_v }}px {{ block.settings.card_pad_h }}px {{ block.settings.card_pad_v }}px; display:flex; flex-direction:column; align-items:center; gap:{{ block.settings.inner_gap }}px; }
-                /* ── Label + FREE text block ── */
-                #{{ rmr_bp_id }} .rmr-bp__label-block { display:flex; flex-direction:column; align-items:center; text-align:center; gap:2px; padding-top:{{ block.settings.label_pad_top }}px; padding-bottom:{{ block.settings.label_pad_bottom }}px; }
-                #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size }}px; color:{{ block.settings.label_color }}; font-weight:700; line-height:1.25; }
-                #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:600; line-height:1.25; }
-                #{{ rmr_bp_id }} .rmr-bp__free-word { color:{{ block.settings.free_text_color }}; font-weight:700; }
-                /* ── Product image ── */
+                /* ── Label + FREE block ── */
+                #{{ rmr_bp_id }} .rmr-bp__label-block { display:flex; flex-direction:column; align-items:{{ rmr_label_ai }}; text-align:{{ block.settings.label_align }}; gap:2px; padding-top:{{ block.settings.label_pad_top }}px; padding-bottom:{{ block.settings.label_pad_bottom }}px; width:100%; }
+                #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size }}px; color:{{ block.settings.label_color }}; font-weight:{%- if block.settings.label_bold -%}700{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.label_italic -%}italic{%- else -%}normal{%- endif -%}; line-height:1.25; }
+                #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:{%- if block.settings.free_line_bold -%}600{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.free_line_italic -%}italic{%- else -%}normal{%- endif -%}; line-height:1.25; }
+                #{{ rmr_bp_id }} .rmr-bp__free-word { color:{{ block.settings.free_text_color }}; font-weight:{%- if block.settings.free_word_bold -%}700{%- else -%}400{%- endif -%}; }
+                /* ── Image ── */
                 #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width }}px; height:{{ block.settings.image_height }}px; object-fit:contain; max-width:100%; display:block; }
                 @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width_mob }}px; height:{{ block.settings.image_height_mob }}px; } }
-                /* ── Below-card section (save badge + prices) ── */
-                #{{ rmr_bp_id }} .rmr-bp__below { padding-top:{{ block.settings.below_gap }}px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:{{ block.settings.price_gap }}px; }
-                #{{ rmr_bp_id }} .rmr-bp__save-badge { display:inline-block; background:{{ block.settings.save_badge_bg }}; color:{{ block.settings.save_badge_text_color }}; font-size:{{ block.settings.save_badge_font_size }}px; font-weight:700; padding:{{ block.settings.save_badge_pad_v }}px {{ block.settings.save_badge_pad_h }}px; border-radius:{{ block.settings.save_badge_radius }}px; line-height:1.2; }
-                #{{ rmr_bp_id }} .rmr-bp__price { font-size:{{ block.settings.price_font_size }}px; color:{{ block.settings.price_color }}; font-weight:800; line-height:1; }
-                #{{ rmr_bp_id }} .rmr-bp__compare { font-size:{{ block.settings.compare_font_size }}px; color:{{ block.settings.compare_color }}; text-decoration:line-through; line-height:1; }
+                /* ── Below-card ── */
+                #{{ rmr_bp_id }} .rmr-bp__below { padding-top:{{ block.settings.below_gap }}px; display:flex; flex-direction:column; align-items:{{ rmr_prices_ai }}; text-align:{{ block.settings.prices_align }}; gap:{{ block.settings.price_gap }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__save-badge { display:inline-block; background:{{ block.settings.save_badge_bg }}; color:{{ block.settings.save_badge_text_color }}; font-size:{{ block.settings.save_badge_font_size }}px; font-weight:{%- if block.settings.save_badge_bold -%}700{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.save_badge_italic -%}italic{%- else -%}normal{%- endif -%}; padding:{{ block.settings.save_badge_pad_v }}px {{ block.settings.save_badge_pad_h }}px; border-radius:{{ block.settings.save_badge_radius }}px; line-height:1.2; }
+                #{{ rmr_bp_id }} .rmr-bp__price { font-size:{{ block.settings.price_font_size }}px; color:{{ block.settings.price_color }}; font-weight:{%- if block.settings.price_bold -%}800{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.price_italic -%}italic{%- else -%}normal{%- endif -%}; line-height:1; }
+                #{{ rmr_bp_id }} .rmr-bp__compare { font-size:{{ block.settings.compare_font_size }}px; color:{{ block.settings.compare_color }}; font-weight:{%- if block.settings.compare_bold -%}600{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.compare_italic -%}italic{%- else -%}normal{%- endif -%}; text-decoration:line-through; line-height:1; }
                 @media(max-width:480px){
                   #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size | times: 0.82 | round }}px; }
                   #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size | times: 0.82 | round }}px; }
@@ -1149,7 +1152,7 @@
                   #{{ rmr_bp_id }} .rmr-bp__label-block { padding-top:{{ block.settings.label_pad_top_mob }}px; padding-bottom:{{ block.settings.label_pad_bottom_mob }}px; }
                 }
                 /* ── Stock line ── */
-                #{{ rmr_bp_id }} .rmr-bp__stock { display:flex; align-items:center; justify-content:center; gap:{{ block.settings.stock_gap }}px; margin-top:{{ block.settings.stock_margin_top }}px; font-size:{{ block.settings.stock_font_size }}px; color:{{ block.settings.stock_text_color }}; }
+                #{{ rmr_bp_id }} .rmr-bp__stock { display:flex; align-items:center; justify-content:center; gap:{{ block.settings.stock_gap }}px; margin-top:{{ block.settings.stock_margin_top }}px; font-size:{{ block.settings.stock_font_size }}px; color:{{ block.settings.stock_text_color }}; font-weight:{%- if block.settings.stock_bold -%}700{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.stock_italic -%}italic{%- else -%}normal{%- endif -%}; }
                 #{{ rmr_bp_id }} .rmr-bp__stock-dot { width:{{ block.settings.stock_dot_size }}px; height:{{ block.settings.stock_dot_size }}px; background:{{ block.settings.stock_dot_color }}; border-radius:50%; flex-shrink:0; box-shadow:0 0 0 3px {{ block.settings.stock_dot_color | color_modify: 'alpha', 0.2 }}; }
               </style>
 
@@ -9851,6 +9854,41 @@
         { "type": "color", "id": "price_color",          "label": "Sale price color",   "default": "#1a1a1a" },
         { "type": "range", "id": "compare_font_size",    "min": 10, "max": 22, "step": 1, "unit": "px", "label": "Compare price font size",      "default": 13 },
         { "type": "color", "id": "compare_color",        "label": "Compare price color","default": "#888888" },
+
+        { "type": "header", "content": "── Text Styles — Heading ────" },
+        { "type": "select", "id": "heading_align",  "label": "Heading alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+        { "type": "checkbox", "id": "heading_bold",   "label": "Bold",   "default": true  },
+        { "type": "checkbox", "id": "heading_italic", "label": "Italic", "default": false },
+
+        { "type": "header", "content": "── Text Styles — Header Badge" },
+        { "type": "checkbox", "id": "header_badge_bold",   "label": "Bold",   "default": true  },
+        { "type": "checkbox", "id": "header_badge_italic", "label": "Italic", "default": false },
+
+        { "type": "header", "content": "── Text Styles — Label (Buy…)" },
+        { "type": "select", "id": "label_align", "label": "Label alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+        { "type": "checkbox", "id": "label_bold",   "label": "Bold",   "default": true  },
+        { "type": "checkbox", "id": "label_italic", "label": "Italic", "default": false },
+
+        { "type": "header", "content": "── Text Styles — FREE Line ──" },
+        { "type": "select", "id": "free_align", "label": "FREE line alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center", "info": "Controls both the free_align label-block alignment" },
+        { "type": "checkbox", "id": "free_line_bold",   "label": "Bold (Get X part)",  "default": true  },
+        { "type": "checkbox", "id": "free_line_italic", "label": "Italic (Get X part)","default": false },
+        { "type": "checkbox", "id": "free_word_bold",   "label": "Bold (FREE word)",   "default": true  },
+
+        { "type": "header", "content": "── Text Styles — Save Badge ─" },
+        { "type": "checkbox", "id": "save_badge_bold",   "label": "Bold",   "default": true  },
+        { "type": "checkbox", "id": "save_badge_italic", "label": "Italic", "default": false },
+
+        { "type": "header", "content": "── Text Styles — Prices ─────" },
+        { "type": "select", "id": "prices_align", "label": "Prices alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"right","label":"Right"}], "default": "center" },
+        { "type": "checkbox", "id": "price_bold",    "label": "Sale price bold",    "default": true  },
+        { "type": "checkbox", "id": "price_italic",  "label": "Sale price italic",  "default": false },
+        { "type": "checkbox", "id": "compare_bold",  "label": "Compare price bold", "default": false },
+        { "type": "checkbox", "id": "compare_italic","label": "Compare price italic","default": false },
+
+        { "type": "header", "content": "── Text Styles — Stock Line ─" },
+        { "type": "checkbox", "id": "stock_bold",   "label": "Bold",   "default": false },
+        { "type": "checkbox", "id": "stock_italic", "label": "Italic", "default": false },
 
         { "type": "header", "content": "── Images ───────────────────" },
         { "type": "range", "id": "image_width",     "min": 40, "max": 300, "step": 4, "unit": "px", "label": "Image width — desktop",  "default": 120 },
