@@ -1,7 +1,17 @@
 {%- assign sid = 'sscount-' | append: section.id -%}
 
+{%- comment %} Desktop layout helpers {%- endcomment %}
+{%- assign dl  = section.settings.layout_desktop -%}
+{%- assign dta = section.settings.text_align_desktop -%}
+{%- if dta == 'left' -%}{%- assign dai = 'flex-start' -%}{%- elsif dta == 'right' -%}{%- assign dai = 'flex-end' -%}{%- else -%}{%- assign dai = 'center' -%}{%- endif -%}
+
+{%- comment %} Mobile layout helpers {%- endcomment %}
+{%- assign ml  = section.settings.layout_mob -%}
+{%- assign mta = section.settings.text_align_mob -%}
+{%- if mta == 'left' -%}{%- assign mai = 'flex-start' -%}{%- elsif mta == 'right' -%}{%- assign mai = 'flex-end' -%}{%- else -%}{%- assign mai = 'center' -%}{%- endif -%}
+
 <style>
-  /* ── Desktop ─────────────────────────────────────────── */
+  /* ── Base ────────────────────────────────────────────── */
   #{{ sid }} {
     background-color: {{ section.settings.bg_color }};
     padding: {{ section.settings.padding_top }}px {{ section.settings.padding_lr }}px {{ section.settings.padding_bottom }}px;
@@ -13,11 +23,59 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: {{ section.settings.layout_align }};
-    flex-wrap: wrap;
-    gap: {{ section.settings.inner_gap }}px {{ section.settings.inner_gap_h }}px;
-    text-align: center;
   }
+
+  /* ── Desktop Layout ──────────────────────────────────── */
+  {%- if dl == 'inline' -%}
+  #{{ sid }} .sscount__inner {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: {{ section.settings.layout_align }};
+    gap: {{ section.settings.inner_gap }}px {{ section.settings.inner_gap_h }}px;
+    text-align: {{ dta }};
+  }
+  #{{ sid }} .sscount__content { display: contents; }
+  {%- elsif dl == 'timer-right' or dl == 'timer-left' -%}
+  #{{ sid }} .sscount__inner {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: {{ section.settings.inner_gap_h }}px;
+  }
+  #{{ sid }} .sscount__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: {{ dai }};
+    gap: {{ section.settings.inner_gap }}px;
+    text-align: {{ dta }};
+    order: {%- if dl == 'timer-right' -%}1{%- else -%}2{%- endif -%};
+  }
+  #{{ sid }} .sscount__clock {
+    flex-shrink: 0;
+    order: {%- if dl == 'timer-right' -%}2{%- else -%}1{%- endif -%};
+  }
+  {%- elsif dl == 'timer-below' or dl == 'timer-above' -%}
+  #{{ sid }} .sscount__inner {
+    flex-direction: column;
+    gap: {{ section.settings.inner_gap }}px;
+  }
+  #{{ sid }} .sscount__content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: {{ section.settings.layout_align }};
+    align-items: center;
+    gap: {{ section.settings.inner_gap }}px {{ section.settings.inner_gap_h }}px;
+    text-align: {{ dta }};
+    order: {%- if dl == 'timer-below' -%}1{%- else -%}2{%- endif -%};
+  }
+  #{{ sid }} .sscount__clock {
+    order: {%- if dl == 'timer-below' -%}2{%- else -%}1{%- endif -%};
+  }
+  {%- endif -%}
+
+  /* ── Elements ────────────────────────────────────────── */
   #{{ sid }} .sscount__headline {
     margin: 0;
     font-weight: 700;
@@ -37,7 +95,7 @@
     color: {{ section.settings.sub_color }};
     opacity: {{ section.settings.sub_opacity | divided_by: 100.0 }};
   }
-  #{{ sid }} .sscount__timer {
+  #{{ sid }} .sscount__clock {
     display: flex;
     align-items: flex-start;
     gap: {{ section.settings.unit_gap }}px;
@@ -116,28 +174,75 @@
       margin-top: {{ section.settings.margin_top_mob }}px;
       margin-bottom: {{ section.settings.margin_bottom_mob }}px;
     }
+
+    {%- if ml == 'inline' -%}
     #{{ sid }} .sscount__inner {
+      flex-wrap: wrap;
+      flex-direction: row;
       justify-content: {{ section.settings.layout_align_mob }};
       gap: {{ section.settings.inner_gap_mob }}px {{ section.settings.inner_gap_h_mob }}px;
+      text-align: {{ mta }};
     }
+    #{{ sid }} .sscount__content { display: contents; }
+    #{{ sid }} .sscount__clock   { order: unset; }
+    {%- elsif ml == 'timer-right' or ml == 'timer-left' -%}
+    #{{ sid }} .sscount__inner {
+      flex-wrap: nowrap;
+      flex-direction: row;
+      gap: {{ section.settings.inner_gap_h_mob }}px;
+    }
+    #{{ sid }} .sscount__content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: {{ mai }};
+      gap: {{ section.settings.inner_gap_mob }}px;
+      text-align: {{ mta }};
+      order: {%- if ml == 'timer-right' -%}1{%- else -%}2{%- endif -%};
+    }
+    #{{ sid }} .sscount__clock {
+      flex-shrink: 0;
+      order: {%- if ml == 'timer-right' -%}2{%- else -%}1{%- endif -%};
+    }
+    {%- elsif ml == 'timer-below' or ml == 'timer-above' -%}
+    #{{ sid }} .sscount__inner {
+      flex-direction: column;
+      gap: {{ section.settings.inner_gap_mob }}px;
+    }
+    #{{ sid }} .sscount__content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: {{ section.settings.layout_align_mob }};
+      align-items: center;
+      gap: {{ section.settings.inner_gap_mob }}px {{ section.settings.inner_gap_h_mob }}px;
+      text-align: {{ mta }};
+      order: {%- if ml == 'timer-below' -%}1{%- else -%}2{%- endif -%};
+    }
+    #{{ sid }} .sscount__clock {
+      order: {%- if ml == 'timer-below' -%}2{%- else -%}1{%- endif -%};
+    }
+    {%- endif -%}
+
     #{{ sid }} .sscount__headline { font-size: {{ section.settings.headline_size_mob }}px; }
     #{{ sid }} .sscount__sub      { font-size: {{ section.settings.sub_size_mob }}px; }
-    #{{ sid }} .sscount__timer    { gap: {{ section.settings.unit_gap_mob }}px; }
+    #{{ sid }} .sscount__clock    { gap: {{ section.settings.unit_gap_mob }}px; }
     #{{ sid }} .sscount__unit     { gap: {{ section.settings.label_gap_mob }}px; }
     #{{ sid }} .sscount__box {
       min-width: {{ section.settings.box_min_width_mob }}px;
       padding: {{ section.settings.box_pad_v_mob }}px {{ section.settings.box_pad_h_mob }}px;
       border-radius: {{ section.settings.box_radius_mob }}px;
     }
-    #{{ sid }} .sscount__num    { font-size: {{ section.settings.num_size_mob }}px; }
-    #{{ sid }} .sscount__colon  {
+    #{{ sid }} .sscount__num   { font-size: {{ section.settings.num_size_mob }}px; }
+    #{{ sid }} .sscount__colon {
       font-size: {{ section.settings.num_size_mob }}px;
       padding-top: {{ section.settings.box_pad_v_mob }}px;
       {%- if section.settings.show_labels -%}
       margin-bottom: calc({{ section.settings.label_size_mob }}px + {{ section.settings.label_gap_mob }}px + 2px);
       {%- endif -%}
     }
-    #{{ sid }} .sscount__label  { font-size: {{ section.settings.label_size_mob }}px; }
+    #{{ sid }} .sscount__label { font-size: {{ section.settings.label_size_mob }}px; }
     #{{ sid }} .sscount__btn {
       font-size: {{ section.settings.btn_size_mob }}px;
       padding: {{ section.settings.btn_pad_v_mob }}px {{ section.settings.btn_pad_h_mob }}px;
@@ -146,7 +251,7 @@
   }
   {%- endif -%}
 
-  /* ── Expired state ───────────────────────────────────── */
+  /* ── Expired ─────────────────────────────────────────── */
   #{{ sid }}-expired {
     background-color: {{ section.settings.bg_color }};
     padding: {{ section.settings.padding_top }}px {{ section.settings.padding_lr }}px {{ section.settings.padding_bottom }}px;
@@ -162,17 +267,39 @@
 <div id="{{ sid }}" role="region" aria-label="Sale countdown timer">
   <div class="sscount__inner">
 
-    {%- if section.settings.headline != blank -%}
-      <p class="sscount__headline">
-        {%- if section.settings.headline_highlight != blank -%}
-          {{- section.settings.headline | split: section.settings.headline_highlight | first -}}<mark class="sscount__hl">{{- section.settings.headline_highlight -}}</mark>{{- section.settings.headline | split: section.settings.headline_highlight | last -}}
-        {%- else -%}
-          {{- section.settings.headline -}}
-        {%- endif -%}
-      </p>
-    {%- endif -%}
+    <div class="sscount__content">
+      {%- if section.settings.headline != blank -%}
+        <p class="sscount__headline">
+          {%- if section.settings.headline_highlight != blank -%}
+            {{- section.settings.headline | split: section.settings.headline_highlight | first -}}<mark class="sscount__hl">{{- section.settings.headline_highlight -}}</mark>{{- section.settings.headline | split: section.settings.headline_highlight | last -}}
+          {%- else -%}
+            {{- section.settings.headline -}}
+          {%- endif -%}
+        </p>
+      {%- endif -%}
+      {%- if section.settings.sub_message != blank -%}
+        <p class="sscount__sub">{{ section.settings.sub_message }}</p>
+      {%- endif -%}
+      {%- if section.settings.btn_label != blank -%}
+        <a href="{{ section.settings.btn_link | default: '#' }}" class="sscount__btn">
+          {{- section.settings.btn_label -}}
+        </a>
+      {%- endif -%}
+    </div>
 
-    <div class="sscount__timer" aria-live="polite">
+    <div class="sscount__clock" aria-live="polite">
+
+      {%- if section.settings.show_days -%}
+      <div class="sscount__unit">
+        <div class="sscount__box">
+          <span class="sscount__num" id="{{ sid }}-days">00</span>
+        </div>
+        {%- if section.settings.show_labels -%}
+          <span class="sscount__label">{{ section.settings.label_days | default: 'DAYS' }}</span>
+        {%- endif -%}
+      </div>
+      <span class="sscount__colon" aria-hidden="true">:</span>
+      {%- endif -%}
 
       {%- unless section.settings.hide_hours -%}
       <div class="sscount__unit">
@@ -209,16 +336,6 @@
 
     </div>
 
-    {%- if section.settings.sub_message != blank -%}
-      <p class="sscount__sub">{{ section.settings.sub_message }}</p>
-    {%- endif -%}
-
-    {%- if section.settings.btn_label != blank -%}
-      <a href="{{ section.settings.btn_link | default: '#' }}" class="sscount__btn">
-        {{- section.settings.btn_label -}}
-      </a>
-    {%- endif -%}
-
   </div>
 </div>
 
@@ -233,15 +350,22 @@
   var mode     = {{ section.settings.reset_behavior | json }};
   var hideHrs  = {{ section.settings.hide_hours  | json }};
   var hideSecs = {{ section.settings.hide_seconds | json }};
+  var showDays = {{ section.settings.show_days   | json }};
 
   var wrap    = document.getElementById(sid);
   var expWrap = document.getElementById(sid + '-expired');
+  var dEl     = document.getElementById(sid + '-days');
   var hEl     = document.getElementById(sid + '-hours');
   var mEl     = document.getElementById(sid + '-minutes');
   var sEl     = document.getElementById(sid + '-seconds');
   if (!wrap) return;
 
   function getEnd() {
+    if (mode === 'midnight') {
+      var d = new Date();
+      d.setHours(24, 0, 0, 0);
+      return d.getTime();
+    }
     if (mode === 'loop24h') {
       var stored;
       try { stored = localStorage.getItem('sscount_end_' + sid); } catch(e){}
@@ -276,6 +400,9 @@
         endTime = Date.now() + 86400000;
         try { localStorage.setItem('sscount_end_' + sid, String(endTime)); } catch(e){}
         diff = endTime - Date.now();
+      } else if (mode === 'midnight'){
+        endTime = getEnd();
+        diff = endTime - Date.now();
       } else if (mode === 'hide'){
         wrap.style.display = 'none'; return;
       } else {
@@ -284,10 +411,17 @@
       }
     }
     var total = Math.floor(diff / 1000);
-    var h = Math.floor(total / 3600);
-    var m = Math.floor((total % 3600) / 60);
-    var s = total % 60;
-    if (!hideHrs){ flip(hEl, pad(h)); } else { m = Math.floor(total / 60); }
+    var days  = Math.floor(total / 86400);
+    var h     = Math.floor((total % 86400) / 3600);
+    var m     = Math.floor((total % 3600) / 60);
+    var s     = total % 60;
+
+    if (showDays) flip(dEl, pad(days));
+    if (!hideHrs) {
+      flip(hEl, pad(h));
+    } else if (!showDays) {
+      m = Math.floor(total / 60);
+    }
     flip(mEl, pad(m));
     if (!hideSecs) flip(sEl, pad(s));
   }
@@ -307,12 +441,14 @@
     { "type": "text", "id": "headline", "label": "Headline", "default": "⚡ Sale Ends In:" },
     { "type": "text", "id": "headline_highlight", "label": "Highlight text", "info": "Exact word(s) from headline to colour differently. Leave blank to skip." },
     { "type": "text", "id": "sub_message", "label": "Sub-message", "default": "Free shipping on all orders — today only" },
-    { "type": "text", "id": "end_date", "label": "Sale end date & time", "info": "Format: YYYY-MM-DDTHH:MM:SS e.g. 2026-12-31T23:59:00 — ignored when mode is Loop 24h", "default": "2026-12-31T23:59:00" },
-    { "type": "select", "id": "reset_behavior", "label": "When timer hits zero",
+    { "type": "text", "id": "end_date", "label": "Sale end date & time", "info": "Format: YYYY-MM-DDTHH:MM:SS e.g. 2026-06-30T23:59:00 — ignored when mode is Loop or Midnight", "default": "2026-12-31T23:59:00" },
+    {
+      "type": "select", "id": "reset_behavior", "label": "When timer hits zero",
       "options": [
-        { "value": "loop24h", "label": "Loop — reset to 24 hours" },
-        { "value": "message", "label": "Show expired message" },
-        { "value": "hide",    "label": "Hide section" }
+        { "value": "loop24h",  "label": "Loop — reset to 24 hours from first visit" },
+        { "value": "midnight", "label": "Reset at midnight (customer's local time)" },
+        { "value": "message",  "label": "Show expired message" },
+        { "value": "hide",     "label": "Hide section" }
       ],
       "default": "loop24h"
     },
@@ -323,9 +459,11 @@
     { "type": "url",  "id": "btn_link",  "label": "Button link" },
 
     { "type": "header", "content": "── Timer Units ──────────────" },
-    { "type": "checkbox", "id": "show_labels",  "label": "Show labels below numbers (HRS / MINS / SECS)", "default": true },
-    { "type": "checkbox", "id": "hide_hours",   "label": "Hide hours unit",   "default": false },
-    { "type": "checkbox", "id": "hide_seconds", "label": "Hide seconds unit", "default": false },
+    { "type": "checkbox", "id": "show_labels",  "label": "Show labels below numbers", "default": true },
+    { "type": "checkbox", "id": "show_days",    "label": "Show DAYS unit", "default": false },
+    { "type": "checkbox", "id": "hide_hours",   "label": "Hide HOURS unit", "default": false },
+    { "type": "checkbox", "id": "hide_seconds", "label": "Hide SECONDS unit", "default": false },
+    { "type": "text", "id": "label_days",  "label": "Days label text",    "default": "DAYS" },
     { "type": "text", "id": "label_hours", "label": "Hours label text",   "default": "HRS" },
     { "type": "text", "id": "label_mins",  "label": "Minutes label text", "default": "MINS" },
     { "type": "text", "id": "label_secs",  "label": "Seconds label text", "default": "SECS" },
@@ -339,18 +477,52 @@
     { "type": "color", "id": "box_border_color", "label": "Number box border color",       "default": "#E8920A" },
     { "type": "color", "id": "num_color",        "label": "Number color",                  "default": "#E8920A" },
     { "type": "color", "id": "colon_color",      "label": "Colon color",                   "default": "#E8920A" },
-    { "type": "color", "id": "label_color",      "label": "Label color (HRS / MINS / SECS)", "default": "#aaaaaa" },
+    { "type": "color", "id": "label_color",      "label": "Label color (DAYS/HRS/MINS/SECS)", "default": "#aaaaaa" },
     { "type": "color", "id": "btn_bg",           "label": "Button background",             "default": "#E8920A" },
     { "type": "color", "id": "btn_text_color",   "label": "Button text color",             "default": "#ffffff" },
 
     { "type": "header", "content": "━━ DESKTOP ━━━━━━━━━━━━━━━━━━" },
 
+    { "type": "header", "content": "Layout & Alignment — Desktop" },
+    {
+      "type": "select", "id": "layout_desktop", "label": "Timer position",
+      "options": [
+        { "value": "inline",      "label": "Inline — all in one row" },
+        { "value": "timer-right", "label": "Text left · Timer right" },
+        { "value": "timer-left",  "label": "Timer left · Text right" },
+        { "value": "timer-below", "label": "Text above · Timer below" },
+        { "value": "timer-above", "label": "Timer above · Text below" }
+      ],
+      "default": "inline"
+    },
+    {
+      "type": "select", "id": "text_align_desktop", "label": "Text & button alignment",
+      "info": "Applies to text group in all layouts except Inline",
+      "options": [
+        { "value": "left",   "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right",  "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select", "id": "layout_align", "label": "Inline row alignment",
+      "info": "Only applies when layout is set to Inline",
+      "options": [
+        { "value": "center",        "label": "Center" },
+        { "value": "flex-start",    "label": "Left" },
+        { "value": "flex-end",      "label": "Right" },
+        { "value": "space-between", "label": "Space between" }
+      ],
+      "default": "center"
+    },
+
     { "type": "header", "content": "Font Sizes — Desktop" },
     { "type": "range", "id": "headline_size", "label": "Headline",    "min": 12, "max": 52, "step": 1, "unit": "px", "default": 18 },
     { "type": "range", "id": "sub_size",      "label": "Sub-message", "min": 10, "max": 32, "step": 1, "unit": "px", "default": 14 },
     { "type": "range", "id": "num_size",      "label": "Numbers",     "min": 20, "max": 90, "step": 2, "unit": "px", "default": 42 },
-    { "type": "range", "id": "label_size",    "label": "Labels (HRS/MINS/SECS)", "min": 8, "max": 22, "step": 1, "unit": "px", "default": 11 },
-    { "type": "range", "id": "btn_size",      "label": "Button",      "min": 10, "max": 26, "step": 1, "unit": "px", "default": 15 },
+    { "type": "range", "id": "label_size",    "label": "Labels (DAYS/HRS/MINS/SECS)", "min": 8, "max": 22, "step": 1, "unit": "px", "default": 11 },
+    { "type": "range", "id": "btn_size",      "label": "Button text", "min": 10, "max": 26, "step": 1, "unit": "px", "default": 15 },
 
     { "type": "header", "content": "Number Box — Desktop" },
     { "type": "range", "id": "box_min_width",    "label": "Min-width",          "min": 30, "max": 120, "step": 2, "unit": "px", "default": 58 },
@@ -365,19 +537,46 @@
     { "type": "range", "id": "btn_pad_h",  "label": "Padding left/right", "min": 10, "max": 70, "step": 2, "unit": "px", "default": 24 },
     { "type": "range", "id": "btn_radius", "label": "Border radius",      "min": 0,  "max": 50, "step": 1, "unit": "px", "default": 50 },
 
-    { "type": "header", "content": "Spacing & Layout — Desktop" },
-    { "type": "range", "id": "padding_top",    "label": "Padding top",              "min": 0,   "max": 100, "step": 2,  "unit": "px", "default": 20 },
-    { "type": "range", "id": "padding_bottom", "label": "Padding bottom",           "min": 0,   "max": 100, "step": 2,  "unit": "px", "default": 20 },
-    { "type": "range", "id": "padding_lr",     "label": "Padding left/right",       "min": 0,   "max": 100, "step": 2,  "unit": "px", "default": 24 },
-    { "type": "range", "id": "margin_top",     "label": "Margin top",               "min": 0,   "max": 80,  "step": 4,  "unit": "px", "default": 0 },
-    { "type": "range", "id": "margin_bottom",  "label": "Margin bottom",            "min": 0,   "max": 80,  "step": 4,  "unit": "px", "default": 0 },
-    { "type": "range", "id": "max_width",      "label": "Inner max-width",          "min": 400, "max": 1600,"step": 20, "unit": "px", "default": 1200 },
-    { "type": "range", "id": "unit_gap",       "label": "Gap between H:M:S units",  "min": 2,   "max": 40,  "step": 1,  "unit": "px", "default": 8 },
-    { "type": "range", "id": "label_gap",      "label": "Gap: box → label",         "min": 0,   "max": 20,  "step": 1,  "unit": "px", "default": 5 },
-    { "type": "range", "id": "inner_gap",      "label": "Gap between elements (row)","min": 0,  "max": 40,  "step": 2,  "unit": "px", "default": 12 },
-    { "type": "range", "id": "inner_gap_h",    "label": "Gap between elements (col)","min": 0,  "max": 80,  "step": 2,  "unit": "px", "default": 24 },
-    { "type": "range", "id": "sub_opacity",    "label": "Sub-message opacity",      "min": 20,  "max": 100, "step": 5,  "unit": "%",  "default": 80 },
-    { "type": "select", "id": "layout_align", "label": "Alignment",
+    { "type": "header", "content": "Spacing — Desktop" },
+    { "type": "range", "id": "padding_top",    "label": "Padding top",             "min": 0,   "max": 100, "step": 2,  "unit": "px", "default": 20 },
+    { "type": "range", "id": "padding_bottom", "label": "Padding bottom",          "min": 0,   "max": 100, "step": 2,  "unit": "px", "default": 20 },
+    { "type": "range", "id": "padding_lr",     "label": "Padding left/right",      "min": 0,   "max": 100, "step": 2,  "unit": "px", "default": 24 },
+    { "type": "range", "id": "margin_top",     "label": "Margin top",              "min": 0,   "max": 80,  "step": 4,  "unit": "px", "default": 0 },
+    { "type": "range", "id": "margin_bottom",  "label": "Margin bottom",           "min": 0,   "max": 80,  "step": 4,  "unit": "px", "default": 0 },
+    { "type": "range", "id": "max_width",      "label": "Inner max-width",         "min": 400, "max": 1600,"step": 20, "unit": "px", "default": 1200 },
+    { "type": "range", "id": "unit_gap",       "label": "Gap between clock units", "min": 2,   "max": 40,  "step": 1,  "unit": "px", "default": 8 },
+    { "type": "range", "id": "label_gap",      "label": "Gap: box → label",        "min": 0,   "max": 20,  "step": 1,  "unit": "px", "default": 5 },
+    { "type": "range", "id": "inner_gap",      "label": "Gap between elements (vertical / stacked)", "min": 0, "max": 40, "step": 2, "unit": "px", "default": 12 },
+    { "type": "range", "id": "inner_gap_h",    "label": "Gap between elements (horizontal / side-by-side)", "min": 0, "max": 80, "step": 2, "unit": "px", "default": 24 },
+    { "type": "range", "id": "sub_opacity",    "label": "Sub-message opacity",     "min": 20,  "max": 100, "step": 5,  "unit": "%",  "default": 80 },
+
+    { "type": "header", "content": "━━ MOBILE ━━━━━━━━━━━━━━━━━━━" },
+
+    { "type": "header", "content": "Layout & Alignment — Mobile" },
+    {
+      "type": "select", "id": "layout_mob", "label": "Timer position",
+      "options": [
+        { "value": "inline",      "label": "Inline — all in one row" },
+        { "value": "timer-right", "label": "Text left · Timer right" },
+        { "value": "timer-left",  "label": "Timer left · Text right" },
+        { "value": "timer-below", "label": "Text above · Timer below" },
+        { "value": "timer-above", "label": "Timer above · Text below" }
+      ],
+      "default": "timer-right"
+    },
+    {
+      "type": "select", "id": "text_align_mob", "label": "Text & button alignment",
+      "info": "Applies to text group in all layouts except Inline",
+      "options": [
+        { "value": "left",   "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right",  "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select", "id": "layout_align_mob", "label": "Inline row alignment",
+      "info": "Only applies when mobile layout is set to Inline",
       "options": [
         { "value": "center",        "label": "Center" },
         { "value": "flex-start",    "label": "Left" },
@@ -386,47 +585,36 @@
       ],
       "default": "center"
     },
-
-    { "type": "header", "content": "━━ MOBILE ━━━━━━━━━━━━━━━━━━━" },
 
     { "type": "header", "content": "Font Sizes — Mobile" },
     { "type": "range", "id": "headline_size_mob", "label": "Headline",    "min": 10, "max": 40, "step": 1, "unit": "px", "default": 14 },
     { "type": "range", "id": "sub_size_mob",      "label": "Sub-message", "min": 9,  "max": 26, "step": 1, "unit": "px", "default": 12 },
-    { "type": "range", "id": "num_size_mob",      "label": "Numbers",     "min": 16, "max": 64, "step": 2, "unit": "px", "default": 30 },
-    { "type": "range", "id": "label_size_mob",    "label": "Labels (HRS/MINS/SECS)", "min": 7, "max": 16, "step": 1, "unit": "px", "default": 9 },
-    { "type": "range", "id": "btn_size_mob",      "label": "Button",      "min": 9,  "max": 20, "step": 1, "unit": "px", "default": 13 },
+    { "type": "range", "id": "num_size_mob",      "label": "Numbers",     "min": 16, "max": 64, "step": 2, "unit": "px", "default": 28 },
+    { "type": "range", "id": "label_size_mob",    "label": "Labels (DAYS/HRS/MINS/SECS)", "min": 7, "max": 16, "step": 1, "unit": "px", "default": 9 },
+    { "type": "range", "id": "btn_size_mob",      "label": "Button text", "min": 9,  "max": 20, "step": 1, "unit": "px", "default": 13 },
 
     { "type": "header", "content": "Number Box — Mobile" },
-    { "type": "range", "id": "box_min_width_mob", "label": "Min-width",          "min": 24, "max": 80, "step": 2, "unit": "px", "default": 44 },
+    { "type": "range", "id": "box_min_width_mob", "label": "Min-width",          "min": 24, "max": 80, "step": 2, "unit": "px", "default": 40 },
     { "type": "range", "id": "box_pad_v_mob",     "label": "Padding top/bottom", "min": 0,  "max": 20, "step": 1, "unit": "px", "default": 6 },
-    { "type": "range", "id": "box_pad_h_mob",     "label": "Padding left/right", "min": 0,  "max": 28, "step": 1, "unit": "px", "default": 8 },
+    { "type": "range", "id": "box_pad_h_mob",     "label": "Padding left/right", "min": 0,  "max": 28, "step": 1, "unit": "px", "default": 6 },
     { "type": "range", "id": "box_radius_mob",    "label": "Border radius",      "min": 0,  "max": 24, "step": 1, "unit": "px", "default": 6 },
 
     { "type": "header", "content": "Button — Mobile" },
     { "type": "range", "id": "btn_pad_v_mob",  "label": "Padding top/bottom", "min": 4,  "max": 20, "step": 1, "unit": "px", "default": 8 },
-    { "type": "range", "id": "btn_pad_h_mob",  "label": "Padding left/right", "min": 8,  "max": 50, "step": 2, "unit": "px", "default": 18 },
+    { "type": "range", "id": "btn_pad_h_mob",  "label": "Padding left/right", "min": 8,  "max": 50, "step": 2, "unit": "px", "default": 16 },
     { "type": "range", "id": "btn_radius_mob", "label": "Border radius",      "min": 0,  "max": 50, "step": 1, "unit": "px", "default": 50 },
 
-    { "type": "header", "content": "Spacing & Layout — Mobile" },
-    { "type": "range", "id": "padding_top_mob",    "label": "Padding top",              "min": 0,  "max": 80, "step": 2,  "unit": "px", "default": 14 },
-    { "type": "range", "id": "padding_bottom_mob", "label": "Padding bottom",           "min": 0,  "max": 80, "step": 2,  "unit": "px", "default": 14 },
-    { "type": "range", "id": "padding_lr_mob",     "label": "Padding left/right",       "min": 0,  "max": 80, "step": 2,  "unit": "px", "default": 16 },
-    { "type": "range", "id": "margin_top_mob",     "label": "Margin top",               "min": 0,  "max": 80, "step": 4,  "unit": "px", "default": 0 },
-    { "type": "range", "id": "margin_bottom_mob",  "label": "Margin bottom",            "min": 0,  "max": 80, "step": 4,  "unit": "px", "default": 0 },
-    { "type": "range", "id": "unit_gap_mob",       "label": "Gap between H:M:S units",  "min": 2,  "max": 28, "step": 1,  "unit": "px", "default": 6 },
-    { "type": "range", "id": "label_gap_mob",      "label": "Gap: box → label",         "min": 0,  "max": 16, "step": 1,  "unit": "px", "default": 4 },
-    { "type": "range", "id": "inner_gap_mob",      "label": "Gap between elements (row)","min": 0, "max": 32, "step": 2,  "unit": "px", "default": 8 },
-    { "type": "range", "id": "inner_gap_h_mob",    "label": "Gap between elements (col)","min": 0, "max": 60, "step": 2,  "unit": "px", "default": 12 },
-    { "type": "select", "id": "layout_align_mob", "label": "Alignment",
-      "options": [
-        { "value": "center",        "label": "Center" },
-        { "value": "flex-start",    "label": "Left" },
-        { "value": "flex-end",      "label": "Right" },
-        { "value": "space-between", "label": "Space between" }
-      ],
-      "default": "center"
-    },
-    { "type": "checkbox", "id": "hide_on_mobile", "label": "Hide section on mobile entirely", "default": false }
+    { "type": "header", "content": "Spacing — Mobile" },
+    { "type": "range", "id": "padding_top_mob",    "label": "Padding top",             "min": 0,  "max": 80, "step": 2,  "unit": "px", "default": 14 },
+    { "type": "range", "id": "padding_bottom_mob", "label": "Padding bottom",          "min": 0,  "max": 80, "step": 2,  "unit": "px", "default": 14 },
+    { "type": "range", "id": "padding_lr_mob",     "label": "Padding left/right",      "min": 0,  "max": 80, "step": 2,  "unit": "px", "default": 16 },
+    { "type": "range", "id": "margin_top_mob",     "label": "Margin top",              "min": 0,  "max": 80, "step": 4,  "unit": "px", "default": 0 },
+    { "type": "range", "id": "margin_bottom_mob",  "label": "Margin bottom",           "min": 0,  "max": 80, "step": 4,  "unit": "px", "default": 0 },
+    { "type": "range", "id": "unit_gap_mob",       "label": "Gap between clock units", "min": 2,  "max": 28, "step": 1,  "unit": "px", "default": 5 },
+    { "type": "range", "id": "label_gap_mob",      "label": "Gap: box → label",        "min": 0,  "max": 16, "step": 1,  "unit": "px", "default": 4 },
+    { "type": "range", "id": "inner_gap_mob",      "label": "Gap between elements (vertical / stacked)", "min": 0, "max": 32, "step": 2, "unit": "px", "default": 8 },
+    { "type": "range", "id": "inner_gap_h_mob",    "label": "Gap between elements (horizontal / side-by-side)", "min": 0, "max": 60, "step": 2, "unit": "px", "default": 10 },
+    { "type": "checkbox", "id": "hide_on_mobile",  "label": "Hide section on mobile entirely", "default": false }
   ],
   "presets": [
     {
@@ -434,7 +622,7 @@
       "settings": {
         "headline": "⚡ Sale Ends In:",
         "sub_message": "Free shipping on all orders — today only",
-        "reset_behavior": "loop24h",
+        "reset_behavior": "midnight",
         "bg_color": "#1a1a1a",
         "headline_color": "#ffffff",
         "highlight_color": "#E8920A",
@@ -447,7 +635,9 @@
         "btn_bg": "#E8920A",
         "btn_text_color": "#ffffff",
         "btn_label": "Shop Now →",
-        "show_labels": true
+        "show_labels": true,
+        "layout_desktop": "inline",
+        "layout_mob": "timer-right"
       }
     }
   ]
