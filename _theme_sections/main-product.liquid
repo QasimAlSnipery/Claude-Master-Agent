@@ -48,72 +48,98 @@
 })();
 </script>
 
-{%- comment -%}
-  Enforce selling plan on subscription-only products.
-  Shopify native subscriptions app JS can override/clear the selling_plan input
-  when its hidden "one-time" radio is default-selected. We fight back by:
-  1. Rendering the plan ID server-side via Liquid
-  2. Re-injecting it in JS capture phase (beats all app handlers)
-  3. Watching via MutationObserver so any clear is immediately reversed
-{%- endcomment -%}
-{%- assign rmr_sp_id = 0 -%}
-{%- for _group in product.selling_plan_groups -%}
-  {%- for _plan in _group.selling_plans -%}
-    {%- assign rmr_sp_id = _plan.id -%}
-    {%- break -%}
-  {%- endfor -%}
-  {%- if rmr_sp_id > 0 -%}{%- break -%}{%- endif -%}
-{%- endfor -%}
-{%- if rmr_sp_id > 0 -%}
 <script>
+/* ── Subscription selling plan enforcer ──────────────────────────────────────
+   Problem: Shopify native subscriptions app renders radios with name="selling_plan"
+   inside the form. The one-time radio is checked by default → FormData submits
+   selling_plan="" → Shopify blocks "variant can only be purchased with a selling plan".
+   Fix: fetch the plan ID from product JSON (reliable regardless of Liquid), strip the
+   one-time radio's name so it can't interfere, then append a hidden input as the last
+   field in the form so it wins in FormData.
+   Skips in designMode so theme editor still sees the widget normally.
+────────────────────────────────────────────────────────────────────────────── */
 (function(){
   if (window.Shopify && window.Shopify.designMode) return;
-  var spId = {{ rmr_sp_id }};
 
-  function enforce(form) {
-    if (!form) return;
-    var inp = form.querySelector('input[name="selling_plan"]');
-    if (!inp) {
-      inp = document.createElement('input');
-      inp.type = 'hidden';
-      inp.name = 'selling_plan';
-      form.appendChild(inp);
-    }
-    if (String(inp.value) !== String(spId)) inp.value = spId;
-  }
+  var spIdFromLiquid = {{ product.selling_plan_groups.first.selling_plans.first.id | default: 0 }};
+  var productHandle  = {{ product.handle | json }};
 
-  function init() {
-    /* target the product add-to-cart form */
+  function applyPlan(spId) {
+    if (!spId) return;
+    spId = String(spId);
+
+    /* 1 — neuter the one-time purchase radio so it never submits */
+    document.querySelectorAll('input[type="radio"]').forEach(function(r) {
+      var name = r.getAttribute('name') || '';
+      var val  = r.value || '';
+      /* one-time = empty / non-numeric value on a selling-plan-named radio */
+      if (name.toLowerCase().indexOf('selling') !== -1 || name.toLowerCase().indexOf('plan') !== -1) {
+        if (!val || !/^\d+$/.test(val.trim())) {
+          r.removeAttribute('name'); /* excluded from FormData */
+          r.checked = false;
+        }
+      }
+    });
+
+    /* 2 — check the subscription radio (so app JS sees the right state) */
+    document.querySelectorAll('input[type="radio"]').forEach(function(r) {
+      var val = r.value || '';
+      if (val && /^\d+$/.test(val.trim()) && val.trim() === spId) {
+        r.checked = true;
+        r.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    });
+
+    /* 3 — remove any existing hidden selling_plan inputs then append fresh one last */
     var form = document.querySelector('form[data-type="add-to-cart-form"]');
     if (!form) return;
+    form.querySelectorAll('input[type="hidden"][name="selling_plan"]').forEach(function(i){ i.remove(); });
+    var h = document.createElement('input');
+    h.type = 'hidden'; h.name = 'selling_plan'; h.value = spId;
+    form.appendChild(h); /* last field — wins in FormData */
+  }
 
-    enforce(form);
-
-    /* capture phase — runs before subscription app handlers */
-    form.addEventListener('submit', function(){ enforce(this); }, true);
-
-    /* watch for the app clearing the value */
-    try {
-      new MutationObserver(function(){
-        var inp = form.querySelector('input[name="selling_plan"]');
-        if (!inp || String(inp.value) !== String(spId)) enforce(form);
-      }).observe(form, { subtree: true, childList: true, attributes: true, attributeFilter: ['value'] });
-    } catch(e){}
-
-    /* intercept ATC button click before the form fires */
+  function run(spId) {
+    applyPlan(spId);
+    /* intercept ATC button click in capture phase */
     document.addEventListener('click', function(e){
-      if (e.target.closest('button[name="add"], .product-form__submit')) enforce(form);
+      if (e.target.closest('button[name="add"], .product-form__submit, .atc-button')) {
+        applyPlan(spId);
+      }
     }, true);
+    /* intercept form submit in capture phase */
+    var form = document.querySelector('form[data-type="add-to-cart-form"]');
+    if (form) form.addEventListener('submit', function(){ applyPlan(spId); }, true);
+  }
+
+  function boot() {
+    if (spIdFromLiquid && spIdFromLiquid > 0) {
+      /* fast path — Liquid found the plan */
+      run(spIdFromLiquid);
+      [300, 800, 1500].forEach(function(t){ setTimeout(function(){ applyPlan(spIdFromLiquid); }, t); });
+    } else {
+      /* slow path — fetch product JSON to find selling plan */
+      fetch('/products/' + productHandle + '.js')
+        .then(function(r){ return r.json(); })
+        .then(function(p){
+          var spId = null;
+          if (p.selling_plan_groups && p.selling_plan_groups.length > 0) {
+            var plans = p.selling_plan_groups[0].selling_plans;
+            if (plans && plans.length > 0) spId = plans[0].id;
+          }
+          if (spId) {
+            run(spId);
+            [300, 800, 1500].forEach(function(t){ setTimeout(function(){ applyPlan(spId); }, t); });
+          }
+        }).catch(function(){});
+    }
   }
 
   document.readyState === 'loading'
-    ? document.addEventListener('DOMContentLoaded', init)
-    : init();
-
-  [200, 600, 1200, 2500].forEach(function(t){ setTimeout(init, t); });
+    ? document.addEventListener('DOMContentLoaded', boot)
+    : boot();
 })();
 </script>
-{%- endif -%}
 
 <section
   id="MainProduct-{{ section.id }}"
