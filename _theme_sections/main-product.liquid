@@ -49,122 +49,77 @@
 </script>
 
 <script>
-/* ── Bundle picker: own ATC handler ─────────────────────────────────────────
-   Takes complete ownership of the ATC button when a bundle card is selected.
-   Bypasses the theme's product-form web component entirely so we control
-   exactly what gets sent: correct quantity + selling plan. No passive
-   interception — we stopImmediatePropagation and make our own /cart/add.js
-   request. Skips in designMode so editor works normally.
+/* ── Subscription selling plan enforcer ─────────────────────────────────────
+   The Shopify native subscriptions app has a selling plan on this product
+   (ID: 1864597579 — "Deliver every month, 25% off") but the one-time radio
+   is default-selected, so the form submits selling_plan="" and Shopify blocks it.
+   Fix: intercept the fetch() call Dawn makes to /cart/add.js and forcibly
+   set selling_plan before the request leaves the browser. This is the only
+   layer that cannot be overridden by the subscription app's own JavaScript.
+   Skips when theme editor is open (designMode) so the widget stays functional.
 ──────────────────────────────────────────────────────────────────────────── */
 (function(){
   if (window.Shopify && window.Shopify.designMode) return;
 
-  var PLAN_ID = '1864597579'; /* gid://shopify/SellingPlan/1864597579 */
+  /* Selling plan confirmed via Admin GraphQL:
+     gid://shopify/SellingPlan/1864597579
+     Name: "Deliver every month, 25% off" */
+  var PLAN_ID = '1864597579';
 
-  function getVariantId() {
-    var inp = document.querySelector('form[data-type="add-to-cart-form"] input[name="id"]')
-           || document.querySelector('.product-variant-id')
-           || document.querySelector('input[name="id"]');
-    return inp ? inp.value : null;
+  /* --- Layer 1: intercept fetch (Dawn submits via fetch, not form POST) --- */
+  var _fetch = window.fetch;
+  window.fetch = function(input, init) {
+    var url = (typeof input === 'string') ? input : (input && input.url) || '';
+    if (url.indexOf('/cart/add') !== -1 && init && init.body instanceof FormData) {
+      init.body.set('selling_plan', PLAN_ID);
+    }
+    return _fetch.apply(this, arguments);
+  };
+
+  /* --- Layer 2: DOM — strip one-time radio, check subscription radio,
+         append hidden input last in form (belt & suspenders) --- */
+  function applyDOM() {
+    /* neuter one-time radio */
+    document.querySelectorAll('input[type="radio"]').forEach(function(r) {
+      var name = (r.getAttribute('name') || '').toLowerCase();
+      var val  = r.value || '';
+      if ((name.indexOf('selling') !== -1 || name.indexOf('plan') !== -1) &&
+          (!val || !/^\d+$/.test(val.trim()))) {
+        r.removeAttribute('name');
+        r.checked = false;
+      }
+    });
+    /* check subscription radio */
+    document.querySelectorAll('input[type="radio"]').forEach(function(r) {
+      if ((r.value || '').trim() === PLAN_ID) {
+        r.checked = true;
+        r.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    });
+    /* append hidden input as last field */
+    var form = document.querySelector('form[data-type="add-to-cart-form"]');
+    if (!form) return;
+    form.querySelectorAll('input[type="hidden"][name="selling_plan"]').forEach(function(i){ i.remove(); });
+    var h = document.createElement('input');
+    h.type = 'hidden'; h.name = 'selling_plan'; h.value = PLAN_ID;
+    form.appendChild(h);
   }
 
-  function updateCartUI(itemCount) {
-    /* update the cart bubble number */
-    document.querySelectorAll('.cart-count-bubble, [data-cart-count], .cart__count').forEach(function(el) {
-      el.textContent = itemCount;
-    });
-    document.querySelectorAll('[data-cart-item-count]').forEach(function(el) {
-      el.setAttribute('data-cart-item-count', itemCount);
-    });
+  /* run on load and on ATC click */
+  function init() {
+    applyDOM();
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('button[name="add"], .product-form__submit, .atc-button')) applyDOM();
+    }, true);
+    var form = document.querySelector('form[data-type="add-to-cart-form"]');
+    if (form) form.addEventListener('submit', applyDOM, true);
   }
 
-  function handleBundleATC(e) {
-    /* Only intercept when a bundle card is selected */
-    var sel = document.querySelector('.rmr-bp__option.is-selected[data-cart-qty]');
-    if (!sel) return; /* no bundle picker — let theme handle normally */
+  document.readyState === 'loading'
+    ? document.addEventListener('DOMContentLoaded', init)
+    : init();
 
-    var btn = e.target.closest('button[name="add"], .product-form__submit, .atc-button, [type="submit"]');
-    if (!btn) return;
-
-    /* Take complete ownership */
-    e.preventDefault();
-    e.stopImmediatePropagation();
-
-    var qty       = parseInt(sel.dataset.cartQty, 10) || 1;
-    var variantId = getVariantId();
-    if (!variantId) { console.error('Bundle ATC: no variant ID found'); return; }
-
-    /* Disable button while adding */
-    btn.setAttribute('aria-disabled', 'true');
-    var origText = btn.querySelector('.btn-text, [class*="label"]');
-
-    var fd = new FormData();
-    fd.append('id',           variantId);
-    fd.append('quantity',     qty);
-    fd.append('selling_plan', PLAN_ID);
-    /* Request Dawn section renders so cart bubble & drawer update */
-    fd.append('sections',     'cart-icon-bubble,cart-notification-product,cart-notification-button');
-    fd.append('sections_url', window.location.pathname);
-
-    fetch('/cart/add.js', {
-      method:  'POST',
-      headers: { 'X-Requested-With': 'XMLHttpRequest' },
-      body:    fd
-    })
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      if (data.status === 422 || data.errors) {
-        var msg = data.description || data.errors || 'Could not add to cart';
-        alert(msg);
-        btn.removeAttribute('aria-disabled');
-        return;
-      }
-
-      /* Update cart icon count from response sections */
-      if (data.sections) {
-        Object.keys(data.sections).forEach(function(key) {
-          var tmp = document.createElement('div');
-          tmp.innerHTML = data.sections[key];
-          /* bubble */
-          var newBubble = tmp.querySelector('.cart-count-bubble');
-          var oldBubble = document.querySelector('#cart-icon-bubble .cart-count-bubble');
-          if (newBubble && oldBubble) oldBubble.replaceWith(newBubble.cloneNode(true));
-          /* notification */
-          var newNotif = document.getElementById(key);
-          if (newNotif) newNotif.innerHTML = tmp.innerHTML;
-        });
-      }
-
-      /* Fetch cart for reliable count update */
-      fetch('/cart.js')
-        .then(function(r){ return r.json(); })
-        .then(function(cart){ updateCartUI(cart.item_count); })
-        .catch(function(){});
-
-      /* Try to open cart notification / drawer (Dawn pattern) */
-      var notification = document.querySelector('cart-notification');
-      if (notification && typeof notification.open === 'function') {
-        try { notification.open(data); } catch(ex){}
-      }
-      var drawer = document.querySelector('cart-drawer');
-      if (drawer && typeof drawer.open === 'function') {
-        try { drawer.open(); } catch(ex){}
-      }
-
-      /* Dispatch the events Dawn components listen for */
-      document.dispatchEvent(new CustomEvent('cart:refresh', { bubbles: true }));
-      document.body.dispatchEvent(new CustomEvent('cart:update',  { bubbles: true }));
-
-      btn.removeAttribute('aria-disabled');
-    })
-    .catch(function(err) {
-      console.error('Bundle ATC error:', err);
-      btn.removeAttribute('aria-disabled');
-    });
-  }
-
-  /* Attach in capture phase — fires before product-form's bubble-phase handler */
-  document.addEventListener('click', handleBundleATC, true);
+  [200, 600, 1500].forEach(function(t){ setTimeout(applyDOM, t); });
 })();
 </script>
 
@@ -1293,8 +1248,7 @@
                 <div class="rmr-bp__grid">
 
                   {%- if block.settings.opt1_show -%}
-                    {%- assign opt1_total_qty = block.settings.opt1_buy_qty | plus: block.settings.opt1_free_qty -%}
-                    <div class="rmr-bp__option{% if block.settings.opt1_selected %} is-selected{% endif %}" data-cart-qty="{{ opt1_total_qty }}">
+                    <div class="rmr-bp__option{% if block.settings.opt1_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt1_cart_qty }}">
                       <div class="rmr-bp__card">
                         <div class="rmr-bp__card-top"
                           {%- if block.settings.opt1_header_badge != blank -%}
@@ -1325,8 +1279,7 @@
                   {%- endif -%}
 
                   {%- if block.settings.opt2_show -%}
-                    {%- assign opt2_total_qty = block.settings.opt2_buy_qty | plus: block.settings.opt2_free_qty -%}
-                    <div class="rmr-bp__option{% if block.settings.opt2_selected %} is-selected{% endif %}" data-cart-qty="{{ opt2_total_qty }}">
+                    <div class="rmr-bp__option{% if block.settings.opt2_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt2_cart_qty }}">
                       <div class="rmr-bp__card">
                         <div class="rmr-bp__card-top"
                           {%- if block.settings.opt2_header_badge != blank -%}
@@ -1357,8 +1310,7 @@
                   {%- endif -%}
 
                   {%- if block.settings.opt3_show -%}
-                    {%- assign opt3_total_qty = block.settings.opt3_buy_qty | plus: block.settings.opt3_free_qty -%}
-                    <div class="rmr-bp__option{% if block.settings.opt3_selected %} is-selected{% endif %}" data-cart-qty="{{ opt3_total_qty }}">
+                    <div class="rmr-bp__option{% if block.settings.opt3_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt3_cart_qty }}">
                       <div class="rmr-bp__card">
                         <div class="rmr-bp__card-top"
                           {%- if block.settings.opt3_header_badge != blank -%}
@@ -1404,16 +1356,25 @@
                 var bp = document.getElementById({{ rmr_bp_id | json }});
                 if (!bp) return;
                 var opts = bp.querySelectorAll('.rmr-bp__option');
+                /* External qty input (outside form — may not reach FormData in all browsers) */
                 var qtyInput = document.getElementById('Quantity-{{ section.id }}');
+                /* Internal qty input (inside <form> — always in FormData) */
+                var bundleQtyInput = document.getElementById('BundleQty-{{ section.id }}');
+
+                function setQty(qty) {
+                  qty = parseInt(qty, 10) || 1;
+                  if (qtyInput) qtyInput.value = qty;
+                  if (bundleQtyInput) bundleQtyInput.value = qty;
+                }
 
                 function selectOpt(opt) {
                   opts.forEach(function(o){ o.classList.remove('is-selected'); });
                   opt.classList.add('is-selected');
-                  if (qtyInput) qtyInput.value = parseInt(opt.dataset.cartQty) || 1;
+                  setQty(opt.dataset.cartQty);
                 }
 
                 var pre = bp.querySelector('.rmr-bp__option.is-selected');
-                if (pre && qtyInput) qtyInput.value = parseInt(pre.dataset.cartQty) || 1;
+                if (pre) setQty(pre.dataset.cartQty);
 
                 opts.forEach(function(opt){
                   opt.addEventListener('click', function(){ selectOpt(this); });

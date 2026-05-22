@@ -150,6 +150,12 @@
         {%- elsif product.handle == 'lipoic-acid' -%}
           <input type="hidden" name="selling_plan" value="1864597579" class="product-selling-plan-id">
         {%- endif -%}
+        {%- comment -%}
+          Bundle picker quantity override — lives INSIDE the form so FormData always picks it up.
+          Default value 1. Bundle picker JS updates this to opt_cart_qty when a card is clicked.
+        {%- endcomment -%}
+        <input type="hidden" name="quantity" value="1" id="BundleQty-{{ section.id }}" class="rmr-bundle-qty">
+
         <div class="product-form__buttons{% if block.settings.uppercase_text %} product-form__buttons--uppercase{% endif %}">
           {%- liquid
             assign check_against_inventory = true
