@@ -71,7 +71,16 @@
   window.fetch = function(input, init) {
     var url = (typeof input === 'string') ? input : (input && input.url) || '';
     if (url.indexOf('/cart/add') !== -1 && init && init.body instanceof FormData) {
+      /* Always enforce selling plan */
       init.body.set('selling_plan', PLAN_ID);
+
+      /* Fix quantity: the qty input lives OUTSIDE the <form> element so
+         FormData(form) misses it in some browsers → Shopify defaults to 1.
+         Read the selected bundle card's data-cart-qty and force it in. */
+      var sel = document.querySelector('.rmr-bp__option.is-selected[data-cart-qty]');
+      if (sel && sel.dataset.cartQty) {
+        init.body.set('quantity', sel.dataset.cartQty);
+      }
     }
     return _fetch.apply(this, arguments);
   };
