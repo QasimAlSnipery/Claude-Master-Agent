@@ -1,5 +1,19 @@
 {%- assign sid = 'sscount-' | append: section.id -%}
 
+{%- comment %} Page visibility check {%- endcomment %}
+{%- assign _show = false -%}
+{%- case request.page_type -%}
+  {%- when 'index' -%}{%- if section.settings.show_on_home -%}{%- assign _show = true -%}{%- endif -%}
+  {%- when 'product' -%}{%- if section.settings.show_on_product -%}{%- assign _show = true -%}{%- endif -%}
+  {%- when 'collection' -%}{%- if section.settings.show_on_collection -%}{%- assign _show = true -%}{%- endif -%}
+  {%- when 'cart' -%}{%- if section.settings.show_on_cart -%}{%- assign _show = true -%}{%- endif -%}
+  {%- when 'page' -%}{%- if section.settings.show_on_pages -%}{%- assign _show = true -%}{%- endif -%}
+  {%- when 'blog', 'article' -%}{%- if section.settings.show_on_blog -%}{%- assign _show = true -%}{%- endif -%}
+  {%- when 'search' -%}{%- if section.settings.show_on_search -%}{%- assign _show = true -%}{%- endif -%}
+{%- endcase -%}
+
+{%- if _show -%}
+
 {%- comment %} Desktop layout helpers {%- endcomment %}
 {%- assign dl  = section.settings.layout_desktop -%}
 {%- assign dta = section.settings.text_align_desktop -%}
@@ -431,12 +445,24 @@
 })();
 </script>
 
+{%- endif -%}
+
 {% schema %}
 {
   "name": "Countdown Urgency Timer",
   "tag": "section",
   "class": "section",
   "settings": [
+    { "type": "header", "content": "── Page Visibility ──────────" },
+    { "type": "paragraph", "content": "Tick the page types where this section should appear. Unticked = hidden on that page type." },
+    { "type": "checkbox", "id": "show_on_product",   "label": "Product pages",    "default": true },
+    { "type": "checkbox", "id": "show_on_home",       "label": "Home page",        "default": false },
+    { "type": "checkbox", "id": "show_on_collection", "label": "Collection pages", "default": false },
+    { "type": "checkbox", "id": "show_on_cart",       "label": "Cart page",        "default": false },
+    { "type": "checkbox", "id": "show_on_pages",      "label": "Standard pages",   "default": false },
+    { "type": "checkbox", "id": "show_on_blog",       "label": "Blog & articles",  "default": false },
+    { "type": "checkbox", "id": "show_on_search",     "label": "Search results",   "default": false },
+
     { "type": "header", "content": "── Content ──────────────────" },
     { "type": "text", "id": "headline", "label": "Headline", "default": "⚡ Sale Ends In:" },
     { "type": "text", "id": "headline_highlight", "label": "Highlight text", "info": "Exact word(s) from headline to colour differently. Leave blank to skip." },
