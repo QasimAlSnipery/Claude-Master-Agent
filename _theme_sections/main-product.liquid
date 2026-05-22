@@ -1055,6 +1055,155 @@
                   <div style="font-size:{{ block.settings.body_size }}px;color:{{ block.settings.body_color }};font-weight:{{ block.settings.body_weight }};line-height:{{ block.settings.body_line_height | divided_by: 10.0 }};">{{ block.settings.body }}</div>
                 {%- endif -%}
               </div>
+
+            {%- when 'bundle_picker' -%}
+              {%- assign rmr_bp_id = 'rmr-bp-' | append: section.id | append: '-' | append: block.id -%}
+              {%- assign rmr_bp_cols = 0 -%}
+              {%- if block.settings.opt1_show -%}{%- assign rmr_bp_cols = rmr_bp_cols | plus: 1 -%}{%- endif -%}
+              {%- if block.settings.opt2_show -%}{%- assign rmr_bp_cols = rmr_bp_cols | plus: 1 -%}{%- endif -%}
+              {%- if block.settings.opt3_show -%}{%- assign rmr_bp_cols = rmr_bp_cols | plus: 1 -%}{%- endif -%}
+
+              <style>
+                #{{ rmr_bp_id }} { margin-top:{{ block.settings.margin_top }}px; margin-bottom:{{ block.settings.margin_bottom }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__heading { font-size:{{ block.settings.heading_font_size }}px; color:{{ block.settings.heading_color }}; font-weight:700; margin-bottom:{{ block.settings.heading_margin_bottom }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__grid { display:grid; grid-template-columns:repeat({{ rmr_bp_cols }},1fr); gap:{{ block.settings.card_gap }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__option { position:relative; cursor:pointer; user-select:none; display:flex; flex-direction:column; }
+                #{{ rmr_bp_id }} .rmr-bp__badge-wrap { min-height:28px; display:flex; align-items:flex-end; justify-content:center; position:relative; z-index:1; }
+                #{{ rmr_bp_id }} .rmr-bp__header-badge { display:inline-block; font-size:{{ block.settings.header_badge_font_size }}px; font-weight:700; padding:{{ block.settings.header_badge_pad_v }}px {{ block.settings.header_badge_pad_h }}px; border-radius:{{ block.settings.header_badge_radius }}px {{ block.settings.header_badge_radius }}px 0 0; line-height:1; white-space:nowrap; position:relative; bottom:-1px; }
+                #{{ rmr_bp_id }} .rmr-bp__card { flex:1; background:{{ block.settings.card_bg }}; border:{{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }}; border-radius:{{ block.settings.card_radius }}px; padding:{{ block.settings.card_pad_v }}px {{ block.settings.card_pad_h }}px; text-align:center; transition:border-color 0.15s,background 0.15s,border-width 0.05s; display:flex; flex-direction:column; align-items:center; gap:4px; }
+                #{{ rmr_bp_id }} .rmr-bp__option.is-selected .rmr-bp__card { background:{{ block.settings.selected_bg }}; border-color:{{ block.settings.selected_border_color }}; border-width:{{ block.settings.selected_border_width }}px; }
+                #{{ rmr_bp_id }} .rmr-bp__img { height:{{ block.settings.image_height }}px; object-fit:contain; width:auto; margin-bottom:{{ block.settings.image_margin_bottom }}px; display:block; }
+                #{{ rmr_bp_id }} .rmr-bp__label { font-size:{{ block.settings.label_font_size }}px; color:{{ block.settings.label_color }}; font-weight:600; line-height:1.2; }
+                #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:500; line-height:1.2; }
+                #{{ rmr_bp_id }} .rmr-bp__free-word { color:{{ block.settings.free_text_color }}; font-weight:700; }
+                #{{ rmr_bp_id }} .rmr-bp__save-badge { display:inline-block; background:{{ block.settings.save_badge_bg }}; color:{{ block.settings.save_badge_text_color }}; font-size:{{ block.settings.save_badge_font_size }}px; font-weight:700; padding:{{ block.settings.save_badge_pad_v }}px {{ block.settings.save_badge_pad_h }}px; border-radius:{{ block.settings.save_badge_radius }}px; line-height:1; margin-top:2px; }
+                #{{ rmr_bp_id }} .rmr-bp__price { font-size:{{ block.settings.price_font_size }}px; color:{{ block.settings.price_color }}; font-weight:800; line-height:1; margin-top:4px; }
+                #{{ rmr_bp_id }} .rmr-bp__compare { font-size:{{ block.settings.compare_font_size }}px; color:{{ block.settings.compare_color }}; text-decoration:line-through; line-height:1; }
+                {%- if block.settings.mobile_stack -%}
+                @media(max-width:749px){ #{{ rmr_bp_id }} .rmr-bp__grid { grid-template-columns:1fr; } }
+                {%- else -%}
+                @media(max-width:749px){ #{{ rmr_bp_id }} .rmr-bp__grid { grid-template-columns:repeat({{ rmr_bp_cols }},minmax(110px,1fr)); overflow-x:auto; -webkit-overflow-scrolling:touch; } }
+                {%- endif -%}
+              </style>
+
+              {%- if block.settings.hide_qty_selector -%}
+                <style>#Quantity-{{ section.id }},label[for="Quantity-{{ section.id }}"]{display:none!important;}quantity-input:has(#Quantity-{{ section.id }}){display:none!important;}</style>
+              {%- endif -%}
+
+              <div id="{{ rmr_bp_id }}" class="rmr-bundle-picker" {{ block.shopify_attributes }}>
+                {%- if block.settings.heading != blank -%}
+                  <p class="rmr-bp__heading">{{ block.settings.heading }}</p>
+                {%- endif -%}
+                <div class="rmr-bp__grid">
+
+                  {%- if block.settings.opt1_show -%}
+                    <div class="rmr-bp__option{% if block.settings.opt1_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt1_cart_qty }}">
+                      {%- if block.settings.opt1_header_badge != blank -%}
+                        <div class="rmr-bp__badge-wrap"><span class="rmr-bp__header-badge" style="background:{{ block.settings.opt1_badge_bg }};color:{{ block.settings.opt1_badge_text_color }};">{{ block.settings.opt1_header_badge }}</span></div>
+                      {%- else -%}
+                        <div class="rmr-bp__badge-wrap" aria-hidden="true"></div>
+                      {%- endif -%}
+                      <div class="rmr-bp__card">
+                        {%- if block.settings.opt1_image != blank -%}
+                          <img src="{{ block.settings.opt1_image | image_url: width: 200 }}" alt="{{ block.settings.opt1_label | escape }}" class="rmr-bp__img" loading="lazy" width="200">
+                        {%- endif -%}
+                        <span class="rmr-bp__label">{{ block.settings.opt1_label }}</span>
+                        {%- if block.settings.opt1_free_qty > 0 -%}
+                          <span class="rmr-bp__free-line">Get {{ block.settings.opt1_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt1_free_label }}</span></span>
+                        {%- endif -%}
+                        {%- if block.settings.opt1_save_badge != blank -%}<span class="rmr-bp__save-badge">{{ block.settings.opt1_save_badge }}</span>{%- endif -%}
+                        <span class="rmr-bp__price">{{ block.settings.opt1_sale_price }}</span>
+                        {%- if block.settings.opt1_compare_price != blank -%}<s class="rmr-bp__compare">{{ block.settings.opt1_compare_price }}</s>{%- endif -%}
+                      </div>
+                    </div>
+                  {%- endif -%}
+
+                  {%- if block.settings.opt2_show -%}
+                    <div class="rmr-bp__option{% if block.settings.opt2_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt2_cart_qty }}">
+                      {%- if block.settings.opt2_header_badge != blank -%}
+                        <div class="rmr-bp__badge-wrap"><span class="rmr-bp__header-badge" style="background:{{ block.settings.opt2_badge_bg }};color:{{ block.settings.opt2_badge_text_color }};">{{ block.settings.opt2_header_badge }}</span></div>
+                      {%- else -%}
+                        <div class="rmr-bp__badge-wrap" aria-hidden="true"></div>
+                      {%- endif -%}
+                      <div class="rmr-bp__card">
+                        {%- if block.settings.opt2_image != blank -%}
+                          <img src="{{ block.settings.opt2_image | image_url: width: 200 }}" alt="{{ block.settings.opt2_label | escape }}" class="rmr-bp__img" loading="lazy" width="200">
+                        {%- endif -%}
+                        <span class="rmr-bp__label">{{ block.settings.opt2_label }}</span>
+                        {%- if block.settings.opt2_free_qty > 0 -%}
+                          <span class="rmr-bp__free-line">Get {{ block.settings.opt2_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt2_free_label }}</span></span>
+                        {%- endif -%}
+                        {%- if block.settings.opt2_save_badge != blank -%}<span class="rmr-bp__save-badge">{{ block.settings.opt2_save_badge }}</span>{%- endif -%}
+                        <span class="rmr-bp__price">{{ block.settings.opt2_sale_price }}</span>
+                        {%- if block.settings.opt2_compare_price != blank -%}<s class="rmr-bp__compare">{{ block.settings.opt2_compare_price }}</s>{%- endif -%}
+                      </div>
+                    </div>
+                  {%- endif -%}
+
+                  {%- if block.settings.opt3_show -%}
+                    <div class="rmr-bp__option{% if block.settings.opt3_selected %} is-selected{% endif %}" data-cart-qty="{{ block.settings.opt3_cart_qty }}">
+                      {%- if block.settings.opt3_header_badge != blank -%}
+                        <div class="rmr-bp__badge-wrap"><span class="rmr-bp__header-badge" style="background:{{ block.settings.opt3_badge_bg }};color:{{ block.settings.opt3_badge_text_color }};">{{ block.settings.opt3_header_badge }}</span></div>
+                      {%- else -%}
+                        <div class="rmr-bp__badge-wrap" aria-hidden="true"></div>
+                      {%- endif -%}
+                      <div class="rmr-bp__card">
+                        {%- if block.settings.opt3_image != blank -%}
+                          <img src="{{ block.settings.opt3_image | image_url: width: 200 }}" alt="{{ block.settings.opt3_label | escape }}" class="rmr-bp__img" loading="lazy" width="200">
+                        {%- endif -%}
+                        <span class="rmr-bp__label">{{ block.settings.opt3_label }}</span>
+                        {%- if block.settings.opt3_free_qty > 0 -%}
+                          <span class="rmr-bp__free-line">Get {{ block.settings.opt3_free_qty }} <span class="rmr-bp__free-word">{{ block.settings.opt3_free_label }}</span></span>
+                        {%- endif -%}
+                        {%- if block.settings.opt3_save_badge != blank -%}<span class="rmr-bp__save-badge">{{ block.settings.opt3_save_badge }}</span>{%- endif -%}
+                        <span class="rmr-bp__price">{{ block.settings.opt3_sale_price }}</span>
+                        {%- if block.settings.opt3_compare_price != blank -%}<s class="rmr-bp__compare">{{ block.settings.opt3_compare_price }}</s>{%- endif -%}
+                      </div>
+                    </div>
+                  {%- endif -%}
+
+                </div>
+              </div>
+
+              <script>
+              (function(){
+                var bp = document.getElementById({{ rmr_bp_id | json }});
+                if (!bp) return;
+                var opts = bp.querySelectorAll('.rmr-bp__option');
+                var qtyInput = document.getElementById('Quantity-{{ section.id }}');
+
+                function selectOpt(opt) {
+                  opts.forEach(function(o){ o.classList.remove('is-selected'); });
+                  opt.classList.add('is-selected');
+                  if (qtyInput) qtyInput.value = parseInt(opt.dataset.cartQty) || 1;
+                }
+
+                var pre = bp.querySelector('.rmr-bp__option.is-selected');
+                if (pre && qtyInput) qtyInput.value = parseInt(pre.dataset.cartQty) || 1;
+
+                opts.forEach(function(opt){
+                  opt.addEventListener('click', function(){ selectOpt(this); });
+                });
+
+                {%- if block.settings.hide_qty_selector -%}
+                var qel = document.getElementById('Quantity-{{ section.id }}');
+                if (qel) {
+                  var el = qel;
+                  for (var i = 0; i < 8; i++) {
+                    el = el.parentElement;
+                    if (!el) break;
+                    var tn = el.tagName.toLowerCase();
+                    var cn = el.className || '';
+                    if (tn === 'quantity-input' || cn.indexOf('product-form__quantity') >= 0 || cn.indexOf('quantity__wrapper') >= 0 || cn.indexOf('quantity-wrapper') >= 0) {
+                      el.style.display = 'none';
+                      break;
+                    }
+                  }
+                }
+                {%- endif -%}
+              })();
+              </script>
+
             {%- when 'icon_with_text' -%}
               {% render 'icon-with-text',
                 block: block
@@ -9533,6 +9682,108 @@
         { "type": "color", "id": "body_color", "label": "Body text color", "default": "#2a5a3a" },
         { "type": "select", "id": "body_weight", "label": "Body text weight", "options": [{"value":"400","label":"Regular"},{"value":"500","label":"Medium"},{"value":"600","label":"Semi-bold"}], "default": "400" },
         { "type": "range", "id": "body_line_height", "min": 12, "max": 20, "step": 1, "label": "Line height (×10, e.g. 15 = 1.5)", "default": 15 }
+      ]
+    },
+    {
+      "type": "bundle_picker",
+      "name": "Bundle Picker",
+      "settings": [
+        { "type": "text", "id": "heading", "label": "Heading above cards", "default": "Choose Your Bundle:" },
+        { "type": "range", "id": "heading_font_size", "min": 12, "max": 28, "step": 1, "unit": "px", "label": "Heading font size", "default": 16 },
+        { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#1a1a1a" },
+        { "type": "range", "id": "heading_margin_bottom", "min": 4, "max": 32, "step": 2, "unit": "px", "label": "Heading bottom gap", "default": 12 },
+
+        { "type": "header", "content": "── Card Layout ──────────────" },
+        { "type": "range", "id": "card_gap",          "min": 4,  "max": 32, "step": 2,  "unit": "px", "label": "Gap between cards",           "default": 12 },
+        { "type": "range", "id": "card_radius",        "min": 0,  "max": 24, "step": 2,  "unit": "px", "label": "Card border radius",           "default": 8  },
+        { "type": "range", "id": "card_border_width",  "min": 1,  "max": 4,  "step": 1,  "unit": "px", "label": "Card border width",            "default": 1  },
+        { "type": "color", "id": "card_border_color",  "label": "Card border color",  "default": "#e0e0e0" },
+        { "type": "color", "id": "card_bg",            "label": "Card background",    "default": "#ffffff" },
+        { "type": "range", "id": "card_pad_v",         "min": 8,  "max": 40, "step": 2,  "unit": "px", "label": "Card padding top/bottom",      "default": 16 },
+        { "type": "range", "id": "card_pad_h",         "min": 4,  "max": 40, "step": 2,  "unit": "px", "label": "Card padding left/right",      "default": 10 },
+        { "type": "color", "id": "selected_border_color", "label": "Selected card border",     "default": "#264165" },
+        { "type": "range", "id": "selected_border_width", "min": 1, "max": 6, "step": 1, "unit": "px", "label": "Selected card border width", "default": 2 },
+        { "type": "color", "id": "selected_bg",        "label": "Selected card background",   "default": "#f0f4fa" },
+
+        { "type": "header", "content": "── Save % Badge ─────────────" },
+        { "type": "color", "id": "save_badge_bg",         "label": "Save badge background", "default": "#e53e3e" },
+        { "type": "color", "id": "save_badge_text_color", "label": "Save badge text",       "default": "#ffffff" },
+        { "type": "range", "id": "save_badge_font_size",  "min": 9,  "max": 18, "step": 1, "unit": "px", "label": "Save badge font size",  "default": 12 },
+        { "type": "range", "id": "save_badge_pad_v",      "min": 2,  "max": 10, "step": 1, "unit": "px", "label": "Save badge padding T/B", "default": 3  },
+        { "type": "range", "id": "save_badge_pad_h",      "min": 4,  "max": 24, "step": 2, "unit": "px", "label": "Save badge padding L/R", "default": 8  },
+        { "type": "range", "id": "save_badge_radius",     "min": 0,  "max": 50, "step": 2, "unit": "px", "label": "Save badge border radius","default": 50 },
+
+        { "type": "header", "content": "── Typography ───────────────" },
+        { "type": "range", "id": "label_font_size",      "min": 11, "max": 24, "step": 1, "unit": "px", "label": "Label font size (Buy One…)",   "default": 15 },
+        { "type": "color", "id": "label_color",          "label": "Label text color",   "default": "#1a1a1a" },
+        { "type": "range", "id": "free_line_font_size",  "min": 10, "max": 22, "step": 1, "unit": "px", "label": "Get X FREE line font size",    "default": 14 },
+        { "type": "color", "id": "free_line_color",      "label": "Get X  text color",  "default": "#1a1a1a" },
+        { "type": "color", "id": "free_text_color",      "label": "FREE text color",    "default": "#22863a" },
+        { "type": "range", "id": "price_font_size",      "min": 14, "max": 32, "step": 2, "unit": "px", "label": "Sale price font size",         "default": 22 },
+        { "type": "color", "id": "price_color",          "label": "Sale price color",   "default": "#1a1a1a" },
+        { "type": "range", "id": "compare_font_size",    "min": 10, "max": 22, "step": 1, "unit": "px", "label": "Compare price font size",      "default": 13 },
+        { "type": "color", "id": "compare_color",        "label": "Compare price color","default": "#888888" },
+
+        { "type": "header", "content": "── Images ───────────────────" },
+        { "type": "range", "id": "image_height",        "min": 40, "max": 180, "step": 4, "unit": "px", "label": "Image height",        "default": 88 },
+        { "type": "range", "id": "image_margin_bottom", "min": 0,  "max": 24,  "step": 2, "unit": "px", "label": "Gap below image",     "default": 6  },
+
+        { "type": "header", "content": "── Spacing & Options ────────" },
+        { "type": "range", "id": "margin_top",    "min": 0, "max": 60, "step": 4, "unit": "px", "label": "Margin top",    "default": 0  },
+        { "type": "range", "id": "margin_bottom", "min": 0, "max": 60, "step": 4, "unit": "px", "label": "Margin bottom", "default": 16 },
+        { "type": "checkbox", "id": "hide_qty_selector", "label": "Hide standalone quantity input (recommended)",       "default": true  },
+        { "type": "checkbox", "id": "mobile_stack",      "label": "Stack cards vertically on mobile",                  "default": true  },
+
+        { "type": "header", "content": "── Option 1 ─────────────────" },
+        { "type": "checkbox",    "id": "opt1_show",           "label": "Show Option 1",                              "default": true   },
+        { "type": "checkbox",    "id": "opt1_selected",       "label": "Selected by default",                        "default": true   },
+        { "type": "text",        "id": "opt1_header_badge",   "label": "Header badge text (blank = hidden)",         "info": "Leave blank if no badge needed for this option." },
+        { "type": "color",       "id": "opt1_badge_bg",       "label": "Badge background",                           "default": "#264165" },
+        { "type": "color",       "id": "opt1_badge_text_color","label": "Badge text color",                          "default": "#ffffff" },
+        { "type": "text",        "id": "opt1_label",          "label": "Label",                                      "default": "Buy One" },
+        { "type": "range",       "id": "opt1_free_qty",       "min": 0, "max": 10, "step": 1, "label": "FREE bottles (0 = hide)", "default": 0 },
+        { "type": "text",        "id": "opt1_free_label",     "label": "FREE label word",                            "default": "FREE" },
+        { "type": "text",        "id": "opt1_save_badge",     "label": "Save badge text (blank = hidden)",           "default": "Save 50%" },
+        { "type": "text",        "id": "opt1_sale_price",     "label": "Sale price display",                         "default": "$29.99" },
+        { "type": "text",        "id": "opt1_compare_price",  "label": "Compare price (blank = hidden)",             "default": "$59.99" },
+        { "type": "image_picker","id": "opt1_image",          "label": "Product image"                               },
+        { "type": "range",       "id": "opt1_cart_qty",       "min": 1, "max": 20, "step": 1, "label": "Quantity added to cart", "default": 1 },
+
+        { "type": "header", "content": "── Option 2 ─────────────────" },
+        { "type": "checkbox",    "id": "opt2_show",           "label": "Show Option 2",                              "default": true   },
+        { "type": "checkbox",    "id": "opt2_selected",       "label": "Selected by default",                        "default": false  },
+        { "type": "text",        "id": "opt2_header_badge",   "label": "Header badge text (blank = hidden)",         "default": "Most Popular" },
+        { "type": "color",       "id": "opt2_badge_bg",       "label": "Badge background",                           "default": "#2d6a4f" },
+        { "type": "color",       "id": "opt2_badge_text_color","label": "Badge text color",                          "default": "#ffffff" },
+        { "type": "text",        "id": "opt2_label",          "label": "Label",                                      "default": "Buy 2" },
+        { "type": "range",       "id": "opt2_free_qty",       "min": 0, "max": 10, "step": 1, "label": "FREE bottles (0 = hide)", "default": 1 },
+        { "type": "text",        "id": "opt2_free_label",     "label": "FREE label word",                            "default": "FREE" },
+        { "type": "text",        "id": "opt2_save_badge",     "label": "Save badge text (blank = hidden)",           "default": "Save 66%" },
+        { "type": "text",        "id": "opt2_sale_price",     "label": "Sale price display",                         "default": "$59.99" },
+        { "type": "text",        "id": "opt2_compare_price",  "label": "Compare price (blank = hidden)",             "default": "$179.97" },
+        { "type": "image_picker","id": "opt2_image",          "label": "Product image"                               },
+        { "type": "range",       "id": "opt2_cart_qty",       "min": 1, "max": 20, "step": 1, "label": "Quantity added to cart", "default": 3 },
+
+        { "type": "header", "content": "── Option 3 ─────────────────" },
+        { "type": "checkbox",    "id": "opt3_show",           "label": "Show Option 3",                              "default": true   },
+        { "type": "checkbox",    "id": "opt3_selected",       "label": "Selected by default",                        "default": false  },
+        { "type": "text",        "id": "opt3_header_badge",   "label": "Header badge text (blank = hidden)",         "default": "Best Results" },
+        { "type": "color",       "id": "opt3_badge_bg",       "label": "Badge background",                           "default": "#264165" },
+        { "type": "color",       "id": "opt3_badge_text_color","label": "Badge text color",                          "default": "#ffffff" },
+        { "type": "text",        "id": "opt3_label",          "label": "Label",                                      "default": "Buy 3" },
+        { "type": "range",       "id": "opt3_free_qty",       "min": 0, "max": 10, "step": 1, "label": "FREE bottles (0 = hide)", "default": 2 },
+        { "type": "text",        "id": "opt3_free_label",     "label": "FREE label word",                            "default": "FREE" },
+        { "type": "text",        "id": "opt3_save_badge",     "label": "Save badge text (blank = hidden)",           "default": "Save 69%" },
+        { "type": "text",        "id": "opt3_sale_price",     "label": "Sale price display",                         "default": "$89.99" },
+        { "type": "text",        "id": "opt3_compare_price",  "label": "Compare price (blank = hidden)",             "default": "$299.95" },
+        { "type": "image_picker","id": "opt3_image",          "label": "Product image"                               },
+        { "type": "range",       "id": "opt3_cart_qty",       "min": 1, "max": 20, "step": 1, "label": "Quantity added to cart", "default": 5 },
+
+        { "type": "header", "content": "── Header Badge Style ───────", "info": "Shared padding/radius. Colour is set per option above." },
+        { "type": "range", "id": "header_badge_font_size", "min": 10, "max": 20, "step": 1, "unit": "px", "label": "Badge font size",       "default": 13 },
+        { "type": "range", "id": "header_badge_pad_v",     "min": 2,  "max": 12, "step": 1, "unit": "px", "label": "Badge padding top/bottom","default": 5  },
+        { "type": "range", "id": "header_badge_pad_h",     "min": 8,  "max": 32, "step": 2, "unit": "px", "label": "Badge padding left/right","default": 16 },
+        { "type": "range", "id": "header_badge_radius",    "min": 0,  "max": 12, "step": 1, "unit": "px", "label": "Badge border radius",    "default": 6  }
       ]
     }
   ],
