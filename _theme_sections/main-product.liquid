@@ -1,3 +1,53 @@
+<script>
+/* Hide Shopify native subscriptions widget from customers.
+   Shopify.designMode = true when theme editor is open, so it stays visible there. */
+(function(){
+  if (window.Shopify && window.Shopify.designMode) return;
+
+  function hide(el){ if(el){ el.style.cssText='display:none!important;height:0!important;overflow:hidden!important;'; } }
+
+  function run(){
+    /* 1 — embed trigger div */
+    document.querySelectorAll('.subscriptions_app_embed_block,[class*="subscriptions_app_embed"],[id*="subscriptions_app_embed"]').forEach(function(el){
+      hide(el);
+      var p = el.parentElement;
+      if (p && p.children.length <= 4 && p !== document.body) hide(p);
+    });
+
+    /* 2 — known Shopify Subscriptions app class patterns */
+    var sels = [
+      '[class*="rc-product-subscribe"]',
+      '[class*="subscriptions-widget"]',
+      '[class*="subscription-widget"]',
+      '[class*="subscription-purchase"]',
+      '[class*="purchase-option"][class*="subscri"]',
+      'subscription-component',
+      'selling-plan-group-component',
+      '[data-selling-plan-widget]'
+    ];
+    try { document.querySelectorAll(sels.join(',')).forEach(hide); } catch(e){}
+
+    /* 3 — find "Auto-renews" text node (unique to Shopify Subscriptions) and hide its container */
+    document.querySelectorAll('p,div,span,li').forEach(function(el){
+      if (!el.children.length && el.textContent && el.textContent.trim().indexOf('Auto-renews') === 0){
+        hide(el.parentElement || el);
+        hide(el);
+      }
+    });
+  }
+
+  run();
+  document.addEventListener('DOMContentLoaded', run);
+  window.addEventListener('load', run);
+  [400, 1000, 2500].forEach(function(ms){ setTimeout(run, ms); });
+
+  /* MutationObserver — catches dynamically injected widget markup */
+  try {
+    new MutationObserver(run).observe(document.documentElement, { childList: true, subtree: true });
+  } catch(e){}
+})();
+</script>
+
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
