@@ -49,77 +49,112 @@
 </script>
 
 <script>
-/* ── Subscription selling plan enforcer ─────────────────────────────────────
-   The Shopify native subscriptions app has a selling plan on this product
-   (ID: 1864597579 — "Deliver every month, 25% off") but the one-time radio
-   is default-selected, so the form submits selling_plan="" and Shopify blocks it.
-   Fix: intercept the fetch() call Dawn makes to /cart/add.js and forcibly
-   set selling_plan before the request leaves the browser. This is the only
-   layer that cannot be overridden by the subscription app's own JavaScript.
-   Skips when theme editor is open (designMode) so the widget stays functional.
+/* ── Bundle picker: direct cart add ────────────────────────────────────────
+   Confirmed via Admin GraphQL:
+     Variant : gid://shopify/ProductVariant/42401035419723
+     Plan    : gid://shopify/SellingPlan/1864597579 (Deliver every month, 25% off)
+
+   The theme's obfuscated ProductForm JS rebuilds FormData and strips/overrides
+   fields — so passive interception never reliably works.
+   Fix: capture-phase click listener takes complete ownership when a bundle
+   card is selected, posts directly to /cart/add.js with URL-encoded body
+   (immune to FormData manipulation), and re-renders cart sections using
+   Shopify's sections API. Falls through to default for non-bundle pages.
+   Skips in designMode so theme editor works normally.
 ──────────────────────────────────────────────────────────────────────────── */
 (function(){
   if (window.Shopify && window.Shopify.designMode) return;
 
-  /* Selling plan confirmed via Admin GraphQL:
-     gid://shopify/SellingPlan/1864597579
-     Name: "Deliver every month, 25% off" */
-  var PLAN_ID = '1864597579';
+  var VARIANT_ID = '42401035419723';
+  var PLAN_ID    = '1864597579';
 
-  /* --- Layer 1: intercept fetch (Dawn submits via fetch, not form POST) --- */
-  var _fetch = window.fetch;
-  window.fetch = function(input, init) {
-    var url = (typeof input === 'string') ? input : (input && input.url) || '';
-    if (url.indexOf('/cart/add') !== -1 && init && init.body instanceof FormData) {
-      init.body.set('selling_plan', PLAN_ID);
-    }
-    return _fetch.apply(this, arguments);
-  };
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest('button[name="add"], .product-form__submit, .atc-button');
+    if (!btn) return;
 
-  /* --- Layer 2: DOM — strip one-time radio, check subscription radio,
-         append hidden input last in form (belt & suspenders) --- */
-  function applyDOM() {
-    /* neuter one-time radio */
-    document.querySelectorAll('input[type="radio"]').forEach(function(r) {
-      var name = (r.getAttribute('name') || '').toLowerCase();
-      var val  = r.value || '';
-      if ((name.indexOf('selling') !== -1 || name.indexOf('plan') !== -1) &&
-          (!val || !/^\d+$/.test(val.trim()))) {
-        r.removeAttribute('name');
-        r.checked = false;
+    var sel = document.querySelector('.rmr-bp__option.is-selected[data-cart-qty]');
+    if (!sel) return; /* no bundle card selected — let theme handle normally */
+
+    var qty = parseInt(sel.dataset.cartQty, 10) || 1;
+
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    btn.setAttribute('aria-disabled', 'true');
+    btn.classList.add('loading');
+
+    var body = 'id=' + VARIANT_ID
+             + '&quantity=' + qty
+             + '&selling_plan=' + PLAN_ID
+             + '&sections=cart-icon-bubble%2Ccart-notification-product%2Ccart-notification-button'
+             + '&sections_url=' + encodeURIComponent(window.location.pathname);
+
+    fetch('/cart/add.js', {
+      method:  'POST',
+      headers: {
+        'Content-Type':    'application/x-www-form-urlencoded',
+        'X-Requested-With': 'XMLHttpRequest'
+      },
+      body: body
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if (data.status >= 400 || data.errors) {
+        var msg = data.description || data.errors || 'Could not add to cart';
+        alert(msg);
+        btn.removeAttribute('aria-disabled');
+        btn.classList.remove('loading');
+        return;
       }
-    });
-    /* check subscription radio */
-    document.querySelectorAll('input[type="radio"]').forEach(function(r) {
-      if ((r.value || '').trim() === PLAN_ID) {
-        r.checked = true;
-        r.dispatchEvent(new Event('change', { bubbles: true }));
+
+      /* Re-render cart sections Shopify returned */
+      if (data.sections) {
+        Object.keys(data.sections).forEach(function(id){
+          var el = document.getElementById(id);
+          if (el) {
+            var tmp = document.createElement('div');
+            tmp.innerHTML = data.sections[id];
+            if (tmp.firstElementChild) el.replaceWith(tmp.firstElementChild);
+          }
+        });
       }
+
+      /* Fire the events the theme's cart drawer and notification listen for */
+      try {
+        if (typeof publish === 'function' && typeof PUB_SUB_EVENTS !== 'undefined') {
+          publish(PUB_SUB_EVENTS.cartUpdate, { source: 'product-form' });
+        }
+      } catch(x){}
+      ['cart:refresh','cart:update','cart-update'].forEach(function(ev){
+        document.dispatchEvent(new CustomEvent(ev, { bubbles: true }));
+      });
+
+      /* Open cart drawer or notification */
+      var drawer = document.querySelector('cart-drawer');
+      var notif  = document.querySelector('cart-notification');
+      if (drawer && typeof drawer.open === 'function') {
+        try { drawer.open(btn); } catch(x){}
+      } else if (notif && typeof notif.open === 'function') {
+        try { notif.open(data); } catch(x){}
+      } else {
+        /* Fallback: update bubble manually */
+        fetch('/cart.js').then(function(r){ return r.json(); }).then(function(cart){
+          document.querySelectorAll('.cart-count-bubble').forEach(function(el){
+            el.innerHTML = '<span aria-hidden="true">'+cart.item_count+'</span>';
+          });
+        }).catch(function(){});
+      }
+
+      btn.removeAttribute('aria-disabled');
+      btn.classList.remove('loading');
+    })
+    .catch(function(err){
+      console.error('Bundle ATC failed:', err);
+      btn.removeAttribute('aria-disabled');
+      btn.classList.remove('loading');
     });
-    /* append hidden input as last field */
-    var form = document.querySelector('form[data-type="add-to-cart-form"]');
-    if (!form) return;
-    form.querySelectorAll('input[type="hidden"][name="selling_plan"]').forEach(function(i){ i.remove(); });
-    var h = document.createElement('input');
-    h.type = 'hidden'; h.name = 'selling_plan'; h.value = PLAN_ID;
-    form.appendChild(h);
-  }
 
-  /* run on load and on ATC click */
-  function init() {
-    applyDOM();
-    document.addEventListener('click', function(e) {
-      if (e.target.closest('button[name="add"], .product-form__submit, .atc-button')) applyDOM();
-    }, true);
-    var form = document.querySelector('form[data-type="add-to-cart-form"]');
-    if (form) form.addEventListener('submit', applyDOM, true);
-  }
-
-  document.readyState === 'loading'
-    ? document.addEventListener('DOMContentLoaded', init)
-    : init();
-
-  [200, 600, 1500].forEach(function(t){ setTimeout(applyDOM, t); });
+  }, true); /* capture phase — fires before ProductForm web component */
 })();
 </script>
 
