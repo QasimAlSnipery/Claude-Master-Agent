@@ -20,7 +20,7 @@
             "star_color": "#ffcc00",
             "bg_stars_style": "full",
             "bg_star_color": "#ececec",
-            "label": "<strong>4.9 | 2,300+ Happy Customers</strong>",
+            "label": "<strong>4.9 | 2,300+ Happy Customers<\/strong>",
             "size": 13,
             "alignment": "flex-start",
             "scroll_id": "",
@@ -194,7 +194,7 @@
             "opt1_save_badge": "Save 50%",
             "opt1_sale_price": "$29.99",
             "opt1_compare_price": "$59.99",
-            "opt1_image": "shopify://shop_images/ChatGPT_Image_May_22_2026_07_33_49_AM.png",
+            "opt1_image": "shopify:\/\/shop_images\/ChatGPT_Image_May_22_2026_07_33_49_AM.png",
             "opt1_cart_qty": 1,
             "opt2_show": true,
             "opt2_selected": true,
@@ -207,7 +207,7 @@
             "opt2_save_badge": "Save 66%",
             "opt2_sale_price": "$59.97",
             "opt2_compare_price": "$179.97",
-            "opt2_image": "shopify://shop_images/ChatGPT_Image_May_22_2026_07_01_02_AM.png",
+            "opt2_image": "shopify:\/\/shop_images\/ChatGPT_Image_May_22_2026_07_01_02_AM.png",
             "opt2_cart_qty": 3,
             "opt3_show": true,
             "opt3_selected": false,
@@ -220,7 +220,7 @@
             "opt3_save_badge": "Save 69%",
             "opt3_sale_price": "$89.95",
             "opt3_compare_price": "$299.95",
-            "opt3_image": "shopify://shop_images/ChatGPT_Image_May_22_2026_07_08_48_AM.png",
+            "opt3_image": "shopify:\/\/shop_images\/ChatGPT_Image_May_22_2026_07_08_48_AM.png",
             "opt3_cart_qty": 5
           }
         },
@@ -249,6 +249,43 @@
             "secondary_btn_custom_color": "#264165",
             "margin_top": 15,
             "margin_bottom": 9
+          }
+        },
+        "sub_bar_main": {
+          "type": "subscription_bar",
+          "settings": {
+            "item_1_icon": "autorenew",
+            "item_1_text": "Refills Ship Every Month",
+            "item_2_icon": "schedule",
+            "item_2_text": "Stop or Cancel Anytime",
+            "item_3_icon": "",
+            "item_3_text": "",
+            "separator": "|",
+            "sep_color": "#cccccc",
+            "sep_size": 16,
+            "alignment": "center",
+            "bg_color": "#f6f5f2",
+            "radius": 0,
+            "pad_v": 8,
+            "pad_h": 0,
+            "margin_top": 3,
+            "margin_bottom": 3,
+            "font_size": 13,
+            "text_color": "#555555",
+            "item_gap": 20,
+            "icon_size": 16,
+            "icon_color": "#264165",
+            "icon_gap": 5,
+            "icon_filled": false,
+            "alignment_mob": "center",
+            "font_size_mob": 10,
+            "icon_size_mob": 14,
+            "icon_gap_mob": 4,
+            "item_gap_mob": 8,
+            "pad_v_mob": 6,
+            "pad_h_mob": 0,
+            "margin_top_mob": 3,
+            "margin_bottom_mob": 3
           }
         },
         "payment_badges_JzACb7": {
@@ -388,14 +425,14 @@
             "display_arrows": true,
             "display_dots": false,
             "author_1": "Patricia M. | Age: 61 [stars]",
-            "image_1": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_38_13_AM.png",
-            "text_1": "<p>\"The burning in my feet kept me up every single night for three years. By week four on Romira the nighttime flare-ups started easing. By week six I was sleeping through the night for the first time since my diagnosis.\"</p>",
+            "image_1": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_38_13_AM.png",
+            "text_1": "<p>\"The burning in my feet kept me up every single night for three years. By week four on Romira the nighttime flare-ups started easing. By week six I was sleeping through the night for the first time since my diagnosis.\"<\/p>",
             "author_2": "Alan M. | Age: 63 [stars]",
-            "image_2": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_38_09_AM.png",
-            "text_2": "<p>\"I tried CBD, magnesium, turmeric — nothing consistently addressed the pins and needles. This is different. The tingling has dialled down noticeably and I feel sharper overall. About eight weeks in and I have no plans to stop.\"</p>",
+            "image_2": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_38_09_AM.png",
+            "text_2": "<p>\"I tried CBD, magnesium, turmeric — nothing consistently addressed the pins and needles. This is different. The tingling has dialled down noticeably and I feel sharper overall. About eight weeks in and I have no plans to stop.\"<\/p>",
             "author_3": "Diane C. | Age: 57 [stars]",
-            "image_3": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_38_06_AM.png",
-            "text_3": "<p>\"I was sceptical — supplements often disappoint me. But I stayed consistent for the full 60 days and the difference is real. The burning discomfort in my legs has genuinely calmed, and I feel like I am moving more freely day to day.\"</p>",
+            "image_3": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_38_06_AM.png",
+            "text_3": "<p>\"I was sceptical — supplements often disappoint me. But I stayed consistent for the full 60 days and the difference is real. The burning discomfort in my legs has genuinely calmed, and I feel like I am moving more freely day to day.\"<\/p>",
             "margin_top": 12,
             "margin_bottom": 24
           }
@@ -406,19 +443,19 @@
           "settings": {
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
-            "top_text_1": "<strong>[start_date]</strong>",
+            "top_text_1": "<strong>[start_date]<\/strong>",
             "bottom_text_1": "Ordered",
             "min_days_1": 0,
             "max_days_1": 0,
             "icon_2": "local_shipping",
             "filled_icon_2": false,
-            "top_text_2": "<strong>[start_date] - [end_date]</strong>",
+            "top_text_2": "<strong>[start_date] - [end_date]<\/strong>",
             "bottom_text_2": "Order Ready",
             "min_days_2": 1,
             "max_days_2": 2,
             "icon_3": "redeem",
             "filled_icon_3": false,
-            "top_text_3": "<strong>[start_date] - [end_date]</strong>",
+            "top_text_3": "<strong>[start_date] - [end_date]<\/strong>",
             "bottom_text_3": "Delivered",
             "min_days_3": 8,
             "max_days_3": 10,
@@ -476,7 +513,7 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p><strong>The burning, tingling, and sensitivity you feel is your nerves under oxidative stress and poor blood flow.</strong> R-Alpha Lipoic Acid addresses this at the cellular level through four key mechanisms.</p><p><strong>1. Powerful Antioxidant Action</strong><br/>R-ALA neutralises free radicals that damage nerve fibres. It also converts to DHLA inside the body, which regenerates Vitamin C, Vitamin E, and Glutathione — amplifying your entire antioxidant network. No other single antioxidant covers as much ground.</p><p><strong>2. Improved Nerve Blood Flow</strong><br/>Poor circulation is a major driver of nerve degradation. R-ALA enhances nitric oxide availability, dilating small blood vessels and restoring oxygen and nutrient delivery to peripheral nerves.</p><p><strong>3. Anti-Inflammatory Effects</strong><br/>R-ALA suppresses the NF-κB inflammatory pathway and reduces cytokines (TNF-α, IL-6, IL-1β) that cause nerve hyper-excitability and pain. Less inflammation means calmer, less reactive nerves.</p><p><strong>4. Nerve Repair and Regeneration</strong><br/>R-ALA upregulates Nerve Growth Factor (NGF) and BDNF — proteins critical for nerve survival and repair. It also protects the myelin sheath, which is essential for fast, efficient nerve signalling.</p><p>600mg of pure R-form ALA per serving, paired with Organic Coconut Oil for optimal absorption. This is why it works when other supplements do not.</p>",
+            "content": "<p><strong>The burning, tingling, and sensitivity you feel is your nerves under oxidative stress and poor blood flow.<\/strong> R-Alpha Lipoic Acid addresses this at the cellular level through four key mechanisms.<\/p><p><strong>1. Powerful Antioxidant Action<\/strong><br\/>R-ALA neutralises free radicals that damage nerve fibres. It also converts to DHLA inside the body, which regenerates Vitamin C, Vitamin E, and Glutathione — amplifying your entire antioxidant network. No other single antioxidant covers as much ground.<\/p><p><strong>2. Improved Nerve Blood Flow<\/strong><br\/>Poor circulation is a major driver of nerve degradation. R-ALA enhances nitric oxide availability, dilating small blood vessels and restoring oxygen and nutrient delivery to peripheral nerves.<\/p><p><strong>3. Anti-Inflammatory Effects<\/strong><br\/>R-ALA suppresses the NF-κB inflammatory pathway and reduces cytokines (TNF-α, IL-6, IL-1β) that cause nerve hyper-excitability and pain. Less inflammation means calmer, less reactive nerves.<\/p><p><strong>4. Nerve Repair and Regeneration<\/strong><br\/>R-ALA upregulates Nerve Growth Factor (NGF) and BDNF — proteins critical for nerve survival and repair. It also protects the myelin sheath, which is essential for fast, efficient nerve signalling.<\/p><p>600mg of pure R-form ALA per serving, paired with Organic Coconut Oil for optimal absorption. This is why it works when other supplements do not.<\/p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -492,7 +529,7 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>Yes. Alpha-lipoic acid has been used in clinical and wellness settings for decades and is generally well tolerated. R-ALA in particular is the naturally occurring form already present in the body.</p><p>Romira R-Alpha Lipoic Acid is <strong>100% natural, non-GMO, vegan</strong>, and made without artificial fillers, binders, or preservatives. Every batch is <strong>third-party tested for purity and potency</strong> and produced in a <strong>GMP-certified facility in the USA</strong>.</p><p><strong>Free from:</strong> Gluten, Soy, Eggs, Dairy, Nuts, Preservatives, and Animal Products.</p><p>The most commonly noted side effect is mild nausea in a small number of users, particularly on an empty stomach. Taking capsules with food reduces this and also improves absorption. If you are managing blood sugar or taking diabetes medication, consult your healthcare provider before use.</p>",
+            "content": "<p>Yes. Alpha-lipoic acid has been used in clinical and wellness settings for decades and is generally well tolerated. R-ALA in particular is the naturally occurring form already present in the body.<\/p><p>Romira R-Alpha Lipoic Acid is <strong>100% natural, non-GMO, vegan<\/strong>, and made without artificial fillers, binders, or preservatives. Every batch is <strong>third-party tested for purity and potency<\/strong> and produced in a <strong>GMP-certified facility in the USA<\/strong>.<\/p><p><strong>Free from:<\/strong> Gluten, Soy, Eggs, Dairy, Nuts, Preservatives, and Animal Products.<\/p><p>The most commonly noted side effect is mild nausea in a small number of users, particularly on an empty stomach. Taking capsules with food reduces this and also improves absorption. If you are managing blood sugar or taking diabetes medication, consult your healthcare provider before use.<\/p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -508,7 +545,7 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>Each daily serving (2 veggie capsules) contains:</p><p><strong>600mg R-Alpha Lipoic Acid</strong> — The naturally active R-form. Not a racemic mixture.</p><p><strong>Organic Coconut Oil</strong> — Included because R-ALA is fat-soluble. Supports proper absorption.</p><p><strong>Other Ingredients:</strong> Vegetable cellulose (capsule shell). Nothing else.</p><p><strong>Free from:</strong> Gluten, Soy, Eggs, Dairy, Nuts, Preservatives, Animal Products.</p><p><strong>Made in the USA</strong> — GMP Certified, Third-Party Lab Tested.</p>",
+            "content": "<p>Each daily serving (2 veggie capsules) contains:<\/p><p><strong>600mg R-Alpha Lipoic Acid<\/strong> — The naturally active R-form. Not a racemic mixture.<\/p><p><strong>Organic Coconut Oil<\/strong> — Included because R-ALA is fat-soluble. Supports proper absorption.<\/p><p><strong>Other Ingredients:<\/strong> Vegetable cellulose (capsule shell). Nothing else.<\/p><p><strong>Free from:<\/strong> Gluten, Soy, Eggs, Dairy, Nuts, Preservatives, Animal Products.<\/p><p><strong>Made in the USA<\/strong> — GMP Certified, Third-Party Lab Tested.<\/p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -524,7 +561,7 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>We offer a <strong>60-day money-back guarantee</strong> — because R-ALA works cumulatively and we want you to have the full evaluation window.</p><p>If for any reason you are not completely satisfied after completing your 60-day protocol, we will issue a <strong>full refund, no questions asked</strong>. Simply contact our support team and we will take care of you.</p>",
+            "content": "<p>We offer a <strong>60-day money-back guarantee<\/strong> — because R-ALA works cumulatively and we want you to have the full evaluation window.<\/p><p>If for any reason you are not completely satisfied after completing your 60-day protocol, we will issue a <strong>full refund, no questions asked<\/strong>. Simply contact our support team and we will take care of you.<\/p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -540,36 +577,10 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p><strong>Fast Shipping</strong><br/>Orders are processed within 24 hours from our US facility.</p><p><strong>US Delivery</strong><br/>Packages typically arrive within 6–12 business days.</p><p><strong>Easy Returns</strong><br/>If you aren't happy, our US support team makes the return process simple and hassle-free.</p>",
+            "content": "<p><strong>Fast Shipping<\/strong><br\/>Orders are processed within 24 hours from our US facility.<\/p><p><strong>US Delivery<\/strong><br\/>Packages typically arrive within 6–12 business days.<\/p><p><strong>Easy Returns<\/strong><br\/>If you aren't happy, our US support team makes the return process simple and hassle-free.<\/p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
-          }
-        },
-        "sub_bar_main": {
-          "type": "subscription_bar",
-          "settings": {
-            "item_1_icon": "autorenew",
-            "item_1_text": "Refills Ship Every Month",
-            "item_2_icon": "schedule",
-            "item_2_text": "Stop or Cancel Anytime",
-            "separator": "|",
-            "sep_color": "#cccccc",
-            "sep_size": 16,
-            "alignment": "center",
-            "bg_color": "#ffffff",
-            "radius": 0,
-            "pad_v": 8,
-            "pad_h": 0,
-            "margin_top": 3,
-            "margin_bottom": 3,
-            "font_size": 13,
-            "text_color": "#555555",
-            "item_gap": 20,
-            "icon_size": 16,
-            "icon_color": "#264165",
-            "icon_gap": 5,
-            "icon_filled": false
           }
         }
       },
@@ -654,8 +665,8 @@
           "settings": {
             "title": "I can feel my feet again",
             "rating": 5,
-            "body": "<p>I had almost forgotten what normal felt like. After about three weeks on Romira R-ALA, I was standing in my kitchen and realised I could actually feel the floor beneath me. The constant burning in my feet had just... quieted. My husband noticed before I even said anything. I am not dramatic about supplements but this one genuinely changed my mornings.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_38_38_AM.png",
+            "body": "<p>I had almost forgotten what normal felt like. After about three weeks on Romira R-ALA, I was standing in my kitchen and realised I could actually feel the floor beneath me. The constant burning in my feet had just... quieted. My husband noticed before I even said anything. I am not dramatic about supplements but this one genuinely changed my mornings.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_38_AM.png",
             "reviewer_name": "Sandra B.",
             "verified_text": "Verified Customer",
             "date": "November 8th 2025"
@@ -666,8 +677,8 @@
           "settings": {
             "title": "The burning stopped — I can actually sleep",
             "rating": 5,
-            "body": "<p>For years I would wake up two or three times a night with that awful burning and tingling in my legs. I tried magnesium, B12, CBD — nothing worked consistently. I started Romira and by week four the nighttime flare-ups had calmed significantly. By week six I was sleeping through the night. I cannot overstate what that means to daily life.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_38_32_AM.png",
+            "body": "<p>For years I would wake up two or three times a night with that awful burning and tingling in my legs. I tried magnesium, B12, CBD — nothing worked consistently. I started Romira and by week four the nighttime flare-ups had calmed significantly. By week six I was sleeping through the night. I cannot overstate what that means to daily life.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_32_AM.png",
             "reviewer_name": "Margaret H.",
             "verified_text": "Verified Customer",
             "date": "October 29th 2025"
@@ -678,8 +689,8 @@
           "settings": {
             "title": "Finally something that reaches the nerve itself",
             "rating": 5,
-            "body": "<p>I researched R-ALA extensively before buying — the pure R-form specifically mattered to me. After about a month I noticed the sensitivity in my feet easing. By month two I was genuinely more comfortable walking and standing for any length of time. It works in a way that is different from anything else I have tried.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_38_35_AM.png",
+            "body": "<p>I researched R-ALA extensively before buying — the pure R-form specifically mattered to me. After about a month I noticed the sensitivity in my feet easing. By month two I was genuinely more comfortable walking and standing for any length of time. It works in a way that is different from anything else I have tried.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_35_AM.png",
             "reviewer_name": "David K.",
             "verified_text": "Verified Customer",
             "date": "December 3rd 2025"
@@ -690,8 +701,8 @@
           "settings": {
             "title": "Pins and needles gone after years",
             "rating": 5,
-            "body": "<p>I have had pins and needles in my hands and feet for years. Waking up at 3am because your hands have gone numb is exhausting. After staying consistent with Romira for 60 days, the nighttime episodes dropped dramatically. I am sleeping better, moving more freely. Worth every single penny.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_37_57_AM.png",
+            "body": "<p>I have had pins and needles in my hands and feet for years. Waking up at 3am because your hands have gone numb is exhausting. After staying consistent with Romira for 60 days, the nighttime episodes dropped dramatically. I am sleeping better, moving more freely. Worth every single penny.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_37_57_AM.png",
             "reviewer_name": "Barbara W.",
             "verified_text": "Verified Customer",
             "date": "November 21st 2025"
@@ -702,8 +713,8 @@
           "settings": {
             "title": "My doctor said nothing would help. He was wrong.",
             "rating": 5,
-            "body": "<p>I was told the nerve damage was just something I would have to manage. I refused to accept that. After two months on Romira the tingling in my feet is a fraction of what it was. The daily burning that made every step uncomfortable has genuinely reduced. I wish I had found this two years ago.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_37_55_AM.png",
+            "body": "<p>I was told the nerve damage was just something I would have to manage. I refused to accept that. After two months on Romira the tingling in my feet is a fraction of what it was. The daily burning that made every step uncomfortable has genuinely reduced. I wish I had found this two years ago.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_37_55_AM.png",
             "reviewer_name": "James C.",
             "verified_text": "Verified Customer",
             "date": "January 5th 2026"
@@ -714,8 +725,8 @@
           "settings": {
             "title": "My hands stopped going numb at night",
             "rating": 5,
-            "body": "<p>I would wake up every single night with both hands completely numb — I'd have to shake them for minutes before they felt normal again. It was exhausting. After about six weeks on Romira the episodes became less frequent and by week ten they had almost stopped entirely. I sleep straight through now. Something I had genuinely stopped believing was possible.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_38_00_AM.png",
+            "body": "<p>I would wake up every single night with both hands completely numb — I'd have to shake them for minutes before they felt normal again. It was exhausting. After about six weeks on Romira the episodes became less frequent and by week ten they had almost stopped entirely. I sleep straight through now. Something I had genuinely stopped believing was possible.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_00_AM.png",
             "reviewer_name": "Linda M.",
             "verified_text": "Verified Customer",
             "date": "February 14th 2026"
@@ -726,8 +737,8 @@
           "settings": {
             "title": "I can walk the dog again without stopping",
             "rating": 5,
-            "body": "<p>The burning in my feet made every walk a negotiation with myself about how far I could go before it became too much. I had cut my dog walks from 40 minutes down to 10. After two months on Romira I am back to full walks. The burning is still there slightly but it no longer stops me. That is a meaningful change to my daily life.</p>",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_38_04_AM.png",
+            "body": "<p>The burning in my feet made every walk a negotiation with myself about how far I could go before it became too much. I had cut my dog walks from 40 minutes down to 10. After two months on Romira I am back to full walks. The burning is still there slightly but it no longer stops me. That is a meaningful change to my daily life.<\/p>",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_38_04_AM.png",
             "reviewer_name": "Gary S.",
             "verified_text": "Verified Customer",
             "date": "March 2nd 2026"
@@ -754,7 +765,7 @@
         "heading_color": "#ffffff",
         "heading_gap": 8,
         "heading_alignment": "center",
-        "overall_rating_text": "Rated 4.9 / 5.0 | 'Excellent'",
+        "overall_rating_text": "Rated 4.9 \/ 5.0 | 'Excellent'",
         "overall_alignment": "center",
         "overall_star_size": 30,
         "overall_text_size": 18,
@@ -822,7 +833,7 @@
             "heading": "When and how should I take it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Take 2 capsules daily with a meal that contains some healthy fat — this supports absorption since R-ALA is fat-soluble. Morning or evening both work well. Stay consistent, R-ALA works cumulatively, so daily use over 60 days gives you the best results and the full benefit of our guarantee.</p>",
+            "row_content": "<p>Take 2 capsules daily with a meal that contains some healthy fat — this supports absorption since R-ALA is fat-soluble. Morning or evening both work well. Stay consistent, R-ALA works cumulatively, so daily use over 60 days gives you the best results and the full benefit of our guarantee.<\/p>",
             "page": ""
           }
         },
@@ -833,7 +844,7 @@
             "heading": "How long until I see results?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>R-ALA works cumulatively — it supports the underlying cellular processes connected to nerve health rather than providing instant relief. Most people begin noticing improvements in nerve comfort between weeks 2 and 4. Nighttime tingling and burning are often the first things to ease. Give it the full 60 days for a proper evaluation — which is exactly why we offer the 60-day guarantee.</p>",
+            "row_content": "<p>R-ALA works cumulatively — it supports the underlying cellular processes connected to nerve health rather than providing instant relief. Most people begin noticing improvements in nerve comfort between weeks 2 and 4. Nighttime tingling and burning are often the first things to ease. Give it the full 60 days for a proper evaluation — which is exactly why we offer the 60-day guarantee.<\/p>",
             "page": ""
           }
         },
@@ -843,7 +854,7 @@
             "heading": "What is R-Alpha Lipoic Acid?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Alpha-lipoic acid (ALA) is a naturally occurring antioxidant compound found in every cell of the body. It plays a key role in energy production inside the mitochondria. R-Alpha Lipoic Acid is the naturally occurring, biologically active form — the one your body produces and recognises. It is both water- and fat-soluble, meaning it can provide antioxidant protection across more cellular environments than virtually any other antioxidant.</p>",
+            "row_content": "<p>Alpha-lipoic acid (ALA) is a naturally occurring antioxidant compound found in every cell of the body. It plays a key role in energy production inside the mitochondria. R-Alpha Lipoic Acid is the naturally occurring, biologically active form — the one your body produces and recognises. It is both water- and fat-soluble, meaning it can provide antioxidant protection across more cellular environments than virtually any other antioxidant.<\/p>",
             "page": ""
           }
         },
@@ -853,7 +864,7 @@
             "heading": "Will this help with diabetic neuropathy?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Alpha-lipoic acid has been studied extensively in the context of nerve health and glucose metabolism. Many of our customers with diabetic neuropathy have reported meaningful improvements in tingling, burning, and nighttime discomfort with consistent daily use. If you are managing blood sugar or taking diabetes medication, please consult your healthcare provider before starting — as ALA supports glucose metabolism and may interact with blood sugar management.</p>",
+            "row_content": "<p>Alpha-lipoic acid has been studied extensively in the context of nerve health and glucose metabolism. Many of our customers with diabetic neuropathy have reported meaningful improvements in tingling, burning, and nighttime discomfort with consistent daily use. If you are managing blood sugar or taking diabetes medication, please consult your healthcare provider before starting — as ALA supports glucose metabolism and may interact with blood sugar management.<\/p>",
             "page": ""
           }
         },
@@ -863,7 +874,7 @@
             "heading": "How is Romira R-ALA different from other supplements?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Three things set Romira apart: the form, the absorption support, and the guarantee. We use the pure R-form — not a cheap racemic mixture of R and S forms. We include Organic Coconut Oil in every capsule to support fat-soluble absorption. And we back everything with a 60-day money-back guarantee because we want you to have the full evaluation window. Made in the USA in a GMP-certified facility, third-party tested.</p>",
+            "row_content": "<p>Three things set Romira apart: the form, the absorption support, and the guarantee. We use the pure R-form — not a cheap racemic mixture of R and S forms. We include Organic Coconut Oil in every capsule to support fat-soluble absorption. And we back everything with a 60-day money-back guarantee because we want you to have the full evaluation window. Made in the USA in a GMP-certified facility, third-party tested.<\/p>",
             "page": ""
           }
         },
@@ -873,7 +884,7 @@
             "heading": "Are there any side effects?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>R-ALA is generally well tolerated. A small number of users report mild nausea, which can usually be avoided by taking capsules with food. If you are managing blood sugar levels or taking diabetes medication, consult your healthcare provider before use. If you have any underlying health conditions or take prescription medication, check with your doctor before starting.</p>",
+            "row_content": "<p>R-ALA is generally well tolerated. A small number of users report mild nausea, which can usually be avoided by taking capsules with food. If you are managing blood sugar levels or taking diabetes medication, consult your healthcare provider before use. If you have any underlying health conditions or take prescription medication, check with your doctor before starting.<\/p>",
             "page": ""
           }
         },
@@ -883,7 +894,7 @@
             "heading": "What if it does not work for me?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>We offer a full 60-day money-back guarantee. If after 60 days of consistent daily use you are not satisfied, simply contact our support team and we will refund you in full — no questions asked, no hassle. We stand behind the product completely.</p>",
+            "row_content": "<p>We offer a full 60-day money-back guarantee. If after 60 days of consistent daily use you are not satisfied, simply contact our support team and we will refund you in full — no questions asked, no hassle. We stand behind the product completely.<\/p>",
             "page": ""
           }
         },
@@ -894,7 +905,7 @@
             "heading": "Can I take it with other supplements or medications?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>R-ALA is generally considered safe alongside most supplements and actually supports the regeneration of other antioxidants including Vitamin C, Vitamin E, and Glutathione. If you are taking prescription medication — particularly for blood sugar, inflammation, or neurological conditions — consult your healthcare provider before use.</p>",
+            "row_content": "<p>R-ALA is generally considered safe alongside most supplements and actually supports the regeneration of other antioxidants including Vitamin C, Vitamin E, and Glutathione. If you are taking prescription medication — particularly for blood sugar, inflammation, or neurological conditions — consult your healthcare provider before use.<\/p>",
             "page": ""
           }
         }
@@ -966,7 +977,7 @@
         "feat_1": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/Untitled_design_80.png",
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_80.png",
             "icon_emoji": "⚡",
             "label": "Clears Oxidative Damage"
           }
@@ -974,7 +985,7 @@
         "feat_2": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/Untitled_design_79.png",
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_79.png",
             "icon_emoji": "🔋",
             "label": "Restores Nerve Energy"
           }
@@ -982,7 +993,7 @@
         "feat_3": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/Untitled_design_82.png",
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_82.png",
             "icon_emoji": "🛡️",
             "label": "Rebuilds Myelin Protection"
           }
@@ -990,7 +1001,7 @@
         "feat_4": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/Untitled_design_81.png",
+            "icon_image": "shopify:\/\/shop_images\/Untitled_design_81.png",
             "icon_emoji": "🩸",
             "label": "Improves Nerve Blood Flow"
           }
@@ -1005,13 +1016,13 @@
       "settings": {
         "outer_bg": "#264165",
         "content_width": 1400,
-        "p1_image": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_57_14_AM.png",
+        "p1_image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_57_14_AM.png",
         "p1_image_position": "left",
         "p1_img_width": 50,
-        "p1_img_ratio": "16/9",
-        "p1_img_ratio_mobile": "16/9",
+        "p1_img_ratio": "16\/9",
+        "p1_img_ratio_mobile": "16\/9",
         "p1_img_radius": 8,
-        "p1_heading": "The Real Reason Your Nerves <em>Won't Stop Burning</em>",
+        "p1_heading": "The Real Reason Your Nerves <em>Won't Stop Burning<\/em>",
         "p1_heading_tag": "h2",
         "p1_heading_size": 32,
         "p1_heading_size_mobile": 31,
@@ -1019,7 +1030,7 @@
         "p1_heading_color": "#ffffff",
         "p1_heading_highlight": "#dd1d1d",
         "p1_heading_gap": 16,
-        "p1_body": "<p><strong>Your nerve cells are the most energy-hungry cells in your body. They need constant fuel just to stay alive, send signals, and repair themselves. When that fuel runs out — your nerves are the first to break down. And once they start, they do not stop on their own.</strong></p>",
+        "p1_body": "<p><strong>Your nerve cells are the most energy-hungry cells in your body. They need constant fuel just to stay alive, send signals, and repair themselves. When that fuel runs out — your nerves are the first to break down. And once they start, they do not stop on their own.<\/strong><\/p>",
         "p1_body_size": 15,
         "p1_body_size_mobile": 14,
         "p1_body_color": "#ffffff",
@@ -1061,7 +1072,7 @@
         "p2_heading_size_mobile": 26,
         "p2_heading_weight": "700",
         "p2_heading_color": "#ffffff",
-        "p2_body": "<p>Romira R-Alpha Lipoic Acid enters the nerve cell directly — clearing the damage, restoring the energy your nerves need to survive, and rebuilding the protection that years of breakdown have stripped away.</p>",
+        "p2_body": "<p>Romira R-Alpha Lipoic Acid enters the nerve cell directly — clearing the damage, restoring the energy your nerves need to survive, and rebuilding the protection that years of breakdown have stripped away.<\/p>",
         "p2_body_size": 15,
         "p2_body_size_mobile": 14,
         "p2_body_color": "#ccddcc",
@@ -1075,12 +1086,12 @@
         "feat_gap_mobile": 20,
         "feat_align": "center",
         "feat_text_align": "center",
-        "p2_product_image": "shopify://shop_images/Untitled_design_74.png",
+        "p2_product_image": "shopify:\/\/shop_images\/Untitled_design_74.png",
         "p2_product_position": "right",
         "p2_product_width": 40,
         "p2_product_img_size": 600,
         "p2_product_img_size_mobile": 800,
-        "p2_product_ratio": "1/1",
+        "p2_product_ratio": "1\/1",
         "p2_wrap_pad": 0,
         "p2_wrap_pad_mobile": 0,
         "p2_pad": 32,
@@ -1105,7 +1116,7 @@
           "settings": {
             "label": "WEEKS 1–2",
             "heading": "The Foundation Builds",
-            "text": "<p>R-ALA begins accumulating in nerve tissue. You may not feel dramatic changes yet — this is the cellular groundwork phase. Many customers notice mild improvements in sleep quality and reduced pain levels.</p>",
+            "text": "<p>R-ALA begins accumulating in nerve tissue. You may not feel dramatic changes yet — this is the cellular groundwork phase. Many customers notice mild improvements in sleep quality and reduced pain levels.<\/p>",
             "accent_color": "#264165",
             "label_text_color": "#ffffff",
             "heading_color": "#1a1a1a",
@@ -1117,7 +1128,7 @@
           "settings": {
             "label": "WEEKS 3–4",
             "heading": "The Shift Begins",
-            "text": "<p>Most customers start noticing real changes here. The burning and tingling that was unbearable begins to ease. Standing and walking feel less uncomfortable. Sleep improves noticeably.</p>",
+            "text": "<p>Most customers start noticing real changes here. The burning and tingling that was unbearable begins to ease. Standing and walking feel less uncomfortable. Sleep improves noticeably.<\/p>",
             "accent_color": "#264165",
             "label_text_color": "#ffffff",
             "heading_color": "#1a1a1a",
@@ -1129,7 +1140,7 @@
           "settings": {
             "label": "WEEKS 5–8",
             "heading": "Sustained Relief",
-            "text": "<p>Nerve comfort continues improving. Sensitivity in hands and feet reduces. Many customers describe feeling more comfortable, more mobile, and more rested than they have in years.</p>",
+            "text": "<p>Nerve comfort continues improving. Sensitivity in hands and feet reduces. Many customers describe feeling more comfortable, more mobile, and more rested than they have in years.<\/p>",
             "accent_color": "#264165",
             "label_text_color": "#ffffff",
             "heading_color": "#1a1a1a",
@@ -1141,7 +1152,7 @@
           "settings": {
             "label": "WEEKS 9–12+",
             "heading": "Long-Term Support",
-            "text": "<p>With continued daily use, the improvements compound. Customers report the lowest levels of nerve discomfort in years. The 60-day guarantee gives you the full evaluation window.</p>",
+            "text": "<p>With continued daily use, the improvements compound. Customers report the lowest levels of nerve discomfort in years. The 60-day guarantee gives you the full evaluation window.<\/p>",
             "accent_color": "#264165",
             "label_text_color": "#ffffff",
             "heading_color": "#1a1a1a",
@@ -1219,28 +1230,28 @@
         "stage_wGG9hb": {
           "type": "stage",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_07_57_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_07_57_AM.png",
             "stage_label": "STAGE 1",
             "heading": "Early Warning Signs",
-            "text": "<p>Occasional tingling or numbness in hands and feet. Usually worse at night. Most people assume it will pass — and ignore it for months.</p>"
+            "text": "<p>Occasional tingling or numbness in hands and feet. Usually worse at night. Most people assume it will pass — and ignore it for months.<\/p>"
           }
         },
         "stage_2": {
           "type": "stage",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_07_55_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_07_55_AM.png",
             "stage_label": "STAGE 2",
             "heading": "The Discomfort Sets In",
-            "text": "<p>Burning, electric shocks, and pins-and-needles become daily. Sleep suffers. Simple tasks — walking, holding objects — become uncomfortable.</p>"
+            "text": "<p>Burning, electric shocks, and pins-and-needles become daily. Sleep suffers. Simple tasks — walking, holding objects — become uncomfortable.<\/p>"
           }
         },
         "stage_3": {
           "type": "stage",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_08_00_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_08_00_AM.png",
             "stage_label": "STAGE 3",
             "heading": "Your World Gets Smaller",
-            "text": "<p>Chronic nerve discomfort limits mobility, disrupts sleep, and affects mood. Many have tried multiple approaches with little lasting relief. This is where R-ALA works differently.</p>"
+            "text": "<p>Chronic nerve discomfort limits mobility, disrupts sleep, and affects mood. Many have tried multiple approaches with little lasting relief. This is where R-ALA works differently.<\/p>"
           }
         }
       },
@@ -1310,7 +1321,7 @@
       "name": "SS - Video with Text #3",
       "settings": {
         "media": "image",
-        "image": "shopify://shop_images/kasim_4.png",
+        "image": "shopify:\/\/shop_images\/kasim_4.png",
         "video_url": "",
         "media_width": 37,
         "media_width_mobile": 100,
@@ -1327,7 +1338,7 @@
         "content_padding_vertical_mobile": 14,
         "content_padding_horizontal": 26,
         "content_padding_horizontal_mobile": 12,
-        "heading": "<h1><strong>Why Everything Else Failed?</strong></h1>",
+        "heading": "<h1><strong>Why Everything Else Failed?<\/strong><\/h1>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 40,
@@ -1348,7 +1359,7 @@
         "sub_heading_mt": 16,
         "sub_heading_position": "2",
         "sub_heading_position_mobile": "2",
-        "text": "<p>❌ B12 supports nerves.<br/><br/>❌ Magnesium relaxes muscles.<br/><br/>❌ Turmeric fights inflammation.<br/><br/>❌ CBD calms your system.</p><p>Real supplements. Just not for this.</p><p><br/>✅ R-Alpha Lipoic Acid is the only compound that actually enters the nerve cell, repairs the damage, and restores what broke down in the first place.</p>",
+        "text": "<p>❌ B12 supports nerves.<br\/><br\/>❌ Magnesium relaxes muscles.<br\/><br\/>❌ Turmeric fights inflammation.<br\/><br\/>❌ CBD calms your system.<\/p><p>Real supplements. Just not for this.<\/p><p><br\/>✅ R-Alpha Lipoic Acid is the only compound that actually enters the nerve cell, repairs the damage, and restores what broke down in the first place.<\/p>",
         "text_custom": false,
         "text_font": "josefin_sans_n4",
         "text_size": 18,
@@ -1425,7 +1436,7 @@
         "heading_q4AJBD": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Real Stories, Real Results</h2>",
+            "heading": "<h2>Real Stories, Real Results<\/h2>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 34,
@@ -1445,7 +1456,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Tell your story</p>",
+            "text": "<p>Tell your story<\/p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 14,
@@ -1461,7 +1472,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_35_44_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_35_44_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1472,7 +1483,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_34_30_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_34_30_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1483,7 +1494,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_35_12_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_35_12_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1494,7 +1505,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_31_05_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_31_05_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1505,7 +1516,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_31_09_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_31_09_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1516,7 +1527,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_31_03_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_31_03_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1527,7 +1538,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_20_37_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_20_37_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1538,7 +1549,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_19_14_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_19_14_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1549,7 +1560,7 @@
           "type": "media",
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_02_34_08_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_02_34_08_AM.png",
             "source": "uploaded",
             "media_url": "",
             "text": "",
@@ -1712,7 +1723,7 @@
         "brand_col_width": 23,
         "feature_col_width": 37,
         "romira_col_label": "Romira",
-        "romira_image": "shopify://shop_images/Untitled_design_72.png",
+        "romira_image": "shopify:\/\/shop_images\/Untitled_design_72.png",
         "romira_header_bg": "#264165",
         "romira_header_color": "#ffffff",
         "romira_cell_bg": "#eef2f7",
@@ -1726,7 +1737,7 @@
         "feature_text_size_mobile": 14,
         "feature_text_weight": "700",
         "others_col_label": "Others",
-        "others_image": "shopify://shop_images/Untitled_design_73.png",
+        "others_image": "shopify:\/\/shop_images\/Untitled_design_73.png",
         "others_header_bg": "#f0f0f0",
         "others_header_color": "#666666",
         "others_cell_bg": "#fafafa",
@@ -1775,21 +1786,21 @@
           "type": "row",
           "settings": {
             "percentage": 71,
-            "row_text": "<p><strong>71% of participants in published alpha-lipoic acid research reported meaningful reductions in tingling, burning, and nerve sensitivity with consistent daily supplementation</strong></p>"
+            "row_text": "<p><strong>71% of participants in published alpha-lipoic acid research reported meaningful reductions in tingling, burning, and nerve sensitivity with consistent daily supplementation<\/strong><\/p>"
           }
         },
         "row_HqrFjp": {
           "type": "row",
           "settings": {
             "percentage": 88,
-            "row_text": "<p><strong>88% of Customers report noticeable improvements in sleep quality within the first 30 days — no more waking up to burning or pins and needles</strong></p>"
+            "row_text": "<p><strong>88% of Customers report noticeable improvements in sleep quality within the first 30 days — no more waking up to burning or pins and needles<\/strong><\/p>"
           }
         },
         "row_76XHzi": {
           "type": "row",
           "settings": {
             "percentage": 92,
-            "row_text": "<p><strong>92% of  R-ALA users report meaningful improvements in daily nerve comfort and reduced sensitivity with consistent use over 60 days</strong></p>"
+            "row_text": "<p><strong>92% of  R-ALA users report meaningful improvements in daily nerve comfort and reduced sensitivity with consistent use over 60 days<\/strong><\/p>"
           }
         }
       },
@@ -1801,7 +1812,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "<strong>What The Research & Customers Show</strong>",
+        "title": "<strong>What The Research & Customers Show<\/strong>",
         "title_highlight_color": "#000000",
         "heading_size": "h1",
         "text": "",
@@ -1813,7 +1824,7 @@
         "results_headline_size": "h2",
         "results_text": "",
         "results_headline_alignment": "left",
-        "caption": "<p>Based on peer-reviewed clinical research and published literature on alpha-lipoic acid.</p>",
+        "caption": "<p>Based on peer-reviewed clinical research and published literature on alpha-lipoic acid.<\/p>",
         "button_label": "",
         "link": "",
         "button_style_secondary": false,
@@ -1838,48 +1849,48 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_38_13_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_38_13_AM.png",
             "video_url": "",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>\"The burning and tingling in my feet had been going on for years — worst at night when I was trying to sleep. By week four on Romira R-ALA the nighttime irritation had genuinely calmed. By week six I was sleeping through the night again. Cannot recommend it enough.\"</p>",
-            "author": "<p><strong>Helen P.</strong> — Age 64, Verified Customer</p>"
+            "text": "<p>\"The burning and tingling in my feet had been going on for years — worst at night when I was trying to sleep. By week four on Romira R-ALA the nighttime irritation had genuinely calmed. By week six I was sleeping through the night again. Cannot recommend it enough.\"<\/p>",
+            "author": "<p><strong>Helen P.<\/strong> — Age 64, Verified Customer<\/p>"
           }
         },
         "slide_2": {
           "type": "slide",
           "settings": {
             "media_style": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_38_06_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_38_06_AM.png",
             "video_url": "",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>\"I tried CBD, magnesium, turmeric — nothing consistently addressed the pins and needles I get in my hands and feet. This is different. The tingling has dialled down noticeably and I feel sharper overall. About eight weeks in and I have no plans to stop.\"</p>",
-            "author": "<p><strong>Mark C.</strong> — Age 57, Verified Customer</p>"
+            "text": "<p>\"I tried CBD, magnesium, turmeric — nothing consistently addressed the pins and needles I get in my hands and feet. This is different. The tingling has dialled down noticeably and I feel sharper overall. About eight weeks in and I have no plans to stop.\"<\/p>",
+            "author": "<p><strong>Mark C.<\/strong> — Age 57, Verified Customer<\/p>"
           }
         },
         "slide_3": {
           "type": "slide",
           "settings": {
             "media_style": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_42_26_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_42_26_AM.png",
             "video_url": "",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>\"I was sceptical — supplements often disappoint me. But I stayed consistent for the full 60 days and the difference is real. The burning discomfort in my legs has genuinely calmed, and I feel like I'm moving more freely day to day. Solid product.\"</p>",
-            "author": "<p><strong>Alan M.</strong> — Age 61, Verified Customer</p>"
+            "text": "<p>\"I was sceptical — supplements often disappoint me. But I stayed consistent for the full 60 days and the difference is real. The burning discomfort in my legs has genuinely calmed, and I feel like I'm moving more freely day to day. Solid product.\"<\/p>",
+            "author": "<p><strong>Alan M.<\/strong> — Age 61, Verified Customer<\/p>"
           }
         },
         "slide_4": {
           "type": "slide",
           "settings": {
             "media_style": "image",
-            "image": "shopify://shop_images/ChatGPT_Image_May_12_2026_12_38_09_AM.png",
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_May_12_2026_12_38_09_AM.png",
             "video_url": "",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>\"I researched ALA carefully before buying — the R-form mattered to me, not just the cheap racemic mix. After about a month I noticed the sensitivity in my feet easing off, and by month two I was genuinely more comfortable walking and standing. Very happy with this.\"</p>",
-            "author": "<p><strong>Sarah R.</strong> — Age 59, Verified Customer</p>"
+            "text": "<p>\"I researched ALA carefully before buying — the R-form mattered to me, not just the cheap racemic mix. After about a month I noticed the sensitivity in my feet easing off, and by month two I was genuinely more comfortable walking and standing. Very happy with this.\"<\/p>",
+            "author": "<p><strong>Sarah R.<\/strong> — Age 59, Verified Customer<\/p>"
           }
         }
       },
@@ -1892,7 +1903,7 @@
       "disabled": true,
       "name": "SS - Testimonials #12",
       "settings": {
-        "heading": "<h1><strong>What Real Customers Are Saying</strong></h1>",
+        "heading": "<h1><strong>What Real Customers Are Saying<\/strong><\/h1>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 34,
@@ -2004,7 +2015,7 @@
             "stars": 5,
             "rating_text": "5.0",
             "body": "I had given up. Two years of Gabapentin and all it gave me was brain fog and 20 extra pounds. The numbness just kept spreading. My daughter found Romira for me and I figured I had nothing to lose. By week three, I woke up and realized the burning was gone. Not dulled. Gone. I stood in my bathroom and wiggled my toes and I could feel them. I am 67 years old and I sat on the edge of my bathtub and cried.",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_49_07_AM.png",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_49_07_AM.png",
             "reviewer_name": "Emily B.",
             "show_verified": true,
             "verified_text": "Verified Customer"
@@ -2016,7 +2027,7 @@
             "stars": 5,
             "rating_text": "5.0",
             "body": "The neuropathy had stolen my retirement. I could not travel, could not walk the beach with my wife, could not even stand long enough to cook dinner. I tried every nerve supplement on the market. B12, ALA, magnesium, creams, grounding mats, you name it. Nothing worked because nothing was fixing the real problem. Romira was the first thing that actually made a difference. The tingling is almost gone. My balance is better. I walked on the beach last month for the first time in three years.",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_49_09_AM.png",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_49_09_AM.png",
             "reviewer_name": "Mike K.",
             "show_verified": true,
             "verified_text": "Verified Customer"
@@ -2028,7 +2039,7 @@
             "stars": 5,
             "rating_text": "5.0",
             "body": "I used to dread bedtime. The second my feet hit the sheets the burning would start and I knew I was in for another night of waking up every two hours drenched in sweat. I started Romira and within two weeks the burning had calmed enough for me to sleep through the night. Now at month two, I actually look forward to bed. I wake up rested. My wife says I seem like a different person. I feel like one.",
-            "avatar": "shopify://shop_images/ChatGPT_Image_May_21_2026_01_49_12_AM.png",
+            "avatar": "shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_01_49_12_AM.png",
             "reviewer_name": "Robert R.",
             "show_verified": true,
             "verified_text": "Verified Customer"
@@ -2049,7 +2060,7 @@
         "heading_size": 48,
         "heading_size_mobile": 28,
         "show_overall_rating": true,
-        "overall_rating_text": "Rated 4.9 / 5.0 | 'Excellent'",
+        "overall_rating_text": "Rated 4.9 \/ 5.0 | 'Excellent'",
         "overall_star_color": "#00b67a",
         "show_divider": true,
         "divider_color": "#e0e0e0",
@@ -2135,7 +2146,7 @@
       "type": "apps",
       "blocks": {
         "subscriptions_app_block_yzzCK4": {
-          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
             "widget_style": "toggle",
             "widget_style_card_selector": "radio_button",
