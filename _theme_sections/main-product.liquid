@@ -49,95 +49,77 @@
 </script>
 
 <script>
-/* ── Subscription selling plan enforcer ──────────────────────────────────────
-   Problem: Shopify native subscriptions app renders radios with name="selling_plan"
-   inside the form. The one-time radio is checked by default → FormData submits
-   selling_plan="" → Shopify blocks "variant can only be purchased with a selling plan".
-   Fix: fetch the plan ID from product JSON (reliable regardless of Liquid), strip the
-   one-time radio's name so it can't interfere, then append a hidden input as the last
-   field in the form so it wins in FormData.
-   Skips in designMode so theme editor still sees the widget normally.
-────────────────────────────────────────────────────────────────────────────── */
+/* ── Subscription selling plan enforcer ─────────────────────────────────────
+   The Shopify native subscriptions app has a selling plan on this product
+   (ID: 1864597579 — "Deliver every month, 25% off") but the one-time radio
+   is default-selected, so the form submits selling_plan="" and Shopify blocks it.
+   Fix: intercept the fetch() call Dawn makes to /cart/add.js and forcibly
+   set selling_plan before the request leaves the browser. This is the only
+   layer that cannot be overridden by the subscription app's own JavaScript.
+   Skips when theme editor is open (designMode) so the widget stays functional.
+──────────────────────────────────────────────────────────────────────────── */
 (function(){
   if (window.Shopify && window.Shopify.designMode) return;
 
-  var spIdFromLiquid = {{ product.selling_plan_groups.first.selling_plans.first.id | default: 0 }};
-  var productHandle  = {{ product.handle | json }};
+  /* Selling plan confirmed via Admin GraphQL:
+     gid://shopify/SellingPlan/1864597579
+     Name: "Deliver every month, 25% off" */
+  var PLAN_ID = '1864597579';
 
-  function applyPlan(spId) {
-    if (!spId) return;
-    spId = String(spId);
+  /* --- Layer 1: intercept fetch (Dawn submits via fetch, not form POST) --- */
+  var _fetch = window.fetch;
+  window.fetch = function(input, init) {
+    var url = (typeof input === 'string') ? input : (input && input.url) || '';
+    if (url.indexOf('/cart/add') !== -1 && init && init.body instanceof FormData) {
+      init.body.set('selling_plan', PLAN_ID);
+    }
+    return _fetch.apply(this, arguments);
+  };
 
-    /* 1 — neuter the one-time purchase radio so it never submits */
+  /* --- Layer 2: DOM — strip one-time radio, check subscription radio,
+         append hidden input last in form (belt & suspenders) --- */
+  function applyDOM() {
+    /* neuter one-time radio */
     document.querySelectorAll('input[type="radio"]').forEach(function(r) {
-      var name = r.getAttribute('name') || '';
+      var name = (r.getAttribute('name') || '').toLowerCase();
       var val  = r.value || '';
-      /* one-time = empty / non-numeric value on a selling-plan-named radio */
-      if (name.toLowerCase().indexOf('selling') !== -1 || name.toLowerCase().indexOf('plan') !== -1) {
-        if (!val || !/^\d+$/.test(val.trim())) {
-          r.removeAttribute('name'); /* excluded from FormData */
-          r.checked = false;
-        }
+      if ((name.indexOf('selling') !== -1 || name.indexOf('plan') !== -1) &&
+          (!val || !/^\d+$/.test(val.trim()))) {
+        r.removeAttribute('name');
+        r.checked = false;
       }
     });
-
-    /* 2 — check the subscription radio (so app JS sees the right state) */
+    /* check subscription radio */
     document.querySelectorAll('input[type="radio"]').forEach(function(r) {
-      var val = r.value || '';
-      if (val && /^\d+$/.test(val.trim()) && val.trim() === spId) {
+      if ((r.value || '').trim() === PLAN_ID) {
         r.checked = true;
         r.dispatchEvent(new Event('change', { bubbles: true }));
       }
     });
-
-    /* 3 — remove any existing hidden selling_plan inputs then append fresh one last */
+    /* append hidden input as last field */
     var form = document.querySelector('form[data-type="add-to-cart-form"]');
     if (!form) return;
     form.querySelectorAll('input[type="hidden"][name="selling_plan"]').forEach(function(i){ i.remove(); });
     var h = document.createElement('input');
-    h.type = 'hidden'; h.name = 'selling_plan'; h.value = spId;
-    form.appendChild(h); /* last field — wins in FormData */
+    h.type = 'hidden'; h.name = 'selling_plan'; h.value = PLAN_ID;
+    form.appendChild(h);
   }
 
-  function run(spId) {
-    applyPlan(spId);
-    /* intercept ATC button click in capture phase */
-    document.addEventListener('click', function(e){
-      if (e.target.closest('button[name="add"], .product-form__submit, .atc-button')) {
-        applyPlan(spId);
-      }
+  /* run on load and on ATC click */
+  function init() {
+    applyDOM();
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('button[name="add"], .product-form__submit, .atc-button')) applyDOM();
     }, true);
-    /* intercept form submit in capture phase */
     var form = document.querySelector('form[data-type="add-to-cart-form"]');
-    if (form) form.addEventListener('submit', function(){ applyPlan(spId); }, true);
-  }
-
-  function boot() {
-    if (spIdFromLiquid && spIdFromLiquid > 0) {
-      /* fast path — Liquid found the plan */
-      run(spIdFromLiquid);
-      [300, 800, 1500].forEach(function(t){ setTimeout(function(){ applyPlan(spIdFromLiquid); }, t); });
-    } else {
-      /* slow path — fetch product JSON to find selling plan */
-      fetch('/products/' + productHandle + '.js')
-        .then(function(r){ return r.json(); })
-        .then(function(p){
-          var spId = null;
-          if (p.selling_plan_groups && p.selling_plan_groups.length > 0) {
-            var plans = p.selling_plan_groups[0].selling_plans;
-            if (plans && plans.length > 0) spId = plans[0].id;
-          }
-          if (spId) {
-            run(spId);
-            [300, 800, 1500].forEach(function(t){ setTimeout(function(){ applyPlan(spId); }, t); });
-          }
-        }).catch(function(){});
-    }
+    if (form) form.addEventListener('submit', applyDOM, true);
   }
 
   document.readyState === 'loading'
-    ? document.addEventListener('DOMContentLoaded', boot)
-    : boot();
+    ? document.addEventListener('DOMContentLoaded', init)
+    : init();
+
+  [200, 600, 1500].forEach(function(t){ setTimeout(applyDOM, t); });
 })();
 </script>
 

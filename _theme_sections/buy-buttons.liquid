@@ -138,16 +138,17 @@
           This silently attaches the subscription so customers can add to cart normally.
         {%- endcomment -%}
         {%- comment -%}
-          Inject selling plan when the product has any subscription plan configured.
-          Covers both requires_selling_plan=true AND apps that don't set that flag.
+          Selling plan for Romira R-ALA (Shopify Subscriptions app).
+          Plan ID 1864597579 = "Deliver every month, 25% off"
+          Liquid selling_plan_groups returns empty due to token scope limits,
+          so we use both Liquid (when available) and hardcoded fallback.
+          JS in main-product.liquid intercepts the fetch as the primary layer.
         {%- endcomment -%}
-        {%- if product.selling_plan_groups.size > 0 -%}
-          {%- for selling_plan_group in product.selling_plan_groups -%}
-            {%- if selling_plan_group.selling_plans.size > 0 -%}
-              <input type="hidden" name="selling_plan" value="{{ selling_plan_group.selling_plans.first.id }}" class="product-selling-plan-id">
-              {%- break -%}
-            {%- endif -%}
-          {%- endfor -%}
+        {%- assign rmr_sp_liquid = product.selling_plan_groups.first.selling_plans.first.id -%}
+        {%- if rmr_sp_liquid != blank -%}
+          <input type="hidden" name="selling_plan" value="{{ rmr_sp_liquid }}" class="product-selling-plan-id">
+        {%- elsif product.handle == 'lipoic-acid' -%}
+          <input type="hidden" name="selling_plan" value="1864597579" class="product-selling-plan-id">
         {%- endif -%}
         <div class="product-form__buttons{% if block.settings.uppercase_text %} product-form__buttons--uppercase{% endif %}">
           {%- liquid
