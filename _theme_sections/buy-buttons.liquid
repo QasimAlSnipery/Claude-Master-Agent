@@ -137,7 +137,11 @@
           Picks the first available selling plan from the product's plan groups.
           This silently attaches the subscription so customers can add to cart normally.
         {%- endcomment -%}
-        {%- if product.selected_or_first_available_variant.requires_selling_plan -%}
+        {%- comment -%}
+          Inject selling plan when the product has any subscription plan configured.
+          Covers both requires_selling_plan=true AND apps that don't set that flag.
+        {%- endcomment -%}
+        {%- if product.selling_plan_groups.size > 0 -%}
           {%- for selling_plan_group in product.selling_plan_groups -%}
             {%- if selling_plan_group.selling_plans.size > 0 -%}
               <input type="hidden" name="selling_plan" value="{{ selling_plan_group.selling_plans.first.id }}" class="product-selling-plan-id">

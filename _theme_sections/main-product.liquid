@@ -1135,7 +1135,7 @@
                 #{{ rmr_bp_id }} .rmr-bp__free-line { font-size:{{ block.settings.free_line_font_size }}px; color:{{ block.settings.free_line_color }}; font-weight:{%- if block.settings.free_line_bold -%}600{%- else -%}400{%- endif -%}; font-style:{%- if block.settings.free_line_italic -%}italic{%- else -%}normal{%- endif -%}; line-height:1.25; }
                 #{{ rmr_bp_id }} .rmr-bp__free-word { color:{{ block.settings.free_text_color }}; font-weight:{%- if block.settings.free_word_bold -%}700{%- else -%}400{%- endif -%}; }
                 /* ── Image ── */
-                #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width }}px; height:{{ block.settings.image_height }}px; object-fit:contain; max-width:100%; display:block; }
+                #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width }}px; height:{{ block.settings.image_height }}px; object-fit:contain; max-width:100%; display:block; margin-top:auto; }
                 @media(max-width:480px){ #{{ rmr_bp_id }} .rmr-bp__img { width:{{ block.settings.image_width_mob }}px; height:{{ block.settings.image_height_mob }}px; } }
                 /* ── Below-card ── */
                 #{{ rmr_bp_id }} .rmr-bp__below { padding-top:{{ block.settings.below_gap }}px; display:flex; flex-direction:column; align-items:{{ rmr_prices_ai }}; text-align:{{ block.settings.prices_align }}; gap:{{ block.settings.price_gap }}px; }
