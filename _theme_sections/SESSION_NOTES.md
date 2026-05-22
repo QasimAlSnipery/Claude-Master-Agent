@@ -1,5 +1,5 @@
 # Session Notes — Romira Store Build
-## Last updated: 2026-05-20
+## Last updated: 2026-05-22
 
 ---
 
@@ -52,6 +52,7 @@ When user returns: read git log + this file → brief them on what was done + wh
 
 | File | Status | Description |
 |---|---|---|
+| `countdown-urgency-timer.liquid` | ✅ LIVE | Urgency countdown bar. Full desktop+mobile layout control, DAYS unit, midnight reset. |
 | `romira-timeline.liquid` | ✅ LIVE | Week-by-week timeline + guarantee bar. Has stagger scroll animations. |
 | `romira-nerve-stages.liquid` | ✅ LIVE | 3-stage nerve breakdown. Has scroll animations (header + staggered stages). |
 | `romira-comparison.liquid` | ✅ LIVE | Alevia 3-col comparison table. Has scroll animation. |
@@ -62,7 +63,7 @@ When user returns: read git log + this file → brief them on what was done + wh
 | `ss-scrolling-media.liquid` | ✅ LIVE | "Why Everything Else Failed?" section. Has scroll animation. |
 | `ss-video-with-text-3.liquid` | ✅ LIVE | Video + text section. Has scroll animation (media + content staggered). |
 | `collapsible-content.liquid` | ✅ LIVE | FAQ section. Uses Dawn animate-item (already animated). |
-| `results.liquid` | ✅ LOCAL | 71%/88%/92% stats section. Uses Dawn animate-section (already animated). |
+| `results.liquid` | ✅ LIVE | 71%/88%/92% stats section. Uses Dawn animate-section (already animated). |
 | `main-product.liquid` | ✅ LIVE | Main product section — has trust_bar + guarantee_box block types added. |
 | `buy-buttons.liquid` | ✅ LIVE | ATC button with custom label, sub-text, Material icon support. |
 | `product.lipoic.json` | ✅ LIVE | Full product template — all sections wired in. |
@@ -74,20 +75,49 @@ When user returns: read git log + this file → brief them on what was done + wh
 ## Full Section Order (product.lipoic.json — top to bottom)
 
 1. `main` — main-product (title, stars, benefits checklist, variant picker, buy buttons, guarantee, trust bar, avatars, reviews, shipping, tabs)
-2. `romira_reviews` — custom reviews carousel ← **ABOVE THIS = no animations needed**
-3. `faq_section_pea` — FAQ collapsible-content (Dawn animate-item) ✅
-4. `romira_problem_solution` — "The Real Reason" dark section ✅
-5. `romira_timeline` — week-by-week timeline ✅
-6. `romira_nerve_stages` — 3-stage nerve breakdown ✅
-7. `ss_video_with_text_3_wwtDfY` — "Why Everything Else Failed?" ✅
-8. `romira_comparison` — Romira vs. Others table ✅
-9. `results_7448bX` — 71%, 88%, 92% stats (Dawn animate-section) ✅
-10. `ss_scrolling_media_yXenpQ` — scrolling media section ✅
-11. `romira_text_reviews` — text review cards grid ✅
-12. `romira_guarantee_large` — full-width dark blue guarantee banner ✅
-13. `apps_section` — apps
+2. `countdown_urgency` — **countdown-urgency-timer** ← Romira navy #264165 bg, white numbers, midnight reset, desktop inline/mobile timer-right ✅ ADDED 2026-05-22
+3. `romira_reviews` — custom reviews carousel ← **ABOVE THIS = no animations needed**
+4. `faq_section_pea` — FAQ collapsible-content (Dawn animate-item) ✅
+5. `romira_problem_solution` — "The Real Reason" dark section ✅
+6. `romira_timeline` — week-by-week timeline ✅
+7. `romira_nerve_stages` — 3-stage nerve breakdown ✅
+8. `ss_video_with_text_3_wwtDfY` — "Why Everything Else Failed?" ✅
+9. `romira_comparison` — Romira vs. Others table ✅
+10. `results_7448bX` — 71%, 88%, 92% stats (Dawn animate-section) ✅
+11. `ss_scrolling_media_yXenpQ` — scrolling media section ✅
+12. `romira_text_reviews` — text review cards grid ✅
+13. `romira_guarantee_large` — full-width dark blue guarantee banner ✅
+14. `apps_section` — apps
 
 *(ss_testimonial_12_aKxHaF is DISABLED)*
+
+---
+
+## Countdown Urgency Timer — Full Feature List (2026-05-22)
+
+**File:** `sections/countdown-urgency-timer.liquid`
+**Placed on:** product.lipoic.json as `countdown_urgency` (position 2, after main)
+**Current style:** Romira navy `#264165` bg · white numbers · `#1a2e47` boxes · `#a8bdd4` labels · white pill button
+
+### What every setting controls
+- **Timer units:** Show/hide DAYS, HRS, SECS independently. Custom label text for each.
+- **Reset mode:** Loop 24h (rolling) | Midnight (customer's local midnight, resets daily) | Show message | Hide
+- **Layout — 5 positions, independent per breakpoint:**
+  - `Inline` — all in one row
+  - `Text left · Timer right` — side by side, text column left
+  - `Timer left · Text right` — side by side, timer column left
+  - `Text above · Timer below` — stacked
+  - `Timer above · Text below` — stacked reversed
+- **Text alignment** — Left / Center / Right, per breakpoint
+- **Colors (shared):** bg, headline, highlight, sub-message, box bg, box border, numbers, colon, labels, button bg, button text
+- **Font sizes:** Headline, Sub-message, Numbers, Labels, Button — all independent per breakpoint
+- **Number box:** min-width, padding T/B, padding L/R, border radius, border width, colon opacity — per breakpoint
+- **Button:** padding T/B, L/R, border radius — per breakpoint
+- **Spacing:** padding top/bottom/L-R, margins, max-width, unit gap, label gap, element gaps — per breakpoint
+
+### Current live settings
+- Desktop: inline centered, 40px numbers, 56px box width, Romira navy palette
+- Mobile: timer-right (text left, clock right), 26px numbers, 36px box width
 
 ---
 
@@ -125,30 +155,31 @@ Bordered box with filled icon + bold headline + body text.
 
 ---
 
-## TOMORROW'S GAME PLAN
+## NEXT SESSION GAME PLAN
 
 ### What YOU need to do (theme editor / Shopify admin — no code needed)
 
-1. **Fix the price** — Go to Shopify Admin → Products → Romira R-ALA → Edit the variant. Set:
-   - Compare at price: $49.99
-   - Price: $39.99
-   This flips it so the sale price shows correctly (crossed out $49.99, sale $39.99).
+1. **Fix the price** — Shopify Admin → Products → Romira R-ALA → Edit variant:
+   - Compare at price: $49.99 | Price: $39.99
+   (Fixes the reversed sale price display)
 
-2. **Add missing images in theme editor** — Open the R-ALA product page in Customize:
-   - Problem/Solution section → Part 1: add a burning feet/hands image
-   - Problem/Solution section → Part 2: add the Romira bottle image
-   - Nerve Stages section → add Stage 1, Stage 2, Stage 3 images
-   - Comparison table → add Romira bottle image + generic "others" bottle image
+2. **Add missing images in Customize:**
+   - Problem/Solution → Part 1: burning feet/hands image
+   - Problem/Solution → Part 2: Romira bottle image
+   - Nerve Stages → Stage 1, 2, 3 images
+   - Comparison table → Romira bottle + generic "others" bottle
 
-3. **Add the trust_bar and guarantee_box blocks** — In Customize, click the main product section → Add block → place them below the Buy Buttons block. Set the guarantee_box to your 60-day guarantee copy.
+3. **trust_bar + guarantee_box blocks** — In Customize → main product section → Add block → place below Buy Buttons. Set 60-day guarantee copy in guarantee_box.
 
-4. **Configure the trust_bar payment icons** — In the trust_bar block settings, type the ones you want in "Icons to show": e.g. `visa,master,paypal,apple_pay,shop_pay`
+4. **Configure trust_bar payment icons** — In trust_bar block settings, type: `visa,master,paypal,apple_pay,shop_pay`
 
-### What CLAUDE builds next session (just say "start" and I'll begin)
+5. **Countdown timer** — Check how it looks on live product page. Tweak via Customize if anything needs adjusting (all settings are live sliders).
 
-1. **"Why Everything Else Failed" section** — custom section with the approved copy. Dark bg, big headline, punchy body. Ready to upload.
-2. **Fix section order** — move nerve stages up, above the FAQ.
-3. **"Why Everything Else Failed" copy** — place the approved copy into the ss-video-with-text-3 section OR build a dedicated simpler section.
+### What CLAUDE builds next session
+
+1. **"Why Everything Else Failed" section** — approved copy ready (dark bg, big headline, punchy body).
+2. **Fix section order** — nerve stages should move earlier (before FAQ).
+3. **Spring Sale announcement bar** — update copy to tie into R-ALA offer.
 
 ---
 
@@ -162,9 +193,9 @@ Bordered box with filled icon + bold headline + body text.
 - [ ] **Comparison table** — generic "other supplements" bottle image
 
 ### 🟠 HIGH — Build next session
-- [ ] **Fix the price display** — shows "$39.99 Sale price $49.99" (backwards). Fix in Shopify product settings: regular = $49.99, sale = $39.99.
-- [ ] **"Why Everything Else Failed" custom section** — approved copy above. Dark background, big headline, body copy. Simple but punchy. Place between problem/solution and FAQ.
-- [ ] **Fix section order** — nerve stages should be earlier (after problem/solution, before FAQ)
+- [ ] **Fix the price display** — shows "$39.99 Sale price $49.99" (backwards). Fix in Shopify product settings.
+- [ ] **"Why Everything Else Failed" custom section** — approved copy ready. Dark bg, big headline, punchy. Place between problem/solution and FAQ.
+- [ ] **Fix section order** — nerve stages should move earlier (after problem/solution, before FAQ)
 - [ ] **Spring Sale announcement bar** — update copy, tie it to R-ALA offer
 
 ### 🟡 MEDIUM — Polish
@@ -172,7 +203,7 @@ Bordered box with filled icon + bold headline + body text.
 - [ ] **Subscription toggle** — install Loop app for "Save 25% with subscription" option
 - [ ] **Stats section** — add disclaimer/source line under 71%, 88%, 92% stats
 - [ ] **FAQ** — check heading size on mobile, may need to increase
-- [ ] **Sticky ATC bar** — review stars label says "(xxxx Reviews)" — update with real count
+- [ ] **Sticky ATC bar** — "(xxxx Reviews)" label — update with real count
 
 ### 🟢 NICE TO HAVE
 - [ ] **Real customer photos** — replace AI profile photos if real ones available
