@@ -1,0 +1,442 @@
+{
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\build.py": {
+    "mtime": 1777143486.0,
+    "ast_hash": "e6108b8e4896f4b5da99d1cf46885e45",
+    "semantic_hash": "e6108b8e4896f4b5da99d1cf46885e45"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\content-felora-wireless-fountain.json": {
+    "mtime": 1777143486.0,
+    "ast_hash": "207d0c624fb3b931a6056f1db65e07d4",
+    "semantic_hash": "207d0c624fb3b931a6056f1db65e07d4"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\content-romira-pea-advertorial.json": {
+    "mtime": 1777484741.0,
+    "ast_hash": "5c9fe75958457988e3f57b06188c257f",
+    "semantic_hash": "5c9fe75958457988e3f57b06188c257f"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\content-romira-pea-bridge.json": {
+    "mtime": 1777484421.0,
+    "ast_hash": "72466662b46de7604a41a9573d91b293",
+    "semantic_hash": "72466662b46de7604a41a9573d91b293"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\content-romira-pea-doctor.json": {
+    "mtime": 1777484427.0,
+    "ast_hash": "57dbf1e618b0039e2498e7668d1f3adc",
+    "semantic_hash": "57dbf1e618b0039e2498e7668d1f3adc"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\content-romira-pea-nobel.json": {
+    "mtime": 1778184392.0,
+    "ast_hash": "7b60c02642adf0e3fa26c361b9834562",
+    "semantic_hash": "7b60c02642adf0e3fa26c361b9834562"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\create_final4_posts.py": {
+    "mtime": 1777486197.0,
+    "ast_hash": "61e0edb5021c9e8cdfe02d1dc7106be2",
+    "semantic_hash": "61e0edb5021c9e8cdfe02d1dc7106be2"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\create_lipoic_ads.py": {
+    "mtime": 1778538598.6099322,
+    "ast_hash": "434e8878400f12e3a139e6894790ed19",
+    "semantic_hash": "434e8878400f12e3a139e6894790ed19"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\create_sandra_posts.py": {
+    "mtime": 1777485526.0,
+    "ast_hash": "40914670fab64d9112a7bc34b605fafa",
+    "semantic_hash": "40914670fab64d9112a7bc34b605fafa"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\create_top4_posts.py": {
+    "mtime": 1777485860.0,
+    "ast_hash": "2077ed40f91dfed77f6002d6ad25aa5a",
+    "semantic_hash": "2077ed40f91dfed77f6002d6ad25aa5a"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\make_prompts.py": {
+    "mtime": 1777405197.464305,
+    "ast_hash": "e9c4898122aa42f9d0d601d0618b7fde",
+    "semantic_hash": "e9c4898122aa42f9d0d601d0618b7fde"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\product.pea.json": {
+    "mtime": 1777319644.9017172,
+    "ast_hash": "83718f51c0ae88939b840b8bcc414bec",
+    "semantic_hash": "83718f51c0ae88939b840b8bcc414bec"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\product_template_updated.json": {
+    "mtime": 1777143486.0,
+    "ast_hash": "150573c883ca9ce9bee6fe53fe4f6f67",
+    "semantic_hash": "150573c883ca9ce9bee6fe53fe4f6f67"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\update_lipoic_template.py": {
+    "mtime": 1778537786.930382,
+    "ast_hash": "3aa2488aa4da65ec1a46c5f715ddcb76",
+    "semantic_hash": "3aa2488aa4da65ec1a46c5f715ddcb76"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\update_mag2_template.py": {
+    "mtime": 1779244690.678375,
+    "ast_hash": "b4a2fcc733029d5c8ff509d0843d6a49",
+    "semantic_hash": "b4a2fcc733029d5c8ff509d0843d6a49"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\settings.json": {
+    "mtime": 1779771377.1370988,
+    "ast_hash": "eb880cc8fbc2e9cf01d9e6de6a1cb6df",
+    "semantic_hash": "eb880cc8fbc2e9cf01d9e6de6a1cb6df"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\settings.local.json": {
+    "mtime": 1779769772.7422228,
+    "ast_hash": "735ca0a2e7b61f49b942f6f05b378202",
+    "semantic_hash": "735ca0a2e7b61f49b942f6f05b378202"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\build.py": {
+    "mtime": 1778176942.0,
+    "ast_hash": "fbff46a3fc29dc75780428d1b7f3170b",
+    "semantic_hash": "fbff46a3fc29dc75780428d1b7f3170b"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\content-felora-wireless-fountain.json": {
+    "mtime": 1778176942.0,
+    "ast_hash": "09ad90d764961210da1770a4ac9f25c2",
+    "semantic_hash": "09ad90d764961210da1770a4ac9f25c2"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\content-romira-pea-advertorial.json": {
+    "mtime": 1778176942.0,
+    "ast_hash": "5d4adaa68ab0ca06ec0911ea6f074e05",
+    "semantic_hash": "5d4adaa68ab0ca06ec0911ea6f074e05"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\content-romira-pea-bridge.json": {
+    "mtime": 1778176942.0,
+    "ast_hash": "f9be4d609acac0566a7eeb4fc5e963d9",
+    "semantic_hash": "f9be4d609acac0566a7eeb4fc5e963d9"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\content-romira-pea-doctor.json": {
+    "mtime": 1778176942.0,
+    "ast_hash": "c764402d80da8939fb440d8b5477d088",
+    "semantic_hash": "c764402d80da8939fb440d8b5477d088"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\make_prompts.py": {
+    "mtime": 1778176942.0,
+    "ast_hash": "e86a8e9fad8d183a76832c7c1da1fbf7",
+    "semantic_hash": "e86a8e9fad8d183a76832c7c1da1fbf7"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\product.pea.json": {
+    "mtime": 1778176942.0,
+    "ast_hash": "c53759da4ea0e0622915e91af66087aa",
+    "semantic_hash": "c53759da4ea0e0622915e91af66087aa"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\product_template_updated.json": {
+    "mtime": 1778176942.0,
+    "ast_hash": "9f265854d22acbe23f4263fd9ca14d9d",
+    "semantic_hash": "9f265854d22acbe23f4263fd9ca14d9d"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\.claude\\settings.local.json": {
+    "mtime": 1778176979.0,
+    "ast_hash": "a229900471ce511939fdfca10c94ac37",
+    "semantic_hash": "a229900471ce511939fdfca10c94ac37"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\build_homepage.mjs": {
+    "mtime": 1779419081.6729202,
+    "ast_hash": "516628e305eda7332bad666e70d815ad",
+    "semantic_hash": "516628e305eda7332bad666e70d815ad"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\LIVE_index.json": {
+    "mtime": 1779432751.2229378,
+    "ast_hash": "2c3613e3b80dfbafbb3786f33029e10f",
+    "semantic_hash": "2c3613e3b80dfbafbb3786f33029e10f"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\LIVE_product.lipoic.json": {
+    "mtime": 1779432751.033405,
+    "ast_hash": "221bc8f00dabbff8f1e2655d14db8ccb",
+    "semantic_hash": "221bc8f00dabbff8f1e2655d14db8ccb"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\mutation_romira-comparison.json": {
+    "mtime": 1779141588.2694335,
+    "ast_hash": "8300a7d0cd4a90f7bd610e99a188fc88",
+    "semantic_hash": "8300a7d0cd4a90f7bd610e99a188fc88"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\mutation_romira-guarantee-banner.json": {
+    "mtime": 1779141588.271935,
+    "ast_hash": "67a1393aaed440c6baff3e324eef4169",
+    "semantic_hash": "67a1393aaed440c6baff3e324eef4169"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\mutation_romira-nerve-stages.json": {
+    "mtime": 1779141588.267426,
+    "ast_hash": "7d413e0ca498bc195d3e2428b568284a",
+    "semantic_hash": "7d413e0ca498bc195d3e2428b568284a"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\mutation_romira-timeline.json": {
+    "mtime": 1779141588.2524028,
+    "ast_hash": "d41bd5647a700217e281c3a7ef2f09b6",
+    "semantic_hash": "d41bd5647a700217e281c3a7ef2f09b6"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\product.lipoic.json": {
+    "mtime": 1779240298.863139,
+    "ast_hash": "e77475794bebb3a1336e5a3de90376e8",
+    "semantic_hash": "e77475794bebb3a1336e5a3de90376e8"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\ss-scrolling-media_raw.json": {
+    "mtime": 1779238997.57202,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\upload.mjs": {
+    "mtime": 1779142142.2465012,
+    "ast_hash": "c8b96d5ed0f8d24098329653af5ec079",
+    "semantic_hash": "c8b96d5ed0f8d24098329653af5ec079"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\upload.ps1": {
+    "mtime": 1779142233.4569051,
+    "ast_hash": "f40c688cf25e52d47ba257bacb110dc4",
+    "semantic_hash": "f40c688cf25e52d47ba257bacb110dc4"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\upload_rest.mjs": {
+    "mtime": 1779244642.9795115,
+    "ast_hash": "f4109e8e79a9f48b9762a157495d678e",
+    "semantic_hash": "f4109e8e79a9f48b9762a157495d678e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\upload_ss_scrolling.mjs": {
+    "mtime": 1779244647.6773732,
+    "ast_hash": "7727b44f94945d730e2de67ed5cd6f51",
+    "semantic_hash": "7727b44f94945d730e2de67ed5cd6f51"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\upload_template.mjs": {
+    "mtime": 1779244653.1283462,
+    "ast_hash": "c4775bc8c19f3c3674d3d65722cdea23",
+    "semantic_hash": "c4775bc8c19f3c3674d3d65722cdea23"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\upload_text_reviews.mjs": {
+    "mtime": 1779244664.6062434,
+    "ast_hash": "047399dd6c13b83376858143910335e9",
+    "semantic_hash": "047399dd6c13b83376858143910335e9"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\vars_romira-comparison.json": {
+    "mtime": 1779142076.6188195,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\vars_romira-guarantee-banner.json": {
+    "mtime": 1779142341.2390146,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\vars_romira-nerve-stages.json": {
+    "mtime": 1779141841.9567564,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\vars_romira-timeline.json": {
+    "mtime": 1779141606.2748747,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_vars_romira-comparison.json": {
+    "mtime": 1779142736.5410855,
+    "ast_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa",
+    "semantic_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_vars_romira-guarantee-banner.json": {
+    "mtime": 1779142962.2309344,
+    "ast_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa",
+    "semantic_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_vars_romira-nerve-stages.json": {
+    "mtime": 1779142502.58585,
+    "ast_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa",
+    "semantic_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_vars_romira-timeline.json": {
+    "mtime": 1779142234.6181927,
+    "ast_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa",
+    "semantic_hash": "ecaa88f7fa0bf610a5a26cf545dcd3aa"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_v_romira-comparison.json": {
+    "mtime": 1779142152.3089461,
+    "ast_hash": "999906934ddfe1296af4bb95f615b599",
+    "semantic_hash": "999906934ddfe1296af4bb95f615b599"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_v_romira-guarantee-banner.json": {
+    "mtime": 1779142155.7794404,
+    "ast_hash": "f411e9cd02c03832677f6e120be014b0",
+    "semantic_hash": "f411e9cd02c03832677f6e120be014b0"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_v_romira-nerve-stages.json": {
+    "mtime": 1779142148.914697,
+    "ast_hash": "b568fffa34a635f30afb035550b212eb",
+    "semantic_hash": "b568fffa34a635f30afb035550b212eb"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\_v_romira-timeline.json": {
+    "mtime": 1779142145.125393,
+    "ast_hash": "00d8caa54f1282ce39266334cd5b8d3a",
+    "semantic_hash": "00d8caa54f1282ce39266334cd5b8d3a"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\AGENT-FRAMEWORK.md": {
+    "mtime": 1777143485.0,
+    "ast_hash": "0fdda5cb96f2c94504de4140a2636577",
+    "semantic_hash": "0fdda5cb96f2c94504de4140a2636577"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\brand-profile-template.md": {
+    "mtime": 1777143485.0,
+    "ast_hash": "8a89e3591557f81f837583a4ed81627a",
+    "semantic_hash": "8a89e3591557f81f837583a4ed81627a"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\CLAUDE.md": {
+    "mtime": 1779771377.134598,
+    "ast_hash": "c7d9a47747e3a494576cc67f74ba63c9",
+    "semantic_hash": "c7d9a47747e3a494576cc67f74ba63c9"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\felora-wireless-fountain.html": {
+    "mtime": 1777143486.0,
+    "ast_hash": "e6f4009c802f0cc1f8b7d927667788fe",
+    "semantic_hash": "e6f4009c802f0cc1f8b7d927667788fe"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\ONBOARDING.md": {
+    "mtime": 1777143485.0,
+    "ast_hash": "8419b543c0962385f41b3a39f8a1f447",
+    "semantic_hash": "8419b543c0962385f41b3a39f8a1f447"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\requirements.txt": {
+    "mtime": 1777143486.0,
+    "ast_hash": "67a8b47ba73b5f7510fe8bd683081438",
+    "semantic_hash": "67a8b47ba73b5f7510fe8bd683081438"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\romira-pea-advertorial.html": {
+    "mtime": 1777484746.0,
+    "ast_hash": "f15ca644e7ca0f7d8af410737607c279",
+    "semantic_hash": "f15ca644e7ca0f7d8af410737607c279"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\romira-pea-bridge.html": {
+    "mtime": 1777484605.0,
+    "ast_hash": "985d9286b8f9e9b2e4a8926d1208755f",
+    "semantic_hash": "985d9286b8f9e9b2e4a8926d1208755f"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\romira-pea-doctor.html": {
+    "mtime": 1777484604.0,
+    "ast_hash": "ef9fec5e665afbccec6ef83b37ac7711",
+    "semantic_hash": "ef9fec5e665afbccec6ef83b37ac7711"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\romira-pea-nobel.html": {
+    "mtime": 1778184415.0,
+    "ast_hash": "3583f378ab1875bf72a023cc3759ab21",
+    "semantic_hash": "3583f378ab1875bf72a023cc3759ab21"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\template.html": {
+    "mtime": 1778183862.0,
+    "ast_hash": "0b355b35792584048e4c0c174a7633f5",
+    "semantic_hash": "0b355b35792584048e4c0c174a7633f5"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\CLAUDE.md": {
+    "mtime": 1779771377.1316,
+    "ast_hash": "817fe671013b35ae0bc9301dfe449a87",
+    "semantic_hash": "817fe671013b35ae0bc9301dfe449a87"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\graphify\\SKILL.md": {
+    "mtime": 1779771377.1270833,
+    "ast_hash": "e065bdafac4ca689ffd4e353ffd71160",
+    "semantic_hash": "e065bdafac4ca689ffd4e353ffd71160"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\AGENT-FRAMEWORK.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "0aa2a685513439660476a16330684c66",
+    "semantic_hash": "0aa2a685513439660476a16330684c66"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\brand-profile-template.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "c07c4dd2d4b9a78441754a9e6307653c",
+    "semantic_hash": "c07c4dd2d4b9a78441754a9e6307653c"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\CLAUDE.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "7ddeadd5aee1d5d16927fc25abd6cc4f",
+    "semantic_hash": "7ddeadd5aee1d5d16927fc25abd6cc4f"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\felora-wireless-fountain.html": {
+    "mtime": 1778176942.0,
+    "ast_hash": "e6f4009c802f0cc1f8b7d927667788fe",
+    "semantic_hash": "e6f4009c802f0cc1f8b7d927667788fe"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\ONBOARDING.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "16209087d78be9936a9c37181a9df5cb",
+    "semantic_hash": "16209087d78be9936a9c37181a9df5cb"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\requirements.txt": {
+    "mtime": 1778176942.0,
+    "ast_hash": "65e9e97c21577e0012b5e229d462c048",
+    "semantic_hash": "65e9e97c21577e0012b5e229d462c048"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\romira-pea-advertorial.html": {
+    "mtime": 1778176942.0,
+    "ast_hash": "f15ca644e7ca0f7d8af410737607c279",
+    "semantic_hash": "f15ca644e7ca0f7d8af410737607c279"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\romira-pea-bridge.html": {
+    "mtime": 1778176942.0,
+    "ast_hash": "985d9286b8f9e9b2e4a8926d1208755f",
+    "semantic_hash": "985d9286b8f9e9b2e4a8926d1208755f"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\romira-pea-doctor.html": {
+    "mtime": 1778176942.0,
+    "ast_hash": "ef9fec5e665afbccec6ef83b37ac7711",
+    "semantic_hash": "ef9fec5e665afbccec6ef83b37ac7711"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\template.html": {
+    "mtime": 1778176942.0,
+    "ast_hash": "0d5f1eba90603575d80b32fe9f7a33ce",
+    "semantic_hash": "0d5f1eba90603575d80b32fe9f7a33ce"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\memory\\INDEX.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "4d102ae8275511823f46462043671452",
+    "semantic_hash": "4d102ae8275511823f46462043671452"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\memory\\project_romira_pea.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "068968a3a8bedad3be65d70df993adb8",
+    "semantic_hash": "068968a3a8bedad3be65d70df993adb8"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\memory\\project_theme_work.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "cb90bda03b69201a28091edfbf9b36cd",
+    "semantic_hash": "cb90bda03b69201a28091edfbf9b36cd"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\worktrees\\beautiful-wright-b2ee5e\\memory\\reference_github.md": {
+    "mtime": 1778176942.0,
+    "ast_hash": "b119fa8a5a8679bfff2a325143035c8e",
+    "semantic_hash": "b119fa8a5a8679bfff2a325143035c8e"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\memory\\INDEX.md": {
+    "mtime": 1777320329.904848,
+    "ast_hash": "d2b297cfd53d2bc039b99dcedf0f013c",
+    "semantic_hash": "d2b297cfd53d2bc039b99dcedf0f013c"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\memory\\project_romira_pea.md": {
+    "mtime": 1777320284.9324195,
+    "ast_hash": "3300d104ddeab6073b19f965078a39ee",
+    "semantic_hash": "3300d104ddeab6073b19f965078a39ee"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\memory\\project_theme_work.md": {
+    "mtime": 1777477531.0,
+    "ast_hash": "70cb171685055cfb5c5e7af32a8886b9",
+    "semantic_hash": "70cb171685055cfb5c5e7af32a8886b9"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\memory\\reference_github.md": {
+    "mtime": 1777315462.0,
+    "ast_hash": "2d5375d29e5750724e5fe4051ff3997c",
+    "semantic_hash": "2d5375d29e5750724e5fe4051ff3997c"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\CONNECT_ROMIRA.md": {
+    "mtime": 1779244675.4666297,
+    "ast_hash": "023641aeee24d0ce2dd39b55faecc4d9",
+    "semantic_hash": "023641aeee24d0ce2dd39b55faecc4d9"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\SCHEMAS.md": {
+    "mtime": 1779418638.6045516,
+    "ast_hash": "69241c6b6ae4273bd82001db082a35b6",
+    "semantic_hash": "69241c6b6ae4273bd82001db082a35b6"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\SECTION_AUDIT.md": {
+    "mtime": 1779418504.5286753,
+    "ast_hash": "4c9a10c2c560da0e64d2ad48c5e636f1",
+    "semantic_hash": "4c9a10c2c560da0e64d2ad48c5e636f1"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\SESSION_NOTES.md": {
+    "mtime": 1779432835.9741158,
+    "ast_hash": "7dc8be1d0f618a956e887e324cf74a50",
+    "semantic_hash": "7dc8be1d0f618a956e887e324cf74a50"
+  }
+}
