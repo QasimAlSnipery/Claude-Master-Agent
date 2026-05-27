@@ -383,6 +383,12 @@
 
 {%- comment -%} ────────── SECTION STYLES ────────── {%- endcomment -%}
 <style>
+  /* ── Kill wrapper padding ───────────────────── */
+  .section-{{ section.id }} {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   /* ── Section ───────────────────────────────── */
   #{{ sid }} {
     position: relative;
