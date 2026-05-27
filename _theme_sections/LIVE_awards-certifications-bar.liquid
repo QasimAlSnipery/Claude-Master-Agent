@@ -1,0 +1,195 @@
+﻿{%- assign sid = 'ssawards-' | append: section.id -%}
+{%- assign layout = section.settings.layout -%}
+
+<div id="{{ sid }}" class="ssawards ssawards--{{ layout }}" role="region" aria-label="Awards and certifications">
+
+  {%- if section.settings.heading != blank -%}
+    <p class="ssawards__heading">{{ section.settings.heading }}</p>
+  {%- endif -%}
+
+  <div class="ssawards__list">
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'badge' -%}
+        <div class="ssawards__badge" {{ block.shopify_attributes }}>
+          {%- if block.settings.badge_img != blank -%}
+            <img
+              class="ssawards__badge-img"
+              src="{{ block.settings.badge_img | image_url: height: 100 }}"
+              alt="{{ block.settings.badge_img.alt | default: block.settings.title | escape }}"
+              height="{{ section.settings.badge_height }}"
+              loading="lazy"
+            >
+          {%- elsif block.settings.emoji != blank -%}
+            <span class="ssawards__badge-emoji" aria-hidden="true">{{ block.settings.emoji }}</span>
+          {%- endif -%}
+          {%- if block.settings.title != blank -%}
+            <span class="ssawards__badge-title">{{ block.settings.title }}</span>
+          {%- endif -%}
+          {%- if block.settings.subtitle != blank -%}
+            <span class="ssawards__badge-sub">{{ block.settings.subtitle }}</span>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+</div>
+
+<style>
+  #{{ sid }} {
+    background-color: {{ section.settings.bg_color }};
+    color: {{ section.settings.text_color }};
+    padding: {{ section.settings.padding_top }}px 1.5rem {{ section.settings.padding_bottom }}px;
+    margin-top: {{ section.settings.margin_top }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+  #{{ sid }} .ssawards__heading {
+    text-align: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.45;
+    margin: 0 0 1.5rem;
+  }
+
+  /* ── Logo Row ── */
+  #{{ sid }}.ssawards--logo_row .ssawards__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem 3rem;
+    max-width: var(--page-width, 1200px);
+    margin: 0 auto;
+  }
+  #{{ sid }}.ssawards--logo_row .ssawards__badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  #{{ sid }}.ssawards--logo_row .ssawards__badge-img {
+    height: {{ section.settings.badge_height }}px;
+    width: auto;
+    object-fit: contain;
+    {%- if section.settings.grayscale -%}filter: grayscale(1) opacity(0.55);{%- endif -%}
+    transition: filter 0.3s ease;
+  }
+  #{{ sid }}.ssawards--logo_row .ssawards__badge:hover .ssawards__badge-img { filter: none; }
+
+  /* ── Pill Row ── */
+  #{{ sid }}.ssawards--pill_row .ssawards__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    max-width: var(--page-width, 1200px);
+    margin: 0 auto;
+  }
+  #{{ sid }}.ssawards--pill_row .ssawards__badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1.5px solid currentColor;
+    border-radius: 50px;
+    padding: 0.4rem 1rem;
+    opacity: 0.75;
+    font-size: 0.875rem;
+    transition: opacity 0.2s;
+  }
+  #{{ sid }}.ssawards--pill_row .ssawards__badge:hover { opacity: 1; }
+  #{{ sid }}.ssawards--pill_row .ssawards__badge-img { height: 20px; width: auto; }
+  #{{ sid }}.ssawards--pill_row .ssawards__badge-emoji { font-size: 1rem; }
+  #{{ sid }}.ssawards--pill_row .ssawards__badge-title { font-weight: 700; }
+  #{{ sid }}.ssawards--pill_row .ssawards__badge-sub { display: none; }
+
+  /* ── Card Grid ── */
+  #{{ sid }}.ssawards--card_grid .ssawards__list {
+    max-width: var(--page-width, 1200px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  #{{ sid }}.ssawards--card_grid .ssawards__badge {
+    background: {{ section.settings.card_bg }};
+    border-radius: 12px;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  #{{ sid }}.ssawards--card_grid .ssawards__badge-img { height: {{ section.settings.badge_height }}px; width: auto; object-fit: contain; }
+  #{{ sid }}.ssawards--card_grid .ssawards__badge-emoji { font-size: 2rem; }
+  #{{ sid }}.ssawards--card_grid .ssawards__badge-title { font-weight: 700; font-size: 0.9rem; }
+  #{{ sid }}.ssawards--card_grid .ssawards__badge-sub { font-size: 0.75rem; opacity: 0.6; }
+
+  @media(max-width:749px) {
+    #{{ sid }}.ssawards--pill_row .ssawards__list { gap: 0.4rem; }
+    #{{ sid }}.ssawards--card_grid .ssawards__list { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Awards & Certifications",
+  "tag": "div",
+  "class": "section",
+  "max_blocks": 8,
+  "settings": [
+    { "type": "header", "content": "Heading" },
+    { "type": "text", "id": "heading", "label": "Heading (optional)", "default": "Trusted & Certified" },
+
+    { "type": "header", "content": "Layout" },
+    {
+      "type": "select", "id": "layout", "label": "Display style",
+      "options": [
+        { "value": "logo_row",  "label": "Logo row" },
+        { "value": "pill_row",  "label": "Pill badges" },
+        { "value": "card_grid", "label": "Card grid" }
+      ],
+      "default": "pill_row"
+    },
+    { "type": "range",    "id": "badge_height", "label": "Badge/logo height", "min": 20, "max": 70, "step": 2, "unit": "px", "default": 36 },
+    { "type": "checkbox", "id": "grayscale",    "label": "Greyscale logos (logo row only)", "default": false },
+
+    { "type": "header", "content": "Colors & Spacing" },
+    { "type": "color", "id": "bg_color",   "label": "Background color",           "default": "#ffffff" },
+    { "type": "color", "id": "card_bg",    "label": "Card background (card grid)", "default": "#f8f8f8" },
+    { "type": "color", "id": "text_color", "label": "Text color",                 "default": "#1a1a1a" },
+    { "type": "range", "id": "padding_top",    "label": "Padding top",    "min": 12, "max": 80, "step": 4, "unit": "px", "default": 32 },
+    { "type": "range", "id": "padding_bottom", "label": "Padding bottom", "min": 12, "max": 80, "step": 4, "unit": "px", "default": 32 },
+    { "type": "range", "id": "margin_top",     "label": "Margin top",     "min": 0,  "max": 80, "step": 4, "unit": "px", "default": 0 },
+    { "type": "range", "id": "margin_bottom",  "label": "Margin bottom",  "min": 0,  "max": 80, "step": 4, "unit": "px", "default": 0 }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Badge",
+      "settings": [
+        { "type": "image_picker", "id": "badge_img", "label": "Badge image (optional)" },
+        { "type": "text",         "id": "emoji",     "label": "Emoji icon (if no image)", "default": "✓" },
+        { "type": "text",         "id": "title",     "label": "Title",    "default": "Vet Approved" },
+        { "type": "text",         "id": "subtitle",  "label": "Subtitle", "default": "Certified 2024" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Awards & Certifications",
+      "blocks": [
+        { "type": "badge", "settings": { "emoji": "✓", "title": "Vet Approved",     "subtitle": "" } },
+        { "type": "badge", "settings": { "emoji": "✓", "title": "BPA Free",         "subtitle": "" } },
+        { "type": "badge", "settings": { "emoji": "✓", "title": "FDA Compliant",    "subtitle": "" } },
+        { "type": "badge", "settings": { "emoji": "★", "title": "5-Star Rated",     "subtitle": "10,000+ reviews" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
+

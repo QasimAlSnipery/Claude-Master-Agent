@@ -1,12 +1,14 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
+// Token loaded from .shopify_token (gitignored) — never hardcode here
+import { readFileSync, existsSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-export function getToken(storeFragment = '3rnv2d') {
-  const configPath = join(process.env.APPDATA, 'shopify-cli-store-nodejs', 'Config', 'config.json');
-  const config = JSON.parse(readFileSync(configPath, 'utf8'));
-  const key = Object.keys(config).find(k => k.includes(storeFragment));
-  if (!key) throw new Error(`No config entry found for store fragment: ${storeFragment}`);
-  const sessions = config[key].myshopify.com.sessionsByUserId;
-  const userId = Object.keys(sessions)[0];
-  return sessions[userId].accessToken;
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const tokenFile = join(__dirname, '.shopify_token');
+
+export function getToken() {
+  if (!existsSync(tokenFile)) {
+    throw new Error('Missing _theme_sections/.shopify_token — create it with your Shopify Admin API token');
+  }
+  return readFileSync(tokenFile, 'utf8').trim();
 }

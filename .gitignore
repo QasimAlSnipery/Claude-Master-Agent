@@ -8,3 +8,4 @@ memory/feedback_shopify_api.md
 graphify-out/cache/
 graphify-out/.graphify_python
 graphify-out/.graphify_incremental.json
+_theme_sections/.shopify_token

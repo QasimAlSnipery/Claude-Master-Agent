@@ -1,0 +1,266 @@
+﻿{%- assign sid = 'ssstats-' | append: section.id -%}
+
+<div id="{{ sid }}" class="ssstats" role="region" aria-label="Customer trust statistics">
+  <div class="ssstats__inner">
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'stat' -%}
+        <div class="ssstats__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.icon != blank -%}
+            <img class="ssstats__icon" src="{{ block.settings.icon | image_url: width: 80 }}" alt="" width="40" height="40" loading="lazy">
+          {%- endif -%}
+          <span
+            class="ssstats__number"
+            {% if section.settings.animate_count %}data-count="{{ block.settings.value }}"{% endif %}
+          >{{ block.settings.value }}</span>
+          {%- if block.settings.label != blank -%}
+            <span class="ssstats__label">{{ block.settings.label }}</span>
+          {%- endif -%}
+        </div>
+        {%- unless forloop.last -%}
+          {%- if section.settings.divider_style != 'none' -%}
+            <span class="ssstats__divider" aria-hidden="true"></span>
+          {%- endif -%}
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<style>
+  #{{ sid }} {
+    background-color: {{ section.settings.bg_color }};
+    color: {{ section.settings.text_color }};
+    padding: {{ section.settings.padding_top }}px 1.5rem {{ section.settings.padding_bottom }}px;
+    margin-top: {{ section.settings.margin_top }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+  #{{ sid }} .ssstats__inner {
+    max-width: var(--page-width, 1200px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem 2.5rem;
+  }
+  #{{ sid }} .ssstats__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  #{{ sid }} .ssstats__icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 0.2rem;
+  }
+  #{{ sid }} .ssstats__number {
+    font-size: {{ section.settings.number_size }}px;
+    font-weight: 800;
+    color: {{ section.settings.number_color }};
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    display: block;
+  }
+  #{{ sid }} .ssstats__label {
+    font-size: {{ section.settings.label_size }}px;
+    font-weight: 500;
+    opacity: 0.75;
+    line-height: 1.3;
+    display: block;
+    max-width: 120px;
+  }
+  {%- if section.settings.divider_style == 'pipe' -%}
+    #{{ sid }} .ssstats__divider {
+      width: 1px;
+      height: 3rem;
+      background: currentColor;
+      opacity: 0.2;
+      flex-shrink: 0;
+    }
+  {%- elsif section.settings.divider_style == 'dot' -%}
+    #{{ sid }} .ssstats__divider {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      opacity: 0.25;
+      flex-shrink: 0;
+    }
+  {%- elsif section.settings.divider_style == 'line' -%}
+    #{{ sid }} .ssstats__divider {
+      width: 40px;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.2;
+      flex-shrink: 0;
+    }
+  {%- endif -%}
+  {%- if section.settings.desktop_cols != 'auto' -%}
+    #{{ sid }} .ssstats__inner {
+      display: grid;
+      grid-template-columns: repeat({{ section.settings.desktop_cols }}, 1fr);
+    }
+    #{{ sid }} .ssstats__divider { display: none; }
+  {%- endif -%}
+  @media(max-width:749px) {
+    #{{ sid }} {
+      padding: {{ section.settings.mobile_padding_top }}px 1.5rem {{ section.settings.mobile_padding_bottom }}px;
+      margin-top: {{ section.settings.mobile_margin_top }}px;
+      margin-bottom: {{ section.settings.mobile_margin_bottom }}px;
+    }
+    #{{ sid }} .ssstats__inner {
+      display: grid;
+      grid-template-columns: repeat({{ section.settings.mobile_cols }}, 1fr);
+      gap: 1.25rem;
+    }
+    #{{ sid }} .ssstats__divider { display: none; }
+    #{{ sid }} .ssstats__number { font-size: {{ section.settings.mobile_number_size }}px; }
+    #{{ sid }} .ssstats__label  { font-size: {{ section.settings.mobile_label_size }}px; }
+  }
+</style>
+
+{%- if section.settings.animate_count -%}
+<script>
+(function(){
+  var sid = {{ sid | json }};
+  var el = document.getElementById(sid);
+  if (!el) return;
+
+  function animateCount(span) {
+    var raw = span.dataset.count || '';
+    if (raw.indexOf('/') !== -1 || !/\d/.test(raw)) return;
+    var suffix = raw.replace(/[\d,.]/g, '');
+    var num = parseFloat(raw.replace(/[^0-9.]/g, '')) || 0;
+    var duration = 1500;
+    var start = null;
+    function step(ts) {
+      if (!start) start = ts;
+      var progress = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var current = Math.floor(eased * num);
+      if (num % 1 !== 0) current = (eased * num).toFixed(1);
+      span.textContent = current.toLocaleString() + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  var numbers = el.querySelectorAll('.ssstats__number[data-count]');
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          numbers.forEach(animateCount);
+          obs.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+    obs.observe(el);
+  } else {
+    numbers.forEach(animateCount);
+  }
+})();
+</script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Social Proof Stats Bar",
+  "tag": "div",
+  "class": "section",
+  "max_blocks": 5,
+  "settings": [
+    { "type": "header", "content": "Appearance" },
+    {
+      "type": "select",
+      "id": "divider_style",
+      "label": "Divider between stats",
+      "options": [
+        { "value": "pipe", "label": "Pipe  |" },
+        { "value": "dot",  "label": "Dot  ·" },
+        { "value": "line", "label": "Short line" },
+        { "value": "none", "label": "None" }
+      ],
+      "default": "pipe"
+    },
+    { "type": "checkbox", "id": "animate_count", "label": "Animate numbers on scroll", "default": true },
+
+    { "type": "header", "content": "Layout" },
+    {
+      "type": "select",
+      "id": "desktop_cols",
+      "label": "Desktop layout",
+      "options": [
+        { "value": "auto", "label": "Auto (all in one row)" },
+        { "value": "2",    "label": "2 per row" },
+        { "value": "3",    "label": "3 per row" },
+        { "value": "4",    "label": "4 per row" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "mobile_cols",
+      "label": "Mobile layout",
+      "options": [
+        { "value": "1", "label": "1 per row (stacked vertically)" },
+        { "value": "2", "label": "2 per row" },
+        { "value": "4", "label": "All in one row" }
+      ],
+      "default": "2"
+    },
+
+    { "type": "header", "content": "Typography — Desktop" },
+    { "type": "range", "id": "number_size", "label": "Number size",  "min": 24, "max": 60, "step": 2, "unit": "px", "default": 36 },
+    { "type": "range", "id": "label_size",  "label": "Label size",   "min": 10, "max": 20, "step": 1, "unit": "px", "default": 13 },
+
+    { "type": "header", "content": "Typography — Mobile" },
+    { "type": "range", "id": "mobile_number_size", "label": "Number size (mobile)", "min": 16, "max": 48, "step": 2, "unit": "px", "default": 28 },
+    { "type": "range", "id": "mobile_label_size",  "label": "Label size (mobile)",  "min": 8,  "max": 18, "step": 1, "unit": "px", "default": 11 },
+
+    { "type": "header", "content": "Colors" },
+    { "type": "color", "id": "bg_color",     "label": "Background color", "default": "#ffffff" },
+    { "type": "color", "id": "text_color",   "label": "Text color",       "default": "#1a1a1a" },
+    { "type": "color", "id": "number_color", "label": "Number color",     "default": "#E8920A" },
+
+    { "type": "header", "content": "Spacing — Desktop" },
+    { "type": "range", "id": "padding_top",    "label": "Padding top",    "min": 8,  "max": 80, "step": 4, "unit": "px", "default": 32 },
+    { "type": "range", "id": "padding_bottom", "label": "Padding bottom", "min": 8,  "max": 80, "step": 4, "unit": "px", "default": 32 },
+    { "type": "range", "id": "margin_top",     "label": "Margin top",     "min": 0,  "max": 80, "step": 4, "unit": "px", "default": 0 },
+    { "type": "range", "id": "margin_bottom",  "label": "Margin bottom",  "min": 0,  "max": 80, "step": 4, "unit": "px", "default": 0 },
+
+    { "type": "header", "content": "Spacing — Mobile" },
+    { "type": "range", "id": "mobile_padding_top",    "label": "Padding top (mobile)",    "min": 8,  "max": 80, "step": 4, "unit": "px", "default": 20 },
+    { "type": "range", "id": "mobile_padding_bottom", "label": "Padding bottom (mobile)", "min": 8,  "max": 80, "step": 4, "unit": "px", "default": 20 },
+    { "type": "range", "id": "mobile_margin_top",     "label": "Margin top (mobile)",     "min": 0,  "max": 80, "step": 4, "unit": "px", "default": 0 },
+    { "type": "range", "id": "mobile_margin_bottom",  "label": "Margin bottom (mobile)",  "min": 0,  "max": 80, "step": 4, "unit": "px", "default": 0 }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Stat",
+      "settings": [
+        { "type": "image_picker", "id": "icon",  "label": "Icon image (optional)" },
+        { "type": "text", "id": "value", "label": "Number / Value", "info": "e.g. 10,000+ or 4.9/5 or Free", "default": "10,000+" },
+        { "type": "text", "id": "label", "label": "Label",          "default": "Happy Customers" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Social Proof Stats Bar",
+      "blocks": [
+        { "type": "stat", "settings": { "value": "10,000+", "label": "Happy Customers" } },
+        { "type": "stat", "settings": { "value": "4.9/5",   "label": "Average Rating" } },
+        { "type": "stat", "settings": { "value": "30-Day",  "label": "Money-Back Guarantee" } },
+        { "type": "stat", "settings": { "value": "Free",    "label": "Worldwide Shipping" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
