@@ -135,14 +135,14 @@
     "semantic_hash": "516628e305eda7332bad666e70d815ad"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\LIVE_index.json": {
-    "mtime": 1779432751.2229378,
-    "ast_hash": "2c3613e3b80dfbafbb3786f33029e10f",
-    "semantic_hash": "2c3613e3b80dfbafbb3786f33029e10f"
+    "mtime": 1779851914.5822067,
+    "ast_hash": "771b67977fd677d1b833b3c8abbb34a9",
+    "semantic_hash": ""
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\LIVE_product.lipoic.json": {
-    "mtime": 1779432751.033405,
-    "ast_hash": "221bc8f00dabbff8f1e2655d14db8ccb",
-    "semantic_hash": "221bc8f00dabbff8f1e2655d14db8ccb"
+    "mtime": 1779851793.3345015,
+    "ast_hash": "74a5272ca567379834e395cbae3810aa",
+    "semantic_hash": ""
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\mutation_romira-comparison.json": {
     "mtime": 1779141588.2694335,
@@ -440,77 +440,42 @@
     "semantic_hash": "7dc8be1d0f618a956e887e324cf74a50"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\skills-lock.json": {
-    "mtime": 1779778646.5950568,
+    "mtime": 1779857743.2634842,
     "ast_hash": "28e5edd5cf3588bb2f3feca381ddfaf3",
     "semantic_hash": "28e5edd5cf3588bb2f3feca381ddfaf3"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\benchmark.py": {
-    "mtime": 1779778644.3784554,
+    "mtime": 1779857740.9049637,
     "ast_hash": "07500037c8606fc9ab1832f55a5ff346",
     "semantic_hash": "07500037c8606fc9ab1832f55a5ff346"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\cli.py": {
-    "mtime": 1779778644.378957,
+    "mtime": 1779857740.9049637,
     "ast_hash": "c558740fb2c74c292c1886353add193a",
     "semantic_hash": "c558740fb2c74c292c1886353add193a"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\compress.py": {
-    "mtime": 1779778644.379455,
+    "mtime": 1779857740.9054654,
     "ast_hash": "b64cfd042fdf93e8ac852fb3b87195a3",
     "semantic_hash": "b64cfd042fdf93e8ac852fb3b87195a3"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\detect.py": {
-    "mtime": 1779778644.379955,
+    "mtime": 1779857740.9059622,
     "ast_hash": "951a4593947c23cb9bfe8d99dc245b16",
     "semantic_hash": "951a4593947c23cb9bfe8d99dc245b16"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\validate.py": {
-    "mtime": 1779778644.3804553,
+    "mtime": 1779857740.9064622,
     "ast_hash": "5d3394df7677d1ee08f0b69bb767b38c",
     "semantic_hash": "5d3394df7677d1ee08f0b69bb767b38c"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\__init__.py": {
-    "mtime": 1779778644.3779545,
+    "mtime": 1779857740.903962,
     "ast_hash": "d6acae7e188357d1bc1258ce02a29811",
     "semantic_hash": "d6acae7e188357d1bc1258ce02a29811"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\scripts\\__main__.py": {
-    "mtime": 1779778644.3784554,
-    "ast_hash": "5bd0e02db4907bf4e435e5d770256fef",
-    "semantic_hash": "5bd0e02db4907bf4e435e5d770256fef"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\benchmark.py": {
-    "mtime": 1779778644.3784554,
-    "ast_hash": "07500037c8606fc9ab1832f55a5ff346",
-    "semantic_hash": "07500037c8606fc9ab1832f55a5ff346"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\cli.py": {
-    "mtime": 1779778644.378957,
-    "ast_hash": "c558740fb2c74c292c1886353add193a",
-    "semantic_hash": "c558740fb2c74c292c1886353add193a"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\compress.py": {
-    "mtime": 1779778644.379455,
-    "ast_hash": "b64cfd042fdf93e8ac852fb3b87195a3",
-    "semantic_hash": "b64cfd042fdf93e8ac852fb3b87195a3"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\detect.py": {
-    "mtime": 1779778644.379955,
-    "ast_hash": "951a4593947c23cb9bfe8d99dc245b16",
-    "semantic_hash": "951a4593947c23cb9bfe8d99dc245b16"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\validate.py": {
-    "mtime": 1779778644.3804553,
-    "ast_hash": "5d3394df7677d1ee08f0b69bb767b38c",
-    "semantic_hash": "5d3394df7677d1ee08f0b69bb767b38c"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\__init__.py": {
-    "mtime": 1779778644.3779545,
-    "ast_hash": "d6acae7e188357d1bc1258ce02a29811",
-    "semantic_hash": "d6acae7e188357d1bc1258ce02a29811"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\__main__.py": {
-    "mtime": 1779778644.3784554,
+    "mtime": 1779857740.9044616,
     "ast_hash": "5bd0e02db4907bf4e435e5d770256fef",
     "semantic_hash": "5bd0e02db4907bf4e435e5d770256fef"
   },
@@ -545,152 +510,77 @@
     "semantic_hash": "32be3fe15cce253ab648004eb2464f2f"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\cavecrew\\README.md": {
-    "mtime": 1779778644.3739543,
+    "mtime": 1779857740.9009585,
     "ast_hash": "8b7ca548bd36b6db39006bac6cd54759",
     "semantic_hash": "8b7ca548bd36b6db39006bac6cd54759"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\cavecrew\\SKILL.md": {
-    "mtime": 1779778644.374455,
+    "mtime": 1779857740.9014616,
     "ast_hash": "6ea8150438c6392a5ee0afef0a735ad4",
     "semantic_hash": "6ea8150438c6392a5ee0afef0a735ad4"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman\\README.md": {
-    "mtime": 1779778644.3844545,
+    "mtime": 1779857740.9099646,
     "ast_hash": "3358f5119f61b24f5fa65a25de7b866b",
     "semantic_hash": "3358f5119f61b24f5fa65a25de7b866b"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman\\SKILL.md": {
-    "mtime": 1779778644.3849552,
+    "mtime": 1779857740.9104698,
     "ast_hash": "90e5f9d97791c2080495926731e0f5ad",
     "semantic_hash": "90e5f9d97791c2080495926731e0f5ad"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-commit\\README.md": {
-    "mtime": 1779778644.3749547,
+    "mtime": 1779857740.9019651,
     "ast_hash": "2fe1d98cadbd2709a34ee3c77795a143",
     "semantic_hash": "2fe1d98cadbd2709a34ee3c77795a143"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-commit\\SKILL.md": {
-    "mtime": 1779778644.375455,
+    "mtime": 1779857740.9024625,
     "ast_hash": "e8d814f342ec5752f47866299badd0a7",
     "semantic_hash": "e8d814f342ec5752f47866299badd0a7"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\README.md": {
-    "mtime": 1779778644.3759573,
+    "mtime": 1779857740.9029622,
     "ast_hash": "78d3757502badfab9db0e38724d336b3",
     "semantic_hash": "78d3757502badfab9db0e38724d336b3"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\SECURITY.md": {
-    "mtime": 1779778644.3764572,
+    "mtime": 1779857740.9029622,
     "ast_hash": "b2caed82d9d4a58c0530f7e741851224",
     "semantic_hash": "b2caed82d9d4a58c0530f7e741851224"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-compress\\SKILL.md": {
-    "mtime": 1779778644.3769565,
+    "mtime": 1779857740.9034612,
     "ast_hash": "5cfd6ee9993c9e72da6404a9841d82fd",
     "semantic_hash": "5cfd6ee9993c9e72da6404a9841d82fd"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-help\\README.md": {
-    "mtime": 1779778644.3814552,
+    "mtime": 1779857740.9069614,
     "ast_hash": "f49266e99b58d33c1d40b7bf0a644ec3",
     "semantic_hash": "f49266e99b58d33c1d40b7bf0a644ec3"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-help\\SKILL.md": {
-    "mtime": 1779778644.3814552,
+    "mtime": 1779857740.9074612,
     "ast_hash": "b0168dbcf14c8d3cd29101e1eb66de12",
     "semantic_hash": "b0168dbcf14c8d3cd29101e1eb66de12"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-review\\README.md": {
-    "mtime": 1779778644.3824549,
+    "mtime": 1779857740.9079618,
     "ast_hash": "9777a26704850f1e091ab072f02fa10f",
     "semantic_hash": "9777a26704850f1e091ab072f02fa10f"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-review\\SKILL.md": {
-    "mtime": 1779778644.3829563,
+    "mtime": 1779857740.9084616,
     "ast_hash": "0e038c50a6bfdc9b8a307e6316c07236",
     "semantic_hash": "0e038c50a6bfdc9b8a307e6316c07236"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-stats\\README.md": {
-    "mtime": 1779778644.3834574,
+    "mtime": 1779857740.9089615,
     "ast_hash": "866dc96f332b4e2bc1f80fec878fea52",
     "semantic_hash": "866dc96f332b4e2bc1f80fec878fea52"
   },
   "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.agents\\skills\\caveman-stats\\SKILL.md": {
-    "mtime": 1779778644.383955,
-    "ast_hash": "e9966f688641209792719474f241a6ef",
-    "semantic_hash": "e9966f688641209792719474f241a6ef"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\cavecrew\\README.md": {
-    "mtime": 1779778644.3739543,
-    "ast_hash": "8b7ca548bd36b6db39006bac6cd54759",
-    "semantic_hash": "8b7ca548bd36b6db39006bac6cd54759"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\cavecrew\\SKILL.md": {
-    "mtime": 1779778644.374455,
-    "ast_hash": "6ea8150438c6392a5ee0afef0a735ad4",
-    "semantic_hash": "6ea8150438c6392a5ee0afef0a735ad4"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman\\README.md": {
-    "mtime": 1779778644.3844545,
-    "ast_hash": "3358f5119f61b24f5fa65a25de7b866b",
-    "semantic_hash": "3358f5119f61b24f5fa65a25de7b866b"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman\\SKILL.md": {
-    "mtime": 1779778644.3849552,
-    "ast_hash": "90e5f9d97791c2080495926731e0f5ad",
-    "semantic_hash": "90e5f9d97791c2080495926731e0f5ad"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-commit\\README.md": {
-    "mtime": 1779778644.3749547,
-    "ast_hash": "2fe1d98cadbd2709a34ee3c77795a143",
-    "semantic_hash": "2fe1d98cadbd2709a34ee3c77795a143"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-commit\\SKILL.md": {
-    "mtime": 1779778644.375455,
-    "ast_hash": "e8d814f342ec5752f47866299badd0a7",
-    "semantic_hash": "e8d814f342ec5752f47866299badd0a7"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\README.md": {
-    "mtime": 1779778644.3759573,
-    "ast_hash": "78d3757502badfab9db0e38724d336b3",
-    "semantic_hash": "78d3757502badfab9db0e38724d336b3"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\SECURITY.md": {
-    "mtime": 1779778644.3764572,
-    "ast_hash": "b2caed82d9d4a58c0530f7e741851224",
-    "semantic_hash": "b2caed82d9d4a58c0530f7e741851224"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\SKILL.md": {
-    "mtime": 1779778644.3769565,
-    "ast_hash": "5cfd6ee9993c9e72da6404a9841d82fd",
-    "semantic_hash": "5cfd6ee9993c9e72da6404a9841d82fd"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-help\\README.md": {
-    "mtime": 1779778644.3814552,
-    "ast_hash": "f49266e99b58d33c1d40b7bf0a644ec3",
-    "semantic_hash": "f49266e99b58d33c1d40b7bf0a644ec3"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-help\\SKILL.md": {
-    "mtime": 1779778644.3814552,
-    "ast_hash": "b0168dbcf14c8d3cd29101e1eb66de12",
-    "semantic_hash": "b0168dbcf14c8d3cd29101e1eb66de12"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-review\\README.md": {
-    "mtime": 1779778644.3824549,
-    "ast_hash": "9777a26704850f1e091ab072f02fa10f",
-    "semantic_hash": "9777a26704850f1e091ab072f02fa10f"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-review\\SKILL.md": {
-    "mtime": 1779778644.3829563,
-    "ast_hash": "0e038c50a6bfdc9b8a307e6316c07236",
-    "semantic_hash": "0e038c50a6bfdc9b8a307e6316c07236"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-stats\\README.md": {
-    "mtime": 1779778644.3834574,
-    "ast_hash": "866dc96f332b4e2bc1f80fec878fea52",
-    "semantic_hash": "866dc96f332b4e2bc1f80fec878fea52"
-  },
-  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-stats\\SKILL.md": {
-    "mtime": 1779778644.383955,
+    "mtime": 1779857740.9089615,
     "ast_hash": "e9966f688641209792719474f241a6ef",
     "semantic_hash": "e9966f688641209792719474f241a6ef"
   },
@@ -698,5 +588,130 @@
     "mtime": 1779781721.2318375,
     "ast_hash": "e092c3924799d4fc4194f994d8394cc3",
     "semantic_hash": "e092c3924799d4fc4194f994d8394cc3"
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\LIVE_settings_data.json": {
+    "mtime": 1779852321.7846544,
+    "ast_hash": "96a07657dcd621f49d45ecbabc95bb70",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\NEW_index.json": {
+    "mtime": 1779854931.370263,
+    "ast_hash": "757c1db2ecb61d5c567599a3086dd710",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\_theme_sections\\LIVE_index_current.json": {
+    "mtime": 1779855778.6102476,
+    "ast_hash": "46c7a76ed369ed0c7beec14e88e9e08e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\benchmark.py": {
+    "mtime": 1779857740.9049637,
+    "ast_hash": "07500037c8606fc9ab1832f55a5ff346",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\cli.py": {
+    "mtime": 1779857740.9049637,
+    "ast_hash": "c558740fb2c74c292c1886353add193a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\compress.py": {
+    "mtime": 1779857740.9054654,
+    "ast_hash": "b64cfd042fdf93e8ac852fb3b87195a3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\detect.py": {
+    "mtime": 1779857740.9059622,
+    "ast_hash": "951a4593947c23cb9bfe8d99dc245b16",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\validate.py": {
+    "mtime": 1779857740.9064622,
+    "ast_hash": "5d3394df7677d1ee08f0b69bb767b38c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\__init__.py": {
+    "mtime": 1779857740.903962,
+    "ast_hash": "d6acae7e188357d1bc1258ce02a29811",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\scripts\\__main__.py": {
+    "mtime": 1779857740.9044616,
+    "ast_hash": "5bd0e02db4907bf4e435e5d770256fef",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\cavecrew\\README.md": {
+    "mtime": 1779857740.9009585,
+    "ast_hash": "8b7ca548bd36b6db39006bac6cd54759",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\cavecrew\\SKILL.md": {
+    "mtime": 1779857740.9014616,
+    "ast_hash": "6ea8150438c6392a5ee0afef0a735ad4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman\\README.md": {
+    "mtime": 1779857740.9099646,
+    "ast_hash": "3358f5119f61b24f5fa65a25de7b866b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman\\SKILL.md": {
+    "mtime": 1779857740.9104698,
+    "ast_hash": "90e5f9d97791c2080495926731e0f5ad",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-commit\\README.md": {
+    "mtime": 1779857740.9019651,
+    "ast_hash": "2fe1d98cadbd2709a34ee3c77795a143",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-commit\\SKILL.md": {
+    "mtime": 1779857740.9024625,
+    "ast_hash": "e8d814f342ec5752f47866299badd0a7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\README.md": {
+    "mtime": 1779857740.9029622,
+    "ast_hash": "78d3757502badfab9db0e38724d336b3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\SECURITY.md": {
+    "mtime": 1779857740.9029622,
+    "ast_hash": "b2caed82d9d4a58c0530f7e741851224",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-compress\\SKILL.md": {
+    "mtime": 1779857740.9034612,
+    "ast_hash": "5cfd6ee9993c9e72da6404a9841d82fd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-help\\README.md": {
+    "mtime": 1779857740.9069614,
+    "ast_hash": "f49266e99b58d33c1d40b7bf0a644ec3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-help\\SKILL.md": {
+    "mtime": 1779857740.9074612,
+    "ast_hash": "b0168dbcf14c8d3cd29101e1eb66de12",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-review\\README.md": {
+    "mtime": 1779857740.9079618,
+    "ast_hash": "9777a26704850f1e091ab072f02fa10f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-review\\SKILL.md": {
+    "mtime": 1779857740.9084616,
+    "ast_hash": "0e038c50a6bfdc9b8a307e6316c07236",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-stats\\README.md": {
+    "mtime": 1779857740.9089615,
+    "ast_hash": "866dc96f332b4e2bc1f80fec878fea52",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.claude\\skills\\caveman-stats\\SKILL.md": {
+    "mtime": 1779857740.9089615,
+    "ast_hash": "e9966f688641209792719474f241a6ef",
+    "semantic_hash": ""
   }
 }
