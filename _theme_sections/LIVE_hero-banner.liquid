@@ -398,6 +398,9 @@
     {%- elsif section.settings.height == 'custom' -%}
       min-height: {{ section.settings.custom_height }}px;
     {%- endif -%}
+    {%- if section.settings.height == 'auto' and section.settings.bg_image_ratio != 'none' -%}
+      aspect-ratio: {{ section.settings.bg_image_ratio }};
+    {%- endif -%}
   }
 
   /* ── Background ────────────────────────────── */
@@ -456,10 +459,10 @@
     width: {{ section.settings.max_width }}%;
     {%- if section.settings.position_right -%}
       margin-left: auto; margin-right: 0;
-      padding-right: {%- if section.settings.section_width == 'full' -%}4rem{%- else -%}0{%- endif -%};
+      padding-right: {{ section.settings.content_pad_h }}px;
     {%- else -%}
       margin-left: 0; margin-right: auto;
-      padding-left: {%- if section.settings.section_width == 'full' -%}4rem{%- else -%}0{%- endif -%};
+      padding-left: {{ section.settings.content_pad_h }}px;
     {%- endif -%}
     display: flex;
     flex-direction: column;
@@ -565,6 +568,15 @@
   }
   #{{ sid }} .sshero__btn:active { transform: translateY(0); }
 
+  /* ── Text shadow ───────────────────────────── */
+  {%- if section.settings.text_shadow -%}
+  #{{ sid }} .sshero__caption,
+  #{{ sid }} .sshero__heading,
+  #{{ sid }} .sshero__text,
+  #{{ sid }} .sshero__stars-text,
+  #{{ sid }} .sshero__stars-pre-text { text-shadow: 0 2px 12px rgba(0,0,0,0.45); }
+  {%- endif -%}
+
   /* ── Disclaimer ────────────────────────────── */
   #{{ sid }} .sshero__disclaimer {
     display: flex;
@@ -612,7 +624,13 @@
   }
   #{{ sid }}.sshero--split .sshero__outer {
     display: grid;
+    {%- if section.settings.split_ratio == '40/60' -%}
+    grid-template-columns: 2fr 3fr;
+    {%- elsif section.settings.split_ratio == '60/40' -%}
+    grid-template-columns: 3fr 2fr;
+    {%- else -%}
     grid-template-columns: 1fr 1fr;
+    {%- endif -%}
     min-height: inherit;
     padding: 0;
   }
@@ -626,7 +644,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: {{ section.settings.split_image_fit }};
     object-position: {{ section.settings.bg_position }};
     display: block;
   }
@@ -649,14 +667,14 @@
     }
     #{{ sid }}.sshero--split .sshero__split-media {
       order: 1;
-      min-height: 260px;
+      min-height: {{ section.settings.split_mobile_height }}px;
       position: relative;
     }
     #{{ sid }}.sshero--split .sshero__split-img {
       position: relative;
       inset: auto;
       width: 100%;
-      height: 260px;
+      height: {{ section.settings.split_mobile_height }}px;
     }
     #{{ sid }}.sshero--split .sshero__inner {
       order: 2;
@@ -665,6 +683,12 @@
 
   /* ── Mobile ────────────────────────────────── */
   @media (max-width: 749px) {
+    {%- if section.settings.height == 'custom' -%}
+    #{{ sid }} { min-height: {{ section.settings.custom_height_mobile }}px; }
+    {%- endif -%}
+    {%- if section.settings.bg_image_ratio_mobile != 'none' -%}
+    #{{ sid }} { aspect-ratio: {{ section.settings.bg_image_ratio_mobile }}; }
+    {%- endif -%}
     #{{ sid }} .sshero__outer {
       {%- if section.settings.position_mobile == 'top' -%}align-items: flex-start;
       {%- elsif section.settings.position_mobile == 'bottom' -%}align-items: flex-end;
@@ -673,7 +697,7 @@
     }
     #{{ sid }} .sshero__inner {
       width: 100%;
-      padding: 2rem 1.4rem;
+      padding: {{ section.settings.content_pad_v_mobile }}px {{ section.settings.content_pad_h_mobile }}px;
       text-align: {%- if section.settings.alignment_mobile == 'center' -%}center{%- elsif section.settings.alignment_mobile == 'right' -%}right{%- else -%}left{%- endif -%};
     }
     #{{ sid }} .sshero__feature {
@@ -726,6 +750,31 @@
     { "type": "image_picker", "id": "bg_image",        "label": "Background / split image" },
     { "type": "image_picker", "id": "bg_image_mobile", "label": "Mobile image (optional — falls back to main image)" },
     {
+      "type": "select", "id": "bg_image_ratio", "label": "Image ratio — desktop",
+      "info": "Controls section height based on image aspect ratio. Only applies when Height = Auto.",
+      "options": [
+        { "value": "none", "label": "Fill (controlled by Height setting)" },
+        { "value": "21/9", "label": "21:9 — Cinematic" },
+        { "value": "16/9", "label": "16:9 — Widescreen" },
+        { "value": "4/3",  "label": "4:3 — Standard" },
+        { "value": "1/1",  "label": "1:1 — Square" }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "select", "id": "bg_image_ratio_mobile", "label": "Image ratio — mobile",
+      "info": "Override the ratio specifically for mobile. 'Match desktop' keeps the same ratio.",
+      "options": [
+        { "value": "none", "label": "Match desktop ratio" },
+        { "value": "21/9", "label": "21:9 — Cinematic" },
+        { "value": "16/9", "label": "16:9 — Widescreen" },
+        { "value": "4/3",  "label": "4:3 — Standard" },
+        { "value": "3/4",  "label": "3:4 — Portrait (mobile-first)" },
+        { "value": "1/1",  "label": "1:1 — Square" }
+      ],
+      "default": "none"
+    },
+    {
       "type": "select", "id": "bg_position", "label": "Image focus point",
       "options": [
         { "value": "center center", "label": "Center" },
@@ -754,6 +803,7 @@
       "default": "full_screen"
     },
     { "type": "range", "id": "custom_height", "label": "Custom height (used when Height = Custom)", "min": 200, "max": 1000, "step": 10, "unit": "px", "default": 600 },
+    { "type": "range", "id": "custom_height_mobile", "label": "Custom height — mobile", "min": 200, "max": 900, "step": 10, "unit": "px", "default": 500, "info": "Only used when Height = Custom on mobile." },
     { "type": "range", "id": "max_width", "label": "Content max width", "min": 20, "max": 100, "step": 5, "unit": "%", "default": 50 },
     { "type": "checkbox", "id": "position_right", "label": "Position content on right", "default": false, "info": "Pushes the content to the right side on desktop, while keeping your chosen text alignment." },
     {
@@ -801,9 +851,37 @@
       "default": "full"
     },
 
+    { "type": "header", "content": "Content Padding" },
+    { "type": "range", "id": "content_pad_h",        "label": "Horizontal padding — desktop", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 40 },
+    { "type": "range", "id": "content_pad_h_mobile", "label": "Horizontal padding — mobile",  "min": 0, "max": 80,  "step": 4, "unit": "px", "default": 20 },
+    { "type": "range", "id": "content_pad_v_mobile", "label": "Vertical padding — mobile",    "min": 0, "max": 80,  "step": 4, "unit": "px", "default": 24 },
+
+    { "type": "header", "content": "Split Screen" },
+    {
+      "type": "select", "id": "split_ratio", "label": "Column ratio (text / image)",
+      "info": "Only applies when Layout = Split Screen.",
+      "options": [
+        { "value": "40/60", "label": "40 / 60 — Image-heavy" },
+        { "value": "50/50", "label": "50 / 50 — Equal" },
+        { "value": "60/40", "label": "60 / 40 — Text-heavy" }
+      ],
+      "default": "50/50"
+    },
+    {
+      "type": "select", "id": "split_image_fit", "label": "Image fit",
+      "info": "Only applies when Layout = Split Screen.",
+      "options": [
+        { "value": "cover",   "label": "Cover (fill, crop to fit)" },
+        { "value": "contain", "label": "Contain (show full image)" }
+      ],
+      "default": "cover"
+    },
+    { "type": "range", "id": "split_mobile_height", "label": "Image height — mobile (split)", "info": "Only applies when Layout = Split Screen on mobile.", "min": 200, "max": 700, "step": 10, "unit": "px", "default": 300 },
+
     { "type": "header", "content": "Colors" },
     { "type": "color", "id": "section_bg", "label": "Section background (fallback)", "default": "#1a1a1a" },
     { "type": "color", "id": "section_fg", "label": "Section text color", "default": "#ffffff" },
+    { "type": "checkbox", "id": "text_shadow", "label": "Enable text shadow", "default": false, "info": "Soft drop-shadow behind all text — improves readability on bright images." },
 
     { "type": "header", "content": "Features — Shared Appearance" },
     { "type": "checkbox", "id": "feature_bg",    "label": "Show background on features", "default": false },
