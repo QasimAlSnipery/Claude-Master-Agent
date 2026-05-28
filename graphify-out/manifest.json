@@ -763,5 +763,40 @@
     "mtime": 1779862199.6350615,
     "ast_hash": "9b480048818552aa1c683cb4f65805f3",
     "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\add_scarcity.py": {
+    "mtime": 1779968578.1982162,
+    "ast_hash": "89ffd5fc6357dcb7491c44c53ba281ad",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\build_template.py": {
+    "mtime": 1779967975.3903775,
+    "ast_hash": "c35497c5526cdffc26dbebd8839bdad1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\roly-watch-template-modified.json": {
+    "mtime": 1779968582.491029,
+    "ast_hash": "776739aac32df55480b9bc5ea218da14",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\roly-watch-template.json": {
+    "mtime": 1779967859.1684732,
+    "ast_hash": "d6a3b038cd196253774e127dcef04d95",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\upload_section.py": {
+    "mtime": 1779968923.4850028,
+    "ast_hash": "61624d2f47f30df216201afebfcd7d4e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\upload_template.py": {
+    "mtime": 1779968344.8454406,
+    "ast_hash": "e2219febb480d17acfa6365e053ea60a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.firecrawl\\designa-cream-v2.md": {
+    "mtime": 1779967127.9210014,
+    "ast_hash": "20e852d662c7c58dc95b4b8d2658cb12",
+    "semantic_hash": ""
   }
 }
