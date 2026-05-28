@@ -225,10 +225,19 @@
                         <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255,255,255)" stroke-width="1" fill="{{ block.settings.low_stock_dot_color }}"/>
                       </svg>
                     {%- endif -%}
+                    {%- assign inv_qty = product.selected_or_first_available_variant.inventory_quantity | append: '' -%}
                     {%- if block.settings.show_inventory_quantity -%}
-                      {{- 'products.product.inventory_low_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                      {%- if block.settings.low_stock_with_count_text != blank -%}
+                        {{- block.settings.low_stock_with_count_text | replace: '[quantity]', inv_qty -}}
+                      {%- else -%}
+                        {{- 'products.product.inventory_low_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                      {%- endif -%}
                     {%- else -%}
-                      {{- 'products.product.inventory_low_stock' | t -}}
+                      {%- if block.settings.low_stock_text != blank -%}
+                        {{- block.settings.low_stock_text -}}
+                      {%- else -%}
+                        {{- 'products.product.inventory_low_stock' | t -}}
+                      {%- endif -%}
                     {%- endif -%}
                   {%- else -%}
                     {%- if block.settings.show_icon -%}
@@ -237,10 +246,19 @@
                         <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255,255,255)" stroke-width="1" fill="{{ block.settings.in_stock_dot_color }}"/>
                       </svg>
                     {%- endif -%}
+                    {%- assign inv_qty = product.selected_or_first_available_variant.inventory_quantity | append: '' -%}
                     {%- if block.settings.show_inventory_quantity -%}
-                      {{- 'products.product.inventory_in_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                      {%- if block.settings.in_stock_with_count_text != blank -%}
+                        {{- block.settings.in_stock_with_count_text | replace: '[quantity]', inv_qty -}}
+                      {%- else -%}
+                        {{- 'products.product.inventory_in_stock_show_count' | t: quantity: product.selected_or_first_available_variant.inventory_quantity -}}
+                      {%- endif -%}
                     {%- else -%}
+                      {%- if block.settings.in_stock_text != blank -%}
+                        {{- block.settings.in_stock_text -}}
+                      {%- else -%}
                         {{- 'products.product.inventory_in_stock' | t -}}
+                      {%- endif -%}
                     {%- endif -%}
                   {%- endif -%}
                 {%- else -%}
@@ -251,7 +269,11 @@
                         <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255,255,255)" stroke-width="1" fill="{{ block.settings.in_stock_dot_color }}"/>
                       </svg>
                     {%- endif -%}
-                    {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
+                    {%- if block.settings.continue_selling_text != blank -%}
+                      {{- block.settings.continue_selling_text -}}
+                    {%- else -%}
+                      {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
+                    {%- endif -%}
                   {%- else -%}
                     {%- if block.settings.show_icon -%}
                       <svg width="{{ block.settings.icon_size }}" height="{{ block.settings.icon_size }}" aria-hidden="true">
@@ -259,7 +281,11 @@
                         <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255,255,255)" stroke-width="1" fill="#c8c8c8"/>
                       </svg>
                     {%- endif -%}
-                    {{- 'products.product.inventory_out_of_stock' | t -}}
+                    {%- if block.settings.out_of_stock_text != blank -%}
+                      {{- block.settings.out_of_stock_text -}}
+                    {%- else -%}
+                      {{- 'products.product.inventory_out_of_stock' | t -}}
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
               </p>
@@ -2259,6 +2285,50 @@
           "id": "show_inventory_quantity",
           "label": "t:sections.main-product.blocks.inventory.settings.show_inventory_quantity.label",
           "default": true
+        },
+        {
+          "type": "header",
+          "content": "Custom text"
+        },
+        {
+          "type": "paragraph",
+          "content": "Use [quantity] as a placeholder for the stock number. Leave blank to use theme defaults."
+        },
+        {
+          "type": "text",
+          "id": "low_stock_with_count_text",
+          "label": "Low stock — with count",
+          "placeholder": "Only [quantity] left in stock!"
+        },
+        {
+          "type": "text",
+          "id": "low_stock_text",
+          "label": "Low stock — no count",
+          "placeholder": "Low stock — order soon"
+        },
+        {
+          "type": "text",
+          "id": "in_stock_with_count_text",
+          "label": "In stock — with count",
+          "placeholder": "[quantity] in stock"
+        },
+        {
+          "type": "text",
+          "id": "in_stock_text",
+          "label": "In stock — no count",
+          "placeholder": "In stock"
+        },
+        {
+          "type": "text",
+          "id": "continue_selling_text",
+          "label": "Out of stock — still selling",
+          "placeholder": "Available — ships when restocked"
+        },
+        {
+          "type": "text",
+          "id": "out_of_stock_text",
+          "label": "Out of stock — sold out",
+          "placeholder": "Sold out"
         },
         {
           "type": "header",
