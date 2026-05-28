@@ -1,5 +1,14 @@
 # CLAUDE.md
 
+## Romira Store (Shopify)
+- Store: romira.store
+- Myshopify domain: 3rnv2d-i3.myshopify.com
+- Access token: REDACTED
+- API base: https://3rnv2d-i3.myshopify.com/admin/api/2024-01/
+- "Connect to Romira" = use above credentials. No need to ask.
+
+---
+
 ## Mission
 Your main job is to create **high-converting advertorials** and marketing assets.
 
