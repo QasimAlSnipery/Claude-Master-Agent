@@ -1,16 +1,16 @@
 # Graph Report - Claude Master Agent  (2026-05-28)
 
 ## Corpus Check
-- 144 files · ~349,788 words
+- 149 files · ~357,300 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 6192 nodes · 7714 edges · 317 communities (304 shown, 13 thin omitted)
+- 6996 nodes · 8723 edges · 347 communities (334 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 97 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f46c9f10`
+- Built from commit: `9afb58b7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -307,6 +307,34 @@
 - [[_COMMUNITY_Community 310|Community 310]]
 - [[_COMMUNITY_Community 311|Community 311]]
 - [[_COMMUNITY_Community 312|Community 312]]
+- [[_COMMUNITY_Community 317|Community 317]]
+- [[_COMMUNITY_Community 318|Community 318]]
+- [[_COMMUNITY_Community 319|Community 319]]
+- [[_COMMUNITY_Community 320|Community 320]]
+- [[_COMMUNITY_Community 321|Community 321]]
+- [[_COMMUNITY_Community 322|Community 322]]
+- [[_COMMUNITY_Community 323|Community 323]]
+- [[_COMMUNITY_Community 324|Community 324]]
+- [[_COMMUNITY_Community 325|Community 325]]
+- [[_COMMUNITY_Community 326|Community 326]]
+- [[_COMMUNITY_Community 327|Community 327]]
+- [[_COMMUNITY_Community 328|Community 328]]
+- [[_COMMUNITY_Community 329|Community 329]]
+- [[_COMMUNITY_Community 330|Community 330]]
+- [[_COMMUNITY_Community 331|Community 331]]
+- [[_COMMUNITY_Community 332|Community 332]]
+- [[_COMMUNITY_Community 333|Community 333]]
+- [[_COMMUNITY_Community 334|Community 334]]
+- [[_COMMUNITY_Community 335|Community 335]]
+- [[_COMMUNITY_Community 336|Community 336]]
+- [[_COMMUNITY_Community 337|Community 337]]
+- [[_COMMUNITY_Community 338|Community 338]]
+- [[_COMMUNITY_Community 339|Community 339]]
+- [[_COMMUNITY_Community 340|Community 340]]
+- [[_COMMUNITY_Community 341|Community 341]]
+- [[_COMMUNITY_Community 342|Community 342]]
+- [[_COMMUNITY_Community 343|Community 343]]
+- [[_COMMUNITY_Community 344|Community 344]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `current` - 195 edges
@@ -318,19 +346,19 @@
 7. `settings` - 85 edges
 8. `settings` - 85 edges
 9. `settings` - 85 edges
-10. `settings` - 69 edges
+10. `settings` - 85 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Facebook Post — Painsomnia 3AM (Highest Buyer Intent)` --semantically_similar_to--> `3 Stages of Nerve Breakdown (Content Concept)`  [INFERRED] [semantically similar]
   graphify-out/converted/Sandra_Final4_Posts_bc07a946.md → _theme_sections/_v_romira-nerve-stages.json
 - `Expert Endorsement Section` --semantically_similar_to--> `Format D: Long-form Specialist Authority`  [INFERRED] [semantically similar]
   _theme_sections/SCHEMAS.md → AGENT-FRAMEWORK.md
-- `Quantity Discount Table Section` --semantically_similar_to--> `The Stack (Value Stacking)`  [INFERRED] [semantically similar]
-  _theme_sections/SCHEMAS.md → AGENT-FRAMEWORK.md
-- `Before & After Results Section` --semantically_similar_to--> `Future Pacing`  [INFERRED] [semantically similar]
-  _theme_sections/SCHEMAS.md → AGENT-FRAMEWORK.md
 - `Romira PEA Advertorial Content (investigative report)` --semantically_similar_to--> `Romira PEA Bridge Advertorial (Dr. Harmon confesses)`  [INFERRED] [semantically similar]
   content-romira-pea-advertorial.json → content-romira-pea-bridge.json
+- `R-Alpha Lipoic Acid Nerve Support Concept` --semantically_similar_to--> `Palmitoylethanolamide (PEA) — Body's Pain Regulator`  [INFERRED] [semantically similar]
+  create_lipoic_ads.py → content-romira-pea-advertorial.json
+- `Quantity Discount Table Section` --semantically_similar_to--> `The Stack (Value Stacking)`  [INFERRED] [semantically similar]
+  _theme_sections/SCHEMAS.md → AGENT-FRAMEWORK.md
 
 ## Hyperedges (group relationships)
 - **Brunson Core Persuasion Trio** — agent_framework_hook_story_offer, agent_framework_epiphany_bridge, agent_framework_three_false_beliefs [EXTRACTED 1.00]
@@ -349,7 +377,7 @@
 - **Romira Shopify Section Build + Upload Pipeline** — v_romira_comparison_liquid_section, v_romira_nerve_stages_liquid_section, v_romira_timeline_liquid_section, v_romira_guarantee_banner_liquid_section, romira_shopify_theme_id [EXTRACTED 1.00]
 - **Romira Persuasion Content System: Stages + Timeline + Guarantee** — nerve_stages_content_concept, timeline_week_by_week_concept, guarantee_60day_concept, pain_off_switch_mechanism [INFERRED 0.85]
 
-## Communities (317 total, 13 thin omitted)
+## Communities (347 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.02
@@ -424,8 +452,8 @@ Cohesion: 0.07
 Nodes (32): settings, settings, bottom_text_1, bottom_text_2, bottom_text_3, bottom_text_4, compare_price_color, custom_badge_text (+24 more)
 
 ### Community 18 - "Community 18"
-Cohesion: 0.06
-Nodes (35): settings, avatar_1_verified, avatar_2_verified, avatar_3_verified, avatar_4_verified, avatar_5_verified, avatar_offset, avatar_size (+27 more)
+Cohesion: 0.05
+Nodes (37): review_avatars_9gqG4t, settings, type, avatar_1_verified, avatar_2_verified, avatar_3_verified, avatar_4_verified, avatar_5_verified (+29 more)
 
 ### Community 19 - "Community 19"
 Cohesion: 0.05
@@ -461,7 +489,7 @@ Nodes (31): author_name, author_photo_url, author_title, author_warning, body, b
 
 ### Community 27 - "Community 27"
 Cohesion: 0.06
-Nodes (31): settings, breaks_badge_color, breaks_badge_style, breaks_badges, breaks_benefit_color, breaks_benefit_position, breaks_benefit_style, breaks_benefits (+23 more)
+Nodes (33): settings, type, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, breaks_badge_color, breaks_badge_style, breaks_badges, breaks_benefit_color, breaks_benefit_position (+25 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.06
@@ -532,8 +560,8 @@ Cohesion: 0.08
 Nodes (23): bundle_picker_FXYfbm, review_avatars, reviews, shipping_checkpoints, sticky_atc, sub_bar_main, trust_bar_zTG3BC, variant_picker (+15 more)
 
 ### Community 45 - "Community 45"
-Cohesion: 0.17
-Nodes (28): review_1, review_2, review_3, review_4, review_5, review_6, review_7, settings (+20 more)
+Cohesion: 0.14
+Nodes (31): review_1, review_2, review_3, review_4, review_5, review_6, review_7, settings (+23 more)
 
 ### Community 46 - "Community 46"
 Cohesion: 0.21
@@ -552,8 +580,8 @@ Cohesion: 0.07
 Nodes (27): button_label, color_scheme, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image, desktop_show_price, desktop_show_price_in_button (+19 more)
 
 ### Community 50 - "Community 50"
-Cohesion: 0.08
-Nodes (24): type, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, buy_buttons, collapsible_tab_ccfrML, collapsible_tab_LPNzCP, collapsible_tab_WVx44p, de158e68-5d0d-4819-a625-e2dabdff87d1, review_avatars_9gqG4t (+16 more)
+Cohesion: 0.06
+Nodes (32): buy_buttons, collapsible_tab_ccfrML, collapsible_tab_LPNzCP, collapsible_tab_WVx44p, de158e68-5d0d-4819-a625-e2dabdff87d1, text_4ne6gk, text_bctCLi, text_EamU3e (+24 more)
 
 ### Community 51 - "Community 51"
 Cohesion: 0.08
@@ -600,8 +628,8 @@ Cohesion: 0.12
 Nodes (17): type, type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, de158e68-5d0d-4819-a625-e2dabdff87d1, e0a0b690-50df-4ca4-acfd-ce2980696cce, e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5, price (+9 more)
 
 ### Community 62 - "Community 62"
-Cohesion: 0.15
-Nodes (23): Facebook Post — Grandkids Emotional Hook, Facebook Post — Morning Back Pain (Widest Reach), Facebook Post — Painsomnia 3AM (Highest Buyer Intent), Facebook Post — Tried Everything (Most Ready to Buy), 60-Day Money-Back Guarantee (Trust Concept), 3 Stages of Nerve Breakdown (Content Concept), Pain-Off Switch Mechanism (PEA after 50 narrative), Romira PEA Advertorial (+15 more)
+Cohesion: 0.16
+Nodes (22): Facebook Post — Grandkids Emotional Hook, Facebook Post — Morning Back Pain (Widest Reach), Facebook Post — Painsomnia 3AM (Highest Buyer Intent), Facebook Post — Tried Everything (Most Ready to Buy), 60-Day Money-Back Guarantee (Trust Concept), 3 Stages of Nerve Breakdown (Content Concept), Pain-Off Switch Mechanism (PEA after 50 narrative), Romira PEA Advertorial (+14 more)
 
 ### Community 63 - "Community 63"
 Cohesion: 0.09
@@ -648,8 +676,8 @@ Cohesion: 0.09
 Nodes (22): reviews_gtkAkf, settings, type, author_1, author_2, author_3, autoplay, autoplay_speed (+14 more)
 
 ### Community 74 - "Community 74"
-Cohesion: 0.15
-Nodes (19): Brand Profile System, Advertorial Agent Framework, Attractive Character (Author/Narrator Persona), The Big Domino (Core Belief Toppling), Brand Profile Template, Epiphany Bridge (7-Step Story Structure), Format A — Long-Form Editorial Advertorial, Format B — First-Person Customer Story Advertorial (+11 more)
+Cohesion: 0.22
+Nodes (13): Advertorial Agent Framework, Attractive Character (Author/Narrator Persona), The Big Domino (Core Belief Toppling), Epiphany Bridge (7-Step Story Structure), Format A — Long-Form Editorial Advertorial, Future Pacing (Positive Outcome Visualization), Named Mechanism (Proprietary Concept Naming), Negative Future Pacing (Cost of Inaction) (+5 more)
 
 ### Community 75 - "Community 75"
 Cohesion: 0.11
@@ -668,8 +696,8 @@ Cohesion: 0.11
 Nodes (18): block_order, blocks, type, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4 (+10 more)
 
 ### Community 79 - "Community 79"
-Cohesion: 0.14
-Nodes (17): Format A: Long-form Editorial, Format B: First-Person Customer Story, Format C: Numbered Listicle, Format D: Long-form Specialist Authority, Format E: Mid-form Specialist Authority, Format F: Short Bridge Page, Format Selector Quiz, Build Process (python build.py) (+9 more)
+Cohesion: 0.16
+Nodes (16): Format B: First-Person Customer Story, Format C: Numbered Listicle, Format D: Long-form Specialist Authority, Format E: Mid-form Specialist Authority, Format F: Short Bridge Page, Format Selector Quiz, Romira Store Connection Config, Format D — Long-Form Specialist Authority Advertorial (+8 more)
 
 ### Community 80 - "Community 80"
 Cohesion: 0.01
@@ -732,12 +760,12 @@ Cohesion: 0.13
 Nodes (15): buy_buttons, settings, type, custom_color, display_price, enable_custom_color, enable_secondary_btn, icon_scale (+7 more)
 
 ### Community 95 - "Community 95"
-Cohesion: 0.21
-Nodes (12): Attractive Character, The Big Domino, Russell Brunson Persuasion Architecture, Epiphany Bridge, Future Pacing, Hook-Story-Offer Structure, Named Mechanism Principle, Negative Future Pacing (+4 more)
+Cohesion: 0.15
+Nodes (20): Attractive Character, The Big Domino, Russell Brunson Persuasion Architecture, Epiphany Bridge, Future Pacing, Hook-Story-Offer Structure, Named Mechanism Principle, Negative Future Pacing (+12 more)
 
 ### Community 96 - "Community 96"
 Cohesion: 0.06
-Nodes (32): ADVERTORIAL AGENT FRAMEWORK, ALWAYS CHECK BEFORE OUTPUTTING:, code:block10 (SECTION 01: ANNOUNCEMENT BAR), code:json ({), code:block22 (STEP 1: Start a conversation with Claude.), code:block8 (SECTION 01: MASTHEAD), COMPLETE JSON SCHEMA, FORMAT A FORMULA — Long-Form Editorial (Felora Model) (+24 more)
+Nodes (31): ADVERTORIAL AGENT FRAMEWORK, code:block10 (SECTION 01: ANNOUNCEMENT BAR), code:json ({), code:block22 (STEP 1: Start a conversation with Claude.), code:block6 (content-[product-slug]-v[version]-format[letter].json), code:block7 ([product-slug]-v[version]-format[letter]-creative-brief.md), code:block8 (SECTION 01: MASTHEAD), COMPLETE JSON SCHEMA (+23 more)
 
 ### Community 97 - "Community 97"
 Cohesion: 0.22
@@ -752,20 +780,20 @@ Cohesion: 0.09
 Nodes (23): payment_badges_JzACb7, rating_stars, title, disabled, settings, type, settings, type (+15 more)
 
 ### Community 100 - "Community 100"
-Cohesion: 0.18
-Nodes (10): type, block_order, custom_css, type, block_order, type, sections, faq_section_pea (+2 more)
+Cohesion: 0.25
+Nodes (7): type, block_order, custom_css, type, sections, faq_section_pea, main
 
 ### Community 101 - "Community 101"
-Cohesion: 0.22
-Nodes (10): Advertorial Agent Framework, Advertorial JSON Schema, Onboarding Protocol, Pre-Generation Interview Protocol, .claude/CLAUDE.md Graphify Trigger, Brunson Framework References, Graphify Integration in CLAUDE.md, CLAUDE.md Mission & Rules (+2 more)
+Cohesion: 0.18
+Nodes (12): Advertorial Agent Framework, Brand Profile System, Advertorial JSON Schema, Onboarding Protocol, Pre-Generation Interview Protocol, Brand Profile Template, .claude/CLAUDE.md Graphify Trigger, Brunson Framework References (+4 more)
 
 ### Community 102 - "Community 102"
-Cohesion: 0.38
-Nodes (10): Shopify API Push Method (curl.exe pattern), GitHub Account (QasimAlSnipery), GitHub Reference Memory (Main), GitHub Reference Memory (Worktree), Memory Index (Main), Memory Index (Worktree), Romira Theme Work Memory (Main), Romira Theme Work Memory (Worktree) (+2 more)
+Cohesion: 0.31
+Nodes (13): Shopify API Push Method (curl.exe pattern), GitHub Account (QasimAlSnipery), GitHub Reference Memory (Main), GitHub Reference Memory (Worktree), Memory Index (Main), Memory Index (Worktree), Romira PEA Project Memory (Main), Romira PEA Project Memory (Worktree) (+5 more)
 
 ### Community 103 - "Community 103"
-Cohesion: 0.33
-Nodes (9): Romira Store Connection Config, Romira PEA Project Memory (Main), Romira PEA Project Memory (Worktree), Romira PEA 600mg Supplement Product, Romira Brand (Supplement), Romira PEA Advertorial, Romira R-ALA Product, Romira Shopify Store (romira.store) (+1 more)
+Cohesion: 0.25
+Nodes (9): Format A: Long-form Editorial, Build Process (python build.py), Felora Wireless Fountain Advertorial, Felora Brand (Cat Fountain), Format B — First-Person Customer Story Advertorial, Python Requirements (Jinja2), Romira PEA Advertorial, Romira PEA Nobel Advertorial (+1 more)
 
 ### Community 104 - "Community 104"
 Cohesion: 0.20
@@ -860,20 +888,20 @@ Cohesion: 0.07
 Nodes (27): 2a. Fill out your Brand Profile, 2b. Save your Brand Profile, ADVERTORIAL AGENT — ONBOARDING GUIDE, BEFORE YOU GO LIVE — PRE-FLIGHT CHECKLIST, Build the HTML, code:block1 (python build.py content-[product].json), code:block2 (Brand profile:     brand-profile-[brand-slug].md), code:block3 (brand-profile-felora.md) (+19 more)
 
 ### Community 127 - "Community 127"
-Cohesion: 0.07
-Nodes (27): 2a. Fill out your Brand Profile, 2b. Save your Brand Profile, ADVERTORIAL AGENT — ONBOARDING GUIDE, BEFORE YOU GO LIVE — PRE-FLIGHT CHECKLIST, Build the HTML, code:block1 (python build.py content-[product].json), code:block2 (Brand profile:     brand-profile-[brand-slug].md), code:block3 (brand-profile-felora.md) (+19 more)
+Cohesion: 0.10
+Nodes (20): 2a. Fill out your Brand Profile, 2b. Save your Brand Profile, ADVERTORIAL AGENT — ONBOARDING GUIDE, BEFORE YOU GO LIVE — PRE-FLIGHT CHECKLIST, code:block2 (Brand profile:     brand-profile-[brand-slug].md), code:block3 (brand-profile-felora.md), Everything you need to go from zero to your first advertorial in one session, FILE NAMING CONVENTION (+12 more)
 
 ### Community 130 - "Community 130"
-Cohesion: 0.09
-Nodes (40): button_1, caption_1, disclaimer_1, feature_1, feature_2, feature_3, heading_1, text_1 (+32 more)
+Cohesion: 0.08
+Nodes (46): button_1, caption_1, disclaimer_1, feature_1, feature_2, feature_3, heading_1, stars_1 (+38 more)
 
 ### Community 135 - "Community 135"
 Cohesion: 0.67
 Nodes (3): UI/UX Pro Max Search Script, UI/UX Pro Max Core Module, UI/UX Pro Max Design System Module
 
 ### Community 141 - "Community 141"
-Cohesion: 0.13
-Nodes (37): column_Aby8K7, column_DcmJwG, column_Hg8WX6, column_ngVK7m, column_QmxrDr, column_UW9fmK, settings, type (+29 more)
+Cohesion: 0.18
+Nodes (25): column_Aby8K7, column_DcmJwG, column_Hg8WX6, column_ngVK7m, column_QmxrDr, column_UW9fmK, settings, type (+17 more)
 
 ### Community 162 - "Community 162"
 Cohesion: 0.08
@@ -1213,7 +1241,7 @@ Nodes (3): code:powershell (@'), code:block26 (Graph complete. Outputs in PATH_T
 
 ### Community 248 - "Community 248"
 Cohesion: 0.07
-Nodes (31): stars_1, animate_count, bg_blur, bg_opacity, bg_pad_h, bg_pad_v, bg_roundness, desktop_cols (+23 more)
+Nodes (29): animate_count, bg_blur, bg_opacity, bg_pad_h, bg_pad_v, bg_roundness, desktop_cols, divider_style (+21 more)
 
 ### Community 249 - "Community 249"
 Cohesion: 0.08
@@ -1224,8 +1252,8 @@ Cohesion: 0.07
 Nodes (27): settings, compare_price_color, display_single_item_prices, displayed_compare_prices, displayed_variants, enable_savings, image_link, image_size (+19 more)
 
 ### Community 251 - "Community 251"
-Cohesion: 0.08
-Nodes (25): icon_1, icon_2, icon_3, icon_4, name, type, name, type (+17 more)
+Cohesion: 0.16
+Nodes (19): icon_1, icon_2, icon_3, icon_4, settings, type, settings, type (+11 more)
 
 ### Community 252 - "Community 252"
 Cohesion: 0.09
@@ -1312,8 +1340,8 @@ Cohesion: 0.06
 Nodes (35): settings, col_1_desktop_width, col_1_mobile_width, col_1_visibility, col_2_desktop_width, col_2_mobile_width, col_2_visibility, col_3_desktop_width (+27 more)
 
 ### Community 273 - "Community 273"
-Cohesion: 0.33
-Nodes (7): Russell Brunson Persuasion Architecture (Hook-Story-Offer), Build Process (python build.py + JSON), CLAUDE.md (Worktree), Felora Wireless Fountain Advertorial HTML, Format E — Mid-Form Specialist Authority Advertorial, Jinja2 Build System, Advertorial Jinja2 Template (template.html)
+Cohesion: 0.22
+Nodes (10): Russell Brunson Persuasion Architecture (Hook-Story-Offer), Build Process (python build.py + JSON), CLAUDE.md (Worktree), Felora Wireless Fountain Advertorial HTML, Format E — Mid-Form Specialist Authority Advertorial, Image Generation & Upload Workflow (Gemini/Midjourney), Jinja2 Build System, Advertorial Agent Onboarding Guide (+2 more)
 
 ### Community 274 - "Community 274"
 Cohesion: 0.20
@@ -1333,19 +1361,19 @@ Nodes (3): Shopify Theme GraphQL Mutation Pattern, Update Lipoic Acid Shopify Te
 
 ### Community 278 - "Community 278"
 Cohesion: 0.07
-Nodes (33): settings, settings, bottom_text_1, bottom_text_2, bottom_text_3, bottom_text_4, compare_price_color, custom_badge_text (+25 more)
+Nodes (32): settings, settings, bottom_text_1, bottom_text_2, bottom_text_3, bottom_text_4, compare_price_color, custom_badge_text (+24 more)
 
 ### Community 279 - "Community 279"
 Cohesion: 0.07
 Nodes (32): settings, settings, bottom_text_1, bottom_text_2, bottom_text_3, bottom_text_4, compare_price_color, custom_badge_text (+24 more)
 
 ### Community 280 - "Community 280"
-Cohesion: 0.39
-Nodes (8): Before & After Results Section, Expert Endorsement Section, Hero Banner Section (Shopify), Horizontal Ticker Section, How It Works Section, Quantity Discount Table Section, Romira Theme Section Schemas, Romira Theme Section Audit
+Cohesion: 0.03
+Nodes (79): settings, atc_append, atc_append_heights, display_selected_indicator, enable_quantity_discounts, enable_variant_selectors, enable_variant_selectors_on_quantity_of_1, full_width_classic (+71 more)
 
 ### Community 281 - "Community 281"
 Cohesion: 0.06
-Nodes (31): settings, breaks_badge_color, breaks_badge_style, breaks_badges, breaks_benefit_color, breaks_benefit_position, breaks_benefit_style, breaks_benefits (+23 more)
+Nodes (33): settings, type, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, breaks_badge_color, breaks_badge_style, breaks_badges, breaks_benefit_color, breaks_benefit_position (+25 more)
 
 ### Community 282 - "Community 282"
 Cohesion: 0.06
@@ -1392,24 +1420,24 @@ Cohesion: 0.07
 Nodes (31): settings, settings, author_1, author_2, author_3, autoplay, autoplay_speed, avatar_alignment (+23 more)
 
 ### Community 294 - "Community 294"
-Cohesion: 0.07
-Nodes (28): type, type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, de158e68-5d0d-4819-a625-e2dabdff87d1, description, e0a0b690-50df-4ca4-acfd-ce2980696cce, e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5 (+20 more)
+Cohesion: 0.06
+Nodes (31): type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, buy_buttons, de158e68-5d0d-4819-a625-e2dabdff87d1, description, e0a0b690-50df-4ca4-acfd-ce2980696cce, price, vo_product_options_block_JMJ7az (+23 more)
 
 ### Community 295 - "Community 295"
 Cohesion: 0.07
-Nodes (28): type, type, type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, a6eb81db-40e4-43e0-972f-32db010a4a56, de158e68-5d0d-4819-a625-e2dabdff87d1, description (+20 more)
+Nodes (29): type, type, type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, a6eb81db-40e4-43e0-972f-32db010a4a56, de158e68-5d0d-4819-a625-e2dabdff87d1, description (+21 more)
 
 ### Community 296 - "Community 296"
 Cohesion: 0.07
-Nodes (28): settings, button_label, color_scheme, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image, desktop_show_price (+20 more)
+Nodes (27): e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5, settings, type, button_label, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image (+19 more)
 
 ### Community 297 - "Community 297"
-Cohesion: 0.08
-Nodes (26): settings, button_label, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image, desktop_show_price, desktop_show_price_in_button (+18 more)
+Cohesion: 0.07
+Nodes (28): e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5, settings, type, button_label, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image (+20 more)
 
 ### Community 298 - "Community 298"
-Cohesion: 0.09
-Nodes (23): settings, author_1, author_2, author_3, autoplay, autoplay_speed, avatar_alignment, avatar_corner_radius (+15 more)
+Cohesion: 0.08
+Nodes (25): reviews_8UgFbe, settings, type, author_1, author_2, author_3, autoplay, autoplay_speed (+17 more)
 
 ### Community 299 - "Community 299"
 Cohesion: 0.12
@@ -1420,36 +1448,36 @@ Cohesion: 0.13
 Nodes (15): blocks, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-image-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1 (+7 more)
 
 ### Community 301 - "Community 301"
-Cohesion: 0.13
-Nodes (15): blocks, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-image-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1 (+7 more)
+Cohesion: 0.11
+Nodes (18): block_order, blocks, type, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4 (+10 more)
 
 ### Community 302 - "Community 302"
 Cohesion: 0.13
 Nodes (15): buy_buttons, settings, type, custom_color, display_price, enable_custom_color, enable_secondary_btn, icon_scale (+7 more)
 
 ### Community 303 - "Community 303"
-Cohesion: 0.14
-Nodes (14): buy_buttons, settings, type, custom_color, display_price, enable_custom_color, enable_secondary_btn, icon_spacing (+6 more)
+Cohesion: 0.03
+Nodes (79): settings, atc_append, atc_append_heights, display_selected_indicator, enable_quantity_discounts, enable_variant_selectors, enable_variant_selectors_on_quantity_of_1, full_width_classic (+71 more)
 
 ### Community 304 - "Community 304"
-Cohesion: 0.17
-Nodes (12): settings, custom_color, display_price, enable_custom_color, enable_secondary_btn, icon_spacing, secondary_btn_custom_color, secondary_btn_enable_custom_color (+4 more)
+Cohesion: 0.08
+Nodes (48): blocks, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-image-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1 (+40 more)
 
 ### Community 305 - "Community 305"
 Cohesion: 0.18
 Nodes (11): block_order, custom_css, type, disabled, type, sections, main, related-products (+3 more)
 
 ### Community 306 - "Community 306"
-Cohesion: 0.18
-Nodes (10): type, block_order, type, block_order, custom_css, type, sections, 4fc05ee5-1c30-4863-b88f-81cb6fa7c41a (+2 more)
+Cohesion: 0.22
+Nodes (8): block_order, type, block_order, custom_css, type, sections, 8beb6911-28c6-482c-976a-e5421ad3e8df, main
 
 ### Community 307 - "Community 307"
 Cohesion: 0.20
 Nodes (10): settings, type, a6eb81db-40e4-43e0-972f-32db010a4a56, bg_star_color, bg_stars_style, label, rating, scroll_id (+2 more)
 
 ### Community 308 - "Community 308"
-Cohesion: 0.22
-Nodes (8): block_order, type, block_order, custom_css, type, sections, 8beb6911-28c6-482c-976a-e5421ad3e8df, main
+Cohesion: 0.33
+Nodes (5): block_order, custom_css, type, sections, main
 
 ### Community 309 - "Community 309"
 Cohesion: 0.33
@@ -1460,15 +1488,127 @@ Cohesion: 0.33
 Nodes (5): Be with us!×, Cream V2, Cream V2, Request a consultation×, Warranty×
 
 ### Community 311 - "Community 311"
-Cohesion: 0.40
-Nodes (5): blocks, template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1, template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2, type, type
+Cohesion: 0.29
+Nodes (7): blocks, type, template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1, template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2, 4fc05ee5-1c30-4863-b88f-81cb6fa7c41a, type, type
 
 ### Community 312 - "Community 312"
-Cohesion: 0.67
-Nodes (3): code:block6 (content-[product-slug]-v[version]-format[letter].json), code:block7 ([product-slug]-v[version]-format[letter]-creative-brief.md), VERSION CONTROL CONVENTION
+Cohesion: 0.04
+Nodes (48): settings, arrows_color_scheme, autoplay_videos_pause_btn, constrain_to_viewport, desktop_arrows_position, desktop_padding_bottom, desktop_padding_top, desktop_thumbnails_count (+40 more)
+
+### Community 317 - "Community 317"
+Cohesion: 0.04
+Nodes (48): settings, arrows_color_scheme, autoplay_videos_pause_btn, constrain_to_viewport, desktop_arrows_position, desktop_padding_bottom, desktop_padding_top, desktop_thumbnails_count (+40 more)
+
+### Community 318 - "Community 318"
+Cohesion: 0.06
+Nodes (35): type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, de158e68-5d0d-4819-a625-e2dabdff87d1, description, e0a0b690-50df-4ca4-acfd-ce2980696cce, inventory_scarcity_roly, price, vo_product_options_block_JMJ7az (+27 more)
+
+### Community 319 - "Community 319"
+Cohesion: 0.06
+Nodes (35): settings, type, a6eb81db-40e4-43e0-972f-32db010a4a56, reviews_8UgFbe, settings, type, author_1, author_2 (+27 more)
+
+### Community 320 - "Community 320"
+Cohesion: 0.15
+Nodes (35): settings, settings, alignment, border_radius, collapse_icon, column, content, display_top_border (+27 more)
+
+### Community 321 - "Community 321"
+Cohesion: 0.06
+Nodes (34): type, 04ba004e-2f54-4936-8b1c-8bcadf6573f6, de158e68-5d0d-4819-a625-e2dabdff87d1, e0a0b690-50df-4ca4-acfd-ce2980696cce, inventory_scarcity_roly, price, title, vo_product_options_block_JMJ7az (+26 more)
+
+### Community 322 - "Community 322"
+Cohesion: 0.06
+Nodes (33): settings, type, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, breaks_badge_color, breaks_badge_style, breaks_badges, breaks_benefit_color, breaks_benefit_position (+25 more)
+
+### Community 323 - "Community 323"
+Cohesion: 0.06
+Nodes (33): settings, type, 5fcc0428-e768-4cb7-bea3-eb0274198dd1, breaks_badge_color, breaks_badge_style, breaks_badges, breaks_benefit_color, breaks_benefit_position (+25 more)
+
+### Community 324 - "Community 324"
+Cohesion: 0.07
+Nodes (32): settings, settings, bottom_text_1, bottom_text_2, bottom_text_3, bottom_text_4, compare_price_color, custom_badge_text (+24 more)
+
+### Community 325 - "Community 325"
+Cohesion: 0.07
+Nodes (32): settings, settings, bottom_text_1, bottom_text_2, bottom_text_3, bottom_text_4, compare_price_color, custom_badge_text (+24 more)
+
+### Community 326 - "Community 326"
+Cohesion: 0.07
+Nodes (28): e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5, settings, type, button_label, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image (+20 more)
+
+### Community 327 - "Community 327"
+Cohesion: 0.07
+Nodes (27): e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5, settings, type, button_label, custom_btn_color, desktop_full_button_width, desktop_rating_stars, desktop_show_image (+19 more)
+
+### Community 328 - "Community 328"
+Cohesion: 0.08
+Nodes (24): reviews_8UgFbe, settings, type, author_1, author_2, author_3, autoplay, autoplay_speed (+16 more)
+
+### Community 329 - "Community 329"
+Cohesion: 0.09
+Nodes (22): settings, col_1_desktop_width, col_1_mobile_width, col_1_visibility, col_2_desktop_width, col_2_mobile_width, col_2_visibility, col_3_desktop_width (+14 more)
+
+### Community 330 - "Community 330"
+Cohesion: 0.10
+Nodes (20): settings, col_1_desktop_width, col_1_mobile_width, col_1_visibility, col_2_desktop_width, col_2_mobile_width, col_2_visibility, col_3_desktop_width (+12 more)
+
+### Community 331 - "Community 331"
+Cohesion: 0.13
+Nodes (15): buy_buttons, settings, type, custom_color, display_price, enable_custom_color, enable_secondary_btn, icon_scale (+7 more)
+
+### Community 332 - "Community 332"
+Cohesion: 0.15
+Nodes (15): description, urgency_scarcity_roly, settings, type, color_scheme, margin_bottom, margin_top, text_size (+7 more)
+
+### Community 333 - "Community 333"
+Cohesion: 0.13
+Nodes (15): blocks, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-heading-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-2, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-3, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-icon_with_text-4, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-image-1, template--21507361800487__8beb6911-28c6-482c-976a-e5421ad3e8df-richtext-1 (+7 more)
+
+### Community 334 - "Community 334"
+Cohesion: 0.13
+Nodes (15): buy_buttons, settings, type, custom_color, display_price, enable_custom_color, enable_secondary_btn, icon_scale (+7 more)
+
+### Community 335 - "Community 335"
+Cohesion: 0.13
+Nodes (14): name, type, name, type, sections, brand_story, featured_collection_XNEd8y, social_proof_stats (+6 more)
+
+### Community 336 - "Community 336"
+Cohesion: 0.20
+Nodes (10): settings, type, a6eb81db-40e4-43e0-972f-32db010a4a56, bg_star_color, bg_stars_style, label, rating, scroll_id (+2 more)
+
+### Community 337 - "Community 337"
+Cohesion: 0.20
+Nodes (9): Discover MoreSpeedmaster - Heritage Models, Key Features, MovementCalibre OMEGA 3861, Snoopy in Orbit, Speedmaster Heritage, Speedmaster  Heritage Models   “Silver Snoopy Award” 50th Anniversary, The Comic Strip Legacy, The Speedmaster "Silver Snoopy Award"  50th Anniversary (+1 more)
+
+### Community 338 - "Community 338"
+Cohesion: 0.22
+Nodes (8): block_order, type, block_order, custom_css, type, sections, 8beb6911-28c6-482c-976a-e5421ad3e8df, main
+
+### Community 339 - "Community 339"
+Cohesion: 0.22
+Nodes (8): block_order, type, block_order, custom_css, type, sections, 8beb6911-28c6-482c-976a-e5421ad3e8df, main
+
+### Community 340 - "Community 340"
+Cohesion: 0.29
+Nodes (7): Build the HTML, code:block1 (python build.py content-[product].json), Review the Creative Brief, Shopify SEO Fields, Start a new chat inside your Advertorial Agent project., STEP 3: CREATE YOUR FIRST ADVERTORIAL, Upload to Shopify
+
+### Community 341 - "Community 341"
+Cohesion: 0.33
+Nodes (6): title, text_size, title_alignment, uppercase_title, settings, type
+
+### Community 342 - "Community 342"
+Cohesion: 0.33
+Nodes (6): title, text_size, title_alignment, uppercase_title, settings, type
+
+### Community 343 - "Community 343"
+Cohesion: 0.33
+Nodes (6): urgency_scarcity_roly, color_scheme, urgency, disabled, settings, type
+
+### Community 344 - "Community 344"
+Cohesion: 0.50
+Nodes (4): ALWAYS CHECK BEFORE OUTPUTTING:, MANDATORY — Apply to EVERY advertorial in this order:, QUICK REFERENCE — READ THIS BEFORE GENERATING, REFERENCE SECTIONS — Use when relevant:
 
 ## Knowledge Gaps
-- **4544 isolated node(s):** `output_filename`, `format`, `niche`, `traffic_source`, `traffic_temperature` (+4539 more)
+- **5184 isolated node(s):** `output_filename`, `format`, `niche`, `traffic_source`, `traffic_temperature` (+5179 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1476,13 +1616,13 @@ Nodes (3): code:block6 (content-[product-slug]-v[version]-format[letter].json), 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `sections` connect `Community 108` to `Community 24`, `Community 93`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `sections` connect `Community 305` to `Community 54`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `sections` connect `Community 305` to `Community 54`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Why does `main` connect `Community 305` to `Community 67`, `Community 12`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **What connects `output_filename`, `format`, `niche` to the rest of the system?**
-  _4595 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _5235 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.017391304347826087 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

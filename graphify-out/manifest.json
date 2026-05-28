@@ -798,5 +798,30 @@
     "mtime": 1779967127.9210014,
     "ast_hash": "20e852d662c7c58dc95b4b8d2658cb12",
     "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\build_snoopy_template.py": {
+    "mtime": 1779972894.9339125,
+    "ast_hash": "80ad83c16314f588b013801c0f055831",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\snoopy-watch-template-base.json": {
+    "mtime": 1779972819.4062617,
+    "ast_hash": "18e3c9ea78dcee1388082f8e2923dd2a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\snoopy-watch-template-modified.json": {
+    "mtime": 1779972901.6357532,
+    "ast_hash": "d30a533b7b89eeb8f17483242f80ca9e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\upload_snoopy_template.py": {
+    "mtime": 1779972911.96679,
+    "ast_hash": "1c10eafa227ff3ea710e734ce592a660",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Darin Game\\OneDrive\\Desktop\\Claude Master Agent\\.firecrawl\\omega-snoopy-50th.md": {
+    "mtime": 1779972660.2212906,
+    "ast_hash": "e78c710671c612db9f3b5e676545ff8e",
+    "semantic_hash": ""
   }
 }
