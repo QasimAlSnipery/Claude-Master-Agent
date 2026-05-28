@@ -3,8 +3,8 @@
 ## Romira Store (Shopify)
 - Store: romira.store
 - Myshopify domain: 3rnv2d-i3.myshopify.com
-- Access token: REDACTED
 - API base: https://3rnv2d-i3.myshopify.com/admin/api/2024-01/
+- Token stored in `.env.local` (gitignored) — load from there
 - "Connect to Romira" = use above credentials. No need to ask.
 
 ---
