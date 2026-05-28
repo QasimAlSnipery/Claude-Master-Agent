@@ -316,12 +316,33 @@
           "settings": {
             "font_color": ""
           }
+        },
+        "urgency_scarcity_roly": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "🔥 HIGH DEMAND — Only 7 Units Left At This Price",
+            "color_scheme": "accent-1",
+            "margin_top": 0,
+            "margin_bottom": 9
+          }
+        },
+        "inventory_scarcity_roly": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "uppercase",
+            "inventory_threshold": 20,
+            "show_inventory_quantity": true,
+            "margin_top": 0,
+            "margin_bottom": 9
+          }
         }
       },
       "block_order": [
         "title",
         "a6eb81db-40e4-43e0-972f-32db010a4a56",
         "price",
+        "urgency_scarcity_roly",
+        "inventory_scarcity_roly",
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
         "buy_buttons",
