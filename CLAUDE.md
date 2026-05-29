@@ -7,6 +7,13 @@
 - Token stored in `.env.local` (gitignored) — load from there
 - "Connect to Romira" = use above credentials. No need to ask.
 
+## SECURITY RULES — NEVER BREAK
+- NEVER commit `.env.local` or any file containing a Shopify token (`shpat_...`)
+- NEVER include API keys in CLAUDE.md, settings files, or any tracked file
+- `graphify-out/` is gitignored — NEVER stage or commit it
+- If a secret is ever found in a staged file, STOP and alert the user before committing
+- Token lives ONLY in `.env.local` — read it from there, nowhere else
+
 ---
 
 ## Mission

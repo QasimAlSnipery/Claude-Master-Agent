@@ -7,8 +7,6 @@ memory/reference_shopify_romira.md
 memory/reference_shopify_prestige.md
 memory/feedback_shopify_api.md
 
-# graphify cache — contains extracted secrets from source files
-graphify-out/cache/
-graphify-out/.graphify_python
-graphify-out/.graphify_incremental.json
+# graphify output — NEVER commit, may contain extracted secrets
+graphify-out/
 _theme_sections/.shopify_token
