@@ -10,3 +10,6 @@ memory/feedback_shopify_api.md
 # graphify output — NEVER commit, may contain extracted secrets
 graphify-out/
 _theme_sections/.shopify_token
+
+# Prestige store theme backups (not part of this repo)
+.prestige-work/
