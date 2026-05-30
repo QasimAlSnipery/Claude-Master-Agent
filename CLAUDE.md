@@ -7,6 +7,12 @@
 - Token stored in `.env.local` (gitignored) — load from there
 - "Connect to Romira" = use above credentials. No need to ask.
 
+## Prestige Store (Shopify) — watches store
+- Myshopify domain: iu06pd-00.myshopify.com
+- API base: https://iu06pd-00.myshopify.com/admin/api/2024-01/
+- Token stored in `.env.local` as `SHOPIFY_PRESTIGE_TOKEN` (gitignored) — load from there
+- "Connect to Prestige" = use above credentials. No need to ask.
+
 ## SECURITY RULES — NEVER BREAK
 - NEVER commit `.env.local` or any file containing a Shopify token (`shpat_...`)
 - NEVER include API keys in CLAUDE.md, settings files, or any tracked file
