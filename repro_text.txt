@@ -1,0 +1,442 @@
+=====PAGE 1 [T]=====
+Reproductive system:
+Dr. Hemn Muhammed Mustafa
+Assistant Professor Of Medicine
+FIBMS(med.) , MRCP (UK)
+Contents :
+• Male reproductive system
+• Female reproductive system
+• Delay puberty
+• amenorrhea
+• Male hypogonadism
+• Infertility
+• Polycystic ovarian syndrome
+Male reproductive system :
+Functional anatomy and physiology :
+• In the male, the testis serves two principal functions: synthesis of
+testosterone by the interstitial Leydig cells under the control of
+luteinising hormone (LH), and spermatogenesis by Sertoli cells
+under the control of follicle-stimulating hormone (FSH) (but also
+requiring adequate testosterone).
+=====PAGE 2 [T]=====
+• Negative feedback suppression of LH is mediated principally by
+testosterone, while secretion of another hormone produced by the
+testis, inhibin, suppresses FSH.
+Investigations :
+• The axis can be assessed easily by a random blood sample for
+testosterone, LH and FSH.
+•
+=====PAGE 3 [T]=====
+• Testosterone levels are higher in the morning and therefore, if
+testosterone is marginally low, sampling should be repeated with the
+patient fasted at 0900 hrs.
+• Testosterone is largely bound in plasma to sex hormone-binding
+globulin.
+• Testicular function can also be tested by semen analysis
+Female reproductive system :
+Functional anatomy and physiology :
+• In the female, physiology varies during the normal menstrual cycle.
+• FSH stimulates growth and development of ovarian follicles during
+the first 14 days after the menses.
+• This leads to a gradual increase in oestradiol production from
+granulosa cells, which initially suppresses FSH secretion (negative
+feedback) but then, above a certain level, stimulates an increase in
+both the frequency and amplitude of gonadotrophin-releasing
+hormone (GnRH) pulses, resulting in a marked increase in LH
+secretion (positive feedback)
+• The mid-cycle ‘surge’ of LH induces ovulation.
+• After release of the ovum, the follicle differentiates into a corpus
+luteum, which secretes progesterone.
+• Unless pregnancy occurs during the cycle, the corpus luteum regresses
+and the fall in progesterone levels results in menstrual bleeding.
+Investigations :
+• Circulating levels of oestrogen and progesterone in pre-menopausal
+women are, therefore, critically dependent on the time of the cycle.
+=====PAGE 4 [T]=====
+• The most useful ‘test’ of ovarian function is a careful menstrual
+history: if menses are regular, measurement of gonadotrophins and
+oestrogen is not necessary.
+• In addition, ovulation can be confirmed by measuring plasma
+progesterone levels during the luteal phase (‘day 21 progesterone’).
+Typically, day 21 to 23 serum progesterone concentrations of more
+than 10 ng/mL indicate normal ovulation and concentrations below 10
+ng/mL suggest anovulation,
+• Cessation of menstruation (the menopause) occurs at an average age
+of approximately 50 years in high-income countries.
+• In the 5 years before, there is a gradual increase in the number of
+anovulatory cycles and this is referred to as the climacteric.
+• During menopause Oestrogen and inhibin secretion falls and results in
+increased pituitary secretion of LH and FSH (both typically to levels
+above 30 IU/L (3.3 μg/L)).
+=====PAGE 5 [T]=====
+Normal puberty :
+• The average age at onset of puberty is about 11 years in girls and 12
+years in boys, but normal puberty has a very wide range of onset
+• In girls, there is an increased rate of growth, followed soon after by
+the development of breasts and pubic hair. Menstruation typically
+starts after the rate of growth has peaked.
+• In boys, puberty begins with testicular enlargement, followed soon
+after by a growth spurt and the development of pubic hair
+• Factors that are important in predicting age of onset of normal puberty
+include family history (age of onset is strongly predicted by the
+parents’ pattern of onset) and body mass, with heavier children
+entering puberty at a younger age.
+• The current trends towards improved nutritional status and increased
+obesity in particular are driving earlier onset of puberty
+Presenting problems in reproductive disease :
+Delayed puberty :
+• Puberty is considered to be delayed if the onset of the physical
+features of sexual maturation has not occurred by a chronological age
+that is 2.5 standard deviations (SD) above the national average. this is
+by the age of 14 in boys and 13 in girls.
+• Genetic factors have a major influence in determining the timing of
+the onset of puberty, such that the age of menarche (the onset of
+menstruation) is often comparable within sibling and mother–daughter
+pairs and within ethnic groups.
+=====PAGE 6 [T]=====
+• However, because there is also a threshold for body weight that acts
+as a trigger for normal puberty, the onset of puberty can be influenced
+by other factors, including nutritional status and chronic illness
+Clinical assessment :
+• The key issue is to determine whether the delay in puberty is simply
+because the ‘clock is running slow’ (constitutional delay of puberty)
+or because there is pathology in the hypothalamus/pituitary
+(hypogonadotrophic hypogonadism) or the gonads
+(hypergonadotrophic hypogonadism).
+• A general history and physical examination should be performed with
+particular reference
+=====PAGE 7 [T]=====
+to previous or current medical disorders, social circumstances and family
+history
+• Body proportions, sense of smell and pubertal stage should be
+carefully documented and, in boys, the presence or absence of testes
+in the scrotum noted.
+• Current weight and height may be plotted on centile charts, along with
+parental heights. Previous growth measurements in childhood, which
+can usually be obtained from health records, are extremely useful
+• Children with constitutional delay have always been small but have
+maintained a normal growth velocity ( height velocity ) that is
+appropriate for bone age.
+• Poor linear growth ( abnormal height velocity ), is more likely to be
+associated with acquired disease.
+Constitutional delay of puberty :
+• This is the most common cause of delayed puberty, but is a much
+more frequent explanation for lack of pubertal development in boys
+than in girls.
+• Affected children are healthy.
+• There is often a history of delayed puberty in siblings or parents.
+Since sex steroids are essential for fusion of the epiphyses, ‘bone age’ can be
+estimated by X-rays of epiphyses, usually in the left wrist and hand; in
+constitutional delay, bone age is lower than chronological age
+• Constitutional delay of puberty should be considered as a normal
+variant, as puberty will commence spontaneously.
+However, affected children can experience significant psychological distress
+because of their lack of physical development, particularly when compared
+with their peers
+=====PAGE 8 [T]=====
+Hypogonadotrophic hypogonadism :
+• In such circumstances, other pituitary hormones, such as growth
+hormone, are also likely to be deficient.
+• ‘Functional’ gonadotrophin deficiency is caused by a variety of
+factors, including low body weight, chronic systemic illness (as a
+consequence of the disease itself or secondary malnutrition),
+endocrine disorders and profound psychosocial stress
+• Isolated gonadotrophin deficiency is usually due to a genetic
+abnormality that affects the synthesis of either GnRH or
+gonadotrophins.
+• The most common form is Kallmann syndrome, in which there is
+primary GnRH deficiency and, in most affected individuals, agenesis
+or hypoplasia of the olfactory bulbs, resulting in anosmia or
+hyposmia.
+• If isolated gonadotrophin deficiency is left untreated, the epiphyses
+fail to fuse, resulting in tall stature with disproportionately long arms
+and legs relative to trunk height (eunuchoid habitus).
+• Cryptorchidism (undescended testes) and gynaecomastia are
+commonly observed in all forms of hypogonadotrophic
+hypogonadism.
+Hypergonadotrophic hypogonadism :
+• Hypergonadotrophic hypogonadism associated with delayed puberty
+is usually due to Klinefelter syndrome in boys and Turner syndrome
+in girls.
+• Other causes of primary gonadal failure are shown in Box 20.19
+Investigations :
+• Key measurements are LH and FSH, testosterone (in boys) and
+oestradiol (in girls)
+=====PAGE 9 [T]=====
+• If testosterone or estradiol is low and LH and FSH are high this go
+with hypergonadotrophic hypogonadism
+• If testosterone or estradiol is low and LH and FSH are low this go
+with hypogonadotrophic hypogonadism
+• a karyotype ( chromosomal analysis ) should be performed in all
+adolescents with hypergonadotrophic hypogonadism, to exclude
+Turner and Klinefelter syndromes, unless there is an obvious
+precipitating cause.
+• A plain X-ray of the left wrist and hand may be used to assess bone
+age accurately, and a bone age that is more than 2 years behind the
+chronological age should prompt consideration of further
+investigations.
+• Full blood count, renal function, liver function, thyroid function and
+coeliac disease autoantibodies should be measured, but further tests
+may be unnecessary if the blood tests are normal and the child has all
+the clinical features of constitutional delay.
+• If hypogonadotrophic hypogonadism is suspected, pituitary MRI may
+be useful.
+Management :
+• Puberty can be induced using low doses of oral oestrogen in girls (e.g.
+ethinylestradiol 2 μg daily) or testosterone in boys (testosterone gel or
+depot testosterone esters by deep IM injection)
+• if this is being considered, it needs to be managed carefully and
+carried out in a controlled fashion, to avoid premature fusion of the
+epiphyses.
+• In children with constitutional delay, this ‘priming’ therapy can be
+discontinued when endogenous puberty is established, usually in less
+than a year.
+=====PAGE 10 [T]=====
+• In children with hypogonadism, the underlying cause should be
+treated and reversed if possible.
+• If hypogonadism is permanent, sex hormone doses are gradually
+increased during puberty and full adult replacement doses given when
+development is complete
+Amenorrhoea :
+• Primary amenorrhoea may be diagnosed in a female who has never
+menstruated; this usually occurs as a manifestation of delayed puberty
+but may also be a consequence of anatomical defects of the female
+reproductive system, such as endometrial hypoplasia or vaginal
+agenesis.
+• Secondary amenorrhoea describes the cessation of menstruation in a
+female who has previously had periods
+=====PAGE 11 [T]=====
+• In non-pregnant women, secondary amenorrhoea is almost invariably
+a consequence of either ovarian or hypothalamic/pituitary
+dysfunction.
+• Premature ovarian failure (premature menopause) is defined,
+arbitrarily, as occurring before 40 years of age.
+• Rarely, endometrial adhesions (Asherman syndrome) can form after
+uterine curettage, surgery or infection with tuberculosis or
+schistosomiasis, preventing endometrial proliferation and shedding.
+Clinical assessment :
+• The underlying cause can often be suspected from associated clinical
+features and the patient’s age.
+=====PAGE 12 [T]=====
+• Hypothalamic/pituitary disease and premature ovarian failure result in
+oestrogen deficiency, which causes a variety of symptoms usually
+associated with the menopause
+• A history of galactorrhoea should be sought which is due to
+hyperprolactinoma.
+• Significant weight loss of any cause can cause amenorrhoea by
+suppression of gonadotrophins.
+• Weight gain may suggest hypothyroidism, Cushing’s syndrome (if
+other discriminatory features are present), or very rarely, a
+hypothalamic lesion.
+• Hirsutism, obesity and long-standing irregular periods suggest
+polycystic ovary syndrome (PCOS).
+• The presence of other autoimmune disease raises the possibility of
+autoimmune premature ovarian failure.
+=====PAGE 13 [T]=====
+Investigations :
+• Pregnancy should be excluded in women of reproductive age by
+measuring urine or serum hCG.
+• Serum LH, FSH, oestradiol, prolactin, testosterone, T4 and TSH
+should be measured and, in the absence of a menstrual cycle, can be
+taken at any time
+• High concentrations of LH and FSH with low or low-normal
+oestradiol suggest primary ovarian failure.
+• Ovarian autoantibodies may be positive when there is an underlying
+autoimmune aetiology, and a karyotype should be performed in
+younger women to exclude mosaic Turner syndrome
+• Elevated LH, prolactin and testosterone levels with normal oestradiol
+are common in PCOS.
+• Low levels of LH, FSH and oestradiol suggest hypothalamic or
+pituitary disease and a pituitary MRI is indicated
+• There is some overlap in gonadotrophin and oestrogen concentrations
+between women with hypogonadotrophic hypogonadism and PCOS.
+• If there is doubt as to the underlying cause of secondary amenorrhoea,
+then the response to 5 days of treatment with an oral progestogen (e.g.
+medroxyprogesterone acetate 10 mg twice daily) can be assessed.
+• In women with PCOS, the progestogen will cause maturation of the
+endometrium and menstruation will occur a few days after the
+progestogen is stopped. In women with hypogonadotrophic
+hypogonadism, menstruation does not occur following progestogen
+withdrawal because the endometrium is atrophic as a result of
+oestrogen deficiency
+=====PAGE 14 [T]=====
+Management :
+• Where possible, the underlying cause should be treated. For example,
+women with functional amenorrhoea due to excessive exercise and
+low weight should be encouraged to reduce their exercise and regain
+some weight
+• In oestrogen-deficient women, replacement therapy may be necessary
+to treat symptoms and/or to prevent osteoporosis.
+• Women who have had a hysterectomy can be treated with oestrogen
+alone but those with a uterus should be treated with combined
+oestrogen/progestogen therapy, since unopposed oestrogen increases
+the risk of endometrial cancer.
+• Cyclical hormone replacement therapy (HRT) regimens typically
+involve giving oestrogen on days 1–21 and progestogen on days 14–
+21 of the cycle, and this can be conveniently administered as the oral
+contraceptive pill.
+• If oestrogenic side-effects (fluid retention, weight gain, hypertension
+and thrombosis) are a concern, then lower-dose oral or transdermal
+HRT may be more appropriate.
+• In patients with premature menopause, HRT should be continued up
+to the age of around 50 years, but continued beyond this age only if
+there are continued symptoms of oestrogen deficiency on
+discontinuation .
+Male hypogonadism :
+• The clinical features of both hypo- and hyper gonadotrophic
+hypogonadism include loss of libido, lethargy with muscle weakness
+and decreased frequency of shaving.
+• Patients may also present with gynaecomastia, infertility, delayed
+puberty, osteoporosis or anaemia of chronic disease
+=====PAGE 15 [T]=====
+• Mild hypogonadism may also occur in older men, particularly in the
+context of central adiposity and the metabolic syndrome
+Investigations "
+• Male hypogonadism is confirmed by demonstrating a low fasting
+0900-hr serum testosterone level.
+• The distinction between hypo- and hypergonadotrophic
+hypogonadism is by measurement of random LH and FSH.
+• Patients with hypogonadotrophic hypogonadism should be
+investigated for pituitary disease .
+• Patients with hypergonadotrophic hypogonadism should have the
+testes examined for cryptorchidism or atrophy, and a karyotype should
+be performed (to identify Klinefelter syndrome).
+Management "
+• Testosterone replacement is clearly indicated in younger men with
+significant hypogonadism to prevent osteoporosis and to restore
+muscle power and libido.
+• Debate exists as to whether replacement therapy is of benefit in mild
+hypogonadism associated with ageing and central adiposity,
+particularly in the absence of structural pituitary/hypothalamic disease
+or other pituitary hormone deficiency
+=====PAGE 16 [T]=====
+• First-pass hepatic metabolism of testosterone is highly efficient, so
+bioavailability of ingested preparations is poor.
+• Testosterone therapy can aggravate prostatic carcinoma; prostate-
+specific antigen (PSA) should be measured before commencing
+testosterone therapy in men older than 50 years and monitored
+annually thereafter.
+• Haemoglobin concentration should also be monitored, as androgen
+replacement can cause polycythaemia.
+• Testosterone replacement inhibits spermatogenesis; treatment for
+fertility is described later.
+Infertility :
+• Is defined as the failure to conceive despite 12 months or more of
+regular unprotected sexual intercourse
+• Infertility affects around 1 in 7 (10-15%) of couples of reproductive
+age
+=====PAGE 17 [T]=====
+• In women, it may result from anovulation or abnormalities of the
+reproductive tract that prevent fertilisation or embryonic implantation,
+often damaged Fallopian tubes from previous infection
+• In men, infertility may result from impaired sperm quality (e.g.
+reduced motility) or reduced sperm number.
+• Azoospermia or oligospermia is usually idiopathic but may be a
+consequence of hypogonadism.
+• Microdeletions of the Y chromosome are increasingly recognized as a
+cause of severely abnormal spermatogenesis.
+• One-third of the causes of infertility are related to male factor
+• In many couples more than one factor causing subfertility is present,
+and in a large proportion no cause can be identified
+=====PAGE 18 [T]=====
+Clinical assessment :
+• A history of previous pregnancies, relevant infections and surgery is
+important in both men and women
+• Irregular and/or infrequent menstrual periods are an indicator of
+anovulatory cycles in the woman, in which case causes such as PCOS
+should be considered.
+• In men, the testes should be examined to confirm that both are in the
+scrotum and to identify any structural abnormality, such as small size,
+absent vas deferens or the presence of a varicocele.
+Investigations :
+• Investigations should generally be performed after a couple has failed
+to conceive despite unprotected intercourse for 12 months, unless
+there is an obvious abnormality like amenorrhoea.
+• Both partners need to be investigated. The male partner needs a semen
+analysis to assess sperm count and quality
+• In women with regular periods, ovulation can be confirmed by an
+elevated serum progesterone concentration on day 21 of the menstrual
+cycle.
+• Transvaginal ultrasound can be used to assess uterine and ovarian
+anatomy.
+• Tubal patency may be examined at laparoscopy or by
+hysterosalpingography (HSG; a radio-opaque medium is injected into
+the uterus and should normally outline the Fallopian tubes )
+Management "
+• Couples should be advised to have regular sexual intercourse, ideally
+every 2–3 days throughout the menstrual cycle.
+=====PAGE 19 [T]=====
+• It is not uncommon for ‘spontaneous’ pregnancies to occur in couples
+undergoing investigations for infertility or with identified causes of
+male or female subfertility.
+• In women with anovulatory cycles secondary to PCOS, clomifene,
+which has partial anti-oestrogen action, blocks negative feedback of
+oestrogen on the hypothalamus/pituitary, causing gonadotrophin
+secretion and thus ovulation
+• In women with gonadotrophin deficiency, ovulation may be induced
+by direct stimulation of the ovary by daily injection of FSH and an
+injection of hCG to induce follicular rupture at the appropriate time
+• Whatever method of ovulation induction is employed, monitoring of
+response is essential to avoid multiple
+ovulation.
+• For clomifene, ultrasound monitoring is recommended
+for at least the first cycle.
+• During gonadotrophin therapy, closer monitoring of follicular growth
+by transvaginal ultrasonography and blood oestradiol levels is
+mandatory.
+• ‘Ovarian hyperstimulation syndrome’ is characterised by grossly
+enlarged ovaries and capillary leak with circulatory shock, pleural
+effusions and ascites
+• in vitro fertilization (IVF) is widely used for many causes of
+infertility and in unexplained cases of prolonged (>3 years) infertility.
+The success of IVF depends on age, with low success rates in women
+over 40 years.
+• Men with hypogonadotrophic hypogonadism who wish fertility are
+usually given injections of hCG several times a week (recombinant
+=====PAGE 20 [T]=====
+FSH may also be required in men with hypogonadism of pre-pubertal
+origin); it may take up to 2 years to achieve satisfactory sperm counts
+Polycystic ovary syndrome :
+• Polycystic ovary syndrome (PCOS) affects up to 10% of women of
+reproductive age.
+• It is a heterogeneous disorder , often associated with obesity, for
+which the primary cause remains uncertain. Genetic factors probably
+play a role, since PCOS often affects several family members.
+• The severity and clinical features of PCOS vary markedly between
+individual patients but diagnosis is usually made during the
+investigation of hirsutism or amenorrhoea/ oligomenorrhoea.
+Infertility may also be present
+• There is no universally accepted definition but it has been
+recommended that a diagnosis of PCOS requires the presence of two
+of the following three features:
+1. menstrual irregularity
+2. clinical or biochemical androgen excess
+3. multiple cysts in the ovaries (most readily detected by transvaginal
+ultrasound)
+• Women with PCOS are at increased risk of glucose intolerance and
+some authorities recommend screening for type 2 diabetes
+=====PAGE 21 [T]=====
+Lab investigations "
+• Androstenedione, a weak androgen produced in the ovaries, and is
+typically elevated in PCOS. 80% will have an elevation of
+androstenedione
+• prolactin is elevated in approx 10% of patients with PCOs with
+concentrations typically less than 1000 mu/l, higher concentrations
+may prompt investigation for prolactinoma.
+• insulin resistance is a feature of PCOs, insulin concentration, per se,
+is rather meaningless in PCOs.
+• Only about 60% of patients with PCOs have elevated LH:FSH ratio(
+>2.5:1) and about 30% have a modestly elevated testosterone
+=====PAGE 22 [T]=====
+Management "
+• This should be directed at the presenting complaint but all women
+with PCOS who are overweight should be encouraged to lose weight,
+as this can improve several symptoms, including menstrual
+irregularity, and reduces the risk of type 2 diabetes
+• Most women with PCOS have oligomenorrhoea, with irregular, heavy
+menstrual periods. This may not require treatment unless fertility is
+desired.
+• Metformin may restore regular ovulatory cycles in overweight
+women by reducing insulin resistance, although it is less effective
+than clomifene at restoring fertility as measured by successful
+pregnancy.
