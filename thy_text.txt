@@ -1,0 +1,701 @@
+=====PAGE 1 [T]=====
+Thyroid Gland Diseases
+Zagros G Rashid
+MBChB, MMed, MRCP (UK), FRCP(Glasgow)
+Assistant Professor of Endocrinology
+College of Medicine, UoS
+=====PAGE 2 [T]=====
+Learning Objectives
+• To know the classifications of thyroid gland
+diseases.
+• To know the signs & symptoms of
+Hyperthyroidism and to be able to diagnose
+and manage those cases.
+• To know the signs & symptoms, how to
+diagnose and manage cases of Hypothyroidism
+• To be confident in dealing with thyroid
+emergency cases.
+12/2/2024 ZAGROS G RASHID 2
+=====PAGE 3 [T]=====
+• Diseases of TG predominantly affect females
+and are common, occurring in about 5% of
+population.
+• The thyroid axis is involved in the regulation
+of cellular differentiation & metabolism in all
+nucleated cells.
+• Structural disorder of TG like goitre,
+commonly occur in patients with normal
+thyroid function.
+12/2/2024 ZAGROS G RASHID 3
+=====PAGE 4 [T]=====
+Classifications of Thyroid disease
+Primary Secondary
+Hormone Excess Grave’s Disease Pituitary
+TSHoma
+Multinodular Goitre
+Adenoma
+Subacute Thyroiditis
+Hormone Deficiency Hashimoto’s Thyroiditis Hypopituitarism
+Atrophic Hypothyroidism
+Hormone Hypersensitivity
+Hormone Resistance Thyroid hormone-
+resistance syndrome
+5- Monodeiodinase deficiency
+Non-functioning tumours Differentiated Ca.
+Medullary Ca.
+12/2/2024 Lymphoma 4
+ZAGROS G RASHID
+=====PAGE 5 [T]=====
+TSH T4 T3 Interpretation
+U.D high high Primary thyrotoxicosis
+U.D N high Primary T3 thyrotoxicosis
+U.D N N Subclinical thyrotoxicosis
+U.D or high low or Non- thyroidal illness,
+low N Amiodarone therapy
+U.D low low Secondary hypothyroidism
+Transient thyroiditis in evolution
+N low low Secondary hypothyroidism
+12/2/2024 ZAGROS G RASHID 5
+=====PAGE 6 [T]=====
+TSH T4 T3 Interpretation
+5-20 mU/l Low Low Primary Hypothyroidism
+>20 mU/L Low Low Primary hypothyroidism
+5-20 mU/L N N Subclinical hypothyroidism
+20-500 mU/L N N Artefact
+Endogenous IgG Ab which interfere with TSH-
+assay
+Elevated High High Non compliance with T4 replacement –
+recent loading dose
+Secondary thyrotoxicosis
+Thyroid hormone resistance
+12/2/2024 ZAGROS G RASHID 6
+=====PAGE 7 [T]=====
+Thyrotoxicosis
+It describes a constellation of clinical
+features arising from elevated circulating
+levels of thyroid hormone. The most
+common causes are Grave’s disease,
+MNG and autonomously functioning
+thyroid nodule (Toxic Adenoma).
+12/2/2024 ZAGROS G RASHID 7
+=====PAGE 8 [T]=====
+Causes & their relative frequencies
+1) Grave’s disease 76%
+2) Multinodular goitre 14%
+3) Solitary thyroid adenoma 5%
+4) Thyroiditis (Subacute 3%, Post-partum 0.5%)
+5) Iodide induced( drugs amiodarone1%, radiographic
+contrast media, iodine prophylaxis program)
+6) Extrathyroidal source of TH (factitious thyrotoxicosis
+0.2%, strauma ovali)
+7) TSH induced
+8) TSH secreting pituitary adenoma 0.2%, choriocarcinoma
+& hydatidiform mole
+9) Follicular Ca +- metastasis 0.1%
+12/2/2024 ZAGROS G RASHID 8
+=====PAGE 9 [T]=====
+Clinical assessment
+Symptoms & signs
+Common symptoms Common signs
+1) Weight loss despite normal Tremor
+or increased appetite
+2) Heat intolerance Palmar erythema
+3) Palpitations Sinus tachycardia
+4) SOB lid retraction, lid lag
+5) Irritability, emotional liability
+6) Fatigue
+7) Sweating
+8) Tremor
+12/2/2024 ZAGROS G RASHID 9
+=====PAGE 10 [T]=====
+Less common symptoms Less common signs
+1) Osteoporosis (fracture, loss of height) Goitre with bruit
+2) Diarrhoea, steatorrhoea Atrial fibrillation (AF)
+3) Angina increased Systolic HTN
+4) Ankle swelling Pulse pressure
+5) Anxiety, psychosis Cardiac failure
+6) Muscle weakness Hyper-reflexia
+7) Periodic paralysis ( Chinese) Sustained clonus
+8) Pruritus Proximal myopathy
+9) Alopecia Bulbar myopathy
+10) Amenorrhoea, oligomenorrhoea
+11) Infertility, spontaneous abortion
+12) Loss of libido , impotence
+13) Excessive lacrimation
+12/2/2024 ZAGROS G RASHID 10
+=====PAGE 11 [T]=====
+12/2/2024 ZAGROS G RASHID 11
+=====PAGE 12 [T]=====
+12/2/2024 ZAGROS G RASHID 12
+=====PAGE 13 [T]=====
+Rare symptoms Rare signs
+Vomiting Gynaecomastia
+Apathy Spider naevi
+Anorexia Onycholysis
+Exacerbation of asthma Pigmentation
+12/2/2024 ZAGROS G RASHID 13
+=====PAGE 14 [T]=====
+All causes of thyrotoxicosis can cause lid lag & lid
+retraction, due to potentiation of sympathetic
+innervations of the levator palpebrae muscles, but
+only Grave’s disease causes other features of
+ophtalmopathy, including periorbital oedema,
+conjunctival irritation, exophthalmos & diplopia.
+Peritibial myxoedema & the rare thyroid acropachy (a
+periostial hypertrophy, indistinguishable from finger
+clubbing) are also specific to Grave’s disease.
+12/2/2024 ZAGROS G RASHID 14
+=====PAGE 15 [T]=====
+Differential diagnosis
+If the patient is clinically thyrotoxic, we
+look for features of Grave’s disease
+(diffuse goitre with bruit,
+ophthalmopathy, peritibial myxoedema,
+positive TSH receptor AB -TRAb). Also
+look for any features of Non-Grave’s
+disease ( recent, <6 months pregnancy,
+neck pain, flu like illness, palpable MNG
+or solitary nodule). In either situation we
+need to perform thyroid Scintigraphy.
+12/2/2024 ZAGROS G RASHID 15
+=====PAGE 16 [T]=====
+Thyroid Scintigraphy
+12/2/2024 ZAGROS G RASHID 16
+=====PAGE 17 [T]=====
+Investigations
+The first line are serum T3,T4 & TSH. In most
+patients, serum T3 & T4 are both elevated, but T4
+is in the upper part of the reference range & T3
+raised (T3 Toxicosis) in about 5%. Serum TSH is
+undetectable in in primary thyrotoxicosis, but
+values can be raised in the very rare syndrome of
+secondary thyrotoxicosis caused by TSH-producing
+pituitary adenoma. When biochemical
+thyrotoxicosis has been confirmed, further
+investigations should be undertaken to determine
+the underlying cause, including measurement of
+TSH receptor AB (TRAb elevated in Grave’s
+disease) & isotop scanning.
+12/2/2024 ZAGROS G RASHID 17
+=====PAGE 18 [T]=====
+Radio-iodine uptake test measures the
+proportion of isotope that is trapped in the
+whole gland, but have been largely
+superseded by 99m technetium scintigraphy
+scan, which also indicate trapping are quicker
+to perform with a lower dose of radioactivity
+& provide a higher resolution image. In low-
+uptake thyrotoxicosis the cause is usually
+transient thyroiditis.
+12/2/2024 ZAGROS G RASHID 18
+=====PAGE 19 [T]=====
+In Factitious Thyrotoxicosis, the exogenous
+thyroxine suppresses pituitary TSH secretion &
+hence iodine uptake, serum thyroglobulin &
+release of endogenous thyroid hormones. The
+T4:T3 ratio (typically 30:1 in conventional
+thyrotoxicosis, is increased to above 70:1 because
+T3 is derived exclusively from peripheral
+Monoiodination of T4 and not from thyroid
+secretion. The combination of negligible iodine
+uptake, high T4:T3 ratio & low or undetectable
+thyroglobulin is diagnostic.
+12/2/2024 ZAGROS G RASHID 19
+=====PAGE 20 [T]=====
+Non-specific lab. Abnormalities
+• Serum enzymes: raised ALT, GGT, ALP
+from liver & bone.
+• Raised bilirubin
+• Mild Hypercalcaemia
+• Glycosuria associated diabetes mellitus, ‘lag
+storage’ glycosuria
+12/2/2024 ZAGROS G RASHID 20
+=====PAGE 21 [T]=====
+Management
+Definitive treatment of thyrotoxicosis depends
+on the underlying cause and may include anti-
+thyroid drugs, radioactive iodine or surgery. A
+non-selective beta blocker such as propranolol or
+nadalol will alleviate but not abolish symptoms
+in most patients within 24-48 hours. It should not
+be used for long term treatment of
+thyrotoxicosis, but extremely useful in short
+term.
+12/2/2024 ZAGROS G RASHID 21
+=====PAGE 22 [T]=====
+Thyrotoxic Crisis (Thyroid storm)
+It’s a rare but life-threatening complication of
+thyrotoxicosis. It’s a medical emergency with
+10% mortality rate despite early recognition &
+treatment. It’s commonly precipitated by
+infection in a patient with previously
+unrecognized or inadequately treated
+thyrotoxicosis. It may also develop shortly
+after subtotal thyroidectomy in an ill prepared
+patient or within a few days of iodine therapy.
+12/2/2024 ZAGROS G RASHID 22
+=====PAGE 23 [T]=====
+The most important signs are; fever,
+agitation, confusion, tachycardia or AF
+& cardiac failure in older patients.
+Patient should be rehydrated and given
+propranolol either orally 80mg 4 times
+daily or IV 1-5 mg 4 times daily. Sodium
+Ipodate 500mg per day will restore T3
+levels to normal in 48-72 hours.
+Dexamethasone 2mg 4 times daily &
+Amiodarone have similar effects.
+12/2/2024 ZAGROS G RASHID 23
+=====PAGE 24 [T]=====
+Oral Carbimazole 40-60mg daily
+should be given to inhibit the
+synthesis of new hormone. If the
+patient is unconscious or
+uncooperative, Carbimazole can
+be given rectally but no
+preparation available for
+parenteral use. After
+10-14 days the patient can be
+maintained on Carbimazole alone.
+12/2/2024 ZAGROS G RASHID 24
+=====PAGE 25 [T]=====
+Autoimmune Thyroid Disease
+Thyroid diseases are amongst the most prevalent
+antibody-mediated autoimmune diseases & are
+associated with other organ Specific
+Autoimmunity. Autoantibodies may produce
+inflammation & destruction of thyroid tissue
+resulting in:
+1) Hypothyroidism
+2) Goitre (in Hashimoto’s thyroiditis)
+3) Transient thyrotoxicosis (Hashitoxicosis)
+4) Thyrotoxicosis (Grave’s disease)
+12/2/2024 ZAGROS G RASHID 25
+=====PAGE 26 [T]=====
+Grave’s disease
+It can occurs at any age but is unusual before
+puberty & commonly affects women aged
+30-50 years. The most common
+manifestation is thyrotoxicosis with or
+without a diffuse goitre. Grave’s disease also
+causes Ophthalmopathy and rarely Pretibial
+Myxoedema. These extrathyroidal features
+can occur in the absence of thyroid
+dysfunction.
+12/2/2024 ZAGROS G RASHID 26
+=====PAGE 27 [T]=====
+Grave’s thyrotoxicosis
+Pathophysiology
+Thyroxicosis results from production of
+IgG AB directed against the TSH
+receptors on thyroid follicular cells which
+stimulate thyroid hormone production &
+proliferation of follicular cells leading to
+goitre in the majority of patients. The
+concentration of TRAb in the serum is
+presumed to fluctuate to account for
+natural history of Grave’s thyrotoxicois.
+12/2/2024 ZAGROS G RASHID 27
+=====PAGE 28 [T]=====
+The thyroid failure seen in some patients
+may result from the presence of blocking
+Ab against TSH receptors.
+Grave’s disease has a strong genetic
+component. There is 50% concordance
+for thyrotoxicosis between monozygotic
+twins but only 5% concordance between
+dizygotic twins.
+12/2/2024 ZAGROS G RASHID 28
+=====PAGE 29 [T]=====
+A suggested trigger for the development
+of thyrotoxicosis in genetically
+susceptible individuals may be infection
+with virus or bacteria. Iodine
+supplementation can precipitate
+thyrotoxicosis in subclinical Grave’s
+disease. Smoking is strongly associated
+with development of ophthalmopathy.
+12/2/2024 ZAGROS G RASHID 29
+=====PAGE 30 [T]=====
+Management
+Management Common indications C.I Disadvantage/ complications
+Antithyroid dugs First episode in patients Breastfeeding - Hypersensetivity rash 2%
+(Carbimazole <40years (PTU is suitable) -Agranulocytosis 0.2%
+Propylthiouracil) -Heptotoxicicty (PTU) very
+rare but potentially fatal
+- (> 50%) relapse rate
+within 2 yrs of stopping
+the drug.
+Subtotal - Large goitre Previous thyroid surgery -Hypothyridism 25%
+thyroidectomy -Poor compliance in Dependence on voice - Transient hypocalcaemia 10%
+young patients - Permanent hypoparathyroidism
+-Recurrent disease 1%
+after antithyroid - Recurrent laryngeal N Palsy 1%
+drugs in young
+Radio-iodine - Patients>40 yrs - Pregnancy or planned -Hypothyroidism 40% in 1st yr
+-Recurrence after pregnancy within 6 m of Rx & 80% after 15 yrs
+-Surgery irrespective -Exacerbation of ophthalmopathy
+of age - Active Grave’s ophthalmopathy
+-other serious comorbidity
+12/2/2024 ZAGROS G RASHID 30
+=====PAGE 31 [T]=====
+Antithyroid drugs
+The most commonly used is Carbimazole & its
+active metabolite, Methimazole.
+Propylthiouracil is equally active. These drugs
+reduce synthesis of new thyroid hormones by
+inhibiting iodination of tyrosine. Carbimazole has
+got an immunosuppressive effect that can reduce
+TRAB concentration but not enough to influence
+the natural history of the disease.
+12/2/2024 ZAGROS G RASHID 31
+=====PAGE 32 [T]=====
+Antithyroid drugs should be introduced at
+high doses (carbimazole 40-60mg/day or
+PTU 400-600mg/day). Usually this results in
+subjective improvement within10-14 days,
+renders patient clinically & biochemically
+euthyroid at 3-4 weeks. In most of the cases
+carbimazole can be continued at 5-20mg daily
+for 12-18 months. Patients with thyrotoxicosis
+relapse in at least 50% of cases usually within
+2 years of stopping treatment
+.
+12/2/2024 ZAGROS G RASHID 32
+=====PAGE 33 [T]=====
+Rarely, T4 & TSH levels fluctuate between
+those of thyrotoxicosis & hypothyroidism
+despite good drug compliance, presumably
+due to rapidly changing concentration of
+TRAB. In these patients control can be
+achieved by blocking thyroid hormone
+synthesis with Carbimazole 30-40mg daily
+and adding levothyroxine 100-150mcg daily
+as replacement therapy, this is so called Block
+& Replace regime.
+12/2/2024 ZAGROS G RASHID 33
+=====PAGE 34 [T]=====
+Agranulocytosis is rare but potentially a
+serious complication that cannot be
+predicted by the routine measurement of
+WBC count & is reversible on stopping
+the medication. Patient should stop the
+medication and seek medical help when a
+severe sore throat or fever develops while
+on the treatment.
+12/2/2024 ZAGROS G RASHID 34
+=====PAGE 35 [T]=====
+PTU is associated with a small but definite
+risk of Heptotoxicity which some time can
+result in liver failure requiring liver
+transplantation and even in death. For this
+reason it should be considered as a second line
+therapy to Carbimazole & only be used during
+breast feeding & pregnancy.
+12/2/2024 ZAGROS G RASHID 35
+=====PAGE 36 [T]=====
+Thyroid surgery
+Patients should be rendered Euthyroid
+with antithyroid drugs before operation.
+Potassium Iodide, 60mg 3 times daily
+orally is often added for 2 weeks before
+surgery to inhibit thyroid hormone release
+& reduce the size & vascularity of the
+gland. Traditionally a subtotal
+thyroidectomy is performed. After
+operation 80% of patients are euthyroid,
+15% are permanently hypothyroid & 5%
+remain thyrotoxic.
+12/2/2024 ZAGROS G RASHID 36
+=====PAGE 37 [T]=====
+As a consequence many surgeons nowadays
+perform near total thyroidectomy, leaving
+behind a very small portion of the gland
+adjacent to recurrent laryngeal nerve. This
+result in permanent hypothyroidism and
+probably associated with higher risk of
+hypoparathyroidism but maximize the
+potential cure of thyrotoxicois.
+12/2/2024 ZAGROS G RASHID 37
+=====PAGE 38 [T]=====
+Radioactive iodine
+It is administered orally as a single dose
+and it’s trapped and organified in the
+thyroid. During the lag period, symptoms
+can be controlled by beta blockers or in
+more severe cases by Carbimazole.
+However, Carbimazole reduces the
+efficacy of iodine 131 because it prevents
+organification of iodine 131 in the gland,
+so it should be avoided until 48 hours
+after radio-iodine administration.
+12/2/2024 ZAGROS G RASHID 38
+=====PAGE 39 [T]=====
+In women of reproductive age, pregnancy
+must be excluded before administration of
+iodine 131 & avoided for 6 months
+thereafter. Men are also advised against
+fathering children for 6 months after
+receiving Iodine 131.
+12/2/2024 ZAGROS G RASHID 39
+=====PAGE 40 [T]=====
+Grave’s Ophthalmopathy
+It’s immunologically mediated but the
+autoantigen has not been identified. Within
+the orbit there is cytokine-mediated
+proliferation of fibroblasts which secrete
+Hydrophilic Glycosaminoglycans. The
+resulting increase in interstitial fluid content,
+combined with a chronic inflammatory cell
+infiltrate, causes marked swelling & ultimately
+fibrosis of extraocular muscles & rise in
+retrobulbar pressure.
+12/2/2024 ZAGROS G RASHID 40
+=====PAGE 41 [T]=====
+There will be proptosis, exophtlamos, & in
+severe cases there is optic nerve compression.
+Eye disease is detectable in up to 50% of
+thyrotoxic patients at presentation, but active
+ocular inflammation may occur before or after
+thyrotoxic episodes. It’s more common in
+cigarettes smokers & is exacerbated by poor
+control of thyroid function.
+12/2/2024 ZAGROS G RASHID 41
+=====PAGE 42 [T]=====
+12/2/2024 ZAGROS G RASHID 42
+=====PAGE 43 [T]=====
+12/2/2024 ZAGROS G RASHID 43
+=====PAGE 44 [T]=====
+ZAGROS G RASHID
+=====PAGE 45 [T]=====
+The most frequent presenting symptoms are
+related to increased exposure of the cornea.
+There may be excessive lacrimation, made
+worse by wind & bright light. There may be
+reduction in visual acuity & visual fields as a
+result of corneal oedema or optic nerve
+compression.
+12/2/2024 ZAGROS G RASHID 45
+=====PAGE 46 [T]=====
+The majority of patients require no treatment
+other than reassurance. Smoking cessation
+should be actively encouraged. Artificial tear
+drops or gel counter the gritty discomfort of
+dry eyes. In mild cases of grave’s
+ophthalmopathy oral selenium 100 mcg twice
+daily for 6 months, improves the quality of life
+, reduces ocular involvement and slows the
+progression of the disease.
+12/2/2024 ZAGROS G RASHID 46
+=====PAGE 47 [T]=====
+More severe inflammatory episodes are treated
+with glucocorticoids, like daily oral
+prednisolone or pulsed IV methylprednisolone
+& some time orbital radiotherapy.
+Loss of visual acuity is an indication for
+urgent surgical decompression of the orbit
+.
+12/2/2024 ZAGROS G RASHID 47
+=====PAGE 48 [T]=====
+Hypothyroidism
+It’s a common condition with various causes, but
+Hashimoto’s thyroiditis & thyroid failure following
+Iodine 131 or surgical treatment of thyrotoxicosis
+account for > 90% of cases, except in areas where
+iodine deficiency is endemic. Women are affected
+approximately 6 times more frequently than men.
+12/2/2024 ZAGROS G RASHID 48
+=====PAGE 49 [T]=====
+Aetiology
+Causes Anti-TPO AB Goitre
+Autoimmune
+Hashimoto’s thyroiditis ++ + -
+Spontaneous atrophic hypothyroidism - -
+Grave’s disease with TSH receptor- + + -
+blocking AB
+Iatrogenic
+Radioactive iodine ablation + + -
+Thyroidectomy + -
+Drugs
+Carbimazole + + -
+propylthiouracil
+Amiodarone + + -
+Lithium - + -
+12/2/2024 ZAGROS G RASHID 49
+=====PAGE 50 [T]=====
+Causes Anti-TPO AB Goitre
+Transient thyroiditis
+Subacute (de Quervian’s) Thyroiditis + + -
+Post-partum thyroiditis + + -
+Iodine deficiency e.g mountainous - + +
+regions
+Congenital
+Dyshormonogenesis - + +
+Thyroid aplasia - -
+Infiltrative
+Amyloidosis, Riedel’s thyroiditis, + + +
+Sarcoidosis
+Secondary hypothyroidism
+TSH deficiency - -
+12/2/2024 ZAGROS G RASHID 50
+=====PAGE 51 [T]=====
+Clinical assessment
+The clinical presentation depends on the duration &
+severity of the hypothyroidism.
+A consequence of prolonged hypothyroidism is the
+infiltration of many body tissues by the
+mucopolysaccharides, hyaluronic acid &
+chondrotin sulphate resulting in a low pitch voice,
+poor hearing, slurred speech due to a large tongue
+& compression of median nerve (carpal tunnel
+syndrome).
+12/2/2024 ZAGROS G RASHID 51
+=====PAGE 52 [T]=====
+Infiltration of dermis gives rise to non- pitting
+oedema (Myxoedema), which is most marked
+in the skin of the hands, feet & eyelids. The
+resultant peri-orbital puffiness is often striking
+& may be combined with facial pallor due to
+vasoconstriction & anaemia or a lemon-
+yellow tint to the skin caused by
+carotenaemia, along with purplish lips &
+malar flush.
+12/2/2024 ZAGROS G RASHID 52
+=====PAGE 53 [T]=====
+ZAGROS G RASHID
+=====PAGE 54 [T]=====
+Symptoms
+• Common:
+(weight gain, cold intolerance, fatigue,
+somnolence, dry skin, dry hair, menorrhagia).
+• Less common: (constipation, hoarseness of voice, carpal
+tunnel syndrome, alopecia, aches and pain, muscle
+stiffness, deafness, depression, infertility).
+• Rare: ).
+(myxoedema madness, galactorrhoea, impotence
+12/2/2024 ZAGROS G RASHID 54
+=====PAGE 55 [T]=====
+Signs
+• Common: (weight gain).
+• Less common: ( hoarse voice, purplish lips, malar flush,
+periorbital oedema, loss of lateral 1/3 of eyebrows, anaemia,
+carotenaemia, erythema ab igne, bradycardia, hypertension,
+delay relaxation of tendon reflexes, dermal myxoedema).
+• Rare: (ileus, ascitis, pericardial and pleural effusions,
+cerebellar ataxia, myotonia)
+12/2/2024 ZAGROS G RASHID 55
+=====PAGE 56 [T]=====
+12/2/2024 ZAGROS G RASHID 56
+=====PAGE 57 [T]=====
+ZAGROS G RASHID
+=====PAGE 58 [T]=====
+Erythema ab igne
+12/2/2024 ZAGROS G RASHID 58
+=====PAGE 59 [T]=====
+Investigations of Hypothyroidism
+In the vast majority of cases, hypothyroidism results
+from intrinsic disorder of the thyroid gland
+(Primary Hypothyroidism). In this situation serum
+T4 is low & TSH is elevated usually in excess of 20
+mU/L. Measurements of T3 are unhelpful since they
+do not discriminate reliably between Euthyroidism &
+Hypothyroidism.
+12/2/2024 ZAGROS G RASHID 59
+=====PAGE 60 [T]=====
+In severe prolonged hypothyroidism the ECG
+classically demonstrates Sinus Bradycardia
+with low voltage complexes & ST- segment
+& T- wave abnormalities
+.
+12/2/2024 ZAGROS G RASHID 60
+=====PAGE 61 [T]=====
+Management
+Treatment is with Levothyroxine replacement.
+Usually we start with a low dose of 50 mcg daily
+for 3 weeks, increasing thereafter to 100mcg daily
+for a further 3 weeks & finally to a maintenance
+dose of 100-150 mcg daily. In young patients, it’s
+safe to start at a higher dose e.g. 100 mcg daily to
+allow a more rapid normalization of thyroid
+hormone.
+12/2/2024 ZAGROS G RASHID 61
+=====PAGE 62 [T]=====
+Levothyroxine has a half-life of 7 days, so it
+should always be taken as a single daily dose
+& at least 6 weeks should pass before
+repeating TFT & adjusting the dose, usually
+by 25 mcg. Patients feel better within 2-3
+weeks. Reduction in weight & per-iorbital
+puffiness occurs quickly, but the restoration of
+skin & hair texture & resolution of any
+effusions may take 3-6 months.
+12/2/2024 ZAGROS G RASHID 62
+=====PAGE 63 [T]=====
+The dose of levothyroxine should be adjusted
+to maintain serum TSH within reference
+range. To achieve this, serum T4 often needs
+to be in the upper part of the reference range
+or even slightly raised, because T3 is required
+for receptor activation is derived exclusively
+from conversion of T4 within target tissues
+.
+12/2/2024 ZAGROS G RASHID 63
+=====PAGE 64 [T]=====
+Some patients remain symptomatic despite
+normalization of TSH & may wish to take
+extra levothyroxine, which suppresses TSH.
+However, suppressed TSH is a risk factor for
+osteoporosis & AF, so this approach cannot
+be recommended. It’s important to measure
+thyroid function every 1-2 years once the dose
+of levothyroxine is stabilized.
+12/2/2024 ZAGROS G RASHID 64
+=====PAGE 65 [T]=====
+Levothyroxine absorption is maximal when
+the medication is taken before bed & may be
+further optimized by vitamin C supplement.
+Coronary angioplasty or CABG may be
+required if angina is exacerbated by
+levothyroxine replacement.
+12/2/2024 ZAGROS G RASHID 65
+=====PAGE 66 [T]=====
+Myxoedema Coma
+This is a very rare presentation of hypothyroidism in
+which there is a depressed level of consciousness,
+usually in an elderly patient who appears
+myxoedematous. Body temperature may be as low
+as 25 Celsius degree, convulsion is not uncommon
+& CSF pressure & protein content are raised.
+12/2/2024 ZAGROS G RASHID 66
+=====PAGE 67 [T]=====
+The mortality rate is 50% & survival depends
+on early recognition & treatment of
+hypothyroidism & other factors contributing
+to the altered consciousness level such as
+medication, heart failure, pneumonia,
+dilutional hyponatraemia & respiratory
+failure. It’s a medical emergency & treatment
+must begin before biochemical confirmation
+of the diagnosis.
+12/2/2024 ZAGROS G RASHID 67
+=====PAGE 68 [T]=====
+Suspected cases should be treated with an IV
+injection of 20 mcg of tri-iodothyronine (T3),
+followed by further injections of 20mcg 3
+times daily until there is a sustained clinical
+improvement. Other measures include slow
+rewarming, cautious use of IV fluids, broad-
+spectrum AB & high-flow oxygen,
+occasionally assisted ventilation may be
+necessary.
+12/2/2024 ZAGROS G RASHID 68
+=====PAGE 69 [T]=====
+Unless it is apparent that the patient has
+primary hypothyroidism, the thyroid failure
+should also be assumed to be secondary to
+hypothalamic or pituitary disease & treatment
+given with Hydrocortisone 100mg IM 3 times
+daily, pending the result of T4, TSH &
+cortisol measurement
+.
+12/2/2024 ZAGROS G RASHID 69
