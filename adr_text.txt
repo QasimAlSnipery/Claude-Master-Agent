@@ -1,0 +1,431 @@
+=====PAGE 1 [T]=====
+Adrenal Gland Diseases
+Assistant Professor
+Dr. Serwan Mohammed Ismail
+The adrenals comprise several separate endocrine glands within a single anatomical structure
+The adrenal medulla (extension of the SNS) secretes catecholamines into capillaries rather
+than synapses.
+Most of the adrenal cortex is made up of cells that secrete cortisol & adrenal androgens, &
+form part of the HPA.
+The small outer glomerulosa of the cortex secretes aldosterone under the control of the RAS.
+These functions are important in an integrated control of CVS, metabolic & immune
+responses to stress.
+There is increasing evidence that subtle alterations in adrenal function contribute
+to the pathogenesis of common diseases such as HTN, obesity & type 2 DM.
+Both Cushing’s disease & cortisol-secreting adrenal tumours are 4 times more
+common in women than men.
+In contrast, ectopic ACTH syndrome .. is more common in men.
+=====PAGE 2 [T]=====
+It is vital to exclude iatrogenic causes in all patients with Cushing’s syndrome
+since even inhaled or topical GC can induce the syndrome in susceptible
+individuals.
+A careful drug history must therefore be taken before embarking on complex
+investigations.
+An 0800–0900 hrs serum cortisol of <100 nmol/L (3.6 µg/dL) in a pt with a
+normal sleep–wake pattern & Cushingoid appearance is consistent with
+exogenous synthetic GC use (common) or cyclical secretion of cortisol from
+endogenous Cushing’s (uncommon).
+=====PAGE 3 [T]=====
+Some clinical features are more common in ectopic ACTH syndrome. While ACTH-
+secreting pituitary tumours retain some -ve feedback sensitivity to cortisol, this is
+absent in tumours that produce ectopic ACTH, typically resulting in higher levels
+of both ACTH & cortisol than are observed in pituitary-driven disease.
+The high ACTH level are associated with marked pigmentation because of binding
+to melanocortin 1 receptors on melanocytes in the skin.
+The high cortisol levels also overcome the capacity of 11β-HSD2
+to inactivate cortisol in the kidney, causing hypokalaemic alkalosis that aggravates
+myopathy & hyperglycaemia (by inhibiting insulin secretion).
+When the tumour that is secreting ACTH is malignant, then the onset is usually
+rapid & may be associated with cachexia.
+For these reasons, the classical features of Cushing’s syndrome are less common
+in ectopic ACTH syndrome; if present, they suggest that a less aggressive tumour,
+such as a bronchial carcinoid, is responsible.
+In Cushing’s disease, the pituitary tumour is usually a microadenoma (<10 mm in
+diam.); hence other features of a pit. macroadenoma are rare, but there may be
+secondary hypogonadism due to the inhibitory effects of excess GC on
+gonadotropin secretion.
+If a diagnosis of Cushing’s is suspected, early discussion/referral to a specialist is
+recommended.
+Investigations
+The large number of tests available that reflects the fact that each one has limited
+specificity & sensitivity in isolation.
+Accordingly, several tests are usually combined to establish the diag.
+Testing for Cushing’s syndrome should be avoided under conditions of stress,
+e.g(acute illness, because this activates the HPA axis, causing potentially spurious
+results.
+The diagnosis of Cushing’s is a two-step process:
+1. To establish Dx
+2. To define its cause .
+Some additional tests are useful in all cases of Cushing’s syndrome,
+including plasma electrolytes, glucose, HbA1c & BMD measurement.
+=====PAGE 4 [T]=====
+Establishing the presence of Cushing’s syndrome
+If there is appropriate clinical suspicion,Dx is confirmed by using 2 of 3 main
+tests:
+1.Failure to suppress s.cortisol with LDDST
+2. Loss of the normal circadian rhythm of cortisol, with inappropriately elevated
+late-night serum or salivary cortisol
+3. Increased 24-hr UFC (lower sensitivity than above tests).
+Dexamethasone is used for suppression testing because it does not cross-react
+in immunoassays for cortisol.
+An ONDST involves administration of 1 mg dexa. at 2300 hrs & measurement of
+serum cortisol at 0900 hrs the following day.
+In a LDDST, s. cortisol is measured following administration of 0.5 mg dexa. 4
+times daily for 48 hours.
+For either test,a normal response is s.cortisol of <50 nmol/L (1.8µg/dL)
+It is important for any oestrogens to be stopped for 6 weeks prior to investig. to
+allow CBG levels to return to normal & to avoid false +ve responses, as most
+cortisol assays measure total cortisol, including that bound to CBG.
+Cyclicity of cortisol secretion is a feature of all types of Cushing’s syn. &, if very
+variable, can confuse diagnosis.
+Use of multiple salivary cortisol samples over weeks or months can be helpful in
+Dx but an elevated salivary cortisol alone should not be taken as proof of Dx.
+In iatrogenic Cushing’s syn., cortisol levels are low unless the pt is taking a GC (e.g
+prednisolone) that cross-reacts in immunoassays with cortisol.
+Determining the underlying cause
+Once presence of Cushing’s syn. is confirmed, measurement of plasma ACTH is
+the key to establishing the differential diagnosis;
+It is best measured in the morning around 0900 hrs.
+=====PAGE 5 [T]=====
+In the presence of excess cortisol secretion,
+Undetectable ACTH (<1.1 pmol/L (5 ng/L)) indicates an adrenal cause. ACTH >3.3
+pmol/L (15 ng/L) suggest a pituitary cause or ectopic ACTH.
+ACTH levels between these values represent a ‘grey area’ & further evaluation by
+a specialist is required.
+Tests to discriminate pituitary from ectopic sources of ACTH rely on the fact that
+pituitary tumours retain some features of normal regulation of ACTH secretion.
+Thus, in pituitary-dependent Cushing’s dis., ACTH secretion is suppressed by
+HDDST & ACTH is stimulated by CRH.
+In a HDDST), s. cortisol is measured before & after administration of 2 mg of dexa.
+4 times daily for 48 hours.
+MRI detects around 60% of pituitary microadenomas secreting ACTH.
+If available, (BIPSS) with measurement of p. ACTH near the pituitary & comparing
+this to peripheral levels is the best means of confirming Cushing’s dis. (increased
+gradient), unless MRI shows a tumour bigger than 6 mm, in which case it may not
+be needed.
+CT or MRI detects most adrenal tumours; adrenal carcinomas are usually large
+(>5 cm) & have other features of malignancy.
+Management
+Untreated severe Cushing’s syn. has a 50% 5-year mortality.
+Most pts are treated surgically, but medical therapy may be given in severe cases
+for a few weeks prior to operation to improve the clinical state, or where there is
+recurrent or incurable disease.
+Drugs that inhibit GC biosynthesis form the mainstay or management, with the
+most widely available & established being metyrapone & ketoconazole, with
+osilodrostat becoming available more recently.
+The dose of these agents is best titrated against s. cortisol levels or 24-hr UFC.
+Cushing’s disease
+Trans-sphenoidal surgery carried out by an experienced surgeon with selective
+removal of the adenoma is the treatment of choice, 70% of pts going into
+immediate remission.
+=====PAGE 6 [T]=====
+Around 20% of pts suffer a recurrence, often years later, emphasising the need for
+life-long follow-up.
+Laparoscopic bilateral adrenalectomy performed by an expert surgeon
+effectively cures any type of Cushing dis., but this can result in Nelson syndrome
+– an invasive pituitary macroadenoma ( local mass effects) & very high ACTH
+levels (pigmentation). The risk of Nelson syndrome is reported as being reduced
+by pituitary irradiation in some series, but not all.
+The somatostatin analogue pasireotide is also licensed for the treatment of
+Cushing’s dis. & works by suppressing ACTH secretion by the tumour.
+Adrenal tumours
+Laparoscopic adrenal surgery:Is a treatment of choice for adrenal adenomas.
+Surgery offers the only prospect of cure for adrenocortical carcinomas but, in
+general, prognosis is poor with high rates of recurrence, even in pts with localised
+disease at presentation.
+Radiotherapy to the tumour bed reduces the risk of local recurrence;
+systemic therapy consists of adrenolytic drug mitotane & chemotherapy, but
+responses are often poor.
+• Ectopic ACTH syndrome
+Localised tumours, such as bronchial carcinoids, should be removed surgically .
+In incurable malignancy, it is important to reduce the severity of Cushing’s syn.
+using medical therapy or, if appropriate, bilateral adrenalectomy.
+Adrenal insufficiency
+Results from inadequate secretion of cortisol &/or aldosterone.
+It is potentially fatal & notoriously variable in its presentation.
+A high index of suspicion is therefore required in pts with unexplained fatigue,
+hyponatraemia or hypotension.
+The most common is ACTH deficiency (secondary adrenocortical failure) , usually
+because of inappropriate withdrawal of ch. GC therapy or a pituitary tumour.
+CAH& Addison’s dis. (primary adrenocortical failure) are rare causes.
+=====PAGE 7 [T]=====
+Clinical assessment
+In Addison , either GC or MC deficiency may come first, but eventually all pts fail
+to secrete both classes .
+May present with ch. features &/or in acute circulatory shock.
+With a ch. presentation, initial symptoms are often misdiagnosed as chronic
+fatigue syndrome or depression.
+In prim. adr insuf , weight loss is a uniform presenting feature. Adr. Insuf. should
+also be considered in pts with hyponatraemia,even if asymptomatic.
+Features of an acute adrenal crisis ( circulatory shock with severe hypotension,
+hyponatraemia, hyperkalaemia &, in some instances, hypoglycaemia a&
+hypercalcaemia). M. cramps, nausea,vomiting, diarrhoea & unexplained fever
+may be present.
+The crisis is often precipitated by intercurrent dis., surgery or infection.
+Vitiligo occurs in 10%–20% of patients with autoimmune Addison’s disease.
+Addison’s disease may be part of 2 distinct APS.
+The triad of hypoparathy., adrenal Insuf. , & mucocut. Candidiasis
+( type I APS), also called autoimmune polyendocrinopathy 1 (APECED), which
+usually manifests in childhood. Other, less common manifestation include
+=====PAGE 8 [T]=====
+hypothyroidism,gonadal failure,GI malabsorption ,TypeI DM ,alopecia areata &
+totalis, pern. an., vitiligo, Ch.AH, keratopathy, hypoplasia of dental enamel &
+nails, hypophysitis, asplenism, & cholelithiasis.
+Type II APS, (Schmidt syndrome), is characterized by Addison’s disease, autoimm
+thyroid dis. (Graves’ , or Hashimoto thyroiditis), & TypeI DM . Other associated dis
+include pern. an., vitiligo, gonadal failure, hypophysitis, celiac dis., myasth. G.,
+PBC, Sjögren’s syn. , SLE, & Parkinson’s disease.
+This syndrome usually develops in adul
+• Treatment should not be delayed to wait for results in pts with suspected
+acute adrenal crisis. Here, a random blood sample should be stored for
+subsequent measurement of serum cortisol &, if possible p.ACTH; if the
+pt’s clinical condition permits, it may be appropriate to spend 30 minutes
+performing a short ACTH stim. test before administering hydrocortisone ,
+but delays must be avoided if there is circulatory compromise.
+=====PAGE 9 [T]=====
+• Investigations should be performed before treatment is given in pts who
+present with features suggestive of chronic adrenal insufficiency.
+Secondary adr. insuf. occurs commonly after the discontinuation of exogenous
+GC. Alternate-day GC treatment, if feasible, results in less suppression of the HPA
+axis than does daily GC therapy.
+Complete recovery of the HPA axis can take 1 year or more, & the rate-limiting
+step appears to be recovery of the CRH-producing neurons.
+Under stress, cortisol secretion is increased. Therefore, the concept
+of adrenal fatigue, proposed by some alternative providers, has no bio-
+logic validity.
+After stabilization of acute adr. insuf.,pts with Addison’s dis. require lifelong
+replacement therapy with both GC & MC.
+Many pts are overtreated with GC & undertreated with MC.
+Assessment of glucocorticoids
+RPC is usually low in pts with adrenal insuf. but it may be within the reference
+range, yet inappropriately low, for a seriously ill patient.
+Random measure of normal levels of plasma cortisol cannot therefore be used to
+confirm or refute the Dx, unless it is above 430 nmol/L (>15.6 µg/dL), which
+effectively excludes adrenal insufficiency.
+More useful is the short ACTH stimulation test ( tetracosactrin or short
+Synacthen test). Cortisol levels fail to increase in response to exogenous ACTH in
+pts with primary or secondary adrenal insuf.
+These can be distinguished by measurement of ACTH (which is low in ACTH
+deficiency & high in Addison’s disease).
+In chronic symptoms suggestive of adr insuf , a basal early morning pl. cortisol
+measure, a 1-hr cosyntropin test, or both, should be performed.
+These tests are not recommended in pts without symptoms .
+A normal response is a p. cortisol >18 μg/dL at any time during the test. A pt
+with a basal morning p. cortisol <5 μg/dL & a stimulated cortisol <18 μg/dL
+probably has adr. insuf. & should receive treatment.
+=====PAGE 10 [T]=====
+A basal plasma morning cortisol 10 -18 μg/dL &stimulated cortisol <18 μg/dL
+probably indicates impaired adrenal reserve & a requirement for receiving
+cortisol replacement under stress conditions .
+Birth control pills & oral estrogens increase CBG levels; &low free cortisol level,
+making interpretation of the test difficult for these patients.
+• Assessment of MC
+MC secretion in pts with suspected Addison’s cannot be adequately assessed by
+electrolyte measurements since
+1.Hyponatraemia occurs in both aldosterone & cortisol deficiency .
+2.Hyperkalaemia is common, but not universal, in aldosterone deficiency.
+Plasma renin & aldosterone should be measured in the supine position.
+In MC deficiency, plasma renin activity is high, with plasma aldosterone being
+either low or in the lower part of the reference range.
+• Assessment of adrenal androgens
+This is not necessary in men because testosterone from the testes is the principal
+androgen.
+In women, DHEAS & androstenedione may be measured in a random specimen of
+blood, though levels are highest in the morning.
+=====PAGE 11 [T]=====
+• Other tests to establish the cause
+In pts with elevated ACTH,. Adrenal autoAb to 21-hydroxylase are frequently +ve
+in autoimmune adrenal failure.
+If Ab tests are –ve , imaging of adrenal gl. with CT or MRI is indicated.
+TB causes adrenal calcification, visible on plain X-ray or U/S.
+HIV test should be performed if relevant risk factors are present.
+Adrenal metastases are a rare cause of adrenal insufficiency.
+Pts with evidence of autoimmune adrenal failure should be screened for other
+autoimmune diseases, such as thyroid disease, pernicious an. & type 1 DM.
+Management
+Always need GC replacement therapy & usually, but not always, MC .
+Other treatments depend on the underlying cause.
+GC replacement
+consists of oral hydrocortisone (cortisol) 15–20 mg daily in divided doses.
+These are physiological replacement doses that should not cause Cushingoid SE.
+Excess weight gain usually indicates over-replacement, while persistent lethargy
+or hyperpigmentation may be due to an inadequate dose or lack of absorption.
+Measurement of s. cortisol levels is not usually helpful.
+MC replacement
+Fludrocortisone is administered at the usual dose of 0.05–0.15 mg daily, &
+adequacy of replacement may be assessed by measurement of BP, Pl. electrolytes
+& pl. renin.
+It is indicated for virtually every pt with primary adrenal insufficiency but is not
+needed in secondary adrenal insufficiency.
+Androgen replacement
+DHEAS (50 mg/day) is occasionally given to women with primary adr. insuf. who
+have syptoms of reduced libido & fatigue, but the evidence in support of this is
+=====PAGE 12 [T]=====
+not robust & treatment may be associated with S.E such as acne & hirsutism
+Primary hyperaldosteronism
+Estimates of the prevalence of primary hyperaldosteronism vary according to the
+screening tests employed, but it may occur in as many as 10% of people with
+HTN.
+Indications to test for MC excess in hypertensive pts include hypokalaemia
+(including hypokalaemia induced by thiazide diuretics), poor control of BP with
+conventional therapy, a FH of early-onset HTN, or presentation at a young age.
+=====PAGE 13 [T]=====
+It is important to differentiate prim. hyperald., caused by an intrinsic abnormality
+of the adr. gl. resulting in aldosterone excess, from secondary hyperald., which is
+usually a consequence of enhanced activity of renin in response to inadequate
+renal perfus. & hypotension.
+Most individuals with primary hyperald. have BAH(idiopathic
+hyperaldosteronism), while only a minority have APA(Conn syndrome).
+Glucocorticoid-suppressible hyperaldosteronism is a rare AD condition in which
+aldosterone is secreted ‘ectopically’ from the adrenal zonae fasciculata/reticularis
+in response to ACTH.
+Rarely, the MC receptor pathway in the distal nephron is activated, even though
+aldosterone concentrations are low.
+Clinical features
+usually asymptomatic but may have features of Na+ retention or k loss.
+Na+ retention may cause oedema, while hypokalaemia may cause muscle
+weakness (or even paralysis, especially in South-east Asian populations), polyuria
+(secondary to RT damage, (nephrogenic DI)) & occasionally tetany (because of
+associated Metab. alkalosis & low ionised calcium). BP is elevated but accelerated
+phase HTN is rare.
+Investigations
+• Biochemical
+Routine blood tests may show hypokalaemic alkalosis.
+Sodium is usually at the upper end of the reference range in primary
+hyperald.,but is characteristically low in secondary hyperald. (because low plasma
+volume stimulates vasopressin (ADH) release & high angiotensin I stimulate thirst)
+The key measurements are pl. renin & aldost. , & in many centres the ARR is
+employed as a screening test for primary aldost. in HTN pts.
+Almost all antihypertensive drugs interfere with this ratio (β-blockers inhibit while
+diuretics stimulate renin secretion).
+Thus, individuals with an elevated ARR require further testing after stopping many
+antihypertensive drugs for at least 4 weeks (although if the ratio is still high
+despite a pt taking ACEI or ARB drugs then this need not be done as these agents
+would normally cause a lowering of the ratio). If necessary, antihypertensive
+=====PAGE 14 [T]=====
+agents that have minimal effects on the RAS, such as CCB & α-blockers, may be
+substituted.
+Oral K supplementation may also be required, as hypokalaemia itself suppresses
+renin activity. If, on repeat testing, pl. renin is low & aldost concentrations are
+elevated, then further investigation under specialist supervision may include
+saline or fludrocortisone suppression tests.
+Imaging & localisation
+Imaging with CT or MRI will identify most APAs ,but it is important to recognise
+the risk of false +ve (non functioning adrenal adenomas are common) & false -ve
+(imaging may have insufficient resolution to identify adenomas with a diameter of
+<0.5 cm).
+If the imaging is inconclusive & there is an intention to proceed with surgery on
+the basis of strong bioch. evidence of an APA, then adrenal vein catheterisation
+with measurement of aldosterone (&cortisol to confirm positioning of the
+catheters) is usually required.
+In some centres, this is performed even in the presence of a unilateral ‘adenoma’,
+to avoid inadvertent removal of incidental non-functioning adenoma contralateral
+to a radiologically inapparent cause of aldosterone excess.
+=====PAGE 15 [T]=====
+Management
+MRA (spironolactone & eplerenone) are valuable in treating both hypokalaemia &
+HTN in all forms of MC excess.
+Up to 20% of males develop gynaecomastia on spironolactone.
+Amiloride (10–40 mg/d), which blocks the epithelial Na+ channel regulated by
+aldosterone, is an alternative.
+In pts with an APA, medical therapy is usually given for a few wks to normalise
+whole-body electrolyte balance before unilateral adrenalectomy.
+Laparoscopic surgery cures the biochemical abnormality but, depending on the
+pre-operative duration, HTN remains in as many as 70% of cases, probably
+because of irreversible damage to the systemic microcirculation.
+Phaeochromocytoma & paraganglioma
+Are rare neuro-endocrine tumours that may secrete catecholamines (adrenaline
+& noradrenaline).
+80% of these tumours occur in the adrenal medulla (phaeoch.), while 20% arise
+elsewhere in the body in sympathetic ganglia(paragangl.).
+Most are benign , 15% show malignant features.
+40% are associated with inherited dis., including NF, VHL syndrome, MEN 2a &
+MEN 2b.
+Paragangliomas are particularly associated with mutations in the succinate
+dehydrogenase A, B, C & D genes.
+Other genetic causes include mutations in SDHA, SDHAF2,TMEN127 & MAX.
+Clinical features
+These depend on the pattern of catecholamine secretion .
+Some pts present with HTN, although it has been estimated that phaeo.
+accounts for < 0.1% of cases of HTN.
+The presentation may be with a complication of HTN, such as stroke, MI, LVF,HTN
+retinopathy or accelerated HTN.
+=====PAGE 16 [T]=====
+The apparent paradox of postural hypotension between episodes is explained
+by‘pressure natriuresis’ during hypertensive episodes so that intravascular
+volume is reduced. There may also be features of the familial syndromes
+associated with phaeo .
+Paragangliomas are often non-functioning.
+Investigations
+Excessive secretion of catecholamines can be confirmed by measuring
+metabolites in plasma &/or urine (metanephrine & normetanephrine) .
+There is a high ‘false-positive’ rate in stressed pts ( acute illness,following
+vigorous exercise or severe pain) & following ingestion of some drug e.g TCA.
+For this reason, a repeat sample should usually be requested if elevated levels are
+found, although, as a rule, the higher the conc. of metanephrines, the more likely
+the diagnosis of phaeo./paragang.
+S. chromogranin A is often elevated & may be a useful tumour marker in pts with
+non-secretory tumours &/or metastatic dis.
+Genetic testing if other features of a genetic syndrome, in those with a FH of
+phaeoch./paragangl., &in those presenting under the age of 50 years.
+Localisation
+Phaeo. are usually identified by abdominal CT or MRI.
+=====PAGE 17 [T]=====
+Localisation of paragangliomas may be more difficult.
+Scintigraphy using MIBG can be useful, particularly if combined with CT, for
+adrenal phaeo. but is often –ve in paraganglioma.
+F-deoxyglucose PET or Ga-DOTANOC or DOTATATE-PET CT (for malignant dis. &
+for confirming an imaging abnormality as a paragang. in an individual with
+underlying risk due to genetic mutation.
+Management
+In functioning tumours, medical therapy is required to prepare the pt for surgery,
+preferably for a minimum of 6 weeks, to allow restoration of normal plasma
+volume.
+The most useful is the α-blocker phenoxybenzamine , because it is a non-
+competitive antagonist, unlike prazosin or doxazosin.
+If α-blockade produces a marked tachycardia, then a β-blocker such as
+propranolol can be added.
+On no account should a β-blocker be given before an α-blocker, as this may
+cause a paradoxical rise in BP .
+During surgery, sodium nitroprusside & phentolamine are useful in controlling
+hypertensive episodes, which may result from anaesthetic induction or tumour
+mobilisation.
+=====PAGE 18 [T]=====
+Congenital adrenal hyperplasia
+Inherited defects in enzymes of the cortisol biosynthetic pathway result in
+insufficiency of hormones downstream of the block, with impaired
+– ve feedback & increased ACTH secretion.
+ACTH then stimulates production of steroids upstream of enz. block.
+This produces adrenal hyperplasia & a combination of cl. f. that depend on the
+severity & site of the defect in biosynthesis.
+All of these enzyme abnormalities are inherited as AR traits.
+The most common enzyme defect is 21-hydroxylase deficiency.
+This results in impaired synthesis of cortisol & aldosterone, & accumulation of
+17-OH-progesterone, which is then diverted to form adrenal androgens.
+In about 1/3 of cases, this defect is severe & presents in infancy with features of
+GC & MC deficiency & androgen excess, such as ambiguous genitalia in girls.
+In the other 2/3, MC secretion is adequate but there may be features of cortisol
+insuffciency &/or ACTH & androgen excess, including precocious pseudo-
+puberty, which is distinguished from ‘true’ precocious puberty by low
+gonadotrophins.
+Investigations
+Sometimes the mildest enzyme defects are not apparent until adult life, when
+females may present with amenorrhoea &/or hirsutism. This is called ‘non-
+classical’ or ‘late-onset’ CAH.
+Defects of all the other enzymes are rare. Both 17-hydroxylase & 11β-hydroxylase
+deficiency may produce HTN due to excess production of 11-deoxycorticosterone,
+which has MC activity.
+Management
+The aim is to replace deficient corticosteroids & to suppress ACTH-driven adrenal
+androgen production.
+A careful balance is required between adequate suppression of adr. androgen
+excess & excessive GC replacement resulting in features of Cushing’s syn.
+In children, growth velocity is an important measurement, since either under- or
+over-replacement with GC suppresses growth.
+=====PAGE 19 [T]=====
+In adults, there is no uniformly agreed adrenal replacement regimen, & cl. f.
+(menstrual cycle, hirsutism, weight gain, BP) & bioch. profiles (pl. renin, 17-OH-
+progesterone & testosterone levels) provide a guide.
+Women with late-onset 21-hydroxylase deficiency may not require corticosteroid
+replacement. If hirsutism is the main problem, anti-androgen therapy may be just
+as effective.
