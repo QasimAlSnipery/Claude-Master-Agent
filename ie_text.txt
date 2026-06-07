@@ -1,0 +1,244 @@
+=====PAGE 1 [T]=====
+Infective Endocarditis
+Dr. Ali Jabari
+Interventional Cardiologist
+College of Medicine
+University of Sulaimani
+=====PAGE 2 [T]=====
+Case Scenario
+• A 76-year-old man is referred to the emergency department by his GP
+with a four week history of fever, night sweats, anorexia and malaise,
+following a tooth abscess for which he was seen by his dentist
+20-Oct-2025 Dr. Ali Jabari 2
+=====PAGE 3 [T]=====
+ILO
+• Defining IEC
+• Explain Types of IEC & Microbiology
+• Discuss epidemiology, pathophysiology of IEC
+• Describing CF of IEC & DDx
+• Familiarize with Complications of IEC
+• Outline Diagnostic approach to IEC
+• Design treatment plan for patients with IEC
+20-Oct-2025 Dr. Ali Jabari 3
+=====PAGE 4 [T]=====
+IEC
+• “Microbial infection of a heart valve (native and prosthetic), the lining
+of a cardiac chamber or blood vessel, or a congenital anomaly.”
+20-Oct-2025 Dr. Ali Jabari 4
+=====PAGE 5 [T]=====
+Epidemiology
+• Incidence: 5-15 cases per 100 000/y
+• > 50% of patients are over 60 years
+• The underlying condition are RHD (24%), CHD (19%), and other
+cardiac abnormalities such as calcified aortic valve or MVP (25%), &
+no pre-existing cardiac abnormality (32%).
+• Bacterial endocarditis is a serious illness; the case fatality is
+approximately 20% even with Rx, and is even higher in those with
+PVE and those infected with AB-resistant organisms.
+20-Oct-2025 Dr. Ali Jabari 5
+=====PAGE 6 [T]=====
+Pathophysiology
+• IE typically occurs at sites of pre-existing endocardial damage,
+Although infection with particularly virulent or aggressive organisms,
+such as S aureus, can cause endocarditis in a previously normal heart.
+• Staph endocarditis of the TV is a common complication of IDU
+• Many acquired and congenital cardiac lesions are vulnerable,
+particularly areas of endocardial damage caused by a high-pressure jet
+of blood (VSD, MR & AR), many of which are hemodynamically
+insignificant.
+20-Oct-2025 Dr. Ali Jabari 6
+=====PAGE 7 [T]=====
+• In contrast, the risk of endocarditis at the site of hemodynamically
+important low-pressure lesions, such as a large ASD, is minimal.
+• Infection tends to occur at sites of endothelial damage because they
+attract deposits of platelets and fibrin that are vulnerable to
+colonization by blood-borne organisms.
+20-Oct-2025 Dr. Ali Jabari 7
+=====PAGE 8 [T]=====
+• The avascular valve tissue and presence of fibrin and platelet
+aggregates help to protect proliferating organisms from host defense
+mechanisms.
+• When the infection is established, vegetations composed of organisms,
+fibrin and platelets grow and may become large enough to cause
+obstruction or embolism.
+• Adjacent tissues are destroyed and abscesses may form.
+20-Oct-2025 Dr. Ali Jabari 8
+=====PAGE 9 [T]=====
+• Valve damage occur by tissue distortion, cusp perforation or
+disruption of chordae.
+• Extracardiac manifestations, such as vasculitis and skin lesions, may
+occur as the result of either emboli or immune complex deposition.
+• Mycotic aneurysms (cid:0) arteries at the site of infected emboli.
+• In fatal cases, infarction of the spleen and kidneys and, sometimes, an
+immune GN supervene.
+20-Oct-2025 Dr. Ali Jabari 9
+=====PAGE 10 [T]=====
+Microbiology
+❖ Causative organisms
+(cid:0) Subacute infection (Strept viridans & Enterococci)
+(cid:0) Acute infection (Staph aureus & Strept pneumoniae)
+❖ S. aureus (cid:0) aggressive valve destruction, 50% of cases in IDUs
+❖ Culture-negative IEC:
+(cid:0) Partial AB Rx
+(cid:0) Fastidious organisms such as Chlamydia or Coxiella
+(cid:0) fungi as Candida or Aspergillus
+20-Oct-2025 Dr. Ali Jabari 10
+=====PAGE 11 [T]=====
+S.aureus (including MRSA) • Aggressive acute endocarditis; marked toxicity
+31% • Metastatic infection; valve destruction
+• Mortality 25-40% (left heart)
+Coagulase-negative Staphylococcus - CoNS • Foreign body infection / prostheses
+10%
+• Nosocomial infection
+(S. epidermidis; S. lugdunensis)
+Streptococcus viridans • Oropharyngeal flora; alpha-hemolytic
+19% • Subacute endocarditis
+• Highly sensitive to penicillin
+Streptococcus bovis (gallolyticus) • GI flora; associated with polyps and colon Ca
+7% • Subacute endocarditis
+• Highly sensitive to penicillin
+B-hemolytic Streptococci (groups A,B,C,G) 7% • Frequent intra/extracardiac complications; abscess
+Enterococci (faecalis and faecium) • GI flora
+10% • Associated with UTI /nosocomial infection
+• Rx requires bactericidal activity (synergism with Genta)
+HACEK • Fastidious G -ve bacilli
+• Haemophilus sp.
+• URI - Oropharyngeal flora
+• Aggregatibacter sp.
+• + blood culture after 5 days of incubation (sometimes longer)
+• Cardiobacterium hominis 2%
+• Large vegetation
+• Eikenella corrodens
+.
+• Kingella sp
+Culture-negative endocarditis • Coxiella burnetii (Q fever): subacute IE, ↑ IgG titer
+• Bartonella sp.: Cat Scratch Disease (serology/specific culture)
+• Fungi (Candida): Invasive Endocarditis
+14% (cid:0)Risk factors: immunodepression, prosthesis, central line, IDU
+• Others: Brucella, Tropheryma, Mycoplasma, Legionella
+20-Oct-2025 Dr. Ali Jabari 11
+=====PAGE 12 [T]=====
+Symptoms
+• Fever, chills, night sweats
+• Retrosternal chest pain
+• Dyspnea, cough
+• HA, Confusion, Stroke
+• N/V, abdominal pain, LOW
+• Arthralgia, myalgia, back pain
+20-Oct-2025 Dr. Ali Jabari 12
+=====PAGE 13 [T]=====
+Signs
+› General: Fever, neurological signs, signs of peripheral embolism, clubbing
+› Cardiac murmur: in 85% of cases (uncommon in subacute endocarditis)
+› Splinter hemorrhages: proximal nail fold, red lines
+› Petechiae: conjunctiva, oral mucosa and palate, extremities
+› Osler’s nodes: small, painful SC nodule on fingertips
+› Janeway`s lesion: painless, erythematous or hemorrhagic macular lesion
+› Roth’s spot: oval retinal hemorrhage (with central pallor)
+› Splenomegaly: more frequent in subacute endocarditis
+20-Oct-2025 Dr. Ali Jabari 13
+=====PAGE 14 [T]=====
+DDx
+(cid:0) Meningococcal Septicemia (photophobia and neck stiffness)
+(cid:0) Viral illness
+(cid:0) Hidden abscesses
+(cid:0) TB
+(cid:0) Lymphoma
+(cid:0) RHD
+(cid:0) Vasculitic conditions (e.g. SLE, RA).
+20-Oct-2025 Dr. Ali Jabari 14
+=====PAGE 15 [T]=====
+Work Up
+❖ Blood cultures
+❖ Echo
+❖ Serial ECGs
+❖ Gated cardiac CT
+❖ PET/CT using FDG
+❖ Brain/spine imaging
+20-Oct-2025 Dr. Ali Jabari 15
+=====PAGE 16 [T]=====
+Major criteria
+Modified
+Positive blood culture
+Duke`s
+∙ Typical organism from two cultures
+Criteria
+∙ Persistent positive blood cultures taken > 12 hrs apart
+∙ Three or more positive cultures taken over > 1 hr
+Endocardial involvement
+∙ Positive echocardiographic findings of vegetations
+∙ New valvular regurgitation
+Minor criteria
+∙ Predisposing valvular or cardiac abnormality
+∙ IDU
+∙ Pyrexia ≥ 38°C
+∙ Embolic phenomenon
+∙ Vasculitic phenomenon
+∙ Blood cultures suggestive but not achieving major criteria
+∙ Suggestive echocardiographic findings
+20-Oct-2025 Dr. Ali Jabari 16
+=====PAGE 17 [T]=====
+Rx
+• Escalate AB to organism-directed therapy based on speciation and sensitivities
+• If on anticoagulation or antiplatelet, typically can continue unless concern for stroke, intracranial
+hemorrhage, or need for emergent surgery
+• Monitor for complications of endocarditis (CHF, conduction block, OM, new embolic
+phenomenon) which can occur even on AB
+• Duration is usually 4–6w (from the first day on which blood cultures are negatives)
+After ≥10d IV AB (cid:0) PO if clinically appropriate and available PO AB
+• Uncomplicated right-sided NVE or PCN-S Strep spp (cid:0) 2w may be adequate
+20-Oct-2025 Dr. Ali Jabari 17
+=====PAGE 18 [T]=====
+Empiric NVE or PVE (>12m post-op): Vanc + CTX
+PVE (<12m post op): Vanc + CTX ± Gentamicin (if Normal RFT)
+Strep Penicillin, Ampicillin, Ceftriaxone; if PVE consider gentamicin
+Staph MRSA: Vanc or Dapto
+MSSA: Vanc inferior to β-lactam for MSSA
+Nafcillin, Oxacillin, or Cefazolin (avoid if CNS involve. (cid:0) poor penetration)
+PCN allergy with MSSA: consider Desensitization
+PVE: Consider Rifampin / Gentamicin in PVE
+Enterococci Ampicillin + [CTX or gent]
+if VRE: Linezolid, Dapto, Ampicillin if sensitive
+Gram negatives HACEK: CTX, Ampicillin or FQ.
+Pseudomonas: 2 anti-Pseudomonal agents, eg, β-lactam + (Aminoglycoside or FQ)
+Fungi Candida: amphotericin B ± Flucytosine or Micafungin
+Aspergillus: Amphotericin B or Voriconazole
+Ophtha consult for Fungemia to rule out Endophthalmitis
+20-Oct-2025 Dr. Ali Jabari 18
+=====PAGE 19 [T]=====
+Surgery
+•
+Emergent if refractory cardiogenic shock
+• Urgent (during initial hospitalization):
+(cid:0) Severe HF
+(cid:0) Penetrating infection: Periannular abscess, HB, fistula
+(cid:0) Persistent infection: +ve Culture >5 d of appropriate AB, ↑ or large vegetation
+(cid:0) Emboli: recurrent or w/ residual large (>10 mm) vegetation & severe AR/MR. Cerebral emboli is not a
+contraindication, unless severe stroke or ICH
+(cid:0) S. aureus, fungal or MDR organisms
+• PVE (Emergent if dysfunction or dehiscence)
+20-Oct-2025 Dr. Ali Jabari 19
+=====PAGE 20 [T]=====
+Complications
+∙ Peripheral Embolism
+∙ Stroke
+∙ HF, AVB/Conduction Disorders
+∙ ARF
+20-Oct-2025 Dr. Ali Jabari 20
+=====PAGE 21 [T]=====
+Endocarditis Prophylaxis
+• Antibiotic prophylaxis is no longer routinely given
+• Pts should meet both indications (high-risk condition & high-risk
+procedure) to qualify for prophylaxis.
+20-Oct-2025 Dr. Ali Jabari 21
+=====PAGE 22 [T]=====
+Cardiac conditions PV, previous IEC, CHD including unrepaired or incompletely repaired cyanotic CHD
+(palliative shunts or conduits), 1st 6m after completely repaired CHD, Cardiac transplant with
+valvulopathy.
+(Not For Acquired VHD, BAV, MVP, HCM.)
+Procedures Dental: manipulation of gingival tissue or periapical region of teeth or perf oral mucosa (eg,
+extraction, periodontal, implant, root canal, cleaning)
+Regimens Oral: amoxicillin 2 g 30–60 min before
+Unable to take PO: Amp 2 g IM/IV or Cefazolin or CTX 1 g IM/IV
+PCN-allergic: Cephalexin, Azithro, Claritho or Doxy
+20-Oct-2025 Dr. Ali Jabari 22
