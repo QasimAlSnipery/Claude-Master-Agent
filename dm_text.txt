@@ -1,0 +1,346 @@
+=====PAGE 1 [T]=====
+Diabetes mellitus
+Dr: Taha O . Mahwi
+Professor of Medicine
+Consultant Endocrinologist and Diabetologist
+=====PAGE 2 [T]=====
+• DM results from lack, or reduced effectiveness, of endogenous
+insulin. Hyperglycemia is one aspect of a far-reaching metabolic
+derangement, which causes serious
+• microvascular (retinopathy, nephropathy, neuropathy) or
+• macrovascular problems:
+Stroke, MI, renovascular disease, limb ischemia. So think of DM as a
+vascular disease:
+• The incidence of DM is rising globally,it`s estimated that 415 million
+people had diabetes in 2015(10% of the world adult population),and
+this figure is expected to reach 642 million by 2040.
+=====PAGE 3 [T]=====
+Blood glucose homeostasis
+• Blood glucose is tightly regulated and maintained within a narrow
+range .This is essential for ensuring a continuous supply of glucose to
+the central nervous system. The brain has little capacity to store
+energy in the form of glycogen or triglyceride,and the blood-brain
+barrier is largely impermeable to fatty acids,so the brain depends on
+the liver for a constant supply of glucose for oxidation and hence
+generation of ATP.
+• Glucose homeostasis is achieved through the coordination of actions
+of multiple organs,but mainly reflects a balance between the entry of
+glucose into the circulation from the liver.
+=====PAGE 4 [T]=====
+After ingestion of a meal containing carbohydrate, normal blood glucose
+levels are maintained by:
+• Suppression of hepatic glucose production
+• Stimulation of hepatic glucose uptake
+• Stimulation of glucose uptake by peripheral tissues
+In the post-prandial state portal vein insulin &glucose rise and portal
+glucagon(secreted by α cells of pancreatic islets) concentration fall.
+In response to a rise in blood glucose,e.g after a meal, Insulin is released
+,suppressing gluconeogenesis (formation of new glucose is formed from
+amino acids,lactate and glycerol)and promoting glycogen synthesis and
+storage.Insulin promotes the peripheral uptake of glucose ,particularly in
+skeletal muscle and it`s storage (as muscle glycogen)
+=====PAGE 5 [T]=====
+• Insulin promotes protein synthesis and lipogenesis ,and suppress
+lipolysis.
+• Insulin controls the release of intermediate metabolites includings
+- Amino acids(glutmine,alanine)
+- 3-carbone intermediates in oxidation( lactate, pyruvate)
+- Free fatty acids(FFAS)
+In the absence of insulin,e.g during fasting, these processes are
+reversed and favor gluconeogenesis in liver from
+glycogen,glycerol,amino acids and other 3-carbone precursors
+=====PAGE 6 [EMPTY]=====
+=====PAGE 7 [EMPTY]=====
+=====PAGE 8 [T]=====
+• Categories of diabetes:
+• Type 1 DM: Usually adolescent onset but may occur at any age.
+• Cause: insulin deficiency from autoimmune destruction of insulin-secreting
+pancreatic β cells. Antibodies consist directed to insulin,glutamic acid
+decarboxylase(GAD),(IA-2) & zinc transportet ZnT8.Patients must have insulin,
+and are prone to ketoacidosis and weight loss. Associated with other
+autoimmune diseases (>90% HLA DR3 ± DR4). Concordance is only ~30% in
+identical twins, indicating environmental influence. Four genes are important:
+one(6q) determines islet sensitivity to damage (e.g from viruses or cross-
+reactivity from cows’ milk-induced antibodies). In approximately 85% of newly
+diagnosed type1 DM anti-GAD & anti-IA-2 antibodies are measured together.
+• Latent autoimmune diabetes of adults (LADA) is a form of type 1 DM, with slower
+progression to insulin dependence in later life.
+=====PAGE 9 [T]=====
+• Type 2 DM: (Formerly non-insulin-dependent DM, NIDDM) It`s
+characterized by reduced sensitivity to the action of insulin and an inability
+to produce sufficient insulin to overcome this`insulin resistance` itis at
+‘epidemic’ levels in many places, mainly due to changes in lifestyle, but also
+because of better diagnosis and improved longevity. Higher prevalence in
+Asians, men, and the elderly (up to 18%).Most are over 40yrs, but
+teenagers are now getting type 2 DM .
+• Cause:
+• ↓insulin secretion ± insulin resistance. It is associated with obesity, lack of
+exercise,
+• calorie and alcohol excess. ≥80% concordance in identical twins, indicating
+stronger genetic influence than in type 1 DM.
+=====PAGE 10 [T]=====
+• . Typically progresses from a preliminary phase of impaired glucose
+tolerance (IGT) or impaired fasting glucose (IFG). (This is a unique
+window for lifestyle intervention.)
+• Maturity onset diabetes of the young (MODY) is a rare autosomal
+dominant form of type 2 DM affecting young people.
+• Impaired glucose tolerance (IGT): Fasting plasma glucose <126mg/dl
+and OGTT (oral glucose tolerance) 2h glucose ≥140mg/dl but
+<200mg/dl.
+=====PAGE 11 [T]=====
+• Impaired fasting glucose (IFG): Fasting plasma glucose ≥ 110mg/dl but
+<126mg/dl(WHO criteria). Do an OGTT to exclude DM. The cut-off
+point is somewhat arbitrary.
+• IGT and IFG denote different abnormalities of glucose regulation
+(post-prandial and fasting). There may be lower risk of progression to
+DM in IFG than IGT.
+• Manage both with lifestyle advice + annual review. Incidence of DM if
+IFG and HbA1C at high end of normal (5.5–6.4%) is ~25%.
+=====PAGE 12 [T]=====
+Other causes of DM :
+• Steroids; anti-HIV drugs; newer antipsychotics.
+• Pancreatic: pancreatitis; surgery (where >90% pancreas is removed);
+trauma;pancreatic destruction (haemochromatosis, cystic fibrosis);
+pancreatic cancer.
+• Excess endogenouse production of hormonal antagonists to Insulin,e.g:
+Growth hormone-Acromegaly , Glucocorticoids-Cushing’s syndrome
+Glucagon- Glucagonoma ; Catecholamines- phaeochromocytoma;
+Thyroid hormone-Thyrotoxicosis
+• Others: congenital lipodystrophy; glycogen storage diseases.
+Gestational diabetes
+=====PAGE 13 [T]=====
+• Metabolic syndrome (syndrome x)
+It`s a group of conditions that together increase risk of CVD ,type2DM and
+Stroke.the criteria for metabolic syndrome if they have at least 3 of the following:
+• Central obesity (BMI >30, or ↑waist circumference:40 inches in men and 35
+inches for female),
+• High blood pressure two of BP ≥130/85mm/Hg,
+• Triglycerides ≥150mg/dL
+• HDL ≤ 40 in male ≤ 50mg/dL in female
+• Elevated blood sugar levels : Fasting glucose ≥100mg/dL
+Type 2 DM. ~20% are affected; weight, genetics, and insulin resistance important
+in etiology.
+Tx: Exercise; ↓weight; treat individual components.
+=====PAGE 14 [T]=====
+Diagnosis of Diabetes mellitus:WHO criteria
+• Symptoms of hyperglycaemia (eg polyuria, polydipsia, unexplained weight
+loss,visual blurring, genital thrush, lethargy) AND raised venous glucose
+detected once—fasting ≥ 126mg/dL(≥7mmol/L) or random ≥200mg/dL(
+≥11.1mmol/L)
+OR
+Raised venous glucose on two separate occasions—fasting ≥126mg/dL,
+random ≥200mg/dL
+OR
+oral glucose tolerance test (OGTT)—2h value ≥200mg/dL
+.
+=====PAGE 15 [T]=====
+How to perform an OGTT
+-Patient be on unrestricted carbohydrate diet for 3 days
+-Fasted overnight for at least 8 hours
+-Rest for 30 mins
+-Remain seated for duration of the test , with no smoking
+-Measure plasma glucose before and 2 hrs after a 75g oral glucose
+• HbA1c the value must be below 5.7%,the value 5.7%- 6.4% is
+consider to be prediabetic , while diabetes can be diagnosed with a
+HbA1c≥6.5%
+=====PAGE 16 [T]=====
+HbA1c is a blood test shows average blood glucose level over the past 2-3 months.
+HbA1c may not accurately reflect the mean plasma glucose concentration. Avoid in
+pregnancy, , and haemoglobinopathies,HbA1c results may be influenced by a
+number of factors, including conditions that alter red cell survival or cause
+interference with a specific assay.
+It may be falsely low in patient with liver cirrhosis (increased red cell
+turnover), recovery from recent acute blood loss (greater percentage of
+younger erythrocytes with shorter exposure to glucose), or transfusion
+(dilution of patient’s blood with nondiabetic donor blood).
+In these instances, measurement of glycated serum proteins (fructosamine) or
+direct measurement of plasma glucose concentration will more
+accurately reflect glycemic control.
+=====PAGE 17 [T]=====
+Differentiating type1 and 2 diabetes
+• Occasionally it may be difficult to differentiate whether a patient has type 1 or 2
+• DM, although they can present differently. Features of type 1 include
+• weight loss; persistent hyper glycaemia despite diet and medications; presence of
+autoantibodies: islet cell antibodies (ICA) and anti-glutamic acid decarboxylase
+(GAD) antibodies; ketonuria.
+Differences between type 1 and type 2 diabetes
+• Type 1 DM Type 2 DM
+• Epidemiology Often starts before puberty Older patients (usually)
+• Genetics HLA D3 and D4 linked No HLA association
+• Cause Autoimmune β-cell destruction Insulin resistance/β-cell dysfunction
+• Presentation Polydipsia, polyuria,↓weight, ketosis Asymptomatic/complications, eg MI
+=====PAGE 18 [T]=====
+• Not all new-onset DM in older people is type 2: if ketotic ± a poor
+response to oral hypoglycemic (and patient is slim or has a family or
+personal history of autoimmunity),think of latent autoimmune
+diabetes in adults (LADA) and measure islet cell antibodies.
+• C-peptide is the connecting peptide that is cleaved in the production
+of insulin from pro-insulin.it can help clarify the differential diagnosis
+of diabetes, as it is usually very low in long-standing type1 diabetes
+and very high in sever insulin resistance. It is also useful in the
+diagnosis of spontaneous hypoglycemia.
+=====PAGE 19 [T]=====
+Management of diabetes mellitus
+The aims are to improve symptoms of hyperglycemia and minimize the risks of long-term
+microvascular and macrovascular complications.Treatment methods of DM includes dietary/lifestyle
+modification,oral antidiabetic drugs and injected therapies.
+General :Focus on education and lifestyle advice (eg exercise to ↑insulin sensitivity),
+• healthy eating: ↓saturated fats, ↓sugar, ↑starch-carbohydrate, moderate
+protein. Foods made just for diabetics are not needed. One could regard bariatric
+surgery as a cure for DM in selected patients. Be prepared to negotiate HbA1c target
+and review every 3–6 months.
+Assess global vascular risk; start a high-intensity statin
+, eg atorvastatin or rosuvastatin as tolerated, control BP . Give foot-care .
+pregnancy care should be in a multidisciplinary clinic. Advise informing DVLA (Drive and Vehicle
+Licensing Agency) and not to drive if hypoglycaemic spells (loss of hypo glycaemia awareness)
+may lead to loss of license;
+=====PAGE 20 [T]=====
+• In patients with suspected type1 DM ,urgent treatment with insulin is
+required and prompt referral to a specialist is usually needed.
+• In patients with suspected type2 DM ,the first approach to
+management involves advice about dietary and lifestyle modification.
+Oral antidiabetic drugs are usually added in those who do not achieve
+glycemic targets , or who have symptomatic hyperglycemia at
+diagnosis and a high HbA1c.
+=====PAGE 21 [T]=====
+• Recommended glycemic control for many nonpregnant adults with
+Diabetes
+-HbA1c<7%
+-Preprandial capillary plasma glucose 80-130mg/dL
+-Peak postprandial capillary plasma glucose<180mg/dL
+More or less stringent glycemic goals may be appropriate for individual
+patients.
+Continuous glucose monitoring(CMG) may be used to assess glycemic targets
+,goals should be individualized based on duration of diabetes, age/life
+expectancy ,comorbid condition ,known CVD or advanced microvascular
+complications, hypoglycemic unawareness, and individual patient
+consideration
+=====PAGE 22 [T]=====
+Oral hypoglycemic agents
+• Metformin: A biguanide. It`s classified as (Insulin sensitizer)↑ insulin
+sensitivity & it`s main effects are on fasting glucose and are insulin
+independent ,it reduces hepatic glucose production ,may also
+increase insulin-mediated glucose uptake ,and has effects on gut
+glucose uptake and utilization,dose not cause hypoglycemia and
+helps weight.
+• It is employed as first line therapy in all patients who tolerate it.
+• Usually introduced at low dose 500mg twice daily ,the usual
+maintenance dose is 1g twice daily.
+• SE: nausea; diarrhoea(try modified-release version); abdominal pain;
+Avoid if eGFR ≤36mL/min (due to risk lactic acidosis).
+=====PAGE 23 [T]=====
+• Sulfonylureas(SU):they are (Insulin secretagogues) ↑ insulin
+secretion;
+Their long term benefits in lowering microvascular complications of
+diabetes were established. e.g gliclazide 40mg/d.glimepiride and
+glipizide,the dose –response of all SU is steepest at low doses.
+SE: hypoglycaemia (monitor glucose); it ↑ weight.
+Glibenclamide is long-acting and prone to inducing hypoglycemia,so
+should be avoided in older patients.
+=====PAGE 24 [T]=====
+• DPP4 inhibitors/gliptins: Block the action of DPP-4, an enzyme which destroys the
+hormone incretin(the effect is the augmentation of insulin secretion seen when a glucose
+stimulus is given orally rather than iv,and reflect the release of incretin peptides from the
+gut).The incretin hormones are primarily glucagon-like peptide 1(IGPL-1) and gastric
+inhibitory polypeptide(GIP)which act to potentiate insulin secretion,these are rapidly
+broken down by dipeptyl peptidase 4(DPP-4).
+• The `gliptins`,or DPP-4 inhibitors ,prevent break down and enhance concentration of
+endogenouse GLP-1 &GIP.
+• The first DPP-4 inhibitor was Sitagliptin others now available are vildagliptin,saxsagliptin
+,linagliptin and alogliptin.they are very well tolerated and weight neutral.
+• Glitazone: ↑insulin sensitivity; SE: hypoglycaemia, fractures, fluid retention, ↑LFT (do
+LFT every 8wks for 1yr, stop if ALT up >3-fold). CI: past or present congested cardiac failure;
+osteoporosis; monitor weight, and stop if ↑or oedema.
+=====PAGE 25 [T]=====
+• SGLT2 inhibitors: Selective sodium–glucose co-transporter-2 inhibitor.
+Blocks the reabsorption of glucose in the kidneys and promotes
+excretion of excess glucose in the urine (eg empagliflozin, shown to
+reduce mortality from cardiovascular disease in patients with type 2
+DM, when compared to placebo).
+• Other e.g Dapagliflozin,canagliflozin
+• SE :Genital fungal infection ,Euglycemic diabetic ketoacidosis(i.e DKA
+not associated with marked hyperglycemia)has been recognized as a
+rare complication of this class of drugs.
+=====PAGE 26 [T]=====
+Using Insulin
+• Insulin was discovered in 1921 and transformed the management of type1 DM which was
+a fatal disorder until then.
+• Up to the 1980s,insulin was obtained by extraction and purification from pancreases of
+cows &pigs(bovine and porcine insulins).Recombinant DNA technology enabled large-
+scale production of human insulin.the aminoacid sequence of insulin can be alterd to
+produce analogues of insulin ,which differ in their rate of absorption from the site of
+injection,e.g rapid acting insulin analogues:(insulin lispro,aspart,glulisine).The onset of
+action of insulin analogues may be further hastened by the addition of excipients to the
+formulation .e.g of Long-acting insulin analogues:(glargine,detemir,degludec).
+• Vital to educate to self-adjust doses in the light of exercise, finger prick glucose,calorie
+intake, and carbohydrate counting.
+• Can modify diet wisely and avoid binge drinking (danger of delayed hypoglycaemia).
+• Partner can abort hypoglycaemia: sugary drinks; GlucoGel orally if coma (no risk of
+aspiration).Dose titration to target—eg by 2–4 UNIT steps.
+=====PAGE 27 [T]=====
+• Subcutaneous insulins Short-, medium-, or long-acting. Strength: 100U/mL.
+1- Ultra-fast acting (HumalogR; NovorapidR); inject at start of meal, or just after
+(unless sugar-laden)—helps match what is actually eaten (vs what is planned).
+2- Isophane insulin (variable peak at 4–12h): favoured by NICE (it’s cheap!).
+3- Pre-mixed insulins (eg NovoMixR 30 = 30% short-acting and 70% long-acting).
+4- Long-acting recombinant human insulin analogues (insulin glargine) are used
+at bedtime in type 1 or 2 DM. There is no awkward peak, so good if nocturnal
+hypoglycaemia is an issue. Caution if considering pregnancy. Insulin detemir
+is similar and has a role in intensive insulin regimens for overweight type 2 DM
+=====PAGE 28 [T]=====
+• Common insulin regimens :Plan the regimen to suit the lifestyle, not vice versa.
+Disposable pens: dial dose; insert needle 90° to skin. Vary injection site (outer
+thigh/abdomen); change needle daily.
+• ‘BD biphasic regimen’: twice daily premixed insulins by pen (eg NovoMix )—
+useful in type 2 DM or type 1 with regular lifestyle.
+• ‘QDS regimen’: before meals ultra-fast insulin + bedtime long-acting analogue:
+useful in type 1 DM for achieving a flexible lifestyle (eg for adjusting doses with
+size of meals, or exercise).
+• Once-daily before-bed long-acting insulin(Basal Inulin): a good initial insulin
+regimen when switching from tablets in type 2 DM. Typical dose to work up to
+(slowly!): ≥1U/24h
+• for every unit of BMI in adults. Consider retaining metformin if needed for tight
+control and patient is unable to use BD regime.
+=====PAGE 29 [T]=====
+• Dose adjustment for normal eating (DAFNE): Multidisciplinary teams
+promoting autonomy can save lives. DAFNE found that training in
+flexible, intensive insulin dosing improved glycaemic control as well as
+well-being.
+• Subcutaneous insulin dosing during intercurrent illnesses (eg
+influenza)
+-Advise patients to avoid stopping insulin during acute illness.
+-illness often increases insulin requirements despite reduced food
+intake.
+-Maintain calorie intake, eg using milk.
+=====PAGE 30 [T]=====
+-Check blood glucose ≥ 4 times a day and look for ketonuria. Increase insulin
+doses if glucose rising. Advise to get help from a specialist diabetes nurse or GP
+if concerned (esp. if glucose levels are rising or ketonuria). One option is 2-hourly
+ultra fast-acting insulin (eg 6–8U) preceded by a finger prick glucose check.
+-Admit if vomiting, dehydrated, ketotic, a child, or pregnant.
+• Insulin pumps (continous subcutaneous insulin) Consider when attempts to
+reach HbA1C with multiple daily injections have resulted in disabling
+hypoglycaemia
+• or person has been unable to achieve target HbA1C despite careful management.
+=====PAGE 31 [T]=====
+Glucagon-like peptide (GLP) analogues
+• Work as incretin mimetics. Incretins are gut peptides that work by aug
+menting insulin release. Plasma glucose is lowered by effects on
+insulin,glucagon secretion and by decelerating gastric emptying ,they
+are given by subcutaneous injection. Patients must have BMI >35 and
+specific psychological or other medical problems associated with
+obesity, or have a BMI lower than 35 kg/m2, and for whom insulin
+therapy would have significant occupational implications, or weight
+loss would benefit other significant obesity related comorbidities.
+• To continue a GLP 1 mimetic, a person should have a beneficial
+metabolic response (a reduction of HbA1C by at least 1%) and an
+weight loss of at least 3% of initial body weight in 6 months.
+=====PAGE 32 [T]=====
+• A once daily injection( lixisenatide and liraglutide ),
+or once weekly(exenatide once weekly , dulaglutide ,albiglutide , and
+semaglutide ) are available.
+A daily oral preparation of semaglutide , which was demonstrated
+clinical effectiveness, close to the once weekly s.c preparation ,was
+recently approved.
+Side effects: nausea , increase risk of pancreatitis (risk is small 1-10
+cases per 1000 patients treated).
