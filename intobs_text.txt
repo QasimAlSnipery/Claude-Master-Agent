@@ -1,0 +1,266 @@
+=====PAGE 1 [T]=====
+Intestinal Obstruction
+Professor Dr. Deari Ahmed Ismaeil
+Consultant Surgeon
+=====PAGE 2 [T]=====
+Learning Objectives
+After this session, students should be able to:
+• Differentiate between dynamic (mechanical) and adynamic IO
+• Explain the pathophysiology leading to bowel distension,
+dehydration, and systemic effects.
+• Recognize the cardinal clinical features of small versus large
+bowel obstruction.
+• Identify the clinical and radiological signs suggestive of
+strangulation and closed-loop obstruction.
+• Outline the supportive and definitive (surgical) management
+principles for acute obstruction.
+=====PAGE 3 [T]=====
+Classification and
+Location Examples
+Etiology
+Faecal impaction,
+Foreign bodies,
+Intraluminal
+I. Classification
+Bezoars,
+• Dynamic Obstruction: Peristalsis is
+Gallstones (Gallstone ileus)
+working against a mechanical
+Stricture (Crohn’s, Tuberculosis),
+obstruction (e.g., bands, stricture,
+tumor). Intramural Malignancy (Carcinoma, Lymphoma),
+• Adynamic Obstruction: No Intussusception, Volvulus
+mechanical obstruction; peristalsis is
+absent or inadequate (e.g., paralytic
+Extramural Bands/Adhesions, Hernia
+ileus, pseudo-obstruction).
+• II. Causes of Dynamic Obstruction
+=====PAGE 4 [T]=====
+Bolus obstruction
+• Gallstones
+• Food after partial or total gastrectomy
+• Trichobezoars (masses of undigested hair ball) and
+phytobezoars (fruit/ vegetable fibre).
+=====PAGE 5 [T]=====
+Bolus obstruction
+• Stercoliths, faecalith : These are usually found
+in the small bowel in association with a jejunal
+diverticulum or ileal stricture.
+• Worms: Ascaris.
+=====PAGE 6 [T]=====
+Obstruction by adhesions and bands
+Adhesions
+The common causes of adhesions:
+• Acute inflammation: Sites of anastomoses,
+reperitonealisation of raw areas, trauma, ischemia.
+• Foreign material: Talc, starch, gauze, silk.
+• Infection: Peritonitis, tuberculosis.
+• Chronic inflammatory conditions Crohn’s disease.
+• Radiation enteritis
+=====PAGE 7 [T]=====
+Prevention of adhesions
+Factors that may limit adhesion formation include:
+• Good surgical technique
+• Washing of the peritoneal cavity with saline to remove clots
+• Minimising contact with gauze
+• Covering anastomoses and raw peritoneal surfaces
+=====PAGE 8 [T]=====
+Bands:
+● Congenital, e.g. obliterated
+vitellointestinal duct.
+● String band following previous abdominal surgery or peritoneal
+inflammation.
+● Portion of greater omentum,
+usually adherent to the parietes.
+=====PAGE 9 [T]=====
+Pathophysiology of Mechanical Obstruction
+I. Proximal and Distal Bowel Changes
+• Proximal to obstruction: Bowel dilates. Initially, peristalsis
+increases to overcome the blockage. If unrelieved, peristaltic
+strength reduces, leading to flaccidity and paralysis.
+• Distal to obstruction: Exhibits normal peristalsis and absorption
+until it becomes empty and collapses.
+=====PAGE 10 [T]=====
+Pathophysiology of Mechanical Obstruction
+II. Causes of Proximal Distension
+• Gas: Significant overgrowth of aerobic and anaerobic organisms.
+Following reabsorption of O₂ and CO₂,
+• the majority of the gas is nitrogen (90%) and hydrogen sulphide.
+• Fluid: Accumulation of various digestive juices
+• saliva, gastric, bile, pancreatic secretion
+• up to 2.5 L/24 hours total
+• Accumulation occurs because absorption by the obstructed gut is
+retarded.
+=====PAGE 11 [T]=====
+Pathophysiology of Mechanical Obstruction
+III. Systemic Consequences
+• Dehydration and Electrolyte Loss are critical due to:
+• Reduced oral intake.
+• Defective intestinal absorption.
+• Losses from vomiting.
+• Sequestration in the bowel lumen (third spacing).
+• Transudation of fluid into the peritoneal cavity.
+• Clinical effects:
+• Oliguria,
+• dry skin/tongue,
+• rising blood urea, and haematocrit (secondary polycythaemia).
+• Hypokalaemia is usually not a feature of simple mechanical
+obstruction.
+=====PAGE 12 [T]=====
+Strangulation
+• Definition: Immediate life-threatening complication where the
+blood supply is compromised, leading to bowel ischemia and
+infarction.
+• Mechanisms of Compromise (Figure 78.2/Summary box 78.2):
+• Direct pressure (Hernial orifices, Adhesions/Bands).
+• Interrupted mesenteric blood flow (Volvulus, Intussusception).
+• Increased intraluminal pressure (Closed-loop obstruction).
+• Pathology: Venous return is compromised before arterial supply.
+Impaired perfusion leads to hemorrhagic infarction, and viability
+loss allows translocation and systemic exposure to anaerobic
+organisms and endotoxin.
+=====PAGE 13 [T]=====
+Closed Loop
+Distension: Principally confined to
+the closed loop; proximal distension
+is typically not marked.
+• Clinical Significance: High risk of
+strangulation and perforation due to
+rapidly increasing luminal pressure.
+• Classic Example: Malignant
+stricture of the colon with a
+competent ileocaecal valve
+=====PAGE 14 [T]=====
+Intussusception and Volvulus
+• Intussusception: One gut segment invaginates
+into an adjacent segment.
+• Most common in children (5–10 months).
+• Adult cases are almost invariably secondary to a
+pathological lead point (polyp, tumor).
+• Ileocolic is the most common anatomical variety.
+• Volvulus: Axial rotation/twisting of a portion of
+bowel about its mesentery.
+• Rotation causes luminal obstruction (>180°) and
+vascular occlusion (>360°).
+• The most common spontaneous type in adults is
+sigmoid volvulus.
+• Sigmoid volvulus may sometimes be relieved by
+decompression per anum.
+=====PAGE 15 [T]=====
+Clinical Features: The Cardinal Quartet
+I. Dynamic Obstruction: The Classic Quartet
+• Pain: Sudden, severe, and colicky. Usually centered on the umbilicus (small
+bowel) or lower abdomen (large bowel).
+• Colicky pain may be replaced by diffuse, constant pain with increasing distension.
+• Vomiting:
+• High SBO: Occurs early and is profuse, leading to rapid dehydration. Minimal
+distension.
+• Low SBO: Occurs later; may become faeculent due to bacterial overgrowth. Central
+distension is pronounced.
+• LBO: Vomiting is a later feature.
+• Distension:
+• Minimal or absent in high SBO.
+• Early and pronounced in LBO.
+• Visible peristalsis may be present in thin patients.
+• Absolute Constipation: Neither faeces nor flatus is passed.
+Cardinal feature of complete obstruction.
+=====PAGE 16 [T]=====
+Clinical Features
+II. Exceptions to Absolute Constipation
+• Richter’s hernia (only part of the bowel wall is incarcerated).
+• Gallstone ileus.
+• Partial or subacute obstruction (diarrhea may occur).
+=====PAGE 17 [T]=====
+Clinical Features
+III. Clinical Features of Strangulation
+• Requires immediate distinction from simple obstruction.
+• Key signs:
+• Pain becomes constant and severe (beware pain not controlled by
+opiates).
+• Tenderness with rigidity and peritonism. Localized tenderness is
+significant.
+• Shock (suggests underlying ischemia).
+• Pyrexia may indicate ischemia or perforation.
+=====PAGE 18 [T]=====
+Imaging Modalities
+I. Plain Abdominal Radiograph
+(Supine/Erect)
+• SBO Characteristics: Straight, generally
+central loops, lying transversely. Valvulae
+conniventes (cross the entire width, giving a
+‘ladder’ effect) are visible in the jejunum.
+Minimal/no gas in the colon.
+• LBO Characteristics: Haustral folds
+(irregularly spaced, do not cross the whole
+diameter). Large amount of gas in the
+caecum.
+• Erect Films: Demonstrate fluid levels;
+pronounced levels suggest advanced
+obstruction (Figure 78.13).
+=====PAGE 19 [T]=====
+Imaging Modalities
+II. Computed Tomography (CT) Scanning
+• Role: Highly accurate in investigating obstruction.
+• Limitation: Diagnosing ischemia remains difficult.
+• CT Signs Suggesting Strangulation:
+• Reduced enhancement of the bowel wall.
+• Absence of mesenteric fluid on CT decreases the probability of
+strangulation.
+• Crucially: Diagnosis of strangulation remains primarily clinical.
+• Intussusception: The ‘target sign’ or ‘sausage-shaped’ mass is
+pathognomonic
+=====PAGE 20 [T]=====
+Imaging Modalities
+III. Contrast Studies
+• Water-Soluble Contrast: Used in SBO without strangulation to
+predict resolution. If contrast reaches the colon in 4–24 hours,
+resolution is highly likely (96% sensitivity). If it fails to reach the
+colon, surgery is required in approximately 90% of patients.
+• Barium Follow-Through: Contraindicated in acute obstruction.
+=====PAGE 21 [T]=====
+Management: Supportive and Surgical
+I. Supportive Management
+• Resuscitation is mandatory before surgery unless strangulation
+or closed-loop obstruction is present.
+• Gastrointestinal Drainage: Via nasogastric tube. Essential for
+decompression and reducing aspiration risk during anesthesia.
+• Fluid & Electrolyte Replacement: Address sodium and water
+loss using Hartmann’s solution or normal saline.
+=====PAGE 22 [T]=====
+Management: Supportive and Surgical
+II. Indications for Early Surgical Intervention
+• Obstructed external hernia.
+• Clinical features of intestinal strangulation (constant pain,
+peritonism).
+• Obstruction in a previously unoperated abdomen.
+• Note: Where adhesive obstruction is likely, conservative management
+may continue up to 72 hours if no ischemia is present.
+=====PAGE 23 [T]=====
+Management: Supportive and Surgical
+III. Principles of Surgical Intervention
+Surgical goals include managing:
+• The segment at the site of obstruction.
+• The distended proximal bowel.
+• The underlying cause of obstruction.
+• Intraoperative Decompression: Milk contents retrogradely into a
+large-bore orogastric tube for aspiration. Avoid injury to the distended,
+oedematous bowel.
+• Viability Assessment: Check for color, sheen, peristalsis, and
+mesenteric vessel pulsation after wrapping the bowel in hot packs for
+10 minutes. If uncertain, resection is required.
+=====PAGE 24 [T]=====
+The Paul–Mikulicz operation applied to volvulus of the pelvic colon
+=====PAGE 25 [T]=====
+Summary
+• Key Takeaways:
+• Dynamic obstruction is marked by the quartet: Pain, Vomiting,
+Distension, Absolute Constipation.
+• Dehydration and shock result from fluid sequestration and vomiting.
+• Strangulation (constant pain, peritonism, shock) is a surgical
+emergency.
+• CT is highly accurate, but the viability diagnosis is primarily clinical.
+• Supportive care (NG tube, fluids) precedes surgery, but prompt
+laparotomy is necessary for signs of compromise or closed-loop.
+• Questions?
+=====PAGE 26 [T]=====
+THANKS
