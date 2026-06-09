@@ -1,0 +1,846 @@
+=====PAGE 1 [T]=====
+Liver
+Dr Barham Muhammad Muhammad Salih
+General surgeon and subspecialty in gastrointestinal surgery
+2025
+3 November 2025 Dr.Barham M Salih 1
+=====PAGE 2 [T]=====
+Learning objectives To understand:
+• The anatomy of the liver
+• The signs of acute and chronic liver disease
+• The investigation of liver disease
+• The management of liver trauma
+• The management of liver infections
+• The management of benign and cystic liver lesions
+• The management of intrahepatic cholangiocarcinoma
+• The management of hepatocellular carcinoma
+• The management of colorectal liver metastases
+3 November 2025 Dr.Barham M Salih 2
+=====PAGE 3 [T]=====
+Introduction
+• It is located in the right upper quadrant, protected by the ribs, and
+weighs on average 1.5 kg (970–1860 g).
+• It is wedge shaped in both the coronal and axial planes and is divided
+by the middle hepatic vein into two lobes, with the larger right lobe
+generally representing 60% by volume
+• The parenchyma is covered by a thin capsule (Glisson’s capsule) and
+visceral peritoneum apart from the posterior surface, the ‘bare area’
+• The liver is fixed in the RUQ by the hepatic veins and ligaments
+formed from the peritoneal reflections.
+3 November 2025 Dr.Barham M Salih 3
+=====PAGE 4 [T]=====
+• left triangular ligament fix the left lobe to diaphragm .
+• Right triangular ligament similarly fixes the right lobe to diaphragm
+• Another major supporting structure is the falciform ligament (the
+remnant of the umbilical vein).
+• The final peritoneal refection is the lesser omentum between the
+stomach and the liver, which contains the hilar structures in its right
+free edge.
+• At the porta hepatis, the capsule envelops and travels along the
+portal tracts (triads) into the liver, carrying branches of the hepatic
+artery, portal vein and bile ducts.
+3 November 2025 Dr.Barham M Salih 4
+=====PAGE 5 [T]=====
+The blood supply to the liver
+• The liver is composed of 8 segments , each supplied by terminal
+branches of the portal vein (80% of the blood flow) and hepatic artery
+(20%) and drained by bile ducts and hepatic veins.
+There are 3 hepatic veins (RHV, MHV,LHV)
+Main portal vein divide to RPV & LPV LPV LONGER > RPV
+Common hepatic artery –after GDA become PHA then RHA and LHA
+• The liver is divided into functional right and left ‘units’ along the line
+between the gallbladder fossa and the middle hepatic vein (Cantlie’s
+line).
+3 November 2025 Dr.Barham M Salih 5
+=====PAGE 6 [T]=====
+3 November 2025 Dr.Barham M Salih 6
+=====PAGE 7 [T]=====
+3 November 2025 Dr.Barham M Salih 7
+=====PAGE 8 [T]=====
+LEFT PORTAL VEIN
+LONGER THAN
+RIGHT PV
+3 November 2025 Dr.Barham M Salih 8
+=====PAGE 9 [T]=====
+ACUTE AND CHRONIC LIVER DISEASE
+• The liver performs a myriad of biochemical, metabolic and
+immunological functions.
+• Anhepatic humans survive for 24–48 hours.
+• It is the only organ in the body that regenerates.
+3 November 2025 Dr.Barham M Salih 9
+=====PAGE 10 [T]=====
+3 November 2025 Dr.Barham M Salih 10
+=====PAGE 11 [T]=====
+Clinical features
+The most common include • malaise,
+• jaundice, • confusion and disorientation,
+• drowsiness, • bruising, peripheral oedema and
+• abdominal pain/swelling, • foetor hepaticus (strong musty
+smell to the breath).
+• nausea,
+• Ascites
+• tremors
+• The most useful clinical sign is a
+• vomiting,
+flapping tremor
+3 November 2025 Dr.Barham M Salih 11
+=====PAGE 12 [T]=====
+Acute liver failure
+Causes of acute liver failure: ALF
+• ALF is the development of sudden, severe hepatic dysfunction from
+an acute insult associated with the onset of hepatic encephalopathy
+and coagulation abnormalities.
+• The most widely accepted definition, from the American Association
+for the Study of Liver Diseases, is:
+(evidence of coagulation abnormality, usually an INR above 1.5, and
+any degree of mental alteration (encephalopathy) in a patient
+without pre-existing liver disease and with an illness of less than
+26 weeks’ duration.)
+3 November 2025 Dr.Barham M Salih 12
+=====PAGE 13 [T]=====
+3 November 2025 Dr.Barham M Salih 13
+=====PAGE 14 [T]=====
+3 November 2025 Dr.Barham M Salih 14
+=====PAGE 15 [T]=====
+white nails (leukonychia) and endocrine
+abnormalities produce hypogonadism and
+gynaecomastia.
+3 November 2025 Dr.Barham M Salih 15
+=====PAGE 16 [T]=====
+Assessment of chronic liver disease
+• Two prognostic models commonly used are the Child–Turcotte–Pugh
+(CTP) classification (Table 69.2) and the Model for End-Stage Liver
+Disease (MELD) score.
+• In the MELD model survival probability is calculated based on the
+patient’s :
+• international normalized ratio (INR),
+• serum bilirubin
+• creatinine.
+3 November 2025 Dr.Barham M Salih 16
+=====PAGE 17 [T]=====
+3 November 2025 Dr.Barham M Salih 17
+=====PAGE 18 [T]=====
+Operating in the presence of chronic liver disease
+Overall surgical mortality rates are increased by
+• 10% in CTP-A disease,
+• 30% in CTP-B and
+• 75–80% in CTP-C (Table 69.2).
+MELD scores correlate with operative mortality:
+• 1% increase for each MELD point up to 20 and
+• a further 2% for each point above 20,
+• with rates considerably higher following emergency presentation.
+3 November 2025 Dr.Barham M Salih 18
+=====PAGE 19 [T]=====
+INVESTIGATING LIVER DISEASE
+Ultrasonography:
+• Ultrasonography (US) is traditionally the first imaging modality for the
+investigation of jaundice and RUQ pain .
+• US can reliably identify biliary dilatation but not the aetiology, and
+overlying air-containing viscera often prevent complete examination.
+3 November 2025 Dr.Barham M Salih 19
+=====PAGE 20 [T]=====
+Computed tomography
+• The early arterial phase following intravenous contrast detects small
+hepatocellular carcinomas (HCCs) owing to their predominantly
+arterial blood supply.
+• The venous phase demonstrates branches of the intrahepatic portal
+vein and the hepatic veins.
+• Inflammatory liver lesions often exhibit rim enhancement with iv
+contrast, whereas haemangiomas characteristically show late venous
+enhancement.
+• CT is extremely accurate when assessing the stage and respectability
+of liver tumours apart from peritoneal metastases.
+3 November 2025 Dr.Barham M Salih 20
+=====PAGE 21 [T]=====
+MRI
+• Magnetic resonance (MR) of the liver is superior to CT in
+characterising focal lesions
+• Magnetic resonance cholangiopancreatography (MRCP) provides
+excellent, non-invasive imaging of the intra- and extrahepatic biliary
+tract with an accuracy comparable to direct cholangiography.
+3 November 2025 Dr.Barham M Salih 21
+=====PAGE 22 [T]=====
+PET-CTS
+Positron emission tomography (PET) scanning is a functional test
+that demonstrates the metabolic activity of a tissue
+For the investigation of malignancy 18F-
+2-fuoro-2-deoxy-d-glucose is commonly
+A positive PET scan result does not always
+used, and detection depends on the
+indicate malignant disease (inflammation
+avid uptake of glucose by malignant cells
+being the most common cause of a false-
+compared with benign or inflammatory
+positive result), and conversely false-
+tissue. Deoxyglucose is labelled with the
+negative results occur
+positron emitter fuorine-18 (18F-FDG)
+which is administered prior to PET
+imaging.
+3 November 2025 Dr.Barham M Salih 22
+=====PAGE 23 [T]=====
+3 November 2025 Dr.Barham M Salih 23
+=====PAGE 24 [T]=====
+•Routine biopsy of resectable lesions is
+contraindicated to avoid tumour
+seeding.
+3 November 2025 Dr.Barham M Salih 24
+=====PAGE 25 [T]=====
+Treatment of acute liver failure
+• ALF is rare in the developed world, with an annual incidence of < 10
+/1000000 .
+• Mortality : 30-40%
+• Liver transplantation is appropriate for some patients,
+• The short-term results are poor compared to transplantation for
+chronic liver disease
+• Suitable donor livers are frequently not available in a suitable time.
+3 November 2025 Dr.Barham M Salih 25
+=====PAGE 26 [T]=====
+Chronic liver disease
+• Liver disease is the 3rd leading cause of premature death in the UK,
+and since 1970 deaths have increased by 400%.
+• Liver disease is potentially preventable in 90% of cases, and 75% of
+patients present with late-stage disease.
+• Lethargy and weakness are common features, irrespective of the
+etiology, and often precede clinical jaundice.
+• hyperdynamic circulation with a high cardiac output, large pulse
+volume, low blood pressure and flushed warm extremities
+• Fever is common
+3 November 2025 Dr.Barham M Salih 26
+=====PAGE 27 [T]=====
+Skin changes :
+• spider naevi (cutaneous vascular abnormalities that blanch on
+pressure),
+• palmar erythema
+• white nails (leukonychia)
+endocrine abnormalities :
+• hypogonadism
+• gynaecomastia.
+3 November 2025 Dr.Barham M Salih 27
+=====PAGE 28 [T]=====
+• Hepatic encephalopathy is responsible for the mental derangement
+with memory impairment, confusion, personality changes, altered
+sleep patterns and slow, slurred speech.
+• The most useful clinical sign is a flapping tremor.
+• Ascites is a common late feature causing abdominal distension,
+• Protein catabolism produces sarcopenia and wasting, and bruising
+suggests a coagulopathy.
+3 November 2025 Dr.Barham M Salih 28
+=====PAGE 29 [T]=====
+LIVER TRAUMA
+• Liver injury : blunt or penetrating abdominal trauma
+• is second in frequency only to that of the spleen.
+3 November 2025 Dr.Barham M Salih 29
+=====PAGE 30 [T]=====
+Blunt injury
+produces:
+• contusion,
+• laceration and
+• avulsion,
+• often associated with : splenic, mesenteric or renal injuries.
+• Blunt injuries are more common and have a higher mortality (Table
+69.4).
+Penetrating injuries
+, including stab and gunshot wounds,
+• are often associated with chest or pericardial involvement.
+3 November 2025 Dr.Barham M Salih 30
+=====PAGE 31 [T]=====
+3 November 2025 Dr.Barham M Salih 31
+=====PAGE 32 [T]=====
+Diagnosis and grading of liver injury
+• The liver is an extremely well-vascularised organ and blood loss is the
+major early complication following injury.20% cardiac output
+• A high index of suspicion is essential with any chest or upper
+abdominal stab wound, especially where significant blood loss is
+obvious.
+• Severe crushing injuries to the lower chest or upper abdomen
+frequently result in rib fractures, haemothorax and splenic and/or
+liver injury.
+• Focused assessment sonography in trauma (FAST) performed by an
+experienced operator will identify free intraperitoneal fuid.
+3 November 2025 Dr.Barham M Salih 32
+=====PAGE 33 [T]=====
+• In haemodynamically unstable patients with penetrating wounds a
+laparotomy and/or thoracotomy is indicated once active resuscitation
+has commenced.
+• In haemodynamically stable patients, urgent contrast-enhanced CT
+scan of the chest and abdomen is performed to look for parenchymal
+injury and concomitant damage to other thoracic or abdominal
+organs.
+3 November 2025 Dr.Barham M Salih 33
+=====PAGE 34 [T]=====
+3 November 2025 Dr.Barham M Salih 34
+=====PAGE 35 [T]=====
+Initial management of liver injuries
+Penetrating injuries:
+• maintenance of airway patency, breathing and circulation (ABC),following the principle of advanced trauma
+life support (ATLS)
+• Peripheral venous access requires two large bore cannulae and
+• blood is sent for cross-match of 10 units of blood,
+• full blood count, urea and electrolytes, liver function tests, clotting screen, glucose and amylase.
+• Initial volume replacement should be with blood;
+• arterial blood gases should be obtained; and
+• the patient intubated and ventilated if gas exchange is inadequate.
+• Intercostal chest drains are indicated if an associated pneumothorax or haemothorax is suspected
+• Once resuscitation has commenced, the patient should be transferred to the operating theatre, with further
+resuscitation performed on the operating table.
+• The necessity for fresh-frozen plasma (FFP) and cryoprecipitate should be discussed with the blood
+transfusion service immediately the patient arrives in the hospital
+3 November 2025 Dr.Barham M Salih 35
+=====PAGE 36 [T]=====
+Blunt trauma
+• Initial resuscitation and management are as outlined for penetrating
+injuries.
+• Unstable patients require immediate laparotomy, but the majority of
+haemodynamically stable patients should be managed non-surgically
+(management depends on haemodynamic stability not the grade of injury).
+• Haemodynamic instability and signs of generalised peritonitis mandate
+surgical intervention.
+• If conservative management is successful patients are discharged after
+8–10 days,
+• advised to avoid abdominal trauma and rescanned after 6–8 weeks.
+• If fever, bleeding or pain occurs prompt readmission is required
+3 November 2025 Dr.Barham M Salih 36
+=====PAGE 37 [T]=====
+3 November 2025 Dr.Barham M Salih 37
+=====PAGE 38 [T]=====
+operative techniques :
+• resectional debridement,
+• hepatotomy with
+• direct suture ligation
+• and perihepatic packing.
+Anatomical resection, hepatic artery ligation and bypass techniques are
+possible following transfer of patients to tertiary hepatobiliary centres.
+3 November 2025 Dr.Barham M Salih 38
+=====PAGE 39 [T]=====
+3 November 2025 Dr.Barham M Salih 39
+=====PAGE 40 [T]=====
+3 November 2025 Dr.Barham M Salih 40
+=====PAGE 41 [T]=====
+3 November 2025 Dr.Barham M Salih 41
+=====PAGE 42 [T]=====
+Portal hypertension
+• is most commonly due to liver cirrhosis, although it also occurs with
+extrahepatic portal vein occlusion, intrahepatic veno-occlusive disease and
+occlusion of the main hepatic veins (Budd–Chiari syndrome).
+• Portal hypertension per se produces no symptoms and is generally
+diagnosed following presentation with decompensated chronic liver
+disease causing encephalopathy, ascites or variceal bleeding (Figure 69.12).
+• Surgical involvement occurs in four situations:
+1 ascites;
+2 oesophageal varices;
+3 portosystemic shunting for problems not managed by other methods;
+4 left-sided portal hypertension and hypersplenism.
+3 November 2025 Dr.Barham M Salih 42
+=====PAGE 43 [T]=====
+3 November 2025 Dr.Barham M Salih 43
+=====PAGE 44 [T]=====
+Management of variceal bleeding
+Resuscitation
+large-volume haematemesis associated with a high morbidity and
+signifcant mortality.
+The lower oesophagus is the most common site and the diagnosis
+should be suspected in a patient known to have cirrhosis
+• Variceal haemorrhage is a medical emergency and failure to control
+variceal bleeding with current medical management occurs in 10–20%
+of cases.
+3 November 2025 Dr.Barham M Salih 44
+=====PAGE 45 [T]=====
+• Icu
+• Iv line
+• Blood
+• 10 mg of vitamin K are administered iv but a coagulopathy requires FFP
+• Thrombocytopenia secondary to hypersplenism is treated if the platelet count is BELOW 50000
+• Treatment protocols include the use of splanchnic vasoconstrictors, such as terlipressin,
+octreotide and somatostatin, and prophylactic antibiotics.
+When bleeding continues treatment options are :
+• sclerotherapy,
+• banding,
+• balloon tamponade and
+• TIPSS.
+3 November 2025 Dr.Barham M Salih 45
+=====PAGE 46 [T]=====
+3 November 2025 Dr.Barham M Salih 46
+=====PAGE 47 [T]=====
+3 November 2025 Dr.Barham M Salih 47
+=====PAGE 48 [T]=====
+Balloon tamponade and self-expanding stents
+• As soon as the patient is haemodynamically stable the diagnosis
+should be confrmed endoscopically as 30% will have a non-variceal
+source of bleeding.
+• The use of oesophageal balloons should be avoided,
+which is usually possible when experienced
+Endoscopists are available.
+3 November 2025 Dr.Barham M Salih 48
+=====PAGE 49 [T]=====
+Endoscopic treatment
+The two most commonly used endoscopic techniques are
+1. endoscopic band ligation to the base of the varix and
+2. injection of a sclerosant into or around the varix.
+3 November 2025 Dr.Barham M Salih 49
+=====PAGE 50 [T]=====
+Transjugular intrahepatic portosystemic stent
+shunts
+• TIPSS has replaced surgical portocaval shunt and is now accepted as the
+preferred method for treating refractory portal hypertension
+• The main early complication is perforation of the liver capsule, with
+potentially fatal intraperitoneal haemorrhage.
+• TIPSS occlusion may produce further variceal haemorrhage and occurs
+more commonly in patients with well-compensated liver disease and good
+synthetic function.
+• The incidence of post-TIPSS encephalopathy is comparable to that
+following surgical shunts (40%) and due to portal blood avoiding hepatic
+detoxifcation, if severe, flow is reduced by inserting a smaller stent.
+• The main contraindication to TIPSS is portal vein occlusion, and
+• long-term stenosis occurs in 50% of patients at 1 year.
+3 November 2025 Dr.Barham M Salih 50
+=====PAGE 51 [T]=====
+Surgical shunts
+• The current indication is the failure of medical management in
+non-cirrhotic patients with extrahepatic portal vein occlusion.
+• Indication for esophageal varices bleeding deacrease duo to
+availability of liver transplantation and TIPSS
+• selective, splenorenal and non-selective portocaval.
+• Selective shunts attempt to preserve hepatoportal blood flow while
+decompressing the left side of the portal circulation, which is
+responsible for oesophageal and gastric varices (Figure 69.16).
+3 November 2025 Dr.Barham M Salih 51
+=====PAGE 52 [T]=====
+3 November 2025 Dr.Barham M Salih 52
+=====PAGE 53 [T]=====
+Recurrent or refractory variceal bleeding
+• Sugiura procedure:
+• Liver transplantation:
+Liver transplantation is the only therapy that treats portal hypertension
+and the underlying liver disease and may ultimately be required in
+patents with variceal bleeding.
+3 November 2025 Dr.Barham M Salih 53
+=====PAGE 54 [T]=====
+3 November 2025 Dr.Barham M Salih 54
+=====PAGE 55 [T]=====
+Ascites
+• The protein content and amylase levels will exclude pancreatic ascites
+and determine the serum–ascites albumin gradient (SAAG), with a
+high gradient (>1.1 g/dL) indicating portal hypertension.
+• Cytology may confirm the presence of malignant cells, and
+microscopy and culture exclude primary bacterial and tuberculous
+peritonitis
+3 November 2025 Dr.Barham M Salih 55
+=====PAGE 56 [T]=====
+3 November 2025 Dr.Barham M Salih 56
+=====PAGE 57 [T]=====
+CHRONIC LIVER DISEASE
+3 November 2025 Dr.Barham M Salih 57
+=====PAGE 58 [T]=====
+Primary sclerosing cholangitis
+• associate with ulcerative colitis.
+• affects young men in their 30 .
+• In patients with PSC and ulcerative colitis, the condition usually progresses even
+following colectomy.
+• There is a strong predisposition to cholangiocarcinoma and gallbladder cancer, which
+should be considered when a new or dominant stricture is demonstrated on
+cholangiography or when gallbladder ‘polyps’ are identifed.
+• Temporary relief of obstructive jaundice owing to a dominant bile duct stricture can be
+achieved by biliary stenting, although there is considerable risk of cholangitis.
+• Patients with good liver function, no dominant strictures and negative biliary cytology
+are monitored for disease progression.
+• Liver transplantation produces excellent results if performed before the development of
+malignancy.
+3 November 2025 Dr.Barham M Salih 58
+=====PAGE 59 [T]=====
+Primary biliary cirrhosis
+• The condition is largely confined to females and the diagnosis is
+suggested by circulating anti-smooth muscle antibodies with/ without
+liver biopsy.
+• malaise, lethargy and pruritus or abnormal liver function tests prior to
+becoming clinically jaundice.
+• The definitive treatment is liver transplantation when a normal
+lifestyle is not possible.
+3 November 2025 Dr.Barham M Salih 59
+=====PAGE 60 [T]=====
+Non-alcoholic steatohepatitis, non alcoholic fatty liver
+disease and chemotherapy-associated hepatitis
+• Non-alcoholic steatohepatitis (NASH) is the inflammatory subtype of
+non-alcoholic fatty liver disease (NAFLD) and is associated with
+disease progression, the development of cirrhosis and frequently the
+need for liver transplantation.
+• NAFLD is now recognized as the most prevalent chronic liver disease
+worldwide and this is expected to increase 60% by 2030.
+• Presently the prevalence of NAFLD is 25% and NASH 1.5–6%, with an
+estimated 20% of patients with NASH developing cirrhosis
+• chemotherapy induced acute steatohepatitis or chemotherapy-
+associated hepatitis (CASH).
+3 November 2025 Dr.Barham M Salih 60
+=====PAGE 61 [T]=====
+Budd–Chiari syndrome
+• collective term for conditions that impede hepatic venous outflow at
+any level from the small hepatic veins to the junction of the IVC with
+the right atrium. Cardiac and pericardial diseases and sinusoidal
+obstruction syndrome are excluded from this defnition.
+• It principally affects young women, who present the classic triad of
+abdominal pain, ascites and hepatomegaly. A hypercoagulable
+condition such as antithrombin 3, protein C or protein S deficiency is
+identifed in 75% of patients, extrinsic compression in 25% and rarely
+congenital or acquired IVC webs.
+• Patients usually require lifelong anticoagulation.
+3 November 2025 Dr.Barham M Salih 61
+=====PAGE 62 [T]=====
+INFECTIVE CONDITIONS OF THE LIVER
+Ascending cholangitis:
+• Ascending cholangitis is a potentially life-threatening emergency associated
+with infection of the biliary tree and usually associated with obstruction.
+• It presents with clinical jaundice, rigors and a tender RUQ (Charcot’s triad).
+• The most common bacteria linked to ascending cholangitis are gram-
+negative bacilli: Escherichia coli (25–50%), Klebsiella (15–20%) and
+Enterobacter (5–10%).
+• The diagnosis is confirmed by the finding of dilated bile ducts on US , an
+obstructive picture of LFT and organisms identifed from blood cultures.
+• Delay in appropriate treatment may result in multiorgan failure secondary
+to sepsis and broad-spectrum antibiotics, rehydration, and endoscopic or
+percutaneous transhepatic drainage are urgently required.
+3 November 2025 Dr.Barham M Salih 62
+=====PAGE 63 [T]=====
+• Biliary stone disease is a common predisposing factor although
+strictures, pancreatitis, pancreatic tumours and parasites may also be
+responsible.
+• If an obstructive cause is identifed it must be urgently treated by
+ERCP, sphincterotomy (± stent) or percutaneous drainage.
+3 November 2025 Dr.Barham M Salih 63
+=====PAGE 64 [T]=====
+Liver abscess(Bacterial, parasitic and fungal )
+PYOGENIC LIVER ABCESS: remain the most common; although infection is usually polymicrobial
+Klebsiella, Escherichia coli and the Streptococcus milleri group are the usual organisms identifed.
+• There is an increased incidence in the elderly, diabetes and immunosuppressed and
+presentation is usually with anorexia, fever, malaise and RUQ discomfort.
+• Biliary tract pathology is the most common source (35%),
+• portal spread from the gastrointestinal tract, including diverticulitis and appendicitis (20%).
+• contiguous spread from subphrenic or intra-abdominal collections,
+• bacteraemia secondary to trauma or infected cysts and necrotic tumours following
+chemotherapy.
+• The cause is not identifed in 10% of cases and
+• a number of liver abscesses become recurrent (12–38% depending on whether the responsible
+organism is identifed and whether the patient has diabetes)
+3 November 2025 Dr.Barham M Salih 64
+=====PAGE 65 [T]=====
+• Aspiration and culture and sensitivity
+• Treat underline cause
+• Metronidazol and clindamycin
+• 3rd generation cephalosporin
+3 November 2025 Dr.Barham M Salih 65
+=====PAGE 66 [T]=====
+Parasitic diseases of the liver
+• Hydatid disease:
+• Human echinococcosis (hydatidosis, hydatid disease) is a parasitic
+disease caused by the larval stages of cestodes (tapeworms) of the
+genus Echinococcus.
+• Treatment : albendazole 400 mg x2 4 week then 2 week rest for one
+course before surgery and 3 course after surgery
+• Amoebic liver abscess : Entamoeba histolytica
+Anchovy sauce pus : thick brown sterile pus no bacteria no odor .
+• Flagyl 750mg 1x3 for 7-10 days
+• Diloxanide furoate 500mg 1x3 10 days
+3 November 2025 Dr.Barham M Salih 66
+=====PAGE 67 [T]=====
+Indications of aspiration /driange
+• Left lobe abscess ( risk of rupture into pericardium )
+• Large abscess >5 cm or superficial
+• Poor response to medical therapy after 3-5 days
+• Diagnostic uncertainty ( to rule out pyogenic abscess )
+Complications :
+Rupture into plural cavity ….. Empyema
+Rupture into peritonium …. Peritonitis
+Rupture into pericardium …. Cardiac tamponade especially left lobe
+Secondery bacterial infection
+3 November 2025 Dr.Barham M Salih 67
+=====PAGE 68 [T]=====
+Fasciola hepatica( liver Fluke)
+• Sheep, cattle , humans accidental host
+• Freshater snail … intermidate host
+• Mode of transmission : ingestion of metacercaria on contaminated
+water plants ,,,,, watercress هل هزوک
+• Triclabendazol 10 mg /kg oral once
+3 November 2025 Dr.Barham M Salih 68
+=====PAGE 69 [T]=====
+3 November 2025 Dr.Barham M Salih 69
+=====PAGE 70 [T]=====
+LIVER TUMOURS
+Benign tumours:
+three most common benign hepatic tumours are :
+• haemangiomas,
+• Focal Nodular Hyperplasia (FNH) and
+• hepatic adenomas.
+3 November 2025 Dr.Barham M Salih 70
+=====PAGE 71 [T]=====
+Hepatic adenoma
+• seen almost exclusively in women aged between 25 and 50 years
+• classically associated with use of the oral contraceptive pill (OCP) and
+are generally solitary.
+• The majority are found incidentally on imaging,
+• one-third may present with pain because of rupture or bleeding
+• Adenomas are recognised as having malignant potential, with up to
+10% developing into HCC.
+• The risk of rupture and malignancy means that surgical excision is
+generally recommended if >5 cm in size, although some lesions may
+regress after discontinuation of the OCP.
+3 November 2025 Dr.Barham M Salih 71
+=====PAGE 72 [T]=====
+Focal nodular hyperplasia
+• usually middle-aged women, and there is no association with
+underlying liver disease.
+• FNH contains both hepatocytes and Kupfer cells.
+• MRI using liver-specific contrast agents may be useful in determining
+the hepatocellular origin of FNH and allowing differentiation of FNH
+from metastatic cancer.
+• FNH does not have any malignant potential and, once the diagnosis is
+confirmed, does not require any treatment or follow-up.
+3 November 2025 Dr.Barham M Salih 72
+=====PAGE 73 [T]=====
+Haemangiomas
+• These are the most common benign liver lesions….5-7% F >M 5 to 1
+• Often, haemangiomas are multiple.
+• Diagnosis is usually incidental, and surgical resection is only
+recommended if patients are significantly symptomatic or significant
+diagnostic uncertainty remains after multimodal imaging.
+• Bleomycin injection intralesionally .
+3 November 2025 Dr.Barham M Salih 73
+=====PAGE 74 [T]=====
+Biopsy of liver lesion
+• Liver biopsy is generally considered a safe procedure but is not without risk of
+mechanical complications, which although minor (pain and subcapsular or
+intrahepatic haematoma) occur in 6–25% of patients.
+• Signifcant complications, including bile leak, sepsis, pancreatitis, local infections
+or pneumothorax, occur in 0.25% and haemobilia in 0.05% of cases.
+• Lesions found within the liver that are likely to be malignant will need resection;
+if surgery is possible then FNA or true cut biopsy should not be performed.
+• Biopsy of malignant liver lesions results in poorer long-term survival following
+resection and confers no diagnostic advantage over non-invasive imaging and
+tumour markers.
+• Needle tract seeding also occurs (1000–100 000 cells/tract) or peritoneal spread,
+particularly with HCC.
+3 November 2025 Dr.Barham M Salih 74
+=====PAGE 75 [T]=====
+3 November 2025 Dr.Barham M Salih 75
+=====PAGE 76 [T]=====
+Cystic lesions
+• Simple liver cysts
+• They occur in 5% of the population with 10–15% presenting because
+of symptoms.
+• Cysts are more common in females (1.5:1) and are larger in patients
+over 50 years of age.
+• Prior to treatment it is important to exclude other causes, particularly
+parasitic infections.
+3 November 2025 Dr.Barham M Salih 76
+=====PAGE 77 [T]=====
+Polycystic liver disease
+• Multiple liver cysts are frequently associated with adult poly cystic
+kidney disease (PKD) but may occur alone.
+• 10% have cerebral aneurysms.
+3 November 2025 Dr.Barham M Salih 77
+=====PAGE 78 [T]=====
+Cystadenoma
+• cystadenomas with mesenchymal (ovarian-like) stroma occur only in
+females
+• and cystadenomas without mesenchymal stroma predominate in men.
+• Cystadenomas are often multilocular, septated, non calcifed and
+surrounded by compressed liver tissue.
+• Serum and cyst fluid CA 19-9 levels may be elevated in cases of
+cystadenoma with mesenchymal stroma, but serum carcinoembryonic
+antigen (CEA) is unhelpful although it may be raised in cyst fluid.
+• Biliary cystadenocarcinomas account for 0.4% of malignant epithelial
+hepatic lesions.
+3 November 2025 Dr.Barham M Salih 78
+=====PAGE 79 [T]=====
+Malignant liver tumours
+• Neuroendocrine/carcinoid tumours:
+• Carcinoids are the most common NETs affecting men and women
+equally.
+• Primary carcinoid tumours in the liver are rare and hepatic lesions are
+almost invariably metastases from small bowel or colon.
+• Approximately 20% of small intestine carcinoids develop metastases
+and 30% of these patients develop carcinoid syndrome.
+3 November 2025 Dr.Barham M Salih 79
+=====PAGE 80 [T]=====
+Hepatocellular carcinoma
+• HCC is a malignant tumour arising from hepatocytes and is the most
+common primary liver cancer.
+• It ranks as the 5th most common cause of cancer in men and the 7th
+in women, representing a third of all cancer-related deaths.
+• HCC is the leading cause of death in patients with cirrhosis, affecting
+three times more men than women.
+• More than 80% of cases occur in Asia and sub-Saharan Africa, with an
+incidence of 99/100 000 compared with 5/100 000 in Europe.
+3 November 2025 Dr.Barham M Salih 80
+=====PAGE 81 [T]=====
+• Chronic hepatitis B virus (HBV) infection accounts for >50% of cases worldwide and HBV
+vaccination programs reduce the incidence in high-risk areas.
+• Hepatitis C virus (HCV) increases the risk of HCC 17-fold by promoting end-stage liver
+disease.
+• Aflatoxin contamination of rice in some parts of the world is probably responsible for
+seasonal variations.
+• Lifetime alcohol exposure remains an intractable risk factor and correlates with the
+incidence of HCC.
+• Obesity and diabetes mellitus are additional independent risk factors.
+• Cancer-related causes are fatal in 60% of patients and 40% die of underlying
+parenchymal disease.
+• median survivals following diagnosis of 6–20 months and overall survival of less than
+50% at 2 years and 10% at 5 years, with worse results in developing countries.
+3 November 2025 Dr.Barham M Salih 81
+=====PAGE 82 [T]=====
+Staging of hepatocellular carcinoma
+• The Barcelona Clinic Liver Group (BCLC) staging system, initially
+designed to define both prognosis and optimal treatment for patients
+with HCC, is the most commonly used (Figure 69.22).
+3 November 2025 Dr.Barham M Salih 82
+=====PAGE 83 [T]=====
+3 November 2025 Dr.Barham M Salih 83
+=====PAGE 84 [T]=====
+Treatment of hepatocellular carcinoma
+• Surgical resection for hepatocellular carcinoma:
+• Only 20–40% of patients with HCC are candidates for surgery,
+• Oncological contraindications include:
+• extrahepatic metastasis,
+• multiple/bilobar tumours,
+• main bile duct involvement
+• and tumour thrombus in the main portal vein/vena cava.
+3 November 2025 Dr.Barham M Salih 84
+=====PAGE 85 [T]=====
+Preoperative evaluation of patients with
+hepatocellular carcinoma
+• Achieving good outcomes for patients undergoing surgical resection
+requires accurate assessment of tumour stage, comorbidities and liver
+function
+• planning larger resections, where the function of the FLR becomes critical.
+Postoperative morbidity and mortality increase with higher CTP scores, and
+major liver resection is usually only possible in patients with CTP-A disease.
+• Minor liver resection may be considered in those with CTP-B disease but
+remains a high-risk procedure, and CTP-C patients are not candidates for
+liver resection.
+• If inadequate FLR is the only contraindication preoperative radiological PVE
+should be performed
+3 November 2025 Dr.Barham M Salih 85
+=====PAGE 86 [T]=====
+Disease recurrence after resection
+• Intrahepatic recurrence occurs in 80% of cases within 5 years and
+neoadjuvant or adjuvant options do not reduce the risk.
+• Intrahepatic recurrence is thought to result from missed micrometastases
+or the development of new lesions and the most effective approach to
+reducing intrahepatic recurrence is liver transplantation.
+• Liver transplantation:
+• tumours ≤5 cm or up to three nodules ≤3 cm, achieved 4-year overall
+survivals of 75% and recurrence-free survivals of 83%.
+• These inclusion criteria were adopted as the Milan criteria, with
+angioinvasion and extrahepatic involvement as additional exclusion
+criteria, and are now universally accepted
+3 November 2025 Dr.Barham M Salih 86
+=====PAGE 87 [T]=====
+Intrahepatic cholangiocarcinoma
+• Cholangiocarcinomas develop in the bile duct
+• 20% of cholangiocarcinomas are intrahepatic (ICC),
+• representing 5–30% of primary liver tumours, which is second only to HCC.
+• incidence is increasing and is signifcantly higher in South East Asia, where
+Clonorchis sinensis infection is endemic.
+There are three morphological subtypes –
+• infiltrating periductal ,
+• mass-forming
+• and intraductal
+3 November 2025 Dr.Barham M Salih 87
+=====PAGE 88 [T]=====
+• ICC is an aggressive tumour and, even when confined to the liver, only 30% of patients are suitable for
+resection at the time of presentation.
+• If surgical resection is considered, biopsy should be avoided;
+• diagnostic laparoscopy and intraoperative US will exclude additional hepatic or peritoneal disease.
+• Prognostic pathological features include :
+• vascular invasion,
+• tumour multiplicity,
+• local extension,
+• periductal infltration and
+• lymph node metastasis.
+One-year survival rates have improved to 25%, although 5-year survival of 3% remains unchanged.
+The sensitivity and specifcity of PET-CT for diagnosis of cholangiocarcinoma varies by location, being higher for
+intra hepatic (>90%) than for extrahepatic (60%) tumours, although detection rates for distant metastases
+approach 100%.
+3 November 2025 Dr.Barham M Salih 88
+=====PAGE 89 [T]=====
+Colorectal liver metastases
+• Worldwide colorectal cancer (CRC) is the 3RD most common solid
+organ malignancy and the 4th most common cause of cancer-related
+deaths.
+• Up to 70% of patients with CRC develop synchronous (15–25%) or
+metachronous (20–45%) liver metastases.
+• 30 years ago, metastatic CRC was associated with a 5-year survival of
+less than 3%; however, liver resection in selected patients with liver-
+only metastatic disease demonstrated 5-year survivals of 50%, so the
+potential benefits were recognised.
+3 November 2025 Dr.Barham M Salih 89
+=====PAGE 90 [T]=====
+• Despite recent advances in chemotherapeutic agents, resection
+remains the only potentially curative option, but only 20% of patients
+will be candidates at presentation.
+• A further 20–30% will become operable following chemotherapy, the
+5-year overall survival rate following resection is 50% and
+• tumour recurs in 65% with the recurrent disease limited to the liver
+in 40%.
+3 November 2025 Dr.Barham M Salih 90
+=====PAGE 91 [T]=====
+Defining resectability for colorectal liver metastases
+Previously,:
+• patients with synchronous metastases,
+• a rectal primary,
+• multiple diffuse metastases,
+• metastases larger than 5 cm,
+• disease-free intervals of less than 1 year from the diagnosis of primary disease or
+• a high serum CEA were considered irresectable and suitable only for palliative
+treatment.
+Modern: surgical techniques and chemotherapy regimes now mean that resection
+with curative intent is defined as the ability to successfully remove all residual
+disease from the liver with clear surgical margins, leaving adequate disease-free
+viable liver.
+3 November 2025 Dr.Barham M Salih 91
+=====PAGE 92 [T]=====
+multidisciplinary team
+• An R0 resection with a negative surgical margin of 1 cm is considered
+the gold standard, but with effective modern chemotherapy patients
+with an R1 resection (≥1-mm margin microscopically negative), which
+occurs in 10–30% of patients, have similar survivals to those with R0
+resections.
+• An FLR of 25% of preoperative volume is considered sufficient to
+prevent postoperative hepatic failure (see Portal vein embolisation).
+• Survival after lung resection for colorectal metastases is similar to
+that seen after liver resection (40–50%) with low morbidity and
+mortality.
+3 November 2025 Dr.Barham M Salih 92
+=====PAGE 93 [T]=====
+Chemotherapy for colorectal liver metastases
+• Chemotherapy with 5-fuorouracil and folinic acid produces a
+response rate of approximately 30% but combination with oxaliplatin
+increases this to 50–60%.
+• Combination chemotherapy with monoclonal antibodies that
+recognise vascular endothelial growth factor receptor (VEGFR) or
+epidermal growth factor receptor (EGFR) provide additional beneft
+3 November 2025 Dr.Barham M Salih 93
+=====PAGE 94 [T]=====
+Synchronous colon and liver resection
+Treatment options include:
+• sequential,
+• delayed and
+• simultaneous resection strategies.
+Resection of the colonic primary followed by chemotherapy, restaging
+and resection of the liver disease, if appropriate, is the standard
+approach.
+It is occasionally possible with low-volume, accessible liver disease to
+perform synchronous liver and colonic resections.
+3 November 2025 Dr.Barham M Salih 94
+=====PAGE 95 [T]=====
+Liver-first approach
+• The traditional surgical strategy for resectable synchronous colorectal
+liver metastases (CRLMs) is colonic resection followed by
+chemotherapy and a delayed liver resection.
+• This may allow progression of the liver disease and render the CRLM
+unresectable, which is a particular concern in patients who develop
+postoperative complications following their colon resection that delay
+or prevent chemotherapy.
+• The liver-first approach or reverse strategy is a downstaging regimen
+consisting of systemic chemotherapy, chemoradiotherapy and/or
+biological agents, followed by resection of the CRLM prior to removal
+of the colonic primary.
+3 November 2025 Dr.Barham M Salih 95
