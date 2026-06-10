@@ -1,0 +1,181 @@
+=====PAGE 1 [T]=====
+Acute Limb ischemia | 2025-2026
+Acute Limb Ischemia (ALI)
+Definition
+Acute Limb Ischemia (ALI) refers to a sudden reduction in arterial perfusion of an
+extremity due to occlusion of a native artery, bypass graft, or stent, resulting in a threat to
+limb viability and requiring urgent evaluation and intervention. By definition, ALI is
+considered when the duration of symptoms is less than two weeks; beyond this period,
+the condition is classified as chronic limb-threatening ischemia (CLTI). ALI frequently
+occurs in patients with significant comorbidities, emphasizing the importance of systemic
+assessment alongside local limb evaluation. The incidence is approximately 1 per 6000
+population / Year
+Etiology
+1) Arterial Embolism – typically of cardiac origin (e.g., atrial fibrillation, mural
+thrombus, ventricular aneurysm).
+2) Acute-on-Chronic Thrombosis – thrombosis superimposed on a pre-existing stenosis.
+3) Thrombosis of Arterial Reconstructions – occlusion of previous bypass grafts or
+stents.
+4) Traumatic Arterial Injury – penetrating, blunt, or combined injuries (e.g., stab,
+gunshot, or road traffic trauma).
+5) Thrombosis of Peripheral Arterial Aneurysms – particularly popliteal aneurysm
+thrombosis.
+6) Acute Arterial Dissection – spontaneous or iatrogenic.
+Pathophysiology
+An embolus or thrombus causes abrupt interruption of blood flow, leading to tissue
+hypoxia and metabolic acidosis. The sequence of ischemic injury progresses from
+sensory nerve dysfunction to motor paralysis and finally muscle necrosis, with the
+window for reversible ischemia generally being 6 hours.
+Sources of Emboli
+Cardiac Sources
+• Atrial Fibrillation: Thrombus formation within the left atrial appendage due to stasis.
+• Mural Thrombus: Following myocardial infarction or ventricular aneurysm.
+• Prosthetic ( usually mechanical ) Heart Valves: Rare with appropriate
+anticoagulation.
+1
+=====PAGE 2 [T]=====
+Acute Limb ischemia | 2025-2026
+• Paradoxical Embolism: Passage of venous thrombus through a patent foramen ovale.
+Non-Cardiac Sources
+Atheroembolism: Dislodgement of atherosclerotic debris from the aortic arch or proximal
+arteries, spontaneous or iatrogenic (catheter manipulation).
+Risk factors:
+1. Non coagulated cardiac arrythmias , atrial fibrillation
+2. Valvular heart pathologies as Mitral regurgitation, mitral stenosis , aortic stenosis
+3. Diabetes mellitus
+4. Dyslipidemia
+Mortality and Morbidity:
+Emergency diagnosis is vey crucial as ALI carries very high rate of morbidity and
+mortality if not diagnosed in proper time. Estimates of mortality after ALI is ranging
+from 9-22%. Limb salvage following ALI is estimates at 70-90% if diagnosis and
+managed in the golden hours of the first 6 hour. Amputations and life loss is more
+frequent after thrombotic occlusion compared to embolic occlusion.
+Clinical Presentation
+Classic Features: “The Six Ps”
+• Pain: sharp continuous even not responding to strong analgesics
+• Pallor: Due to lack of well perfused oxygenated blood
+• Pulselessness: No pulses could be detected by palpation
+• Poikilothermia (coldness): refers to the inability of the affected limb to maintain its
+normal temperature, resulting in the limb becoming cold and adopting the ambient
+temperature.
+• Paresthesia: due ischemic damage to the sensory nerve endings
+• Paralysis: usually the last stage due complete motor nerve damage
+2
+=====PAGE 3 [T]=====
+Acute Limb ischemia | 2025-2026
+It’s not mandatory to find all the above features to diagnosis ALI. For purpose of
+management ALI is classified by Rutherford Classification as follows:
+Grade Category Sensory Motor Doppler Signals Prognosis
+Loss Deficit (A/V)
+I Viable None None A: Audible / V: No immediate threat
+Audible
+IIA Marginally Minimal None A: Inaudible / V: Salvageable if promptly
+Threatened (toes) Audible treated
+IIB Immediately > Toes Mild– A: Inaudible / V: Salvageable with
+Threatened Moderate Audible immediate
+revascularization
+III Irreversible Profound Paralysis A: Inaudible / V: Major tissue loss
+anesthesia Inaudible inevitable
+Investigations
+Diagnosis should not delay revascularization preferably within 6 hours of symptom onset.
+Baseline investigations include CBC, renal function, coagulation profile, serum CK, and
+electrolytes. Diagnosis of ALI is mostly clinical, but if time allowed , the following
+investigation is of benefit:
+• Duplex Ultrasound (DUS): Rapid bedside assessment to identify occlusion or
+residual flow.
+• Computed Tomography Angiography (CTA): Defines level and extent of
+occlusion; helpful in surgical planning.
+• Digital Subtraction Angiography (DSA): Gold standard; allows diagnosis and
+simultaneous intervention.
+Management Principles
+Initial and Supportive Measures
+• Systemic Anticoagulation: Start unfractionated heparin( UFH) bolus 100 IU/kg
+followed by infusion 1000 IU/hr. ; maintain aPTT 2-3× normal.
+• Analgesia: Avoid intramuscular opioids; IV or patient-controlled analgesia preferred.
+• Hydration and Oxygen supplement : Prevent renal failure and optimize perfusion.
+• Monitor urine output and renal function due to risk of myoglobinuria.
+Revascularization Strategies
+• Endovascular Approaches
+• Catheter-Directed Thrombolysis (CDT): Local tPA infusion for non-immediately
+threatened limbs (Rutherford I-IIA).
+• Mechanical Thrombectomy Devices: Disrupt and aspirate thrombus, often combined
+with thrombolysis.
+3
+=====PAGE 4 [T]=====
+Acute Limb ischemia | 2025-2026
+• Open Surgical Approaches
+• Fogarty Catheter Embolectomy/Thrombectomy: Standard for embolic occlusion
+of normal arteries.
+• Bypass or Endarterectomy: Required for thrombosed atherosclerotic segments.
+• Hybrid Procedures: Combination of open and endovascular methods in hybrid suites.
+Complications After Reperfusion
+• Acute Compartment Syndrome
+• Rhabdomyolysis with acute Hyperkalemia and metabolic Acidosis
+• Myoglobinuria and Acute Kidney Injury and failure
+ALI due to Arterial Trauma
+Definition:
+Arterial trauma refers to injury to an arterial vessel resulting in disruption of blood
+flow, hemorrhage, or ischemia. It may occur in isolation or as part of complex
+polytrauma.
+Etiology:
+1. Penetrating injuries – stab wounds, gunshot injuries.
+2. Blunt trauma – road traffic accidents, crush injuries, fractures or dislocations
+(especially around joints such as the knee or elbow).
+3. Iatrogenic causes – during vascular or orthopedic interventions.
+4. Blast or combined injuries – common in military and industrial accidents.
+Pathophysiology:
+Arterial wall damage can lead to:
+• Hemorrhage (external or concealed).
+• Thrombosis or occlusion, causing distal ischemia.
+• Arteriovenous fistula formation.
+• Pseudoaneurysm ( False aneurysm) formation.
+• Distal embolization due to intimal disruption.
+Clinical Features:
+Divided into Hard and Soft Signs of vascular injury:
+• Hard signs: presence of one hard sign is diagnostic for ALI due to arterial injury
+o Pulsatile bleeding
+o Absent distal pulses
+o Expanding or pulsatile hematoma
+o Audible bruit or palpable thrill
+4
+=====PAGE 5 [T]=====
+Acute Limb ischemia | 2025-2026
+o Signs of distal ischemia (pain, pallor, paralysis, paresthesia, poikilothermia)
+• Soft signs: presences of soft signs alone necessitate further investigations
+o Diminished distal pulses
+o Small, stable hematoma
+o Associated fractures or dislocations
+o Injury in the course of a major vessel
+o Unexplained hypotension or hemorrhage history
+Investigations:
+• Duplex Ultrasound (DUS) – rapid bedside assessment.
+• CT Angiography (CTA) – defines extent and location of injury.
+• Conventional Angiography – diagnostic and therapeutic option in hybrid settings.
+Management Principles:
+1. Adherence to ATLS protocol – treat life-threatening injuries first.
+2. Hemorrhage control – direct pressure, temporary vascular shunt, or tourniquet (if
+necessary).
+3. Definitive repair:
+o Primary repair or end-to-end anastomosis.
+o Interposition graft using vein or rarely prosthetic material.
+o Bypass grafting if segmental loss.
+4. Adjunctive measures:
+o Fasciotomy for acute compartment syndrome prevention.
+o Anticoagulation when appropriate.
+Complications:
+• Limb ischemia and gangrene that may needs Amputation
+• Pseudoaneurysm or AV fistula
+• Infection
+• Compartment syndrome
+• Late thrombosis or graft failure
+Summary of Key Points
+• ALI is a time-critical vascular emergency; limb salvage depends on intervention
+within 6 hours.
+• Rutherford classification guides urgency of intervention.
+• Early systemic heparinization and specialist vascular management are essential.
+• Endovascular and hybrid approaches are preferred in suitable candidates.
+• Monitor closely for renal and metabolic complications after reperfusion.
+• Arterial trauma is a surgical emergency requiring prompt recognition and repair to
+prevent limb loss and life-threatening hemorrhage. Early diagnosis, rapid control of
+bleeding, and timely revascularization are key to optimal outcomes.
+5
