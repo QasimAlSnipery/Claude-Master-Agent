@@ -1,0 +1,190 @@
+=====SLIDE 1=====
+Anaesthesia 
+Premedication in Anesthesia
+Dr Gona Ahmed
+Dr  Gona Ahmed
+=====SLIDE 2=====
+              Learning Objectives
+Understand goals of premedication
+Learn common drug classes
+Recognize patient-specific considerations
+Dr  Gona Ahmed
+=====SLIDE 3=====
+  Definition 
+Premedication: 
+Administration of drugs before anesthesia to optimize comfort, reduce complications, and improve surgical outcomes.
+Dr  Gona Ahmed
+=====SLIDE 4=====
+Goals of Premedication
+Anxiolysis & sedation
+Hemodynamic stability
+Reduce gastric volume/acidity
+Decrease anesthetic needs
+Facilitate induction and analgesia
+Prevent postoperative nausea & vomiting (PONV)
+Dr  Gona Ahmed
+=====SLIDE 5=====
+Common Drug Classes
+Benzodiazepines
+Opioids
+Anticholinergics
+Antiemetics
+H2 blockers / Proton Pump Inhibitors PPIs / Antacids
+Alpha-2 agonists / Beta-blockers
+NSAIDs
+Dr  Gona Ahmed
+=====SLIDE 6=====
+Anxiety Management
+Surgical patients have a high incidence of anxiety. 
+Undesirable psychological effects has been associated with reduced patient satisfaction and an increased risk of postoperative nausea and vomiting (PONV) and acute postoperative pain. 
+Dr  Gona Ahmed
+=====SLIDE 7=====
+Non-Pharmacological Measures
+Establishing a rapport at the preoperative visit.
+Providing a clear explanation of the process and events. 
+Seeking to address specific fears with honest advice.
+Empathy. 
+Reassurance.
+Basic psychotherapeutic and relaxation techniques. 
+Dr  Gona Ahmed
+=====SLIDE 8=====
+Benzodiazepines
+ Indications:
+Anxiolysis
+ Sedation
+Amnesia
+Anticonvulsant
+Muscle relaxation
+(Dose-dependent effects from mild to deep sedation)
+Dr  Gona Ahmed
+=====SLIDE 9=====
+Benzodiazepines – Dosing Considerations
+Adjust for age, weight, comorbidities, and surgery type:
+Dosing Consideration
+Age: Lower dose in elderly
+Weight: Adjust on BMI
+Comorbidities: In liver or kidney impairment, prolonged drug clearance.
+Surgical type: Tailor based on procedure length, and expected stress level.
+Dr  Gona Ahmed
+=====SLIDE 10=====
+Benzodiazepines – Mechanism
+ Enhances the effect of gamma aminobutyric acid( GABA) at  GABA-A receotprs in the central nervous system
+ Increase Cl⁻ influx → neuron hyperpolarization
+Effects: sedation, amnesia, muscle relaxation & anxiolysis.
+Dr  Gona Ahmed
+=====SLIDE 11=====
+Midazolam
+Dose ( Adult)1-2 mg IV,  7.5-15 mg PO.
+Route: IV, PO, IM.
+Onset: 3-5 min (IV), 15-30 min(PO).
+Duration: 1-4 hrs.
+Is a rapid-acting drug by virtue of its high lipid solubility, short acting .
+Very strong amnestic potency.
+Dr  Gona Ahmed
+=====SLIDE 12=====
+Diazepam & Lorazepam
+Diazepam: 5–10 mg PO/IV/IM (2-4 hrs), moderate amnesia.
+Lorazepam: 1–2 mg PO/IV/IM, long duration(6-8 hrs), strong amnesia.
+Dr  Gona Ahmed
+=====SLIDE 13=====
+Benzodiazepine Side Effects
+Dr  Gona Ahmed
+Respiratory depression: Especially when combined with opioids or other CNS depressants.
+Hypotension: Reduces systemic vascular resistance( SVR). 
+Paradoxical reactions: Rarely, agitation or aggression.
+Prolonged Sedation: Especially with longer acting agents like diazepam or lorazepam.
+Amnesia: While usually desired, this may be problematic postoperatively if the patient has important instructions to remember.
+=====SLIDE 14=====
+Contraindications & Special Populations
+Absolute: severe respiratory insufficiency, allergy
+Caution: elderly, hepatic/renal impairment, substance abuse
+Pediatrics: Midazolam preferred
+Pregnancy: Avoid unless necessary
+Dr  Gona Ahmed
+=====SLIDE 15=====
+Pediatric Benzodiazepine Use
+Midazolam: PO, IN, IV, buccal, rectal
+Diazepam: PO
+Midazolam: ( gold standard benzodiazepine for pediatric)
+Rapid onset, short duration, and multiple adminstration routes .
+-PO  0.25-0.5 mg/kg PO( max. 20 mg) onset  10- 30 min. (flavoured oral form is well tolerated).
+-Intranasal  0.2-0.3 mg/kg ( max. 10 mg) onset 10-15 min.
+Diazepam: 
+-PO  0.2-0.3 mg/kg  maximum 10 mg per dose,onset 30- 60 min.
+Dr  Gona Ahmed
+=====SLIDE 16=====
+Analgesia in Premedication
+Adminstering medications before aesthesia induction to manage pain before, during, and after surgery.
+Prevent central sensitization, so reducing opioid consumption& postoperative pain.
+Improve recovery  and control inflammatory and surgical stress response.
+A multimodal approach combining different drug classes offers the best results while minimizing side effects.
+Dr  Gona Ahmed
+=====SLIDE 17=====
+Analgesic Drug Classes
+Opioids
+NSAIDs
+Paracetamol
+Gabapentinoids
+Alpha-2 agonists
+NMDA antagonists
+Steroids
+Local anesthetics
+Dr  Gona Ahmed
+=====SLIDE 18=====
+Opioids & NSAIDs
+Fentanyl :   1-2mcg/Kg IV 30 min before surgeries.
+Morphine:  0.1-0.2mg/Kg for severe pain (longer lasting)
+- Ketorolac, Ibuprofen, Diclofenac for mild-moderate pain (Orthopedic, gynecological, general surgery)
+Dr  Gona Ahmed
+=====SLIDE 19=====
+Paracetamol & Gabapentinoids
+Paracetamol: 1g IV/PO
+Gabapentin: 300–600 mg PO 1-2 hours preoperatively (Block calicium channels in the CNS, reducing neuronal excitability).
+Pregabalin: 75–150 mg PO.
+Dr  Gona Ahmed
+=====SLIDE 20=====
+NMDA Antagonists & Alpha-2 Agonists
+- Ketamine: 0.1–0.5 mg/kg IV
+Clonidine: 1-2 mcg/kg IV before surgery.
+Dexmedetomidine: 0.5-1 mcg/kg IV.
+	 Analgesia + sedation
+Dr  Gona Ahmed
+=====SLIDE 21=====
+Beta-Blockers & Anticholinergics
+Continue perioperatively if already on beta blocker.
+Anticholinergics: Atropine, Glycopyrrolate, Scopolamine (Reduce salivary and respiratory secretions and prevent bradycardia)
+Dr  Gona Ahmed
+=====SLIDE 22=====
+             Antiemetics
+To prevent nausea and vomiting (PONV) in high risk patients.
+5- HT3 Receptor Antagonists ( Gold Stanadard), standard medication for PONV.
+In Laparoscopic, gynecological, and major abdominal surgeries
+Ordansetron:  4-8 mg IV/PO
+Granisetron:   1 mg IV/PO
+Dopamine Antagonists : Metoclopramide(10-20 mg) IV/PO/IM, promotes gastric motility, decreases gastric volume and the risk of aspiration.
+Steroids (Dexamethasone).
+Dr  Gona Ahmed
+=====SLIDE 23=====
+Acid Suppression
+H2 blockers and PPIs: Ranitidine, Cimetidine, Omeprazole, Pantoprazole
+Reduce Gastric Acid Sedcretion, increase stomach PH to prevent aspiration pneumonitis.
+Reduce Gastric Volume: Minimize the amount of acid fluid available for aspiration.
+ Antacids: Sodium citrate
+Increases PH but does not decrease volume of gastric contents.
+Indicated in GERD, trauma (emergency), obstetrics
+Dr  Gona Ahmed
+=====SLIDE 24=====
+Local Anesthetics in Premedication
+Mechanism: Block Na⁺ channels → inhibit nerve conduction → analgesia, nerve block, regional/local anesthesia.
+Preoperative: IV cannulation, arterial line placement:
+Lidocaine: 1–2% (20–50 mg IV/local); blunts propofol pain; lasts 1–2 hrs.
+Bupivacaine: 0.25–0.5% (infiltration, epidural, spinal); lasts 4–8 hrs
+Pediatric Tip: Use EMLA (Lidocaine–Prilocaine) cream 30–60 min before cannulation.
+Dr  Gona Ahmed
+=====SLIDE 25=====
+ Conclusion
+Premedication is individualized
+Multimodal approach preferred
+Understand drug mechanisms, dosing, side effects
+Enhances comfort, safety, and outcomes
+Dr  Gona Ahmed
