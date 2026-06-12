@@ -13,3 +13,12 @@ _theme_sections/.shopify_token
 
 # Prestige store theme backups (not part of this repo)
 .prestige-work/
+
+# Source lecture PDFs (large, copyrighted) + extraction artifacts — keep local only
+surgery_pdfs/
+pdf_text.json
+pdf_issues.json
+
+# Node build artifacts for the MCQ app
+medmcq-app/node_modules/
+medmcq-app/dist/
