@@ -1,0 +1,301 @@
+[
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "AAA screening",
+    "question": "A 67-year-old male ex-smoker attends his GP for a routine health check. He has a 40 pack-year smoking history, hypertension managed with amlodipine, and a brother who underwent aortic surgery at age 71. He has no abdominal symptoms. Examination is unremarkable. He asks whether he should be screened for an abdominal aortic aneurysm. Which of the following represents the most appropriate screening recommendation for this patient?",
+    "options": [
+      "One-off ultrasound scan of the abdominal aorta",
+      "Annual CT angiography of the aorta",
+      "Duplex ultrasound every 6 months",
+      "No screening is indicated as he is asymptomatic",
+      "Measurement of serum D-dimer and BNP"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "National AAA screening programmes offer a one-off abdominal ultrasound to all men aged 65. This patient meets the criteria (male, over 65, significant cardiovascular risk factors). A single scan is cost-effective and identifies men with aortic diameters warranting surveillance or intervention. CT angiography is not the initial screening modality due to radiation and cost.",
+    "wrongAnswerExplanations": [
+      "Correct. A one-off abdominal ultrasound at age 65 is the recommended screening tool for males; it is safe, cheap, and detects AAA with >95% sensitivity.",
+      "Annual CT angiography carries significant cumulative radiation dose and is not appropriate as a primary screening modality; ultrasound is preferred.",
+      "Duplex surveillance at 6-month intervals is reserved for patients already known to have an AAA of 3.0–4.4 cm, not for initial screening.",
+      "Screening is specifically indicated in asymptomatic men aged 65 because the condition is silent until rupture; withholding screening is inappropriate.",
+      "D-dimer and BNP have no role in AAA screening; these biomarkers relate to thromboembolism and cardiac dysfunction respectively."
+    ],
+    "clinicalPearl": "All men aged 65 should be offered a one-off abdominal ultrasound to screen for AAA; a diameter ≥3 cm defines an aneurysm and triggers a surveillance protocol."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "AAA surveillance thresholds",
+    "question": "A 70-year-old male hypertensive smoker was found to have a 3.8 cm infrarenal abdominal aortic aneurysm on ultrasound screening 2 years ago. Serial surveillance scans have been performed. His most recent scan today shows the aneurysm has grown to 5.4 cm. He is otherwise fit with an ejection fraction of 60% and no significant comorbidities. What is the most appropriate next step in management?",
+    "options": [
+      "Refer for elective surgical repair (open or EVAR)",
+      "Repeat ultrasound in 3 months",
+      "Continue annual surveillance and optimise antihypertensives",
+      "Urgent CT angiography and same-day emergency surgery",
+      "Refer for cardiac stress testing only and defer vascular opinion"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The threshold for elective repair of an infrarenal AAA is a maximum diameter of 5.5 cm in men (or 5.0 cm in women) or rapid expansion >1 cm/year. This patient is at 5.4 cm with no symptoms, but is one step below the threshold and referral to a vascular surgeon is now appropriate; at 5.5 cm or with symptoms, repair is indicated. Many guidelines treat 5.4 cm in a fit patient as the point to refer urgently for planning. The patient is fit for intervention making elective repair appropriate.",
+    "wrongAnswerExplanations": [
+      "Correct. At 5.4 cm in a fit male patient, the aneurysm is approaching/at the operative threshold (5.5 cm); referral for elective repair is the appropriate action as the rupture risk now exceeds operative mortality.",
+      "Repeating ultrasound in 3 months is the surveillance interval for a 4.5–5.4 cm AAA, but at 5.4 cm in a fit patient, referral for repair planning is now warranted rather than further deferral.",
+      "Annual surveillance is appropriate for AAAs measuring 3.0–4.4 cm; at 5.4 cm the rupture risk is significantly elevated and continued surveillance alone is inappropriate.",
+      "Emergency surgery is for ruptured or symptomatic AAA; this patient is asymptomatic, making elective planned repair (after CT angiography for operative planning) correct.",
+      "Cardiac evaluation is part of pre-operative workup but deferring vascular opinion in a 5.4 cm AAA is inappropriate; vascular referral should not wait for cardiac testing alone."
+    ],
+    "clinicalPearl": "Elective AAA repair is recommended at ≥5.5 cm diameter in men or ≥5.0 cm in women, or if expansion exceeds 1 cm in 12 months; operative mortality for elective repair (~2%) is far lower than rupture mortality (~80%)."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "Ruptured AAA",
+    "question": "A 74-year-old male smoker with known hypertension is brought to the Emergency Department by ambulance. He collapsed at home with sudden onset severe tearing abdominal and back pain radiating to his left flank. On arrival he is pale, sweating, and confused. BP 82/50 mmHg, HR 118 bpm, RR 24/min. Abdomen reveals a pulsatile, expansile, tender central mass. What is the single most important immediate management priority?",
+    "options": [
+      "Activate the ruptured AAA protocol and transfer urgently to theatre",
+      "Obtain CT angiography of the chest, abdomen, and pelvis",
+      "Infuse 2 litres of crystalloid immediately to restore blood pressure to 120 mmHg",
+      "Arrange urgent transoesophageal echocardiogram to exclude aortic dissection",
+      "Insert a urinary catheter and await urine output before deciding on surgery"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This presentation is a ruptured AAA until proven otherwise — pulsatile abdominal mass, haemodynamic shock, and severe back/flank pain in an elderly male smoker. The priority is immediate activation of the ruptured AAA protocol and transfer to theatre. Permissive hypotension (target systolic 70–80 mmHg) is maintained to avoid dislodging the retroperitoneal tamponade. Delays for imaging or aggressive resuscitation worsen outcome.",
+    "wrongAnswerExplanations": [
+      "Correct. In haemodynamically unstable ruptured AAA, immediate operative intervention (open repair or EVAR) takes priority over further investigations; theatre transfer is life-saving.",
+      "CT angiography should only be performed if the patient is haemodynamically stable enough to tolerate it; in overt shock with a clear clinical diagnosis, sending the patient to CT risks death on the table.",
+      "Aggressive fluid resuscitation to restore normal blood pressure disrupts the retroperitoneal haematoma tamponade and dramatically increases bleeding; permissive hypotension (systolic ~80 mmHg) is the correct approach.",
+      "Transoesophageal echocardiogram is time-consuming and not indicated in this context; the clinical picture is overwhelmingly ruptured AAA and aortic dissection management does not change the operative urgency.",
+      "Waiting for urine output before deciding on surgery is inappropriate in haemodynamic shock from suspected rupture; every minute of delay increases mortality."
+    ],
+    "clinicalPearl": "A pulsatile abdominal mass, back/flank pain, and shock in an elderly male is a ruptured AAA until proven otherwise — immediate operative intervention with permissive hypotension saves lives."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "Ruptured AAA",
+    "question": "A 71-year-old woman presents to the ED with a 3-hour history of sudden severe back pain and intermittent hypotension. She is haemodynamically unstable with a BP of 78/40 mmHg. A bedside FAST ultrasound by the emergency physician shows a 7.2 cm infrarenal aortic aneurysm with free fluid in the abdomen. She has no CT scan and the vascular surgeon is in the building. Which statement best describes the mortality of ruptured AAA?",
+    "options": [
+      "Overall mortality (including pre-hospital deaths) approaches 80%",
+      "Mortality of surgically treated ruptured AAA is less than 10%",
+      "The majority of patients with ruptured AAA survive to hospital discharge",
+      "EVAR for ruptured AAA carries a 50% mortality reduction compared to open repair in all patients",
+      "Mortality is primarily determined by post-operative renal failure rather than intraoperative blood loss"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The overall mortality of ruptured AAA including pre-hospital deaths is approximately 80%. Many patients die before reaching hospital. Of those who make it to surgery, operative mortality is still 40–50% for open repair. This stark statistic underscores the importance of elective screening and repair before rupture occurs.",
+    "wrongAnswerExplanations": [
+      "Correct. Including pre-hospital deaths, ruptured AAA carries approximately 80% overall mortality, making prevention through elective repair critical.",
+      "Surgical mortality for ruptured AAA is 40–50%, not less than 10%; <10% mortality applies to elective (unruptured) AAA repair.",
+      "The majority of patients with ruptured AAA do NOT survive; most die before reaching hospital or die peri-operatively.",
+      "While EVAR may offer advantages in selected stable patients with suitable anatomy, a universal 50% mortality reduction compared to open repair for all ruptured AAA patients is not established; results depend heavily on anatomy and haemodynamic status.",
+      "Intraoperative haemorrhage and haemodynamic collapse are the primary determinants of early mortality; multi-organ failure including renal failure is a significant later cause but not the primary driver."
+    ],
+    "clinicalPearl": "Ruptured AAA carries approximately 80% overall mortality; even with operative repair, peri-operative mortality remains 40–50%, making elective repair of large aneurysms before rupture the life-saving strategy."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "AAA — EVAR vs open repair",
+    "question": "A 73-year-old male with a 5.8 cm infrarenal AAA suitable anatomy is scheduled for elective repair. His past medical history includes COPD (FEV1 60% predicted), well-controlled type 2 diabetes, and previous CABG. He is keen to minimise recovery time. CT angiography confirms favourable proximal neck length and angle. His cardiologist has cleared him for surgery. Which repair option best balances his short-term risk and recovery?",
+    "options": [
+      "Endovascular aortic repair (EVAR)",
+      "Open surgical repair via a transperitoneal approach",
+      "Conservative management with 3-monthly surveillance",
+      "Open retroperitoneal repair",
+      "Fenestrated EVAR (FEVAR)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "EVAR is the preferred approach in patients with suitable anatomy who have significant cardiorespiratory comorbidities, as it carries lower 30-day mortality, reduced blood loss, shorter ICU and hospital stay, and faster recovery compared to open repair. In patients with favourable anatomy (adequate infrarenal neck, no severe angulation, suitable iliac access), EVAR is the first-line choice, particularly in high-risk patients.",
+    "wrongAnswerExplanations": [
+      "Correct. EVAR offers lower peri-operative mortality and faster recovery in patients with suitable anatomy; it is preferred in high-risk patients with cardiorespiratory comorbidity.",
+      "Open transperitoneal repair is appropriate when anatomy is unsuitable for EVAR or when EVAR is unavailable; it carries higher short-term mortality in high-risk patients due to physiological stress of open surgery.",
+      "Conservative management is not appropriate at 5.8 cm — the rupture risk (>10% per year) greatly exceeds operative risk; repair is indicated.",
+      "Open retroperitoneal approach is a variant of open repair used for specific anatomical indications (e.g., hostile abdomen, horseshoe kidney); it does not offer the minimally invasive benefits of EVAR.",
+      "Fenestrated EVAR is used when the aneurysm neck is short or juxtarenal, requiring preservation of renal/mesenteric vessels; it is not indicated when standard EVAR anatomy is favourable."
+    ],
+    "clinicalPearl": "EVAR is preferred over open repair for infrarenal AAA with suitable anatomy, especially in high cardiorespiratory risk patients, due to lower peri-operative mortality and faster recovery, though long-term endoleak surveillance is required."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "aneurysm.pdf",
+    "topic": "True vs false aneurysm",
+    "question": "A 58-year-old male presents 6 weeks after cardiac catheterisation via the right femoral artery. He reports a painful, pulsatile swelling in his right groin that has gradually enlarged. Examination reveals a non-tender, pulsatile, expansile swelling at the right femoral puncture site. Duplex ultrasound confirms a sac communicating with the femoral artery, with a single narrow neck of 4 mm. The sac wall does not contain all three layers of the arterial wall. What type of aneurysm is this, and what is the most appropriate first-line treatment?",
+    "options": [
+      "False (pseudoaneurysm); ultrasound-guided thrombin injection",
+      "True aneurysm; surgical repair with patch angioplasty",
+      "False (pseudoaneurysm); immediate surgical exploration",
+      "True aneurysm; observation with repeat ultrasound in 6 weeks",
+      "Arteriovenous fistula; manual compression"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is a false aneurysm (pseudoaneurysm) — a contained haematoma communicating with the arterial lumen through a defect in all three vessel wall layers, without the sac itself being formed by true arterial wall. Post-catheterisation pseudoaneurysms are common iatrogenic complications. Ultrasound-guided thrombin injection is highly effective for pseudoaneurysms with a narrow neck (<5 mm) and is now first-line treatment, with >95% success rates.",
+    "wrongAnswerExplanations": [
+      "Correct. The history of recent arterial puncture, pulsatile sac with a communicating neck on duplex, and wall lacking all three arterial layers confirms a false aneurysm (pseudoaneurysm); ultrasound-guided thrombin injection is the preferred first-line treatment for narrow-neck pseudoaneurysms.",
+      "A true aneurysm contains all three layers of the arterial wall (intima, media, adventitia); the history and duplex findings here indicate a false aneurysm, and patch angioplasty is not the first-line treatment.",
+      "Immediate surgical exploration is reserved for rapidly expanding pseudoaneurysms, infection, skin necrosis, or failure of thrombin injection; it is not first-line for a stable narrow-neck pseudoaneurysm.",
+      "A true aneurysm of the femoral artery does contain all three wall layers and would typically be managed surgically; this is not a true aneurysm, and observation is inappropriate for an enlarging pulsatile groin mass.",
+      "Arteriovenous fistulae present with a continuous machinery murmur and pulsatile venous flow on duplex; manual compression is used for closing pseudoaneurysms, not AVFs, and is less effective than thrombin injection."
+    ],
+    "clinicalPearl": "A post-catheterisation pulsatile groin swelling is a pseudoaneurysm until proven otherwise; ultrasound-guided thrombin injection achieves >95% success for narrow-neck (<5 mm) pseudoaneurysms and is the first-line treatment."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "aneurysm.pdf",
+    "topic": "Aortic dissection — type A",
+    "question": "A 52-year-old male with a history of uncontrolled hypertension and Marfan syndrome presents with sudden onset severe tearing chest pain radiating to the interscapular region. He describes the pain as 'the worst of my life'. BP is 180/100 in the right arm and 130/80 in the left arm. ECG shows sinus tachycardia with no ST changes. CXR shows a widened mediastinum. CT aortography confirms dissection extending from the aortic root to the descending thoracic aorta involving the ascending aorta. What is the most appropriate management?",
+    "options": [
+      "Emergency cardiothoracic surgery for repair of the ascending aorta",
+      "Intravenous labetalol infusion and admission to ITU for blood pressure control",
+      "Intravenous thrombolysis",
+      "Urgent coronary angiography and PCI",
+      "Endovascular stent grafting (TEVAR) of the ascending aorta"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is a Stanford Type A aortic dissection (involving the ascending aorta), which is a surgical emergency with mortality of approximately 1–2% per hour untreated. Emergency open surgical repair is the standard of care to prevent progression to pericardial tamponade, aortic regurgitation, coronary ostia occlusion, or rupture. Medical management alone is appropriate only for type B dissection (descending aorta only).",
+    "wrongAnswerExplanations": [
+      "Correct. Stanford Type A dissection (involving the ascending aorta) mandates emergency cardiothoracic surgery; without repair, mortality reaches nearly 50% at 48 hours.",
+      "IV labetalol and blood pressure control is the initial stabilising measure and the definitive treatment for uncomplicated Type B dissection; in Type A dissection it is used as a bridge to theatre but is not definitive treatment.",
+      "Thrombolysis is contraindicated in aortic dissection and would dramatically worsen haemorrhage and dissection extent.",
+      "Coronary angiography and PCI are for acute MI; although dissection can mimic MI and rarely involves the coronary ostia, thrombolysis/PCI without first diagnosing dissection is dangerous and the CT has confirmed the diagnosis.",
+      "TEVAR is used for complicated Type B dissection involving the descending aorta; it is not standard for ascending (Type A) dissection, which requires open surgical repair."
+    ],
+    "clinicalPearl": "Stanford Type A aortic dissection (involving the ascending aorta) is a surgical emergency requiring immediate cardiothoracic repair; the hallmarks are tearing chest-to-back pain, BP asymmetry between arms, and widened mediastinum on CXR."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "aneurysm.pdf",
+    "topic": "Aortic dissection — type B",
+    "question": "A 61-year-old hypertensive male presents with acute onset sharp interscapular back pain. He is haemodynamically stable. BP 165/95 mmHg bilaterally, HR 88 bpm. Examination reveals no pulse deficits and no neurological deficit. CT aortography confirms a dissection flap confined to the descending thoracic aorta distal to the left subclavian artery, with no end-organ ischaemia, no periaortic haematoma, and no signs of impending rupture. What is the most appropriate first-line management?",
+    "options": [
+      "IV antihypertensive therapy (target systolic 100–120 mmHg) and close monitoring",
+      "Emergency thoracotomy and open repair of the descending aorta",
+      "Endovascular thoracic stent graft (TEVAR) as first-line treatment",
+      "Anticoagulation with unfractionated heparin",
+      "Urgent surgical fenestration to relieve malperfusion"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Uncomplicated Stanford Type B dissection (confined to the descending aorta, no malperfusion, no rupture) is managed medically with intravenous antihypertensive therapy. The target is a systolic BP of 100–120 mmHg using IV beta-blockade (e.g., labetalol or esmolol) to reduce aortic wall stress. TEVAR is reserved for complicated Type B dissection with malperfusion, rapid expansion, or impending rupture.",
+    "wrongAnswerExplanations": [
+      "Correct. Uncomplicated Type B aortic dissection is managed with IV antihypertensives targeting systolic 100–120 mmHg; this reduces propagation risk and peri-operative mortality compared to primary surgery.",
+      "Emergency open thoracotomy carries high morbidity and mortality and is not indicated for uncomplicated Type B dissection; open surgery is reserved for rupture or failure of endovascular options.",
+      "TEVAR is indicated for complicated Type B dissection (malperfusion, impending rupture, rapid expansion); in uncomplicated Type B, medical management is first-line with TEVAR considered electively in selected patients.",
+      "Anticoagulation is contraindicated in aortic dissection as it increases the risk of haemopericardium and haemothorax.",
+      "Surgical fenestration (creating a communication between true and false lumen) is a last resort for refractory malperfusion not amenable to endovascular intervention; not appropriate as first-line in uncomplicated Type B."
+    ],
+    "clinicalPearl": "Uncomplicated Stanford Type B aortic dissection (descending aorta, no malperfusion or rupture) is treated medically with IV antihypertensives targeting systolic 100–120 mmHg; TEVAR is reserved for complicated cases."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "aneurysm.pdf",
+    "topic": "Aortic dissection — classification",
+    "question": "A 48-year-old hypertensive woman presents with sudden tearing chest pain. CT aortography reveals an intimal tear in the ascending aorta with the false lumen extending into the aortic arch but not beyond the left subclavian artery. According to the Stanford classification, how should this dissection be classified and what does this imply for management?",
+    "options": [
+      "Stanford Type A — requires emergency surgical repair",
+      "Stanford Type B — managed conservatively with antihypertensives",
+      "DeBakey Type III — managed with TEVAR",
+      "Stanford Type A — managed conservatively if haemodynamically stable",
+      "DeBakey Type IIIb — requires emergency open repair"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Stanford classification defines Type A as any dissection involving the ascending aorta regardless of the site of the intimal tear or how far the dissection extends distally. Type B involves only the descending aorta distal to the left subclavian artery. This patient's dissection involves the ascending aorta, making it Stanford Type A, which mandates emergency surgical repair due to the risk of pericardial tamponade, aortic regurgitation, coronary involvement, and rupture.",
+    "wrongAnswerExplanations": [
+      "Correct. Any dissection involving the ascending aorta is Stanford Type A regardless of distal extension; Type A mandates emergency surgical repair.",
+      "Stanford Type B involves ONLY the descending aorta distal to the left subclavian artery; as the ascending aorta is involved here, this is Type A not Type B, and conservative management alone is inappropriate.",
+      "DeBakey Type III involves only the descending aorta (Type IIIa thoracic only, IIIb extending to abdomen), corresponding to Stanford Type B; this dissection involves the ascending aorta so DeBakey Type III classification is incorrect.",
+      "Stanford Type A dissection is not managed conservatively even if haemodynamically stable — operative mortality without surgery approaches 50% at 48 hours and surgical repair is always the standard of care.",
+      "DeBakey Type IIIb denotes dissection originating distal to the left subclavian artery extending into the abdominal aorta; this does not apply here where the ascending aorta is involved."
+    ],
+    "clinicalPearl": "Stanford Type A = any dissection involving the ascending aorta → emergency surgery; Stanford Type B = dissection confined to descending aorta only → medical management first-line."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "AAA risk factors and pathophysiology",
+    "question": "A 65-year-old male with a 6.0 cm AAA is undergoing vascular surgery outpatient assessment. The vascular nurse asks about modifiable and non-modifiable risk factors. Which combination of risk factors is most strongly and consistently associated with the development of abdominal aortic aneurysm?",
+    "options": [
+      "Male sex, age >65, smoking history, and hypertension",
+      "Female sex, diabetes mellitus, and hypercholesterolaemia",
+      "Obesity, atrial fibrillation, and intravenous drug use",
+      "Marfan syndrome, young age, and hypotension",
+      "Autoimmune disease, peripheral vascular disease, and female sex"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The strongest risk factors for AAA are male sex (4–6 times more common than in females), age over 65, smoking (the single most important modifiable risk factor — responsible for 75% of cases), and hypertension. Interestingly, diabetes mellitus is inversely associated with AAA formation. A positive family history is also an independent risk factor.",
+    "wrongAnswerExplanations": [
+      "Correct. Male sex, age >65, smoking, and hypertension are the four most consistently identified risk factors for AAA; smoking is the single strongest modifiable risk factor.",
+      "Female sex is actually protective (AAA is 4–6x more common in men); diabetes mellitus has an inverse association with AAA and is not a risk factor.",
+      "Obesity is a modest risk factor but atrial fibrillation and intravenous drug use are not established independent AAA risk factors; this combination is not the strongest association.",
+      "Marfan syndrome causes thoracic aortic aneurysm predominantly; young age and hypotension are not AAA risk factors.",
+      "Peripheral vascular disease shares risk factors with AAA but female sex is not a major risk factor; autoimmune disease is associated with inflammatory AAA (a specific subtype) but is not the primary risk profile."
+    ],
+    "clinicalPearl": "Smoking is the single most important modifiable risk factor for AAA — it is present in ~75% of cases; notably, diabetes mellitus has an inverse (protective) association with AAA development."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "aneurysm.pdf",
+    "topic": "Popliteal aneurysm",
+    "question": "A 68-year-old male smoker presents with a 2-week history of sudden onset cold, pale, and painful right calf and foot. He has no prior history of claudication. Examination reveals an absent right popliteal and pedal pulses, a capillary refill time of >4 seconds, and a hard, non-tender pulsatile swelling in the right popliteal fossa. Ankle-brachial pressure index cannot be obtained in the right leg. Duplex ultrasound reveals a 2.8 cm right popliteal aneurysm with laminated thrombus and no flow distal to the aneurysm. What is the most likely diagnosis and complication?",
+    "options": [
+      "Popliteal artery aneurysm with acute thrombosis causing acute limb ischaemia",
+      "Ruptured Baker's cyst causing external compression of the popliteal artery",
+      "Femoral artery embolism with secondary popliteal thrombosis",
+      "Deep vein thrombosis with paradoxical arterial embolism",
+      "Popliteal artery entrapment syndrome causing acute ischaemia"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Popliteal artery aneurysms are the most common peripheral aneurysm and are bilateral in 50% of cases. The major complication is not rupture (which is rare) but acute limb-threatening ischaemia due to thrombosis within the aneurysm sac or distal embolisation of thrombus. This patient has a classic presentation: pulsatile popliteal mass with acute limb ischaemia from thrombotic occlusion. Urgent surgical bypass (with or without thrombolysis) is required.",
+    "wrongAnswerExplanations": [
+      "Correct. Popliteal aneurysm with acute thrombosis is the classic presentation — the pulsatile popliteal mass and acute ischaemia are diagnostic; thrombosis/embolisation, not rupture, is the feared complication.",
+      "A ruptured Baker's cyst causes painful soft tissue swelling (pseudothrombophlebitis syndrome) and does not present as a hard pulsatile mass with acute arterial ischaemia.",
+      "Femoral artery embolism is possible but does not explain the pulsatile popliteal mass confirmed on duplex; the aneurysm is the primary pathology here.",
+      "DVT with paradoxical embolism requires a patent foramen ovale and presents with systemic arterial occlusion, not a localised pulsatile popliteal swelling.",
+      "Popliteal artery entrapment typically occurs in young muscular individuals due to anomalous medial head of gastrocnemius; it does not cause a pulsatile popliteal mass."
+    ],
+    "clinicalPearl": "Popliteal aneurysms rarely rupture; their danger lies in thrombosis and distal embolisation causing acute limb ischaemia — always check the contralateral leg as 50% are bilateral, and screen for associated AAA."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "aneurysm.pdf",
+    "topic": "Popliteal aneurysm — associations",
+    "question": "A 71-year-old male is diagnosed with a 2.5 cm right popliteal artery aneurysm on duplex ultrasound performed for intermittent claudication. He is otherwise fit. Examination also reveals a 4.1 cm pulsatile abdominal mass. Which of the following statements best reflects the most important clinical association to act upon in this patient?",
+    "options": [
+      "Patients with popliteal aneurysms have a 30–50% incidence of associated AAA and this must be excluded",
+      "Bilateral popliteal aneurysms are rare and contralateral limb imaging is not required",
+      "The popliteal aneurysm requires urgent surgical repair because rupture is the primary risk",
+      "Popliteal aneurysms are exclusively seen in young patients with connective tissue disorders",
+      "The finding of a popliteal aneurysm is incidental and requires no further vascular workup"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "There is a strong association between popliteal artery aneurysms and AAA — approximately 30–50% of patients with a popliteal aneurysm will have a co-existing AAA. This patient already has a palpable 4.1 cm abdominal mass suggesting an AAA. Patients with popliteal aneurysms should therefore undergo abdominal aortic ultrasound and contralateral popliteal duplex examination.",
+    "wrongAnswerExplanations": [
+      "Correct. 30–50% of patients with popliteal aneurysms have an associated AAA; active screening of the aorta and contralateral popliteal artery is mandatory.",
+      "Bilateral popliteal aneurysms occur in approximately 50% of cases; contralateral limb imaging is always indicated and is not rare.",
+      "Rupture of popliteal aneurysms is rare; the primary risk is thromboembolism causing acute limb ischaemia, not rupture.",
+      "Popliteal aneurysms are predominantly a disease of elderly males with atherosclerotic risk factors; they are not exclusively associated with young patients or connective tissue disorders.",
+      "Discovery of a popliteal aneurysm mandates further vascular workup including aortic and contralateral popliteal imaging; it is not an incidental inconsequential finding."
+    ],
+    "clinicalPearl": "A popliteal aneurysm should trigger imaging of the abdominal aorta (30–50% have AAA) and the contralateral popliteal fossa (50% are bilateral); this is a systemic arterial disease, not an isolated finding."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Aortic Aneurysm-Dr.Shkar.pdf",
+    "topic": "AAA — complications of repair",
+    "question": "A 69-year-old male undergoes elective open repair of a 6.2 cm infrarenal AAA. The procedure involves cross-clamping the aorta below the renal arteries for 55 minutes. On the first post-operative day he develops watery, bloody diarrhoea. His abdomen is mildly distended and tender in the left lower quadrant. Temperature is 38.2°C, BP 100/60 mmHg, and lactate is 3.8 mmol/L. Flexible sigmoidoscopy shows pale, oedematous mucosa with superficial ulceration in the sigmoid colon. What is the most likely diagnosis?",
+    "options": [
+      "Colonic ischaemia (ischaemic colitis) due to inferior mesenteric artery ligation",
+      "Clostridium difficile colitis secondary to peri-operative antibiotics",
+      "Anastomotic leak from the aortic graft",
+      "Post-operative ileus progressing to pseudo-obstruction",
+      "Graft infection with enteric fistula formation"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Colonic ischaemia, particularly of the sigmoid colon, is a recognised complication of open AAA repair, occurring in 1–3% of elective and up to 10% of ruptured AAA repairs. It results from ligation of the inferior mesenteric artery (IMA) during aortic reconstruction combined with inadequate collateral supply (e.g., absent arc of Riolan or marginal artery of Drummond). The sigmoid colon is most vulnerable. Presentation is bloody diarrhoea within 24–48 hours of surgery with elevated lactate.",
+    "wrongAnswerExplanations": [
+      "Correct. IMA ligation during AAA repair deprives the sigmoid colon of its dominant blood supply; when collateral flow from the superior mesenteric artery is inadequate, sigmoid ischaemia results — confirmed by sigmoidoscopic mucosal ischaemia.",
+      "C. difficile colitis is possible with peri-operative antibiotics but typically presents 1–2 weeks post-operatively with watery (not bloody) diarrhoea; the early post-operative timing and sigmoidoscopic findings point to ischaemia.",
+      "Anastomotic leak presents with sepsis, peritonitis, and para-anastomotic gas on CT; it does not cause bloody diarrhoea visible on sigmoidoscopy as ischaemic mucosa.",
+      "Ileus/pseudo-obstruction presents with abdominal distension and absent bowel sounds without bloody diarrhoea; sigmoidoscopy would show normal mucosa.",
+      "Graft infection with enteric fistula is a late complication (typically >30 days post-operatively) and presents with GI haemorrhage, sepsis, and CT findings of perigraft gas; not the diagnosis 24 hours post-operatively."
+    ],
+    "clinicalPearl": "Bloody diarrhoea within 48 hours of open AAA repair should raise immediate concern for sigmoid colonic ischaemia due to IMA ligation — sigmoid sigmoidoscopy is diagnostic and urgent re-operation may be required for full-thickness necrosis."
+  }
+]

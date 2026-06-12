@@ -1,0 +1,301 @@
+[
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Splenic trauma grading",
+    "question": "A 28-year-old male motorcyclist is brought to the emergency department after a high-speed collision. He is haemodynamically stable with a heart rate of 92 bpm and BP 118/76 mmHg. He has left upper quadrant tenderness. CT abdomen with contrast reveals a splenic laceration extending into the splenic hilum with a perisplenic haematoma, involving more than 75% of the splenic parenchyma but without active contrast extravasation. According to the AAST grading system, this injury is best classified as which grade?",
+    "options": [
+      "Grade I — subcapsular haematoma <10% surface area",
+      "Grade II — laceration 1–3 cm parenchymal depth not involving trabecular vessels",
+      "Grade III — laceration >3 cm depth or involving trabecular vessels",
+      "Grade IV — laceration involving segmental or hilar vessels with >25% devascularisation",
+      "Grade V — shattered spleen or hilar vascular injury devascularising the spleen"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A splenic laceration extending to the hilum with involvement of hilar/segmental vessels and devascularisation of more than 25% of parenchyma corresponds to AAST Grade IV. Grade V is reserved for a completely shattered spleen or total hilar devascularisation. Grade III involves lacerations >3 cm but without significant vascular involvement. Accurate grading guides management decisions between non-operative management and intervention.",
+    "wrongAnswerExplanations": [
+      "Grade I describes only a small subcapsular haematoma (<10% surface area) with no parenchymal laceration — far less severe than described here.",
+      "Grade II involves a shallow laceration of 1–3 cm depth not reaching trabecular vessels — this lesion is much more severe.",
+      "Grade III involves lacerations deeper than 3 cm or involving trabecular vessels, but does not reach hilar vessels or cause >25% devascularisation.",
+      "Grade IV is correct: hilar vessel involvement with >25% devascularisation but without a completely shattered spleen defines this grade.",
+      "Grade V requires either a completely shattered spleen or a hilar vascular injury that fully devascularises the spleen — not described in this case."
+    ],
+    "clinicalPearl": "AAST Grade IV splenic injuries (hilar vessel involvement, >25% devascularisation) are often managed with angioembolisation in haemodynamically stable patients, reserving splenectomy for instability or failure."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Non-operative management of splenic trauma",
+    "question": "A 35-year-old woman presents following a road traffic accident. She is haemodynamically stable (BP 128/80 mmHg, HR 88 bpm). CT scan demonstrates a Grade III splenic laceration with a small amount of free fluid in the abdomen but no active contrast blush. She has no other intra-abdominal injuries. The surgical team decides to manage her non-operatively. Which of the following is the MOST important criterion for continued non-operative management (NOM) in this patient?",
+    "options": [
+      "Age under 40 years",
+      "Absence of peritoneal signs and ongoing haemodynamic stability",
+      "Splenic injury grade of III or lower on CT",
+      "Availability of packed red blood cells at the bedside",
+      "Normal serum lactate on admission"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The cornerstone of non-operative management of blunt splenic trauma is ongoing haemodynamic stability and the absence of peritoneal signs requiring urgent laparotomy. Haemodynamic instability despite resuscitation is the primary indication to abandon NOM. While CT grade, age, and associated injuries inform initial decision-making, continued NOM is predicated above all on the patient remaining stable without signs of peritonism.",
+    "wrongAnswerExplanations": [
+      "Age under 40 is associated with higher success rates of NOM but is not the primary criterion — haemodynamic stability takes precedence regardless of age.",
+      "Ongoing haemodynamic stability and absence of peritoneal signs are the key criteria that determine whether NOM can continue safely — this is correct.",
+      "CT grade informs the likelihood of NOM success but is not itself the deciding factor; a Grade III injury in an unstable patient mandates intervention.",
+      "Blood product availability is important for safety but does not dictate the decision to continue NOM — it is a resource consideration, not a physiological criterion.",
+      "Serum lactate may indicate tissue hypoperfusion but a single normal admission value does not independently determine suitability for ongoing NOM."
+    ],
+    "clinicalPearl": "NOM of blunt splenic injuries succeeds in >80% of haemodynamically stable patients; the single absolute contraindication to continuing NOM is haemodynamic instability unresponsive to resuscitation."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Splenic angioembolisation",
+    "question": "A 42-year-old man sustains blunt abdominal trauma in a work accident. CT abdomen shows a Grade IV splenic laceration with a 2 cm active contrast blush ('blush') within the splenic parenchyma. His BP is 110/70 mmHg and HR is 105 bpm; he responds transiently to 1 litre of crystalloid. There are no other intra-abdominal injuries. Which is the BEST next management step?",
+    "options": [
+      "Immediate laparotomy and splenectomy",
+      "Repeat CT scan in 6 hours to reassess the blush",
+      "Splenic artery angioembolisation",
+      "Intensive care admission for observation and serial abdominal examinations",
+      "Diagnostic peritoneal lavage"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An active contrast blush on CT in a haemodynamically borderline (transient responder) patient with a high-grade splenic injury is the classic indication for splenic artery angioembolisation. This allows splenic salvage while controlling the bleeding point. Immediate splenectomy would be appropriate if the patient were truly haemodynamically unstable and non-responsive to resuscitation, but this patient is a transient responder, making angioembolisation the preferred approach to attempt organ preservation.",
+    "wrongAnswerExplanations": [
+      "Immediate splenectomy is appropriate for haemodynamic instability non-responsive to resuscitation — this patient is a transient responder, so splenic salvage via embolisation should be attempted first.",
+      "Repeat CT in 6 hours is inappropriate for a patient with an active blush and haemodynamic compromise; further bleeding could be fatal.",
+      "Splenic artery angioembolisation is the correct answer: it controls the active haemorrhage indicated by the blush while preserving the spleen in a borderline-stable patient.",
+      "ICU observation alone does not address the active bleeding indicated by the contrast blush; this patient requires intervention.",
+      "Diagnostic peritoneal lavage is largely obsolete in the era of CT and is not the appropriate next step when CT has already demonstrated the injury."
+    ],
+    "clinicalPearl": "A contrast 'blush' on CT represents active arterial haemorrhage; in haemodynamically borderline patients with high-grade splenic injuries it is the primary indication for angioembolisation before considering splenectomy."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Splenectomy indications — trauma",
+    "question": "A 55-year-old man is brought to the resuscitation bay following a motor vehicle collision. His BP is 70/40 mmHg and HR is 138 bpm despite 2 litres of crystalloid and 2 units of packed red blood cells. FAST ultrasound shows free fluid in all four quadrants. CT is unavailable due to ongoing instability. He has a rigid abdomen. Which is the MOST appropriate immediate intervention?",
+    "options": [
+      "Splenic artery embolisation in the interventional radiology suite",
+      "Insertion of a peritoneal drain under local anaesthesia",
+      "Emergency laparotomy with damage control surgery",
+      "CT abdomen with contrast once a further 2 litres of crystalloid are given",
+      "Non-operative management with ICU admission and serial observations"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has haemodynamic instability (refractory shock) with peritonitis and evidence of massive intra-abdominal haemorrhage on FAST — the classic indication for immediate emergency laparotomy with damage control surgery. Angioembolisation requires CT identification of the bleeding vessel and haemodynamic stability sufficient for transfer to interventional radiology. Non-operative management and CT scanning are contraindicated in refractory shock. Damage control surgery prioritises haemorrhage control (including splenectomy if needed) over definitive repair.",
+    "wrongAnswerExplanations": [
+      "Angioembolisation requires CT localisation and patient transfer — it is contraindicated in refractory haemodynamic shock; the patient will not survive the delay.",
+      "Peritoneal drain insertion does not control surgical haemorrhage and is not appropriate for massive intraperitoneal bleeding.",
+      "Emergency laparotomy with damage control surgery is correct: it is the only immediate life-saving intervention for refractory haemorrhagic shock with peritonitis.",
+      "Further crystalloid and CT scanning delays definitive haemorrhage control; CT scanning of an unstable patient is dangerous and must not be performed.",
+      "Non-operative management is absolutely contraindicated in haemodynamic instability refractory to resuscitation with signs of peritonism."
+    ],
+    "clinicalPearl": "Haemodynamic instability refractory to resuscitation in the context of blunt abdominal trauma mandates immediate emergency laparotomy — CT and angioembolisation are not options in this scenario."
+  },
+  {
+    "system": "spleen.pdf",
+    "sourceLecture": "spleen.pdf",
+    "topic": "OPSI prophylaxis — vaccination",
+    "question": "A 22-year-old male undergoes emergency splenectomy following Grade V splenic trauma. He recovers uneventfully. Prior to discharge, the surgical team counsels him on overwhelming post-splenectomy infection (OPSI). Which combination of vaccinations and timing is MOST appropriate?",
+    "options": [
+      "Pneumococcal (PCV13), meningococcal ACWY, and Hib vaccines — all given on day 1 post-operatively",
+      "Pneumococcal (PPV23) only — given at 6 months post-operatively",
+      "Pneumococcal (PCV13 then PPV23), meningococcal ACWY, and Hib vaccines — ideally at least 2 weeks post-operatively, and annual influenza vaccine",
+      "Influenza vaccine only — given annually from discharge",
+      "No vaccination required in a young healthy adult; prophylactic penicillin alone is sufficient"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Post-splenectomy patients require vaccination against encapsulated bacteria — Streptococcus pneumoniae, Neisseria meningitidis, and Haemophilus influenzae type b — as these organisms are most responsible for OPSI. Guidelines recommend vaccination at least 2 weeks after splenectomy (to allow some immune response) or, if elective, 2 weeks before. Pneumococcal vaccination involves PCV13 followed by PPV23 at 8 weeks. Annual influenza vaccine is also required as influenza predisposes to secondary bacterial pneumonia.",
+    "wrongAnswerExplanations": [
+      "Giving vaccines on day 1 post-operatively is suboptimal because the immune response is blunted in the immediate post-surgical period; guidelines recommend waiting at least 2 weeks.",
+      "PPV23 alone is insufficient — current guidelines recommend PCV13 first for a better T-cell-dependent response, followed by PPV23; meningococcal and Hib vaccines are also required.",
+      "This is the correct regimen: PCV13 then PPV23, meningococcal ACWY, Hib, and annual influenza vaccination, ideally starting at 2 weeks post-operatively.",
+      "Influenza vaccine alone is grossly inadequate — it does not protect against the encapsulated bacteria responsible for OPSI.",
+      "Vaccination is mandatory in asplenic patients regardless of age and health; penicillin prophylaxis alone, without vaccination, is insufficient protection against OPSI."
+    ],
+    "clinicalPearl": "All asplenic patients need lifelong prophylaxis against encapsulated organisms: vaccinations (pneumococcal, meningococcal, Hib, annual flu), lifelong penicillin V (or amoxicillin), and a medic alert card — OPSI carries >50% mortality."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "OPSI — recognition and emergency management",
+    "question": "A 34-year-old woman presents to the emergency department with a 12-hour history of rigors, fever of 39.8°C, confusion, and a petechial rash spreading across her trunk. She had a splenectomy 3 years ago for hereditary spherocytosis. She carries a card identifying her as asplenic. HR is 126 bpm, BP 88/54 mmHg, and SpO2 is 94% on air. Which is the SINGLE MOST IMPORTANT immediate action?",
+    "options": [
+      "Send blood cultures and await results before starting antibiotics",
+      "Administer IV broad-spectrum antibiotics (e.g. ceftriaxone) immediately without waiting for culture results",
+      "Arrange urgent CT head to exclude meningitis",
+      "Give oral co-amoxiclav and arrange GP follow-up in 48 hours",
+      "Administer IV corticosteroids to treat suspected adrenal crisis"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is classic overwhelming post-splenectomy infection (OPSI) — a life-threatening emergency with >50% mortality. The hallmark is rapid progression from flu-like illness to septic shock. Immediate IV broad-spectrum antibiotics (ceftriaxone covers pneumococcus, meningococcus, and other encapsulated organisms) must be given without delay, even before culture results. Every hour of delay in antibiotic administration significantly worsens outcome. Blood cultures should be taken at the same time as antibiotic administration, not before.",
+    "wrongAnswerExplanations": [
+      "Waiting for blood culture results before giving antibiotics in suspected OPSI is dangerous — mortality rises sharply with each hour of delay; antibiotics must be given immediately.",
+      "Immediate IV broad-spectrum antibiotics without waiting for culture results is correct — OPSI is a clinical diagnosis requiring empirical treatment; ceftriaxone covers the key encapsulated pathogens.",
+      "CT head may eventually be required but is not the immediate priority; airway, fluid resuscitation, and antibiotics take precedence in septic shock.",
+      "Oral antibiotics and GP follow-up are wholly inadequate for a patient in septic shock — this approach would be fatal.",
+      "The clinical picture is infection not adrenal crisis; steroids are not the first-line treatment, and delaying antibiotics for steroids would worsen outcome."
+    ],
+    "clinicalPearl": "In a febrile asplenic patient, treat first and investigate second — OPSI can kill within hours; immediate IV ceftriaxone must not be delayed for culture results."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Hypersplenism",
+    "question": "A 48-year-old man with known liver cirrhosis secondary to alcohol abuse is referred for review. He reports fatigue and easy bruising. Blood tests show: Hb 89 g/L, WBC 2.1 × 10⁹/L, platelets 62 × 10⁹/L. Abdominal examination reveals a palpable spleen 6 cm below the left costal margin and ascites. Which pathophysiological mechanism BEST explains his haematological abnormalities?",
+    "options": [
+      "Autoimmune destruction of blood cells by splenic macrophages",
+      "Bone marrow suppression from chronic alcohol toxicity alone",
+      "Splenic sequestration and destruction of blood cells due to portal hypertension-induced splenomegaly (hypersplenism)",
+      "Disseminated intravascular coagulation secondary to liver failure",
+      "Nutritional deficiency anaemia from poor dietary intake"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Hypersplenism in cirrhosis occurs because portal hypertension causes splenic congestion and splenomegaly, leading to increased sequestration and premature destruction of all three blood cell lines (pancytopenia). This is the most common mechanism of pancytopenia in cirrhotic patients with splenomegaly. While alcohol toxicity and nutritional deficiency contribute to anaemia, the combination of thrombocytopenia, leucopenia, and anaemia with splenomegaly in a cirrhotic patient is the hallmark presentation of hypersplenism.",
+    "wrongAnswerExplanations": [
+      "Autoimmune haemolysis (e.g. ITP) can cause cytopenias but is not the primary mechanism here; the clinical context of cirrhosis and portal hypertension points to hypersplenism.",
+      "Alcohol bone marrow suppression causes macrocytic anaemia and may contribute to thrombocytopenia, but does not fully explain the combined pancytopenia with splenomegaly in this patient.",
+      "Hypersplenism from portal hypertension-induced splenomegaly is correct — congested spleen sequesters and destroys blood cells, producing pancytopenia.",
+      "DIC would present with elevated PT/APTT, low fibrinogen, and elevated D-dimers with clinical bleeding — not a stable chronic presentation with isolated splenomegaly.",
+      "Nutritional deficiency (folate/B12 deficiency) causes megaloblastic anaemia but does not explain thrombocytopenia and leucopenia alongside marked splenomegaly."
+    ],
+    "clinicalPearl": "Hypersplenism in portal hypertension causes pancytopenia through splenic sequestration — splenectomy or TIPSS can reverse cytopenias but carries high operative risk in cirrhotic patients."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "bilary system spleen-pancreas.pdf",
+    "topic": "Splenectomy indications — haematological",
+    "question": "A 26-year-old woman with immune thrombocytopenic purpura (ITP) diagnosed 18 months ago presents for review. She has failed two courses of high-dose corticosteroids and a course of rituximab. Her platelet count is persistently 12 × 10⁹/L and she has had two episodes of spontaneous gum bleeding. She has no history of thromboembolic disease. Which is the MOST appropriate next management step?",
+    "options": [
+      "Start a third course of high-dose dexamethasone",
+      "Long-term thrombopoietin receptor agonist (e.g. eltrombopag) as definitive therapy",
+      "Splenectomy following pre-operative vaccination",
+      "Bone marrow transplantation",
+      "Intravenous immunoglobulin (IVIG) as long-term maintenance therapy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Splenectomy is the recommended second-line treatment for chronic ITP that has failed corticosteroids and at least one immunosuppressive agent (e.g. rituximab). The spleen is both the primary site of antiplatelet antibody production and the main organ of platelet destruction. Splenectomy achieves durable remission in approximately 60–70% of cases. Pre-operative vaccination against encapsulated organisms is mandatory. TPO receptor agonists are an alternative but are not curative and require ongoing therapy.",
+    "wrongAnswerExplanations": [
+      "A third course of corticosteroids after two failures is inappropriate and exposes the patient to significant steroid toxicity without likely benefit.",
+      "Eltrombopag (TPO-RA) is a valid second/third-line option but requires indefinite therapy and is not curative — splenectomy offers the chance of durable disease-free remission.",
+      "Splenectomy after pre-operative vaccination is correct for chronic refractory ITP that has failed corticosteroids and rituximab — it is the most appropriate intervention at this stage.",
+      "Bone marrow transplantation is not indicated for ITP, which is an autoimmune peripheral platelet destruction disorder, not a bone marrow failure syndrome.",
+      "IVIG provides a transient platelet rise (days to weeks) and is used for acute bleeding or pre-operatively; it is not appropriate as long-term maintenance therapy."
+    ],
+    "clinicalPearl": "Splenectomy in ITP removes both the antibody-producing organ and the primary site of platelet destruction — pre-operative pneumococcal, meningococcal, and Hib vaccination is mandatory."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Delayed splenic rupture",
+    "question": "A 31-year-old man presents to his GP 10 days after sustaining a direct blow to his left flank in a rugby match. At the time of the injury he was seen in the emergency department, had normal observations, and was discharged after a normal abdominal X-ray. He now reports worsening left-sided abdominal pain and left shoulder tip pain. On examination, BP is 96/60 mmHg and HR is 118 bpm; he has generalised abdominal tenderness with guarding. Which diagnosis BEST explains this presentation?",
+    "options": [
+      "Acute pancreatitis secondary to the original trauma",
+      "Delayed splenic rupture",
+      "Left-sided pneumothorax from a missed rib fracture",
+      "Ruptured left renal haematoma",
+      "Mesenteric haematoma with small bowel obstruction"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Delayed splenic rupture classically presents 48 hours to 2 weeks after an apparently minor abdominal injury. The initial injury causes a subcapsular haematoma which slowly enlarges until it ruptures the splenic capsule, causing haemoperitoneum and haemodynamic instability. Kehr's sign (left shoulder tip pain from diaphragmatic irritation by blood) is characteristic. This scenario — a latent interval after trauma followed by haemodynamic collapse — is the hallmark of delayed splenic rupture.",
+    "wrongAnswerExplanations": [
+      "Acute traumatic pancreatitis can present days after injury but typically causes epigastric pain and elevated amylase, not haemodynamic shock with shoulder tip pain.",
+      "Delayed splenic rupture is correct — a 10-day latent period after splenic contusion followed by haemodynamic instability and Kehr's sign is the classic presentation.",
+      "A missed pneumothorax would cause respiratory distress and reduced breath sounds, not shoulder tip pain and abdominal guarding with haemodynamic shock.",
+      "Ruptured renal haematoma is possible but would more typically cause haematuria and flank pain; the combination with shoulder tip pain and haemodynamic collapse is more characteristic of splenic rupture.",
+      "Mesenteric haematoma causing bowel obstruction would present with colicky pain, vomiting, and obstruction features — not acute haemodynamic instability and shoulder tip pain."
+    ],
+    "clinicalPearl": "Delayed splenic rupture can occur up to 2 weeks after apparently minor trauma — any patient with a history of abdominal injury presenting with haemodynamic instability must be evaluated for splenic rupture even if initial imaging was reassuring."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Non-operative management failure",
+    "question": "A 38-year-old woman is admitted with a Grade III splenic laceration following a low-speed road traffic collision. She is managed non-operatively and is stable on the ward. On day 2, her HR rises to 118 bpm and her BP falls to 95/60 mmHg. Repeat CT shows enlargement of the perisplenic haematoma with active contrast extravasation. She has received 4 units of packed red cells in the last 12 hours. Which is the BEST next step in management?",
+    "options": [
+      "Continue non-operative management with further blood transfusion",
+      "Discharge the patient with outpatient CT follow-up in 2 weeks",
+      "Proceed to emergency laparotomy and splenectomy",
+      "Splenic artery angioembolisation",
+      "Admit to ICU for vasopressor support and serial FAST scans"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has failed non-operative management — she is haemodynamically unstable (hypotension, tachycardia) despite significant blood transfusion (4 units), with CT evidence of enlarging haematoma and active bleeding. In the context of ongoing haemodynamic instability despite resuscitation, emergency laparotomy and splenectomy is the definitive management. Angioembolisation is appropriate for borderline-stable patients but not for those in established haemodynamic compromise requiring ongoing transfusion.",
+    "wrongAnswerExplanations": [
+      "Continuing NOM with more blood in a haemodynamically unstable patient who is actively bleeding is dangerous and delays life-saving surgery.",
+      "Discharge with outpatient follow-up is wholly inappropriate and would be dangerous for a patient in haemodynamic compromise with active bleeding on CT.",
+      "Emergency laparotomy and splenectomy is correct — NOM has failed in the presence of haemodynamic instability despite 4 units of blood and active extravasation on CT.",
+      "Angioembolisation is appropriate for haemodynamically borderline or stable patients with an active blush; this patient is overtly unstable and requires immediate surgical control.",
+      "Vasopressors are not a substitute for surgical haemorrhage control; vasopressor support without addressing the source of bleeding would be inappropriate here."
+    ],
+    "clinicalPearl": "Failure of NOM is defined by haemodynamic instability, transfusion requirement ≥4 units, or progression on imaging — any of these mandate immediate operative intervention."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "bilary system spleen-pancreas.pdf",
+    "topic": "Splenectomy — haematological indications (hereditary spherocytosis)",
+    "question": "A 16-year-old boy is referred by his haematologist with hereditary spherocytosis. He has moderate disease with Hb consistently 85–95 g/L, recurrent haemolytic crises requiring hospitalisation, and gallstones on ultrasound. His parents ask about splenectomy. What is the MOST appropriate advice?",
+    "options": [
+      "Splenectomy is contraindicated in children under 18 years",
+      "Splenectomy should be deferred until adulthood and is only beneficial in severe disease",
+      "Splenectomy is curative, should be considered after age 6, requires pre-operative vaccination, and concomitant cholecystectomy should be considered given his gallstones",
+      "Splenectomy should be avoided as it carries a high risk of fatal haemorrhage in spherocytosis",
+      "Partial splenectomy is always preferred over total splenectomy to maintain immune function"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In hereditary spherocytosis, splenectomy is the treatment of choice for moderate to severe disease. The spleen is the site of spherocyte sequestration and destruction. Splenectomy corrects anaemia and eliminates haemolytic crises. It is generally deferred until age 6 to preserve early childhood immunity. Pre-operative vaccination (pneumococcal, meningococcal, Hib) is mandatory. Pigment gallstones are common in haemolytic anaemia, and concomitant cholecystectomy should be considered at the same operation.",
+    "wrongAnswerExplanations": [
+      "Splenectomy is not contraindicated in patients under 18; it is commonly performed in children with moderate-to-severe hereditary spherocytosis, typically after age 6.",
+      "Splenectomy is beneficial in both moderate and severe disease with recurrent crises — deferral until adulthood is not required; the threshold is age 6 rather than 18.",
+      "This is correct: splenectomy after age 6 with pre-operative vaccination and concomitant cholecystectomy (given gallstones) is the appropriate plan for moderate hereditary spherocytosis with haemolytic crises.",
+      "Splenectomy does not carry unusually high haemorrhage risk in spherocytosis; the standard perioperative risks apply.",
+      "Total splenectomy is typically preferred over partial splenectomy in hereditary spherocytosis to fully eliminate the site of haemolysis — partial splenectomy may allow recurrent haemolysis."
+    ],
+    "clinicalPearl": "In hereditary spherocytosis, splenectomy is curative — it does not fix the red cell membrane defect but removes the organ responsible for haemolysis; always vaccinate first and consider cholecystectomy if gallstones are present."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "OPSI prophylaxis — antibiotic prophylaxis",
+    "question": "A 45-year-old woman underwent elective splenectomy 3 months ago for refractory ITP. She has received her post-splenectomy vaccinations. She is reviewed in the outpatient clinic and asks how long she needs to take prophylactic antibiotics. Which is the MOST accurate advice to give her?",
+    "options": [
+      "Prophylactic antibiotics are required for 2 years post-splenectomy only",
+      "Prophylactic antibiotics are only needed if she misses a vaccine dose",
+      "Lifelong daily prophylactic antibiotics (e.g. penicillin V 500 mg twice daily) are recommended, as the risk of OPSI persists indefinitely",
+      "Antibiotics are only required during the winter months when respiratory infections are prevalent",
+      "No prophylaxis is needed after the first year, as the immune system adapts to asplenia"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Current UK guidelines (British Committee for Standards in Haematology) recommend lifelong prophylactic antibiotics for asplenic patients, as the risk of OPSI, while highest in the first 2–3 years, persists indefinitely. Penicillin V (phenoxymethylpenicillin) 500 mg twice daily is the standard recommendation; amoxicillin is an alternative. The risk is lifelong because the immune defect in encapsulated organism recognition is permanent following splenectomy. Education about the risk, vaccination, antibiotic prophylaxis, and carrying a card are all components of asplenic care.",
+    "wrongAnswerExplanations": [
+      "Limiting prophylaxis to 2 years is outdated and insufficient — while risk is highest in the first 2 years, OPSI can occur decades after splenectomy.",
+      "Antibiotic prophylaxis is required regardless of vaccination status; vaccines reduce but do not eliminate OPSI risk, and antibiotics provide an additional layer of protection.",
+      "Lifelong daily penicillin V is correct — the immune defect is permanent, and OPSI risk persists throughout life despite vaccination.",
+      "Seasonal antibiotic use is insufficient — OPSI can occur at any time of year and with any encapsulated organism, not solely respiratory pathogens.",
+      "The immune system does not adapt to replace splenic function for encapsulated organisms; asplenic patients remain at lifelong risk without prophylaxis."
+    ],
+    "clinicalPearl": "Post-splenectomy prophylaxis is lifelong: daily penicillin V, regular booster vaccinations (pneumococcal every 5 years), annual influenza vaccine, and an emergency supply of antibiotics for fever — compliance declines over years but the risk never disappears."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "spleen.pdf",
+    "topic": "Splenic trauma — management of penetrating injury",
+    "question": "A 24-year-old man is brought to the emergency department after a stab wound to the left upper quadrant. He is agitated with a BP of 85/50 mmHg and HR of 142 bpm. His abdomen is rigid. Two large-bore IV cannulae are sited and he receives blood products in a 1:1:1 ratio. His BP improves transiently to 100/60 mmHg but then drops again. FAST ultrasound shows significant free fluid. Which is the MOST appropriate definitive management?",
+    "options": [
+      "CT abdomen with contrast to identify the injury before proceeding to theatre",
+      "Emergency exploratory laparotomy",
+      "Diagnostic laparoscopy under general anaesthetic",
+      "Non-operative management with serial abdominal examinations",
+      "Splenic artery embolisation in the interventional radiology suite"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Penetrating abdominal trauma with haemodynamic instability is an absolute indication for emergency exploratory laparotomy. There is no role for CT scanning in an unstable penetrating trauma patient — the delay is life-threatening and CT will not change immediate management. Laparoscopy has a role in stable penetrating abdominal trauma for selected cases but not in haemodynamic instability. Non-operative management is generally only considered for blunt trauma in stable patients. Angioembolisation requires stability for transfer to the IR suite.",
+    "wrongAnswerExplanations": [
+      "CT in a haemodynamically unstable patient causes dangerous delays — the patient will not survive the time required for CT in this scenario.",
+      "Emergency exploratory laparotomy is correct — penetrating trauma with haemodynamic instability mandates immediate surgical exploration; no further imaging is required.",
+      "Diagnostic laparoscopy is appropriate for stable patients with penetrating abdominal trauma to evaluate for peritoneal breach but is not appropriate in haemodynamic instability.",
+      "Non-operative management of penetrating abdominal trauma with haemodynamic instability is not appropriate — this patient requires immediate surgical haemorrhage control.",
+      "Angioembolisation requires haemodynamic stability and CT identification of the bleeding vessel — neither condition is met in this patient."
+    ],
+    "clinicalPearl": "Penetrating abdominal trauma with haemodynamic instability is a surgical emergency requiring immediate laparotomy — do not delay for CT or other investigations when the patient is unstable."
+  }
+]

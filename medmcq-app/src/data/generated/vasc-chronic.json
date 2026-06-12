@@ -1,0 +1,301 @@
+[
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Intermittent claudication",
+    "question": "A 62-year-old male smoker with type 2 diabetes and hypertension presents with a 6-month history of cramping pain in his right calf after walking approximately 200 metres. The pain resolves within 2 minutes of rest. He has no rest pain and his foot is warm with intact sensation. Ankle-brachial pressure index (ABPI) on the right is 0.65. What is the most appropriate initial management?",
+    "options": [
+      "Urgent surgical revascularisation",
+      "Supervised exercise programme, smoking cessation, and antiplatelet therapy",
+      "Intravenous heparin infusion and admission",
+      "Below-knee amputation",
+      "CT angiography and immediate endovascular intervention"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has Fontaine stage II intermittent claudication with an ABPI of 0.65, consistent with moderate peripheral arterial disease. First-line management is conservative: a supervised exercise programme (shown to improve claudication distance), smoking cessation, antiplatelet therapy (aspirin or clopidogrel), statin therapy, and optimisation of cardiovascular risk factors. Intervention is reserved for those who fail conservative measures or have significant lifestyle limitation.",
+    "wrongAnswerExplanations": [
+      "Urgent surgical revascularisation is not indicated for intermittent claudication without critical ischaemia; conservative management is first-line.",
+      "Supervised exercise, smoking cessation, and antiplatelet therapy is the correct initial approach for Fontaine stage II claudication with no features of critical ischaemia.",
+      "IV heparin is used in acute limb ischaemia, not chronic stable claudication.",
+      "Amputation has no role in intermittent claudication; it is reserved for non-salvageable critical ischaemia or severe gangrene.",
+      "CT angiography and immediate intervention are reserved for critical limb ischaemia or failure of conservative management; this patient has stable claudication."
+    ],
+    "clinicalPearl": "Intermittent claudication (Fontaine II) is managed conservatively first — supervised exercise improves walking distance by up to 150%; reserve revascularisation for failure or critical ischaemia."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Fontaine staging",
+    "question": "A 71-year-old woman with a long history of peripheral arterial disease presents to the vascular clinic. She reports severe pain in her right foot and toes that wakes her from sleep every night. She gains relief by hanging her foot over the side of the bed. Examination reveals a pale, cool right foot with a pressure sore on the heel. ABPI on the right is 0.38. Which Fontaine stage does this presentation represent?",
+    "options": [
+      "Fontaine stage I",
+      "Fontaine stage IIa",
+      "Fontaine stage IIb",
+      "Fontaine stage III",
+      "Fontaine stage IV"
+    ],
+    "correctAnswerIndex": 4,
+    "explanation": "Fontaine stage IV is defined by tissue loss — including ischaemic ulceration, gangrene, or non-healing wounds — in the context of critical limb ischaemia. The presence of a heel pressure sore (tissue loss) combined with rest pain and severely reduced ABPI (0.38) places this patient in Fontaine stage IV. Stage III is rest pain alone without tissue loss.",
+    "wrongAnswerExplanations": [
+      "Fontaine stage I is asymptomatic peripheral arterial disease detected only on investigation; this patient has severe symptoms and tissue loss.",
+      "Fontaine stage IIa is mild claudication (pain-free walking distance >200 m); not applicable here.",
+      "Fontaine stage IIb is severe claudication (pain-free walking distance <200 m); this patient has rest pain and tissue loss, which is more advanced.",
+      "Fontaine stage III is rest pain without tissue loss; this patient has a heel ulcer, indicating tissue loss and therefore stage IV.",
+      "Fontaine stage IV (tissue loss including ulceration/gangrene) is the correct classification for rest pain plus a heel pressure sore."
+    ],
+    "clinicalPearl": "Fontaine stage III = rest pain only; stage IV = tissue loss (ulcer or gangrene) — both constitute critical limb ischaemia requiring urgent revascularisation."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "ABPI interpretation",
+    "question": "A 68-year-old man with long-standing type 1 diabetes presents for vascular assessment. He complains of exertional calf pain but denies rest pain. Duplex ultrasound suggests occlusive disease in the superficial femoral artery. ABPI measurement on the affected limb returns a value of 1.4. What is the most likely explanation for this ABPI result?",
+    "options": [
+      "The result confirms normal perfusion and no further investigation is needed",
+      "The patient has hypertension causing a falsely elevated brachial pressure",
+      "Medial calcinosis in diabetic vessels renders the arteries incompressible, giving a falsely elevated ABPI",
+      "The ankle pressure cuff was placed incorrectly, causing an underestimate of true ABPI",
+      "The result indicates severe aorto-iliac occlusive disease"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In long-standing diabetes, medial arterial calcification (Mönckeberg's sclerosis) renders the vessel wall non-compressible. This causes falsely elevated or non-compressible ABPI values (often ≥1.3 or unrecordable), despite significant underlying ischaemia. An ABPI >1.3 should be regarded as unreliable, and toe-brachial index or toe pressure should be used instead.",
+    "wrongAnswerExplanations": [
+      "An ABPI of 1.4 in a diabetic with symptoms does not confirm normal perfusion; it is likely falsely elevated due to vessel calcification.",
+      "Hypertension would increase both brachial and ankle pressures but would not selectively elevate the ABPI to 1.4 in a symptomatic limb.",
+      "Medial calcinosis causing incompressible vessels is the correct explanation for a falsely elevated ABPI in long-standing diabetes.",
+      "An incorrectly placed cuff would more likely cause an underestimate, not a value of 1.4; and this does not explain the finding.",
+      "Severe aorto-iliac disease would lower the ABPI, not elevate it to 1.4."
+    ],
+    "clinicalPearl": "ABPI >1.3 in a diabetic = medial calcinosis causing falsely elevated result; use toe-brachial index (TBI) or toe pressure as the gold standard in these patients."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Critical limb ischaemia — rest pain",
+    "question": "A 75-year-old ex-smoker with ischaemic heart disease and hyperlipidaemia presents with a 3-week history of severe burning pain in his left foot. The pain is constant, worse at night, and he sleeps in a chair to get relief. On examination, the left foot is cold and pale; capillary refill is 4 seconds. ABPI is 0.32 on the left. What is the threshold ankle systolic pressure that defines critical limb ischaemia on ABPI criteria?",
+    "options": [
+      "Ankle systolic pressure <70 mmHg",
+      "Ankle systolic pressure <50 mmHg",
+      "Ankle systolic pressure <30 mmHg",
+      "Ankle systolic pressure <80 mmHg",
+      "Ankle systolic pressure <60 mmHg"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Critical limb ischaemia is defined by an ankle systolic pressure of less than 50 mmHg (or toe pressure <30 mmHg) combined with rest pain for more than 2 weeks, ischaemic ulceration, or gangrene. An ABPI <0.4 generally corresponds to this pressure range. This patient's ABPI of 0.32 with rest pain for 3 weeks meets the criteria for critical limb ischaemia.",
+    "wrongAnswerExplanations": [
+      "An ankle systolic pressure <70 mmHg is too high a threshold; the accepted criterion for critical limb ischaemia is <50 mmHg.",
+      "Ankle systolic pressure <50 mmHg is the correct threshold for critical limb ischaemia by TASC II/European consensus criteria.",
+      "A threshold of <30 mmHg is the toe pressure threshold for critical ischaemia (used in diabetics), not the ankle pressure threshold.",
+      "<80 mmHg is not the accepted threshold; this would over-diagnose critical ischaemia.",
+      "<60 mmHg is not the standard threshold; the accepted ankle pressure criterion is <50 mmHg."
+    ],
+    "clinicalPearl": "Critical limb ischaemia = rest pain >2 weeks PLUS ankle pressure <50 mmHg or toe pressure <30 mmHg — this mandates urgent vascular referral and revascularisation planning."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Risk factors for peripheral arterial disease",
+    "question": "A 58-year-old woman is referred with newly diagnosed intermittent claudication. She is a 30 pack-year smoker, has well-controlled hypertension on amlodipine, and has a BMI of 31. Her fasting lipid profile shows total cholesterol 6.2 mmol/L and LDL 4.1 mmol/L. HbA1c is 48 mmol/mol. Which single risk factor has the strongest independent association with the development of peripheral arterial disease?",
+    "options": [
+      "Hypertension",
+      "Obesity (BMI >30)",
+      "Cigarette smoking",
+      "Hypercholesterolaemia",
+      "Pre-diabetes (HbA1c 42–47 mmol/mol)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Cigarette smoking is the strongest independent risk factor for peripheral arterial disease, conferring a 2–4-fold increased risk. It accelerates atherosclerosis and is associated with more severe and distal disease. Smokers with PAD have significantly worse outcomes than non-smokers, and smoking cessation is the single most effective intervention to slow disease progression.",
+    "wrongAnswerExplanations": [
+      "Hypertension is a significant risk factor for PAD but is not as strongly associated as cigarette smoking in epidemiological studies.",
+      "Obesity contributes to metabolic risk but is not the strongest independent risk factor for PAD; it acts largely through its association with diabetes and hypertension.",
+      "Cigarette smoking is the strongest independent risk factor for PAD, with a relative risk of 2–4 times compared to non-smokers.",
+      "Hypercholesterolaemia is an important risk factor but ranks below smoking in terms of strength of association with PAD specifically.",
+      "Pre-diabetes (impaired glucose regulation) is a risk factor but has a weaker association than established smoking in the development of PAD."
+    ],
+    "clinicalPearl": "Smoking is the dominant risk factor for PAD — it doubles to quadruples the risk and is the single most impactful modifiable factor; cessation is the highest-priority intervention."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Investigation of peripheral arterial disease",
+    "question": "A 66-year-old man with known PAD presents with worsening right calf and thigh claudication at 100 metres. ABPI is 0.55. He is being considered for revascularisation. Which investigation provides the most detailed anatomical roadmap of the arterial tree to guide intervention planning?",
+    "options": [
+      "Ankle-brachial pressure index measurement",
+      "Duplex ultrasound of the lower limb arteries",
+      "CT angiography of the aorta and lower limb arteries",
+      "Plain X-ray of the pelvis and lower limbs",
+      "Venous duplex ultrasound"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "CT angiography (CTA) of the aorta and lower limb arteries provides high-resolution, three-dimensional anatomical information about the location, extent, and morphology of occlusions and stenoses, and is the gold-standard pre-procedural planning tool for both endovascular and open surgical revascularisation. It allows full visualisation from the aortic bifurcation to the pedal vessels.",
+    "wrongAnswerExplanations": [
+      "ABPI is a useful screening and monitoring tool but gives no anatomical detail about the location or extent of disease.",
+      "Duplex ultrasound is operator-dependent and useful for localised assessment and post-operative surveillance, but it does not provide the comprehensive anatomical roadmap required for revascularisation planning in multilevel disease.",
+      "CT angiography provides the best anatomical roadmap for revascularisation planning, offering full visualisation of the arterial tree with high resolution.",
+      "Plain X-ray can identify calcified vessels but provides no information about luminal patency or degree of stenosis.",
+      "Venous duplex is used for venous disease and vein mapping for bypass grafting, not for arterial roadmapping."
+    ],
+    "clinicalPearl": "CT angiography is the gold standard for pre-revascularisation planning in PAD, providing detailed anatomy from aorta to foot; MRA is an alternative in those with contrast contraindications."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Gangrene in critical limb ischaemia",
+    "question": "A 79-year-old woman with type 2 diabetes, chronic kidney disease stage 3, and hypertension is brought in by her family. She has been unable to walk for 2 months and has a black, dry, demarcated area of necrosis involving her right 4th and 5th toes. The surrounding skin is cool and pale. She has no fever, white cell count is normal, and CRP is 12 mg/L. What type of gangrene is this, and what is the initial management priority?",
+    "options": [
+      "Wet gangrene; immediate surgical debridement and broad-spectrum antibiotics",
+      "Gas gangrene; emergency theatre and IV penicillin",
+      "Dry gangrene; urgent vascular assessment for possible revascularisation",
+      "Infected diabetic foot ulcer; IV antibiotics and wound swabs",
+      "Venous gangrene; anticoagulation and compression therapy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The black, dry, demarcated, non-infected appearance with no systemic sepsis is consistent with dry gangrene secondary to critical ischaemia. The priority is urgent vascular assessment to determine revascularisation potential, as restoration of blood flow may prevent propagation of gangrene and potentially allow minor amputation. If not revascularisable, the dry gangrene can be allowed to auto-amputate or a planned minor amputation performed.",
+    "wrongAnswerExplanations": [
+      "Wet gangrene involves oedema, blistering, malodour, and systemic infection; this presentation is dry with no infection markers, making wet gangrene incorrect.",
+      "Gas gangrene (Clostridial myonecrosis) presents with rapidly spreading necrosis, gas in tissues, and severe systemic toxicity; none of these features are present.",
+      "Dry gangrene with urgent vascular assessment is the correct approach — revascularisation may halt progression and allow limb salvage.",
+      "An infected diabetic foot ulcer would present with cellulitis, discharge, fever, and raised inflammatory markers; the normal WCC and low CRP make this unlikely.",
+      "Venous gangrene is rare, associated with massive DVT and venous hypertension, and would present with limb swelling and livedo; this presentation is arterial."
+    ],
+    "clinicalPearl": "Dry gangrene = mummified, demarcated, odourless, no infection — do not debride until vascular assessment; revascularise if possible to prevent proximal spread."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Medical management of PAD",
+    "question": "A 64-year-old male with newly diagnosed peripheral arterial disease (ABPI 0.62, intermittent claudication at 150 metres) attends a vascular clinic. He is currently on no regular medications. He is a smoker and has a total cholesterol of 5.8 mmol/L. In addition to smoking cessation advice and a supervised exercise programme, which medication has the strongest evidence base to reduce his cardiovascular mortality?",
+    "options": [
+      "Warfarin anticoagulation",
+      "Beta-blocker therapy",
+      "High-intensity statin therapy",
+      "ACE inhibitor",
+      "Calcium channel blocker"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Patients with PAD have a very high cardiovascular risk, with the majority dying from myocardial infarction or stroke. High-intensity statin therapy (e.g. atorvastatin 80 mg) reduces cardiovascular events and mortality, and also slows progression of PAD and improves claudication distance. Statins combined with antiplatelet therapy form the cornerstone of medical management in PAD.",
+    "wrongAnswerExplanations": [
+      "Warfarin has no proven benefit over antiplatelet therapy in PAD and increases bleeding risk; it is not indicated unless there is a separate indication such as atrial fibrillation.",
+      "Beta-blockers are not first-line in PAD and were historically thought to worsen claudication (though evidence is mixed); they do not have the strongest cardiovascular mortality benefit in this context.",
+      "High-intensity statin therapy is the correct answer — it reduces MACE and overall mortality in PAD patients, who have systemic atherosclerosis.",
+      "ACE inhibitors (e.g. ramipril) have evidence in PAD but rank below statins in terms of the strength of mortality benefit in PAD-specific trials.",
+      "Calcium channel blockers treat hypertension but have no specific cardiovascular mortality benefit in PAD beyond blood pressure reduction."
+    ],
+    "clinicalPearl": "All PAD patients should receive high-intensity statin therapy regardless of cholesterol level — PAD is a coronary risk equivalent and statins reduce MACE and improve claudication."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Endovascular vs surgical revascularisation",
+    "question": "A 70-year-old woman with intermittent claudication at 80 metres has failed a 6-month supervised exercise programme. CT angiography reveals a single 4 cm stenosis in the right iliac artery with otherwise patent vessels. She has no rest pain, no tissue loss, and ABPI is 0.61. What is the most appropriate intervention?",
+    "options": [
+      "Aorto-bifemoral bypass grafting",
+      "Below-knee amputation",
+      "Percutaneous transluminal angioplasty (PTA) ± stenting of the iliac stenosis",
+      "Femoral-popliteal bypass with reversed saphenous vein",
+      "Long-term anticoagulation with rivaroxaban alone"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "For a short, focal iliac stenosis in a patient who has failed conservative management, endovascular intervention (percutaneous transluminal angioplasty with or without stenting) is the first-line revascularisation strategy. Iliac angioplasty has excellent technical success rates and low procedural morbidity. Open bypass surgery is reserved for long-segment occlusions or failed endovascular procedures.",
+    "wrongAnswerExplanations": [
+      "Aorto-bifemoral bypass is a major open operation reserved for diffuse aorto-iliac occlusive disease (TASC C/D) not amenable to endovascular treatment; it is not appropriate for a focal 4 cm iliac stenosis.",
+      "Amputation has no role in claudication without critical ischaemia; this would be inappropriate.",
+      "PTA ± stenting is the correct first-line revascularisation for focal iliac stenosis after failure of conservative management.",
+      "Femoral-popliteal bypass addresses superficial femoral/popliteal disease; the lesion is iliac and should be treated endovascularly.",
+      "Rivaroxaban alone does not revascularise the limb and is not indicated as a revascularisation strategy in PAD."
+    ],
+    "clinicalPearl": "Focal iliac stenosis = endovascular first (PTA ± stent); open bypass is reserved for TASC C/D long-segment or failed endovascular cases — 'endovascular first' is the modern paradigm."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Differentiating claudication from other causes of leg pain",
+    "question": "A 67-year-old man presents with bilateral leg pain on walking. He describes the pain as a dull ache in both buttocks and thighs that starts after walking 300 metres. He also reports erectile dysfunction and bilateral buttock wasting. Peripheral pulses are absent at the femoral level bilaterally. ABPI is 0.55 bilaterally. Which syndrome does this constellation represent?",
+    "options": [
+      "Leriche syndrome",
+      "Popliteal artery entrapment syndrome",
+      "Spinal canal stenosis (neurogenic claudication)",
+      "Buerger's disease (thromboangiitis obliterans)",
+      "Bilateral deep vein thrombosis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Leriche syndrome is caused by aorto-iliac occlusive disease and classically presents with the triad of: (1) bilateral buttock/thigh claudication, (2) absent or diminished femoral pulses, and (3) erectile dysfunction in men. Buttock and thigh wasting may also be present due to chronic ischaemia of the pelvic muscles. It requires aorto-iliac revascularisation.",
+    "wrongAnswerExplanations": [
+      "Leriche syndrome is the correct diagnosis — the classic triad of bilateral claudication, absent femoral pulses, and erectile dysfunction indicates aorto-iliac occlusion.",
+      "Popliteal artery entrapment presents in young, athletic individuals with unilateral calf claudication and normal ABPI at rest; bilateral femoral absent pulses make this wrong.",
+      "Neurogenic claudication (spinal stenosis) presents with back pain radiating to the legs, relieved by leaning forward or sitting, with preserved peripheral pulses and normal ABPI.",
+      "Buerger's disease affects young male smokers, involves distal small vessels, and is associated with superficial thrombophlebitis; it does not cause absent femoral pulses.",
+      "Bilateral DVT causes leg swelling, warmth, and pain at rest; it does not cause claudication or absent femoral pulses."
+    ],
+    "clinicalPearl": "Leriche syndrome triad: bilateral thigh/buttock claudication + absent femoral pulses + erectile dysfunction = aorto-iliac occlusive disease requiring aorto-bifemoral or endovascular reconstruction."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Amputation in peripheral arterial disease",
+    "question": "An 80-year-old male with advanced PAD, prior failed femoral-popliteal bypass, and forefoot gangrene involving all five toes is assessed for amputation. His contralateral leg is intact with mild claudication. He is frail with limited mobility pre-morbidly and lives alone. Which level of amputation is most likely to offer the best balance between wound healing potential and rehabilitation?",
+    "options": [
+      "Ray amputation (single toe and metatarsal)",
+      "Trans-metatarsal amputation",
+      "Below-knee (trans-tibial) amputation",
+      "Above-knee (trans-femoral) amputation",
+      "Hip disarticulation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "With gangrene involving all five toes and failed revascularisation, a below-knee (trans-tibial) amputation offers the best chance of wound healing at a level with improved tissue perfusion compared to forefoot, while preserving the knee joint which is critical for prosthetic rehabilitation. Trans-metatarsal amputation would not heal with pan-forefoot gangrene and inadequate perfusion. Below-knee amputation has a much better functional outcome and energy expenditure for walking than above-knee amputation in frail elderly patients.",
+    "wrongAnswerExplanations": [
+      "Ray amputation is appropriate for a single gangrenous toe with adequate perfusion in the foot; it would not be appropriate with pan-forefoot gangrene and failed revascularisation.",
+      "Trans-metatarsal amputation requires adequate forefoot perfusion to heal; with all five toes involved and failed bypass, this level is unlikely to heal.",
+      "Below-knee amputation is the correct level — preserves the knee joint for prosthetic use, has good healing rates at tibial level, and offers the best rehabilitation potential.",
+      "Above-knee amputation is reserved when below-knee is not feasible (very proximal disease, knee flexion contracture); it has higher energy expenditure for walking and worse rehabilitation outcomes in the frail elderly.",
+      "Hip disarticulation is an extreme measure reserved for uncontrolled sepsis or tumour and has virtually no rehabilitation potential; entirely inappropriate here."
+    ],
+    "clinicalPearl": "Below-knee amputation should always be attempted if feasible — preserving the knee joint dramatically improves prosthetic rehabilitation and reduces mortality compared to above-knee amputation."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "ABPI in screening and diagnosis",
+    "question": "A practice nurse screens a 55-year-old asymptomatic woman with a strong family history of vascular disease during a health check. She has never smoked, is normotensive, and her cholesterol is 4.9 mmol/L. Her resting ABPI is measured at 0.88 in the right limb. How should this result be interpreted?",
+    "options": [
+      "Normal; no further action required",
+      "Borderline; suggests possible peripheral arterial disease and warrants risk factor optimisation and repeat measurement",
+      "Diagnostic of critical limb ischaemia; urgent vascular referral required",
+      "Falsely low due to hypertension",
+      "Normal variant in women; ABPI thresholds differ by sex"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An ABPI of 0.88 falls in the borderline range (0.8–0.9). A normal ABPI is 0.9–1.3. Values between 0.8 and 0.9 indicate mild peripheral arterial disease or borderline perfusion and warrant cardiovascular risk factor optimisation (statin, antiplatelet consideration, lifestyle advice) and repeat assessment. This is not a normal result and should not be dismissed.",
+    "wrongAnswerExplanations": [
+      "An ABPI of 0.88 is below the normal threshold of 0.9 and should not be dismissed as normal; it indicates borderline/mild PAD.",
+      "Borderline ABPI (0.8–0.9) suggesting possible PAD with risk factor optimisation is the correct interpretation and management.",
+      "Critical limb ischaemia is defined by ABPI <0.4 or ankle pressure <50 mmHg with symptoms; 0.88 does not meet this threshold.",
+      "Hypertension would not cause a low ABPI; it might produce a falsely elevated result in calcified vessels. The patient is normotensive.",
+      "ABPI thresholds are not different by sex; the normal range of 0.9–1.3 applies to both men and women."
+    ],
+    "clinicalPearl": "Normal ABPI = 0.9–1.3; ABPI 0.8–0.9 = borderline/mild PAD; ABPI <0.9 = PAD; <0.4 = severe/critical ischaemia — act on borderline results with risk factor management."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Chronic Limb Ischemia.pdf",
+    "topic": "Acute-on-chronic limb ischaemia",
+    "question": "A 72-year-old man with known peripheral arterial disease and intermittent claudication presents to the emergency department with sudden-onset severe rest pain in his right foot for the past 4 hours. On examination, the right foot is cold, pale, and mottled. Sensation is reduced compared to the left. Dorsalis pedis and posterior tibial pulses are absent on the right. Femoral pulse is present. His ABPI cannot be recorded due to non-compressible vessels on Doppler. What is the most appropriate immediate management?",
+    "options": [
+      "Arrange elective CT angiography and admit for monitoring",
+      "Start therapeutic anticoagulation with low molecular weight heparin and arrange urgent vascular surgical review",
+      "Apply compression bandaging and elevate the limb",
+      "Commence intravenous antibiotics for suspected cellulitis",
+      "Discharge with increased dose of antiplatelet therapy and outpatient review in 2 weeks"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This presentation is consistent with acute limb ischaemia (ALI) superimposed on chronic PAD — likely acute thrombosis on a background of atherosclerotic occlusion. The 6 Ps (pain, pallor, paraesthesia, paralysis, pulselessness, perishingly cold) and onset over 4 hours mandate immediate anticoagulation (IV unfractionated or therapeutic LMWH) to prevent clot propagation, and urgent vascular surgical review for emergency revascularisation (embolectomy, thrombolysis, or bypass). This is a limb-threatening emergency.",
+    "wrongAnswerExplanations": [
+      "Elective CT angiography and admission for monitoring is dangerously delayed; ALI is a time-critical emergency and revascularisation should occur within 6 hours to preserve limb viability.",
+      "Immediate anticoagulation and urgent vascular surgical review is correct — this treats ALI, prevents clot propagation, and initiates the pathway to emergency revascularisation.",
+      "Compression bandaging is contraindicated in acute arterial ischaemia and would worsen perfusion; limb elevation reduces arterial flow and is harmful.",
+      "The presentation is not consistent with cellulitis — there is no erythema, warmth, or infection; antibiotics are not indicated.",
+      "Discharging a patient with acute limb ischaemia with more antiplatelets is dangerous and would result in limb loss or death; this is an emergency."
+    ],
+    "clinicalPearl": "Acute limb ischaemia is a surgical emergency — anticoagulate immediately to prevent propagation, then revascularise within 6 hours; paralysis or fixed mottling indicates irreversible ischaemia requiring amputation."
+  }
+]

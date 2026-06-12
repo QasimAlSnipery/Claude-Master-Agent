@@ -1,0 +1,301 @@
+[
+ {
+  "system": "git",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Large-bowel obstruction",
+  "question": "A 72-year-old woman presents to the emergency department with a 5-day history of absolute constipation, progressive abdominal distension, and colicky lower abdominal pain. She has lost 8 kg over the past 3 months and noticed blood mixed with stool on two occasions. On examination her abdomen is markedly distended and tympanic, with mild generalised tenderness but no peritonism. AXR shows a massively dilated colon with a transition point in the sigmoid region. CT colonography confirms a short apple-core lesion at the rectosigmoid junction. What is the most appropriate immediate management?",
+  "options": [
+   "Emergency Hartmann's procedure",
+   "Self-expanding metal stent (SEMS) as a bridge to elective surgery",
+   "Urgent colonoscopy and polypectomy",
+   "Water-soluble contrast enema and observation",
+   "IV antibiotics and nasogastric decompression"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "In a haemodynamically stable patient with malignant large-bowel obstruction and no signs of perforation or peritonitis, insertion of a self-expanding metal stent (SEMS) as a bridge to elective surgery is the preferred approach. This decompresses the colon acutely, allows bowel preparation, and permits a one-stage elective resection with primary anastomosis rather than a stoma. Emergency Hartmann's carries higher morbidity and a high stoma reversal failure rate.",
+  "wrongAnswerExplanations": [
+   "Emergency Hartmann's procedure is reserved for perforation, peritonitis, or haemodynamic instability — not first-line in a stable patient with malignant obstruction.",
+   "SEMS as a bridge to surgery is correct: it decompresses the obstruction safely, avoids emergency laparotomy, and enables planned oncological resection with primary anastomosis.",
+   "Urgent colonoscopy and polypectomy is inappropriate; the CT confirms an obstructing carcinoma, not a polyp, and colonoscopy risks perforation in an obstructed colon.",
+   "Water-soluble contrast enema has a diagnostic role but is not the definitive management for confirmed malignant obstruction.",
+   "IV antibiotics and nasogastric decompression address small-bowel obstruction principles; they do not relieve a mechanical large-bowel obstruction from a sigmoid carcinoma."
+  ],
+  "clinicalPearl": "SEMS as a bridge to elective surgery converts an emergency colonic obstruction into a planned one-stage resection with primary anastomosis, significantly reducing stoma rates and perioperative morbidity."
+ },
+ {
+  "system": "git",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Sigmoid volvulus",
+  "question": "A 65-year-old man with a long history of chronic constipation and laxative use presents with sudden-onset severe abdominal pain, distension, and vomiting. He has not passed flatus for 36 hours. On examination his abdomen is massively distended; he is tachycardic at 104 bpm but normotensive, and his abdomen is tender without peritonism. AXR reveals a grossly dilated loop of bowel arising from the pelvis and extending to the right upper quadrant, with a characteristic 'coffee bean' sign. There is no free gas under the diaphragm. What is the most appropriate next step?",
+  "options": [
+   "Emergency laparotomy and sigmoid colectomy",
+   "CT abdomen with contrast",
+   "Rigid or flexible sigmoidoscopy with flatus tube decompression",
+   "Intravenous fluids, analgesia, and reassessment in 6 hours",
+   "Water-soluble contrast enema to confirm the diagnosis"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "The AXR 'coffee bean' sign in a patient with clinical features of large-bowel obstruction is diagnostic of sigmoid volvulus. In the absence of peritonism or perforation, the first-line treatment is endoscopic decompression via rigid or flexible sigmoidoscopy with placement of a flatus tube. This is successful in approximately 70–90% of cases and avoids emergency surgery. Surgery is reserved for failure of endoscopic decompression or signs of ischaemia/perforation.",
+  "wrongAnswerExplanations": [
+   "Emergency laparotomy is indicated for sigmoid volvulus only if there is peritonism, bowel ischaemia, or failed endoscopic decompression — not as the first step in an uncomplicated case.",
+   "CT abdomen may add detail but is not required when the AXR is diagnostic; it delays definitive decompression therapy.",
+   "Sigmoidoscopy with flatus tube decompression is the correct first-line intervention for sigmoid volvulus without peritonism, with a high success rate.",
+   "Watchful waiting with IV fluids is inappropriate; a sigmoid volvulus will not decompress spontaneously and risks ischaemia and perforation with delay.",
+   "Water-soluble contrast enema is used diagnostically when the AXR is equivocal — it is not needed here and delays treatment."
+  ],
+  "clinicalPearl": "The AXR 'coffee bean' sign is pathognomonic of sigmoid volvulus; endoscopic decompression with a flatus tube is the first-line treatment in the absence of peritonism, followed by elective sigmoid resection to prevent recurrence."
+ },
+ {
+  "system": "git",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Caecal volvulus",
+  "question": "A 34-year-old woman presents with a 12-hour history of sudden-onset central and right iliac fossa pain, vomiting, and inability to pass stool or flatus. She had a previous appendicectomy. On examination she is in significant discomfort; the abdomen is distended centrally with a palpable tympanic mass in the left upper quadrant. AXR shows a large air-filled viscus in the midabdomen with absent caecal gas. CT confirms a caecal volvulus with no evidence of ischaemia. What is the definitive management?",
+  "options": [
+   "Colonoscopic decompression and cecopexy",
+   "Right hemicolectomy",
+   "Nasogastric decompression and IV fluids with close observation",
+   "Rigid sigmoidoscopy and flatus tube",
+   "Detorsion alone at laparotomy without resection"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Caecal volvulus does not respond reliably to endoscopic decompression (unlike sigmoid volvulus) and has a high recurrence rate after simple detorsion alone. Right hemicolectomy is the definitive surgical treatment, removing the mobile, abnormally attached caecum and ascending colon; it has a low recurrence rate and is the procedure of choice even when the bowel is viable.",
+  "wrongAnswerExplanations": [
+   "Colonoscopic decompression is generally ineffective for caecal volvulus and is not recommended as definitive therapy.",
+   "Right hemicolectomy is correct: it eliminates the anatomical predisposition to volvulus and is definitive regardless of bowel viability.",
+   "Conservative management will not resolve a mechanical volvulus and risks delay leading to ischaemia and perforation.",
+   "Rigid sigmoidoscopy targets the sigmoid colon and has no role in caecal volvulus, which involves the right colon.",
+   "Detorsion alone at laparotomy carries a very high recurrence rate (up to 75%) and is not considered definitive management."
+  ],
+  "clinicalPearl": "Unlike sigmoid volvulus, caecal volvulus does not decompress reliably with endoscopy; right hemicolectomy is the definitive treatment and is preferred even when the bowel is viable at laparotomy."
+ },
+ {
+  "system": "RECTUM(1).pdf",
+  "topic": "Colorectal carcinoma — staging and investigation",
+  "question": "A 58-year-old man is diagnosed with rectal adenocarcinoma on colonoscopy biopsy following a 4-month history of rectal bleeding, tenesmus, and a change in bowel habit. He is otherwise fit. MRI pelvis shows the tumour lies 6 cm from the anal verge, involves the muscularis propria but does not breach it (T2), with two enlarged mesorectal lymph nodes (N1). CT chest/abdomen/pelvis shows no distant metastases. Which treatment strategy is most appropriate?",
+  "options": [
+   "Immediate anterior resection without neoadjuvant therapy",
+   "Long-course chemoradiotherapy followed by anterior resection",
+   "Short-course radiotherapy alone without surgery",
+   "Abdominoperineal resection as primary surgery without radiotherapy",
+   "Palliative chemotherapy with FOLFOX"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "This is a locally advanced rectal cancer (T2N1M0) at mid-rectum. Current guidelines recommend long-course chemoradiotherapy (CRT) as neoadjuvant therapy for node-positive or locally advanced rectal cancers to downstage the tumour, improve the chance of a clear circumferential resection margin (CRM), and facilitate sphincter preservation, followed by anterior resection after an interval of 8–12 weeks.",
+  "wrongAnswerExplanations": [
+   "Immediate surgery without neoadjuvant therapy is appropriate for early T1–T2N0 rectal cancers; N1 disease warrants downstaging with neoadjuvant CRT first.",
+   "Long-course chemoradiotherapy followed by anterior resection is correct: it downstages node-positive mid-rectal cancer, optimises CRM clearance, and allows sphincter preservation.",
+   "Radiotherapy alone without surgery has no curative role in operable rectal cancer; surgery is required for cure.",
+   "APR may ultimately be required if sphincter preservation is impossible, but it should not be chosen as primary surgery before attempting downstaging with CRT.",
+   "Palliative FOLFOX is for metastatic (M1) disease; this patient has no distant metastases and is being treated with curative intent."
+  ],
+  "clinicalPearl": "Node-positive or locally advanced rectal cancers should receive neoadjuvant long-course chemoradiotherapy before surgical resection to downstage the tumour, maximise CRM clearance, and increase the likelihood of sphincter-preserving surgery.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "RECTUM(1).pdf",
+  "topic": "Colorectal carcinoma — complication of treatment",
+  "question": "A 62-year-old woman undergoes elective anterior resection with total mesorectal excision (TME) for a T3N0M0 rectal cancer 8 cm from the anal verge. On post-operative day 5 she develops fever (38.8°C), tachycardia, increasing pelvic pain, and purulent discharge from the pelvic drain. Her CRP is 310 mg/L and WCC is 18 × 10⁹/L. CT pelvis shows a pelvic collection with extraluminal air adjacent to the anastomosis. What is the most likely diagnosis?",
+  "options": [
+   "Pelvic haematoma",
+   "Anastomotic leak",
+   "Surgical site infection",
+   "Pulmonary embolism",
+   "C. difficile colitis"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Anastomotic leak is the most feared complication after anterior resection with TME, occurring in 5–15% of cases. The combination of fever, tachycardia, elevated inflammatory markers, pelvic pain, purulent drain output, and CT findings of extraluminal air and a pelvic collection adjacent to the anastomosis on post-operative day 5 is the classic presentation. It requires urgent management, usually with CT-guided drainage or re-operation.",
+  "wrongAnswerExplanations": [
+   "A pelvic haematoma would present earlier, is usually not associated with purulent drain output, and would not show extraluminal air on CT.",
+   "Anastomotic leak is correct: the clinical triad of fever, elevated inflammatory markers, purulent drain discharge, and extraluminal air on CT adjacent to the anastomosis is diagnostic.",
+   "Surgical site infection causes superficial wound signs; it does not produce a deep pelvic collection with extraluminal air.",
+   "Pulmonary embolism presents with dyspnoea, pleuritic chest pain, and hypoxia — not pelvic pain, purulent drainage, or extraluminal air on CT pelvis.",
+   "C. difficile colitis causes profuse watery diarrhoea and diffuse colonic thickening on CT, not a localised pelvic collection with extraluminal gas."
+  ],
+  "clinicalPearl": "Anastomotic leak after anterior resection typically presents on day 4–7 with fever, raised CRP, and pelvic signs; CT showing extraluminal air or a pelvic collection confirms the diagnosis and mandates urgent intervention.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Diverticular disease — acute diverticulitis",
+  "question": "A 67-year-old man presents with a 3-day history of left iliac fossa pain, fever (38.2°C), and altered bowel habit. He has a past history of diverticular disease. On examination there is localised tenderness and guarding in the left iliac fossa. WCC is 14.2 × 10⁹/L and CRP is 148 mg/L. CT abdomen/pelvis shows sigmoid diverticulosis with pericolic fat stranding and a 4 cm pericolic abscess (Hinchey Stage II). There is no free gas. He is haemodynamically stable. What is the most appropriate management?",
+  "options": [
+   "Emergency sigmoid colectomy with Hartmann's procedure",
+   "IV antibiotics and CT-guided percutaneous drainage of the abscess",
+   "Conservative management with oral antibiotics alone",
+   "Urgent colonoscopy to assess the diverticula",
+   "Water-soluble contrast enema to exclude perforation"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Hinchey Stage II diverticulitis involves a pericolic or pelvic abscess ≥4 cm. In a haemodynamically stable patient, the recommended management is IV antibiotics combined with CT-guided percutaneous drainage of the abscess. This avoids emergency surgery, allows the acute inflammation to settle, and permits elective sigmoid resection later if required. Surgery is reserved for failure of drainage, haemodynamic instability, or Hinchey Stages III–IV.",
+  "wrongAnswerExplanations": [
+   "Hartmann's procedure is reserved for Hinchey III (purulent peritonitis) or IV (faecal peritonitis), or failure of conservative measures — not first-line for a stable Hinchey II patient.",
+   "IV antibiotics and CT-guided percutaneous drainage is correct for Hinchey II: it safely decompresses the abscess, avoids emergency surgery, and allows later elective resection.",
+   "Oral antibiotics alone are appropriate for Hinchey I (pericolic phlegmon without abscess); a 4 cm abscess requires drainage in addition to antibiotics.",
+   "Colonoscopy is contraindicated in acute diverticulitis due to risk of perforation; it is performed 6–8 weeks after resolution to exclude carcinoma.",
+   "Water-soluble contrast enema is not indicated when CT has already characterised the pathology and excluded free perforation."
+  ],
+  "clinicalPearl": "Hinchey Stage II diverticular abscess ≥4 cm in a stable patient is best managed with IV antibiotics and CT-guided percutaneous drainage; surgery is deferred to an elective setting after recovery.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Diverticular disease — perforation",
+  "question": "A 74-year-old woman is brought to the emergency department with generalised abdominal pain of sudden onset 4 hours ago. She is in significant distress, febrile (39.1°C), hypotensive (BP 84/50 mmHg), and tachycardic (HR 118 bpm). Her abdomen is rigid with board-like guarding throughout. Erect CXR shows free air under both hemidiaphragms. CT confirms sigmoid diverticular perforation with faecal peritonitis (Hinchey Stage IV). After initial resuscitation, what is the most appropriate surgical management?",
+  "options": [
+   "CT-guided percutaneous drainage and IV antibiotics",
+   "Hartmann's procedure (sigmoid resection, end colostomy, rectal stump)",
+   "Primary sigmoid resection with on-table lavage and anastomosis",
+   "Laparoscopic peritoneal lavage and drainage without resection",
+   "Defunctioning loop colostomy without resection"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Hinchey Stage IV (faecal peritonitis) with haemodynamic instability requires emergency surgery. Hartmann's procedure — sigmoid resection with end colostomy and closure of the rectal stump — is the standard operation in this context as it removes the source of contamination, avoids the risk of an anastomosis in a contaminated, shocked patient, and is life-saving. Primary anastomosis in faecal peritonitis carries a prohibitively high leak rate.",
+  "wrongAnswerExplanations": [
+   "CT-guided drainage is appropriate for Hinchey II abscesses in stable patients; faecal peritonitis with haemodynamic instability requires operative intervention.",
+   "Hartmann's procedure is correct: it removes the perforated sigmoid, eliminates ongoing faecal contamination, and avoids the high leak risk of anastomosis in a shocked, contaminated patient.",
+   "Primary anastomosis may be considered in selected stable Hinchey III cases with good bowel preparation; it is contraindicated in Hinchey IV with haemodynamic instability.",
+   "Laparoscopic peritoneal lavage has a role in selected Hinchey III (purulent peritonitis) cases but is not appropriate for faecal peritonitis where bowel resection is required.",
+   "Defunctioning colostomy without resection leaves the perforated segment in situ and does not control the source of faecal contamination."
+  ],
+  "clinicalPearl": "Hartmann's procedure is the operation of choice for Hinchey IV faecal peritonitis: sigmoid resection removes the contaminating source while avoiding the high anastomotic leak risk of primary anastomosis in a shocked, contaminated patient.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Colorectal polyps — malignant potential",
+  "question": "A 55-year-old man undergoes routine surveillance colonoscopy; he has a family history of colorectal cancer. A 2.5 cm sessile polyp is found in the ascending colon. Endoscopic mucosal resection (EMR) is performed piecemeal. Histology reports a tubulovillous adenoma with high-grade dysplasia and focal carcinoma confined to the head of the polyp (pT1), with clear margins and no lymphovascular invasion. What is the most appropriate next management?",
+  "options": [
+   "Immediate right hemicolectomy",
+   "Repeat colonoscopy with EMR attempt at 3 months",
+   "Surveillance colonoscopy at 3 years with no further immediate intervention",
+   "Repeat colonoscopy at 3 months with close follow-up, as resection appears complete",
+   "PET-CT staging followed by adjuvant chemotherapy"
+  ],
+  "correctAnswerIndex": 3,
+  "explanation": "For a pT1 colorectal carcinoma arising in a polyp that is completely resected (clear margins, no lymphovascular invasion, low-grade histology or high-grade dysplasia only at head), the risk of nodal metastasis is low (<1–2%). Surveillance colonoscopy at 3 months is the recommended approach to confirm complete excision and check for local recurrence, without proceeding to formal resection. Surgery is reserved for incomplete resection, deep submucosal invasion, or lymphovascular invasion.",
+  "wrongAnswerExplanations": [
+   "Immediate right hemicolectomy is indicated for pT1 polyp cancers with high-risk features (positive margins, lymphovascular invasion, poor differentiation, deep SM3 invasion) — not when margins are clear and no adverse features are present.",
+   "Repeat EMR at 3 months is not needed if histology confirms complete excision; surveillance colonoscopy is appropriate, not further resection.",
+   "A 3-year surveillance interval is too long after piecemeal EMR of a lesion with focal malignancy; closer follow-up at 3 months is required to confirm clearance.",
+   "Repeat surveillance colonoscopy at 3 months is correct: complete pT1 carcinoma resection with clear margins and no high-risk features is managed with close endoscopic follow-up rather than immediate surgical resection.",
+   "PET-CT and adjuvant chemotherapy are used in metastatic or high-risk colorectal cancer; a completely excised pT1 lesion with no adverse features does not warrant systemic staging or chemotherapy."
+  ],
+  "clinicalPearl": "A pT1 colorectal carcinoma in a completely excised polyp with clear margins, no lymphovascular invasion, and no poor differentiation can be managed with close colonoscopic surveillance rather than formal surgical resection.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "RECTUM(1).pdf",
+  "topic": "Lower GI bleed — rectal cancer",
+  "question": "A 61-year-old woman presents with a 6-week history of fresh rectal bleeding mixed with stool, passage of mucus, and a persistent feeling of incomplete evacuation. She has had a 5 kg weight loss. Digital rectal examination reveals a hard, irregular mass palpable on the posterior rectal wall at approximately 5 cm from the anal verge. What is the single most important next investigation?",
+  "options": [
+   "CT abdomen and pelvis with contrast",
+   "MRI pelvis",
+   "Rigid sigmoidoscopy with biopsy",
+   "Faecal occult blood test",
+   "Barium enema"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "In a patient with a palpable rectal mass on DRE, histological confirmation of the diagnosis is the single most important next step before staging imaging. Rigid sigmoidoscopy allows direct visualisation of the mass, measurement of its distance from the anal verge, and biopsy for histology. Without a tissue diagnosis, staging investigations (CT, MRI) cannot be appropriately interpreted and treatment cannot be planned.",
+  "wrongAnswerExplanations": [
+   "CT is essential for staging but cannot be acted upon without histological confirmation of malignancy; biopsy must come first.",
+   "MRI pelvis is the gold-standard for local staging of rectal cancer but is premature before histological diagnosis is established.",
+   "Rigid sigmoidoscopy with biopsy is correct: it provides tissue for histology, confirms the diagnosis, and measures the exact level of the tumour from the anal verge — all essential before staging.",
+   "Faecal occult blood testing is a screening tool with no role in a symptomatic patient with a palpable rectal mass.",
+   "Barium enema has largely been superseded by CT colonography and flexible endoscopy, and cannot provide a tissue diagnosis."
+  ],
+  "clinicalPearl": "A palpable rectal mass requires rigid sigmoidoscopy with biopsy as the priority investigation — tissue diagnosis must precede all staging investigations.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "RECTUM(1).pdf",
+  "topic": "Rectal cancer — abdominoperineal resection",
+  "question": "A 54-year-old man is diagnosed with a T2N0M0 squamous cell carcinoma of the anal canal with the tumour margin 1.5 cm from the dentate line. He undergoes chemoradiotherapy (mitomycin C + 5-fluorouracil with concurrent radiotherapy). Eighteen months later, surveillance MRI shows a 2 cm residual mass at the original site. Biopsy confirms viable residual squamous cell carcinoma. What is the most appropriate surgical procedure?",
+  "options": [
+   "Anterior resection",
+   "Abdominoperineal resection (APR)",
+   "Local transanal excision",
+   "Further course of chemoradiotherapy",
+   "Palliative colostomy only"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Abdominoperineal resection (APR) is the standard salvage surgical procedure for residual or recurrent anal canal squamous cell carcinoma following chemoradiotherapy. It involves removal of the rectum, anal canal, and sphincter complex with formation of a permanent end colostomy. Because the tumour is at the anal verge and involves the sphincter, sphincter preservation is not possible and APR is the only curative option.",
+  "wrongAnswerExplanations": [
+   "Anterior resection preserves the sphincter and is used for rectal adenocarcinoma; it cannot achieve clear margins for a low anal canal tumour involving the sphincter complex.",
+   "APR is correct: it is the standard salvage procedure for failed chemoradiotherapy in anal canal SCC, removing the anal sphincter complex entirely and creating a permanent colostomy.",
+   "Local transanal excision cannot achieve adequate margins for residual SCC after CRT and is not an oncologically sound option for salvage.",
+   "Further chemoradiotherapy is not standard for confirmed residual viable tumour after a completed CRT course; cumulative toxicity is prohibitive and response is unlikely.",
+   "Palliative colostomy without resection does not address the residual tumour and is only appropriate for end-of-life or unresectable disease."
+  ],
+  "clinicalPearl": "Abdominoperineal resection is the gold-standard salvage operation for residual or recurrent anal canal SCC after chemoradiotherapy failure, accepting a permanent colostomy in exchange for the possibility of cure.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Lower GI bleed — diverticular haemorrhage",
+  "question": "A 70-year-old man presents with a sudden onset of painless, large-volume bright red rectal bleeding. He passed two large clots in the toilet before arrival. He has a background of known colonic diverticulosis. On examination he is pale, HR 110 bpm, BP 95/60 mmHg, and is cold and clammy. After resuscitation with IV fluids and two units of packed red cells, his haemodynamic status stabilises. He has had no further bleeding for 12 hours. What is the most appropriate next diagnostic and therapeutic step?",
+  "options": [
+   "Emergency laparotomy and subtotal colectomy",
+   "Urgent CT angiography",
+   "Urgent flexible colonoscopy after bowel preparation",
+   "Technetium-99m red cell scintigraphy",
+   "Upper GI endoscopy to exclude an upper GI source"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "In a patient with a significant lower GI haemorrhage who has stabilised after resuscitation, CT angiography is the preferred first investigation. It is fast, widely available, non-invasive, and can localise active bleeding (≥0.3 mL/min) and guide interventional radiology (selective embolisation) or surgery. In a haemodynamically unstable patient it can also be used urgently. Colonoscopy requires bowel preparation and carries procedural risk in active bleeding.",
+  "wrongAnswerExplanations": [
+   "Emergency laparotomy and subtotal colectomy is reserved for uncontrolled, life-threatening haemorrhage that cannot be localised or controlled by endoscopic or angiographic means.",
+   "CT angiography is correct: it rapidly localises the bleeding source in haemodynamically stabilised patients with significant LGI bleed and guides targeted embolisation or surgery.",
+   "Flexible colonoscopy requires bowel preparation and is better suited to patients who have stopped bleeding stably; in a recently shocked patient who has just stabilised it is premature and logistically challenging.",
+   "Technetium-99m RBC scintigraphy can detect slow bleeding (0.1–0.5 mL/min) but is less available out-of-hours, takes longer, and provides less anatomical precision than CT angiography.",
+   "Upper GI endoscopy is appropriate when an upper GI source is suspected; this patient with known diverticulosis and per-rectal bright red blood has a clear lower GI presentation."
+  ],
+  "clinicalPearl": "CT angiography is the investigation of choice in a haemodynamically stabilised patient with significant lower GI bleeding — it localises the source rapidly and guides targeted interventional embolisation.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "RECTUM(1).pdf",
+  "topic": "Rectal cancer — total mesorectal excision",
+  "question": "A 49-year-old woman with a T3N1M0 rectal adenocarcinoma at 9 cm from the anal verge completes long-course neoadjuvant chemoradiotherapy. Post-CRT MRI at 10 weeks shows good downstaging with a clear predicted circumferential resection margin (CRM >2 mm). She proceeds to laparoscopic anterior resection with total mesorectal excision (TME). The pathology report notes: tumour downstaged to ypT2N0, CRM clear (>2 mm), distal margin clear, intact mesorectum. What intraoperative or technical principle of TME is most directly responsible for the observed clear CRM?",
+  "options": [
+   "Division of the inferior mesenteric artery at its origin",
+   "Sharp dissection in the avascular plane between the visceral and parietal pelvic fascia en bloc with the intact mesorectum",
+   "Ligation of the superior haemorrhoidal artery distal to the left colic artery",
+   "Routine use of intraoperative nerve monitoring",
+   "High ligation of the inferior mesenteric vein at the inferior border of the pancreas"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Total mesorectal excision achieves a clear circumferential resection margin by sharp dissection in the embryological avascular plane between the visceral fascia propria of the mesorectum and the parietal pelvic fascia (endopelvic fascia). This removes the rectum en bloc within its intact mesorectal envelope, which contains the lymphovascular tissue and potential micrometastases. Breaching this plane — leading to a positive CRM — is the primary determinant of local recurrence in rectal cancer.",
+  "wrongAnswerExplanations": [
+   "High ligation of the IMA at its origin is a lymphovascular technique to maximise nodal yield and achieve tension-free anastomosis; it does not directly determine CRM clearance.",
+   "Sharp dissection in the avascular plane between visceral and parietal pelvic fascia is correct: it is the defining technical principle of TME that ensures an intact mesorectal envelope and a clear CRM.",
+   "The level of inferior mesenteric artery ligation relative to the left colic artery affects perfusion of the anastomosis but is not the primary determinant of CRM.",
+   "Intraoperative nerve monitoring preserves the pelvic autonomic nerves (sexual and bladder function) but does not directly contribute to CRM clearance.",
+   "High IMA vein ligation facilitates splenic flexure mobilisation and a tension-free anastomosis but has no direct impact on the CRM of the rectal specimen."
+  ],
+  "clinicalPearl": "The cornerstone of TME is sharp dissection within the avascular holy plane between the visceral mesorectal fascia and parietal pelvic fascia, removing the rectum as an intact mesorectal package and ensuring a clear CRM — the principal determinant of local recurrence.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ },
+ {
+  "system": "Small & Large Intestine Theory 2.pdf",
+  "topic": "Colorectal carcinoma — screening and Lynch syndrome",
+  "question": "A 42-year-old man is referred after his brother and mother were both diagnosed with colorectal carcinoma before the age of 50. He is currently asymptomatic. Colonoscopy shows a right-sided colonic adenocarcinoma. Immunohistochemistry on the tumour shows loss of MLH1 and PMS2 protein expression. Germline testing is arranged. Which hereditary condition is most likely responsible and what is the immediate surgical implication?",
+  "options": [
+   "Familial adenomatous polyposis (FAP) — proceed to total colectomy with ileo-rectal anastomosis",
+   "Lynch syndrome (HNPCC) — consider extended right hemicolectomy or subtotal colectomy given synchronous and metachronous cancer risk",
+   "MUTYH-associated polyposis — proceed to proctocolectomy with ileostomy",
+   "Sporadic colorectal cancer with microsatellite instability — standard right hemicolectomy only",
+   "Serrated polyposis syndrome — perform endoscopic polypectomy and defer surgery"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Loss of MLH1/PMS2 on immunohistochemistry indicates mismatch repair deficiency, most commonly caused by Lynch syndrome (HNPCC) in this clinical context (young patient, family history, right-sided tumour). Lynch syndrome carries a 40–80% lifetime risk of colorectal cancer and a high risk of metachronous cancers. Surgical consideration for extended right hemicolectomy or subtotal colectomy is appropriate to reduce the risk of metachronous colon cancers, and the patient should undergo full germline testing and counselling.",
+  "wrongAnswerExplanations": [
+   "FAP presents with hundreds to thousands of colonic polyps and is caused by APC mutation; it does not cause isolated mismatch repair protein loss and typically requires proctocolectomy.",
+   "Lynch syndrome with consideration of extended surgery is correct: MLH1/PMS2 loss, young onset, and family history are hallmarks; subtotal colectomy reduces metachronous cancer risk compared with segmental resection.",
+   "MUTYH-associated polyposis is autosomal recessive, causes multiple adenomatous polyps (not mismatch repair deficiency), and does not present with isolated MMR protein loss.",
+   "Sporadic MSI-high CRC (usually due to MLH1 hypermethylation) can be excluded only after germline testing confirms no pathogenic variant; in this family-history context, Lynch syndrome is far more likely and extended surgery should be discussed.",
+   "Serrated polyposis syndrome involves multiple serrated polyps and is managed endoscopically if possible; it does not cause MMR protein loss or explain this family history."
+  ],
+  "clinicalPearl": "Loss of MLH1/PMS2 on tumour immunohistochemistry in a young patient with a family history of early-onset CRC strongly suggests Lynch syndrome; germline testing should be arranged and extended colectomy discussed to mitigate the high metachronous cancer risk.",
+  "sourceLecture": "Small & Large Intestine Theory 2.pdf"
+ }
+]

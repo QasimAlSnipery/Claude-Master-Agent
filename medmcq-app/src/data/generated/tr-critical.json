@@ -1,0 +1,301 @@
+[
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Septic shock recognition",
+    "question": "A 68-year-old man with type 2 diabetes presents to the emergency department with a 2-day history of productive cough, fever, and confusion. On examination: temperature 39.4°C, heart rate 118 bpm, respiratory rate 26 breaths/min, blood pressure 82/50 mmHg, oxygen saturation 91% on room air. Urine output over the last 2 hours is 15 mL. Blood cultures are taken and a chest X-ray shows right lower lobe consolidation. Serum lactate is 4.2 mmol/L. Despite 1 litre of IV crystalloid his blood pressure remains 84/52 mmHg. Which of the following best describes this patient's condition?",
+    "options": [
+      "Systemic inflammatory response syndrome (SIRS)",
+      "Sepsis",
+      "Septic shock",
+      "Severe sepsis without organ dysfunction",
+      "Distributive shock secondary to anaphylaxis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Septic shock is defined as sepsis with persistent hypotension (MAP <65 mmHg) requiring vasopressors despite adequate fluid resuscitation, together with a serum lactate >2 mmol/L. This patient has a confirmed infection source (pneumonia), meets sepsis criteria, remains hypotensive after 1 L of fluid, and has a lactate of 4.2 mmol/L, satisfying the Sepsis-3 definition of septic shock. The term 'severe sepsis' was removed in the Sepsis-3 2016 consensus.",
+    "wrongAnswerExplanations": [
+      "SIRS alone requires two or more of: temp >38°C or <36°C, HR >90, RR >20 or PaCO2 <4.3 kPa, WBC >12 or <4 ×10⁹/L — without a confirmed infective source driving organ dysfunction. This patient has an identified infection and organ dysfunction, making SIRS an incomplete label.",
+      "Sepsis (Sepsis-3) is life-threatening organ dysfunction caused by a dysregulated host response to infection (SOFA score rise ≥2). While this patient has sepsis, the additional criteria of persistent hypotension despite fluid resuscitation plus lactate >2 mmol/L elevate the diagnosis to septic shock.",
+      "Septic shock is correct: the patient has infection, organ dysfunction (confusion, oliguria, hyperlactataemia), and persistent hypotension after fluid challenge — the defining triad of septic shock per Sepsis-3 guidelines.",
+      "'Severe sepsis' is an obsolete term from Sepsis-2 definitions and is no longer used in current clinical guidelines. The current Sepsis-3 framework uses 'sepsis' and 'septic shock' only.",
+      "Anaphylaxis causes distributive shock but requires exposure to a trigger allergen with urticaria, angioedema, or bronchospasm. There is no allergenic trigger described here; the clinical picture is consistent with pneumonia-driven septic shock."
+    ],
+    "clinicalPearl": "Septic shock = sepsis + persistent hypotension despite adequate fluid resuscitation + lactate >2 mmol/L; mortality exceeds 40% and mandates immediate vasopressor therapy alongside the Sepsis Six bundle."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Sepsis Six bundle",
+    "question": "A 55-year-old woman is admitted with a 24-hour history of rigors, right flank pain, and dysuria. She is febrile (38.9°C), tachycardic (HR 104 bpm), hypotensive (BP 88/56 mmHg), and her Glasgow Coma Score is 14. Urinalysis shows nitrites and leucocytes. Her serum lactate is 3.1 mmol/L. The on-call surgical team diagnoses urosepsis and initiates management. Within the first hour, which combination of interventions constitutes the correct 'Sepsis Six' response?",
+    "options": [
+      "High-flow oxygen, blood cultures, IV broad-spectrum antibiotics, IV crystalloid bolus, serum lactate measurement, urine output monitoring",
+      "High-flow oxygen, CT abdomen/pelvis, IV antibiotics, urine culture, IV crystalloid, vasopressors",
+      "IV antibiotics, central venous pressure monitoring, arterial line insertion, vasopressors, blood cultures, urinary catheter",
+      "High-flow oxygen, blood cultures, IV antibiotics, IV colloid bolus, repeat chest X-ray, vasopressors",
+      "IV antibiotics, urinary catheter, serum lactate, blood transfusion, IV crystalloid, ECG"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Sepsis Six is a bundle of six interventions to be completed within one hour of recognising sepsis: (1) administer high-flow oxygen, (2) take blood cultures, (3) give IV broad-spectrum antibiotics, (4) give IV fluid challenge (crystalloid), (5) measure serum lactate, and (6) monitor urine output (catheterise). Completing all six within one hour has been shown to significantly reduce sepsis mortality. The other options introduce interventions (CT, vasopressors, colloid, blood transfusion) that are not part of the core Sepsis Six.",
+    "wrongAnswerExplanations": [
+      "This is the correct Sepsis Six bundle: high-flow O₂, blood cultures, IV broad-spectrum antibiotics, IV crystalloid bolus, serum lactate, and urine output monitoring — all to be completed within one hour.",
+      "CT abdomen/pelvis may be warranted to identify a source but is not part of the Sepsis Six. Vasopressors are not first-line until fluid resuscitation has been attempted and hypotension persists.",
+      "Central venous pressure monitoring and arterial lines may be needed in the ICU but are not part of the first-hour Sepsis Six bundle. Vasopressors should only be started after adequate fluid resuscitation.",
+      "Colloid is not recommended over crystalloid for initial fluid resuscitation in sepsis (SAFE trial and NICE guidance). The Sepsis Six specifies IV fluid challenge, typically with crystalloid.",
+      "Blood transfusion is not part of the Sepsis Six; it is reserved for specific indications (e.g., haemoglobin <70 g/L in critical illness). ECG is not a Sepsis Six component."
+    ],
+    "clinicalPearl": "The Sepsis Six must be completed within 60 minutes of recognition; each element independently reduces mortality — do not delay antibiotics waiting for cultures or imaging."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "SIRS criteria",
+    "question": "A 45-year-old male undergoes an elective right hemicolectomy for Dukes B colon cancer. On post-operative day 2, the nursing staff note: temperature 38.3°C, heart rate 94 bpm, respiratory rate 22 breaths/min, white cell count 13.2 × 10⁹/L. He is alert, maintaining oxygen saturations of 97% on room air, and his blood pressure is 122/78 mmHg. He has no clinical signs of wound infection. Which of the following best describes his current status?",
+    "options": [
+      "Septic shock",
+      "Sepsis",
+      "SIRS",
+      "Normal post-operative physiological response requiring no action",
+      "Early acute respiratory distress syndrome"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "SIRS (Systemic Inflammatory Response Syndrome) is defined as two or more of: temperature >38°C or <36°C, heart rate >90 bpm, respiratory rate >20 breaths/min or PaCO₂ <4.3 kPa, and WBC >12 or <4 × 10⁹/L. This patient meets four SIRS criteria following major abdominal surgery but has no identified infection source and no organ dysfunction. SIRS may be triggered by infection, surgery, trauma, or other insults and does not require infection to be present.",
+    "wrongAnswerExplanations": [
+      "Septic shock requires sepsis plus persistent hypotension after fluid resuscitation and/or lactate >2 mmol/L. This patient is normotensive with no evidence of organ dysfunction or confirmed infection.",
+      "Sepsis requires an identified or suspected infection causing organ dysfunction (SOFA ≥2). There is no confirmed infection source and no organ dysfunction in this patient at this stage.",
+      "SIRS is correct: this patient meets four SIRS criteria (temp, HR, RR, WBC) in the context of recent major surgery, without an identified infection source or organ dysfunction.",
+      "While a mild post-operative inflammatory response is expected, four SIRS criteria warrant clinical monitoring for progression to sepsis. Dismissing these findings as entirely normal risks missing early deterioration.",
+      "ARDS requires bilateral infiltrates on chest X-ray, PaO₂/FiO₂ <300 mmHg, and a non-cardiogenic cause. This patient has normal oxygen saturations with no respiratory compromise or radiological changes described."
+    ],
+    "clinicalPearl": "SIRS after surgery is common and not always infective; however, persistent or worsening SIRS should prompt a search for an occult infection source such as anastomotic leak, deep wound infection, or pneumonia."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Acute respiratory distress syndrome (ARDS)",
+    "question": "A 52-year-old woman with a history of heavy alcohol use is admitted with acute pancreatitis. Over the next 48 hours she becomes increasingly breathless despite supplemental oxygen. Arterial blood gas on 60% FiO₂: pH 7.32, PaO₂ 7.8 kPa, PaCO₂ 3.9 kPa, HCO₃ 18 mmol/L. Chest X-ray shows bilateral diffuse infiltrates. Echocardiogram demonstrates normal left ventricular function. Which diagnosis best explains her respiratory deterioration?",
+    "options": [
+      "Cardiogenic pulmonary oedema",
+      "Community-acquired pneumonia",
+      "Acute respiratory distress syndrome (ARDS)",
+      "Pulmonary embolism",
+      "Aspiration pneumonitis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "ARDS is defined by the Berlin criteria: acute onset within one week of a clinical insult, bilateral opacities on chest imaging not fully explained by effusions or collapse, respiratory failure not fully explained by cardiac failure (confirmed by echocardiography or PCWP <18 mmHg), and PaO₂/FiO₂ ratio <300 mmHg. This patient's PaO₂/FiO₂ = 7.8/0.6 = 58.5 mmHg (severe ARDS <100), bilateral infiltrates, and normal echo fulfil Berlin criteria. Pancreatitis is a recognised trigger of ARDS via systemic inflammatory mediators.",
+    "wrongAnswerExplanations": [
+      "Cardiogenic pulmonary oedema is excluded by the normal echocardiogram showing preserved left ventricular function. Cardiogenic oedema would also typically show cardiomegaly and upper lobe diversion on CXR.",
+      "Community-acquired pneumonia typically presents with a focal lobar infiltrate, fever, and productive cough. Bilateral diffuse infiltrates in the context of severe pancreatitis and a normal echo make ARDS far more likely.",
+      "ARDS is correct: Berlin criteria are fulfilled — acute onset, bilateral infiltrates, PaO₂/FiO₂ <300 (severe <100), non-cardiogenic cause (pancreatitis), and normal cardiac function on echo.",
+      "Pulmonary embolism classically presents with pleuritic chest pain, haemoptysis, and hypoxia but typically shows no bilateral infiltrates on plain film. The clinical context of severe pancreatitis strongly favours ARDS.",
+      "Aspiration pneumonitis can cause bilateral infiltrates but is typically associated with a witnessed aspiration event and tends to be more patchy/dependent. The bilateral diffuse pattern and context of pancreatitis fits ARDS better."
+    ],
+    "clinicalPearl": "ARDS PaO₂/FiO₂ severity: mild 200–300 mmHg, moderate 100–200 mmHg, severe <100 mmHg; lung-protective ventilation with tidal volumes 6 mL/kg ideal body weight reduces mortality."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Acute kidney injury post-operatively",
+    "question": "A 72-year-old man undergoes an open repair of a ruptured abdominal aortic aneurysm. He is transferred to the ICU post-operatively. At 6 hours, his urine output has been 12 mL over the last 2 hours despite a fluid bolus. His creatinine rises from a pre-operative baseline of 110 µmol/L to 220 µmol/L. He is haemodynamically stable (BP 108/64 mmHg, HR 82 bpm). ECG shows no changes. Which is the most appropriate next investigation to guide management of his oliguria?",
+    "options": [
+      "Urgent renal biopsy",
+      "CT angiogram of the aorta",
+      "Bladder ultrasound to exclude urinary retention",
+      "Serum potassium and repeat renal function",
+      "Arrange immediate haemodialysis"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "In post-operative AKI (KDIGO stage 2: creatinine doubled from baseline), the immediate priority is to identify life-threatening complications — particularly hyperkalaemia and severe acidosis — which drive urgent decision-making. Serum potassium is critical as hyperkalaemia can cause fatal arrhythmias. Serial creatinine guides progression and urgency of renal replacement therapy. Bladder scan is warranted but cannot be done before assessing potassium when the patient already has a catheter post-AAA repair.",
+    "wrongAnswerExplanations": [
+      "Renal biopsy is invasive and inappropriate in acute post-operative oliguric AKI, where the aetiology (ischaemia/hypoperfusion after aortic surgery) is clinically obvious. It is reserved for unexplained renal impairment after excluding reversible causes.",
+      "CT angiogram may be needed if there is concern about graft occlusion or renal artery compromise, but the patient is haemodynamically stable with no vascular concern. Checking potassium and renal function is the immediate priority.",
+      "A bladder scan to exclude urinary retention is a reasonable step but is less immediately critical when a urinary catheter is already in situ post-operatively, as is standard after major aortic surgery.",
+      "Serum potassium and repeat renal function are the most important immediate investigations: hyperkalaemia is the life-threatening complication of AKI that must be identified and treated urgently before deciding on renal replacement therapy.",
+      "Haemodialysis is not indicated empirically. Indications for urgent renal replacement therapy include refractory hyperkalaemia (K⁺ >6.5 mmol/L), severe metabolic acidosis, pulmonary oedema unresponsive to diuretics, and uraemic symptoms — none of which are confirmed yet."
+    ],
+    "clinicalPearl": "In post-operative AKI, always check potassium urgently — hyperkalaemia is the immediate life-threatening consequence and the key driver for emergency renal replacement therapy."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Organ support — vasopressors in septic shock",
+    "question": "A 61-year-old woman with biliary sepsis secondary to an obstructed common bile duct stone is in the ICU. She has received 30 mL/kg of IV crystalloid over 3 hours, blood cultures have been taken, and IV piperacillin-tazobactam has been given. Her current observations are: BP 72/40 mmHg, HR 122 bpm, MAP 51 mmHg, urine output 8 mL/hour, serum lactate 5.4 mmol/L. She remains hypotensive. Which is the most appropriate next step in haemodynamic management?",
+    "options": [
+      "Administer a further 2 litres of IV crystalloid",
+      "Start noradrenaline via central venous access to achieve MAP ≥65 mmHg",
+      "Start dobutamine as the first-line vasopressor",
+      "Give IV hydrocortisone 200 mg immediately without further assessment",
+      "Arrange urgent echocardiography before any vasopressor is commenced"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Surviving Sepsis Campaign guidelines recommend noradrenaline (norepinephrine) as the first-line vasopressor in septic shock, targeting a MAP ≥65 mmHg. After adequate fluid resuscitation (30 mL/kg), persistent hypotension mandates vasopressor support. Noradrenaline is preferred over dopamine due to lower rates of arrhythmia and superior outcomes. Further fluid boluses beyond adequate resuscitation risk fluid overload without improving perfusion.",
+    "wrongAnswerExplanations": [
+      "A further 2 L of crystalloid is inappropriate after adequate fluid resuscitation has already been given (30 mL/kg). Fluid overload in septic shock worsens outcomes; vasopressors should be started when hypotension persists despite adequate resuscitation.",
+      "Noradrenaline via central venous access targeting MAP ≥65 mmHg is the correct answer and is recommended as first-line vasopressor therapy in septic shock by Surviving Sepsis Campaign guidelines.",
+      "Dobutamine is an inotrope used when there is evidence of cardiac dysfunction (low cardiac output, reduced ejection fraction). It is not the first-line vasopressor for septic shock, which is a vasodilatory/distributive shock state.",
+      "Hydrocortisone 200 mg/day is reserved for septic shock refractory to adequate fluids and vasopressors (typically noradrenaline >0.25 µg/kg/min). It is not given empirically as a first-line haemodynamic intervention.",
+      "While echocardiography provides useful information about cardiac function, it should not delay vasopressor initiation in a patient with ongoing haemodynamic instability. Urgent echo can follow once vasopressors are commenced."
+    ],
+    "clinicalPearl": "Noradrenaline is the first-line vasopressor in septic shock; target MAP ≥65 mmHg and consider adding vasopressin if noradrenaline requirements are high (>0.25 µg/kg/min)."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Post-operative monitoring — early warning",
+    "question": "A 58-year-old man undergoes an elective sigmoid colectomy for diverticular disease. He is transferred to the surgical ward post-operatively. At 18 hours, the nursing staff observe: respiratory rate 24 breaths/min, heart rate 108 bpm, blood pressure 98/60 mmHg, temperature 37.2°C, SpO₂ 93% on 2L nasal cannulae, and he is confused (GCS 13). His National Early Warning Score (NEWS2) is calculated as 10. What is the most appropriate immediate action?",
+    "options": [
+      "Repeat observations in 1 hour and document in the nursing notes",
+      "Administer 500 mL IV crystalloid and reassess in 30 minutes",
+      "Urgent review by the medical emergency team or critical care outreach, with continuous monitoring",
+      "Start empirical broad-spectrum antibiotics without assessment by a senior clinician",
+      "Arrange a CT of the abdomen and pelvis before any other intervention"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A NEWS2 score of 7 or above or a score of 5 or above in any single parameter triggers an emergency response with continuous monitoring and urgent review by a clinical team with critical care competencies (medical emergency team or critical care outreach). This patient has a NEWS2 of 10 with multiple deranged parameters, indicating high risk of clinical deterioration. Immediate clinical assessment by an experienced team is required before further specific interventions.",
+    "wrongAnswerExplanations": [
+      "Repeating observations in 1 hour is dangerously inappropriate for a NEWS2 of 10. This score mandates an immediate emergency response, not deferred reassessment.",
+      "While IV fluid resuscitation may be part of management, initiating fluids without senior clinical assessment and a clear diagnosis risks missing the underlying cause (anastomotic leak, PE, haemorrhage) and delaying appropriate targeted treatment.",
+      "Urgent MET/critical care outreach review with continuous monitoring is the correct response to a NEWS2 ≥7. This follows NICE guideline NG94 and enables rapid assessment, diagnosis, and escalation to critical care if needed.",
+      "Starting empirical antibiotics is potentially indicated if sepsis is confirmed, but this decision must be made following senior clinical assessment. Antibiotics without diagnosis or assessment is not best practice and does not replace urgent clinical review.",
+      "CT abdomen/pelvis may be warranted to look for anastomotic leak but should only be arranged after initial clinical stabilisation and assessment by a senior clinician. It is not the immediate first action."
+    ],
+    "clinicalPearl": "A NEWS2 score ≥7 mandates immediate emergency team review; early recognition and escalation are the most powerful interventions for preventing avoidable post-operative deaths."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Acute kidney injury — KDIGO staging",
+    "question": "A 77-year-old woman is admitted following an emergency laparotomy for a perforated duodenal ulcer. On post-operative day 3, her serum creatinine is 318 µmol/L. Her baseline creatinine (measured 6 weeks ago at a pre-operative assessment) was 88 µmol/L. Her urine output over the past 12 hours has been 0.3 mL/kg/hour. She is haemodynamically stable. Which KDIGO stage of acute kidney injury does she have, and what is the most appropriate immediate management?",
+    "options": [
+      "KDIGO stage 1 — increase IV fluid rate and monitor urine output",
+      "KDIGO stage 2 — optimise fluid status, review nephrotoxic drugs, and monitor closely",
+      "KDIGO stage 3 — consider renal replacement therapy and urgent nephrology referral",
+      "KDIGO stage 1 — no action required as this is an expected post-operative creatinine rise",
+      "KDIGO stage 3 — begin immediate haemodialysis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "KDIGO stage 3 AKI is defined by creatinine ≥3× baseline (88 × 3 = 264 µmol/L; patient has 318 µmol/L) or creatinine ≥354 µmol/L, or urine output <0.3 mL/kg/hour for ≥24 hours (here 12 hours so borderline). The creatinine criterion confirms stage 3. Management includes optimising haemodynamics, stopping nephrotoxins, considering renal replacement therapy (RRT), and early nephrology referral. Immediate haemodialysis is indicated only if life-threatening complications (refractory hyperkalaemia, severe acidosis, pulmonary oedema) are present — not empirically.",
+    "wrongAnswerExplanations": [
+      "KDIGO stage 1 requires creatinine 1.5–1.9× baseline (88 × 1.5 = 132–167 µmol/L). This patient's creatinine of 318 µmol/L is 3.6× baseline, placing her firmly in stage 3, not stage 1.",
+      "KDIGO stage 2 requires creatinine 2–2.9× baseline (88 × 2 = 176–255 µmol/L). At 318 µmol/L (3.6× baseline), this patient exceeds stage 2 criteria and is in stage 3.",
+      "KDIGO stage 3 with consideration of RRT and nephrology referral is correct. The creatinine is 3.6× baseline, confirming stage 3 AKI. Management should include fluid optimisation, nephrotoxin review, and planning for RRT if needed.",
+      "A creatinine rise of 3.6× baseline is not a normal post-operative response and cannot be dismissed. Even mild post-operative AKI (stage 1) requires active monitoring and management.",
+      "While this is KDIGO stage 3, immediate haemodialysis is not automatically indicated. RRT is initiated when specific life-threatening criteria are met (refractory hyperkalaemia, severe metabolic acidosis, fluid overload, uraemia), not based on creatinine rise alone."
+    ],
+    "clinicalPearl": "KDIGO stages: Stage 1 = creatinine 1.5–1.9× baseline or rise ≥26.5 µmol/L in 48h; Stage 2 = 2–2.9× baseline; Stage 3 = ≥3× baseline or ≥354 µmol/L or need for RRT."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "ARDS management — lung-protective ventilation",
+    "question": "A 38-year-old man is admitted to the ICU following severe traumatic lung contusions after a road traffic accident. He is intubated and ventilated due to worsening hypoxaemia. His PaO₂/FiO₂ ratio is 110 mmHg on FiO₂ 0.8. Chest X-ray shows bilateral infiltrates. The intensivist decides to implement lung-protective ventilation. Which combination of ventilator settings best reflects this strategy?",
+    "options": [
+      "Tidal volume 10 mL/kg ideal body weight, PEEP 5 cmH₂O, plateau pressure unrestricted",
+      "Tidal volume 6 mL/kg ideal body weight, PEEP 8–12 cmH₂O, plateau pressure <30 cmH₂O",
+      "Tidal volume 6 mL/kg ideal body weight, PEEP 2 cmH₂O, FiO₂ 1.0",
+      "Tidal volume 8 mL/kg ideal body weight, PEEP 15 cmH₂O, respiratory rate 30 breaths/min",
+      "Tidal volume 12 mL/kg ideal body weight, PEEP 10 cmH₂O, permissive hypercapnia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Lung-protective ventilation in ARDS (ARDSNet protocol) uses low tidal volumes of 6 mL/kg ideal body weight to minimise volutrauma, adequate PEEP (typically 8–12 cmH₂O in moderate ARDS) to prevent alveolar deatelectrauma and improve oxygenation, and a plateau pressure target of <30 cmH₂O to limit barotrauma. Permissive hypercapnia (accepting mild hypercapnia) is acceptable to achieve these pressure and volume limits. This approach is associated with a 9% absolute reduction in mortality.",
+    "wrongAnswerExplanations": [
+      "A tidal volume of 10 mL/kg is associated with significant volutrauma in ARDS. The ARDSNet trial demonstrated that reducing tidal volume from 12 mL/kg to 6 mL/kg reduced 28-day mortality from 39.8% to 31%.",
+      "Tidal volume 6 mL/kg IBW, PEEP 8–12 cmH₂O, and plateau pressure <30 cmH₂O is the correct lung-protective ventilation strategy per ARDSNet protocol, balancing oxygenation improvement with minimisation of ventilator-induced lung injury.",
+      "PEEP of 2 cmH₂O is inadequate in moderate ARDS and would lead to cyclical alveolar collapse (atelectrauma). FiO₂ 1.0 should be minimised to avoid oxygen toxicity; PEEP should be used to reduce FiO₂ requirements.",
+      "A respiratory rate of 30 breaths/min with tidal volume 8 mL/kg would generate high minute volumes and high driving pressures. Tidal volume should be 6 mL/kg, and respiratory rate is typically 14–20 to manage CO₂ within acceptable limits.",
+      "A tidal volume of 12 mL/kg IBW causes volutrauma and is the legacy approach that the ARDSNet trial proved to be harmful. Permissive hypercapnia is acceptable, but must be combined with low — not high — tidal volumes."
+    ],
+    "clinicalPearl": "Lung-protective ventilation (6 mL/kg IBW, PEEP 8–12, plateau <30 cmH₂O) is the single most evidence-based intervention that reduces mortality in ARDS."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Sepsis — antibiotic timing",
+    "question": "A 44-year-old man with no significant past medical history presents to the emergency department with a 6-hour history of fever, severe rigors, and worsening right leg pain and redness. On examination: temperature 40.1°C, HR 126 bpm, BP 94/58 mmHg, RR 24 breaths/min. His right leg shows erythema spreading 5 cm beyond a marked border, blistering, and crepitus on palpation. His NEWS2 is 9. The on-call surgical registrar is concerned about necrotising fasciitis. Blood cultures are taken. The laboratory reports that cultures will take 48–72 hours. What is the most appropriate antibiotic management?",
+    "options": [
+      "Wait for blood and wound culture results before prescribing antibiotics to ensure targeted therapy",
+      "Administer oral co-amoxiclav and review in 12 hours",
+      "Give IV broad-spectrum antibiotics immediately (e.g. piperacillin-tazobactam plus clindamycin) without waiting for culture results",
+      "Prescribe IV flucloxacillin alone as this covers skin and soft tissue infections",
+      "Administer antifungal therapy while awaiting cultures, as Candida is the most common causative organism"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In sepsis and suspected necrotising fasciitis, antibiotics must be given within the first hour — delay in antibiotic administration is associated with increased mortality. Broad-spectrum coverage including Gram-positive, Gram-negative, and anaerobic organisms is essential. Piperacillin-tazobactam plus clindamycin (the latter also suppressing exotoxin production by streptococcal/clostridial organisms) is appropriate. Waiting for culture results is never acceptable when sepsis is present.",
+    "wrongAnswerExplanations": [
+      "Waiting 48–72 hours for culture results before administering antibiotics is dangerous in sepsis and violates the Sepsis Six protocol. Every hour's delay in antibiotic administration increases mortality by approximately 7%.",
+      "Oral co-amoxiclav is inappropriate for a critically ill patient with suspected necrotising fasciitis and septic shock. IV administration with broad-spectrum coverage is required, and this patient needs urgent surgical debridement.",
+      "IV broad-spectrum antibiotics immediately (piperacillin-tazobactam plus clindamycin) is the correct answer. This provides polymicrobial coverage appropriate for necrotising fasciitis and fulfils the Sepsis Six antibiotic requirement within one hour.",
+      "Flucloxacillin alone covers staphylococci but has poor Gram-negative and anaerobic cover. Necrotising fasciitis is typically polymicrobial (Type I) or requires clindamycin co-administration for exotoxin suppression in Group A Streptococcal (Type II) disease.",
+      "Candida is not a primary cause of necrotising fasciitis or community-acquired sepsis presenting in this manner. Antifungal therapy would be empirically inappropriate here; bacterial cover is the priority."
+    ],
+    "clinicalPearl": "In sepsis, antibiotics must not wait for culture results — give within one hour of recognition; in necrotising fasciitis add clindamycin to suppress bacterial exotoxin production."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Post-operative AKI — prevention",
+    "question": "A 65-year-old man with known CKD (baseline creatinine 160 µmol/L, eGFR 38 mL/min/1.73m²) is listed for an elective open repair of a 6.2 cm infrarenal abdominal aortic aneurysm. The anaesthetist and surgical team discuss pre-operative strategies to minimise the risk of post-operative acute kidney injury. Which intervention has the strongest evidence for reducing post-operative AKI in this context?",
+    "options": [
+      "Pre-operative IV N-acetylcysteine infusion",
+      "Pre-operative IV sodium bicarbonate infusion",
+      "Optimising pre-operative fluid status and ensuring adequate perioperative hydration",
+      "Prophylactic pre-operative haemodialysis to 'pre-emptively' reduce uraemic load",
+      "Prescribing pre-operative ACE inhibitor therapy to protect the renal vasculature"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The strongest evidence for reducing post-operative AKI relates to optimising intravascular volume status — avoiding hypovolaemia and hypotension during surgery. Adequate pre-operative hydration, goal-directed fluid therapy intra-operatively, and avoidance of nephrotoxins (NSAIDs, aminoglycosides, contrast) are the cornerstone preventive strategies. N-acetylcysteine and sodium bicarbonate have evidence only in contrast nephropathy, not surgical AKI. Prophylactic haemodialysis has no evidence for benefit in this context.",
+    "wrongAnswerExplanations": [
+      "N-acetylcysteine reduces contrast-induced nephropathy in patients undergoing contrast CT/angiography, but evidence for preventing surgical AKI in this context is lacking. It is not standard pre-operative practice for open AAA repair.",
+      "Sodium bicarbonate infusion has shown benefit in some studies of contrast-induced nephropathy but not in surgical AKI prevention. It is not a recommended strategy for patients undergoing major vascular surgery.",
+      "Optimising pre-operative fluid status and ensuring adequate perioperative hydration is the correct answer. Volume depletion is the most modifiable risk factor for post-operative AKI. Goal-directed fluid therapy and avoiding hypotension are the evidence-based prevention strategies.",
+      "Prophylactic haemodialysis before surgery has no evidence of benefit and carries procedural risks (haemodynamic instability, catheter-related complications). It is not used for surgical AKI prevention.",
+      "ACE inhibitors may actually increase the risk of post-operative hypotension and AKI. Current guidelines recommend withholding ACE inhibitors and ARBs on the morning of major surgery to reduce intra-operative hypotension and renal hypoperfusion."
+    ],
+    "clinicalPearl": "Stop ACE inhibitors and ARBs before major surgery; adequate perioperative hydration and avoidance of hypotension are the most effective strategies for preventing post-operative AKI."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Sepsis — source control",
+    "question": "A 70-year-old woman with known gallstones presents with a 3-day history of fever, rigors, right upper quadrant pain, and jaundice. On examination she is confused, temperature 39.6°C, HR 110 bpm, BP 86/50 mmHg, RR 22 breaths/min. Blood tests: bilirubin 145 µmol/L, ALP 420 U/L, ALT 180 U/L, WBC 18.4 × 10⁹/L, CRP 310 mg/L. Ultrasound shows a dilated common bile duct (12 mm) with echogenic debris. She has been given IV antibiotics and fluid resuscitation in the emergency department. She remains hypotensive. Which is the most important next step in her management?",
+    "options": [
+      "Add a second antibiotic and continue aggressive fluid resuscitation for a further 6 hours",
+      "Urgent ERCP or percutaneous biliary drainage for source control",
+      "Emergency cholecystectomy in the next 2 hours",
+      "Arrange CT abdomen to exclude alternative diagnoses before any intervention",
+      "Start total parenteral nutrition and arrange elective ERCP in 48–72 hours"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has Charcot's triad (fever, jaundice, RUQ pain) plus hypotension and confusion — Reynolds' pentad, indicating ascending cholangitis with septic shock. Source control by urgent biliary decompression (ERCP with stone extraction/stenting, or percutaneous drainage if ERCP fails) is the critical intervention. Antibiotics and fluids alone cannot resolve biliary sepsis without draining the obstructed biliary system. Delay in source control significantly worsens outcomes in biliary sepsis.",
+    "wrongAnswerExplanations": [
+      "Continuing antibiotics and fluids without source control will not resolve ascending cholangitis caused by an obstructed biliary system. Antibiotic therapy is adjunctive; the definitive treatment is biliary decompression.",
+      "Urgent ERCP or percutaneous biliary drainage is the correct answer. Biliary decompression within 24 hours (ideally within hours) of diagnosis is associated with significantly reduced mortality in acute cholangitis. Source control is the cornerstone of sepsis management.",
+      "Emergency cholecystectomy is not the correct intervention for acute cholangitis. The problem is a bile duct obstruction, not the gallbladder itself. Cholecystectomy cannot relieve common bile duct obstruction and is associated with high mortality in this setting.",
+      "CT abdomen may reveal complications (abscess, perforation) but in this clinical picture of Reynolds' pentad, the diagnosis is clear and should not delay urgent biliary decompression. Life-saving procedures take precedence over further imaging.",
+      "Elective ERCP in 48–72 hours is dangerous in a patient with septic shock from acute cholangitis. Tokyo Guidelines classify this as Grade III (severe) acute cholangitis requiring emergency biliary drainage within 24 hours."
+    ],
+    "clinicalPearl": "Reynolds' pentad (Charcot's triad + hypotension + confusion) indicates severe ascending cholangitis requiring emergency biliary decompression — source control is as important as antibiotics in sepsis management."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Care of Critically Ill Patient.pdf",
+    "topic": "Multi-organ dysfunction in critical illness",
+    "question": "A 50-year-old man is in the ICU following an emergency laparotomy for faecal peritonitis from a sigmoid perforation. On day 4, his observations are: intubated and ventilated (PaO₂/FiO₂ 180 mmHg), noradrenaline 0.3 µg/kg/min to maintain MAP 65 mmHg, serum creatinine 340 µmol/L (baseline 80 µmol/L), bilirubin 88 µmol/L, platelet count 62 × 10⁹/L, GCS 8 off sedation. Which scoring system is best validated for quantifying the degree of organ dysfunction and predicting ICU mortality in this patient?",
+    "options": [
+      "APACHE II score",
+      "Glasgow Coma Scale alone",
+      "Sequential Organ Failure Assessment (SOFA) score",
+      "POSSUM score",
+      "CURB-65 score"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Sequential Organ Failure Assessment (SOFA) score quantifies dysfunction across six organ systems: respiratory (PaO₂/FiO₂), coagulation (platelets), liver (bilirubin), cardiovascular (vasopressor requirement), renal (creatinine/urine output), and neurological (GCS). It is the primary validated tool for assessing multiple organ dysfunction in ICU patients and forms the basis of the Sepsis-3 definition. Higher SOFA scores correlate with increased ICU mortality. This patient demonstrates dysfunction in all six domains.",
+    "wrongAnswerExplanations": [
+      "APACHE II (Acute Physiology and Chronic Health Evaluation II) predicts ICU mortality on admission but is calculated once at admission, making it less useful for tracking day-to-day changes in organ function. SOFA is better for ongoing monitoring.",
+      "Glasgow Coma Scale assesses only neurological status and is one component of the SOFA score. It cannot quantify multi-organ dysfunction as a standalone tool.",
+      "The SOFA score is the correct answer. It systematically scores six organ systems (respiratory, coagulation, hepatic, cardiovascular, renal, neurological) and is validated for predicting ICU mortality and tracking disease trajectory in critically ill patients.",
+      "POSSUM (Physiological and Operative Severity Score for the enUmeration of Mortality and morbidity) is a peri-operative risk scoring tool used before or at the time of surgery, not for ongoing ICU monitoring of organ dysfunction.",
+      "CURB-65 is a pneumonia severity scoring tool (Confusion, Urea, Respiratory rate, Blood pressure, age ≥65). It is disease-specific and has no role in quantifying multi-organ dysfunction in ICU patients."
+    ],
+    "clinicalPearl": "The SOFA score assesses six organ systems (respiratory, coagulation, liver, cardiovascular, renal, neurological); a rise of ≥2 points identifies sepsis and serial scores track the trajectory of critical illness in the ICU."
+  }
+]

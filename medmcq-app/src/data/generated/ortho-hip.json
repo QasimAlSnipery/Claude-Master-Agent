@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Intracapsular neck-of-femur fracture",
+    "question": "An 82-year-old woman with osteoporosis trips on a rug at home and falls onto her right side. On arrival to the emergency department she is unable to weight bear. Examination reveals her right leg is shortened and externally rotated. X-ray confirms a displaced subcapital fracture of the femoral neck (Garden grade IV). She is independently mobile with a walking frame and has no significant comorbidities. What is the most appropriate definitive surgical management?",
+    "options": [
+      "Dynamic hip screw (DHS) fixation",
+      "Cannulated screw fixation",
+      "Total hip replacement (THR)",
+      "Hemiarthroplasty",
+      "Conservative management with traction"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "In an elderly patient with a displaced intracapsular (subcapital) neck-of-femur fracture, the femoral head blood supply is likely disrupted, making avascular necrosis a major risk if the head is preserved. Hemiarthroplasty (replacing the femoral head with a prosthesis) is the standard treatment for displaced intracapsular fractures in elderly patients with low to moderate functional demand. THR is preferred over hemiarthroplasty only in patients who are fully active and have pre-existing hip arthritis or acetabular disease.",
+    "wrongAnswerExplanations": [
+      "DHS fixation is used for extracapsular (intertrochanteric) fractures, not displaced intracapsular fractures, where the risk of AVN makes head-preserving fixation inappropriate in the elderly.",
+      "Cannulated screw fixation is appropriate for undisplaced or minimally displaced intracapsular fractures in younger patients where preserving the femoral head is possible; a Garden IV fracture in an 82-year-old carries too high an AVN risk.",
+      "THR provides better long-term outcomes and lower re-operation rates than hemiarthroplasty in active, cognitively intact patients with pre-existing hip arthritis, but this patient uses a walking frame, indicating lower functional demand, making hemiarthroplasty more appropriate.",
+      "Hemiarthroplasty is the correct answer — it replaces the femoral head and eliminates the risk of AVN while restoring function quickly in an elderly low-demand patient.",
+      "Conservative management with traction is inappropriate for displaced intracapsular fractures; it is associated with high rates of malunion, non-union, prolonged immobility, and mortality from complications such as DVT and pneumonia."
+    ],
+    "clinicalPearl": "Displaced intracapsular NOF fractures in the elderly = hemiarthroplasty; reserve THR for active patients with pre-existing hip arthritis; internal fixation is for undisplaced fractures or young patients."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Avascular necrosis of femoral head",
+    "question": "A 35-year-old male motorcyclist is brought to the emergency department following a high-speed road traffic collision. He has an anteroposterior pelvis X-ray showing a displaced intracapsular femoral neck fracture on the left side. The fracture is reduced and fixed with cannulated screws within 6 hours. At a 12-month follow-up appointment he reports increasing groin pain and difficulty walking. An MRI of the left hip is performed. Which complication is most likely responsible for his symptoms?",
+    "options": [
+      "Sciatic nerve injury",
+      "Avascular necrosis of the femoral head",
+      "Non-union of the femoral neck",
+      "Heterotopic ossification",
+      "Osteoarthritis of the hip joint"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The medial circumflex femoral artery (MCFA) is the dominant blood supply to the femoral head in adults, running in the retinacular vessels along the femoral neck. Intracapsular fractures — particularly displaced ones — disrupt these retinacular vessels, leading to avascular necrosis (AVN) of the femoral head. AVN classically presents weeks to months after injury with progressive groin pain, and MRI is the most sensitive early investigation. In young patients, fixation is attempted to preserve the head but AVN rates remain 15–30% even with timely surgery.",
+    "wrongAnswerExplanations": [
+      "Sciatic nerve injury is associated with posterior hip dislocation, not isolated intracapsular femoral neck fractures, and would present with neurological deficit (foot drop, posterior thigh numbness) rather than isolated groin pain.",
+      "Avascular necrosis is the correct answer — disruption of the retinacular vessels supplying the femoral head is the key mechanism after intracapsular fractures, and MRI is the gold-standard early investigation.",
+      "Non-union of the femoral neck is a recognised complication (especially in displaced fractures) but typically causes pain at the fracture site from abnormal mobility; MRI would demonstrate a persistent fracture gap rather than the subchondral changes of AVN.",
+      "Heterotopic ossification causes stiffness and pain due to ectopic bone formation around the joint but is more common after THR or acetabular surgery and would be visible on plain X-ray at this stage.",
+      "Primary osteoarthritis takes many years to develop and would be unusual at 12 months in a 35-year-old; secondary osteoarthritis can follow AVN but would represent a later stage rather than the primary diagnosis here."
+    ],
+    "clinicalPearl": "AVN of the femoral head after intracapsular NOF fracture results from disruption of the medial circumflex femoral artery; MRI is the most sensitive early investigation and can detect AVN before X-ray changes appear."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Hip dislocation — posterior",
+    "question": "A 28-year-old male driver is brought to the emergency department after a front-on vehicle collision. He was wearing a seatbelt. His right knee struck the dashboard. On examination his right leg is held in flexion, adduction, and internal rotation; he is in severe pain and cannot move the hip. Neurovascular examination reveals reduced sensation over the dorsum of the right foot and weakness of ankle dorsiflexion. What is the most likely diagnosis?",
+    "options": [
+      "Anterior dislocation of the right hip",
+      "Posterior dislocation of the right hip with sciatic nerve injury",
+      "Displaced femoral shaft fracture",
+      "Intertrochanteric fracture with haematoma causing nerve compression",
+      "Traumatic hip subluxation with acetabular rim fracture only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The classic mechanism of posterior hip dislocation is a dashboard injury — axial force transmitted through a flexed knee along the shaft of the femur to the hip. The limb adopts a position of flexion, adduction, and internal rotation. The sciatic nerve (particularly its common peroneal division) lies posterior to the hip and is at risk, presenting with foot drop and reduced dorsal foot sensation. Anterior dislocations produce the opposite posture (extension, abduction, external rotation) and are much less common.",
+    "wrongAnswerExplanations": [
+      "Anterior dislocation produces a limb held in extension, abduction, and external rotation — the opposite of this presentation — and is associated with femoral nerve or femoral vessel injury, not sciatic nerve injury.",
+      "Posterior hip dislocation with sciatic nerve injury is the correct answer — the dashboard mechanism, limb posture, and peroneal division deficit are all classic features.",
+      "A displaced femoral shaft fracture would show shortening and abnormal rotational deformity but would not produce the fixed flexion-adduction-internal rotation posture or account for the sciatic nerve findings without an additional injury.",
+      "Intertrochanteric fractures produce shortening and external rotation (not internal rotation) and are typically seen in elderly patients after low-energy falls; haematoma rarely causes acute nerve compression in this manner.",
+      "An isolated acetabular rim fracture without dislocation would not produce this degree of deformity or neurological deficit."
+    ],
+    "clinicalPearl": "Posterior hip dislocation presents with flexion, adduction, and internal rotation of the limb and is complicated by sciatic nerve injury in up to 10% of cases — reduce within 6 hours to minimise AVN risk."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Hip dislocation — emergency management",
+    "question": "A 22-year-old woman is brought to resus following a motorbike accident. She has a confirmed posterior dislocation of the left hip on plain X-ray with no associated femoral head or acetabular fracture. Her vital signs are stable. She has no neurological deficit. What is the most appropriate immediate management?",
+    "options": [
+      "Arrange urgent CT pelvis and hip to exclude occult fracture before any reduction",
+      "Closed reduction under conscious sedation or general anaesthesia as soon as possible, ideally within 6 hours",
+      "Apply skin traction and arrange reduction in theatre the following morning",
+      "Proceed directly to open reduction without attempting closed reduction first",
+      "Analgesia and observation with reduction planned as an elective procedure"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Posterior hip dislocation is an orthopaedic emergency because prolonged dislocation compresses the retinacular vessels and dramatically increases the risk of avascular necrosis of the femoral head. Closed reduction under sedation or general anaesthesia should be performed as soon as possible — ideally within 6 hours of injury — to restore blood flow. CT is typically performed after reduction to assess for intra-articular fragments or associated fractures that might require further surgery, not before an emergency reduction (unless the reduction attempt fails or there is suspected associated fracture that would change the immediate approach).",
+    "wrongAnswerExplanations": [
+      "While CT provides excellent detail of associated bony injuries, delaying reduction to await CT unnecessarily prolongs dislocation time and increases AVN risk; CT is best performed post-reduction in uncomplicated cases.",
+      "Urgent closed reduction within 6 hours is the correct answer — this is the gold-standard emergency management to minimise AVN risk.",
+      "Overnight traction and delayed reduction is inappropriate; every hour of delay increases the risk of AVN and the treatment window is considered 6 hours from injury.",
+      "Open reduction is reserved for failed closed reduction or cases with entrapped intra-articular fragments preventing reduction — it should not be the first-line approach when closed reduction may succeed.",
+      "Elective delayed reduction is dangerous and unacceptable; avascular necrosis risk rises sharply with duration of dislocation, making this a true orthopaedic emergency."
+    ],
+    "clinicalPearl": "Hip dislocation must be reduced within 6 hours to minimise avascular necrosis — perform CT after reduction to detect intra-articular fragments, not before (unless reduction fails)."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Extracapsular neck-of-femur fracture",
+    "question": "A 78-year-old man with type 2 diabetes and mild dementia falls from standing height at his nursing home. He is unable to weight bear. His right leg is shortened and externally rotated. X-ray of the right hip shows a fracture below the level of the lesser trochanter, with the fracture line running from the greater to lesser trochanter (intertrochanteric). Bloods show Hb 110 g/L. Which statement best describes the blood supply implications and preferred surgical implant for this fracture?",
+    "options": [
+      "The femoral head blood supply is compromised; total hip replacement is preferred",
+      "The blood supply to the femoral head is preserved; dynamic hip screw (DHS) is the implant of choice",
+      "The medial circumflex femoral artery is disrupted; hemiarthroplasty is indicated",
+      "Avascular necrosis is the main concern; cannulated screws should be used",
+      "The blood supply is intact but non-union rates are high; intramedullary nail is preferred"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Intertrochanteric (extracapsular) fractures occur below the capsular reflection of the hip joint. The retinacular vessels supplying the femoral head run within the joint capsule and are therefore not disrupted in extracapsular fractures, so AVN is not a significant concern. The dynamic hip screw (DHS) is the standard implant for stable intertrochanteric fractures — it provides a sliding compression mechanism that promotes fracture union. An intramedullary (cephalomedullary) nail may be preferred for unstable patterns (reverse oblique, subtrochanteric extension).",
+    "wrongAnswerExplanations": [
+      "Arthroplasty (THR or hemiarthroplasty) is not required for intertrochanteric fractures because the femoral head blood supply is intact and the fracture can be fixed and expected to unite.",
+      "The blood supply to the femoral head is preserved in extracapsular fractures, and DHS is the implant of choice for stable intertrochanteric patterns — this is the correct answer.",
+      "The medial circumflex femoral artery is not disrupted in extracapsular fractures because the fracture is outside the capsule; therefore hemiarthroplasty is unnecessary.",
+      "AVN is a complication of intracapsular fractures, not extracapsular ones; cannulated screws are used for intracapsular fractures in younger patients.",
+      "While an intramedullary nail is preferred for unstable patterns (e.g., reverse oblique or subtrochanteric extension), the standard stable intertrochanteric fracture is best managed with DHS rather than an IMN."
+    ],
+    "clinicalPearl": "Extracapsular (intertrochanteric) fractures spare the femoral head blood supply — AVN is not a concern; DHS is preferred for stable patterns, cephalomedullary nail for unstable or reverse oblique patterns."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Intertrochanteric fracture.pdf",
+    "topic": "Intertrochanteric fracture classification and stability",
+    "question": "A 71-year-old woman slips on ice and presents with left hip pain and inability to weight bear. AP pelvis X-ray reveals a four-part intertrochanteric fracture with separation of both trochanters and posteromedial comminution. Which AO/OTA classification best describes this fracture pattern, and what is the key feature that determines instability?",
+    "options": [
+      "AO 31-A1: simple two-part fracture; instability due to varus angulation",
+      "AO 31-A3: reverse oblique or transverse fracture; instability due to lateral cortex involvement",
+      "AO 31-A2: multi-fragmentary pertrochanteric fracture; instability due to posteromedial comminution and loss of medial buttress",
+      "AO 31-B: basicervical fracture; instability due to loss of femoral neck integrity",
+      "AO 31-A1.2: two-part fracture with single intermediate fragment; stable due to intact lateral wall"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The AO/OTA classification divides intertrochanteric fractures into A1 (simple two-part), A2 (multi-fragmentary pertrochanteric), and A3 (reverse oblique/transverse). A2 fractures involve the posteromedial cortex with multiple fragments and comminution; loss of the posteromedial buttress is the key determinant of instability, as it prevents telescoping and medialisation of the femoral shaft. Four-part fractures with separation of both trochanters and posteromedial comminution are classified as A2 and are considered unstable.",
+    "wrongAnswerExplanations": [
+      "AO 31-A1 fractures are simple two-part pertrochanteric fractures with an intact medial cortex and are inherently stable; varus angulation alone does not define the classification.",
+      "AO 31-A3 fractures are reverse oblique or transverse with the fracture line running from medial-proximal to lateral-distal; they are unstable but the key feature is lateral cortex disruption and tendency to medial displacement, not posteromedial comminution.",
+      "AO 31-A2 with posteromedial comminution is the correct answer — four-part intertrochanteric fractures with loss of medial buttress are the hallmark of A2, which is unstable.",
+      "AO 31-B refers to femoral neck (basicervical) fractures in some classification systems; this does not describe a trochanteric fracture pattern.",
+      "AO 31-A1.2 is a stable two-part fracture with a single intermediate fragment and an intact lateral wall; this does not describe a four-part comminuted pattern."
+    ],
+    "clinicalPearl": "Posteromedial comminution (loss of the medial buttress) is the key determinant of instability in intertrochanteric fractures (AO 31-A2); unstable patterns may require a cephalomedullary nail rather than DHS."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Intertrochanteric fracture.pdf",
+    "topic": "Intertrochanteric fracture — implant selection",
+    "question": "A 68-year-old man with a BMI of 32 sustains a right intertrochanteric fracture following a fall. X-ray shows a reverse oblique fracture pattern (AO 31-A3) with the fracture line running from the lateral cortex proximally to the medial cortex distally. The orthopaedic registrar considers using a dynamic hip screw (DHS). Which statement best describes why a DHS is relatively contraindicated in this fracture pattern?",
+    "options": [
+      "DHS cannot be used in obese patients due to technical difficulty with guide wire insertion",
+      "In a reverse oblique fracture, the sliding mechanism of a DHS causes the femoral shaft to displace medially rather than compress the fracture, making it biomechanically unsuitable",
+      "DHS provides insufficient rotational stability for all A3 fractures and always requires augmentation with an antirotation screw",
+      "The reverse oblique pattern indicates intracapsular extension, precluding use of DHS",
+      "DHS is contraindicated because the greater trochanter is separated and cannot accept the barrel of the device"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In a standard intertrochanteric fracture, the DHS sliding mechanism allows impaction along the fracture line, promoting union. In a reverse oblique fracture (A3), the fracture line slopes from proximal-lateral to distal-medial. When the lag screw slides, it drives the femoral shaft medially rather than compressing the fracture, leading to medialization and varus collapse. A cephalomedullary nail (e.g., proximal femoral nail) is biomechanically superior for A3 patterns because the intramedullary position neutralises this medial displacement force.",
+    "wrongAnswerExplanations": [
+      "Obesity increases surgical difficulty but is not a contraindication to DHS; it does not alter the biomechanical argument for implant selection.",
+      "This is the correct answer — the DHS sliding mechanism actively worsens a reverse oblique fracture by driving medial displacement rather than axial compression.",
+      "While DHS may need an antirotation screw in some cases, the primary contraindication for A3 patterns is the medial displacement problem, not rotational instability.",
+      "Reverse oblique fractures are extracapsular (pertrochanteric/subtrochanteric region) and do not involve intracapsular extension; the indication for arthroplasty does not apply here.",
+      "Greater trochanter comminution can make lateral wall fixation harder, but the trochanter is not required to accept the DHS barrel; the barrel seats in the lateral femoral shaft."
+    ],
+    "clinicalPearl": "Reverse oblique intertrochanteric fractures (AO 31-A3) are a contraindication to DHS because the sliding mechanism causes medial displacement of the femoral shaft — use a cephalomedullary nail instead."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Femoral shaft fracture — haemorrhage",
+    "question": "A 19-year-old male pedestrian is struck by a car at speed. Paramedics bring him to resus with a grossly swollen, angulated right thigh. His blood pressure is 88/60 mmHg, pulse 118 bpm, and he is pale and diaphoretic. FAST ultrasound shows no intra-abdominal free fluid. Plain X-ray confirms a mid-shaft femoral fracture. What is the estimated blood loss associated with a closed femoral shaft fracture and what is the immediate priority?",
+    "options": [
+      "Up to 500 mL blood loss; start oral iron replacement and monitor",
+      "Up to 1000–1500 mL blood loss; apply a traction splint to reduce haematoma volume and commence IV fluid/blood resuscitation",
+      "Up to 3000 mL blood loss; proceed immediately to open fasciotomy",
+      "Up to 500 mL blood loss; the hypotension must have another cause — perform CT trauma series immediately",
+      "Up to 2500 mL blood loss; place patient in traction only and await orthopaedic review in the morning"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A closed femoral shaft fracture can cause 1000–1500 mL (approximately 1–1.5 litres) of blood loss into the thigh compartment, which is sufficient to cause haemorrhagic shock in an adult. Immediate management includes applying a traction splint (e.g., Thomas splint) to reduce the thigh volume and tamponade bleeding, alongside IV access, resuscitation with blood products (damage control resuscitation), and assessment for other injuries. Open fasciotomy is for compartment syndrome, not acute haemorrhage management.",
+    "wrongAnswerExplanations": [
+      "500 mL significantly underestimates blood loss from a femoral shaft fracture; oral iron is entirely inappropriate in the acute setting of haemorrhagic shock.",
+      "This is the correct answer — 1000–1500 mL is the accepted estimate for a closed femoral shaft fracture, and a Thomas/traction splint reduces haematoma volume while resuscitation is initiated.",
+      "3000 mL would suggest a pelvic fracture rather than an isolated femoral shaft fracture; fasciotomy addresses compartment syndrome, not acute haemorrhage.",
+      "While other sources of bleeding must always be considered in polytrauma, isolated femoral shaft fractures can independently cause haemorrhagic shock and should be treated as such; delaying action for CT in a haemodynamically unstable patient is dangerous.",
+      "2500 mL overestimates isolated femoral shaft blood loss; delaying management until the morning is dangerous and inappropriate for a patient in shock."
+    ],
+    "clinicalPearl": "A closed femoral shaft fracture can cause up to 1–1.5 litres of blood loss — apply a traction splint early to reduce haematoma volume and initiate prompt haemorrhagic shock resuscitation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Femoral shaft fracture — definitive management",
+    "question": "A 34-year-old woman sustains a closed midshaft femoral fracture after a fall from a horse. She is haemodynamically stable. Neurovascular examination of the limb is intact. What is the gold-standard definitive surgical treatment for a closed femoral shaft fracture in an adult?",
+    "options": [
+      "Skin traction followed by conservative management in a hip spica cast",
+      "Open reduction and plate fixation",
+      "Reamed intramedullary nailing",
+      "External fixation as definitive treatment",
+      "Dynamic hip screw insertion"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Reamed intramedullary (IM) nailing is the gold-standard treatment for closed femoral shaft fractures in adults. It provides rigid fixation with load-sharing mechanics, allows early mobilisation, and has union rates exceeding 95%. Reaming prior to nail insertion increases nail diameter capacity, improves rotational stability, and releases endosteal growth factors that enhance union. Plating may be used for fractures not amenable to nailing (e.g., very proximal or distal extensions, canal abnormalities) but carries higher infection and implant failure rates for shaft fractures.",
+    "wrongAnswerExplanations": [
+      "Conservative management in traction or a spica cast is now only used in specific paediatric cases or as a temporary measure; in adults it results in prolonged bed rest, malunion, and high complication rates.",
+      "Open plating is a valid alternative for specific fracture patterns (very proximal, very distal, or when IM nailing is contraindicated) but is not the gold standard for standard midshaft femoral fractures due to higher soft-tissue disruption and infection risk.",
+      "Reamed intramedullary nailing is the correct answer — it provides superior biomechanics, excellent union rates, and enables early weight-bearing.",
+      "External fixation is used as a temporary damage control measure in polytrauma or contaminated open fractures; it is not definitive treatment for closed femoral shaft fractures.",
+      "DHS is designed for extracapsular femoral neck fractures and subtrochanteric patterns — it is not applicable to midshaft femoral fractures."
+    ],
+    "clinicalPearl": "Reamed intramedullary nailing is the gold standard for adult closed femoral shaft fractures, offering >95% union rates and enabling early weight-bearing rehabilitation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Undisplaced intracapsular NOF fracture",
+    "question": "A 74-year-old woman is brought to the emergency department after a low-energy fall at home. She has groin pain and cannot weight bear. X-ray shows an undisplaced (Garden grade I) subcapital femoral neck fracture. She is otherwise fit and lives alone. What is the most appropriate surgical management?",
+    "options": [
+      "Hemiarthroplasty, as all intracapsular fractures require femoral head replacement",
+      "Conservative management with bed rest, as undisplaced fractures will heal without surgery",
+      "Internal fixation with cannulated cancellous screws",
+      "Total hip replacement",
+      "Dynamic hip screw fixation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Undisplaced intracapsular femoral neck fractures (Garden I and II) in elderly patients are treated with internal fixation using cannulated cancellous screws (typically 3 screws in an inverted triangle configuration). The femoral head blood supply is likely intact in undisplaced fractures, making head-preserving surgery appropriate. Fixation also prevents displacement to a higher-grade fracture, which would necessitate arthroplasty. Conservative management risks displacement and is generally not recommended in mobile elderly patients.",
+    "wrongAnswerExplanations": [
+      "Arthroplasty is not indicated for undisplaced intracapsular fractures in patients with an intact blood supply; it is reserved for displaced fractures (Garden III/IV) in the elderly.",
+      "Conservative management risks displacement of the fracture and is associated with high complication rates in elderly patients; fixation is recommended even for undisplaced fractures to prevent progression.",
+      "Cannulated cancellous screws are the correct answer for undisplaced intracapsular fractures — they preserve the femoral head, are minimally invasive, and prevent displacement.",
+      "Total hip replacement is reserved for displaced intracapsular fractures in highly active patients with pre-existing acetabular disease; it is excessive for an undisplaced fracture.",
+      "DHS is the implant of choice for extracapsular (intertrochanteric) fractures, not intracapsular fractures."
+    ],
+    "clinicalPearl": "Undisplaced intracapsular NOF fractures (Garden I/II) should be fixed with cannulated screws to prevent displacement and preserve the femoral head blood supply."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Anterior hip dislocation",
+    "question": "A 45-year-old rugby player sustains a forceful tackle that causes extreme abduction and external rotation of his left hip. In the emergency department his left leg is held in extension, abduction, and external rotation. He has groin pain and is unable to move the hip. Neurovascular examination reveals reduced sensation over the medial thigh and weakness of hip adduction. What is the most likely diagnosis?",
+    "options": [
+      "Posterior hip dislocation with sciatic nerve injury",
+      "Anterior (obturator/inferior type) hip dislocation with femoral nerve injury",
+      "Traumatic acetabular fracture without dislocation",
+      "Greater trochanter avulsion fracture",
+      "Femoral neck stress fracture"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Anterior hip dislocation results from forced abduction with external rotation — the mechanism here is consistent. The femoral head dislocates anteriorly through the anterior capsule, and the limb is held in extension, abduction, and external rotation (opposite to the flexion-adduction-internal rotation of posterior dislocation). The femoral nerve or obturator nerve can be compressed, producing medial thigh numbness and adductor weakness. Anterior dislocations are far less common than posterior ones.",
+    "wrongAnswerExplanations": [
+      "Posterior dislocation presents with the opposite limb position — flexion, adduction, and internal rotation — and is associated with sciatic nerve injury, not femoral/obturator nerve injury.",
+      "Anterior hip dislocation is the correct answer — forced abduction/external rotation, limb posture in extension-abduction-ER, and obturator/femoral nerve signs are diagnostic.",
+      "An isolated acetabular fracture without dislocation would not produce this degree of deformity or the characteristic fixed posture.",
+      "Greater trochanter avulsion fractures cause localised tenderness and pain on abduction but do not produce a fixed deformity or neurovascular deficit.",
+      "Femoral neck stress fractures present with insidious groin pain and are not caused by acute high-energy mechanisms in otherwise healthy adults."
+    ],
+    "clinicalPearl": "Anterior hip dislocation produces a limb in extension, abduction, and external rotation and may injure the femoral or obturator nerve — contrast with posterior dislocation (flexion, adduction, IR) and sciatic nerve injury."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Intertrochanteric fracture.pdf",
+    "topic": "Intertrochanteric fracture — perioperative management",
+    "question": "An 80-year-old man on warfarin for atrial fibrillation presents with a left intertrochanteric femoral fracture after a fall. His INR on admission is 3.4. He is otherwise haemodynamically stable. Surgery is planned. What is the most appropriate perioperative strategy regarding his anticoagulation?",
+    "options": [
+      "Proceed with surgery immediately regardless of INR, as delay worsens outcomes",
+      "Withhold warfarin and administer vitamin K to reverse the INR to below 1.5 before surgery; aim to operate within 36–48 hours",
+      "Switch to therapeutic-dose low-molecular-weight heparin (LMWH) and proceed with surgery in 12 hours",
+      "Cancel surgery until INR spontaneously normalises over 5–7 days without intervention",
+      "Administer fresh frozen plasma only and proceed with surgery once INR is below 2.5"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Current guidelines (NICE CG124 and BOAST standards) recommend that hip fracture patients should receive surgery within 36–48 hours of admission where medically fit. In patients on warfarin with a supratherapeutic INR, warfarin should be withheld and low-dose IV vitamin K (1–5 mg) administered to reverse the INR to a safe surgical level (below 1.5), enabling timely surgery. Delaying surgery beyond 48 hours significantly increases mortality, pressure sores, pneumonia, and DVT risk.",
+    "wrongAnswerExplanations": [
+      "Operating with an INR of 3.4 carries unacceptably high intraoperative and postoperative haemorrhage risk and is not recommended; reversal to below 1.5 before surgery is the standard.",
+      "Withholding warfarin and administering vitamin K to achieve INR below 1.5, then operating within 36–48 hours, is the correct evidence-based approach aligned with NICE guidelines.",
+      "Therapeutic-dose LMWH would maintain anticoagulation and increase bleeding risk at operation; LMWH is used for thromboprophylaxis postoperatively, not as a bridging strategy in this context.",
+      "Allowing spontaneous INR normalisation over 5–7 days results in dangerous surgical delay with significantly increased complication and mortality rates; active reversal is required.",
+      "FFP alone is less predictable and carries volume overload and transfusion reaction risks; INR of 2.5 is still above the acceptable surgical threshold; vitamin K plus FFP may be used in urgent cases but target is below 1.5."
+    ],
+    "clinicalPearl": "In warfarinised patients with hip fractures, administer low-dose IV vitamin K to reverse INR to below 1.5 and aim to operate within 36–48 hours — surgical delay beyond this window significantly increases mortality."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries Of The Hip And Femur.pdf",
+    "topic": "Open femoral shaft fracture — damage control",
+    "question": "A 26-year-old male cyclist is hit by a lorry. He arrives in resus with a GCS of 14, BP 100/70 mmHg, and a Gustilo-Anderson grade IIIB open fracture of the left femoral shaft with significant contamination. His temperature is 35.2°C, pH 7.28, and lactate 6 mmol/L on blood gas. The trauma team is managing multiple injuries. What is the most appropriate orthopaedic strategy for his femoral fracture at this stage?",
+    "options": [
+      "Immediate reamed intramedullary nailing in the same anaesthetic as his other injuries",
+      "Application of external fixator as damage control orthopaedics, with definitive nailing deferred until physiological normalisation",
+      "Open plating under tourniquet in the current session to achieve absolute stability",
+      "Wound debridement only, with fracture left unreduced pending ICU stabilisation",
+      "Immediate unreamed intramedullary nailing with concurrent wound closure"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient is in the 'lethal triad' of hypothermia, acidosis, and coagulopathy — the damage control resuscitation phase. Damage control orthopaedics (DCO) involves rapid temporary stabilisation (external fixator) to control haemorrhage and soft tissue injury while avoiding the 'second hit' of prolonged surgery in a physiologically compromised patient. Definitive fixation (reamed IM nail) is deferred until the patient is warm, corrected, and coagulopathy resolved — typically 3–5 days later. Open contaminated fractures also require urgent wound irrigation and debridement.",
+    "wrongAnswerExplanations": [
+      "Reamed intramedullary nailing in the same anaesthetic ('early total care') is appropriate in haemodynamically stable, physiologically normal patients; in the lethal triad it constitutes a dangerous 'second hit' that can precipitate multi-organ failure.",
+      "External fixation as damage control orthopaedics is the correct strategy — rapid stabilisation with deferred definitive fixation is the standard in physiologically compromised polytrauma patients.",
+      "Open plating under tourniquet is a prolonged procedure with significant blood loss and soft tissue disruption; it is inappropriate as a damage control measure.",
+      "Leaving a fracture completely unreduced without any splintage causes ongoing haemorrhage, pain, and soft tissue damage; external fixation provides temporary reduction and stability even in the DCO setting.",
+      "Unreamed nailing is occasionally used in borderline patients to reduce medullary pressure, but in a Gustilo IIIB open contaminated fracture with lethal triad physiology, external fixation remains the safest damage control option; concurrent wound closure is contraindicated in IIIB wounds."
+    ],
+    "clinicalPearl": "In polytrauma with the lethal triad (hypothermia, acidosis, coagulopathy), use damage control orthopaedics — temporary external fixation — for femoral fractures, deferring definitive intramedullary nailing until physiological recovery."
+  }
+]

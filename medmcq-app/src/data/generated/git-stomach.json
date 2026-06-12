@@ -1,0 +1,301 @@
+[
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Perforated peptic ulcer",
+    "question": "A 52-year-old man presents to the emergency department with a 3-hour history of sudden-onset severe epigastric pain that has spread to the whole abdomen. He has a 10-year history of peptic ulcer disease and takes ibuprofen regularly for back pain. On examination he is afebrile, pulse 110 bpm, BP 100/70 mmHg. The abdomen is rigid with generalised guarding and rebound tenderness. Erect chest X-ray shows free air under the right hemidiaphragm. Which of the following is the most appropriate immediate management?",
+    "options": [
+      "IV proton pump inhibitor infusion and nasogastric drainage",
+      "Emergency upper GI endoscopy to identify the perforation site",
+      "IV fluid resuscitation, analgesia, nasogastric tube, urinary catheter, and urgent laparotomy",
+      "CT abdomen with contrast to confirm perforation before surgery",
+      "Conservative management with IV antibiotics and nil by mouth"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has a perforated peptic ulcer with pneumoperitoneum on erect CXR — a surgical emergency. The immediate priority is resuscitation (IV fluids, analgesia, catheter, nasogastric drainage) followed by urgent laparotomy for washout and repair (Graham patch omentoplasty). Conservative (Taylor) management is reserved for selected stable patients without generalised peritonitis.",
+    "wrongAnswerExplanations": [
+      "IV PPI infusion alone is appropriate for active bleeding ulcers, not for perforation with pneumoperitoneum and peritonitis.",
+      "Emergency endoscopy is contraindicated in perforation as insufflation worsens pneumoperitoneum and delays definitive surgical repair.",
+      "Correct. Resuscitation followed by urgent laparotomy is the standard of care for perforated peptic ulcer with generalised peritonitis.",
+      "CT abdomen may be used when diagnosis is uncertain and the patient is stable, but here the diagnosis is already confirmed by CXR and surgery must not be delayed.",
+      "Conservative management (Taylor's method) is only considered in haemodynamically stable patients with no generalised peritonitis; this patient has signs of peritonitis and early shock."
+    ],
+    "clinicalPearl": "Free air under the diaphragm on erect CXR in a patient with peritonitis means perforated viscus — resuscitate and take to theatre; do not delay for CT."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Upper GI bleeding — peptic ulcer",
+    "question": "A 68-year-old woman presents with two episodes of haematemesis and melaena over 4 hours. She takes aspirin 75 mg and naproxen for osteoarthritis. Observations: HR 118 bpm, BP 88/60 mmHg, RR 22/min, saturations 96% on air. She is pale and cool peripherally. After initial resuscitation with 2 units of packed red cells and IV fluids, her BP improves to 105/70 mmHg. What is the most appropriate next step?",
+    "options": [
+      "Urgent CT angiography to localise the bleeding source",
+      "Intravenous omeprazole infusion and observation on the ward",
+      "Urgent upper GI endoscopy within 24 hours (after resuscitation)",
+      "Emergency laparotomy for oversewing of the bleeding vessel",
+      "Selective mesenteric angiography and embolisation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Following resuscitation of a haemodynamically unstable upper GI bleed, urgent endoscopy within 24 hours (or sooner if re-bleeding) is the investigation and treatment of choice. It allows Rockford/Forrest classification, risk stratification, and endoscopic haemostasis (injection, clipping, thermal coagulation). IV PPI is an adjunct but not a substitute for endoscopy.",
+    "wrongAnswerExplanations": [
+      "CT angiography is useful when endoscopy fails or in obscure lower GI bleeding; it is not the first-line investigation for upper GI haemorrhage.",
+      "IV PPI infusion is an important adjunct that reduces re-bleeding rates, but observation alone without endoscopy is inadequate after resuscitation of a major UGI bleed.",
+      "Correct. After resuscitation, urgent upper GI endoscopy within 24 hours is the standard of care for significant upper GI haemorrhage, enabling diagnosis and therapeutic intervention.",
+      "Emergency laparotomy is reserved for endoscopic failure or haemodynamic instability refractory to resuscitation; it is not the next step after successful initial resuscitation.",
+      "Angiography and embolisation are second-line options when endoscopic haemostasis has failed; they are not the initial management after resuscitation."
+    ],
+    "clinicalPearl": "After resuscitation of a major UGI bleed, urgent endoscopy within 24 hours is both diagnostic and therapeutic — it should not be delayed by CT or empirical surgery."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "H. pylori eradication",
+    "question": "A 45-year-old man is diagnosed with a 12 mm duodenal ulcer on endoscopy performed for epigastric pain. Biopsy-based CLO test is positive for Helicobacter pylori. He has no drug allergies. Which of the following is the most appropriate first-line treatment for his H. pylori infection?",
+    "options": [
+      "Omeprazole 20 mg twice daily alone for 8 weeks",
+      "Amoxicillin 1 g twice daily and metronidazole 400 mg twice daily for 7 days",
+      "Omeprazole 20 mg, clarithromycin 500 mg, and amoxicillin 1 g — all twice daily for 7 days",
+      "Bismuth subcitrate, tetracycline, metronidazole, and omeprazole (quadruple therapy) for 7 days",
+      "Clarithromycin 500 mg twice daily alone for 14 days"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Standard first-line H. pylori eradication is triple therapy: a PPI (e.g. omeprazole) twice daily combined with clarithromycin 500 mg and amoxicillin 1 g, both twice daily for 7 days. This achieves approximately 80–90% eradication. Quadruple therapy is used as second-line after triple therapy failure or in areas of high clarithromycin resistance.",
+    "wrongAnswerExplanations": [
+      "PPI monotherapy heals the ulcer symptomatically but does not eradicate H. pylori, leading to high ulcer recurrence rates.",
+      "Dual antibiotic therapy without a PPI has lower eradication rates and is not recommended as standard first-line treatment.",
+      "Correct. Standard first-line triple therapy (PPI + clarithromycin + amoxicillin twice daily for 7 days) is the recommended first-line regimen for H. pylori eradication.",
+      "Bismuth-based quadruple therapy is an effective second-line or rescue regimen but is not first-line in patients without prior treatment failure and no clarithromycin allergy.",
+      "Clarithromycin monotherapy is inadequate and promotes resistance; antibiotics for H. pylori must always be combined with a PPI and at least one other antibiotic."
+    ],
+    "clinicalPearl": "Triple therapy (PPI + clarithromycin + amoxicillin × 7 days) is first-line for H. pylori; always confirm eradication 4–6 weeks later with a urea breath test."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Gastric outlet obstruction",
+    "question": "A 60-year-old man presents with a 3-week history of projectile vomiting of large volumes of undigested food, weight loss of 8 kg, and early satiety. The vomiting is non-bilious. On examination there is a succussion splash. Bloods show: Na+ 138, K+ 2.8, Cl− 85, bicarbonate 34 mmol/L, pH 7.52. What is the metabolic abnormality and its most likely cause?",
+    "options": [
+      "Metabolic acidosis due to ischaemic bowel",
+      "Respiratory alkalosis due to hyperventilation from pain",
+      "Hypochloraemic hypokalaemic metabolic alkalosis due to gastric outlet obstruction",
+      "Metabolic alkalosis due to excessive antacid ingestion",
+      "Hyperchloraemic metabolic acidosis due to pancreatic fistula"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Repeated vomiting of gastric contents causes loss of HCl and K+, producing hypochloraemic hypokalaemic metabolic alkalosis — the classic biochemical signature of gastric outlet obstruction. The high bicarbonate and elevated pH confirm metabolic alkalosis. Causes in this age group include pyloric stenosis from longstanding peptic ulcer disease or, importantly, gastric carcinoma involving the pylorus.",
+    "wrongAnswerExplanations": [
+      "Metabolic acidosis would show low bicarbonate and low pH; the findings here show elevated bicarbonate and alkaline pH, inconsistent with this diagnosis.",
+      "Respiratory alkalosis is characterised by low pCO2 with normal or low bicarbonate; here there is primary metabolic alkalosis with compensatory rise in bicarbonate.",
+      "Correct. Loss of gastric HCl (H+ and Cl−) through vomiting causes hypochloraemic hypokalaemic metabolic alkalosis — the hallmark biochemical picture of gastric outlet obstruction.",
+      "Antacid ingestion can rarely cause milk-alkali syndrome but is not associated with vomiting, succussion splash, or the marked electrolyte derangements seen here.",
+      "Pancreatic fistula causes loss of bicarbonate-rich fluid, producing hyperchloraemic metabolic acidosis — the opposite of the findings here."
+    ],
+    "clinicalPearl": "Gastric outlet obstruction classically causes hypochloraemic hypokalaemic metabolic alkalosis — correct electrolytes (especially K+) before any intervention."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Gastric carcinoma — diagnosis",
+    "question": "A 72-year-old man presents to his GP with a 4-month history of progressive dysphagia to solids, weight loss of 10 kg, and epigastric discomfort. He has a 30 pack-year smoking history. On examination there is left supraclavicular lymphadenopathy. Blood tests show Hb 9.2 g/dL (microcytic), albumin 28 g/L. What is the most appropriate first investigation?",
+    "options": [
+      "Barium swallow",
+      "CT thorax, abdomen, and pelvis",
+      "Upper GI endoscopy with biopsy",
+      "PET-CT scan",
+      "Endoscopic ultrasound"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Upper GI endoscopy with biopsy is the investigation of choice for suspected gastric carcinoma. It provides direct visualisation of the lesion, allows tissue biopsy for histological confirmation, and assesses the tumour's extent intraluminally. The left supraclavicular node (Virchow's node / Troisier's sign) strongly suggests upper GI malignancy with nodal spread. Staging CT follows tissue diagnosis.",
+    "wrongAnswerExplanations": [
+      "Barium swallow may demonstrate a filling defect but cannot provide histological diagnosis and has been largely superseded by endoscopy for gastric lesions.",
+      "CT thorax/abdomen/pelvis is essential for staging but should follow tissue diagnosis by endoscopy; staging without histology does not guide management.",
+      "Correct. Upper GI endoscopy with biopsy is the first-line investigation for suspected gastric malignancy — it diagnoses and characterises the tumour simultaneously.",
+      "PET-CT is used for staging or detecting recurrence in confirmed malignancy, not as a first-line diagnostic investigation.",
+      "Endoscopic ultrasound is valuable for T and N staging after histological diagnosis has been established by standard endoscopy and biopsy."
+    ],
+    "clinicalPearl": "Virchow's node (left supraclavicular lymphadenopathy) in a patient with upper GI symptoms strongly suggests gastric or oesophageal carcinoma — urgent endoscopy and biopsy is mandatory."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Peptic ulcer disease — NSAID-related",
+    "question": "A 58-year-old woman with rheumatoid arthritis who takes diclofenac 75 mg twice daily and prednisolone 10 mg daily is found to have a 15 mm antral gastric ulcer on endoscopy. CLO test is negative. She has no cardiology history. What is the most appropriate long-term management strategy?",
+    "options": [
+      "Discontinue diclofenac, start a COX-2 inhibitor with a PPI, and eradicate H. pylori empirically",
+      "Continue diclofenac and add ranitidine 150 mg at night",
+      "Stop NSAIDs if possible, treat the ulcer with a PPI for 8 weeks, and reassess",
+      "Prescribe misoprostol 200 mcg four times daily as sole cytoprotection",
+      "Perform antrectomy to remove the ulcer and prevent recurrence"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "NSAID-induced gastric ulcers are best managed by stopping the causative NSAID where possible, combined with a PPI for 8 weeks to allow healing. As the CLO test is negative, H. pylori eradication is not indicated. If NSAIDs cannot be stopped (e.g. rheumatoid arthritis), switching to a COX-2 inhibitor plus PPI is the next safest option.",
+    "wrongAnswerExplanations": [
+      "Empirical H. pylori eradication is not indicated when the CLO test is negative; while switching to COX-2 + PPI is reasonable if NSAIDs cannot be stopped, this is the second-line option after stopping the NSAID.",
+      "Ranitidine (H2 blocker) provides less effective gastric protection than a PPI in NSAID users and is not recommended as the primary management of an established gastric ulcer.",
+      "Correct. Stopping the offending NSAID and treating with a PPI for 8 weeks is first-line management of an NSAID-induced gastric ulcer without H. pylori.",
+      "Misoprostol has significant GI side effects (diarrhoea, cramping) and is rarely used as the sole agent for established NSAID ulcers; PPIs are more effective and better tolerated.",
+      "Surgery (antrectomy) is not indicated for an NSAID-induced ulcer without complications; medical therapy and NSAID withdrawal are almost always effective."
+    ],
+    "clinicalPearl": "The most important step in managing an NSAID-induced gastric ulcer is stopping the NSAID — add a PPI for 8 weeks; surgery is only for complications."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Forrest classification and re-bleeding risk",
+    "question": "A 55-year-old man undergoes urgent endoscopy for haematemesis. A 10 mm duodenal ulcer is found with a visible non-bleeding vessel in the base (Forrest IIa). His Rockall score is 6. He is haemodynamically stable after transfusion. What is the most appropriate endoscopic management?",
+    "options": [
+      "Observe and repeat endoscopy in 72 hours",
+      "Inject adrenaline alone into the ulcer base",
+      "Combination therapy: adrenaline injection plus a second modality (thermal or clip)",
+      "Proceed to urgent surgery as endoscopic treatment is contraindicated",
+      "Commence IV octreotide and schedule elective endoscopy in 24 hours"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A visible non-bleeding vessel (Forrest IIa) carries a high risk of re-bleeding (~50%). Current guidelines recommend combination endoscopic therapy: injection of dilute adrenaline (to reduce immediate bleeding and improve visualisation) followed by a second modality such as thermal coagulation or haemostatic clipping. Adrenaline injection alone is inferior and no longer recommended as sole therapy.",
+    "wrongAnswerExplanations": [
+      "Watchful waiting without endoscopic therapy for a Forrest IIa lesion is inappropriate given the ~50% re-bleeding risk; active endoscopic treatment is mandatory.",
+      "Adrenaline injection alone is associated with higher re-bleeding rates than combination therapy and is no longer recommended as sole treatment for high-risk stigmata.",
+      "Correct. Combination therapy (adrenaline injection + thermal/clip) is the standard of care for Forrest IIa lesions, achieving haemostasis and significantly reducing re-bleeding rates.",
+      "Surgery is reserved for endoscopic failure; a Forrest IIa lesion is amenable to endoscopic treatment and surgery should not be the first approach.",
+      "Octreotide is used for variceal haemorrhage; it has no established role in peptic ulcer haemorrhage, and delaying treatment of a Forrest IIa lesion increases re-bleeding risk."
+    ],
+    "clinicalPearl": "Forrest IIa (visible vessel) has ~50% re-bleeding risk — always use combination endoscopic therapy (adrenaline + clip or thermal), not injection alone."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Gastric carcinoma — surgical staging",
+    "question": "A 65-year-old woman is confirmed to have a T3 N1 M0 gastric adenocarcinoma of the gastric body on CT and endoscopic ultrasound staging. She is fit with ECOG performance status 1. MDT discussion recommends surgery. Which of the following surgical procedures is most appropriate?",
+    "options": [
+      "Endoscopic submucosal dissection (ESD)",
+      "Wedge resection of the stomach with 1 cm margins",
+      "Total gastrectomy with D2 lymphadenectomy and Roux-en-Y reconstruction",
+      "Palliative gastrojejunostomy",
+      "Subtotal gastrectomy alone without lymph node dissection"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "For a resectable gastric body adenocarcinoma (T3 N1 M0), total gastrectomy with D2 lymphadenectomy is the recommended curative procedure in fit patients, providing wide margins and adequate regional lymph node clearance. Reconstruction with Roux-en-Y oesophagojejunostomy restores GI continuity. D2 dissection is the standard in the West based on Dutch and MRC randomised trial data.",
+    "wrongAnswerExplanations": [
+      "Endoscopic submucosal dissection is only appropriate for early gastric cancer (T1a) confined to the mucosa; a T3 tumour has invaded the subserosa and requires formal surgical resection.",
+      "Wedge resection provides inadequate oncological margins and no lymphadenectomy for a T3 tumour — it is not an accepted curative procedure for advanced gastric cancer.",
+      "Correct. Total gastrectomy with D2 lymphadenectomy is the standard curative surgery for resectable gastric body cancer in fit patients, offering the best chance of cure.",
+      "Palliative gastrojejunostomy is appropriate for unresectable tumours causing gastric outlet obstruction; this patient has potentially curable disease.",
+      "Subtotal gastrectomy without lymph node dissection is oncologically inadequate — lymphadenectomy is essential for accurate staging and potential cure."
+    ],
+    "clinicalPearl": "Curative gastric cancer surgery requires R0 resection with D2 lymphadenectomy — adequate lymph node harvest (≥15 nodes) is essential for accurate staging and survival benefit."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Zollinger-Ellison syndrome",
+    "question": "A 40-year-old man presents with recurrent peptic ulcers despite adequate PPI therapy and confirmed H. pylori eradication. He has had three separate duodenal ulcers in two years, including one in the third part of the duodenum. He also reports intermittent profuse watery diarrhoea. Fasting serum gastrin is 1200 pg/mL (normal <100 pg/mL). What is the most likely diagnosis?",
+    "options": [
+      "Recurrent H. pylori infection",
+      "NSAID-induced multiple ulcers",
+      "Zollinger-Ellison syndrome (gastrinoma)",
+      "Ménétrier's disease",
+      "Crohn's disease of the duodenum"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Markedly elevated fasting gastrin (>1000 pg/mL), recurrent refractory peptic ulcers in unusual locations (post-bulbar duodenum), and secretory diarrhoea form the classic triad of Zollinger-Ellison syndrome caused by a gastrin-secreting tumour (gastrinoma), most commonly in the pancreas or duodenum. 25% are associated with MEN-1.",
+    "wrongAnswerExplanations": [
+      "Recurrent H. pylori infection could cause recurrent ulcers but would not explain markedly elevated fasting gastrin, post-bulbar ulcers, or profuse secretory diarrhoea.",
+      "NSAID use causes gastric and duodenal ulcers but does not elevate fasting gastrin levels and would not produce the secretory diarrhoea or post-bulbar location pattern.",
+      "Correct. Zollinger-Ellison syndrome (gastrinoma) is characterised by refractory multiple peptic ulcers — often in unusual locations — profuse diarrhoea, and markedly elevated fasting gastrin levels.",
+      "Ménétrier's disease is characterised by giant gastric rugae, protein-losing gastropathy, and hypochlorhydria — not elevated gastrin or multiple duodenal ulcers.",
+      "Duodenal Crohn's disease can cause ulceration but does not cause elevated serum gastrin and is not associated with the dramatic acid hypersecretion pattern seen here."
+    ],
+    "clinicalPearl": "Think Zollinger-Ellison syndrome when peptic ulcers are refractory, recurrent, post-bulbar, or associated with diarrhoea — check fasting serum gastrin and look for MEN-1."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Upper GI bleeding — risk stratification",
+    "question": "A 75-year-old man is admitted with haematemesis. On assessment: HR 105 bpm, BP 95/60 mmHg, he has haematemesis and melaena, no previous endoscopy history. He has known liver cirrhosis. Blood tests: Hb 7.2 g/dL, urea 18 mmol/L, creatinine 95 μmol/L. Which pre-endoscopy Rockall score components does this patient have that place him at high risk?",
+    "options": [
+      "Age >60, shock, and hepatic failure — Rockall score ≥5",
+      "Haemoglobin <8 g/dL and tachycardia alone — score is 2",
+      "Melaena and haematemesis together — score is 4",
+      "Elevated urea:creatinine ratio alone — score is 3",
+      "Cirrhosis and age >70 — score is exactly 3"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The pre-endoscopy Rockall score awards points for: age ≥80 (2 pts), 60–79 (1 pt); shock — pulse ≥100 with hypotension (2 pts); and co-morbidity — hepatic failure, renal failure, or disseminated malignancy (3 pts; cardiac/other major 2 pts). This patient scores: age 75 (1 pt) + shock (2 pts) + hepatic failure/cirrhosis (3 pts) = pre-endoscopy score of 6, indicating very high risk.",
+    "wrongAnswerExplanations": [
+      "Correct. Age 75 (1 pt), shock with HR 105 and BP 95/60 (2 pts), and hepatic failure/cirrhosis (3 pts) gives a pre-endoscopy Rockall score of 6 — conferring high risk of re-bleeding and mortality.",
+      "Haemoglobin level and tachycardia alone do not capture the full pre-endoscopy Rockall score; co-morbidity and age are equally important components — a score of 2 severely underestimates this patient's risk.",
+      "Type of bleeding (haematemesis or melaena) is not a component of the Rockall score; this choice conflates the Blatchford score components with Rockall.",
+      "Urea:creatinine ratio is part of the Glasgow-Blatchford score, not the Rockall score; Rockall does not incorporate urea directly.",
+      "Cirrhosis contributes 3 points to co-morbidity in the Rockall score, and age 75 adds 1 point — shock status must also be included and substantially raises the score above 3."
+    ],
+    "clinicalPearl": "The Rockall score uses age, shock, and major co-morbidity pre-endoscopy — liver disease scores 3 points and immediately flags a patient as high risk."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Complications of peptic ulcer — haemorrhage management",
+    "question": "A 62-year-old man undergoes urgent endoscopy for a bleeding duodenal ulcer. Endoscopic haemostasis is achieved. He is placed on a high-dose IV PPI infusion. Twelve hours later he develops haematemesis again with HR 120 bpm and BP 85/55 mmHg. A second endoscopy is performed but haemostasis cannot be achieved. What is the most appropriate next step?",
+    "options": [
+      "A third endoscopic attempt with different haemostatic modality",
+      "Interventional radiology: selective angiography and transarterial embolisation",
+      "Commence IV terlipressin and transfuse",
+      "Arrange elective surgery in the next 48 hours",
+      "Transfer to intensive care for conservative management only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "After two failed endoscopic attempts to achieve haemostasis, the next step is interventional radiology with selective mesenteric angiography and transarterial embolisation of the gastroduodenal artery (the most common culprit vessel in posterior duodenal ulcer bleeding). Surgery is reserved for failure of both endoscopy and interventional radiology, or if IR is unavailable.",
+    "wrongAnswerExplanations": [
+      "A third endoscopic attempt is generally not recommended after two failed attempts; further delay risks worsening haemorrhage and mortality.",
+      "Correct. After two failed endoscopic attempts, transarterial embolisation via interventional radiology is the recommended next step for refractory peptic ulcer haemorrhage before considering surgery.",
+      "Terlipressin is used for variceal haemorrhage (portal hypertension); it has no established role in peptic ulcer haemorrhage and would not address the surgical emergency.",
+      "Elective surgery in 48 hours is inappropriate for an actively bleeding, haemodynamically unstable patient — this is an emergency requiring immediate definitive intervention.",
+      "Conservative management alone in a haemodynamically unstable patient with failed endoscopy is not appropriate and would have a high mortality without definitive haemostasis."
+    ],
+    "clinicalPearl": "After two failed endoscopic attempts for peptic ulcer haemorrhage, proceed to transarterial embolisation via interventional radiology before considering open surgery."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "H. pylori — diagnostic testing",
+    "question": "A 38-year-old woman is referred for testing for Helicobacter pylori after successful treatment of a duodenal ulcer 8 weeks ago. She completed triple therapy 5 weeks ago. She is not taking PPIs. Which is the most appropriate test to confirm eradication?",
+    "options": [
+      "Repeat CLO test at endoscopy",
+      "Serum H. pylori IgG antibody testing",
+      "13C urea breath test",
+      "Stool H. pylori antigen test, performed immediately after stopping PPIs",
+      "Repeat endoscopy with antral biopsy for culture and sensitivity"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The 13C urea breath test (UBT) is the gold standard non-invasive test for confirming H. pylori eradication. It should be performed at least 4 weeks after completing antibiotic therapy and at least 2 weeks after stopping PPIs (which can suppress H. pylori and give false-negative results). Serology remains positive for months to years after eradication and cannot confirm cure.",
+    "wrongAnswerExplanations": [
+      "CLO test at repeat endoscopy is invasive and not indicated solely for eradication confirmation; it is appropriate if repeat endoscopy is required for another clinical reason.",
+      "Serum IgG antibody testing detects past or current infection but remains positive for up to 18 months after successful eradication and cannot confirm cure.",
+      "Correct. The 13C urea breath test is the preferred non-invasive test for confirming H. pylori eradication — performed at least 4 weeks post-antibiotics and 2 weeks off PPIs.",
+      "Stool antigen test is an acceptable alternative to UBT for eradication confirmation, but must also be performed at least 4 weeks after antibiotics and 2 weeks after stopping PPIs — not immediately after stopping PPIs.",
+      "Repeat endoscopy with culture is reserved for recurrent infection requiring antibiotic sensitivity testing; it is not first-line for routine eradication confirmation."
+    ],
+    "clinicalPearl": "Always confirm H. pylori eradication with 13C urea breath test at least 4 weeks post-antibiotics and 2 weeks off PPIs — serology cannot confirm eradication."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "NEW STOMACH & DUODENUM copy.pdf",
+    "topic": "Gastric carcinoma — epidemiology and risk factors",
+    "question": "A 66-year-old Japanese man immigrated to the UK 30 years ago. He presents with a 3-month history of epigastric fullness, early satiety, and 7 kg weight loss. His father died of gastric cancer. He was treated for H. pylori 15 years ago. He is a heavy smoker. On examination he has an epigastric mass. Which of the following is the single greatest risk factor for gastric adenocarcinoma in this patient?",
+    "options": [
+      "Family history of gastric cancer",
+      "Heavy cigarette smoking",
+      "Japanese ethnicity",
+      "Previous H. pylori infection",
+      "Male sex"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "H. pylori infection is the single most important risk factor for gastric adenocarcinoma (intestinal type), classified as a Group 1 carcinogen by IARC. It causes chronic active gastritis → atrophic gastritis → intestinal metaplasia → dysplasia → carcinoma (Correa cascade). While all listed factors increase risk, H. pylori infection is responsible for approximately 75–90% of non-cardia gastric cancers worldwide.",
+    "wrongAnswerExplanations": [
+      "Family history increases risk approximately 2–3 fold and is important (especially in hereditary diffuse gastric cancer with CDH1 mutations), but it is less prevalent as a population-level risk factor than H. pylori.",
+      "Smoking approximately doubles the risk of gastric cancer and is a significant modifiable risk factor, but H. pylori infection has a stronger and more direct causal link.",
+      "Japanese ethnicity confers higher genetic and dietary risk (high salt, smoked foods), but Japanese migrants to Western countries show intermediate incidence rates after one to two generations, suggesting environmental factors predominate — specifically H. pylori.",
+      "Correct. H. pylori infection is the single strongest modifiable risk factor for gastric adenocarcinoma — it initiates the Correa carcinogenic cascade and is responsible for the majority of gastric cancers worldwide.",
+      "Male sex confers approximately twice the risk compared to females, but it is a non-modifiable demographic factor and is weaker than H. pylori as a causative factor."
+    ],
+    "clinicalPearl": "H. pylori is a WHO Group 1 carcinogen and the single greatest risk factor for gastric adenocarcinoma — eradication reduces (but does not eliminate) subsequent cancer risk."
+  }
+]

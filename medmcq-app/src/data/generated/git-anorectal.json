@@ -1,0 +1,301 @@
+[
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Haemorrhoids – diagnosis and classification",
+    "question": "A 45-year-old man presents with a 6-month history of painless bright red rectal bleeding after defaecation and a sensation of incomplete evacuation. He reports no change in bowel habit. On examination, proctoscopy reveals enlarged vascular cushions at the 3, 7, and 11 o'clock positions that prolapse on straining but reduce spontaneously. He has no palpable anorectal mass on digital rectal examination. Which is the most appropriate initial management?",
+    "options": [
+      "Haemorrhoidectomy",
+      "Rubber band ligation",
+      "Injection sclerotherapy with 5% phenol in almond oil",
+      "Lateral internal sphincterotomy",
+      "Transanal haemorrhoidal dearterialisation (THD)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has second-degree haemorrhoids (prolapse on straining but reduce spontaneously). Rubber band ligation is the first-line office procedure for second-degree haemorrhoids, causing ischaemic necrosis of the haemorrhoidal tissue, and has superior long-term results compared to sclerotherapy at this stage. Sclerotherapy is reserved for first-degree haemorrhoids. Haemorrhoidectomy is appropriate for third/fourth-degree disease or failed outpatient treatment.",
+    "wrongAnswerExplanations": [
+      "Haemorrhoidectomy is overly invasive for second-degree haemorrhoids and is reserved for third- or fourth-degree disease or failure of outpatient procedures.",
+      "Rubber band ligation is correct — it is the most effective outpatient treatment for second-degree haemorrhoids with the lowest recurrence rate among office-based options.",
+      "Injection sclerotherapy is appropriate for first-degree haemorrhoids with bleeding but is less effective than banding for second-degree prolapsing haemorrhoids.",
+      "Lateral internal sphincterotomy is the treatment for chronic anal fissure, not haemorrhoids.",
+      "THD/Doppler-guided haemorrhoidal artery ligation is a valid surgical option but is not the initial management step; it is reserved for failed conservative or outpatient treatment."
+    ],
+    "clinicalPearl": "Second-degree haemorrhoids (prolapse that reduces spontaneously) are best treated with rubber band ligation as the first-line outpatient procedure."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "The Anus and Anal canal.pdf",
+    "topic": "Thrombosed external haemorrhoid – acute management",
+    "question": "A 32-year-old woman, 36 weeks pregnant, presents to the emergency department with sudden onset of severe perianal pain that started 12 hours ago. She is unable to sit comfortably. Examination reveals a tense, tender, purple 2 cm swelling at the anal verge that does not reduce. There is no fever and no signs of sepsis. What is the most appropriate immediate management?",
+    "options": [
+      "Urgent haemorrhoidectomy under general anaesthesia",
+      "Evacuation of the thrombus under local anaesthesia",
+      "Analgesia, stool softeners, topical anaesthetic cream, and ice packs",
+      "Rubber band ligation",
+      "IV antibiotics and admission for observation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An acutely thrombosed external haemorrhoid presenting within 72 hours is best managed by evacuation (excision) of the clot under local anaesthesia, which provides immediate pain relief and prevents recurrence. In pregnancy, this is still appropriate within the acute window. Beyond 72 hours, conservative management is preferred as the thrombus resolves spontaneously.",
+    "wrongAnswerExplanations": [
+      "Urgent haemorrhoidectomy under general anaesthesia is excessive for an isolated thrombosed external haemorrhoid and carries unnecessary risk, especially in pregnancy.",
+      "Evacuation of the thrombus under local anaesthesia is correct — within 72 hours it provides immediate, definitive relief with minimal risk.",
+      "Conservative management is appropriate only after 72 hours when the acute phase is passing; at 12 hours with severe pain, evacuation provides much faster relief.",
+      "Rubber band ligation is used for internal haemorrhoids above the dentate line and is inappropriate for an external thrombosed haemorrhoid.",
+      "Antibiotics are not indicated as there are no signs of infection or sepsis; this is a mechanical thrombotic event."
+    ],
+    "clinicalPearl": "Thrombosed external haemorrhoids presenting within 72 hours of onset should be treated by clot evacuation under local anaesthesia for immediate relief."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Acute anal fissure – diagnosis",
+    "question": "A 28-year-old woman presents with severe tearing perianal pain during and after defaecation for the past 10 days. She reports bright red blood on the toilet paper. She had a normal vaginal delivery 8 weeks ago. On gentle inspection, a midline posterior linear mucosal tear is visible at the anal verge. Digital rectal examination is deferred due to pain. What is the most likely diagnosis?",
+    "options": [
+      "Perianal abscess",
+      "Prolapsed internal haemorrhoid",
+      "Acute anal fissure",
+      "Crohn's disease of the anus",
+      "Anal carcinoma"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An acute anal fissure is a linear tear in the anoderm distal to the dentate line, classically presenting with severe pain during and after defaecation and bright red bleeding on the paper. The midline posterior position is typical in over 90% of cases. Postpartum constipation is a common precipitant.",
+    "wrongAnswerExplanations": [
+      "Perianal abscess presents with constant throbbing pain, swelling, and often fever — not a linear mucosal tear seen on inspection.",
+      "Prolapsed internal haemorrhoids typically present with painless bleeding and prolapse, not a severe tearing pain with a visible mucosal split.",
+      "Acute anal fissure is correct — the clinical picture of a posterior midline tear with tearing pain and bleeding on paper after a recent delivery is classic.",
+      "Crohn's anal disease may cause fissures but they are typically off-midline, multiple, painless, or associated with other systemic features; this acute postpartum presentation strongly favours a simple fissure.",
+      "Anal carcinoma presents as a persistent mass or ulcer, often with pruritus or bleeding, not as an acute linear posterior tear in a young postpartum woman."
+    ],
+    "clinicalPearl": "Anal fissures are almost always in the posterior midline; a lateral or multiple fissure should prompt investigation for Crohn's disease, sexually transmitted infection, or malignancy."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "The Anus and Anal canal.pdf",
+    "topic": "Chronic anal fissure – definitive management",
+    "question": "A 40-year-old man has a 4-month history of severe pain on defaecation with occasional bleeding. A posterior midline fissure with a sentinel pile and hypertrophied anal papilla is seen on examination. He has already completed 8 weeks of topical 0.2% glyceryl trinitrate (GTN) with minimal improvement and has tried topical diltiazem for 6 weeks without resolution. Anal manometry confirms elevated resting anal pressure. What is the next most appropriate management?",
+    "options": [
+      "Repeat a further 8-week course of topical GTN",
+      "Lateral internal sphincterotomy",
+      "Botulinum toxin injection into the internal anal sphincter",
+      "Haemorrhoidectomy and fissurectomy",
+      "Posterior midline sphincterotomy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Lateral internal sphincterotomy (LIS) is the definitive surgical treatment for chronic anal fissure that has failed medical therapy (topical nitrates and calcium channel blockers). It divides a portion of the internal anal sphincter to reduce resting pressure, achieving healing rates of 95%. Botulinum toxin is a second-line medical option but has lower cure rates than LIS and would typically be tried before surgery; however, after failure of two topical agents, LIS is the standard next step.",
+    "wrongAnswerExplanations": [
+      "Repeating GTN that has already failed for 8 weeks is inappropriate and delays definitive treatment.",
+      "Lateral internal sphincterotomy is correct — it is the gold-standard surgical treatment for refractory chronic anal fissure with high cure rates and low incontinence risk when performed correctly.",
+      "Botulinum toxin is a reasonable intermediate step but has lower long-term cure rates (50–80%) than LIS; after failure of two topical agents over 14 weeks, surgical sphincterotomy is the preferred next step.",
+      "Haemorrhoidectomy and fissurectomy alone without sphincterotomy does not address the elevated sphincter tone driving the fissure and has high recurrence.",
+      "Posterior midline sphincterotomy is associated with keyhole deformity and faecal soiling; lateral sphincterotomy has superseded it as the safer procedure."
+    ],
+    "clinicalPearl": "Lateral internal sphincterotomy achieves over 90% healing for chronic anal fissure but carries a small risk of faecal incontinence; it should be offered after failure of topical medical therapy."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Perianal abscess – emergency management",
+    "question": "A 55-year-old diabetic man presents to the emergency department with a 3-day history of worsening perianal pain, swelling, and fever (38.8°C). He is unable to sit. On examination there is a 4 cm fluctuant, erythematous, acutely tender swelling at the right lateral anal verge. WBC is 18.4 × 10⁹/L. CT pelvis confirms a perianal collection with no superior extension. What is the most appropriate next step?",
+    "options": [
+      "IV antibiotics for 5 days followed by repeat imaging",
+      "Incision and drainage under local or general anaesthesia",
+      "Oral co-amoxiclav and outpatient follow-up",
+      "MRI pelvis to delineate the track before any intervention",
+      "Seton insertion"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A fluctuant perianal abscess requires prompt surgical drainage — incision and drainage is the definitive emergency treatment. Antibiotics alone do not resolve the collection and in a diabetic patient delay may lead to necrotising infection. Once drained, the underlying fistula-in-ano, if present, can be addressed electively. MRI and seton are relevant for complex fistulae, not acute abscess management.",
+    "wrongAnswerExplanations": [
+      "Antibiotics alone will not resolve a fluctuant abscess; they may reduce surrounding cellulitis but cannot drain the collection and risk progression to necrotising fasciitis, especially in diabetes.",
+      "Incision and drainage is correct — it is the definitive and urgent treatment for a perianal abscess, providing immediate source control.",
+      "Oral antibiotics and outpatient follow-up are dangerous in a diabetic with a fluctuant abscess and systemic signs; this delays necessary drainage.",
+      "MRI is useful for delineating fistula anatomy in chronic or complex disease but should not delay drainage of an acute fluctuant abscess that is already confirmed on CT.",
+      "Seton insertion is a staged procedure for managing complex fistula-in-ano and is not the initial emergency management of an abscess."
+    ],
+    "clinicalPearl": "All perianal abscesses require prompt surgical drainage; antibiotics alone are insufficient and in immunocompromised patients delay risks necrotising fasciitis."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "The Anus and Anal canal.pdf",
+    "topic": "Ischiorectal abscess – clinical recognition",
+    "question": "A 38-year-old man presents with 5 days of deep-seated perianal pain, fever (39.1°C), and difficulty sitting. He reports no visible swelling at the anal verge. On examination there is exquisite tenderness on digital rectal examination on the right lateral side, with fullness palpable above the external sphincter. The overlying perianal skin appears normal. Blood tests show WBC 22 × 10⁹/L and CRP 180 mg/L. What is the most likely diagnosis?",
+    "options": [
+      "Perianal abscess",
+      "Ischiorectal abscess",
+      "Horseshoe abscess",
+      "Supralevator abscess",
+      "Pilonidal abscess"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An ischiorectal abscess occupies the ischiorectal fossa (lateral to the external sphincter, below the levator ani), presenting with deep perianal pain, fever, and leucocytosis but often without obvious superficial swelling at the anal verge, unlike a perianal abscess. The fullness and tenderness on DRE laterally above the sphincter is characteristic. It requires wide surgical drainage due to the large potential space involved.",
+    "wrongAnswerExplanations": [
+      "A perianal abscess is subcutaneous at the anal verge and presents with visible superficial swelling and fluctuance; this patient has no visible external swelling, pointing to a deeper space.",
+      "Ischiorectal abscess is correct — the deep location, absence of visible perianal swelling, lateral DRE fullness, and significant systemic sepsis are characteristic features.",
+      "A horseshoe abscess crosses the midline posteriorly through the deep postanal space and would typically produce bilateral signs; unilateral disease with the above features is more consistent with an ischiorectal abscess.",
+      "A supralevator abscess is above the levator ani and presents with pelvic/gluteal pain; DRE may show a high pelvic mass and it requires CT/MRI for planning — the lateral ischiorectal fullness makes this less likely.",
+      "A pilonidal abscess occurs in the natal cleft/sacrococcygeal region, not laterally in the ischiorectal fossa, and would be visible in the midline posteriorly."
+    ],
+    "clinicalPearl": "Ischiorectal abscesses may have no visible perianal swelling; a high index of suspicion is needed in patients with deep perianal pain, fever, and lateral tenderness on DRE."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Fistula-in-ano – Parks classification",
+    "question": "A 42-year-old man underwent drainage of a right perianal abscess 3 months ago. He now presents with a persistent purulent discharge from a small external opening at the 3 o'clock position, 2 cm from the anal verge. MRI pelvis shows the track passing through the lower third of the external anal sphincter from an internal opening at the dentate line. Examination under anaesthesia confirms the MRI findings. What type of fistula does he have according to Parks classification?",
+    "options": [
+      "Intersphincteric fistula",
+      "Transsphincteric fistula",
+      "Suprasphincteric fistula",
+      "Extrasphincteric fistula",
+      "Superficial fistula"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A transsphincteric fistula passes through both the internal and external anal sphincters. The MRI and EUA findings showing the track traversing the lower external sphincter from a dentate line internal opening confirm this classification. Parks described four main types based on the sphincter anatomy traversed. Transsphincteric is the most common type seen in clinical practice after perianal abscess drainage.",
+    "wrongAnswerExplanations": [
+      "An intersphincteric fistula travels between the internal and external sphincters without breaching the external sphincter; this track clearly passes through the external sphincter.",
+      "Transsphincteric is correct — the track passes from an internal opening at the dentate line through both sphincters to an external opening, which is the definition of this Parks type.",
+      "A suprasphincteric fistula goes up through the intersphincteric plane, over the top of the external sphincter, and down through the ischiorectal fossa — far more complex and rare.",
+      "An extrasphincteric fistula bypasses the sphincters entirely, originating from the rectum and reaching the perineum through the levator; this is the rarest type and is usually secondary to trauma or Crohn's.",
+      "A superficial fistula lies below the sphincter complex entirely; the MRI here clearly shows sphincter involvement, ruling this out."
+    ],
+    "clinicalPearl": "MRI pelvis is the gold-standard imaging for fistula-in-ano, accurately delineating the Parks type and guiding surgical planning to preserve continence."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "The Anus and Anal canal.pdf",
+    "topic": "High transsphincteric fistula – management to preserve continence",
+    "question": "A 50-year-old woman with a long-standing fistula-in-ano is found on examination under anaesthesia and MRI to have a high transsphincteric track involving more than 50% of the external anal sphincter. She has no Crohn's disease. She is continent of faeces and is very concerned about risk of incontinence. What is the most appropriate surgical strategy?",
+    "options": [
+      "Primary fistulotomy in one stage",
+      "Cutting seton insertion followed by gradual tightening",
+      "Loose draining seton followed by elective mucosal advancement flap",
+      "Abdominoperineal resection",
+      "Endorectal advancement flap alone without seton drainage"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "For high transsphincteric fistulae involving a significant portion of the external sphincter, primary fistulotomy risks faecal incontinence. The standard approach is a two-stage strategy: insertion of a loose draining seton to allow fibrosis and track maturation, followed by a sphincter-preserving procedure such as a mucosal/endorectal advancement flap. This preserves continence while achieving reasonable fistula closure rates.",
+    "wrongAnswerExplanations": [
+      "Primary fistulotomy of a high track involving >50% of the external sphincter carries a significant risk of faecal incontinence and is contraindicated in a continent patient.",
+      "A cutting (tight) seton works by gradual division of the sphincter with fibrosis, but carries a real incontinence risk and is generally less favoured when sphincter-preserving alternatives exist, especially in a woman already concerned about this.",
+      "Loose draining seton followed by advancement flap is correct — this staged approach preserves sphincter integrity, allows track maturation, and offers the best balance of fistula control and continence preservation.",
+      "Abdominoperineal resection is a major ablative operation for rectal or anal malignancy; it has no role in benign fistula-in-ano management.",
+      "Performing an advancement flap without prior seton drainage on an active, non-matured high fistula track risks flap failure due to ongoing sepsis; prior drainage is essential."
+    ],
+    "clinicalPearl": "High fistulae involving >30–50% of the external sphincter should be managed with sphincter-preserving strategies; primary fistulotomy risks faecal incontinence."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Pilonidal sinus – acute presentation and management",
+    "question": "A 22-year-old obese male student presents with a 4-day history of severe pain, swelling, and purulent discharge in the natal cleft. He has had two similar episodes in the past 2 years. On examination there is a 3 cm fluctuant abscess at the sacrococcygeal junction with two visible pits in the midline natal cleft. He is apyrexial. What is the most appropriate immediate management?",
+    "options": [
+      "Wide local excision with primary closure",
+      "Incision and drainage of the abscess",
+      "Incision and drainage followed by elective excision of the sinus when inflammation resolves",
+      "Antibiotics alone and review in 2 weeks",
+      "Phenol injection into the pits"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Acute pilonidal abscess requires urgent incision and drainage to provide immediate relief. Definitive surgery (excision of the entire sinus tract) is deferred until the acute inflammation has resolved, typically 6–12 weeks later. Attempting primary excision in the setting of acute infection risks poor healing, recurrence, and wound breakdown. Antibiotics alone are ineffective for a fluctuant collection.",
+    "wrongAnswerExplanations": [
+      "Wide local excision is the elective definitive treatment but must not be performed in the acute infected phase as it significantly increases the risk of wound dehiscence and failure to heal.",
+      "Incision and drainage is correct — it is the immediate treatment for the acute abscess, providing pain relief and source control before definitive elective surgery.",
+      "This option is broadly correct in concept but is not what is asked; the question asks for 'immediate' management and the immediate step is drainage alone — the follow-up plan is secondary.",
+      "Antibiotics alone cannot drain a fluctuant abscess and will not resolve an established collection; this would delay necessary treatment.",
+      "Phenol injection is an adjunct used in some centres for hair follicle ablation after acute treatment, not for management of an acute abscess."
+    ],
+    "clinicalPearl": "Acute pilonidal abscess is drained immediately; definitive excision of the sinus is deferred until the infection has completely resolved."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "The Anus and Anal canal.pdf",
+    "topic": "Rectal prolapse – clinical features and management",
+    "question": "A 75-year-old multiparous woman presents with a 12-month history of a soft, red, concentric-ringed mass protruding from her anus when she strains, which she can usually reduce manually. She has faecal soiling and a sensation of incomplete evacuation. Examination confirms full-thickness rectal prolapse reducible with gentle pressure. She is fit for general anaesthesia. What is the most appropriate surgical treatment?",
+    "options": [
+      "Rubber band ligation of the prolapsed mucosa",
+      "Delorme procedure (mucosal sleeve resection)",
+      "Altemeier perineal rectosigmoidectomy",
+      "Laparoscopic ventral mesh rectopexy",
+      "Biofeedback pelvic floor physiotherapy alone"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Laparoscopic ventral mesh rectopexy is the preferred procedure for full-thickness rectal prolapse in a fit patient as it has the lowest recurrence rate, addresses the underlying pelvic floor defect, and often improves bowel function. Perineal procedures (Delorme, Altemeier) have higher recurrence rates and are reserved for high-risk or elderly patients unfit for laparoscopy. Rubber band ligation treats mucosal/haemorrhoidal prolapse, not full-thickness prolapse.",
+    "wrongAnswerExplanations": [
+      "Rubber band ligation is used for haemorrhoidal or mucosal prolapse; it is inappropriate for full-thickness rectal prolapse with concentric rings.",
+      "The Delorme procedure is a perineal mucosal sleeve resection reserved for higher-risk patients unfit for abdominal surgery; it has a higher recurrence rate than abdominal approaches.",
+      "Altemeier perineal rectosigmoidectomy removes the prolapsed segment perinally and is appropriate for frail elderly patients or those unfit for general/laparoscopic surgery — not first choice in a fit patient.",
+      "Laparoscopic ventral mesh rectopexy is correct — it provides the lowest recurrence rate for full-thickness prolapse and is the preferred procedure in a fit, operable patient.",
+      "Physiotherapy improves incontinence and constipation symptoms but does not reduce or cure established full-thickness rectal prolapse, which requires surgical correction."
+    ],
+    "clinicalPearl": "Laparoscopic ventral mesh rectopexy is the gold-standard surgical treatment for full-thickness rectal prolapse in fit patients, offering the lowest recurrence rate."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Anal carcinoma – diagnosis and staging",
+    "question": "A 58-year-old HIV-positive woman presents with a 3-month history of perianal discomfort, pruritus ani, and spotting of blood. She has a prior history of cervical intraepithelial neoplasia. On examination there is a 2.5 cm irregular, indurated, ulcerating lesion at the anal margin. Biopsy confirms squamous cell carcinoma. CT chest/abdomen/pelvis shows enlarged inguinal lymph nodes bilaterally but no distant metastases. What is the primary treatment of choice?",
+    "options": [
+      "Abdominoperineal resection (APR)",
+      "Wide local excision alone",
+      "Chemoradiotherapy (mitomycin C + 5-fluorouracil with external beam radiotherapy) — the Nigro protocol",
+      "Palliative chemotherapy with platinum-based regimen",
+      "Radical inguinal lymph node dissection followed by radiotherapy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Squamous cell carcinoma of the anal canal/margin is treated with the Nigro chemoradiotherapy protocol (5-FU + mitomycin C with pelvic radiotherapy) as first-line curative treatment, regardless of nodal involvement. This organ-preserving approach achieves complete response rates of 70–90%, avoiding APR. Surgery (APR) is reserved for residual or recurrent disease after chemoradiation. Inguinal nodes are included in the radiotherapy field.",
+    "wrongAnswerExplanations": [
+      "APR was historically the treatment but is now reserved for salvage after chemoradiation failure; it results in permanent colostomy and is not the first-line approach.",
+      "Wide local excision alone is appropriate only for very small (T1 N0), superficial perianal margin lesions; this patient has nodal disease requiring systemic and locoregional treatment.",
+      "The Nigro chemoradiotherapy protocol is correct — it is the established curative-intent first-line treatment for anal squamous cell carcinoma, preserving the sphincter and achieving excellent local control.",
+      "Palliative chemotherapy is for metastatic disease; this patient has no distant metastases and is eligible for curative chemoradiation.",
+      "Surgical lymphadenectomy is not the standard approach; inguinal nodal disease is addressed by including nodes in the radiotherapy field, not by dissection first."
+    ],
+    "clinicalPearl": "Anal squamous cell carcinoma is treated with chemoradiotherapy (Nigro protocol: 5-FU + mitomycin C + pelvic RT), not primary surgery, achieving sphincter preservation in most patients."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "The Anus and Anal canal.pdf",
+    "topic": "Fourth-degree haemorrhoids – complication and management",
+    "question": "A 60-year-old man presents to the emergency department with an acutely prolapsed, irreducible, strangulated haemorrhoidal mass that has been prolapsed for 6 hours. The prolapsed tissue is oedematous, purplish, and extremely tender. He is haemodynamically stable with no signs of sepsis. Manual reduction under sedation and analgesia is attempted but fails. What is the most appropriate next step?",
+    "options": [
+      "Rubber band ligation of all three haemorrhoidal columns",
+      "Emergency haemorrhoidectomy",
+      "Topical hyaluronidase and wait 48 hours before surgery",
+      "Injection sclerotherapy under local anaesthesia",
+      "Rigid sigmoidoscopy to exclude rectal prolapse"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Acutely irreducible, strangulated fourth-degree haemorrhoids that have failed manual reduction require emergency haemorrhoidectomy to prevent gangrenous necrosis, perforation, and sepsis. The 6-hour window with failed reduction and ischaemic appearance mandates urgent surgery. This differs from elective haemorrhoidectomy in that it addresses imminent tissue loss.",
+    "wrongAnswerExplanations": [
+      "Rubber band ligation is an outpatient procedure for non-prolapsed or reducible haemorrhoids; it is contraindicated in acute strangulation with tissue at risk.",
+      "Emergency haemorrhoidectomy is correct — irreducible strangulated haemorrhoids with failed manual reduction require urgent surgical excision to prevent gangrene and sepsis.",
+      "Waiting 48 hours risks progression to gangrene, ulceration, and systemic sepsis in a strangulated haemorrhoid; this is not acceptable management.",
+      "Injection sclerotherapy is an elective outpatient procedure for non-prolapsed, non-acutely strangulated haemorrhoids; it has no role in emergency strangulation.",
+      "While it is important to differentiate from rectal prolapse, the clinical features here (haemorrhoidal columns, failed reduction, ischaemia) are already described; rigid sigmoidoscopy does not address the urgent need for decompression and surgery."
+    ],
+    "clinicalPearl": "Irreducibly strangulated haemorrhoids with signs of ischaemia require emergency haemorrhoidectomy to prevent gangrenous necrosis."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "anus and anal canal.pdf",
+    "topic": "Goodsall's rule – fistula-in-ano internal opening",
+    "question": "A 35-year-old man undergoes examination under anaesthesia for a fistula-in-ano. The external opening is found at the 8 o'clock position (posterior to the transverse anal line), approximately 3 cm from the anal verge. Using Goodsall's rule to predict the location of the internal opening before probing, where would you expect the internal opening to be located?",
+    "options": [
+      "Directly radially at the 8 o'clock position at the dentate line",
+      "In the posterior midline at the 6 o'clock position at the dentate line",
+      "In the anterior midline at the 12 o'clock position",
+      "At the nearest lateral dentate line crypt",
+      "Goodsall's rule does not apply to posterior external openings"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Goodsall's rule states that external openings posterior to the transverse anal line have a curved track that opens internally in the posterior midline (6 o'clock position) at the dentate line, regardless of which posterior quadrant the external opening is in. External openings anterior to the transverse line track radially to the nearest dentate crypt. This guides probing and surgical planning.",
+    "wrongAnswerExplanations": [
+      "A radial (straight) track to the corresponding dentate crypt applies to anterior external openings only; posterior openings follow a curved track to the posterior midline by Goodsall's rule.",
+      "Posterior midline (6 o'clock) at the dentate line is correct — Goodsall's rule predicts that all posterior external openings have a curved track converging on the posterior midline internal opening.",
+      "The anterior midline at 12 o'clock would apply if the external opening were in the anterior quadrant directly opposite; this posterior external opening follows the rule to the 6 o'clock midline.",
+      "Tracking to the nearest lateral crypt applies to anterior external openings directly radially; posterior openings curve to the posterior midline.",
+      "Goodsall's rule explicitly applies to posterior external openings, predicting posterior midline internal opening; this answer is factually incorrect."
+    ],
+    "clinicalPearl": "Goodsall's rule: posterior external openings track to the 6 o'clock posterior midline internally (curved); anterior external openings track radially to the nearest anterior crypt."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Stages of general anaesthesia",
+    "question": "A 34-year-old woman is undergoing induction of general anaesthesia for an elective laparoscopic cholecystectomy. Shortly after administration of intravenous thiopental, she begins to exhibit irregular, excited movements, vomits, and attempts to pull out her IV cannula. Her airway reflexes appear partially intact. The anaesthetist notes she is in a transitional phase between consciousness and full anaesthesia. Which stage of anaesthesia does this presentation best represent?",
+    "options": [
+      "Stage I — analgesia",
+      "Stage II — excitement (delirium)",
+      "Stage III — surgical anaesthesia, plane 1",
+      "Stage III — surgical anaesthesia, plane 3",
+      "Stage IV — medullary depression"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Stage II (excitement/delirium) is characterised by irregular breathing, vomiting, breath-holding, purposeless movements, and intact but exaggerated reflexes. This is the most dangerous stage of induction as laryngospasm and aspiration can occur. Modern induction agents aim to pass through this stage rapidly.",
+    "wrongAnswerExplanations": [
+      "Stage I (analgesia) is a conscious state with reduced pain sensation but full awareness — the patient would not exhibit excitement or vomiting.",
+      "Stage II (excitement/delirium) is correct — this stage is characterised by irregular breathing, vomiting, purposeless movements, and partially intact airway reflexes, exactly as described.",
+      "Stage III plane 1 involves regular breathing and loss of consciousness but no excitement or vomiting; the patient would be calm and unresponsive.",
+      "Stage III plane 3 involves deep surgical anaesthesia with intercostal paralysis and diaphragmatic breathing — far deeper than the presentation described.",
+      "Stage IV is medullary depression with apnoea and cardiovascular collapse — an immediately life-threatening state, not characterised by purposeful movements."
+    ],
+    "clinicalPearl": "Stage II (excitement) is the most dangerous stage of induction — pass through it quickly with adequate induction agent dosing and avoid stimulation until Stage III is reached."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Malignant hyperthermia",
+    "question": "A 22-year-old male is 30 minutes into an open appendicectomy under general anaesthesia with sevoflurane and suxamethonium. The anaesthetist notices a rapid rise in end-tidal CO2 from 38 to 72 mmHg, increasing ventilator pressures, and a temperature of 39.8°C rising to 41.2°C over 10 minutes. The patient develops generalised muscular rigidity. Heart rate is 148 bpm. Which is the most appropriate immediate pharmacological intervention?",
+    "options": [
+      "Intravenous procainamide 15 mg/kg",
+      "Intravenous dantrolene 2.5 mg/kg",
+      "Intravenous sodium bicarbonate 8.4% 50 mL",
+      "Intravenous propofol 2 mg/kg",
+      "Intravenous verapamil 5 mg"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Malignant hyperthermia (MH) is a life-threatening pharmacogenetic disorder triggered by volatile anaesthetic agents and suxamethonium. It causes uncontrolled skeletal muscle calcium release leading to hyperthermia, rigidity, and metabolic acidosis. Dantrolene 2.5 mg/kg IV (repeated up to 10 mg/kg) is the specific antidote, inhibiting ryanodine receptor-mediated calcium release from the sarcoplasmic reticulum.",
+    "wrongAnswerExplanations": [
+      "Procainamide is an antiarrhythmic used for ventricular arrhythmias; it has no role in treating the underlying mechanism of malignant hyperthermia and could worsen cardiovascular status.",
+      "Dantrolene 2.5 mg/kg IV is the correct answer — it is the only specific treatment for malignant hyperthermia, acting by blocking the ryanodine receptor and reducing calcium release from the sarcoplasmic reticulum.",
+      "Sodium bicarbonate may be used as an adjunct to correct metabolic acidosis but does not address the primary pathology of uncontrolled calcium release and is not the immediate priority.",
+      "Propofol does not trigger MH but switching to a non-triggering agent alone is insufficient without dantrolene; propofol will not reverse the ongoing metabolic crisis.",
+      "Verapamil is contraindicated in MH as it can cause fatal hyperkalaemia and myocardial depression when combined with dantrolene; calcium channel blockers must be avoided."
+    ],
+    "clinicalPearl": "Malignant hyperthermia triad: rising end-tidal CO2, hyperthermia, and muscle rigidity after volatile agent/suxamethonium — give dantrolene 2.5 mg/kg IV immediately and call for help."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Airway assessment — difficult airway prediction",
+    "question": "A 58-year-old obese man (BMI 38) presents for elective right hemicolectomy. Pre-operative airway assessment reveals: mouth opening of 3 cm, Mallampati class III, thyromental distance of 5.5 cm, and limited neck extension due to cervical spondylosis. He has a beard and prominent upper incisors. He has no previous anaesthetic records. Which single factor from this assessment is the most reliable independent predictor of difficult laryngoscopy?",
+    "options": [
+      "BMI of 38",
+      "Presence of a beard",
+      "Mallampati class III",
+      "Thyromental distance less than 6 cm",
+      "Limited neck extension"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Thyromental distance (TMD) less than 6 cm is one of the strongest independent predictors of difficult laryngoscopy, reflecting inadequate submandibular space to accommodate the tongue during direct laryngoscopy. A TMD of 5.5 cm places this patient at high risk. While Mallampati score and limited neck extension contribute, TMD has high specificity and is widely used as a primary predictor.",
+    "wrongAnswerExplanations": [
+      "Obesity (BMI 38) increases difficulty of mask ventilation and bag-mask ventilation but is a weaker independent predictor of difficult laryngoscopy specifically; TMD is more discriminating.",
+      "A beard may impair mask seal during bag-mask ventilation but does not predict difficult laryngoscopy — it is not an independent predictor of laryngoscopic difficulty.",
+      "Mallampati class III predicts difficult intubation but has moderate sensitivity and specificity; thyromental distance under 6 cm is a stronger independent predictor of difficult direct laryngoscopy.",
+      "Thyromental distance less than 6 cm is correct — it reliably predicts inadequate submandibular space for tongue displacement during laryngoscopy and is one of the best single predictors of difficult intubation.",
+      "Limited neck extension contributes to difficult laryngoscopy but its predictive value as a standalone finding is lower than reduced thyromental distance."
+    ],
+    "clinicalPearl": "Thyromental distance under 6 cm (some use 6.5 cm) is among the most reliable single predictors of difficult laryngoscopy — always measure it as part of pre-operative airway assessment."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Post-operative nausea and vomiting",
+    "question": "A 29-year-old non-smoking woman undergoes a 90-minute laparoscopic gynaecological procedure under volatile anaesthesia with morphine for post-operative analgesia. She has a history of post-operative nausea and vomiting (PONV) after a previous procedure and suffers from motion sickness. Using the Apfel simplified risk score, what is her approximate risk of PONV, and what is the most appropriate prophylactic strategy?",
+    "options": [
+      "Low risk (10–20%); no prophylaxis required",
+      "Moderate risk (40%); single antiemetic (ondansetron 4 mg IV) at end of surgery",
+      "High risk (60%); two antiemetics from different classes plus consider total intravenous anaesthesia",
+      "Very high risk (80%); three antiemetics plus avoidance of all opioids",
+      "High risk (60%); intraoperative hyoscine patch alone is sufficient"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Apfel score assigns 1 point each for: female sex, non-smoker, history of PONV or motion sickness, and post-operative opioid use. This patient scores 4/4 (80% risk). At score 3–4, guidelines recommend combination prophylaxis with two or more antiemetics from different classes (e.g. ondansetron + dexamethasone) and consideration of TIVA with propofol to minimise volatile agent-related PONV. While opioids contribute, they cannot always be completely avoided.",
+    "wrongAnswerExplanations": [
+      "Low risk and no prophylaxis is incorrect — this patient has an Apfel score of 4/4 giving approximately 80% baseline risk; she requires combination prophylaxis.",
+      "Moderate risk with a single antiemetic underestimates this patient's risk; with four Apfel risk factors her risk is approximately 80%, requiring at least two antiemetics.",
+      "High risk (though technically her risk is 80% = very high) with two antiemetics plus consideration of TIVA is the most clinically appropriate and proportionate answer from the options, reflecting guideline-recommended multi-modal prophylaxis at high Apfel scores.",
+      "Very high risk with three antiemetics and complete opioid avoidance is overly restrictive; complete opioid avoidance is often impractical post-operatively and not standard guideline recommendation even for Apfel score 4.",
+      "Hyoscine patch alone is insufficient for a patient with an Apfel score of 4; it provides weak antiemetic benefit and is not a guideline-recommended primary strategy for high-risk PONV."
+    ],
+    "clinicalPearl": "Apfel score 3–4 warrants combination antiemetic prophylaxis from different classes (e.g. ondansetron + dexamethasone) and strongly favours TIVA over volatile anaesthesia."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Local anaesthetic systemic toxicity",
+    "question": "A 45-year-old man undergoing ultrasound-guided femoral nerve block with bupivacaine 0.5% for post-operative analgesia after total knee replacement suddenly complains of perioral tingling and metallic taste 3 minutes after injection. He then develops tonic-clonic seizures. His ECG shows widening QRS and ventricular arrhythmias. Which is the most appropriate immediate management?",
+    "options": [
+      "Intravenous lorazepam 4 mg and amiodarone 300 mg",
+      "Intravenous intralipid (lipid emulsion) 20% 1.5 mL/kg bolus followed by infusion",
+      "Intravenous sodium bicarbonate 50 mmol and DC cardioversion",
+      "Immediate endotracheal intubation and vasopressin 40 units IV",
+      "Intravenous magnesium sulphate 2 g over 10 minutes"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is a classic presentation of local anaesthetic systemic toxicity (LAST) with CNS features (perioral tingling, seizures) followed by cardiovascular toxicity (QRS widening, arrhythmias) — bupivacaine is particularly cardiotoxic. The AAGBI guidelines recommend intravenous 20% lipid emulsion (Intralipid) as the specific antidote: 1.5 mL/kg bolus followed by 15 mL/kg/hr infusion. Lipid emulsion acts as a 'lipid sink' sequestering the lipid-soluble bupivacaine.",
+    "wrongAnswerExplanations": [
+      "Lorazepam may help terminate seizures but amiodarone is contraindicated in LAST as it can worsen bupivacaine-induced cardiac toxicity; lipid emulsion is the priority.",
+      "Intralipid 20% 1.5 mL/kg bolus is correct — it is the specific AAGBI-recommended treatment for LAST, acting as a lipid sink for lipid-soluble local anaesthetics such as bupivacaine.",
+      "Sodium bicarbonate may help with QRS widening in some situations but is not the specific treatment for LAST; DC cardioversion alone does not address the underlying mechanism.",
+      "Endotracheal intubation may be required for airway protection during seizures but vasopressin has no role in LAST management and is not recommended in this context.",
+      "Magnesium sulphate has no evidence base in LAST management; it is used for eclampsia and some arrhythmias but does not address bupivacaine toxicity."
+    ],
+    "clinicalPearl": "In local anaesthetic systemic toxicity, give 20% intralipid 1.5 mL/kg IV bolus immediately — never use amiodarone as it compounds bupivacaine cardiac toxicity."
+  },
+  {
+    "system": "Approach to Regional Anesthesia.pdf",
+    "sourceLecture": "Approach to Regional Anesthesia.pdf",
+    "topic": "Spinal anaesthesia — complications",
+    "question": "A 32-year-old woman is 6 hours post spinal anaesthesia (hyperbaric bupivacaine L3/4) for elective caesarean section. She develops a severe bilateral throbbing headache that is worse sitting upright and dramatically relieved by lying flat. Her temperature is 36.8°C, there is no neck stiffness, and neurological examination is normal. What is the most appropriate first-line management?",
+    "options": [
+      "Intravenous ceftriaxone 2 g and urgent lumbar puncture",
+      "Oral sumatriptan 50 mg and bed rest",
+      "Conservative management with strict bed rest, oral analgesia, hydration, and caffeine",
+      "Immediate epidural blood patch with 20 mL autologous blood",
+      "Urgent CT head and neurosurgical review"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Post-dural puncture headache (PDPH) is characterised by a severe postural headache — worse upright, relieved supine — occurring within 72 hours of dural puncture. First-line management is conservative: bed rest, oral/IV analgesia (paracetamol, NSAIDs), adequate hydration, and caffeine (which increases CSF production and causes cerebral vasoconstriction). An epidural blood patch is reserved for persistent headache not responding to 24–48 hours of conservative measures.",
+    "wrongAnswerExplanations": [
+      "Antibiotics and lumbar puncture are appropriate for suspected bacterial meningitis; however, no fever, no neck stiffness, and a clear postural component make PDPH far more likely.",
+      "Sumatriptan is used for migraine; while it may partially help, it is not the guideline-recommended first-line treatment for PDPH and does not address the underlying CSF leak.",
+      "Conservative management with bed rest, analgesia, hydration, and caffeine is correct — this is the recommended first-line approach for PDPH, effective in the majority of cases within 24–48 hours.",
+      "Epidural blood patch (EBP) is highly effective for PDPH but is reserved for failure of conservative treatment after 24–48 hours or severe incapacitating headache; it is not the first-line step.",
+      "CT head is not indicated for a classic postural PDPH with no focal neurology, fever, or signs of raised intracranial pressure; neuroimaging would delay appropriate treatment."
+    ],
+    "clinicalPearl": "Post-dural puncture headache is postural (worse upright, better supine) — treat conservatively first with analgesia, caffeine, and hydration; reserve epidural blood patch for refractory cases."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Approach to Regional Anesthesia.pdf",
+    "topic": "Spinal anaesthesia — high spinal block",
+    "question": "A 68-year-old man receives spinal anaesthesia at L3/4 for a transurethral resection of the prostate. Five minutes after injection he becomes hypotensive (BP 75/40 mmHg), bradycardic (HR 38 bpm), and complains of difficulty breathing. He appears anxious and is unable to lift his arms. Oxygen saturation falls to 91% on room air. What is the most likely complication and the most appropriate immediate management?",
+    "options": [
+      "Anaphylaxis to bupivacaine; give adrenaline 0.5 mg IM",
+      "Total spinal with respiratory compromise; give IV fluid bolus, atropine, vasopressor, and prepare for intubation",
+      "Pulmonary embolism; give IV unfractionated heparin 5000 units",
+      "Vasovagal syncope; Trendelenburg position and oral fluids",
+      "Local anaesthetic toxicity; give intralipid 1.5 mL/kg IV"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This presentation is consistent with a high or total spinal block: rapid onset hypotension, bradycardia (due to sympathetic blockade and blockade of cardioaccelerator fibres T1–T4), and upper limb weakness/respiratory compromise indicating cervical cord involvement. Immediate management includes IV fluid resuscitation, atropine for bradycardia, vasopressors (ephedrine/phenylephrine) for hypotension, supplemental oxygen, and preparation for tracheal intubation if respiratory failure progresses.",
+    "wrongAnswerExplanations": [
+      "Anaphylaxis typically presents with urticaria, bronchospasm, and angioedema; the postural distribution of weakness and bradycardia pattern here is more consistent with high spinal block.",
+      "Total spinal with respiratory compromise is correct — the combination of profound hypotension, bradycardia, and ascending upper limb weakness/dyspnoea minutes after spinal injection is the classic presentation of a high spinal block.",
+      "Pulmonary embolism would cause sudden chest pain, hypoxia, and tachycardia rather than bradycardia, and would not cause the described bilateral limb weakness pattern.",
+      "Vasovagal syncope can cause hypotension and bradycardia but would not cause upper limb weakness or progressive respiratory failure; this presentation is too severe and specific.",
+      "LAST from spinal doses is extremely unlikely because the intrathecal doses used are far below systemic toxic levels; the neurological distribution and timing point to high spinal block."
+    ],
+    "clinicalPearl": "A rapidly ascending block after spinal anaesthesia with bradycardia, hypotension, and upper limb weakness is a total spinal emergency — secure the airway early before complete apnoea develops."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Approach to Regional Anesthesia.pdf",
+    "topic": "Epidural anaesthesia — complications",
+    "question": "A 54-year-old woman with breast cancer is receiving thoracic epidural analgesia (T6/7) on day 2 post-mastectomy. She develops a fever of 38.9°C, new severe back pain at the insertion site, and bilateral leg weakness with urinary retention. Neurological examination reveals decreased sensation below T8. What is the most urgent investigation?",
+    "options": [
+      "Plain X-ray thoracic spine",
+      "Blood cultures and urine culture",
+      "Urgent MRI spine without delay",
+      "CT myelogram",
+      "Lumbar puncture for CSF analysis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This presentation is consistent with epidural abscess — a neurosurgical emergency characterised by fever, severe localised back pain, and progressive neurological deficit (weakness, sensory loss, sphincter dysfunction). Urgent MRI spine is the investigation of choice as it provides superior soft tissue detail to identify the abscess, its extent, and spinal cord compression. Time to decompressive surgery directly determines neurological outcome; MRI must not be delayed.",
+    "wrongAnswerExplanations": [
+      "Plain X-ray has very poor sensitivity for soft tissue infection or epidural abscess and cannot demonstrate spinal cord compression; it would dangerously delay diagnosis.",
+      "Blood cultures are important for microbiological diagnosis but are not the most urgent investigation; MRI to confirm the diagnosis and plan surgical decompression takes priority.",
+      "Urgent MRI spine is correct — it is the gold standard for diagnosing epidural abscess, revealing the collection and degree of cord compression, allowing urgent surgical planning.",
+      "CT myelogram can demonstrate cord compression but is invasive, slower to arrange, and inferior to MRI for soft tissue characterisation; it is not first-line in this setting.",
+      "Lumbar puncture is contraindicated in suspected epidural abscess as it risks seeding infection into the subarachnoid space and causing meningitis."
+    ],
+    "clinicalPearl": "Fever + back pain + new neurological deficit in an epidural patient = epidural abscess until proven otherwise — request urgent MRI spine and neurosurgical review immediately."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Premedication — aspiration prophylaxis",
+    "question": "A 72-year-old man with poorly controlled type 2 diabetes and symptomatic gastro-oesophageal reflux disease is scheduled for an elective right total hip replacement under general anaesthesia. His last meal was 6 hours ago but he reports that he often feels his food 'sitting in his stomach' for many hours. Rapid sequence induction (RSI) is planned. Which pre-operative pharmacological regimen is most appropriate to reduce the risk of pulmonary aspiration?",
+    "options": [
+      "Oral diazepam 10 mg and metoclopramide 10 mg one hour pre-operatively",
+      "Oral ranitidine 150 mg the night before and oral sodium citrate 30 mL immediately pre-induction",
+      "Oral omeprazole 40 mg and metoclopramide 10 mg one hour pre-operatively, plus oral sodium citrate 30 mL immediately before induction",
+      "IV ondansetron 4 mg at induction only",
+      "Intramuscular morphine 10 mg and hyoscine 0.4 mg one hour pre-operatively"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has significant aspiration risk: diabetes (gastroparesis), symptomatic GORD, and age. Optimal prophylaxis combines a proton pump inhibitor (omeprazole) to reduce acid production, metoclopramide to accelerate gastric emptying and increase lower oesophageal sphincter tone, and sodium citrate (a non-particulate antacid) immediately before induction to neutralise residual gastric acid. This triple regimen provides the most comprehensive protection.",
+    "wrongAnswerExplanations": [
+      "Diazepam and metoclopramide omit acid suppression; diazepam may increase aspiration risk by reducing laryngeal reflexes and is not part of aspiration prophylaxis.",
+      "Ranitidine (H2 blocker) and sodium citrate address acid but omit a prokinetic agent to improve gastric emptying, which is important given this patient's likely diabetic gastroparesis.",
+      "Omeprazole + metoclopramide + sodium citrate is correct — this triple combination addresses acid suppression, gastric emptying, and immediate neutralisation of residual acid, providing comprehensive aspiration prophylaxis.",
+      "Ondansetron alone is an antiemetic with no effect on gastric pH, volume, or emptying; it does not reduce the risk of aspiration pneumonitis if aspiration occurs.",
+      "Morphine and hyoscine delay gastric emptying and increase the risk of aspiration; hyoscine reduces secretions but both agents are contraindicated for aspiration prophylaxis in a high-risk patient."
+    ],
+    "clinicalPearl": "For high-risk aspiration patients (GORD, gastroparesis), pre-medicate with a PPI + metoclopramide pre-operatively and give sodium citrate immediately before induction for maximal protection."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Approach to Regional Anesthesia.pdf",
+    "topic": "Regional anaesthesia — nerve block selection",
+    "question": "A 78-year-old woman with severe COPD (FEV1 40% predicted) and ischaemic heart disease presents for surgical repair of a fractured neck of femur. She is on warfarin with an INR of 2.8. The surgical team requests regional anaesthesia to avoid general anaesthesia. Which anaesthetic technique is most appropriate?",
+    "options": [
+      "Spinal anaesthesia at L3/4 with hyperbaric bupivacaine",
+      "Epidural anaesthesia with a thoracic catheter",
+      "Femoral nerve block combined with lateral femoral cutaneous nerve block under ultrasound guidance",
+      "Fascia iliaca block as the sole anaesthetic technique",
+      "Interscalene brachial plexus block"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Spinal anaesthesia is the preferred technique for hip fracture surgery in elderly patients with cardiorespiratory comorbidity as it avoids the risks of general anaesthesia. An INR of 2.8 is above the threshold for neuraxial blockade (INR ≤1.5 recommended), but the benefits of spinal over GA in this fragile patient make it the best choice after appropriate INR correction. Femoral/fascia iliaca blocks provide analgesia but not surgical anaesthesia for hip repair.",
+    "wrongAnswerExplanations": [
+      "Spinal anaesthesia at L3/4 is correct — after INR correction it is the gold standard for hip fracture in high-risk patients, providing reliable surgical anaesthesia while avoiding GA-associated complications in severe COPD.",
+      "Thoracic epidural catheter provides excellent post-operative analgesia but is technically challenging, associated with greater haemodynamic instability, and the INR of 2.8 (above neuraxial threshold) makes this riskier to site than a single-shot spinal.",
+      "Femoral nerve block and LFCN block provide good peri-operative analgesia but do not cover the surgical field completely (posterior capsule, obturator nerve); they cannot be used as the sole anaesthetic for hip fracture repair.",
+      "Fascia iliaca block is an excellent analgesic adjunct for hip fracture but does not provide complete surgical anaesthesia for fracture fixation; it cannot replace spinal or general anaesthesia.",
+      "Interscalene block targets the brachial plexus for upper limb procedures; it has no role in lower limb or hip surgery and is completely inappropriate here."
+    ],
+    "clinicalPearl": "Spinal anaesthesia is preferred over GA for hip fracture in the elderly with cardiorespiratory disease — correct INR to ≤1.5 before neuraxial blockade and proceed with spinal."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Complications of general anaesthesia — laryngospasm",
+    "question": "A 4-year-old boy is emerging from general anaesthesia after tonsillectomy. The anaesthetist notes complete airway obstruction with paradoxical chest movement, no audible breath sounds, falling oxygen saturation (SpO2 82%), and a clenched jaw. Manual bag-mask ventilation is impossible. What is the most appropriate immediate intervention?",
+    "options": [
+      "Nasopharyngeal airway insertion and high-flow oxygen",
+      "Lateral position and stimulation to increase respiratory drive",
+      "Jaw thrust, 100% oxygen, and continuous positive airway pressure via tight mask seal; if unresponsive, intravenous suxamethonium 1–2 mg/kg",
+      "Immediate needle cricothyroidotomy",
+      "Oral airway insertion and call for ENT assistance"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This presentation is complete laryngospasm — a reflex closure of the vocal cords causing total airway obstruction. Initial management includes 100% oxygen, jaw thrust (Larson manoeuvre — bilateral pressure in the 'laryngospasm notch' behind the mastoid), and CPAP to break the spasm. If SpO2 continues to fall and CPAP fails, suxamethonium 1–2 mg/kg IV (or 4 mg/kg IM if no IV access) is the definitive treatment to relax the laryngeal muscles. This is a time-critical emergency.",
+    "wrongAnswerExplanations": [
+      "A nasopharyngeal airway would not penetrate the laryngeal closure and may worsen the spasm by providing further stimulation; it does not address the glottic level obstruction.",
+      "Lateral positioning alone is insufficient for complete laryngospasm with falling saturation; passive stimulation will not overcome a complete laryngeal closure.",
+      "Jaw thrust, 100% oxygen, CPAP, and suxamethonium if unresponsive is correct — this is the stepwise evidence-based management of complete laryngospasm, with suxamethonium as the definitive pharmacological intervention.",
+      "Needle cricothyroidotomy is a last resort for cannot-intubate-cannot-oxygenate scenarios; laryngospasm should be broken pharmacologically before proceeding to surgical airway.",
+      "An oral airway insertion attempts to bypass the supraglottic airway but cannot open a closed glottis; ENT assistance would arrive too late for this rapidly deteriorating child."
+    ],
+    "clinicalPearl": "For complete laryngospasm: jaw thrust + CPAP with 100% O2 first; if SpO2 continues to fall, give suxamethonium 1–2 mg/kg IV immediately — do not delay."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Approach to Regional Anesthesia.pdf",
+    "topic": "Local anaesthetic pharmacology — maximum doses",
+    "question": "A 70 kg woman is undergoing infiltration of a surgical wound with lidocaine. The anaesthetist plans to use lidocaine with adrenaline (epinephrine). What is the maximum safe dose of lidocaine with adrenaline for this patient, and what is the primary reason adrenaline extends the maximum safe dose?",
+    "options": [
+      "210 mg (3 mg/kg); adrenaline reduces systemic absorption by causing local vasoconstriction",
+      "350 mg (5 mg/kg); adrenaline causes local vasodilation increasing drug distribution",
+      "500 mg (7 mg/kg); adrenaline causes local vasoconstriction reducing systemic absorption and peak plasma concentration",
+      "700 mg (10 mg/kg); adrenaline provides direct cardiac protection against toxicity",
+      "280 mg (4 mg/kg); adrenaline raises the seizure threshold centrally"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The maximum dose of plain lidocaine is 3 mg/kg (approximately 200 mg for a 70 kg patient). With adrenaline (epinephrine), this increases to 7 mg/kg (approximately 490 mg for a 70 kg patient) because adrenaline causes intense local vasoconstriction, slowing vascular absorption and reducing peak plasma concentration, thereby lowering systemic toxicity risk and prolonging the duration of action.",
+    "wrongAnswerExplanations": [
+      "210 mg (3 mg/kg) is the maximum dose for plain lidocaine WITHOUT adrenaline — adding adrenaline significantly increases the safe maximum dose to 7 mg/kg.",
+      "Adrenaline causes vasoconstriction, not vasodilation; vasodilation would increase absorption and toxicity, which is the opposite of the effect adrenaline produces.",
+      "500 mg (7 mg/kg) is correct — adrenaline-containing lidocaine has a maximum dose of 7 mg/kg due to vasoconstriction reducing vascular uptake and peak plasma concentration.",
+      "10 mg/kg significantly exceeds safe dosing even with adrenaline and would risk serious systemic toxicity; adrenaline does not provide direct cardiac protection against lidocaine toxicity.",
+      "4 mg/kg is neither the standard plain nor adrenaline-containing dose; adrenaline's mechanism is peripheral vasoconstriction reducing absorption, not central seizure threshold elevation."
+    ],
+    "clinicalPearl": "Lidocaine maximum dose: 3 mg/kg plain, 7 mg/kg with adrenaline — always calculate the total dose before infiltration, especially in large wounds or multiple sites."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Anaesthesia G4.pdf",
+    "topic": "Premedication — anxiolysis and sedation",
+    "question": "A 7-year-old boy is scheduled for elective strabismus surgery under general anaesthesia. He is extremely anxious and uncooperative at pre-operative assessment, crying and refusing to leave his mother. He has no relevant medical history and takes no regular medications. What is the most appropriate pre-medication to facilitate smooth induction of anaesthesia?",
+    "options": [
+      "Oral morphine 0.2 mg/kg 60 minutes pre-operatively",
+      "Intramuscular ketamine 5 mg/kg 30 minutes pre-operatively",
+      "Oral midazolam 0.5 mg/kg (maximum 15 mg) 30–45 minutes pre-operatively",
+      "Oral diazepam 0.3 mg/kg 90 minutes pre-operatively",
+      "Intranasal dexmedetomidine 1 mcg/kg 45 minutes pre-operatively"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Oral midazolam 0.5 mg/kg (maximum 15 mg) administered 30–45 minutes before induction is the gold standard pre-medication for anxious children undergoing general anaesthesia. It produces reliable anxiolysis and sedation, facilitates parent separation, and allows smooth inhalational induction. It has a good safety profile and is palatable when mixed with juice. Onset is predictable and duration well-matched to typical pre-operative waiting periods.",
+    "wrongAnswerExplanations": [
+      "Oral morphine pre-medication is not standard practice in children for elective strabismus surgery; opioids are inappropriate as anxiolytics in this setting and increase PONV risk (strabismus surgery itself carries high PONV risk).",
+      "Intramuscular ketamine provides reliable sedation but requires a painful injection which would further traumatise an already anxious child; oral midazolam is preferred as a non-invasive route.",
+      "Oral midazolam 0.5 mg/kg is correct — it is the most widely used and recommended pre-medication for paediatric anxiolysis, providing effective sedation within 20–30 minutes via the palatable oral route.",
+      "Oral diazepam has a longer and less predictable onset and duration compared to midazolam, making theatre scheduling less reliable; midazolam is pharmacokinetically superior for pre-medication.",
+      "Intranasal dexmedetomidine is used in some centres and has evidence in children but is not the first-line standard; it has a slower onset (45–60 min) and intranasal administration may cause discomfort."
+    ],
+    "clinicalPearl": "Oral midazolam 0.5 mg/kg (max 15 mg) 30–45 minutes pre-operatively is the standard anxiolytic pre-medication for uncooperative children — it facilitates smooth induction and parent separation."
+  }
+]

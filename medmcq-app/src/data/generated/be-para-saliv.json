@@ -1,0 +1,301 @@
+[
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Primary hyperparathyroidism",
+    "question": "A 54-year-old woman presents to her GP with a 6-month history of fatigue, constipation, and polyuria. She has also had two episodes of renal colic in the past year. On examination she appears mildly dehydrated. Blood tests show: Ca2+ 2.98 mmol/L, phosphate 0.7 mmol/L, PTH 112 pg/mL (normal 10–65), ALP mildly elevated, eGFR 62 mL/min. What is the most likely diagnosis?",
+    "options": [
+      "Secondary hyperparathyroidism due to chronic kidney disease",
+      "Primary hyperparathyroidism due to a solitary parathyroid adenoma",
+      "Hypercalcaemia of malignancy due to PTHrP secretion",
+      "Familial hypocalciuric hypercalcaemia",
+      "Sarcoidosis-related hypercalcaemia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has hypercalcaemia with elevated PTH, low phosphate, and classic symptoms of stones, bones, groans, and psychic moans consistent with primary hyperparathyroidism (PHPT). The most common cause of PHPT (85%) is a solitary parathyroid adenoma. In secondary hyperparathyroidism the calcium is low or normal with elevated PTH. PTHrP-mediated hypercalcaemia suppresses native PTH secretion.",
+    "wrongAnswerExplanations": [
+      "Secondary hyperparathyroidism occurs when low calcium (from CKD or vitamin D deficiency) drives PTH elevation; here calcium is high, making this incorrect.",
+      "Correct — solitary parathyroid adenoma accounts for ~85% of PHPT cases, explaining elevated PTH with hypercalcaemia and hypophosphataemia.",
+      "PTHrP-secreting tumours suppress native PTH via negative feedback, so measured PTH would be low or suppressed, not elevated.",
+      "Familial hypocalciuric hypercalcaemia (FHH) presents with hypercalcaemia but PTH is usually normal or only mildly elevated and urinary calcium excretion is very low (calcium:creatinine clearance ratio <0.01).",
+      "Sarcoidosis causes hypercalcaemia through excess 1,25-dihydroxyvitamin D production, suppressing PTH; PTH would be low, not elevated."
+    ],
+    "clinicalPearl": "Elevated PTH in the setting of hypercalcaemia is virtually diagnostic of primary hyperparathyroidism — PTH should be suppressed in all other causes of hypercalcaemia."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Hypercalcaemic crisis",
+    "question": "A 68-year-old man is brought to the emergency department confused and vomiting. His wife reports he has been unwell for 2 weeks with bone pain and increasing confusion. On examination he is dehydrated, GCS 13/15, and has diffuse abdominal tenderness. Investigations: Ca2+ 3.8 mmol/L, PTH 145 pg/mL, creatinine 180 µmol/L, ECG shows shortened QT interval. What is the most appropriate immediate management?",
+    "options": [
+      "Urgent parathyroidectomy within 24 hours",
+      "Oral bisphosphonate therapy and outpatient follow-up",
+      "Aggressive IV 0.9% saline rehydration and loop diuretic",
+      "Cinacalcet 30 mg orally twice daily",
+      "IV pamidronate infusion as the first-line intervention"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has a hypercalcaemic crisis (Ca2+ >3.5 mmol/L) with neurological and renal compromise. The cornerstone of acute management is aggressive IV saline rehydration (typically 4–6 litres over 24 hours) to restore volume and promote calciuresis, followed by a loop diuretic once euvolaemia is established to further enhance calcium excretion. Surgery cannot be performed safely until calcium is lowered.",
+    "wrongAnswerExplanations": [
+      "Emergency parathyroidectomy is not safe in the acute setting with severe hypercalcaemia; medical stabilisation must occur first to reduce operative risk.",
+      "Oral bisphosphonates have poor bioavailability and very slow onset; they are not appropriate for acute hypercalcaemic crisis management.",
+      "Correct — aggressive IV 0.9% saline (4–6 L/24 h) is the immediate first step; a loop diuretic (furosemide) is added once rehydration is achieved to promote renal calcium excretion.",
+      "Cinacalcet is a calcimimetic that reduces PTH secretion but works slowly over days and is not indicated for acute crisis management.",
+      "IV bisphosphonates (e.g. pamidronate) are a useful adjunct but take 2–4 days to lower calcium; they are second-line after initial saline rehydration."
+    ],
+    "clinicalPearl": "In hypercalcaemic crisis, IV saline rehydration is the single most important immediate intervention — correct dehydration first, then add a loop diuretic to enhance calciuresis."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Parathyroidectomy — indications",
+    "question": "A 62-year-old postmenopausal woman is found to have asymptomatic primary hyperparathyroidism on routine bloods: Ca2+ 2.72 mmol/L, PTH 85 pg/mL, creatinine 78 µmol/L. DEXA scan reveals T-score of −2.7 at the lumbar spine. She has no renal calculi on CT KUB and no neurocognitive symptoms. Which of the following best justifies surgical intervention in this patient?",
+    "options": [
+      "Age over 60 years is itself an absolute indication for parathyroidectomy",
+      "DEXA T-score ≤ −2.5 at any skeletal site meets guideline criteria for surgery",
+      "Serum calcium more than 0.25 mmol/L above the upper limit of normal",
+      "Elevated PTH alone is an absolute surgical indication regardless of symptoms",
+      "She should be managed conservatively as she is asymptomatic"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Current guidelines (including the 4th International Workshop on Asymptomatic PHPT) recommend surgery in asymptomatic PHPT if T-score ≤ −2.5 at any site (lumbar spine, hip, or distal radius) or if there is a fragility fracture. This patient's lumbar spine T-score of −2.7 meets this threshold and is a clear surgical indication even without symptoms.",
+    "wrongAnswerExplanations": [
+      "Age under 50 (not over 60) is listed as a surgical indication in current guidelines, as younger patients have a longer exposure to high calcium and PTH effects.",
+      "Correct — T-score ≤ −2.5 at the lumbar spine, hip, or 1/3 radius on DEXA is a recognised indication for parathyroidectomy in asymptomatic PHPT.",
+      "Serum calcium >1 mg/dL (>0.25 mmol/L) above the upper limit of normal is indeed a guideline criterion, but at 2.72 mmol/L with an upper limit of ~2.6 mmol/L, the difference here is 0.12 mmol/L which does not meet this threshold.",
+      "Elevated PTH alone without other criteria does not constitute an absolute indication; it is the combination of PTH with calcium, bone, and renal parameters that guides decision-making.",
+      "Conservative management is appropriate only when none of the surgical criteria are met; this patient fulfils the bone density criterion, so surgery is indicated."
+    ],
+    "clinicalPearl": "Asymptomatic PHPT still warrants surgery if T-score ≤ −2.5 at any DXA site, serum Ca >0.25 mmol/L above the upper limit of normal, eGFR <60, age <50, or nephrolithiasis/nephrocalcinosis."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Secondary hyperparathyroidism",
+    "question": "A 45-year-old man with end-stage renal disease on haemodialysis for 8 years presents with severe bone pain and proximal muscle weakness. Investigations: Ca2+ 1.95 mmol/L, phosphate 2.1 mmol/L, PTH 820 pg/mL, ALP markedly elevated. X-rays show subperiosteal bone resorption of the radial borders of the middle phalanges. What is the most likely diagnosis?",
+    "options": [
+      "Primary hyperparathyroidism due to parathyroid adenoma",
+      "Tertiary hyperparathyroidism with autonomous PTH secretion",
+      "Secondary hyperparathyroidism due to chronic kidney disease",
+      "Multiple endocrine neoplasia type 1 (MEN1)",
+      "Paget's disease of bone"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has classic secondary hyperparathyroidism complicating long-standing CKD. Reduced renal phosphate excretion leads to hyperphosphataemia, decreased 1,25-dihydroxyvitamin D synthesis causes hypocalcaemia, and both stimulate PTH secretion. The markedly elevated PTH, low-normal calcium, high phosphate, and subperiosteal resorption (pathognomonic of HPT) in the context of 8 years of dialysis are diagnostic of secondary HPT.",
+    "wrongAnswerExplanations": [
+      "Primary HPT characteristically causes hypercalcaemia with hypophosphataemia; this patient has hypocalcaemia and hyperphosphataemia, excluding primary HPT.",
+      "Tertiary HPT develops when secondary HPT becomes autonomous; it is characterised by hypercalcaemia (PTH secretion no longer responds to feedback); this patient is still hypocalcaemic.",
+      "Correct — secondary HPT in CKD results from phosphate retention, reduced calcitriol production, and resulting hypocalcaemia driving compensatory (but appropriate) PTH hypersecretion.",
+      "MEN1 causes primary HPT (hypercalcaemia) due to multiglandular hyperplasia or adenomas, not the hypocalcaemic secondary form seen here.",
+      "Paget's disease causes elevated ALP and bone pain but does not elevate PTH and is not related to renal failure or the metabolic pattern seen here."
+    ],
+    "clinicalPearl": "In secondary hyperparathyroidism from CKD, calcium is low (or low-normal), phosphate is high, and PTH is elevated as a compensatory response — the opposite biochemical pattern to primary HPT."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Tertiary hyperparathyroidism",
+    "question": "A 52-year-old woman who received a renal transplant 18 months ago presents for routine follow-up. Her graft is functioning well (creatinine 95 µmol/L). Bloods show: Ca2+ 2.95 mmol/L, phosphate 0.65 mmol/L, PTH 195 pg/mL. Pre-transplant she had severe secondary hyperparathyroidism managed medically. She has no symptoms of hypercalcaemia. What is the best explanation for her current biochemistry?",
+    "options": [
+      "Acute rejection causing parathyroid gland stimulation",
+      "De novo primary parathyroid adenoma post-transplant",
+      "Tertiary hyperparathyroidism with autonomous PTH secretion",
+      "Calcineurin inhibitor toxicity causing pseudo-hyperparathyroidism",
+      "Vitamin D toxicity from post-transplant supplementation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Tertiary hyperparathyroidism occurs when prolonged secondary HPT (as in long-standing CKD) leads to monoclonal expansion of parathyroid cells that acquire autonomous PTH secretion. After successful renal transplantation restores normal calcium homeostasis, these hyperplastic glands continue to secrete PTH inappropriately, resulting in hypercalcaemia with high PTH — the hallmark of tertiary HPT.",
+    "wrongAnswerExplanations": [
+      "Acute rejection would impair graft function and reduce calcium; it does not drive autonomous PTH secretion producing hypercalcaemia.",
+      "A de novo adenoma is possible but far less likely than tertiary HPT in this clinical context of previous severe secondary HPT with a well-functioning new graft.",
+      "Correct — tertiary HPT represents the transition from reactive to autonomous PTH secretion following years of secondary HPT stimulation, persisting even after the original stimulus (uraemia) is resolved by transplant.",
+      "Calcineurin inhibitors can cause nephrotoxicity but do not directly cause autonomous parathyroid secretion producing hypercalcaemia with high PTH.",
+      "Vitamin D toxicity would cause hypercalcaemia but would suppress PTH, not leave it markedly elevated."
+    ],
+    "clinicalPearl": "Tertiary HPT = secondary HPT that has become autonomous; the key distinction from secondary HPT is hypercalcaemia (not hypocalcaemia), and it classically emerges after renal transplantation."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Localisation before parathyroidectomy",
+    "question": "A 58-year-old woman with biochemically confirmed primary hyperparathyroidism (Ca2+ 2.85 mmol/L, PTH 98 pg/mL) is being worked up for surgical intervention. She has no previous neck surgery. Neck ultrasound identifies a hypoechoic nodule posterior to the right lower thyroid lobe. Which is the most appropriate next localisation step before proceeding to minimally invasive parathyroidectomy?",
+    "options": [
+      "CT neck and chest to exclude ectopic mediastinal gland",
+      "MRI of the neck with contrast",
+      "Sestamibi (99mTc) scintigraphy to confirm single-gland disease",
+      "Fine-needle aspiration cytology of the nodule",
+      "Proceed directly to bilateral four-gland exploration without further imaging"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Before minimally invasive (focused) parathyroidectomy, it is essential to confirm single-gland disease. Sestamibi (99mTc-MIBI) scintigraphy is the standard functional localisation study used alongside ultrasound; concordant positive results allow minimally invasive parathyroidectomy with intraoperative PTH monitoring. FNAC risks seeding and does not localise function; four-gland exploration is reserved for failed localisation or multigland disease.",
+    "wrongAnswerExplanations": [
+      "CT chest is reserved for when ultrasound and sestamibi fail to localise the gland or when an ectopic/mediastinal adenoma is suspected; it is not the standard next step.",
+      "MRI provides good soft tissue detail but is less specific for parathyroid tissue than functional sestamibi imaging and is not first-line for localisation.",
+      "Correct — sestamibi scintigraphy is the gold standard functional localisation study; concordance with ultrasound supports focused/minimally invasive parathyroidectomy.",
+      "FNAC of a suspected parathyroid adenoma is contraindicated as it can cause fibrosis, haematoma, and seeding into surrounding tissue, complicating subsequent surgery.",
+      "Bilateral four-gland exploration is appropriate when localisation studies are discordant or negative, or when multiglandular disease is suspected, but not as the preferred primary approach in straightforward cases."
+    ],
+    "clinicalPearl": "Concordant ultrasound and sestamibi scintigraphy allows minimally invasive parathyroidectomy with intraoperative PTH monitoring — a >50% PTH drop at 10 minutes post-excision confirms complete removal."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "Post-parathyroidectomy hungry bone syndrome",
+    "question": "A 55-year-old man undergoes successful parathyroidectomy for primary hyperparathyroidism complicated by severe osteitis fibrosa cystica. Twelve hours post-operatively he develops perioral tingling, carpopedal spasm, and a positive Trousseau's sign. Pre-operative calcium was 3.1 mmol/L; post-operative calcium is now 1.85 mmol/L. What is the most likely cause of his symptoms?",
+    "options": [
+      "Inadvertent total thyroidectomy causing hypothyroidism",
+      "Hungry bone syndrome causing rapid post-operative hypocalcaemia",
+      "Hypomagnesaemia from pre-operative diuretic use",
+      "Permanent hypoparathyroidism from removal of all four glands",
+      "Recurrent laryngeal nerve injury causing laryngospasm"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Hungry bone syndrome occurs after parathyroidectomy in patients with severe pre-operative bone disease (osteitis fibrosa cystica). The sudden fall in PTH unmasks bone's avid uptake of calcium and phosphate for remineralisation, causing rapid, profound hypocalcaemia. This is distinct from permanent hypoparathyroidism and is most dramatic in patients with markedly elevated pre-operative ALP and radiological bone disease.",
+    "wrongAnswerExplanations": [
+      "Thyroidectomy would cause hypothyroidism (not acute hypocalcaemia) and is a separate procedure; parathyroidectomy does not remove thyroid tissue.",
+      "Correct — hungry bone syndrome is the rapid remineralisation of severely demineralised bone following the abrupt removal of PTH-driven bone resorption, causing dramatic hypocalcaemia in the early post-operative period.",
+      "Hypomagnesaemia can cause hypocalcaemia resistant to calcium supplementation but is not the primary mechanism here; the clinical context of severe bone disease strongly points to hungry bone syndrome.",
+      "Permanent hypoparathyroidism is possible if all four glands are removed, but the specific context of severe bone disease makes hungry bone syndrome the more likely explanation for this acute, severe hypocalcaemia.",
+      "Recurrent laryngeal nerve injury causes hoarseness or stridor, not perioral tingling or carpopedal spasm, which are hallmarks of hypocalcaemia."
+    ],
+    "clinicalPearl": "Hungry bone syndrome risk is predicted pre-operatively by very high ALP and radiological bone disease — these patients need prophylactic calcium and vitamin D supplementation started before surgery."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "parathyroid diseases dr sarmad.pdf",
+    "topic": "MEN1 and hyperparathyroidism",
+    "question": "A 32-year-old man presents with symptomatic hypercalcaemia (Ca2+ 2.9 mmol/L, PTH 110 pg/mL). His father had a pituitary adenoma and gastric ulcers in his 30s and underwent neck surgery. Serum gastrin is elevated at 450 pg/mL. Which investigation is most important before planning surgical management of his hyperparathyroidism?",
+    "options": [
+      "Sestamibi scintigraphy to localise a single parathyroid adenoma for focused resection",
+      "Genetic testing for MEN1 (menin gene mutation) and assessment for multiglandular disease",
+      "Urinary catecholamines to exclude phaeochromocytoma",
+      "CT chest to exclude mediastinal parathyroid adenoma",
+      "Colonoscopy to exclude colonic neuroendocrine tumour"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This young man has hyperparathyroidism with elevated gastrin (suggesting gastrinoma/Zollinger-Ellison syndrome) and a family history consistent with MEN1 (pituitary tumour + peptic ulcers in father). MEN1 causes multiglandular parathyroid hyperplasia, not a single adenoma; therefore, focused minimally invasive parathyroidectomy is inappropriate. Genetic testing confirms MEN1 and guides the extent of surgery (usually subtotal or total parathyroidectomy with autotransplantation).",
+    "wrongAnswerExplanations": [
+      "Sestamibi-guided focused resection is the standard approach for sporadic single-gland disease but is inappropriate in MEN1 where all four glands are hyperplastic; focused resection results in high recurrence.",
+      "Correct — confirming MEN1 with genetic testing and recognising multiglandular disease changes surgical strategy entirely; bilateral neck exploration with subtotal or total parathyroidectomy is required.",
+      "Urinary catecholamines screen for phaeochromocytoma, which is part of MEN2 (not MEN1); MEN1 comprises parathyroid, pituitary, and pancreatic/duodenal tumours.",
+      "CT chest for ectopic adenoma is a localisation step; in MEN1, localisation of a 'dominant' gland is irrelevant as all four glands require assessment.",
+      "Colonic neuroendocrine tumours are rare; colonoscopy is not part of the standard MEN1 work-up at this stage."
+    ],
+    "clinicalPearl": "MEN1 (parathyroid + pituitary + pancreatic tumours) causes multiglandular parathyroid hyperplasia — always suspect in young patients with PHPT and screen for MEN1 before planning surgery to avoid inadequate focal resection."
+  },
+  {
+    "system": "Disorders of the salivary glands.pdf",
+    "sourceLecture": "Disorders of the salivary glands.pdf",
+    "topic": "Sialolithiasis",
+    "question": "A 42-year-old man presents with a 3-hour history of sudden-onset painful swelling under his jaw that started at the beginning of a meal and has partially resolved since eating. On examination there is tender swelling in the floor of the mouth on the left side, and a firm mass is palpable bimanually along the course of Wharton's duct. What is the most appropriate initial investigation?",
+    "options": [
+      "CT neck with contrast to exclude deep space neck infection",
+      "Ultrasound of the floor of mouth and submandibular gland",
+      "Sialography under general anaesthesia",
+      "Fine-needle aspiration of the submandibular gland",
+      "MRI of the neck for soft tissue characterisation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is a classic presentation of submandibular sialolithiasis — meal-time pain and swelling that partially resolves (obstructive sialadenitis) with a palpable stone in Wharton's duct. Ultrasound is the first-line investigation: it is widely available, radiation-free, and highly sensitive for detecting salivary calculi (>90% sensitivity). It can also assess the gland parenchyma for evidence of chronic sialadenitis.",
+    "wrongAnswerExplanations": [
+      "CT with contrast is reserved for suspected deep space infection or abscess formation; it is not the first-line investigation for straightforward sialolithiasis.",
+      "Correct — ultrasound is the first-line investigation for sialolithiasis; it is non-invasive, radiation-free, and identifies stones and ductal dilatation with high accuracy.",
+      "Sialography is used for ductal anatomy assessment but is contraindicated in acute infection and is not appropriate as a first-line investigation; it also requires radiation and ductal cannulation.",
+      "FNAC is used for assessment of salivary gland masses (neoplasms), not for suspected calculous obstruction.",
+      "MRI is excellent for soft tissue characterisation but is not first-line for calculi detection; stones are hypointense and can be missed on standard MRI sequences."
+    ],
+    "clinicalPearl": "Submandibular sialolithiasis classically causes meal-time pain and swelling (salivary colic) because eating stimulates saliva flow against an obstruction — ultrasound is the investigation of choice."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Disorders of the salivary glands.pdf",
+    "topic": "Parotid pleomorphic adenoma",
+    "question": "A 45-year-old woman presents with an 18-month history of a slowly growing, painless swelling in front of her right ear. There is no facial weakness. On examination there is a firm, mobile, non-tender mass in the superficial lobe of the right parotid gland. No cervical lymphadenopathy. FNAC shows a mixed epithelial and stromal (myxoid) pattern with no malignant features. What is the most appropriate management?",
+    "options": [
+      "Observation with 6-monthly clinical review as malignant transformation is rare",
+      "Total conservative parotidectomy with facial nerve preservation",
+      "Superficial parotidectomy with preservation of the facial nerve",
+      "Enucleation of the tumour through a small incision",
+      "Radical parotidectomy with elective sacrifice of the facial nerve"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Pleomorphic adenoma is the commonest parotid tumour and has a risk of malignant transformation (~2–5% at 10 years, rising with time) and a high recurrence rate after simple enucleation. Superficial parotidectomy with facial nerve preservation is the standard treatment for superficial lobe pleomorphic adenomas, offering complete excision with adequate cuff of normal tissue and low recurrence rates.",
+    "wrongAnswerExplanations": [
+      "Observation is inappropriate; pleomorphic adenomas grow progressively and carry a cumulative malignant transformation risk that increases with duration, making surgery the treatment of choice.",
+      "Total conservative parotidectomy (removing superficial and deep lobes) is indicated for deep lobe tumours or recurrent disease, not for a primary superficial lobe adenoma.",
+      "Correct — superficial parotidectomy with meticulous facial nerve preservation and a cuff of normal parotid tissue is the gold standard for superficial lobe pleomorphic adenoma, balancing complete excision with nerve preservation.",
+      "Enucleation (shelling out) has an unacceptably high recurrence rate (~20–45%) due to the pseudocapsule being breached; it is not recommended.",
+      "Radical parotidectomy with facial nerve sacrifice is reserved for confirmed malignancy with nerve involvement; it is not appropriate for a benign FNAC diagnosis."
+    ],
+    "clinicalPearl": "Never enucleate a parotid pleomorphic adenoma — the pseudocapsule is irregular with tumour projections that make recurrence inevitable; superficial parotidectomy with a cuff of normal tissue is mandatory."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Disorders of the salivary glands.pdf",
+    "topic": "Warthin tumour",
+    "question": "A 65-year-old male smoker presents with a soft, fluctuant swelling at the tail of the right parotid that has been present for 2 years. He denies any facial weakness or rapid enlargement. Ultrasound shows a well-defined, predominantly cystic mass with internal echoes. FNAC yields brownish fluid with oncocytic cells, lymphocytes, and cholesterol crystals. What is the most likely diagnosis?",
+    "options": [
+      "Mucoepidermoid carcinoma",
+      "Branchial cyst",
+      "Pleomorphic adenoma",
+      "Warthin tumour (papillary cystadenoma lymphomatosum)",
+      "Low-grade parotid abscess"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Warthin tumour is the second commonest benign parotid tumour and has a strong association with cigarette smoking (7× increased risk). It classically presents in older males, occurs at the parotid tail, is bilateral in ~10%, and is cystic. FNAC showing oncocytic epithelial cells, lymphocytes, and dark/brown fluid is pathognomonic. It has negligible malignant potential.",
+    "wrongAnswerExplanations": [
+      "Mucoepidermoid carcinoma is the commonest parotid malignancy but would be expected to be firm, not fluctuant, and FNAC would show mucous cells and atypical epithelium, not the characteristic oncocytic/lymphocytic pattern.",
+      "Branchial cysts occur anteriorly along the sternocleidomastoid, not at the parotid tail; they are lined by squamous epithelium and contain serous/mucoid fluid without oncocytic cells.",
+      "Pleomorphic adenoma is typically solid or mixed on imaging, firm on palpation, and FNAC shows mixed epithelial and stromal elements — not the predominantly cystic oncocytic pattern seen here.",
+      "Correct — Warthin tumour: older male smoker, parotid tail location, soft/cystic, bilateral in ~10%, FNAC with oncocytic cells + lymphocytes + brown fluid is diagnostic.",
+      "A parotid abscess would present acutely with pain, fever, and overlying erythema; the 2-year slow growth and characteristic FNAC findings exclude infection."
+    ],
+    "clinicalPearl": "Warthin tumour = older male smoker + parotid tail + soft cystic mass + bilateral in 10% — FNAC yielding brownish fluid with oncocytes and lymphocytes is diagnostic and conservative management is acceptable given negligible malignant potential."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Disorders of the salivary glands.pdf",
+    "topic": "Parotid malignancy",
+    "question": "A 60-year-old man presents with a 3-month history of a rapidly enlarging, hard, fixed parotid mass with associated right-sided facial weakness (House-Brackmann grade III). He also has right pre-auricular and upper cervical lymphadenopathy. FNAC confirms high-grade mucoepidermoid carcinoma. What is the most appropriate surgical management?",
+    "options": [
+      "Superficial parotidectomy with facial nerve preservation and adjuvant radiotherapy",
+      "Total parotidectomy with sacrifice of the facial nerve and elective neck dissection, followed by adjuvant radiotherapy",
+      "Enucleation plus postoperative chemoradiotherapy to preserve facial function",
+      "Radical neck dissection alone without parotidectomy",
+      "Primary chemoradiotherapy with surgery reserved for residual disease"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "High-grade parotid malignancy with facial nerve involvement (weakness) and regional lymphadenopathy requires total parotidectomy with sacrifice of the involved facial nerve (nerve cannot be preserved when directly invaded by malignancy), elective or therapeutic neck dissection for nodal disease, and adjuvant radiotherapy given the high-grade histology and perineural involvement. Preserving an invaded nerve risks incomplete excision and poor oncological outcome.",
+    "wrongAnswerExplanations": [
+      "Superficial parotidectomy alone is insufficient for a tumour with established facial nerve involvement and lymph node metastases; incomplete resection carries very high recurrence rates.",
+      "Correct — total parotidectomy with nerve sacrifice (when involved), therapeutic neck dissection for nodal disease, and adjuvant radiotherapy is the standard approach for high-grade parotid carcinoma with nerve invasion.",
+      "Enucleation is never appropriate for malignancy; it guarantees incomplete excision margins and is contraindicated.",
+      "Neck dissection alone without parotidectomy leaves the primary tumour in situ and is not a recognised treatment strategy.",
+      "Primary chemoradiotherapy without surgery is not the standard approach for resectable parotid malignancy; surgery remains the primary modality with radiotherapy given adjuvantly."
+    ],
+    "clinicalPearl": "Facial nerve weakness in the context of a parotid mass is a red flag for malignancy with perineural invasion — this mandates total parotidectomy with nerve sacrifice, neck dissection, and adjuvant radiotherapy."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Disorders of the salivary glands.pdf",
+    "topic": "Acute bacterial sialadenitis",
+    "question": "A 78-year-old man who is 4 days post-operative following an elective colonic resection develops painful swelling of the left cheek with erythema and tenderness over the parotid region. He has had poor oral intake and is on morphine. Temperature is 38.4°C. Purulent discharge is expressed from Stensen's duct on bimanual massage. What is the most appropriate management?",
+    "options": [
+      "CT parotid to exclude abscess, then refer to ENT for surgical drainage",
+      "IV antibiotics covering Gram-positive organisms (e.g. flucloxacillin), aggressive oral hydration, and oral hygiene measures",
+      "Urgent parotidectomy to prevent spread of infection",
+      "Parotid sialography to confirm ductal obstruction",
+      "Sialendoscopy as first-line to irrigate the duct"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is post-operative acute bacterial parotitis, classically caused by Staphylococcus aureus ascending via Stensen's duct in dehydrated, debilitated, or post-operative patients with poor oral hygiene. Management is IV flucloxacillin (covering Staph aureus), aggressive rehydration, oral hygiene, salivary gland massage, and sialogogues (lemon drops/gum) to stimulate salivary flow. Surgery (incision and drainage) is reserved for abscess formation.",
+    "wrongAnswerExplanations": [
+      "CT is appropriate if abscess is suspected but should not delay antibiotic therapy; initial management is empirical antibiotics and hydration, not immediate surgical referral.",
+      "Correct — IV anti-staphylococcal antibiotics (flucloxacillin), aggressive IV/oral hydration to counteract the dehydration that predisposes to ascending infection, plus oral hygiene are the cornerstones of treatment.",
+      "Parotidectomy is not indicated for acute bacterial sialadenitis; it is reserved for chronic/recurrent disease or neoplasia, never for acute infection.",
+      "Sialography is contraindicated in acute sialadenitis due to risk of spreading infection and worsening ductal inflammation.",
+      "Sialendoscopy is used electively for ductal calculi or chronic strictures; it is not appropriate in the acute infectious setting."
+    ],
+    "clinicalPearl": "Post-operative acute bacterial parotitis is a classic surgical complication in elderly, dehydrated patients — Staphylococcus aureus ascending Stensen's duct is the culprit; treat with anti-staphylococcal antibiotics and aggressive hydration."
+  }
+]

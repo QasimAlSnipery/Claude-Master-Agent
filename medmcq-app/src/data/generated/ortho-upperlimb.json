@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "common shoulder pathology.pdf",
+    "topic": "Anterior shoulder dislocation",
+    "question": "A 22-year-old male rugby player is brought to the emergency department after a tackle in which his arm was forced into abduction and external rotation. He holds his arm slightly abducted and externally rotated and is unable to internally rotate it. Examination reveals a flattened deltoid contour, a palpable gap below the acromion, and fullness in the anterior axillary region. An AP radiograph is obtained. Which of the following is the most appropriate immediate management?",
+    "options": [
+      "Urgent arthroscopic stabilisation under general anaesthesia",
+      "Closed reduction under procedural sedation followed by immobilisation in a sling",
+      "Open reduction via a deltopectoral approach",
+      "Application of a hanging arm cast and outpatient orthopaedic review",
+      "Intra-articular corticosteroid injection and physiotherapy referral"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is a classic anterior glenohumeral dislocation (subcoracoid type), the most common direction accounting for ~95% of all shoulder dislocations. First-line treatment is closed reduction under procedural sedation (e.g., Entonox, IV midazolam/opioid) using techniques such as Cunningham, Stimson, or Kocher, followed by immobilisation in a sling. Pre- and post-reduction radiographs are mandatory to confirm reduction and detect associated fractures.",
+    "wrongAnswerExplanations": [
+      "Urgent arthroscopic stabilisation is incorrect as a first-line response; closed reduction is always attempted first. Surgery may be considered for recurrent dislocations or associated Bankart/Hill-Sachs lesions after the acute episode.",
+      "Closed reduction under procedural sedation is the correct and standard first-line management for acute anterior shoulder dislocation.",
+      "Open reduction is not indicated for a first-time uncomplicated anterior dislocation; it is reserved for irreducible dislocations, neurovascular injury, or failed closed reduction.",
+      "A hanging arm cast is used for certain humeral shaft fractures, not for glenohumeral dislocation. It would not address the dislocation.",
+      "Intra-articular corticosteroid injection is appropriate for inflammatory or degenerative joint conditions, not for acute dislocation requiring prompt reduction."
+    ],
+    "clinicalPearl": "In anterior shoulder dislocation, always assess and document axillary nerve function (sensation over the 'regimental badge' area and deltoid strength) before and after reduction, as it is the most commonly injured nerve."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "common shoulder pathology.pdf",
+    "topic": "Axillary nerve injury post-dislocation",
+    "question": "A 35-year-old woman presents to fracture clinic two weeks after a closed reduction of a first-time anterior shoulder dislocation. Reduction was confirmed radiographically. She now reports that she is unable to fully abduct her arm beyond 15 degrees and has noticed a patch of numbness over the lateral aspect of the upper arm. Deltoid wasting is not yet apparent. What is the most likely diagnosis?",
+    "options": [
+      "Rupture of the supraspinatus tendon",
+      "Axillary nerve palsy",
+      "Brachial plexus avulsion at C5–C6",
+      "Posterior interosseous nerve injury",
+      "Musculocutaneous nerve palsy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The axillary nerve (C5, C6) winds around the surgical neck of the humerus and is the most commonly injured nerve in anterior shoulder dislocation. It innervates the deltoid (abduction 15–90°) and teres minor, and provides cutaneous sensation to the 'regimental badge' area (lateral upper arm). Loss of abduction beyond the initial 15° (serratus/trapezius-assisted) combined with lateral upper arm numbness is the hallmark presentation.",
+    "wrongAnswerExplanations": [
+      "Supraspinatus rupture would impair initiation of abduction (0–15°) and show a positive drop arm test; it does not cause cutaneous sensory loss.",
+      "Axillary nerve palsy is correct: it explains both the weakness of deltoid-mediated abduction and the patch of numbness over the lateral upper arm (superior lateral cutaneous nerve of arm).",
+      "Brachial plexus avulsion at C5–C6 (Erb's palsy pattern) would additionally affect elbow flexion (musculocutaneous), wrist extension, and may cause a more widespread sensory deficit; it is far less common than isolated axillary nerve injury.",
+      "The posterior interosseous nerve is a branch of the radial nerve in the forearm; injury causes wrist/finger extensor weakness and is unrelated to shoulder dislocation.",
+      "Musculocutaneous nerve injury causes weakness of elbow flexion and sensory loss over the lateral forearm, not lateral upper arm numbness or deltoid weakness."
+    ],
+    "clinicalPearl": "Up to 40% of anterior shoulder dislocations have an associated axillary nerve stretch injury; most recover spontaneously within 3–6 months, but EMG/NCS at 6 weeks helps quantify severity and guide prognosis."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #1.pdf",
+    "topic": "Clavicle fracture",
+    "question": "A 14-year-old boy falls off his bicycle onto his outstretched hand and subsequently his shoulder. He complains of pain over the middle third of his clavicle. On examination there is point tenderness and palpable deformity at the mid-shaft. An AP radiograph confirms a displaced mid-shaft clavicle fracture with 100% displacement and 2 cm of shortening. Neurovascular examination of the upper limb is normal. What is the most appropriate initial management?",
+    "options": [
+      "Broad arm sling for 4–6 weeks with analgesia and early mobilisation",
+      "Figure-of-eight bandage alone for 6 weeks",
+      "Open reduction and internal fixation with a plate",
+      "Intramedullary nail fixation as first-line treatment",
+      "Immediate CT angiography to rule out subclavian artery injury"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The vast majority of mid-shaft clavicle fractures in children and young adults are managed non-operatively with a broad arm sling for 4–6 weeks; union rates exceed 95%. Figure-of-eight bandages offer no proven advantage and cause more discomfort. Surgical fixation (plate or nail) is reserved for specific indications: open fractures, neurovascular compromise, skin tenting at risk of perforation, or in adults with >2 cm shortening who are high-demand (evidence for improved functional outcomes in this subgroup is growing, but conservative management remains first-line here given the patient's age).",
+    "wrongAnswerExplanations": [
+      "A broad arm sling is the correct first-line non-operative treatment, providing comfort and allowing fracture healing in the vast majority of cases.",
+      "Figure-of-eight bandages have been shown in randomised trials to offer no benefit over a simple sling and cause more axillary skin problems and patient discomfort.",
+      "ORIF is indicated for open fractures, skin compromise, neurovascular injury, or certain high-demand adult patients with significant shortening; it is not first-line in a 14-year-old with no complications.",
+      "Intramedullary nailing is an alternative to plating in selected patients but shares the same surgical indications; it is not first-line management.",
+      "CT angiography is not indicated in the absence of neurovascular signs; subclavian vessel injury from clavicle fracture is rare and would manifest as expanding haematoma, bruit, or distal ischaemia."
+    ],
+    "clinicalPearl": "Mid-shaft clavicle fractures account for ~80% of all clavicle fractures; most unite with conservative management, but adults with >2 cm shortening and significant displacement may have better functional outcomes with operative fixation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #1.pdf",
+    "topic": "Proximal humerus fracture",
+    "question": "A 72-year-old osteoporotic woman slips on ice and lands on her right shoulder. She reports severe shoulder pain and inability to move the arm. Radiographs reveal a two-part surgical neck fracture of the proximal humerus with 30° of angulation. The axillary nerve examination is intact. She is independently mobile and lives alone. What is the most appropriate management?",
+    "options": [
+      "Hemiarthroplasty as definitive treatment",
+      "Total shoulder replacement",
+      "Collar-and-cuff sling with pendulum exercises commenced at 1–2 weeks",
+      "Immediate ORIF with a locking proximal humeral plate",
+      "Intramedullary nailing of the humerus"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The majority of proximal humerus fractures (approximately 80%) are minimally displaced or have acceptable alignment and can be managed non-operatively. A two-part surgical neck fracture with 30° angulation in an elderly patient is treated conservatively with a collar-and-cuff sling; early pendulum exercises beginning at 1–2 weeks prevent stiffness while allowing soft-tissue healing. Operative intervention is generally reserved for three- and four-part fractures, fracture-dislocations, or significantly displaced two-part fractures in younger physiologically fit patients.",
+    "wrongAnswerExplanations": [
+      "Hemiarthroplasty is typically reserved for three- or four-part fractures and fracture-dislocations in elderly patients where the humeral head blood supply is severely compromised, not a two-part surgical neck fracture.",
+      "Total shoulder replacement is indicated for glenohumeral arthritis, not acute fractures.",
+      "A collar-and-cuff sling with early pendulum exercises is the correct conservative management for this minimally displaced two-part fracture in an elderly patient.",
+      "ORIF with a locking plate carries significant complication risks in osteoporotic bone (avascular necrosis, screw cut-out) and is reserved for significantly displaced fractures in younger patients or active adults where conservative management is not acceptable.",
+      "Intramedullary nailing is used for humeral shaft fractures, not proximal humerus fractures, though dedicated proximal humeral nails exist for specific indications."
+    ],
+    "clinicalPearl": "In elderly patients with proximal humerus fractures, conservative management with early mobilisation achieves equivalent functional outcomes to surgery for most two-part fractures; the PROFHER trial showed no significant benefit of surgery over non-operative care for displaced fractures in patients over 65."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #1.pdf",
+    "topic": "Humeral shaft fracture & radial nerve palsy",
+    "question": "A 28-year-old male motorcyclist is involved in a road traffic collision and sustains a closed midshaft humerus fracture confirmed on radiograph. On examination he is unable to extend his wrist or fingers, and cannot extend his thumb. There is reduced sensation over the dorsal aspect of the first web space. The hand is otherwise well perfused with intact capillary refill. What is the most appropriate initial management of the neurological deficit?",
+    "options": [
+      "Emergency surgical exploration and nerve repair",
+      "Observation and physiotherapy with a wrist drop splint; review clinically and electrophysiologically at 6–8 weeks",
+      "Immediate EMG to determine whether nerve repair is needed",
+      "MRI of the brachial plexus to exclude avulsion injury",
+      "Urgent fasciotomy to prevent compartment syndrome"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Radial nerve palsy complicates 10–20% of humeral shaft fractures, particularly at the mid-shaft (Holstein-Lewis fracture at the junction of middle and distal thirds). In closed fractures, the nerve is almost always in continuity (neurapraxia or axonotmesis) and the vast majority (~90%) recover spontaneously. Initial management is conservative: a wrist drop splint to maintain hand function, physiotherapy for joint range, and clinical and electrophysiological review at 6–8 weeks. Surgical exploration is indicated if there is no clinical or EMG evidence of recovery by 3–4 months.",
+    "wrongAnswerExplanations": [
+      "Emergency surgical exploration is not indicated for a primary radial nerve palsy associated with a closed humeral shaft fracture; the overwhelming majority recover without intervention.",
+      "Conservative management with a wrist drop splint and planned neurophysiological review is the correct approach for primary radial nerve palsy in a closed fracture.",
+      "Immediate EMG performed within days of injury shows only denervation changes and cannot distinguish neurapraxia from axonotmesis; it should be performed at 6–8 weeks when it yields meaningful prognostic data.",
+      "MRI of the brachial plexus is used to evaluate root avulsions, typically after high-energy traction injuries; it is not the appropriate investigation here where radial nerve anatomy at the humeral groove is the concern.",
+      "Fasciotomy addresses compartment syndrome, which presents with pain out of proportion, paraesthesia, and tense compartments; there is no indication for it in this scenario."
+    ],
+    "clinicalPearl": "Primary radial nerve palsy in closed humeral shaft fractures is almost always a neurapraxia or axonotmesis; ~90% recover spontaneously, so conservative management with a wrist splint and EMG at 6–8 weeks is the standard of care."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #1.pdf",
+    "topic": "Supracondylar humerus fracture",
+    "question": "A 6-year-old boy falls from a climbing frame onto his outstretched hand. His mother brings him to the emergency department with a swollen, tender elbow. He is in significant pain. A lateral radiograph of the elbow shows posterior displacement of the distal humeral fragment with the anterior humeral line failing to bisect the capitellum. Neurovascular examination reveals that he cannot make an 'OK' sign (thumb–index pinch) and has reduced sensation over the volar aspect of the index finger. Radial pulse is present. What is the most likely neurovascular injury and the definitive management?",
+    "options": [
+      "Radial nerve injury; closed reduction and collar-and-cuff immobilisation",
+      "Ulnar nerve injury; open reduction and ulnar nerve transposition",
+      "Anterior interosseous nerve injury; urgent closed reduction and percutaneous K-wire fixation",
+      "Median nerve (main trunk) injury; open reduction and internal plate fixation",
+      "Musculocutaneous nerve injury; closed reduction and plaster backslab"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This is a Gartland type III (or extension-type) supracondylar humerus fracture, the most common elbow fracture in children. The inability to make an 'OK' sign (flexion of DIPJ of index and thumb IPJ) indicates anterior interosseous nerve (AIN) palsy — a branch of the median nerve supplying flexor pollicis longus and the lateral half of flexor digitorum profundus. This is the most commonly injured nerve in supracondylar fractures. Definitive management is urgent closed reduction and percutaneous K-wire fixation (crossed or lateral wires) under general anaesthesia.",
+    "wrongAnswerExplanations": [
+      "Radial nerve injury in supracondylar fractures causes loss of wrist/finger extension; it does not impair the 'OK' sign. Collar-and-cuff alone is not adequate for a displaced fracture.",
+      "Ulnar nerve injury presents with loss of intrinsic muscle function and sensory loss over the little/ring fingers; it cannot make an 'OK' sign, but ulnar nerve transposition is not indicated acutely.",
+      "AIN palsy with urgent closed reduction and K-wire fixation is the correct answer: the AIN is the most commonly injured nerve in supracondylar fractures and K-wiring is the gold-standard management for displaced fractures.",
+      "Main trunk median nerve injury would cause additional loss of FDS function and thenar wasting is not the typical finding; open plate fixation is not first-line management in children.",
+      "Musculocutaneous nerve injury causes loss of elbow flexion and lateral forearm sensory loss; it does not cause inability to make an 'OK' sign."
+    ],
+    "clinicalPearl": "In supracondylar humerus fractures, the anterior interosseous nerve (AIN) is the most commonly injured nerve; assess by asking the child to make an 'OK' sign — inability indicates AIN palsy. Pulseless but pink hands should still proceed to urgent K-wiring."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #2.pdf",
+    "topic": "Colles fracture",
+    "question": "A 68-year-old woman with known osteoporosis falls onto her outstretched right hand. She presents with a painful, swollen wrist with a classical 'dinner fork' deformity. AP and lateral radiographs confirm a Colles fracture with 15° of dorsal angulation, 5 mm of radial shortening, and minimal comminution. There is no intra-articular extension. Neurovascular examination is normal. What is the most appropriate management?",
+    "options": [
+      "ORIF with a volar locking plate",
+      "External fixation spanning the wrist",
+      "Manipulation under anaesthesia (MUA) and application of a below-elbow backslab, followed by cast immobilisation for 5–6 weeks",
+      "Immediate MRI to exclude concurrent scaphoid fracture",
+      "Conservative management with a wrist brace alone and early mobilisation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This is a minimally comminuted, extra-articular Colles fracture in an elderly woman. The standard treatment is manipulation under haematoma block or regional anaesthesia to restore radial length, inclination, and volar tilt, followed by application of a below-elbow backslab (allowing for swelling) converted to a full cast at 5–7 days. Total immobilisation is 5–6 weeks with radiographic review at 1 and 2 weeks to check for re-displacement. ORIF is generally reserved for highly comminuted or intra-articular fractures in physiologically young, active patients.",
+    "wrongAnswerExplanations": [
+      "Volar locking plate ORIF is indicated for significantly displaced, comminuted, or intra-articular fractures or when closed reduction fails; it is not first-line for a simple extra-articular fracture in an elderly patient.",
+      "External fixation is used for severely comminuted fractures with extensive soft-tissue injury or failed closed reduction; it is not first-line here.",
+      "MUA and below-elbow backslab is the correct management for a reducible extra-articular Colles fracture in an elderly patient.",
+      "MRI is indicated when there is clinical suspicion of scaphoid fracture with normal plain films; it is not the priority here where the distal radius fracture is the clear diagnosis requiring treatment.",
+      "A wrist brace alone without reduction is inadequate for a displaced fracture; the deformity must be corrected to restore function and prevent malunion."
+    ],
+    "clinicalPearl": "Colles fracture (dorsal displacement, dorsal angulation, radial shortening, radial deviation, supination) is the most common fracture in osteoporotic post-menopausal women; always reassess radiographically at 1 and 2 weeks post-reduction to detect early re-displacement."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #2.pdf",
+    "topic": "Smith fracture",
+    "question": "A 19-year-old male motorcyclist falls and lands on the dorsum of his flexed left wrist. He presents with pain, swelling, and a 'garden spade' deformity (volar angulation and displacement of the distal radius). AP and lateral radiographs confirm a volar Barton pattern (Smith type II) fracture with significant volar cortical comminution and subtle intra-articular involvement. Neurovascular examination is intact. What is the most appropriate definitive management?",
+    "options": [
+      "Above-elbow cast in supination for 6 weeks",
+      "Manipulation under anaesthesia and below-elbow cast in dorsiflexion",
+      "ORIF with a volar locking plate",
+      "External fixator application",
+      "Intramedullary device fixation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Smith fractures (volar displacement of the distal radial fragment) are inherently unstable, especially the Barton variant with intra-articular involvement. The deforming force (wrist flexors) makes cast immobilisation prone to failure and re-displacement. ORIF with a volar locking plate provides stable fixation, allows early mobilisation, and is the preferred treatment for unstable and intra-articular Smith fractures in young active patients.",
+    "wrongAnswerExplanations": [
+      "An above-elbow cast in supination may reduce pronation deformity but is insufficient for a comminuted intra-articular Smith fracture; re-displacement rates with conservative management are high.",
+      "Manipulation and casting in dorsiflexion risks pressure sores and is unreliable for maintaining reduction in comminuted or intra-articular fractures.",
+      "ORIF with a volar locking plate is the correct answer: it provides stable fixation of the volar cortex and articular surface, allows early hand therapy, and reduces malunion risk.",
+      "External fixation is rarely used for Smith fractures as it does not control the volar fragment well; it is more commonly applied for severely comminuted Colles-type injuries.",
+      "Intramedullary devices are not established standard of care for Smith fractures."
+    ],
+    "clinicalPearl": "Smith fractures (reverse Colles) are typically unstable due to pull from wrist flexors and frequently require volar locking plate fixation, especially when intra-articular (Barton-type); unlike Colles, conservative management often fails."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #2.pdf",
+    "topic": "Scaphoid fracture",
+    "question": "A 25-year-old male carpenter falls onto his outstretched right hand while working. He presents to the emergency department with localised pain in the anatomical snuffbox and tenderness over the scaphoid tubercle. AP and lateral wrist radiographs are reported as normal. He has no bony tenderness elsewhere. What is the most appropriate next step in management?",
+    "options": [
+      "Discharge with analgesia and no follow-up as radiographs are normal",
+      "Immediate surgical fixation to prevent avascular necrosis",
+      "Immobilise in a scaphoid cast and arrange MRI wrist within 1–2 weeks (or urgently if available); treat as scaphoid fracture until proven otherwise",
+      "Refer urgently for CT scan of the wrist",
+      "Arrange physiotherapy for wrist sprain"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Up to 20% of scaphoid fractures are not visible on initial plain radiographs. Anatomical snuffbox tenderness and scaphoid tubercle tenderness in the context of a FOOSH mechanism constitute a clinical scaphoid fracture until proven otherwise. Best practice is to immobilise in a scaphoid (thumb spica) cast and arrange MRI, which is the gold-standard investigation, ideally within 72 hours to 2 weeks. MRI detects occult fractures with sensitivity and specificity exceeding 95% and avoids unnecessary prolonged immobilisation. Failure to diagnose and treat risks avascular necrosis (30% of waist fractures) and non-union.",
+    "wrongAnswerExplanations": [
+      "Discharge without follow-up is dangerous; a missed scaphoid fracture can lead to avascular necrosis and non-union with significant long-term morbidity.",
+      "Immediate surgical fixation without confirming fracture on imaging is inappropriate; not all suspected scaphoid injuries are fractures, and surgery has its own risks.",
+      "Scaphoid cast immobilisation with early MRI is the correct management: it protects a potential fracture, and MRI definitively confirms or excludes it, guiding further treatment.",
+      "CT scan can detect scaphoid fractures but is less sensitive than MRI for trabecular fractures and does not assess soft tissue or bone oedema; MRI is the preferred modality for occult fractures.",
+      "Physiotherapy for a wrist sprain is inappropriate without excluding a fracture; early mobilisation of a true scaphoid fracture risks displacement and avascular necrosis."
+    ],
+    "clinicalPearl": "Anatomical snuffbox tenderness after a FOOSH = treat as scaphoid fracture until MRI proves otherwise; a missed scaphoid fracture risks avascular necrosis and non-union, as the proximal pole has a precarious retrograde blood supply."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #2.pdf",
+    "topic": "Carpal tunnel syndrome",
+    "question": "A 48-year-old female typist presents with a 6-month history of numbness and tingling in her right thumb, index, middle, and radial half of her ring finger. Symptoms are worse at night and wake her from sleep. She shakes her hand to relieve them. On examination, Phalen's test is positive at 45 seconds and Tinel's sign is positive over the carpal tunnel. Grip strength is preserved. Nerve conduction studies confirm prolonged median nerve distal sensory and motor latencies. She has failed 3 months of conservative management including wrist splints at night and corticosteroid injection. What is the most appropriate next step?",
+    "options": [
+      "Repeat corticosteroid injection and continue splinting for a further 3 months",
+      "Surgical carpal tunnel decompression (open or endoscopic)",
+      "Physiotherapy and ultrasound therapy",
+      "EMG-guided botulinum toxin injection into flexor retinaculum",
+      "Oral prednisolone for 6 weeks"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has confirmed carpal tunnel syndrome (CTS) on NCS with classical clinical features who has failed an adequate trial of conservative management (splinting and steroid injection). Surgical carpal tunnel decompression — division of the flexor retinaculum — is the definitive treatment, providing durable symptom relief in >85% of patients. It can be performed open (standard) or endoscopically (equivalent outcomes, potentially faster return to work). Surgery is the appropriate next step after failure of conservative measures.",
+    "wrongAnswerExplanations": [
+      "A repeat corticosteroid injection after one has already failed is unlikely to provide lasting benefit and delays definitive treatment; NCS confirmation of significant nerve dysfunction supports proceeding to surgery.",
+      "Surgical carpal tunnel decompression is the correct answer: it is the definitive treatment for CTS refractory to conservative management and is supported by robust evidence.",
+      "Physiotherapy and ultrasound therapy have very limited evidence for CTS and are not appropriate after failed conservative measures with NCS-confirmed disease.",
+      "Botulinum toxin injection into the flexor retinaculum is not a recognised treatment for CTS.",
+      "Oral prednisolone may provide short-term relief but is not a definitive treatment; it is not appropriate after failure of local steroid injection and in confirmed NCS-abnormal CTS."
+    ],
+    "clinicalPearl": "Carpal tunnel syndrome is the most common peripheral entrapment neuropathy; after failure of conservative management (night splints, corticosteroid injection), surgical decompression of the flexor retinaculum provides durable relief in >85% of cases."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #2.pdf",
+    "topic": "Ulnar nerve injury at the wrist",
+    "question": "A 32-year-old male cyclist presents after falling from his bicycle and landing on his right hand. He notices weakness gripping the handlebars and difficulty adducting his little finger. On examination there is weakness of the intrinsic hand muscles (interossei, hypothenar muscles), clawing of the ring and little fingers (more marked than if the lesion were higher), and numbness over the little finger and the ulnar half of the ring finger including their dorsum. Wrist flexion power and sensation over the dorsum of the ulnar border of the hand are normal. Where is the most likely site of injury?",
+    "options": [
+      "Ulnar nerve at the medial epicondyle (cubital tunnel)",
+      "C8–T1 nerve roots",
+      "Ulnar nerve in Guyon's canal at the wrist",
+      "Lower trunk of the brachial plexus",
+      "Ulnar nerve in the distal forearm above the wrist"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The pattern of spared dorsal cutaneous sensation (which branches from the ulnar nerve approximately 5 cm proximal to the wrist crease) and preserved wrist flexion (flexor carpi ulnaris, innervated above the wrist), combined with intrinsic muscle weakness and sensory loss over the palm and palmar digits, localises the lesion to Guyon's canal at the wrist. The more prominent clawing (paradoxically, a higher lesion is less clawed because FDP is also weak) further supports a distal lesion. Trauma to the hypothenar eminence or hook of hamate fracture is a common cause.",
+    "wrongAnswerExplanations": [
+      "Cubital tunnel syndrome at the medial epicondyle would also affect dorsal ulnar sensation (the dorsal cutaneous branch arises proximal to the wrist) and may involve FCU; the preserved dorsal sensation excludes a high lesion.",
+      "C8–T1 root lesions would cause a more diffuse deficit including median nerve territory (thenar wasting, lateral two lumbricals) and are associated with Horner syndrome in avulsion; they would not spare dorsal sensation selectively.",
+      "Guyon's canal compression at the wrist is correct: it explains all findings — preserved dorsal sensation (branch arises proximal to canal), preserved FCU (branches above wrist), intrinsic weakness, and volar palmar sensory loss.",
+      "Lower trunk (C8–T1) lesions affect both median and ulnar territories including thenar eminence; they also impair dorsal ulnar sensation.",
+      "A lesion just above the wrist in the distal forearm would be above the origin of the dorsal cutaneous branch and would therefore cause dorsal ulnar sensory loss, which is absent here."
+    ],
+    "clinicalPearl": "Preserved dorsal ulnar sensation (dorsal cutaneous branch arises 5 cm above wrist) with intrinsic hand weakness localises ulnar nerve injury to Guyon's canal at the wrist, not the cubital tunnel — this distinction is critical for surgical planning."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "common shoulder pathology.pdf",
+    "topic": "Acromioclavicular joint injury",
+    "question": "A 26-year-old male rugby player sustains a direct blow to the tip of his right shoulder in a tackle. He presents with localised tenderness and prominence over the acromioclavicular (AC) joint. Neurovascular examination is normal. Standard shoulder radiographs show the clavicle riding 100% above the acromion with complete disruption of the coracoclavicular ligaments, as evidenced by a coracoclavicular distance greater than twice that of the contralateral side. What is the Rockwood classification and the most appropriate management?",
+    "options": [
+      "Rockwood type II; conservative management with a sling",
+      "Rockwood type III; conservative management for 6 weeks followed by reassessment",
+      "Rockwood type V; surgical reconstruction of the AC and coracoclavicular ligaments",
+      "Rockwood type IV; ORIF with a hook plate",
+      "Rockwood type I; analgesia and early mobilisation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Complete disruption of both the acromioclavicular and coracoclavicular ligaments with >100% superior displacement of the clavicle (CC distance >2x normal) is consistent with Rockwood type V AC joint injury. Types I–III are generally managed conservatively; types IV, V, and VI are indications for surgical reconstruction. Type V (100–300% displacement) is the commonest high-grade injury to require surgery, which involves reconstruction of the CC ligaments (e.g., Weaver-Dunn or anatomical reconstruction) and AC joint stabilisation.",
+    "wrongAnswerExplanations": [
+      "Rockwood type II involves partial CC ligament disruption with <25% clavicle elevation; it is managed conservatively. This case has 100% displacement, excluding type II.",
+      "Rockwood type III involves complete AC and CC ligament disruption with 25–100% displacement; management remains controversial but is often conservative initially, especially in non-dominant arm or sedentary patients. 100% displacement with >2x CC distance is type V.",
+      "Rockwood type V with >100% displacement is the correct classification, and surgical ligament reconstruction is the appropriate treatment for this high-grade injury in a young active patient.",
+      "Type IV involves posterior displacement of the clavicle into the trapezius muscle and is also surgical; a hook plate may be used but this case demonstrates superior displacement consistent with type V.",
+      "Type I involves AC ligament sprain alone with no ligament rupture and is managed with simple analgesia; it does not produce visible deformity or abnormal radiographic displacement."
+    ],
+    "clinicalPearl": "Rockwood types IV, V, and VI AC joint injuries require surgical stabilisation; type V (clavicle displaced >100% superior to acromion) is the most common high-grade injury, best treated with anatomical coracoclavicular ligament reconstruction in young active patients."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Upper Extremity #1.pdf",
+    "topic": "Vascular complication of supracondylar fracture",
+    "question": "A 5-year-old girl is brought to the emergency department after falling from a trampoline. Her left elbow is swollen and she is in extreme pain. Radiographs confirm a Gartland type III supracondylar humerus fracture with posteromedial displacement. On examination her left hand is pale, cool, and has absent radial and brachial pulses. Capillary refill is 4 seconds. She is unable to cooperate fully with motor or sensory testing. What is the most appropriate immediate management sequence?",
+    "options": [
+      "MRI angiography of the brachial artery followed by vascular surgery consult",
+      "Forearm fasciotomy to treat impending compartment syndrome",
+      "Urgent closed reduction and K-wire fixation under general anaesthesia; if perfusion does not return after reduction, immediate surgical exploration of the brachial artery",
+      "Closed reduction and plaster immobilisation in 90° of flexion with overnight observation",
+      "Non-operative management with close monitoring; brachial artery injury is usually self-limiting"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A pulseless, pale, and cold hand with absent brachial pulse following a Gartland type III supracondylar fracture indicates brachial artery compromise — the most dangerous vascular complication. The correct sequence is urgent closed reduction and K-wire fixation under GA (which commonly restores perfusion by decompressing the brachium), followed by immediate surgical exploration and brachial artery repair if the hand remains ischaemic post-reduction. Delay risks Volkmann's ischaemic contracture. This is a surgical emergency.",
+    "wrongAnswerExplanations": [
+      "MRI angiography introduces unacceptable delays in a limb-threatening ischaemia; assessment of perfusion following reduction is the clinical priority.",
+      "Fasciotomy treats established compartment syndrome, which is a sequela of prolonged ischaemia; it does not address the underlying vascular obstruction from the fracture. Reduction must come first.",
+      "Urgent closed reduction and K-wiring with readiness for brachial artery exploration is the correct management sequence for a pulseless cold hand post-supracondylar fracture.",
+      "Plaster in 90° of flexion risks further arterial compression; a pulseless hand is not appropriate for simple cast immobilisation and overnight observation.",
+      "Brachial artery injury in this context is not self-limiting; untreated ischaemia for more than 4–6 hours results in irreversible Volkmann's contracture of the forearm flexors."
+    ],
+    "clinicalPearl": "A pulseless cold hand after supracondylar humerus fracture is a surgical emergency: urgent K-wire fixation often restores pulse; if not, brachial artery exploration is mandatory to prevent Volkmann's ischaemic contracture."
+  }
+]

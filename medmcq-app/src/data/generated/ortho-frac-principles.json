@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Gustilo classification of open fractures",
+    "question": "A 28-year-old motorcyclist is brought to the emergency department after a high-speed road traffic collision. He has a displaced fracture of the mid-shaft tibia with a 6 cm wound over the fracture site. The wound has significant contamination with road debris and the surrounding soft tissue shows extensive crushing. Pedal pulses are intact. According to the Gustilo-Anderson classification, what grade is this open fracture?",
+    "options": [
+      "Gustilo Type I",
+      "Gustilo Type II",
+      "Gustilo Type IIIA",
+      "Gustilo Type IIIB",
+      "Gustilo Type IIIC"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Gustilo Type IIIB is characterised by a wound >10 cm (or any size with extensive soft tissue loss, periosteal stripping, and severe contamination) with inadequate soft tissue coverage of the bone, but with intact vascular supply. In this case the 6 cm wound with extensive crushing and contamination qualifies for Type III; since the bone is exposed with inadequate coverage but pulses are intact, it is IIIB rather than IIIC.",
+    "wrongAnswerExplanations": [
+      "Type I is incorrect: Type I involves a wound <1 cm with minimal contamination and a simple fracture pattern — not applicable here.",
+      "Type II is incorrect: Type II has a wound 1–10 cm with moderate soft tissue damage but no extensive crushing or periosteal stripping — this case has extensive crushing.",
+      "Type IIIA is incorrect: IIIA has extensive soft tissue damage but adequate bone coverage remains possible despite the wound size — here coverage is inadequate.",
+      "Type IIIB is the correct classification: extensive soft tissue loss with periosteal stripping and exposed bone requiring soft tissue flap coverage, but vascular supply is intact.",
+      "Type IIIC is incorrect: IIIC requires associated arterial injury needing repair — pedal pulses are intact in this case."
+    ],
+    "clinicalPearl": "Gustilo IIIB open fractures require flap coverage (often free flap) because primary closure is not possible; vascular injury upgrades the injury to IIIC regardless of wound size."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Antibiotic prophylaxis in open fractures",
+    "question": "A 45-year-old farmer sustains an open tibial fracture after being struck by farm machinery. On examination there is a 3 cm wound with heavy soil contamination. He is haemodynamically stable. His last tetanus booster was 12 years ago. You initiate appropriate wound care. Which antibiotic regimen is most appropriate for this open fracture?",
+    "options": [
+      "Flucloxacillin alone",
+      "Co-amoxiclav alone",
+      "Co-amoxiclav plus metronidazole",
+      "Co-amoxiclav plus gentamicin",
+      "Cefuroxime alone"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "UK BOAST (British Orthopaedic Association Standards for Trauma) guidelines recommend co-amoxiclav as first-line antibiotic for open fractures, with the addition of gentamicin for high-energy or contaminated injuries (Gustilo Type IIIB/IIIC or heavily contaminated wounds). This Type IIIA–B farmyard contamination warrants broad Gram-negative cover, which co-amoxiclav plus gentamicin provides.",
+    "wrongAnswerExplanations": [
+      "Flucloxacillin alone is incorrect: it only covers Gram-positive organisms, particularly staphylococci, and provides no cover for Gram-negative organisms common in contaminated wounds.",
+      "Co-amoxiclav alone is incorrect: while adequate for low-energy open fractures (Gustilo I/II), heavily contaminated high-energy wounds require additional Gram-negative cover with gentamicin.",
+      "Co-amoxiclav plus metronidazole is incorrect: metronidazole adds anaerobic cover but is less appropriate than gentamicin as the add-on for contaminated open fractures per BOAST guidance.",
+      "Co-amoxiclav plus gentamicin is the correct answer: this combination provides broad-spectrum cover including Gram-positive, Gram-negative, and anaerobic organisms appropriate for heavily contaminated open fractures.",
+      "Cefuroxime alone is incorrect: cefuroxime has limited Gram-negative cover and is insufficient as sole prophylaxis for a contaminated open fracture."
+    ],
+    "clinicalPearl": "In contaminated open fractures (especially farm or aquatic injuries), co-amoxiclav plus gentamicin should be started as soon as possible and continued for 72 hours or until soft tissue coverage is achieved."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Tetanus prophylaxis in open fractures",
+    "question": "A 60-year-old gardener presents with a contaminated open fracture of the distal radius after falling onto a garden fork. She is unable to recall when she last had a tetanus vaccination and has no vaccination records available. The wound contains soil. What is the most appropriate tetanus prophylaxis for this patient?",
+    "options": [
+      "No prophylaxis required as tetanus from fractures is rare",
+      "Tetanus toxoid (vaccine) alone",
+      "Tetanus immunoglobulin (TIG) alone",
+      "Tetanus toxoid plus tetanus immunoglobulin",
+      "Penicillin prophylaxis as a substitute for immunisation"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A patient with unknown vaccination status presenting with a tetanus-prone wound (contaminated with soil, open fracture) requires both active immunisation with tetanus toxoid and passive immunisation with tetanus immunoglobulin (TIG). The toxoid stimulates active immunity for future protection, while TIG provides immediate passive cover given uncertainty about pre-existing immunity.",
+    "wrongAnswerExplanations": [
+      "No prophylaxis is incorrect: soil-contaminated open fractures are classic tetanus-prone wounds and prophylaxis is mandatory regardless of perceived rarity.",
+      "Tetanus toxoid alone is incorrect: in a patient with unknown immunisation status, toxoid alone does not provide immediate protection — TIG is also required.",
+      "TIG alone is incorrect: while TIG provides immediate passive protection, the patient also needs active immunisation with toxoid to establish future immunity.",
+      "Tetanus toxoid plus TIG is the correct answer: this combination covers both immediate passive protection and long-term active immunity in a patient with unknown vaccination status and a tetanus-prone wound.",
+      "Penicillin is not a substitute for immunisation: antibiotics may reduce bacterial load but do not confer protection against tetanus toxin and should not replace immunisation."
+    ],
+    "clinicalPearl": "Any wound contaminated with soil, faeces, or foreign material in a patient with unknown or incomplete vaccination history is tetanus-prone — give both toxoid and TIG at separate sites."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Fracture healing stages",
+    "question": "A 35-year-old man sustained a closed mid-shaft femoral fracture 6 weeks ago treated with intramedullary nailing. He attends follow-up and asks about his healing progress. His X-ray shows periosteal new bone formation bridging the fracture but the fracture line is still faintly visible. Which stage of fracture healing best describes the current radiological findings?",
+    "options": [
+      "Haematoma formation",
+      "Inflammatory phase",
+      "Soft callus formation",
+      "Hard callus formation",
+      "Remodelling"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Hard callus formation (also called bony callus) occurs approximately 3–12 weeks after fracture. It is characterised by mineralisation of the fibrocartilaginous soft callus, producing woven bone visible on X-ray as periosteal new bone bridging the fracture site. The fracture line becomes less distinct but may still be visible, distinguishing this stage from the earlier soft callus (cartilaginous, radiolucent) and the later remodelling stage.",
+    "wrongAnswerExplanations": [
+      "Haematoma formation occurs in the first few hours after fracture — it is not visible on X-ray and is far too early for 6-week follow-up.",
+      "The inflammatory phase lasts days 1–5 with granulation tissue formation — X-ray shows no callus at this stage.",
+      "Soft callus forms around weeks 2–3: it is radiolucent (not visible on plain X-ray as new bone) because it is predominantly cartilaginous.",
+      "Hard callus is the correct answer: mineralised woven bone is now visible radiologically as periosteal new bone bridging the fracture at 6 weeks.",
+      "Remodelling occurs after the fracture line has disappeared as woven bone is replaced by lamellar bone; a faintly visible fracture line means remodelling has not yet begun."
+    ],
+    "clinicalPearl": "Hard callus appears on X-ray as periosteal new bone and confirms biological healing is progressing; failure to form callus by 6–8 weeks should prompt assessment for delayed union or impaired biology."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Fracture description and classification",
+    "question": "A 72-year-old woman with osteoporosis trips at home and presents with right wrist pain. X-ray shows a dorsally displaced, angulated fracture of the distal radius with dorsal comminution involving the radiocarpal joint surface. Which description most accurately classifies this fracture pattern?",
+    "options": [
+      "Colles fracture — extra-articular transverse fracture with dorsal displacement",
+      "Smith fracture — volar angulation with volar displacement",
+      "Barton fracture — volar rim fracture-dislocation",
+      "Intra-articular comminuted distal radius fracture with dorsal displacement",
+      "Chauffeur fracture — isolated radial styloid fracture"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The fracture described has intra-articular extension (involving the radiocarpal joint surface), dorsal comminution, dorsal displacement, and angulation. While a classic Colles fracture is extra-articular, this fracture involves the joint surface, making the most accurate classification an intra-articular comminuted distal radius fracture with dorsal displacement. Accurate description should include the fracture location, pattern (comminuted), displacement, angulation, and articular involvement.",
+    "wrongAnswerExplanations": [
+      "Classic Colles fracture is incorrect: Colles is specifically extra-articular; articular involvement changes both the classification and management (often requires ORIF).",
+      "Smith fracture is incorrect: Smith fractures have volar angulation and displacement ('garden spade' deformity) — this fracture has dorsal displacement.",
+      "Barton fracture is incorrect: Barton is a fracture-dislocation of the distal radius with a rim fragment and radiocarpal joint subluxation — not described here.",
+      "Intra-articular comminuted distal radius fracture with dorsal displacement is the correct description: it accurately captures the articular involvement, comminution, and displacement direction.",
+      "Chauffeur (Hutchinson) fracture is incorrect: this is an isolated radial styloid fracture typically from direct impact — not a comminuted intra-articular injury."
+    ],
+    "clinicalPearl": "Any distal radius fracture with articular involvement, comminution, or instability should be assessed for surgical fixation — articular incongruity >2 mm significantly increases risk of post-traumatic arthritis."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Principles of fracture reduction",
+    "question": "A 25-year-old woman presents with a displaced mid-shaft radius and ulna fracture following a fall from a horse. X-ray confirms >50% displacement with angulation. The limb is neurovascularly intact. The orthopaedic team decides to proceed with closed reduction under conscious sedation. Which of the following best describes the correct sequence for reduction of this fracture?",
+    "options": [
+      "Apply direct pressure to the fracture, then immobilise immediately",
+      "Distract to restore length, correct angulation, then correct rotation",
+      "Correct rotation first, then angulate to reduce, then apply traction",
+      "Immobilise in the position of deformity to avoid neurovascular injury",
+      "Reduce by applying force in the direction of displacement to lock fragments"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The standard technique for closed fracture reduction involves first applying longitudinal traction to distract the fragments and restore length, then correcting angulation by reversing the deforming forces, and finally correcting rotational malalignment. This sequence unlocks the fracture fragments and restores the anatomical axis in a controlled manner.",
+    "wrongAnswerExplanations": [
+      "Applying direct pressure first is incorrect: direct pressure without preliminary distraction can drive fragments into soft tissue or cause further displacement.",
+      "Distraction then correction of angulation then rotation is the correct sequence: traction restores length, reversing angulation reduces the fracture, and rotational correction completes the reduction.",
+      "Correcting rotation first is incorrect: rotation cannot be corrected until length is restored by distraction — attempting rotation first risks further soft tissue injury.",
+      "Immobilising in the position of deformity is incorrect: immobilisation in deformity is only acceptable as a temporary measure if reduction is not safe; definitive management requires restoration of alignment.",
+      "Applying force in the direction of displacement to 'lock' fragments describes a manoeuvre that increases displacement and is the opposite of a correct reduction technique."
+    ],
+    "clinicalPearl": "Fracture reduction follows the sequence: traction (restore length) → correct angulation (reverse the deformity) → correct rotation — always check neurovascular status before and after reduction."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Complications of open fractures",
+    "question": "A 19-year-old male sustained a Gustilo Type IIIB open tibial fracture 3 weeks ago. He underwent initial debridement and external fixation, but definitive wound coverage was delayed. He now presents with fever (38.8°C), purulent discharge from the wound, elevated CRP of 180 mg/L, and X-ray showing periosteal elevation and cortical irregularity. What is the most likely diagnosis?",
+    "options": [
+      "Deep vein thrombosis with secondary cellulitis",
+      "Wound haematoma with superimposed infection",
+      "Chronic osteomyelitis",
+      "Acute osteomyelitis secondary to open fracture",
+      "Gas gangrene"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "This presentation is consistent with acute post-traumatic osteomyelitis: fever, localised purulent discharge, markedly elevated CRP, and early radiological signs (periosteal elevation, cortical irregularity) occurring 3 weeks after an open fracture with delayed wound coverage. Osteomyelitis is a major complication of high-grade open fractures, particularly when soft tissue coverage is delayed.",
+    "wrongAnswerExplanations": [
+      "DVT with cellulitis would not explain periosteal elevation on X-ray or cortical irregularity — these are bony changes indicating bone infection.",
+      "Wound haematoma alone would not produce fever of 38.8°C and raised CRP of 180 mg/L with radiological bony changes at 3 weeks.",
+      "Chronic osteomyelitis develops over months; at 3 weeks post-injury this is acute osteomyelitis — chronic changes (sequestrum, involucrum) are not yet present.",
+      "Acute osteomyelitis secondary to open fracture is the correct answer: the time course, systemic sepsis, local signs, elevated inflammatory markers, and early radiological bony changes are all consistent.",
+      "Gas gangrene (clostridial myonecrosis) presents much more acutely within 24–72 hours with rapidly spreading crepitus, profound toxicity, and gas on imaging — not at 3 weeks."
+    ],
+    "clinicalPearl": "Early aggressive debridement and prompt wound coverage in Gustilo IIIB fractures are critical — delays in coverage significantly increase the risk of post-traumatic osteomyelitis."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Fracture immobilisation — splinting",
+    "question": "A 10-year-old boy presents to the emergency department with a buckle (torus) fracture of the distal radius after falling off a trampoline. X-ray confirms a torus fracture at the distal radial metaphysis with no angulation and no displacement. The hand is neurovascularly intact. What is the most appropriate initial management?",
+    "options": [
+      "Operative fixation with Kirschner wires",
+      "Closed reduction under general anaesthesia followed by above-elbow cast",
+      "Below-elbow backslab followed by reassessment at 4–6 weeks",
+      "Futura-style wrist splint with analgesia and discharge with outpatient review",
+      "Long arm cast for 8 weeks"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Torus (buckle) fractures in children are inherently stable, incomplete fractures of the cortex with no displacement or angulation. Current evidence and NICE guidance support management with a removable wrist splint and analgesia, with outpatient follow-up rather than rigid casting. This approach provides adequate stability, allows mobilisation, reduces cast-related complications, and results in equivalent outcomes to plaster.",
+    "wrongAnswerExplanations": [
+      "Operative fixation is not indicated for a stable, undisplaced torus fracture in a child — surgery carries unnecessary risks for this benign injury.",
+      "Closed reduction under GA is not required: there is no displacement or angulation to correct; reduction is only needed for displaced or angulated fractures.",
+      "A below-elbow backslab is acceptable but is now considered over-treatment for a stable torus fracture; a removable splint achieves the same stability with fewer restrictions.",
+      "A removable wrist splint with analgesia and outpatient review is the correct answer: this is evidence-based management for stable, undisplaced paediatric torus fractures.",
+      "A long arm cast for 8 weeks is excessive: torus fractures heal in 3–4 weeks and do not require above-elbow immobilisation or prolonged casting."
+    ],
+    "clinicalPearl": "Torus (buckle) fractures are stable, incomplete cortical fractures unique to children — a removable splint for 3–4 weeks is sufficient and avoids the complications of rigid casting."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Delayed union and non-union",
+    "question": "A 55-year-old male smoker with type 2 diabetes sustained a closed mid-shaft tibial fracture 6 months ago, treated conservatively in a cast. Follow-up X-rays at 3 months and 6 months show no progression of callus and the fracture line remains clearly visible. He complains of ongoing pain with weight-bearing. What is the most likely diagnosis and the most important modifiable risk factor in this patient?",
+    "options": [
+      "Malunion; obesity",
+      "Avascular necrosis; diabetes",
+      "Non-union; smoking",
+      "Delayed union; anaemia",
+      "Stress fracture progression; diabetes"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Non-union is defined as failure of fracture healing by the expected time (typically >6 months for long bones with no radiological progression). This patient has failed to show any callus progression at 6 months. Smoking is the most important modifiable risk factor for non-union — nicotine causes vasoconstriction, impairing periosteal blood supply and reducing osteoblast activity, roughly doubling the risk of non-union.",
+    "wrongAnswerExplanations": [
+      "Malunion describes healing in a suboptimal position — this fracture has not healed at all, so it cannot be a malunion.",
+      "Avascular necrosis typically occurs at specific anatomical sites (femoral head, scaphoid, talus) after disruption of end-arterial supply — not a mid-shaft tibial fracture.",
+      "Non-union with smoking as the key modifiable risk is the correct answer: absent radiological progression at 6 months defines non-union, and smoking is the most significant modifiable factor impeding bone healing.",
+      "Delayed union implies slowed but still progressing healing — at 6 months with no progression, this has crossed into non-union territory.",
+      "Stress fractures are insufficiency or fatigue fractures — this was a closed traumatic mid-shaft fracture, and the scenario describes failure to heal, not a new stress fracture."
+    ],
+    "clinicalPearl": "Smoking is the single most important modifiable risk factor for fracture non-union — counsel all fracture patients to stop smoking and offer cessation support before considering surgical intervention."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Emergency management of open fractures",
+    "question": "A 32-year-old man is brought in by ambulance after a motorcycle accident. He has a Gustilo Type III open femoral fracture with bone protruding through the wound. The wound is heavily contaminated. He is haemodynamically stable. After primary survey and haemorrhage control, what is the most appropriate next step in wound management in the emergency department?",
+    "options": [
+      "Immediately close the wound primarily at the bedside to prevent further contamination",
+      "Irrigate the wound copiously with saline, remove gross contamination, apply a saline-soaked dressing and splint the limb",
+      "Apply a tourniquet over the wound and transfer directly to theatre without any wound intervention",
+      "Photograph the wound, apply povidone-iodine-soaked gauze, and await elective theatre scheduling",
+      "Perform formal wound debridement and lavage in the emergency department under local anaesthesia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "BOAST guidelines recommend that in the emergency department, open fracture wounds should have gross contamination gently removed, be irrigated with saline, and then covered with a saline-soaked dressing and splinted pending transfer to theatre. Primary closure in the ED is contraindicated. Formal debridement is performed in theatre within 6 hours (or up to 24 hours for vascular injuries) by an experienced surgeon.",
+    "wrongAnswerExplanations": [
+      "Primary wound closure at the bedside is contraindicated in open fractures: it traps contamination and increases infection risk; definitive closure is performed in theatre after formal debridement.",
+      "Irrigation, removal of gross contamination, saline dressing and splinting is the correct ED approach: this reduces contamination, protects the wound, and stabilises the fracture pending operative debridement.",
+      "Applying a tourniquet over the wound is incorrect: tourniquets are used for life-threatening haemorrhage only; they cause ischaemic injury if left in situ and are not a wound management strategy.",
+      "Povidone-iodine-soaked gauze is incorrect: iodine is cytotoxic to healing tissue and is not recommended for wound coverage in open fractures; saline-soaked dressings are preferred.",
+      "Formal debridement under local anaesthesia in the ED is inappropriate: debridement of major open fractures should be performed in a theatre environment by a senior orthopaedic surgeon with proper equipment and anaesthetic support."
+    ],
+    "clinicalPearl": "In the ED, open fracture wound management = remove gross contamination + saline-soaked dressing + splint; definitive debridement belongs in the operating theatre, not the emergency bay."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Fracture rehabilitation principles",
+    "question": "A 68-year-old woman with a conservatively managed, undisplaced surgical neck of humerus fracture attends physiotherapy review 3 weeks post-injury. Her fracture is clinically and radiologically uniting. She has not moved the arm since injury due to pain and is now unable to abduct beyond 10 degrees. What is the most important priority in her rehabilitation at this stage?",
+    "options": [
+      "Commence full weightbearing resistance training for the shoulder",
+      "Refer for manipulation under anaesthesia to restore range of movement",
+      "Begin pendulum exercises and gentle passive range-of-motion exercises to prevent adhesive capsulitis",
+      "Continue complete rest for a further 6 weeks until radiological union confirmed",
+      "Arrange urgent surgical fixation as immobility indicates inadequate conservative treatment"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Prolonged immobilisation after proximal humeral fractures is a major risk factor for adhesive capsulitis (frozen shoulder). Once there is clinical stability (approximately 2–3 weeks), supervised gentle passive range-of-motion and pendulum exercises should commence to prevent peri-articular stiffness, muscle atrophy, and frozen shoulder, while protecting the healing bone.",
+    "wrongAnswerExplanations": [
+      "Full resistance training is inappropriate at 3 weeks — the fracture is still consolidating and heavy loading risks displacement or non-union.",
+      "Manipulation under anaesthesia is premature at 3 weeks: the movement restriction is due to immobility and pain inhibition, not established frozen shoulder — MUA carries risks and should not be performed this early.",
+      "Pendulum and passive range-of-motion exercises are the correct priority: they prevent adhesive capsulitis without stressing the healing fracture, and are the standard rehabilitation approach at this stage.",
+      "Continuing complete rest for 6 more weeks would cause severe stiffness and muscle wasting — immobility beyond the acute pain phase is harmful to shoulder function.",
+      "Surgical fixation is not indicated: the fracture is undisplaced and uniting — inability to abduct after 3 weeks of complete rest is expected and is a rehabilitation problem, not a surgical indication."
+    ],
+    "clinicalPearl": "Early gentle mobilisation (pendulum exercises) from 2–3 weeks after proximal humeral fracture is essential to prevent adhesive capsulitis — prolonged immobility is more harmful than gentle movement in uniting fractures."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Compartment syndrome as fracture complication",
+    "question": "A 20-year-old male sustains a closed tibial shaft fracture and is placed in a full circumferential below-knee plaster of Paris cast. Four hours later he reports severe pain in the leg that is disproportionate to the injury, which is not relieved by elevation or strong opioids. On examination, the toes are swollen but warm; passive dorsiflexion of the foot exacerbates the pain severely. What is the most appropriate immediate management?",
+    "options": [
+      "Increase analgesia and elevate the limb above the level of the heart",
+      "Apply ice packs and reassess in two hours",
+      "Split and spread the cast, then obtain urgent fasciotomy if pressures confirm compartment syndrome",
+      "Administer IV mannitol to reduce tissue oedema",
+      "Arrange urgent MRI to confirm diagnosis before intervention"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This presentation is classic acute compartment syndrome: pain disproportionate to injury, pain on passive stretch, and a tight circumferential cast. The immediate action is to bivalve (split and spread) the cast to relieve external compression. If clinical features persist after cast splitting, compartment pressure measurement should be obtained and urgent four-compartment fasciotomy performed if pressures are within 30 mmHg of diastolic pressure. Delay risks permanent ischaemic muscle damage.",
+    "wrongAnswerExplanations": [
+      "Elevation and more analgesia are dangerous in compartment syndrome: elevation reduces arterial perfusion pressure to the compartment and may worsen ischaemia; analgesia masks the warning sign.",
+      "Ice packs and watchful waiting would cause catastrophic delay: compartment syndrome is a surgical emergency — irreversible myonecrosis begins within 6 hours of ischaemia.",
+      "Splitting and spreading the cast followed by fasciotomy if pressures confirm is the correct management: cast splitting is immediate, fasciotomy is definitive treatment when pressures confirm compartment syndrome.",
+      "IV mannitol reduces cerebral oedema but has no established role in acute limb compartment syndrome and would cause dangerous delay to definitive treatment.",
+      "MRI is time-consuming and delays treatment — compartment syndrome is a clinical diagnosis; imaging should not delay fasciotomy when clinical suspicion is high."
+    ],
+    "clinicalPearl": "Pain on passive stretch is the earliest and most reliable clinical sign of acute compartment syndrome — bivalve any circumferential cast immediately and proceed to fasciotomy without delay if the diagnosis is confirmed."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General principles of fractures 1.pdf",
+    "topic": "Factors affecting fracture healing",
+    "question": "A 50-year-old woman on long-term oral corticosteroids for rheumatoid arthritis presents with a stress fracture of the second metatarsal that has failed to show radiological healing at 12 weeks despite conservative management. She is a non-smoker, is not diabetic, and has adequate dietary calcium intake. Blood tests reveal a serum 25-hydroxyvitamin D of 18 nmol/L (normal >50 nmol/L). Which is the most likely reason for impaired fracture healing in this patient?",
+    "options": [
+      "Rheumatoid arthritis causing direct synovial invasion of the fracture site",
+      "Corticosteroid use and vitamin D deficiency both impairing bone healing",
+      "Inadequate immobilisation causing micro-movement at the fracture site",
+      "Stress fracture pattern causing inherently poor healing potential",
+      "Age-related decline in bone healing with no specific correctable cause"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Both long-term corticosteroid use and vitamin D deficiency independently impair fracture healing. Corticosteroids inhibit osteoblast function, reduce calcium absorption, and suppress the inflammatory phase essential for early healing. Vitamin D deficiency (25-OH-D <50 nmol/L) impairs mineralisation of callus, leading to osteomalacic non-union. Both factors are present and correctable in this patient.",
+    "wrongAnswerExplanations": [
+      "Rheumatoid arthritis does not cause direct synovial invasion of a metatarsal stress fracture; RA is a systemic inflammatory condition that can affect bone density but does not directly invade fracture sites.",
+      "Corticosteroid use and vitamin D deficiency is the correct answer: both are well-established, correctable causes of impaired fracture healing and are directly present in this patient.",
+      "Inadequate immobilisation may contribute to delayed union in long bone fractures but is not the primary issue here; metatarsal stress fractures can heal with relative rest and protected weight-bearing.",
+      "Stress fractures do not have inherently poor healing potential; they typically heal well with offloading — poor healing implies an underlying biological impairment.",
+      "Age alone at 50 years does not cause significant healing impairment; the identifiable correctable factors (steroids, vitamin D deficiency) are the primary explanation."
+    ],
+    "clinicalPearl": "Always check and correct vitamin D levels in patients with impaired or delayed fracture healing — vitamin D deficiency causes osteomalacic callus (soft, un-mineralised) and is a treatable cause of non-union."
+  }
+]

@@ -1,0 +1,301 @@
+[
+ {
+  "system": "git",
+  "sourceLecture": "Acute abdomin.pdf",
+  "topic": "Acute appendicitis",
+  "question": "A 19-year-old male presents to the emergency department with a 24-hour history of periumbilical pain that has migrated to the right iliac fossa. He reports nausea and one episode of vomiting. Temperature is 38.1°C, pulse 96 bpm. Examination reveals guarding and rebound tenderness at McBurney's point. WBC is 14.2 × 10⁹/L. CRP is 78 mg/L. What is the most appropriate next step in management?",
+  "options": [
+   "CT abdomen and pelvis with contrast",
+   "Urgent appendicectomy",
+   "IV antibiotics and observation for 24 hours",
+   "Ultrasound abdomen",
+   "Diagnostic laparoscopy"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "This patient has a classic presentation of acute appendicitis with migration of pain from periumbilical to RIF, fever, tachycardia, localised peritonism at McBurney's point, and raised inflammatory markers. The Alvarado score is high (>7), indicating high probability of appendicitis requiring urgent surgical intervention. In a young male with a clear clinical diagnosis, urgent appendicectomy is the definitive treatment.",
+  "wrongAnswerExplanations": [
+   "CT provides high diagnostic accuracy but exposes a young patient to radiation and delays definitive treatment when clinical diagnosis is already clear and high-scoring.",
+   "Urgent appendicectomy is correct — this patient has a classic high-probability presentation and requires definitive surgical treatment without further delay.",
+   "IV antibiotics alone are not definitive treatment for acute appendicitis in a patient with clear peritonism; observation risks perforation.",
+   "Ultrasound is operator-dependent and has lower sensitivity than CT for appendicitis; it may be useful as a first-line imaging in children or women of childbearing age but should not delay surgery here.",
+   "Diagnostic laparoscopy is appropriate if diagnosis is uncertain, but in a straightforward male presentation it is less efficient than proceeding directly to appendicectomy."
+  ],
+  "clinicalPearl": "In a young male with a classic clinical picture of acute appendicitis (Alvarado score ≥7), proceed directly to appendicectomy — do not delay with imaging when the diagnosis is secure."
+ },
+ {
+  "system": "git",
+  "sourceLecture": "Acute abdomin.pdf",
+  "topic": "Perforated appendix with generalised peritonitis",
+  "question": "A 22-year-old woman presents with a 3-day history of abdominal pain, initially in the right iliac fossa. She is now unwell with diffuse abdominal pain, temperature 39.2°C, pulse 118 bpm, BP 98/62 mmHg. On examination her abdomen is board-rigid with generalised guarding and tenderness. WBC is 22.4 × 10⁹/L. An erect chest X-ray shows no free gas under the diaphragm. Which of the following is the most likely diagnosis?",
+  "options": [
+   "Acute mesenteric ischaemia",
+   "Ruptured ovarian cyst",
+   "Perforated appendix with generalised peritonitis",
+   "Sigmoid volvulus",
+   "Acute pancreatitis"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "The clinical course of 3 days' RIF pain progressing to diffuse board-rigid abdomen, high fever, tachycardia, and hypotension is classic for a perforated appendix with generalised faecal peritonitis. Absence of free gas under the diaphragm does not exclude perforation, as only around 30% of bowel perforations show this sign. The evolution from localised to generalised peritonism is characteristic of appendiceal perforation.",
+  "wrongAnswerExplanations": [
+   "Acute mesenteric ischaemia typically presents with severe pain out of proportion to examination findings, not board-rigid generalised peritonism in a young woman.",
+   "A ruptured ovarian cyst causes sudden-onset pelvic pain and can cause peritonism, but typically does not cause the 3-day evolving picture with high fever and WBC >22.",
+   "Perforated appendix with generalised peritonitis is correct — the 3-day evolution of RIF pain to board-rigid diffuse peritonism with sepsis is the classic history.",
+   "Sigmoid volvulus presents with massive abdominal distension, obstipation, and a characteristic coffee-bean sign on X-ray, not localised-to-diffuse peritonism in a young woman.",
+   "Acute pancreatitis causes epigastric pain radiating to the back, not a 3-day evolution from RIF pain; amylase/lipase would be markedly elevated."
+  ],
+  "clinicalPearl": "Appendicitis progressing over 3 days without treatment commonly leads to perforation and generalised faecal peritonitis — board-rigidity and septic shock in this context mandate emergency laparotomy."
+ },
+ {
+  "system": "Peritoneum , mesentry.pdf",
+  "topic": "Generalised vs localised peritonism",
+  "question": "A 55-year-old man with known diverticular disease presents with severe left iliac fossa pain for 6 hours. Temperature is 38.6°C, pulse 102 bpm. On examination there is localised guarding in the LIF with a palpable tender mass, but the rest of the abdomen is soft. WBC is 17.8 × 10⁹/L. CT abdomen shows pericolic fat stranding and a 4 cm pericolic abscess but no free peritoneal gas or fluid. Which of the following best describes his peritoneal findings?",
+  "options": [
+   "Generalised peritonitis requiring immediate laparotomy",
+   "Chemical peritonitis from bile leakage",
+   "Localised peritonitis due to contained perforation",
+   "Haemoperitoneum from mesenteric vessel rupture",
+   "Primary spontaneous bacterial peritonitis"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "Localised peritonitis (Hinchey stage I/II diverticulitis) occurs when perforation is contained by omentum and adjacent structures, forming a pericolic abscess. The abdomen remains soft elsewhere, contrasting with generalised peritonitis where rigidity is diffuse. CT confirmation of a contained abscess without free peritoneal gas or fluid supports non-operative or percutaneous drainage management rather than emergency laparotomy.",
+  "wrongAnswerExplanations": [
+   "Generalised peritonitis requires diffuse board-rigid abdomen and free peritoneal contamination; this patient has localised LIF findings only and CT shows no free gas or diffuse free fluid.",
+   "Chemical peritonitis from bile leakage occurs in biliary perforation, not diverticular disease, and would typically show free fluid on CT.",
+   "Localised peritonitis due to contained perforation is correct — the pericolic abscess, absent generalised signs, and CT findings confirm this pattern.",
+   "Haemoperitoneum presents with haemodynamic shock, diffuse abdominal pain, and free fluid on CT; this clinical picture does not fit.",
+   "Primary spontaneous bacterial peritonitis occurs in patients with ascites (usually cirrhotic); it is not localised and this patient has no features of liver disease."
+  ],
+  "clinicalPearl": "Localised peritonism with a contained abscess (Hinchey I/II) can often be managed with antibiotics ± percutaneous drainage; only progression to generalised peritonitis mandates emergency surgery.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Peritoneum , mesentry.pdf",
+  "topic": "Intra-abdominal abscess",
+  "question": "A 48-year-old woman underwent laparoscopic appendicectomy for perforated appendicitis 10 days ago. She re-presents with swinging pyrexia (38.5–39.8°C), lower abdominal pain, diarrhoea, and urinary frequency. Examination reveals lower abdominal tenderness but no peritonism. WBC is 18.1 × 10⁹/L. CRP is 210 mg/L. What is the most likely diagnosis and investigation of choice?",
+  "options": [
+   "Wound infection — wound swab and culture",
+   "Anastomotic leak — water-soluble contrast enema",
+   "Pelvic abscess — CT abdomen and pelvis",
+   "Pulmonary embolism — CT pulmonary angiography",
+   "Clostridium difficile colitis — stool C. difficile toxin assay"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "Post-operative swinging pyrexia, pelvic symptoms (diarrhoea and urinary frequency from irritation of rectum and bladder), and markedly raised inflammatory markers 10 days after perforated appendicectomy strongly suggest a pelvic abscess. CT abdomen and pelvis is the investigation of choice as it identifies the abscess location, size, and suitability for percutaneous drainage.",
+  "wrongAnswerExplanations": [
+   "Wound infection causes localised wound signs and low-grade fever, not swinging pyrexia or pelvic symptoms; wound swab alone would miss an intra-abdominal collection.",
+   "Anastomotic leak is not applicable here as no bowel anastomosis was performed; appendicectomy involves a stump closure, not an anastomosis.",
+   "Pelvic abscess — CT abdomen and pelvis is correct — swinging pyrexia, pelvic irritation symptoms, and high inflammatory markers post-appendicectomy for perforation is classic for pelvic abscess.",
+   "Pulmonary embolism causes pleuritic chest pain, dyspnoea, and hypoxia — not lower abdominal pain, diarrhoea, or markedly elevated CRP.",
+   "C. difficile colitis is possible after antibiotics but would not explain the markedly elevated CRP and pelvic signs; CT should be the first investigation to exclude abscess."
+  ],
+  "clinicalPearl": "Swinging pyrexia with pelvic symptoms (diarrhoea + urinary frequency) after appendicectomy for perforation = pelvic abscess until proven otherwise — CT and percutaneous/transrectal drainage is the treatment of choice.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Acute abdomin.pdf",
+  "topic": "Acute appendicitis — atypical presentation",
+  "question": "A 72-year-old woman presents with a 5-day history of vague right-sided abdominal discomfort and anorexia. She is afebrile (37.3°C), pulse 88 bpm. Her abdomen is mildly tender in the right iliac fossa without guarding. WBC is 11.0 × 10⁹/L. CRP is 45 mg/L. She mentions the pain was worse 3 days ago and has partially settled. CT abdomen shows a 6 cm right iliac fossa mass with an appendicolith. What is the most appropriate initial management?",
+  "options": [
+   "Emergency appendicectomy today",
+   "IV antibiotics and IV fluids with interval appendicectomy in 6–8 weeks",
+   "Colonoscopy to exclude caecal carcinoma",
+   "Percutaneous drainage of abscess under CT guidance",
+   "Right hemicolectomy"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "This patient has an appendix mass (phlegmon) — a walled-off inflammatory mass that forms when the omentum contains an appendix perforation. The settling pain and absence of sepsis indicate the process is contained. Conservative management with IV antibiotics and interval appendicectomy at 6–8 weeks is the recommended approach, as operating through inflamed, oedematous tissue carries high complication risk.",
+  "wrongAnswerExplanations": [
+   "Emergency appendicectomy through an established phlegmon carries high risk of bowel injury, fistula, and conversion to a more extensive procedure; it is not the first-line approach in a stable patient.",
+   "IV antibiotics and interval appendicectomy is correct — the appendix mass in a stable patient is best managed conservatively with elective appendicectomy after the inflammation resolves.",
+   "Colonoscopy is important to exclude underlying caecal malignancy (especially in older patients) but this is done after the acute episode resolves, not as the initial management step.",
+   "Percutaneous drainage is indicated for a frank abscess (fluid-filled collection), not a solid phlegmon; CT here describes a mass, not a fluid collection.",
+   "Right hemicolectomy is overly aggressive as an initial step; it may ultimately be required if interval appendicectomy reveals carcinoma, but is not first-line."
+  ],
+  "clinicalPearl": "An appendix mass (phlegmon) in a stable patient is managed conservatively; always perform colonoscopy or imaging to exclude caecal carcinoma before interval appendicectomy, especially in those over 40.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Acute abdomin.pdf",
+  "topic": "Acute abdomen — differential diagnosis",
+  "question": "A 34-year-old woman presents with sudden-onset severe right lower quadrant pain. Menarche was at age 13, and her last menstrual period was 6 weeks ago. She is haemodynamically unstable: BP 85/50 mmHg, pulse 124 bpm, temperature 37.0°C. Examination reveals generalised abdominal guarding. Urine β-hCG is positive. What is the most likely diagnosis and immediate management?",
+  "options": [
+   "Acute appendicitis — urgent appendicectomy",
+   "Ruptured ectopic pregnancy — emergency laparotomy/laparoscopy with resuscitation",
+   "Ruptured ovarian cyst — IV fluids and analgesia",
+   "Acute PID — IV antibiotics",
+   "Spontaneous abortion — gynaecology referral"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Positive β-hCG, amenorrhoea of 6 weeks, haemodynamic instability, and sudden-onset lower abdominal pain with generalised peritonism is ruptured ectopic pregnancy until proven otherwise. This is a surgical emergency requiring simultaneous resuscitation and emergency surgical intervention (laparoscopy or laparotomy depending on stability).",
+  "wrongAnswerExplanations": [
+   "Acute appendicitis does not cause haemodynamic instability in a previously well patient in this timeframe, and the positive β-hCG makes ectopic pregnancy the priority diagnosis.",
+   "Ruptured ectopic pregnancy with emergency laparotomy/laparoscopy is correct — haemodynamic instability + positive β-hCG + peritonism = haemoperitoneum from ruptured ectopic.",
+   "Ruptured ovarian cyst can cause haemoperitoneum but the positive β-hCG makes ectopic pregnancy the diagnosis; management is surgical, not conservative.",
+   "Acute PID causes pelvic pain but not haemodynamic collapse; it would not explain a positive β-hCG and haemoperitoneum.",
+   "Spontaneous abortion causes vaginal bleeding and cramping but not haemodynamic collapse with peritonism; this picture is not consistent with intrauterine miscarriage."
+  ],
+  "clinicalPearl": "Any woman of reproductive age with acute abdomen must have a β-hCG test — a positive result with haemodynamic instability means ruptured ectopic pregnancy until proven otherwise.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Peritoneum , mesentry.pdf",
+  "topic": "Primary peritonitis",
+  "question": "A 9-year-old girl with nephrotic syndrome presents with diffuse abdominal pain, vomiting, and fever of 38.9°C for 12 hours. She has generalised abdominal tenderness with guarding but no localising signs. WBC is 19.6 × 10⁹/L. Ascitic fluid obtained by paracentesis shows a WBC of 450 cells/mm³ with 90% neutrophils. Gram stain shows Gram-positive cocci in chains. What is the most appropriate management?",
+  "options": [
+   "Emergency exploratory laparotomy",
+   "IV penicillin-based antibiotics without surgery",
+   "Laparoscopic drainage of peritoneal cavity",
+   "Oral co-amoxiclav for 7 days",
+   "CT-guided percutaneous drain insertion"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "This child has primary (spontaneous) peritonitis — a condition occurring in immunocompromised children (nephrotic syndrome) typically caused by Streptococcus pneumoniae or Gram-positive organisms. It is diagnosed by ascitic fluid neutrophil count >250/mm³. Primary peritonitis is treated with IV antibiotics (penicillin/amoxicillin-based) without surgery, as there is no underlying surgical source requiring repair.",
+  "wrongAnswerExplanations": [
+   "Emergency laparotomy is for secondary peritonitis where a surgical source (perforation, ischaemia) requires repair; primary peritonitis has no anatomical defect requiring surgery.",
+   "IV penicillin-based antibiotics without surgery is correct — primary peritonitis in a nephrotic child is caused by haematogenous spread and responds to antibiotics alone.",
+   "Laparoscopic drainage is not indicated; peritoneal lavage does not benefit primary peritonitis and introduces surgical risk without benefit.",
+   "Oral antibiotics are insufficient for primary peritonitis with systemic sepsis; IV therapy is required initially.",
+   "Percutaneous drain insertion is for loculated abscesses; diffuse primary peritonitis does not have a collection amenable to drainage."
+  ],
+  "clinicalPearl": "Primary (spontaneous) peritonitis — common in nephrotic children and cirrhotics — is caused by haematogenous seeding (often pneumococcus) and is treated with IV antibiotics, NOT surgery.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Acute abdomin.pdf",
+  "topic": "Acute appendicitis — Rovsing's sign and examination",
+  "question": "A 16-year-old boy presents with 18 hours of right iliac fossa pain, nausea, and anorexia. Temperature is 37.9°C. On examination, palpation of the left iliac fossa causes pain in the right iliac fossa. The psoas sign is also positive. Which nerve distribution best explains why the psoas sign is positive in this patient?",
+  "options": [
+   "The inflamed appendix lies in a pelvic position and irritates the obturator internus",
+   "The inflamed appendix lies in a retrocaecal position and irritates the adjacent psoas muscle",
+   "The appendix has perforated, releasing gas that tracks to the right flank",
+   "The positive psoas sign indicates a right-sided renal calculus",
+   "Generalised peritonitis causing anterior abdominal wall rigidity"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "A positive psoas sign (pain on passive extension of the right hip or active flexion against resistance) indicates that the inflamed appendix lies in a retrocaecal position, where it is directly adjacent to the psoas major muscle. Inflammation of the appendix irritates the psoas, causing pain on hip extension. Rovsing's sign (pain in RIF on LIF palpation) is also present, both confirming appendicitis.",
+  "wrongAnswerExplanations": [
+   "Pelvic appendix position produces a positive obturator sign (pain on internal rotation of flexed right hip), not the psoas sign.",
+   "Retrocaecal appendix irritating psoas is correct — this is the anatomical explanation for a positive psoas sign in appendicitis.",
+   "Free intraperitoneal gas would cause generalised peritonism, not an isolated positive psoas sign without perforation.",
+   "Renal calculus causes colicky loin-to-groin pain with haematuria; the psoas sign is not a classical feature of ureteric colic.",
+   "Generalised peritonitis causes diffuse guarding; the psoas sign is a specific localising sign for retrocaecal appendicitis, not generalised peritonism."
+  ],
+  "clinicalPearl": "Positive psoas sign = retrocaecal appendix; positive obturator sign = pelvic appendix — both indicate appendicitis but help localise the appendix position.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Peritoneum , mesentry.pdf",
+  "topic": "Subphrenic abscess",
+  "question": "A 60-year-old man who underwent emergency surgery for a perforated duodenal ulcer 2 weeks ago now presents with persistent fever (38.7°C), right shoulder tip pain, and hiccoughs. His chest examination reveals reduced breath sounds at the right base. CXR shows a right pleural effusion and elevation of the right hemidiaphragm. WBC is 16.3 × 10⁹/L. What is the most likely diagnosis?",
+  "options": [
+   "Hospital-acquired right lower lobe pneumonia",
+   "Pulmonary embolism with pleural effusion",
+   "Right subphrenic abscess",
+   "Hepatic metastasis with effusion",
+   "Anastomotic leak with empyema"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "Right subphrenic abscess classically presents post-operatively with swinging pyrexia, ipsilateral shoulder tip pain (referred via phrenic nerve C3–C5), hiccoughs (diaphragmatic irritation), and sympathetic pleural effusion with elevated hemidiaphragm on CXR. This follows upper GI surgery — particularly for perforated duodenal ulcer. CT is confirmatory; treatment is radiologically guided drainage.",
+  "wrongAnswerExplanations": [
+   "HAP presents with productive cough, consolidation on CXR, and respiratory symptoms — not hiccoughs or shoulder tip pain 2 weeks post-operatively.",
+   "Pulmonary embolism causes pleuritic chest pain and dyspnoea; it would not cause shoulder tip pain, hiccoughs, or an elevated hemidiaphragm.",
+   "Right subphrenic abscess is correct — the combination of post-operative fever, right shoulder tip pain, hiccoughs, and sympathetic effusion is pathognomonic.",
+   "Hepatic metastasis is unlikely in the acute post-operative context and would not explain acute-onset fever and hiccoughs.",
+   "Anastomotic leak after duodenal ulcer repair (Graham patch) would cause peritonitis, not a walled-off subphrenic collection with these classical features."
+  ],
+  "clinicalPearl": "Subphrenic abscess triad: post-operative swinging fever + ipsilateral shoulder tip pain (phrenic nerve irritation) + hiccoughs — CXR shows elevated hemidiaphragm and sympathetic effusion.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Acute abdomin.pdf",
+  "topic": "Acute abdomen — investigation",
+  "question": "A 45-year-old man presents to the emergency department with sudden-onset severe epigastric pain radiating to the back, associated with vomiting. He drinks 40 units of alcohol per week. Temperature is 37.6°C, pulse 110 bpm, BP 100/70 mmHg. Examination reveals epigastric tenderness without peritonism. WBC is 15.1 × 10⁹/L. Which single investigation is most important to perform urgently to confirm the diagnosis?",
+  "options": [
+   "Erect chest X-ray",
+   "Serum amylase or lipase",
+   "Abdominal ultrasound",
+   "Upper GI endoscopy",
+   "CT abdomen with contrast"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "This is a classic presentation of acute pancreatitis: epigastric pain radiating to the back, alcohol history, haemodynamic compromise, and absence of peritonism. Serum amylase (>3× upper limit of normal) or lipase (more sensitive and specific) is the urgent confirmatory investigation. CT is not required initially for diagnosis but may be used for severity assessment after 48–72 hours.",
+  "wrongAnswerExplanations": [
+   "Erect CXR is important to exclude perforation (free gas under diaphragm) but is not the single most important test to confirm acute pancreatitis.",
+   "Serum amylase or lipase is correct — elevation >3× ULN confirms acute pancreatitis and is rapid, cheap, and specific in this clinical context.",
+   "Abdominal ultrasound assesses for gallstones as a cause but does not diagnose acute pancreatitis itself; amylase/lipase is the diagnostic test.",
+   "Upper GI endoscopy is contraindicated in acute pancreatitis and is not a diagnostic test for it.",
+   "CT abdomen with contrast (CECT) is used for assessing severity, necrosis, and complications after 48–72 hours — not the immediate diagnostic first-line test."
+  ],
+  "clinicalPearl": "Serum lipase is more sensitive and specific than amylase for acute pancreatitis and remains elevated longer — it is the preferred urgent diagnostic test.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Acute abdomin.pdf",
+  "topic": "Acute appendicitis — complications",
+  "question": "A 28-year-old man underwent open appendicectomy for gangrenous appendicitis 5 days ago. He now has a temperature of 38.8°C, wound erythema, and purulent discharge from his wound. On examination the wound is fluctuant. WBC is 16.0 × 10⁹/L. Which complication has he most likely developed, and what is the immediate management?",
+  "options": [
+   "Anastomotic leak — urgent return to theatre",
+   "Faecal fistula — IV antibiotics and bowel rest",
+   "Superficial surgical site infection with wound abscess — open and drain the wound",
+   "Necrotising fasciitis — urgent wide debridement",
+   "Intra-abdominal abscess — CT-guided percutaneous drainage"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "A fluctuant, erythematous, discharging wound on post-operative day 5 after appendicectomy for gangrenous appendicitis is a superficial surgical site infection (SSI) with wound abscess formation. The immediate management is opening and draining the wound at the bedside, which provides both diagnosis and treatment. Antibiotics alone are insufficient for a fluctuant wound abscess.",
+  "wrongAnswerExplanations": [
+   "Anastomotic leak presents with generalised abdominal signs, fever, and raised inflammatory markers without a fluctuant wound; no anastomosis was created in appendicectomy.",
+   "Faecal fistula would present with faecal material in the wound discharge, not simple purulent material on day 5.",
+   "Superficial SSI with wound abscess requiring drainage is correct — fluctuance indicates a collection that must be drained; antibiotics alone are insufficient.",
+   "Necrotising fasciitis is a rapidly spreading, life-threatening infection with extensive skin necrosis, severe pain, crepitus, and systemic sepsis — a fluctuant localised wound does not fit.",
+   "Intra-abdominal abscess would present with swinging pyrexia and abdominal signs, not a localised fluctuant wound; CT would be needed if intra-abdominal abscess were suspected."
+  ],
+  "clinicalPearl": "A fluctuant post-operative wound abscess must be opened and drained — antibiotics cannot penetrate an abscess cavity and are adjunctive at best.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Peritoneum , mesentry.pdf",
+  "topic": "Secondary peritonitis — management",
+  "question": "A 67-year-old man with known diverticular disease presents with sudden-onset generalised abdominal pain and vomiting. He is unwell: temperature 39.1°C, pulse 122 bpm, BP 90/60 mmHg. Abdomen is board-rigid throughout. Erect CXR reveals free gas under both hemidiaphragms. After initial resuscitation with IV fluids and antibiotics, what is the definitive management?",
+  "options": [
+   "CT-guided percutaneous drainage of pericolic abscess",
+   "Urgent exploratory laparotomy with washout and likely Hartmann's procedure",
+   "Colonoscopy to identify and clip the perforation",
+   "Conservative management with broad-spectrum antibiotics and HDU monitoring",
+   "Laparoscopic lavage and drain insertion only"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Free gas on CXR confirms hollow viscus perforation causing generalised faecal peritonitis (Hinchey IV diverticulitis). In a haemodynamically compromised patient with board-rigid abdomen and generalised peritonitis, urgent exploratory laparotomy is mandatory. Hartmann's procedure (sigmoid resection with end colostomy) is the standard operation as primary anastomosis carries prohibitive leak risk in the setting of faecal contamination and sepsis.",
+  "wrongAnswerExplanations": [
+   "Percutaneous drainage is for Hinchey I/II (pericolic/pelvic abscess); generalised faecal peritonitis with free gas is Hinchey IV requiring open surgery.",
+   "Urgent laparotomy with Hartmann's procedure is correct — Hinchey IV diverticulitis with haemodynamic compromise requires emergency surgery to control the source.",
+   "Colonoscopy is absolutely contraindicated in the setting of acute perforation and peritonitis due to the risk of further contamination.",
+   "Conservative management is appropriate only for Hinchey I/II; board-rigid abdomen with free gas and haemodynamic compromise is a surgical emergency.",
+   "Laparoscopic lavage alone (without resection) has been abandoned for Hinchey IV due to high failure rates; resection is required to control the source."
+  ],
+  "clinicalPearl": "Free gas + generalised peritonitis + haemodynamic compromise = Hinchey IV diverticulitis requiring emergency laparotomy with Hartmann's procedure — do not attempt conservative management.",
+  "sourceLecture": "Acute abdomin.pdf"
+ },
+ {
+  "system": "Peritoneum , mesentry.pdf",
+  "topic": "Intra-abdominal abscess — liver abscess",
+  "question": "A 52-year-old man recently returned from a 3-month trip to India presents with 2 weeks of right upper quadrant pain, fever, and sweats. He drinks alcohol occasionally. Examination reveals tender hepatomegaly. Temperature is 38.9°C. LFTs show elevated ALP (320 U/L) and bilirubin (28 μmol/L). Ultrasound shows a single 8 cm hypoechoic lesion in the right lobe of the liver. Amoebic serology is positive. What is the most appropriate treatment?",
+  "options": [
+   "Emergency right hepatic lobectomy",
+   "Percutaneous needle aspiration and broad-spectrum antibiotics",
+   "Oral metronidazole alone",
+   "IV piperacillin-tazobactam for 4 weeks",
+   "Percutaneous catheter drainage and oral metronidazole"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "Amoebic liver abscess (caused by Entamoeba histolytica) responds dramatically to metronidazole in over 90% of cases. Unlike pyogenic liver abscess, aspiration or drainage is not required as first-line treatment unless the abscess is very large (>10 cm), at risk of rupture, or fails to respond to medical therapy. Positive amoebic serology confirms the diagnosis.",
+  "wrongAnswerExplanations": [
+   "Hepatic lobectomy is reserved for complex pyogenic or malignant lesions; it is not appropriate for amoebic abscess which responds to antibiotics.",
+   "Percutaneous aspiration with broad-spectrum antibiotics is the treatment for pyogenic (bacterial) liver abscess, not amoebic abscess.",
+   "Oral metronidazole alone is correct — amoebic liver abscess has >90% response rate to metronidazole; drainage is reserved for failure or very large/threatened rupture.",
+   "IV piperacillin-tazobactam targets bacteria; it has no activity against Entamoeba histolytica.",
+   "Catheter drainage is not required for amoebic abscess <10 cm with positive serology; metronidazole alone is the first-line treatment."
+  ],
+  "clinicalPearl": "Amoebic liver abscess responds to metronidazole in >90% of cases — drainage is only needed if >10 cm, failing to respond, or threatening rupture into the pericardium or peritoneum.",
+  "sourceLecture": "Acute abdomin.pdf"
+ }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Anterior mediastinal mass",
+    "question": "A 34-year-old woman presents with a 3-month history of progressive dyspnoea, ptosis of the right eyelid, and generalised fatigue that worsens with repeated activity. She reports double vision in the evenings. Chest X-ray reveals widening of the superior mediastinum. CT chest confirms a 6 cm lobulated anterior mediastinal mass. Acetylcholine receptor antibodies are strongly positive. Which of the following is the most appropriate next step in management?",
+    "options": [
+      "CT-guided core needle biopsy followed by chemotherapy alone",
+      "Thymectomy via median sternotomy with perioperative pyridostigmine optimisation",
+      "Radiotherapy to the anterior mediastinum",
+      "Initiate high-dose oral prednisolone and monitor with serial CT",
+      "Endobronchial ultrasound-guided biopsy and lymphoma staging"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has thymoma with associated myasthenia gravis, evidenced by fatigable ptosis, diplopia, positive AChR antibodies, and an anterior mediastinal mass. Thymectomy is the definitive treatment for thymoma and also improves myasthenic symptoms. Preoperative pyridostigmine optimisation reduces the risk of myasthenic crisis perioperatively. Median sternotomy provides the best exposure for complete resection.",
+    "wrongAnswerExplanations": [
+      "CT-guided biopsy may be considered for unresectable disease, but proceeding to chemotherapy alone without surgery is inappropriate for a resectable thymoma — surgery is the cornerstone of treatment.",
+      "Thymectomy with perioperative pyridostigmine optimisation is correct — it addresses both the thymoma and the underlying myasthenia gravis.",
+      "Radiotherapy alone is used adjuvantly post-resection for Masaoka stage II/III disease, not as primary treatment for a resectable mass.",
+      "Steroids can worsen myasthenic symptoms acutely and are not the primary management for a resectable thymoma; observation alone is inappropriate.",
+      "This mass is in the anterior mediastinum, not the middle mediastinum where lymphadenopathy would be sampled by EBUS; lymphoma staging is not the priority here given the clinical picture of thymoma with myasthenia."
+    ],
+    "clinicalPearl": "Thymoma is the most common anterior mediastinal mass in adults and is associated with myasthenia gravis in 30–50% of cases — always check AChR antibodies and optimise neuromuscular function before surgery."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Superior vena cava obstruction",
+    "question": "A 62-year-old male smoker presents to the emergency department with a 2-week history of worsening facial swelling, distended neck veins, and progressive breathlessness. He reports his collar has felt tight and his face looks puffier in the mornings. On examination there is facial plethora, bilateral arm oedema, and dilated superficial chest wall veins. CT of the chest with contrast shows a right hilar mass with near-total occlusion of the superior vena cava and mediastinal lymphadenopathy. What is the single most important emergency intervention?",
+    "options": [
+      "Urgent mediastinoscopy and tissue biopsy",
+      "Insertion of an SVC metallic stent with concurrent high-dose dexamethasone",
+      "Immediate pericardiocentesis for suspected cardiac tamponade",
+      "Systemic anticoagulation with low molecular weight heparin",
+      "Urgent radiotherapy to the mediastinum without tissue diagnosis"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has clinical superior vena cava (SVC) obstruction, most likely secondary to lung cancer. When obstruction is severe with compromising symptoms, endovascular SVC stenting provides the fastest symptomatic relief (within 24–72 hours) and is the preferred emergency intervention. High-dose dexamethasone reduces peritumoural oedema. Tissue diagnosis should follow, but not before relieving the acute obstruction.",
+    "wrongAnswerExplanations": [
+      "Mediastinoscopy under general anaesthesia is hazardous in SVC obstruction due to airway oedema and venous engorgement; urgent biopsy is not the emergency priority.",
+      "SVC stenting with dexamethasone is correct — it provides rapid symptomatic relief and is the gold standard emergency management for severe SVC syndrome.",
+      "Pericardiocentesis is indicated for cardiac tamponade; while pericardial effusion can coexist, the clinical picture here points to extrinsic SVC compression, not tamponade.",
+      "Anticoagulation may have a role if thrombosis is contributing, but it does not relieve mechanical obstruction and is not the primary emergency treatment.",
+      "Empirical radiotherapy without tissue diagnosis risks treating the wrong tumour type; small-cell lung cancer responds to chemotherapy, and lymphoma responds to very different regimens."
+    ],
+    "clinicalPearl": "SVC syndrome presenting with stridor, cerebral oedema, or rapidly progressive symptoms is a true oncological emergency — endovascular stenting relieves obstruction faster than radiotherapy or chemotherapy."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Posterior mediastinal mass — neurogenic tumour",
+    "question": "A 9-year-old boy is brought by his parents after they notice he has been limping and complaining of back pain for 6 weeks. He has also had episodes of sweating and flushing. On examination, his blood pressure is 148/92 mmHg. Chest X-ray shows a right paravertebral mass. CT chest confirms a 5 cm posterior mediastinal mass with extension into the right neural foramina. Urinary catecholamines are markedly elevated. What is the most likely diagnosis?",
+    "options": [
+      "Ewing sarcoma of the thoracic spine",
+      "Ganglioneuroblastoma",
+      "Lymphoma with posterior mediastinal involvement",
+      "Bronchogenic cyst",
+      "Descending thoracic aortic aneurysm"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Posterior mediastinal masses in children are most commonly neurogenic tumours arising from the sympathetic chain. Neuroblastoma and ganglioneuroblastoma are the most common malignant types. This child has a posterior mediastinal paravertebral mass with intraspinal extension (dumbbell tumour), hypertension, and elevated urinary catecholamines — all hallmarks of a catecholamine-secreting neurogenic tumour. Ganglioneuroblastoma is the best fit given the age and biochemical activity.",
+    "wrongAnswerExplanations": [
+      "Ewing sarcoma can occur in the chest wall but typically arises from ribs, not as a paravertebral mass with foraminal extension and catecholamine secretion.",
+      "Ganglioneuroblastoma is correct — posterior mediastinal location, paravertebral with foraminal extension, hypertension, and elevated urinary catecholamines in a child are characteristic.",
+      "Lymphoma can involve the posterior mediastinum but would not typically cause elevated urinary catecholamines or foraminal extension in this pattern.",
+      "Bronchogenic cysts are middle mediastinal developmental lesions; they are not catecholamine-secreting and do not extend into neural foramina.",
+      "Thoracic aortic aneurysm would not cause elevated catecholamines, is not typical in children, and would not produce foraminal extension on CT."
+    ],
+    "clinicalPearl": "In children, posterior mediastinal masses with paravertebral location and elevated urinary catecholamines point to neurogenic tumours (neuroblastoma/ganglioneuroblastoma) — always check for intraspinal extension before surgery."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "3-Chest wall deformity.pdf",
+    "topic": "Pectus excavatum",
+    "question": "A 16-year-old boy is referred to a thoracic surgeon because his sternum curves inward. He reports shortness of breath on exertion and has noticed he cannot keep up with his peers during football. He is self-conscious about his appearance. On examination there is a significant concave deformity of the anterior chest wall. CT chest demonstrates a Haller index of 4.2. Pulmonary function tests show mild restrictive pattern. Echocardiogram shows mild right ventricular compression. What is the most appropriate management?",
+    "options": [
+      "Reassurance and physiotherapy — no surgical intervention required",
+      "Open Ravitch procedure (sternal osteotomy and cartilage resection)",
+      "Minimally invasive Nuss procedure (insertion of retrosternal bar)",
+      "Chest wall bracing and respiratory physiotherapy for 12 months",
+      "Referral to cardiology for management of right ventricular dysfunction only"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This teenager has symptomatic pectus excavatum with objective evidence of severity (Haller index >3.2), cardiorespiratory compromise (right ventricular compression, restrictive defect, exercise intolerance), and psychosocial impact. The Nuss procedure — insertion of a curved retrosternal bar through small lateral incisions — is now the procedure of choice for adolescents and young adults due to its minimally invasive nature and excellent outcomes. Surgery is indicated given the Haller index and physiological compromise.",
+    "wrongAnswerExplanations": [
+      "Reassurance is inappropriate given a Haller index of 4.2 (>3.2 indicates significant deformity), symptomatic cardiorespiratory compromise, and psychological impact — this patient meets criteria for surgical repair.",
+      "The open Ravitch procedure is an effective alternative but involves greater morbidity than the Nuss procedure; it is preferred in older adults or revision cases, not first-line in a teenager.",
+      "The Nuss procedure is correct — it is minimally invasive, highly effective in adolescents, and directly addresses the Haller index, cardiorespiratory compromise, and cosmetic concerns.",
+      "Bracing has no proven benefit in pectus excavatum and is not standard of care; it may have a role in carinatum but not excavatum.",
+      "Addressing only the RV dysfunction without correcting the structural deformity would not resolve the underlying cause of compression — surgical correction is the definitive treatment."
+    ],
+    "clinicalPearl": "Surgical repair of pectus excavatum is indicated when the Haller index exceeds 3.2 combined with cardiorespiratory compromise or significant psychosocial impact — the Nuss procedure is the preferred minimally invasive approach in adolescents."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Middle mediastinal mass — lymphoma",
+    "question": "A 24-year-old woman presents with a 6-week history of painless cervical lymphadenopathy, drenching night sweats, and 8 kg unintentional weight loss. She also complains of alcohol-induced pain in her neck nodes. Chest X-ray shows widening of the superior mediastinum. CT chest reveals bulky anterior and middle mediastinal lymphadenopathy with no lung parenchymal involvement. PET-CT confirms intense FDG uptake in the mediastinal nodes and bilateral neck nodes. What is the most appropriate next investigation to guide definitive treatment?",
+    "options": [
+      "CT-guided needle biopsy of a mediastinal node",
+      "Excision biopsy of an accessible cervical lymph node for histology and immunohistochemistry",
+      "Bone marrow trephine biopsy alone",
+      "Mediastinoscopy under general anaesthesia as first-line investigation",
+      "Serum LDH and BHCG to exclude germ cell tumour"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This young woman has classic B symptoms (night sweats, weight loss), alcohol-induced pain in lymph nodes (pathognomonic for Hodgkin lymphoma), and mediastinal lymphadenopathy. The diagnostic priority is obtaining adequate tissue for histology and immunohistochemistry to distinguish Hodgkin from non-Hodgkin lymphoma and determine the subtype, as this dictates treatment. Excision biopsy of an accessible peripheral node provides the best tissue quality for full characterisation.",
+    "wrongAnswerExplanations": [
+      "CT-guided needle biopsy yields small cores that may be insufficient for the architecture-based diagnosis of Hodgkin lymphoma; excision biopsy is preferred when an accessible node is available.",
+      "Excision biopsy of a cervical node is correct — it provides adequate tissue for full histological subtyping and immunohistochemistry, which is essential for distinguishing Hodgkin from non-Hodgkin lymphoma.",
+      "Bone marrow biopsy is part of staging after the primary diagnosis is made, not the first investigation.",
+      "Mediastinoscopy is invasive and reserved for situations where peripheral nodes are not accessible or biopsy is not diagnostic; it should not be first-line when a cervical node is available.",
+      "Serum markers are important for excluding germ cell tumours and should be checked, but the alcohol-induced pain and B symptoms make lymphoma far more likely — histology remains the definitive investigation."
+    ],
+    "clinicalPearl": "Alcohol-induced pain in lymph nodes is nearly pathognomonic for Hodgkin lymphoma — always obtain excision biopsy of the most accessible node to ensure adequate tissue for architectural diagnosis."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Thymoma and myasthenic crisis",
+    "question": "A 52-year-old man with known thymoma and myasthenia gravis, currently on pyridostigmine 60 mg four times daily, is admitted to ITU with rapidly progressive respiratory failure, severe dysphagia, and inability to lift his head off the pillow. He recently completed a 5-day course of oral clarithromycin for a chest infection. ABG shows PaCO2 61 mmHg and PaO2 58 mmHg on air. What is the immediate priority in his management?",
+    "options": [
+      "Increase pyridostigmine dose to 120 mg four times daily",
+      "Intravenous neostigmine infusion",
+      "Endotracheal intubation and mechanical ventilation followed by plasma exchange or IVIG",
+      "Urgent thymectomy",
+      "High-dose intravenous methylprednisolone"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient is in myasthenic crisis — life-threatening respiratory failure (CO2 retention, hypoxaemia) triggered by the antibiotic clarithromycin (a known precipitant). The immediate priority is securing the airway and supporting ventilation, as respiratory failure is the leading cause of death. Following stabilisation, plasma exchange or IVIG accelerates resolution of the crisis by removing or neutralising acetylcholine receptor antibodies.",
+    "wrongAnswerExplanations": [
+      "Increasing pyridostigmine risks cholinergic crisis (excessive secretions, bronchospasm) and does not address the acute respiratory failure — the airway must be secured first.",
+      "IV neostigmine carries the same risk of cholinergic toxicity and does not replace the need for mechanical ventilation in established respiratory failure.",
+      "Intubation and mechanical ventilation followed by plasma exchange or IVIG is correct — it immediately secures the airway and the immunotherapy treats the underlying crisis.",
+      "Urgent thymectomy is contraindicated during acute myasthenic crisis; surgery carries extreme risk when the patient is in respiratory failure and neuromuscular blockade is maximal.",
+      "High-dose steroids can paradoxically worsen myasthenic symptoms acutely (steroid dip) and are not the first-line immunotherapy in acute crisis — plasma exchange or IVIG are preferred."
+    ],
+    "clinicalPearl": "Myasthenic crisis requires immediate airway protection and ventilatory support — macrolide antibiotics, aminoglycosides, and fluoroquinolones are common precipitants that should be avoided in myasthenia gravis."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "3-Chest wall deformity.pdf",
+    "topic": "Pectus carinatum",
+    "question": "A 14-year-old boy is brought to clinic by his parents, who are concerned about a prominent chest deformity. The boy is embarrassed and refuses to take his shirt off at school. On examination, the sternum protrudes anteriorly, giving a 'pigeon chest' appearance. There is no dyspnoea, cardiac murmur, or respiratory compromise. Spirometry is normal. What is the most appropriate initial management?",
+    "options": [
+      "Urgent referral for open Ravitch chest wall reconstruction",
+      "Nuss bar insertion as for pectus excavatum",
+      "Dynamic chest wall compression orthosis (bracing)",
+      "Reassurance only — no intervention required as condition is self-limiting",
+      "Lateral chest X-ray and echocardiogram to exclude associated cardiac defect"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Pectus carinatum (pigeon chest) in a skeletally immature adolescent without cardiorespiratory compromise is best managed initially with external dynamic compression bracing. Unlike pectus excavatum, bracing is effective in carinatum due to the chest wall's compliance during growth. Surgery (Ravitch procedure) is reserved for cases where bracing fails or the deformity is severe or in a skeletally mature patient.",
+    "wrongAnswerExplanations": [
+      "Ravitch reconstruction is a major open procedure reserved for bracing failure or adult patients — it is not the first-line approach in a skeletally immature teenager with no physiological compromise.",
+      "The Nuss procedure involves insertion of a retrosternal bar and is designed for pectus excavatum (concave deformity), not carinatum (convex); it is not appropriate here.",
+      "Dynamic compression bracing is correct — it is the first-line treatment for pectus carinatum in growing adolescents and achieves good correction rates with prolonged use.",
+      "While reassurance is part of the consultation, dismissing treatment in a teenager with significant psychosocial impact from the deformity is not appropriate when effective non-surgical treatment exists.",
+      "Investigating for associated cardiac defect may be appropriate as part of a thorough assessment but is not the management decision — the question asks for treatment, and bracing is the answer."
+    ],
+    "clinicalPearl": "Unlike pectus excavatum, pectus carinatum responds well to external dynamic compression bracing in skeletally immature patients — surgery is reserved for bracing failure or skeletal maturity."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Posterior mediastinal mass — oesophageal origin",
+    "question": "A 58-year-old man presents with progressive dysphagia to solids for 4 months, followed more recently by dysphagia to liquids. He has lost 9 kg in weight. A barium swallow shows a smooth posterior indentation of the oesophagus at the level of T4-T5. CT chest shows a well-defined cystic posterior mediastinal mass intimately associated with the oesophagus, without invasion of surrounding structures. Endoscopy shows extrinsic compression without mucosal abnormality. What is the most likely diagnosis?",
+    "options": [
+      "Oesophageal squamous cell carcinoma",
+      "Oesophageal duplication cyst",
+      "Achalasia of the cardia",
+      "Neurogenic tumour of the posterior mediastinum",
+      "Descending thoracic aortic aneurysm"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An oesophageal duplication cyst is a congenital posterior mediastinal lesion typically closely adherent to the oesophageal wall. It presents with dysphagia due to extrinsic compression, appears as a well-defined smooth cystic mass on CT, and shows intact normal mucosa on endoscopy (unlike carcinoma). The smooth barium swallow indentation without mucosal irregularity strongly favours a benign cystic lesion.",
+    "wrongAnswerExplanations": [
+      "Oesophageal squamous cell carcinoma would show mucosal irregularity or a filling defect on barium swallow and endoscopy, and would appear as a solid mass on CT, not a well-defined cyst.",
+      "Oesophageal duplication cyst is correct — smooth cystic posterior mediastinal mass intimately associated with the oesophagus, intact mucosa on endoscopy, and smooth barium indentation are all characteristic.",
+      "Achalasia causes a dilated oesophagus with a bird's beak narrowing at the cardia on barium swallow — it would not produce a discrete posterior mediastinal cystic mass.",
+      "Neurogenic tumours arise from the sympathetic chain or intercostal nerves and are typically located more posteriorly and laterally (paravertebral); they are not intimately associated with the oesophageal wall in this manner.",
+      "A descending thoracic aortic aneurysm would be vascular, pulsatile, and clearly distinct from the oesophagus on CT with contrast; it would not appear as a cystic mass adherent to the oesophageal wall."
+    ],
+    "clinicalPearl": "Oesophageal duplication cysts are posterior mediastinal lesions closely related to the oesophageal wall — the endoscopic finding of intact overlying mucosa distinguishes them from carcinoma."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Anterior mediastinal mass — germ cell tumour",
+    "question": "A 27-year-old man presents with a 6-week history of chest pain, dyspnoea, and progressive swelling of his face and neck. He also notices one of his testicles feels enlarged but denies any pain. Chest X-ray confirms a large anterior mediastinal mass. CT chest shows a heterogeneous 12 cm anterior mediastinal mass with areas of calcification and low-density areas. Serum AFP is markedly elevated at 2800 ng/mL and beta-hCG is mildly elevated. What is the most important next investigation to perform before starting treatment?",
+    "options": [
+      "Urgent mediastinoscopy for tissue biopsy",
+      "Testicular ultrasound to determine whether this is a primary mediastinal or metastatic germ cell tumour",
+      "PET-CT scan for staging",
+      "Bilateral testicular biopsy",
+      "CT-guided biopsy of the mediastinal mass"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The clinical picture is strongly suggestive of a non-seminomatous germ cell tumour (AFP elevation is characteristic). Before committing to a diagnosis of primary mediastinal GCT, it is essential to exclude a testicular primary with mediastinal metastasis, as the two have different staging, prognosis, and management pathways. Testicular ultrasound is quick, non-invasive, and mandatory — even a 'normal' feeling testis can harbour an occult primary.",
+    "wrongAnswerExplanations": [
+      "Mediastinoscopy under GA carries significant risk in a patient with a large anterior mediastinal mass causing SVC compression; less invasive approaches should be used unless necessary.",
+      "Testicular ultrasound is correct — it is mandatory to exclude a testicular primary before labelling a GCT as primary mediastinal, as this has major prognostic and staging implications.",
+      "PET-CT is important for staging but should come after confirming the origin of the tumour — it does not answer the question of primary versus secondary mediastinal GCT.",
+      "Bilateral testicular biopsy is invasive and unnecessary when ultrasound can identify a primary testicular lesion non-invasively.",
+      "CT-guided biopsy of the mediastinal mass may eventually be needed but is not the single most important next step — establishing whether a testicular primary exists changes the entire management pathway."
+    ],
+    "clinicalPearl": "In any young man with an anterior mediastinal mass and elevated AFP/hCG, testicular ultrasound is mandatory before treatment to exclude a testicular primary — primary mediastinal GCT carries a worse prognosis than testicular GCT with mediastinal metastasis."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Middle mediastinal mass — bronchogenic cyst",
+    "question": "A 31-year-old woman is seen in clinic after an incidental finding on a chest X-ray taken for a minor chest infection. She is entirely asymptomatic. CT chest shows a 4 cm well-defined, thin-walled, smooth, homogeneous water-density (HU -10 to +20) mass in the middle mediastinum adjacent to the carina. There is no calcification and no contrast enhancement. She asks whether she needs an operation. What would be your recommendation?",
+    "options": [
+      "Immediate surgical resection due to high risk of malignant transformation",
+      "CT-guided aspiration of the cyst followed by sclerotherapy",
+      "Elective surgical resection (VATS or open) is recommended even in asymptomatic cases to prevent future complications",
+      "Annual surveillance CT scan only — surgical resection is only indicated if symptoms develop",
+      "Mediastinoscopy and excision biopsy to exclude lymphoma"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Bronchogenic cysts are the most common middle mediastinal cysts. Even when asymptomatic, elective surgical resection is generally recommended because they can cause serious complications including infection (becoming an abscess), haemorrhage, rupture into the airway, and very rarely malignant transformation. VATS offers a minimally invasive approach with excellent outcomes. Surveillance alone is associated with a significant risk of complications over time.",
+    "wrongAnswerExplanations": [
+      "While surgery is recommended, 'immediate' suggests urgency — these are elective cases. The word 'immediate' is also incorrect in framing; the indication for surgery is elective prevention of complications, not emergency.",
+      "CT-guided aspiration has a very high recurrence rate and does not address the risk of future complications; it is not standard management for bronchogenic cysts.",
+      "Elective surgical resection is correct — even asymptomatic bronchogenic cysts carry a lifetime risk of infection, haemorrhage, and airway compromise; excision provides definitive cure.",
+      "Surveillance alone is associated with a 60–70% rate of eventual complications; guidelines recommend elective resection even for asymptomatic cysts in fit patients.",
+      "Mediastinoscopy is an invasive procedure without specific indication here — CT characteristics are typical of a bronchogenic cyst (water density, thin wall, no enhancement); there is no clinical suspicion of lymphoma."
+    ],
+    "clinicalPearl": "Bronchogenic cysts, even when asymptomatic, should be electively resected — lifetime complication rates (infection, haemorrhage, airway compression) justify surgery over surveillance in fit patients."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Superior vena cava obstruction — benign cause",
+    "question": "A 45-year-old woman with no history of malignancy presents with a 3-month progressive swelling of her face, neck, and arms, particularly in the mornings. She has no B symptoms and no weight loss. She does have a permanent pacemaker implanted 18 months ago. Examination shows facial plethora, bilateral arm pitting oedema, dilated chest wall veins, and Pemberton's sign. CT venogram shows near-complete occlusion of the superior vena cava with extensive peri-lead thrombus. What is the most likely cause of her SVC obstruction?",
+    "options": [
+      "Primary mediastinal lymphoma",
+      "Small cell lung carcinoma compressing the SVC",
+      "Thrombosis related to pacemaker lead",
+      "Fibrosing mediastinitis",
+      "Primary SVC leiomyosarcoma"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The key discriminating feature is the pacemaker implanted 18 months ago combined with peri-lead thrombus on CT venogram. Intravascular device-related thrombosis (pacemaker or central venous catheters) is an increasingly recognised benign cause of SVC syndrome. The absence of malignancy history, B symptoms, or mediastinal mass makes a neoplastic cause less likely. This requires anticoagulation and potentially lead extraction or endovascular intervention.",
+    "wrongAnswerExplanations": [
+      "Lymphoma would be expected to show mediastinal lymphadenopathy on CT and systemic B symptoms — neither is present here.",
+      "Small cell lung cancer is a common cause of malignant SVC obstruction but typically presents with a hilar/mediastinal mass on CT and a smoking history — this is absent here.",
+      "Pacemaker lead thrombosis is correct — the peri-lead thrombus on CT venogram in the context of a recently implanted pacemaker is the most likely cause of benign SVC obstruction.",
+      "Fibrosing mediastinitis is a rare cause of benign SVC obstruction (often post-histoplasma or post-radiotherapy) and would show diffuse mediastinal fibrosis on CT, not peri-lead thrombus.",
+      "Primary SVC leiomyosarcoma is exceedingly rare and would appear as an intraluminal enhancing solid mass rather than peri-lead thrombus."
+    ],
+    "clinicalPearl": "Not all SVC syndrome is malignant — pacemaker leads, central venous catheters, and implanted ports are an important benign cause; always correlate CT venogram findings with device history."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "3-Chest wall deformity.pdf",
+    "topic": "Pectus excavatum — Haller index interpretation",
+    "question": "A 19-year-old male athlete is referred for evaluation of chest wall deformity. He reports exertional dyspnoea that limits his competitive swimming. On examination, a funnel-shaped sternal depression is noted. CT chest is performed and the measurements show a transverse chest diameter of 28 cm and an anteroposterior diameter at the deepest point of 7.5 cm. Echocardiography shows mitral valve prolapse and mild right heart compression. Which of the following statements about his Haller index and suitability for surgery is most accurate?",
+    "options": [
+      "Haller index 2.6 — below the surgical threshold; reassurance and physiotherapy advised",
+      "Haller index 3.7 — above surgical threshold; he meets multiple operative criteria and should be offered surgery",
+      "Haller index 4.8 — severe; requires emergency decompression",
+      "Haller index 3.0 — borderline; surgery only if purely cosmetic concerns are present",
+      "Haller index 2.0 — normal chest; findings attributable to deconditioning"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Haller index is calculated as transverse diameter divided by AP diameter: 28 / 7.5 = 3.73. A Haller index >3.25 is the threshold for surgical consideration. This patient also has cardiorespiratory compromise (exertional dyspnoea, right heart compression, mitral valve prolapse — a recognised association with pectus excavatum), meeting multiple operative criteria. Surgery (Nuss procedure) is appropriate.",
+    "wrongAnswerExplanations": [
+      "Haller index of 2.6 would indicate mild deformity below the surgical threshold, but the calculated value here is 28/7.5 = 3.73 — this is incorrect arithmetic and the wrong clinical conclusion.",
+      "Haller index 3.7 is correct — 28 divided by 7.5 equals approximately 3.73, which exceeds the 3.25 threshold; combined with symptomatic cardiorespiratory compromise and MVP, he clearly meets operative criteria.",
+      "While the Haller index here is elevated, 3.73 does not represent an emergency — 'emergency decompression' is not a concept in pectus excavatum management, and the index of 4.8 is arithmetically incorrect.",
+      "Haller index of 3.0 is incorrect (28/7.5 = 3.73); furthermore, this patient has objective cardiorespiratory compromise beyond cosmetic concerns, which already justifies surgery.",
+      "A Haller index of 2.0 would be normal, but 28/7.5 = 3.73 — attributing symptoms to deconditioning is incorrect when there is echocardiographic evidence of cardiac compression."
+    ],
+    "clinicalPearl": "The Haller index (transverse chest diameter / AP diameter) >3.25 indicates significant pectus excavatum; surgical repair is indicated when this threshold is crossed and is reinforced by cardiorespiratory compromise, cardiac compression, or significant psychosocial impact."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "anatomy of mediastinum and its disorders.pptx",
+    "topic": "Mediastinitis — acute descending necrotising",
+    "question": "A 38-year-old man presents to the emergency department with high fever (39.8°C), severe retrosternal chest pain radiating to the neck, and rapidly progressive neck swelling 4 days after dental extraction. He appears toxic and septic. CT neck and chest with contrast shows extensive gas-containing fluid collections extending from the floor of mouth, through the deep neck spaces, and into the superior and posterior mediastinum. Which of the following is the most appropriate management?",
+    "options": [
+      "IV broad-spectrum antibiotics and close observation in HDU",
+      "CT-guided percutaneous drainage of mediastinal collections",
+      "Emergency surgical drainage via cervical and transthoracic approach combined with broad-spectrum IV antibiotics",
+      "IV antibiotics and flexible oesophagoscopy to exclude oesophageal perforation",
+      "Cardiothoracic surgery referral for elective mediastinal exploration next working day"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This is descending necrotising mediastinitis (DNM), a life-threatening condition with mortality up to 40% even with prompt treatment. It originates from odontogenic infection spreading along fascial planes to the mediastinum. Gas-containing collections confirm necrotising infection. Treatment requires emergency surgical drainage — typically combined cervicotomy and transthoracic (thoracotomy or VATS) drainage — alongside broad-spectrum IV antibiotics covering polymicrobial organisms including anaerobes. Antibiotics alone or minimally invasive drainage are inadequate for established DNM.",
+    "wrongAnswerExplanations": [
+      "Antibiotics alone without surgical drainage are inadequate for necrotising mediastinitis — established collections with gas cannot be sterilised with antibiotics alone and carry >80% mortality without surgery.",
+      "CT-guided percutaneous drainage is insufficient for necrotising mediastinitis — the viscous, necrotic, multi-loculated collections require surgical debridement; percutaneous drainage does not achieve adequate source control.",
+      "Emergency surgical drainage with combined cervical and transthoracic approach plus broad-spectrum antibiotics is correct — this is the definitive management for descending necrotising mediastinitis.",
+      "Oesophagoscopy is relevant when oesophageal perforation is the suspected cause; while it should be considered in the workup, the immediate management priority is emergency surgical drainage, not endoscopy.",
+      "Elective surgery 'next day' is inappropriate — DNM has a mortality that increases rapidly with time; this patient requires emergency theatre within hours, not elective planning."
+    ],
+    "clinicalPearl": "Descending necrotising mediastinitis from odontogenic or pharyngeal infection is a surgical emergency — gas in mediastinal collections demands combined cervical and transthoracic surgical drainage, not antibiotics alone."
+  }
+]

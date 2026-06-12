@@ -1,0 +1,301 @@
+[
+  {
+    "system": "git",
+    "sourceLecture": "Hernia 4.pdf",
+    "topic": "Indirect inguinal hernia",
+    "question": "A 28-year-old man presents to the surgical outpatient clinic with a 3-month history of a groin swelling on the right side that appears when he coughs or strains and disappears when he lies down. He works as a labourer. On examination there is an impulse felt at the deep inguinal ring when he coughs, and the swelling reduces completely on lying down. Occlusion of the deep ring controls the swelling. What is the most likely diagnosis?",
+    "options": [
+      "Direct inguinal hernia",
+      "Indirect inguinal hernia",
+      "Femoral hernia",
+      "Saphena varix",
+      "Inguinal lymphadenopathy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An indirect inguinal hernia passes through the deep inguinal ring lateral to the inferior epigastric vessels and descends along the inguinal canal. The key clinical feature is that occlusion of the deep ring prevents the hernia from appearing — a finding that distinguishes indirect from direct inguinal hernia. The young male demographic and occupational strain are consistent risk factors.",
+    "wrongAnswerExplanations": [
+      "A direct inguinal hernia passes through Hesselbach's triangle medial to the inferior epigastric vessels and is not controlled by occlusion of the deep ring; it bulges directly forward and is more common in older men.",
+      "Indirect inguinal hernia is correct: the hernia enters via the deep inguinal ring and is controlled by pressure at that point, consistent with this presentation.",
+      "A femoral hernia presents below and lateral to the pubic tubercle, is more common in women, and would not be controlled by pressure over the deep inguinal ring.",
+      "A saphena varix is a dilation of the long saphenous vein at the saphenofemoral junction; it has a fluid thrill on coughing but is compressible and disappears on lying — it would not be controlled by deep ring occlusion.",
+      "Inguinal lymphadenopathy does not transmit a cough impulse, does not reduce on lying down, and is not controlled by deep ring occlusion."
+    ],
+    "clinicalPearl": "Occlusion of the deep inguinal ring controls an indirect inguinal hernia but not a direct one — a simple bedside test to distinguish the two types."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Hernia 4.pdf",
+    "topic": "Femoral hernia — strangulation risk",
+    "question": "A 65-year-old woman presents to the emergency department with a 6-hour history of a painful, irreducible lump in the right groin. She reports nausea and one episode of vomiting. On examination the swelling is 2 cm, firm, tender, situated below and lateral to the pubic tubercle, and does not transilluminate. There is no cough impulse. What is the most appropriate next step in management?",
+    "options": [
+      "Reassure and discharge with elective outpatient referral",
+      "Attempt manual reduction under sedation and discharge if successful",
+      "Urgent surgical exploration and repair",
+      "CT scan of the abdomen and pelvis to confirm diagnosis before any intervention",
+      "Prescribe analgesia and review in 24 hours"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This presentation is consistent with a strangulated femoral hernia: a painful, irreducible lump below and lateral to the pubic tubercle in an elderly woman with vomiting. Femoral hernias have the highest risk of strangulation of all groin hernias due to the rigid femoral ring. Urgent surgical exploration is required to prevent bowel infarction; delay risks irreversible ischaemia and perforation.",
+    "wrongAnswerExplanations": [
+      "Discharge with elective referral is dangerous — a strangulated hernia requires emergency surgery; delay risks bowel infarction and perforation.",
+      "Manual reduction of a potentially strangulated hernia is contraindicated: if the bowel is already necrotic, reducing it into the abdomen would cause peritoneal contamination.",
+      "Urgent surgical exploration and repair is correct: this is a surgical emergency with signs of strangulation (pain, irreducibility, tenderness, vomiting).",
+      "CT may assist in equivocal cases but should not delay surgery when clinical signs of strangulation are clear; clinical diagnosis is sufficient to proceed to theatre.",
+      "Analgesia and 24-hour review is inappropriate for a strangulated hernia and risks progression to bowel gangrene and perforation within hours."
+    ],
+    "clinicalPearl": "Femoral hernias strangulate more frequently than inguinal hernias because of the narrow, rigid femoral ring — any irreducible, painful femoral hernia demands urgent surgery."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Hernia 4.pdf",
+    "topic": "Inguinal hernia — distinguishing direct vs indirect",
+    "question": "A 70-year-old man with a long history of chronic obstructive pulmonary disease and constipation presents with bilateral groin swellings present for 2 years. He reports the swellings appear when he stands and reduce on lying down. On examination, the right swelling lies medial to the inferior epigastric vessels and bulges directly forward through the posterior wall of the inguinal canal. It is not controlled by pressure over the deep inguinal ring. What type of hernia is this?",
+    "options": [
+      "Indirect inguinal hernia",
+      "Direct inguinal hernia",
+      "Femoral hernia",
+      "Pantaloon hernia",
+      "Obturator hernia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A direct inguinal hernia passes through Hesselbach's triangle (bounded by the inguinal ligament inferiorly, the inferior epigastric vessels laterally, and the rectus sheath medially). It bulges directly forward through the posterior wall (transversalis fascia) and is NOT controlled by occluding the deep inguinal ring. Chronic raised intra-abdominal pressure (COPD, constipation) is a recognised risk factor.",
+    "wrongAnswerExplanations": [
+      "An indirect inguinal hernia enters through the deep ring lateral to the inferior epigastric vessels and is controlled by deep ring occlusion — neither finding is present here.",
+      "Direct inguinal hernia is correct: medial to the inferior epigastric vessels, bulges forward through the posterior wall, and is not controlled by the deep ring.",
+      "A femoral hernia lies below the inguinal ligament, below and lateral to the pubic tubercle — this swelling is within the inguinal canal.",
+      "A pantaloon hernia has both direct and indirect components straddling the inferior epigastric vessels; while possible, the description here is solely of a medial bulge not controlled by the deep ring.",
+      "An obturator hernia passes through the obturator foramen in the medial thigh and is not palpable in the inguinal canal."
+    ],
+    "clinicalPearl": "Direct inguinal hernias result from weakness of the transversalis fascia (Hesselbach's triangle) and are not controlled by deep ring occlusion — unlike indirect hernias."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Hernia 5.pdf",
+    "topic": "Incisional hernia",
+    "question": "A 58-year-old obese woman (BMI 34) presents 18 months after an emergency laparotomy for perforated diverticulitis. She describes a progressively enlarging bulge at the midline scar that is uncomfortable but reducible. On examination there is a 6 cm defect palpable in the linea alba with a large peritoneal sac. She takes metformin for type 2 diabetes. What is the single most important modifiable risk factor that should be optimised before elective repair?",
+    "options": [
+      "Optimise glycaemic control",
+      "Weight reduction",
+      "Smoking cessation",
+      "Treatment of chronic cough",
+      "Correction of nutritional deficiency"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Obesity is the strongest independent modifiable risk factor for incisional hernia formation and recurrence after repair. A BMI >30 dramatically increases wound tension, impairs healing, and raises intra-abdominal pressure. Weight reduction before elective repair is the single most important intervention to improve outcomes and reduce recurrence. All other factors are important but secondary to BMI in this patient.",
+    "wrongAnswerExplanations": [
+      "Optimising glycaemic control reduces infection risk and improves wound healing and is important, but in this obese patient weight reduction has a greater overall impact on hernia recurrence and repair success.",
+      "Weight reduction is correct: obesity is the leading modifiable risk factor for incisional hernia development and recurrence; reducing BMI significantly improves repair outcomes.",
+      "Smoking cessation is important for wound healing and anaesthetic risk but this patient is not described as a smoker, and weight is the dominant risk factor here.",
+      "Chronic cough raises intra-abdominal pressure and should be treated, but is not described in this patient and is not the primary concern.",
+      "Nutritional deficiency impairs healing; however, there is no specific indication of malnutrition in this patient, and obesity/BMI is the dominant risk factor."
+    ],
+    "clinicalPearl": "Obesity (BMI >30) is the single greatest modifiable risk factor for incisional hernia and recurrence — weight loss before elective repair significantly improves outcomes."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Hernia 5.pdf",
+    "topic": "Umbilical hernia in adults",
+    "question": "A 45-year-old man with known liver cirrhosis and ascites presents with an umbilical hernia that has become acutely painful and irreducible over the past 12 hours. The overlying skin is erythematous and shiny. He is haemodynamically stable. His INR is 2.1. What is the most appropriate immediate management?",
+    "options": [
+      "Elective repair after optimisation of liver function",
+      "Emergency surgical repair with mesh",
+      "Paracentesis to reduce intra-abdominal pressure, then reassess",
+      "Manual reduction under sedation and reassess",
+      "Conservative management with compression dressing"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An acutely painful, irreducible umbilical hernia with overlying skin changes represents impending or established strangulation, which is a surgical emergency regardless of the underlying liver disease. Emergency repair is required. While cirrhosis increases operative risk, untreated strangulation carries higher mortality. Skin erythema indicates potential necrosis of the hernia contents or overlying skin, making urgent intervention mandatory.",
+    "wrongAnswerExplanations": [
+      "Elective repair after optimisation is appropriate for a reducible, asymptomatic umbilical hernia in cirrhosis, but not for an acutely strangulated hernia where delay risks bowel infarction and rupture.",
+      "Emergency surgical repair is correct: signs of strangulation (pain, irreducibility, skin erythema) mandate urgent surgery despite the coagulopathy, which should be corrected perioperatively.",
+      "Paracentesis can help with reducible umbilical hernias in cirrhosis by reducing ascites pressure, but it does not address strangulation and would delay essential surgery.",
+      "Manual reduction is contraindicated when strangulation is suspected, as reducing necrotic bowel into the peritoneal cavity can cause peritonitis.",
+      "Conservative management with compression is appropriate only for asymptomatic reducible hernias; it is dangerous in strangulation."
+    ],
+    "clinicalPearl": "Umbilical hernias in cirrhotics with ascites have a high risk of strangulation and skin necrosis — acute pain and irreducibility demand emergency repair despite elevated operative risk."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Hernia 5.pdf",
+    "topic": "Obstructed inguinal hernia",
+    "question": "A 72-year-old man presents to A&E with colicky central abdominal pain, vomiting, abdominal distension, and absolute constipation for 36 hours. He has a tender, non-reducible swelling in the right groin that he previously could reduce himself. Erect chest X-ray shows no free air. Abdominal X-ray shows dilated small bowel loops. What is the most likely diagnosis and the best next step?",
+    "options": [
+      "Adhesional small bowel obstruction — nasogastric tube, IV fluids, and watchful waiting",
+      "Obstructed right inguinal hernia — urgent surgical repair after resuscitation",
+      "Incarcerated femoral hernia — CT abdomen to confirm then elective repair",
+      "Large bowel obstruction due to sigmoid volvulus — flexible sigmoidoscopy",
+      "Acute appendicitis with perforation — emergency appendicectomy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The clinical picture — small bowel obstruction combined with a previously reducible but now irreducible tender groin swelling — is diagnostic of an obstructed inguinal hernia. This is a surgical emergency. After rapid resuscitation (IV fluids, nasogastric tube, urinary catheter), urgent operative repair is required to relieve the obstruction and assess bowel viability. Delayed surgery risks progression to strangulation.",
+    "wrongAnswerExplanations": [
+      "Adhesional obstruction is the most common cause of small bowel obstruction overall, but the presence of an irreducible tender groin hernia is the cause here; conservative management would be inappropriate and dangerous.",
+      "Obstructed right inguinal hernia with urgent repair after resuscitation is correct: the combination of small bowel obstruction and irreducible tender inguinal swelling defines this diagnosis.",
+      "A femoral hernia is possible but would lie below and lateral to the pubic tubercle; the history of a previously reducible inguinal swelling makes incarcerated inguinal hernia more likely. CT should not delay surgery in obstruction.",
+      "Sigmoid volvulus causes large bowel obstruction with a characteristic 'coffee-bean' sign on AXR; it is not associated with a groin swelling.",
+      "Acute appendicitis does not cause a groin swelling or the classic features of small bowel obstruction described here."
+    ],
+    "clinicalPearl": "Always examine the hernial orifices in any patient presenting with small bowel obstruction — an irreducible, tender groin lump is often the cause and mandates urgent surgery."
+  },
+  {
+    "system": "Hernia 4.pdf",
+    "sourceLecture": "Hernia 4.pdf",
+    "topic": "Richter's hernia",
+    "question": "A 68-year-old woman presents with a 2-day history of vague lower abdominal pain and a small, firm, non-tender swelling in the right femoral region that her GP noted incidentally. She has no vomiting, no absolute constipation, and her bowels have been opening normally. On urgent surgical review the hernia is found to be irreducible. At operation, only part of the circumference of the bowel wall is found to be trapped within the femoral ring, with no obstruction of the bowel lumen. What is the name of this hernia variant?",
+    "options": [
+      "Maydl's hernia",
+      "Littre's hernia",
+      "Richter's hernia",
+      "Sliding hernia",
+      "Pantaloon hernia"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Richter's hernia is defined as entrapment of only part of the circumference of the bowel wall in the hernia sac, without obstruction of the bowel lumen. Because the lumen remains patent, classic features of bowel obstruction (vomiting, absolute constipation) are absent, making the diagnosis insidious. The bowel wall can still strangulate and perforate despite a patent lumen, which is why this variant is particularly dangerous.",
+    "wrongAnswerExplanations": [
+      "Maydl's hernia (hernia-in-W) involves two loops of bowel in the sac with the intervening loop remaining in the abdomen where it strangulates — the lumen is obstructed and the intra-abdominal loop is at risk.",
+      "Littre's hernia contains a Meckel's diverticulum in the hernia sac; it may present with diverticulitis or bleeding but the bowel lumen is not partially trapped as described.",
+      "Richter's hernia is correct: only part of the bowel circumference is trapped, the lumen remains patent, so there is no obstruction — but strangulation of the wall can still occur.",
+      "A sliding hernia has a viscus (commonly sigmoid colon or caecum) forming part of the sac wall; bowel obstruction is not the defining feature.",
+      "A pantaloon hernia has both direct and indirect components in the inguinal canal straddling the inferior epigastric vessels; it does not describe partial bowel wall entrapment."
+    ],
+    "clinicalPearl": "Richter's hernia traps only part of the bowel wall — the lumen remains patent so there is no obstruction, but strangulation can still occur silently, making it a diagnostic trap."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "IBD.pdf",
+    "topic": "Crohn's disease — initial investigation",
+    "question": "A 24-year-old woman presents with a 4-month history of intermittent right iliac fossa pain, diarrhoea (4-6 loose stools per day), 5 kg weight loss, and perianal skin tags. Blood tests show Hb 10.2 g/dL (microcytic), CRP 48 mg/L, and albumin 28 g/L. Colonoscopy reveals skip lesions with deep longitudinal ulcers and cobblestone mucosa in the terminal ileum and right colon with rectal sparing. Which investigation would best characterise the transmural extent and small bowel involvement to guide surgical planning?",
+    "options": [
+      "Barium enema",
+      "MRI enterography",
+      "CT colonography",
+      "Capsule endoscopy",
+      "Technetium-labelled white cell scan"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "MRI enterography is the gold standard investigation for characterising small bowel Crohn's disease. It provides detailed assessment of transmural inflammation, bowel wall thickness, fistulae, abscesses, and mesenteric involvement without ionising radiation — important in a young patient who may need repeated imaging over a lifetime. It is superior to CT for soft tissue characterisation and avoids the radiation exposure of CT.",
+    "wrongAnswerExplanations": [
+      "Barium enema is largely obsolete and provides only luminal assessment; it does not evaluate transmural disease, fistulae, or mesenteric changes, and is inferior to MRI enterography.",
+      "MRI enterography is correct: it gives detailed transmural and extraluminal assessment of small bowel Crohn's disease without radiation, making it ideal for this young patient.",
+      "CT colonography evaluates the colonic lumen well but has significant radiation dose, limited soft tissue characterisation compared to MRI, and is not the preferred modality for small bowel Crohn's.",
+      "Capsule endoscopy visualises the small bowel mucosa but cannot assess transmural or extraluminal disease, carries a risk of capsule retention in strictures, and does not guide surgical planning as well as MRI.",
+      "A labelled white cell scan detects active inflammation but provides functional rather than anatomical detail and does not characterise fistulae, abscesses, or stricture morphology for surgical planning."
+    ],
+    "clinicalPearl": "MRI enterography is the preferred imaging modality for small bowel Crohn's disease — it assesses transmural disease, fistulae, and abscesses without radiation, critical in young patients needing lifelong monitoring."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "IBD.pdf",
+    "topic": "Crohn's disease — fistulating complication",
+    "question": "A 32-year-old man with a 7-year history of ileocolonic Crohn's disease presents with a 3-week history of faecaluria and recurrent urinary tract infections with mixed organisms. He is systemically well. CT abdomen/pelvis with oral contrast reveals an enterovesical fistula between a thickened loop of terminal ileum and the bladder dome. What is the definitive management?",
+    "options": [
+      "Long-term antibiotics and urinary catheterisation",
+      "Ureteric stenting",
+      "Surgical resection of the diseased ileal segment with fistula takedown and bladder repair",
+      "High-dose corticosteroids",
+      "Anti-TNF biological therapy alone"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An enterovesical fistula in Crohn's disease presents with faecaluria and recurrent polymicrobial UTIs. The definitive treatment is surgical: resection of the diseased bowel segment with fistula takedown and primary bladder repair (usually requiring only a small cystotomy closure). Medical therapy alone does not reliably close enterovesical fistulae. Surgery also removes the source of ongoing contamination and infection.",
+    "wrongAnswerExplanations": [
+      "Long-term antibiotics treat the recurrent UTIs symptomatically but do not close the fistula; indefinite catheterisation is not appropriate and does not address the underlying pathology.",
+      "Ureteric stenting is used for ureteric obstruction or injury — it has no role in managing an enterovesical fistula.",
+      "Surgical resection with fistula takedown and bladder repair is correct: it is the definitive treatment, removing the diseased bowel and closing the bladder defect.",
+      "Corticosteroids reduce luminal inflammation but are not effective at closing established fistulae and carry significant side effects; they are not definitive therapy.",
+      "Anti-TNF therapy (e.g. infliximab) can close some perianal fistulae in Crohn's but has limited efficacy for enterovesical fistulae; alone it is unlikely to achieve closure and does not address the ongoing infection risk."
+    ],
+    "clinicalPearl": "Enterovesical fistula in Crohn's disease causes faecaluria and recurrent polymicrobial UTIs — definitive treatment is surgical resection of the diseased bowel with fistula takedown and bladder closure."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "IBD.pdf",
+    "topic": "Ulcerative colitis — toxic megacolon",
+    "question": "A 29-year-old woman with known ulcerative colitis is admitted with a severe flare. She is febrile (38.9°C), tachycardic (HR 118 bpm), and has generalised abdominal tenderness with reduced bowel sounds. Plain abdominal X-ray shows transverse colon dilatation of 7.5 cm with mucosal islands ('thumb-printing'). She has been on IV hydrocortisone for 72 hours with no improvement. What is the most appropriate next management step?",
+    "options": [
+      "Increase the dose of IV corticosteroids",
+      "Add oral mesalazine",
+      "Urgent total colectomy",
+      "Start IV ciclosporin",
+      "Colonoscopy to assess mucosal severity"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has toxic megacolon (colonic dilatation >6 cm with systemic toxicity) that has failed to respond to 72 hours of IV corticosteroids. This represents a failure of medical therapy and is an indication for urgent surgical intervention — typically an emergency subtotal colectomy with end ileostomy. Continuing medical therapy risks colonic perforation and death. The Oxford criteria define failure to respond to 72 hours of IV steroids as an indication for colectomy or rescue therapy.",
+    "wrongAnswerExplanations": [
+      "Increasing IV corticosteroids is inappropriate when there has been no response after 72 hours — this patient has already failed steroid rescue and further delay risks perforation.",
+      "Oral mesalazine has no role in acute severe colitis or toxic megacolon; it is a maintenance therapy for mild-moderate UC.",
+      "Urgent total colectomy (subtotal colectomy with end ileostomy) is correct: failure of IV steroids at 72 hours in toxic megacolon mandates surgery to prevent perforation and death.",
+      "IV ciclosporin (or infliximab) is a valid rescue therapy option at 72 hours in severe UC without perforation, but toxic megacolon with systemic compromise generally favours surgery over rescue immunosuppression due to perforation risk.",
+      "Colonoscopy is absolutely contraindicated in toxic megacolon due to the high risk of perforation of the friable, distended colon."
+    ],
+    "clinicalPearl": "Toxic megacolon failing 72 hours of IV steroids requires urgent surgical intervention — colonoscopy is contraindicated and delay risks colonic perforation with high mortality."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "IBD.pdf",
+    "topic": "Ulcerative colitis — indication for surgery",
+    "question": "A 41-year-old man with an 18-year history of extensive ulcerative colitis (pancolitis) is undergoing surveillance colonoscopy. He is currently in remission on mesalazine and azathioprine. Biopsies from the sigmoid colon show high-grade dysplasia confirmed by two independent pathologists. He has no immediate symptoms. What is the recommended management?",
+    "options": [
+      "Repeat colonoscopy with biopsies in 3 months",
+      "Increase mesalazine dose and repeat surveillance in 6 months",
+      "Add folic acid supplementation and surveillance annually",
+      "Proctocolectomy",
+      "Endoscopic mucosal resection of the dysplastic segment"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "High-grade dysplasia in ulcerative colitis confirmed by two pathologists is an absolute indication for proctocolectomy (usually restorative proctocolectomy with ileal pouch-anal anastomosis). High-grade dysplasia carries a substantial risk of synchronous or subsequent colorectal carcinoma. Surveillance or endoscopic resection alone is insufficient given this risk; prompt surgical resection is the standard of care.",
+    "wrongAnswerExplanations": [
+      "Repeat colonoscopy in 3 months is inappropriate for confirmed high-grade dysplasia — the risk of underlying or developing carcinoma is too high to delay surgery for surveillance.",
+      "Increasing mesalazine does not reverse dysplasia and is not appropriate management for high-grade dysplasia confirmed by two pathologists.",
+      "Annual surveillance is appropriate for low-grade dysplasia or indefinite dysplasia, not for confirmed high-grade dysplasia, which mandates surgery.",
+      "Proctocolectomy is correct: confirmed high-grade dysplasia in UC is a definitive indication for surgery, typically restorative proctocolectomy with IPAA if the patient is suitable.",
+      "Endoscopic mucosal resection may be considered for polypoid dysplasia in quiescent disease in some guidelines, but high-grade flat dysplasia in pancolitis warrants colectomy, not endoscopic resection alone."
+    ],
+    "clinicalPearl": "Confirmed high-grade dysplasia in ulcerative colitis by two pathologists is an absolute indication for proctocolectomy — the synchronous carcinoma risk is unacceptably high to justify continued surveillance."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "IBD.pdf",
+    "topic": "Crohn's disease — perianal sepsis",
+    "question": "A 27-year-old man with ileocolonic Crohn's disease presents with a 1-week history of severe perianal pain, fever (38.5°C), and a fluctuant swelling in the left ischio-anal fossa. MRI pelvis confirms a left ischio-anal abscess with a transphincteric fistula track. What is the most appropriate immediate surgical management?",
+    "options": [
+      "Oral metronidazole and review in 48 hours",
+      "Incision and drainage of the abscess with insertion of a seton suture through the fistula track",
+      "Immediate fistulotomy (laying open the fistula track)",
+      "IV antibiotics and CT-guided drainage",
+      "Defunctioning loop ileostomy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In Crohn's-associated perianal sepsis, the immediate priority is adequate drainage of the abscess (incision and drainage). Because the fistula is transphincteric, immediate fistulotomy risks sphincter damage and faecal incontinence. A seton suture is placed through the fistula track to maintain drainage, allow the sepsis to resolve, and facilitate future definitive fistula management. This two-stage approach protects sphincter function.",
+    "wrongAnswerExplanations": [
+      "Oral antibiotics alone will not adequately drain a fluctuant abscess and risk progression to necrotising infection; they are an adjunct, not primary treatment.",
+      "Incision and drainage with seton insertion is correct: it immediately drains the abscess and controls the fistula safely without risking incontinence from premature fistulotomy.",
+      "Immediate fistulotomy of a transphincteric fistula risks cutting through the sphincter complex, causing faecal incontinence — this is particularly important to avoid in Crohn's disease where recurrence is common.",
+      "CT-guided drainage is less appropriate for a superficial fluctuant ischio-anal abscess accessible to surgical drainage; it does not address the fistula component.",
+      "A defunctioning loop ileostomy may have a role in severe, complex Crohn's perianal disease refractory to other measures, but is not the first-line immediate management for this presentation."
+    ],
+    "clinicalPearl": "In transphincteric Crohn's fistulae, drain the abscess first and place a loose seton — immediate fistulotomy risks sphincter damage and incontinence, and Crohn's disease means recurrence is likely."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "IBD.pdf",
+    "topic": "Ulcerative colitis vs Crohn's — differentiating features",
+    "question": "A 35-year-old woman presents with bloody diarrhoea (8 times per day), urgency, and tenesmus for 6 weeks. Colonoscopy shows continuous, confluent mucosal inflammation from the rectum to the splenic flexure, with no involvement of the ileum. Biopsies show crypt abscesses, goblet cell depletion, and inflammatory infiltrate limited to the mucosa and submucosa. There are no granulomas. Which diagnosis do these findings most support?",
+    "options": [
+      "Crohn's colitis",
+      "Ischaemic colitis",
+      "Ulcerative colitis",
+      "Infective colitis (Clostridioides difficile)",
+      "Microscopic colitis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Ulcerative colitis is characterised by continuous, confluent mucosal inflammation starting at the rectum and extending proximally — always involving the rectum — with disease limited to the mucosa and submucosa. Crypt abscesses and goblet cell depletion are classical histological features. The absence of transmural inflammation and granulomas, combined with rectal involvement and continuous spread, confirms UC rather than Crohn's disease.",
+    "wrongAnswerExplanations": [
+      "Crohn's colitis typically shows discontinuous (skip) lesions, transmural inflammation, and non-caseating granulomas on biopsy; it often spares the rectum. None of these features are present here.",
+      "Ischaemic colitis typically spares the rectum (due to dual blood supply) and does not cause the chronic mucosal changes of crypt abscesses and goblet cell depletion described; it usually occurs in watershed areas (splenic flexure and sigmoid) in older vascular patients.",
+      "Ulcerative colitis is correct: continuous rectal involvement, mucosal-submucosal disease, crypt abscesses, goblet cell depletion, no granulomas — all hallmarks of UC.",
+      "C. difficile colitis can mimic UC but typically has a recent antibiotic or hospital exposure history and would be confirmed by toxin assay; it does not produce the chronic histological changes described.",
+      "Microscopic colitis (collagenous or lymphocytic) presents with watery, non-bloody diarrhoea and normal or near-normal endoscopic appearance — it does not cause the gross endoscopic changes or bloody diarrhoea described here."
+    ],
+    "clinicalPearl": "Ulcerative colitis always involves the rectum and spreads continuously proximally, with inflammation confined to the mucosa and submucosa — rectal sparing and transmural disease favour Crohn's disease."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Refeeding syndrome",
+    "question": "A 41-year-old woman with anorexia nervosa is admitted with a BMI of 13.2 kg/m². She has eaten virtually nothing for 3 weeks. On day 2 of nasogastric refeeding at 1800 kcal/day, she develops muscle weakness, paraesthesia, and her ECG shows a prolonged QT interval. Serum phosphate is 0.42 mmol/L. Which of the following is the most appropriate immediate management?",
+    "options": [
+      "Stop enteral feeding and commence parenteral nutrition",
+      "Reduce caloric intake to 10 kcal/kg/day and administer IV phosphate replacement",
+      "Increase the rate of enteral feeding to correct the nutritional deficit rapidly",
+      "Administer IV calcium gluconate and monitor ECG",
+      "Start high-dose thiamine and continue current feeding rate"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has refeeding syndrome, characterised by hypophosphataemia, hypokalaemia, and hypomagnesaemia following reinitiation of nutrition after prolonged starvation. The cornerstone of management is to reduce caloric intake (NICE recommends starting at no more than 10 kcal/kg/day in high-risk patients) and aggressively replace phosphate (and other electrolytes). Continuing at the current rate risks life-threatening cardiac arrhythmias and respiratory failure.",
+    "wrongAnswerExplanations": [
+      "Stopping enteral feeding and switching to parenteral nutrition does not address the underlying electrolyte disturbance and refeeding syndrome can occur with any route of nutrition; the priority is rate reduction and electrolyte replacement.",
+      "Reducing caloric intake to 10 kcal/kg/day and administering IV phosphate is correct — this directly addresses the pathophysiology of refeeding syndrome by preventing further intracellular phosphate shift and restoring serum levels.",
+      "Increasing the feeding rate would worsen the intracellular shift of phosphate, potassium, and magnesium, potentially causing fatal arrhythmias and respiratory muscle failure.",
+      "IV calcium gluconate is used for hypocalcaemia-related tetany or hyperkalaemia with ECG changes, not for the hypophosphataemia-driven picture of refeeding syndrome.",
+      "Thiamine supplementation is important prophylactically before refeeding to prevent Wernicke's encephalopathy, but it does not treat hypophosphataemia and continuing the current caloric rate will perpetuate the electrolyte disturbance."
+    ],
+    "clinicalPearl": "In refeeding syndrome, hypophosphataemia is the hallmark electrolyte disturbance — always start nutrition at a low caloric rate (≤10 kcal/kg/day in high-risk patients) and monitor and replace phosphate, potassium, and magnesium daily."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Burns fluid resuscitation (Parkland formula)",
+    "question": "A 28-year-old male firefighter sustains 45% total body surface area (TBSA) full-thickness burns in a warehouse fire. He weighs 80 kg. He arrives in the emergency department 1 hour after the injury. Using the Parkland formula, what is the correct volume of Hartmann's solution to administer over the first 24 hours, and how much should be given in the first 8 hours from the time of injury?",
+    "options": [
+      "Total 14.4 L; 7.2 L in the first 8 hours from time of injury",
+      "Total 14.4 L; 4.8 L in the first 8 hours from time of injury",
+      "Total 7.2 L; 3.6 L in the first 8 hours from time of arrival",
+      "Total 9.0 L; 4.5 L in the first 8 hours from time of injury",
+      "Total 18.0 L; 9.0 L in the first 8 hours from time of arrival"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Parkland formula calculates: 4 mL × weight (kg) × %TBSA burned = 4 × 80 × 45 = 14,400 mL (14.4 L) of Hartmann's solution in the first 24 hours. Half (7.2 L) is given in the first 8 hours from the time of injury (not arrival), and the remaining half over the next 16 hours. Since 1 hour has already elapsed, the 7.2 L must be infused over the remaining 7 hours.",
+    "wrongAnswerExplanations": [
+      "Total 14.4 L with 7.2 L in the first 8 hours from time of injury is correct — this directly applies the Parkland formula (4 mL × kg × %TBSA) with the 50% in first 8 hours rule, timed from injury.",
+      "Giving 4.8 L in the first 8 hours represents a third of the total volume rather than half; the Parkland formula specifies half the total in the first 8 hours from injury.",
+      "A total of 7.2 L uses a coefficient of 2 rather than 4, and timing from arrival rather than injury is incorrect — the clock starts at the time of burn.",
+      "A total of 9.0 L uses a coefficient of 2.5; the Parkland formula specifically uses 4 mL/kg/%TBSA.",
+      "18.0 L uses a coefficient of 5 rather than 4, and timing from arrival rather than injury is incorrect, both of which would lead to over-resuscitation."
+    ],
+    "clinicalPearl": "The Parkland formula is 4 mL × kg × %TBSA of crystalloid (Hartmann's) in 24 hours: give half in the first 8 hours from the time of burn (not arrival), and half over the subsequent 16 hours; titrate to urine output of 0.5–1.0 mL/kg/hour."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Enteral vs parenteral nutrition",
+    "question": "A 55-year-old man undergoes emergency Hartmann's procedure for perforated sigmoid diverticulitis. On day 5 post-operatively he remains in the ICU, is haemodynamically stable, and has a functioning nasogastric tube in place but has not yet passed flatus. His bowel sounds are absent. The nutrition team recommends initiating nutritional support. Which is the most appropriate route?",
+    "options": [
+      "Commence total parenteral nutrition (TPN) via central venous catheter and delay enteral feeding until bowel sounds return",
+      "Commence nasogastric enteral nutrition at a low rate and titrate up as tolerated",
+      "Await return of bowel function and oral diet; no nutritional support required before day 7",
+      "Commence peripheral parenteral nutrition until flatus is passed, then switch to enteral",
+      "Commence post-pyloric jejunal feeding only after confirming position with contrast study"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Enteral nutrition is preferred over parenteral whenever the gastrointestinal tract is functional or partially functional, even in the absence of bowel sounds or passage of flatus. Early enteral feeding (within 24–48 hours of ICU admission) maintains gut mucosal integrity, reduces bacterial translocation, and is associated with fewer infectious complications and shorter ICU stay compared with TPN. The nasogastric route is appropriate as his upper GI tract is functional.",
+    "wrongAnswerExplanations": [
+      "TPN should only be used when the enteral route is genuinely unavailable or contraindicated; absent bowel sounds and no flatus do not preclude safe nasogastric feeding, and TPN carries higher risks of infection, hepatic dysfunction, and cost.",
+      "Commencing nasogastric enteral nutrition at a low rate is correct — early enteral feeding is recommended in ICU patients with a functional gut, regardless of absent bowel sounds, as small intestinal motility recovers before colonic motility.",
+      "Delaying nutritional support beyond 48–72 hours in a critically ill post-operative patient increases catabolism, impairs wound healing, and is associated with worse clinical outcomes; waiting until day 7 is inappropriate.",
+      "Peripheral parenteral nutrition is limited by osmolality and cannot deliver full nutritional requirements; it does not confer the gut-protective benefits of enteral nutrition and adds line complications.",
+      "Post-pyloric feeding is useful in patients with gastroparesis or high aspiration risk, but it is not necessary as the first-line approach in a patient without these specific indications; standard nasogastric feeding is appropriate here."
+    ],
+    "clinicalPearl": "Absent bowel sounds and no flatus do NOT contraindicate early enteral nutrition — start nasogastric feeding within 24–48 hours in critically ill surgical patients, as the small intestine recovers motility faster than the colon and early enteral feeding reduces infectious complications."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Surgical metabolic response to trauma",
+    "question": "A 38-year-old woman undergoes emergency splenectomy following blunt abdominal trauma. On post-operative day 2, her nursing staff note that despite adequate analgesia her temperature is 38.4°C, heart rate is 102 bpm, and blood glucose is 9.8 mmol/L. She has no signs of wound infection. Which metabolic process best explains these findings?",
+    "options": [
+      "Occult anastomotic leak causing early sepsis",
+      "Post-operative hyperglycaemia secondary to pre-existing undiagnosed type 2 diabetes",
+      "The neuroendocrine catabolic response to surgical trauma (ebb and flow phases)",
+      "Adrenal insufficiency following corticosteroid withdrawal",
+      "Iatrogenic fluid overload causing dilutional hyponatraemia"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The findings are consistent with the normal physiological response to major surgery — the 'flow phase' of the metabolic response to trauma, characterised by increased sympathetic and neuroendocrine activity (cortisol, catecholamines, glucagon), leading to fever, tachycardia, insulin resistance, hyperglycaemia, and accelerated catabolism. This occurs without infection and typically peaks at 24–72 hours post-operatively. Understanding this response is essential to avoid unnecessary investigations or antibiotic prescriptions.",
+    "wrongAnswerExplanations": [
+      "An anastomotic leak is possible following bowel surgery but this patient had a splenectomy (no bowel anastomosis), and the findings on day 2 without localising signs are consistent with normal post-operative metabolic response rather than surgical complication.",
+      "Pre-existing diabetes could contribute to hyperglycaemia but does not explain the fever and tachycardia; furthermore, the question specifically asks for the best explanation of all findings together in the post-operative context.",
+      "The neuroendocrine catabolic response (ebb and flow phases) is correct — the flow phase begins within hours of trauma/surgery and produces the described triad of low-grade fever, tachycardia, and stress hyperglycaemia via cortisol- and catecholamine-driven insulin resistance.",
+      "Adrenal insufficiency would cause hypotension, hyponatraemia, and hypoglycaemia rather than hyperglycaemia and tachycardia; it is the opposite hormonal picture.",
+      "Fluid overload causes hyponatraemia, oedema, and respiratory compromise but does not produce fever or hyperglycaemia; this option is not consistent with the clinical picture."
+    ],
+    "clinicalPearl": "The metabolic response to surgery consists of an early 'ebb phase' (shock, reduced metabolism) followed by a 'flow phase' (hypermetabolism, catabolism, insulin resistance, fever, tachycardia) — recognise this as normal to avoid unnecessary investigations, but monitor glucose as stress hyperglycaemia worsens outcomes."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Maintenance fluids and electrolyte disturbances",
+    "question": "A 70-year-old man is admitted for elective right hemicolectomy. On post-operative day 1 he is nil-by-mouth and receiving 1 litre of 0.9% saline and 1 litre of 5% dextrose every 12 hours via peripheral cannula. Serum results: Na⁺ 128 mmol/L, K⁺ 3.1 mmol/L, Cl⁻ 110 mmol/L, urea 3.2 mmol/L. He is euvolaemic. Which change to his fluid prescription is most appropriate?",
+    "options": [
+      "Increase to 3 litres of 0.9% saline per day and add KCl 40 mmol to each bag",
+      "Switch to Hartmann's solution 1 mL/kg/hour with 40 mmol KCl added",
+      "Prescribe 0.18% NaCl / 4% dextrose with 20 mmol KCl per litre at 1–1.5 mL/kg/hour",
+      "Restrict all IV fluids to 500 mL/day and start oral rehydration salts",
+      "Give 100 mL of 8.4% sodium bicarbonate to correct the hyponatraemia urgently"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "For routine post-operative maintenance in an adult, NICE guidelines recommend approximately 25–30 mL/kg/day of water with around 1 mmol/kg/day each of sodium, potassium, and chloride. The standard maintenance fluid is 0.18% NaCl / 4% dextrose (sometimes called 'dextrose-saline') with added potassium, at approximately 1–1.5 mL/kg/hour. The current prescription is providing excessive sodium and chloride (2 L of 0.9% saline = 308 mmol Na) contributing to the hyperchloraemic picture and dilutional hyponatraemia from excess free water, while under-replacing potassium.",
+    "wrongAnswerExplanations": [
+      "Increasing to 3 litres of 0.9% saline delivers an even greater sodium and chloride load, worsening the hyperchloraemic picture; the hyponatraemia here is dilutional not sodium-depleting.",
+      "Hartmann's solution is an appropriate resuscitation crystalloid but is not the standard maintenance fluid; at 1 mL/kg/hour for a 70 kg man it delivers approximately 1680 mL/day which is below maintenance requirements.",
+      "0.18% NaCl / 4% dextrose with 20 mmol KCl per litre at 1–1.5 mL/kg/hour is correct — this is the NICE-recommended standard adult maintenance fluid, providing appropriate amounts of sodium, free water, and potassium to correct the mild hypokalaemia and dilutional hyponatraemia.",
+      "Restricting to 500 mL/day is inappropriately severe for a euvolaemic patient with normal renal function; significant restriction risks dehydration and electrolyte disturbances.",
+      "Hypertonic sodium bicarbonate is indicated for severe symptomatic hyponatraemia or significant metabolic acidosis; in this euvolaemic, likely dilutional case it would cause sodium overload and is not indicated."
+    ],
+    "clinicalPearl": "Post-operative maintenance fluids should provide 25–30 mL/kg/day water, 1 mmol/kg/day Na⁺, K⁺, and Cl⁻ — excessive 0.9% saline causes hyperchloraemic metabolic acidosis and dilutional hyponatraemia; switch to 0.18% NaCl/4% dextrose with potassium for routine maintenance."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Hyperkalaemia management in surgical patients",
+    "question": "A 65-year-old man with chronic kidney disease (eGFR 22 mL/min) is reviewed on the surgical ward 18 hours after an open repair of an incarcerated femoral hernia involving a short segment of small bowel resection. He is anuric since surgery. His ECG shows peaked T-waves and widened QRS complexes. Serum K⁺ is 7.2 mmol/L. What is the single most urgent initial treatment?",
+    "options": [
+      "Calcium resonium 15 g orally to reduce total body potassium",
+      "Insulin 10 units with 50 mL 50% dextrose IV to shift potassium intracellularly",
+      "10 mL of 10% calcium gluconate IV to stabilise the cardiac membrane",
+      "Sodium bicarbonate 50 mmol IV to correct underlying acidosis",
+      "Urgent haemodialysis to remove potassium definitively"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In the presence of ECG changes (peaked T-waves, broad QRS), the immediate priority is cardiac membrane stabilisation with IV calcium gluconate (10 mL of 10% solution over 2–5 minutes). This does not lower serum potassium but directly antagonises the membrane effects of hyperkalaemia, buying time for definitive treatment. Insulin-dextrose shifts K⁺ intracellularly and is the next step, followed by definitive potassium removal.",
+    "wrongAnswerExplanations": [
+      "Calcium resonium removes potassium from the body but acts slowly (hours to days) and is inappropriate as the immediate life-saving treatment when ECG changes are present.",
+      "Insulin-dextrose is the correct second step to shift potassium intracellularly and lower serum levels, but it does not stabilise the cardiac membrane and should not precede calcium gluconate when ECG changes are present.",
+      "IV calcium gluconate is correct as the first-line urgent treatment — it stabilises the myocardial membrane within minutes, directly counteracting the risk of fatal arrhythmia from hyperkalaemia with ECG changes.",
+      "Sodium bicarbonate can help shift K⁺ intracellularly (particularly if acidosis is present) but acts more slowly than calcium gluconate and does not address the immediate cardiac membrane instability.",
+      "Haemodialysis definitively removes potassium and may be required in this anuric CKD patient, but it cannot be initiated immediately and membrane stabilisation must occur first while dialysis is arranged."
+    ],
+    "clinicalPearl": "When hyperkalaemia causes ECG changes, give IV calcium gluconate FIRST to stabilise the cardiac membrane — it does not lower potassium but buys critical time; follow immediately with insulin-dextrose to shift K⁺ intracellularly, then arrange definitive removal."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Enteral nutrition complications",
+    "question": "A 72-year-old woman is receiving nasogastric feeding following a laparotomy for small bowel obstruction. On day 4, she develops profuse diarrhoea (>1500 mL/day), abdominal distension, and a high nasogastric aspirate of 350 mL over 4 hours. Her blood glucose is 14.2 mmol/L, and her GCS has dropped from 15 to 12. Chest X-ray shows the NG tube in the stomach. What is the most likely explanation and correct next step?",
+    "options": [
+      "Clostridium difficile colitis; send stool for CDT and start metronidazole",
+      "Feed intolerance with high gastric residual volume; hold feeding, give metoclopramide, and reassess",
+      "Aspiration pneumonia secondary to misplaced NG tube; reposition under fluoroscopy",
+      "Enteral feed-related hyperosmolar hyperglycaemic state; hold feed and give IV insulin infusion",
+      "Bowel ischaemia; arrange urgent CT abdomen with contrast"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A gastric residual volume >250–300 mL over 4 hours indicates feed intolerance with delayed gastric emptying, which is common in post-operative and critically ill patients. The appropriate response is to hold the feed temporarily, administer a prokinetic such as metoclopramide (or erythromycin), check electrolytes and glucose, and reassess tolerance before recommencing at a lower rate. High residuals increase the risk of aspiration.",
+    "wrongAnswerExplanations": [
+      "C. difficile colitis is a possibility given the diarrhoea and post-operative antibiotic use, but the high gastric residual and altered consciousness suggest feed intolerance as the primary issue; stool testing can proceed in parallel but is not the immediate most critical management step.",
+      "Holding feeding and giving metoclopramide is correct — a gastric residual volume of 350 mL exceeds the accepted threshold (250–300 mL), indicating gastroparesis/feed intolerance; prokinetics improve gastric emptying and allow safer recommencement of enteral nutrition.",
+      "The CXR confirms the NG tube is correctly positioned in the stomach; aspiration pneumonia from a misplaced tube is therefore excluded by the imaging.",
+      "While hyperglycaemia is present and requires management, the altered consciousness and clinical picture are more consistent with feed intolerance causing systemic effects; a true HHS from enteral feeding alone would be atypical and the primary management is not insulin infusion in isolation.",
+      "Bowel ischaemia is an important differential given recent laparotomy, but the clinical features here (high gastric residual, feed intolerance pattern, hyperglycaemia) more closely fit gastroparesis; CT abdomen would be appropriate if the patient deteriorated despite feed management."
+    ],
+    "clinicalPearl": "Gastric residual volumes >250–300 mL are a sign of feed intolerance — hold enteral feeding, administer a prokinetic (metoclopramide or erythromycin), and reassess; do not persistently feed against high residuals as this significantly raises aspiration risk."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Burns fluid resuscitation — Inhalation injury",
+    "question": "A 34-year-old man is brought to the emergency department after being rescued from a house fire. He has 30% TBSA partial and full-thickness burns. His voice is hoarse, there is singed nasal hair, and carbonaceous deposits are visible in his oropharynx. His SpO₂ is 94% on 15 L/min non-rebreathe mask. Which is the single most important immediate intervention?",
+    "options": [
+      "Commence Parkland formula fluid resuscitation with Hartmann's solution immediately",
+      "Perform urgent fibreoptic nasendoscopy to assess airway oedema extent before intubating",
+      "Secure the airway with rapid sequence intubation before progressive oedema makes it impossible",
+      "Apply high-flow 100% oxygen via non-rebreathe mask and transfer to burns centre",
+      "Administer IV hydrocortisone 200 mg to reduce airway mucosal oedema"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Clinical signs of inhalation injury — hoarse voice, singed nasal hair, carbonaceous sputum, and stridor — indicate impending airway compromise from progressive supraglottic oedema. The airway is a surgical emergency: early RSI is mandatory because oedema will worsen over the next hours, making delayed intubation extremely difficult or impossible. Even if SpO₂ is maintained temporarily, waiting risks a 'cannot intubate, cannot oxygenate' scenario.",
+    "wrongAnswerExplanations": [
+      "Fluid resuscitation is the second priority and should begin promptly, but it does not address the immediate threat of airway obstruction from supraglottic oedema; airway comes first in any trauma algorithm.",
+      "Fibreoptic nasendoscopy can be used to assess the airway in elective settings, but in a patient with active signs of inhalation injury it should not delay definitive airway management; the clinical picture alone mandates intubation.",
+      "Rapid sequence intubation is correct — early definitive airway management is the single most critical step in a patient with signs of inhalation injury, as progressive mucosal oedema can render the airway unmanageable within hours.",
+      "High-flow oxygen treats carbon monoxide poisoning and maintains saturations temporarily, but it does not prevent the progressive supraglottic oedema that will obstruct the airway; definitive airway management cannot be deferred.",
+      "Steroids are not indicated for inhalation injury and there is no evidence they reduce airway oedema in burns patients; they may increase infection risk."
+    ],
+    "clinicalPearl": "In any burn patient with hoarse voice, stridor, singed nasal hair, or carbonaceous sputum, perform early RSI without delay — airway oedema from inhalation injury progresses over hours and a window for safe intubation can close rapidly."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Hyponatraemia in surgical patients",
+    "question": "A 58-year-old woman is on the ward 3 days after a laparoscopic anterior resection. She has been receiving 3 litres of 5% dextrose per day as maintenance fluids since the operation. She now complains of headache and nausea. Examination reveals mild confusion and no peripheral oedema. Serum Na⁺ is 122 mmol/L, serum osmolality is 258 mOsm/kg, urine osmolality is 480 mOsm/kg, urine Na⁺ is 38 mmol/L. What is the most likely cause?",
+    "options": [
+      "SIADH secondary to the surgical stress response and opioid analgesia",
+      "Cerebral salt-wasting syndrome from pain-related hypothalamic dysfunction",
+      "Hyperglycaemia causing pseudohyponatraemia",
+      "Adrenal insufficiency from peri-operative corticosteroid suppression",
+      "Primary polydipsia from excessive oral water intake"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The combination of hypo-osmolar hyponatraemia with inappropriately concentrated urine (urine osmolality >100 mOsm/kg) and elevated urine sodium in a euvolaemic or slightly hypervolaemic post-operative patient is classic for SIADH. Post-operative SIADH is driven by the stress response (non-osmotic ADH release via cortisol, catecholamines), opioid analgesia (which potently stimulates ADH), and excessive hypotonic fluid administration (3 L of 5% dextrose provides virtually no sodium).",
+    "wrongAnswerExplanations": [
+      "SIADH is correct — the biochemical pattern of hypo-osmolar hyponatraemia with inappropriately concentrated urine and elevated urine sodium in a euvolaemic post-operative patient receiving hypotonic fluids is the hallmark of ADH-mediated free water retention driven by surgical stress and opioids.",
+      "Cerebral salt-wasting causes hyponatraemia with hypovolaemia and high urine sodium (renal salt wasting), but this patient is euvolaemic; the context and biochemistry are more consistent with SIADH.",
+      "Pseudohyponatraemia occurs with severe hyperlipidaemia or hyperproteinaemia causing a laboratory artefact; the serum osmolality here is truly low (258 mOsm/kg), confirming true hyponatraemia.",
+      "Adrenal insufficiency can mimic SIADH biochemically but would typically present with hypotension, hyperkalaemia, and hypoglycaemia; there is no history of steroid use in this case.",
+      "Primary polydipsia causes dilutional hyponatraemia with low urine osmolality (maximally dilute urine) as the kidneys attempt to excrete free water; the high urine osmolality here (480 mOsm/kg) excludes this diagnosis."
+    ],
+    "clinicalPearl": "Post-operative SIADH is common — driven by surgical stress, opioids, and hypotonic fluids; diagnose with low serum osmolality, concentrated urine, and elevated urine sodium in a euvolaemic patient, and treat by fluid restriction and switching to isotonic maintenance fluids."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Parenteral nutrition complications",
+    "question": "A 48-year-old man with Crohn's disease has been receiving total parenteral nutrition via a central venous catheter for 3 weeks following a small bowel fistula. He now develops rigors, temperature 39.1°C, and blood pressure 88/52 mmHg. Blood cultures are taken. His CRP is 312 mg/L and WCC 18.4 × 10⁹/L. The CVC site appears clean with no erythema. What is the most appropriate immediate management?",
+    "options": [
+      "Change the TPN bag and giving set and continue nutrition via the same catheter",
+      "Remove the central venous catheter, send the tip for culture, and commence broad-spectrum IV antibiotics",
+      "Add antifungal cover (fluconazole IV) and continue TPN through the same line",
+      "Switch to peripheral parenteral nutrition and await culture results before starting antibiotics",
+      "Perform CT chest and abdomen to rule out deep-seated abscess before removing the line"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This presentation is consistent with catheter-related bloodstream infection (CRBSI), the most serious infectious complication of TPN. In a haemodynamically unstable patient (BP 88/52 mmHg) with sepsis and a long-term CVC in situ, the catheter should be removed immediately, the tip sent for culture, and broad-spectrum IV antibiotics commenced without delay. Continuing to use the infected catheter risks persistent bacteraemia and septic emboli.",
+    "wrongAnswerExplanations": [
+      "Changing the bag and giving set while retaining the catheter does not remove the source of infection; in a haemodynamically compromised patient the line must be removed, not maintained.",
+      "Removing the CVC, sending the tip for culture, and starting broad-spectrum antibiotics is correct — this directly addresses the most likely source of sepsis (CRBSI) in a haemodynamically unstable patient; any delay in line removal increases mortality.",
+      "Adding antifungal cover may be appropriate in immunocompromised patients or those with prolonged antibiotic exposure, but it does not replace the need to remove the infected catheter and start broad antibiotics.",
+      "Peripheral parenteral nutrition cannot deliver the osmolality required for full TPN; awaiting cultures before antibiotics is inappropriate in a septic, hypotensive patient.",
+      "CT imaging may be required later to assess for metastatic infection (e.g. endocarditis, septic emboli), but it must not delay catheter removal and antibiotics in an unstable patient with sepsis."
+    ],
+    "clinicalPearl": "In a patient with a long-term CVC and new sepsis, always suspect catheter-related bloodstream infection — in haemodynamic instability, remove the line immediately, send the tip for culture, and start broad-spectrum antibiotics; do not leave a potentially infected central line in situ."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Nutritional assessment and requirements",
+    "question": "A 67-year-old man with obstructing oesophageal cancer is referred for nutritional optimisation before planned oesophagectomy in 4 weeks. He has lost 8 kg over 3 months, BMI is 19.2 kg/m², and he can only manage liquids. Serum albumin is 28 g/L. He has no significant comorbidities. What is the most appropriate nutritional strategy?",
+    "options": [
+      "Commence TPN immediately via central line and continue until the day of surgery",
+      "Pre-operative oral nutritional supplements and nasogastric feeding with the aim to achieve positive nutritional balance before surgery",
+      "Proceed directly to surgery and start early post-operative enteral feeding via jejunostomy",
+      "Prescribe high-protein oral diet alone; albumin of 28 g/L is acceptable for surgery",
+      "Place a gastrostomy (PEG) tube for pre-operative feeding"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has significant pre-operative malnutrition (unintentional weight loss >10% in 3 months, low BMI, low albumin) which substantially increases post-operative morbidity and mortality. The recommended strategy is pre-operative nutritional optimisation using the least invasive effective route — oral nutritional supplements plus nasogastric feeding to achieve positive nitrogen balance before surgery. Multiple guidelines recommend at least 7–14 days of pre-operative nutritional support in malnourished patients prior to major elective surgery.",
+    "wrongAnswerExplanations": [
+      "TPN is more invasive, carries greater infective and metabolic risks, and is not superior to enteral nutrition when the gut is functional; the enteral route is preferred even in oesophageal obstruction via nasogastric access.",
+      "Pre-operative oral supplements and NG feeding is correct — this approach uses the enteral route (functional gut), is supported by ERAS and ESPEN guidelines for malnourished pre-operative patients, and aims to correct nutritional deficits before the metabolic stress of major surgery.",
+      "Proceeding directly to surgery without optimisation is inappropriate when significant malnutrition is identified; surgery in a malnourished patient has higher complication rates, and a planned 4-week window allows meaningful nutritional improvement.",
+      "An albumin of 28 g/L indicates clinically significant hypoalbuminaemia; while albumin is an imperfect nutrition marker, combined with weight loss and low BMI, this patient is at high nutritional risk and surgery should not proceed without optimisation.",
+      "PEG placement requires endoscopy with conscious sedation and may not be safe in obstructing oesophageal cancer; nasogastric feeding is less invasive and appropriate for the pre-operative period."
+    ],
+    "clinicalPearl": "In malnourished patients facing major elective surgery (>10% weight loss, BMI <18.5, or albumin <30 g/L), provide at least 7–14 days of pre-operative nutritional support via the enteral route when possible — this reduces post-operative infectious and anastomotic complications."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Fluid resuscitation — hypovolaemic shock",
+    "question": "A 22-year-old motorcyclist arrives in the emergency department after a high-speed collision. He is pale, diaphoretic, GCS 15, HR 128 bpm, BP 82/54 mmHg, and RR 24/min. FAST ultrasound shows free fluid in the right upper quadrant. Two large-bore IVs are sited. He is given 1 litre of 0.9% saline as a bolus. His BP rises to 92/60 mmHg but HR remains 124 bpm. What is the most appropriate next step in his fluid management?",
+    "options": [
+      "Give a further 2 litres of 0.9% saline rapidly and reassess response",
+      "Commence a noradrenaline infusion to maintain MAP >65 mmHg",
+      "Activate the major haemorrhage protocol and initiate 1:1:1 blood product resuscitation",
+      "Administer 500 mL of 4.5% human albumin solution as a colloid resuscitation",
+      "Perform immediate bedside REBOA (resuscitative endovascular balloon occlusion of the aorta)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has class III haemorrhagic shock (HR >120, hypotension, altered perfusion) from likely intra-abdominal haemorrhage. A 1-litre crystalloid bolus has produced a transient, partial response. The current evidence (CRASH-2, PROPPR trial) strongly supports activation of the major haemorrhage protocol with 1:1:1 resuscitation (packed red cells : fresh frozen plasma : platelets) rather than continued crystalloid infusion, which dilutes clotting factors and worsens coagulopathy.",
+    "wrongAnswerExplanations": [
+      "Continued large-volume crystalloid resuscitation in haemorrhagic shock worsens dilutional coagulopathy, acidosis, and hypothermia (the 'lethal triad'), and does not address the ongoing surgical haemorrhage; crystalloid alone is not appropriate beyond initial access.",
+      "Vasopressors treat distributive (septic) shock; in haemorrhagic shock the fundamental problem is volume loss — vasopressors alone without volume replacement will cause end-organ ischaemia and are not appropriate as the primary intervention.",
+      "Activating the major haemorrhage protocol with 1:1:1 blood product resuscitation is correct — this patient has ongoing haemorrhagic shock from suspected intra-abdominal haemorrhage; damage control resuscitation with blood products addresses the haemorrhage physiology and coagulopathy simultaneously.",
+      "Colloids offer no benefit over crystalloids in haemorrhagic shock resuscitation and albumin is more costly; neither addresses the loss of red cell mass and clotting factors in massive haemorrhage.",
+      "REBOA may be considered as a bridge to haemorrhage control in centres with endovascular capability and is an adjunct; however it is not the next routine step in fluid management and requires specific expertise and indication."
+    ],
+    "clinicalPearl": "In haemorrhagic shock with partial or transient response to initial crystalloid, activate the major haemorrhage protocol and switch to 1:1:1 balanced blood product resuscitation (RBC : FFP : platelets) — continued crystalloid worsens dilutional coagulopathy and the 'lethal triad' of acidosis, hypothermia, and coagulopathy."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Nutrition and fluid therapy.pdf",
+    "topic": "Metabolic acidosis in surgical patients",
+    "question": "A 50-year-old man received 6 litres of 0.9% normal saline over 24 hours following an emergency Hartmann's procedure. On post-operative day 1 his arterial blood gas shows: pH 7.28, PaCO₂ 3.8 kPa, HCO₃⁻ 14 mmol/L, BE −11, PaO₂ 12.4 kPa on 40% oxygen. Serum Na⁺ 138, Cl⁻ 115, K⁺ 4.2, lactate 1.1 mmol/L. There are no signs of anastomotic leak or bowel ischaemia. What is the most likely cause of his acid-base disturbance?",
+    "options": [
+      "Type A lactic acidosis from bowel ischaemia",
+      "Hyperchloraemic non-anion gap metabolic acidosis from excessive 0.9% saline administration",
+      "Diabetic ketoacidosis unmasked by surgical stress",
+      "Septic metabolic acidosis from a surgical site infection",
+      "Respiratory acidosis secondary to opioid-induced hypoventilation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The ABG shows a metabolic acidosis (low pH, low HCO₃⁻, negative base excess) with low PaCO₂ (appropriate respiratory compensation). The anion gap is normal: Na − (Cl + HCO₃) = 138 − (115 + 14) = 9 mEq/L. The elevated chloride (115 mmol/L) in the context of receiving 6 litres of 0.9% saline (each litre contains 154 mmol Cl⁻) and the normal lactate confirm hyperchloraemic non-anion gap metabolic acidosis — a well-recognised complication of large-volume normal saline resuscitation.",
+    "wrongAnswerExplanations": [
+      "Lactic acidosis from bowel ischaemia would produce an elevated anion gap and raised lactate; the lactate is 1.1 mmol/L (normal) and anion gap is normal, excluding this diagnosis.",
+      "Hyperchloraemic non-anion gap metabolic acidosis from excessive saline is correct — the combination of a normal anion gap, elevated chloride (115 mmol/L), low bicarbonate, and a history of 6 L of 0.9% saline is the classic iatrogenic picture of saline-induced hyperchloraemic acidosis.",
+      "DKA produces a high anion gap metabolic acidosis with elevated ketones and glucose; there is no history of diabetes, the anion gap is normal, and there is no mention of hyperglycaemia.",
+      "Septic metabolic acidosis typically produces a raised anion gap due to elevated lactate from tissue hypoperfusion; the normal lactate and normal anion gap make infection-driven acidosis unlikely here.",
+      "Respiratory acidosis would show elevated PaCO₂ (>6.0 kPa) on the ABG; here PaCO₂ is low (3.8 kPa), indicating a primary metabolic acidosis with an appropriate respiratory alkalotic compensation."
+    ],
+    "clinicalPearl": "Large-volume 0.9% normal saline causes hyperchloraemic non-anion gap metabolic acidosis — recognise this by normal anion gap, raised chloride, and history of saline infusion; switch to balanced crystalloids (Hartmann's/Plasmalyte) to avoid this iatrogenic complication."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Biliary colic",
+    "question": "A 42-year-old obese woman presents to the ED at 11 PM with a 3-hour history of severe right upper quadrant pain radiating to the right shoulder tip. She reports several similar episodes over the past 6 months, usually after fatty meals, each resolving spontaneously within 4–5 hours. She is afebrile (37.1°C), heart rate 88 bpm, BP 130/82 mmHg. Abdominal examination reveals mild RUQ tenderness with no guarding or rebound. Murphy's sign is negative. WBC is 7.2 × 10⁹/L. Liver function tests are normal. Ultrasound shows multiple gallstones with a thickened gallbladder wall of 2 mm and no pericholecystic fluid. What is the most appropriate management for this patient?",
+    "options": [
+      "Admit for IV antibiotics and urgent laparoscopic cholecystectomy",
+      "Analgesia and anti-emetics now; arrange elective laparoscopic cholecystectomy as an outpatient",
+      "Administer ursodeoxycholic acid to dissolve the gallstones and discharge",
+      "Perform ERCP to clear the bile duct before any surgical intervention",
+      "Arrange an urgent HIDA scan to confirm diagnosis before planning treatment"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has classic biliary colic: episodic severe RUQ pain after fatty meals, self-limiting, afebrile, normal WBC, no peritonism, and a negative Murphy's sign. There is no evidence of acute cholecystitis or ductal involvement. The correct management is symptom relief (analgesia + anti-emetics) followed by elective laparoscopic cholecystectomy after full workup as an outpatient. Admission and IV antibiotics are not indicated in uncomplicated biliary colic.",
+    "wrongAnswerExplanations": [
+      "Incorrect. IV antibiotics and urgent surgery are indicated for acute cholecystitis or empyema, not uncomplicated biliary colic where there is no fever, no leukocytosis, and no peritonism.",
+      "Correct. Biliary colic is managed conservatively with analgesia and anti-emetics in the acute episode, followed by elective laparoscopic cholecystectomy to prevent future attacks and complications.",
+      "Incorrect. Ursodeoxycholic acid has a very limited role and is only considered for small cholesterol stones in patients unfit for surgery; it is not standard management for symptomatic gallstones.",
+      "Incorrect. ERCP is indicated for choledocholithiasis (common bile duct stones), not for symptomatic gallbladder stones without evidence of ductal obstruction or jaundice.",
+      "Incorrect. HIDA scan is used when diagnosis of acute cholecystitis is uncertain or to assess gallbladder function; it is not required to confirm uncomplicated biliary colic, which is a clinical and ultrasound diagnosis."
+    ],
+    "clinicalPearl": "Biliary colic is episodic, self-limiting RUQ pain from transient cystic duct obstruction — afebrile, normal WBC, negative Murphy's sign; treat the attack with analgesia then plan elective cholecystectomy."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Acute cholecystitis",
+    "question": "A 55-year-old man presents with a 2-day history of constant right upper quadrant pain, fever (38.6°C), and vomiting. He has a history of known gallstones. On examination he is tender in the RUQ with guarding. Murphy's sign is positive. WBC is 14.8 × 10⁹/L. CRP is 98 mg/L. Ultrasound demonstrates gallstones, a gallbladder wall thickness of 5 mm, pericholecystic fluid, and a positive sonographic Murphy's sign. His LFTs are normal. Which of the following is the most appropriate management plan?",
+    "options": [
+      "Discharge with oral ciprofloxacin and outpatient follow-up in 6 weeks",
+      "Admit, IV fluids, analgesia, and IV antibiotics; perform laparoscopic cholecystectomy within 72 hours of admission",
+      "Immediate open cholecystectomy in the emergency theatre without antibiotic preparation",
+      "Arrange MRCP urgently to exclude common bile duct stones before any surgical intervention",
+      "Insert a percutaneous cholecystostomy drain under ultrasound guidance and discharge home"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has acute cholecystitis (fever, positive Murphy's sign, leukocytosis, CRP elevation, and ultrasound findings). Current evidence and guidelines (Tokyo Guidelines) support early laparoscopic cholecystectomy within 72 hours of onset or admission in medically fit patients, combined with IV antibiotics and supportive care. Early surgery reduces complications, hospital stay, and readmission compared to delayed interval cholecystectomy.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Oral antibiotics and outpatient management are inadequate for acute cholecystitis with systemic features; this patient requires hospital admission and IV antibiotics.",
+      "Correct. Admission with IV fluids, IV antibiotics, analgesia, and early laparoscopic cholecystectomy within 72 hours is the evidence-based standard of care for acute cholecystitis in a fit patient.",
+      "Incorrect. While cholecystectomy is required, immediate open surgery without antibiotic preparation and proper assessment is not the standard approach; laparoscopic approach is preferred when safely feasible.",
+      "Incorrect. LFTs are normal and there is no clinical suspicion of choledocholithiasis; MRCP is not mandated before treating straightforward acute cholecystitis without jaundice or a dilated CBD.",
+      "Incorrect. Percutaneous cholecystostomy is reserved for high-risk surgical patients (severe sepsis, multiple comorbidities) who cannot safely undergo surgery — it is not first-line in a man who is medically fit."
+    ],
+    "clinicalPearl": "Early laparoscopic cholecystectomy within 72 hours is the treatment of choice for acute cholecystitis in fit patients — it reduces overall complication rates and length of stay compared to delayed interval surgery."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Empyema of the gallbladder",
+    "question": "A 68-year-old diabetic woman is admitted with a 5-day history of right upper quadrant pain and fever. She was initially managed with oral antibiotics at her GP for 'indigestion'. On arrival she has a temperature of 39.4°C, HR 118 bpm, and BP 98/60 mmHg. She appears septic. Examination reveals a palpable, exquisitely tender mass in the RUQ. WBC is 22 × 10⁹/L. Ultrasound shows a markedly distended gallbladder measuring 12 × 6 cm with echogenic debris layering within the lumen, stones, and 6 mm wall thickening. No free fluid. What is the most likely diagnosis and the immediate management priority?",
+    "options": [
+      "Mucocele of the gallbladder; schedule elective cholecystectomy",
+      "Empyema of the gallbladder; initiate broad-spectrum IV antibiotics and arrange urgent percutaneous cholecystostomy or cholecystectomy",
+      "Acute cholecystitis; admit and plan early laparoscopic cholecystectomy within 72 hours",
+      "Gallstone ileus; arrange CT abdomen to look for air in the biliary tree",
+      "Cholangiocarcinoma; arrange CT chest/abdomen/pelvis for staging"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Empyema of the gallbladder is pus-filled distension resulting from superinfection of an obstructed gallbladder. The clinical picture — prolonged history, septic shock, palpable RUQ mass, very high WBC, and ultrasound showing echogenic debris in a markedly distended gallbladder — is classic. Immediate management requires broad-spectrum IV antibiotics for sepsis control and urgent source control (percutaneous cholecystostomy if the patient is too unwell for surgery, or cholecystectomy if she can tolerate it). Delayed management risks perforation and peritonitis.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Mucocele is sterile mucus distension (typically caused by chronic cystic duct obstruction) and presents with a non-tender palpable mass and no systemic sepsis; this patient's high fever, leukocytosis, and septic shock indicate empyema.",
+      "Correct. The combination of septic shock, prolonged history of obstruction, very high WBC, and echogenic debris on ultrasound points to empyema. Urgent antibiotics plus drainage (percutaneous cholecystostomy or cholecystectomy) is required.",
+      "Incorrect. Acute cholecystitis is an earlier stage of the spectrum; the degree of systemic sepsis, the 5-day history despite antibiotics, the palpable mass, and the echogenic intraluminal debris all indicate progression to empyema.",
+      "Incorrect. Gallstone ileus presents with small bowel obstruction symptoms (distension, vomiting, obstipation) and Rigler's triad on imaging; it does not cause a palpable gallbladder mass with intraluminal debris.",
+      "Incorrect. Cholangiocarcinoma would not cause echogenic mobile debris in the gallbladder or an acute septic presentation of this nature; the history and ultrasound findings are not consistent."
+    ],
+    "clinicalPearl": "Empyema of the gallbladder is an acute surgical emergency — pus under pressure in an obstructed gallbladder; suspect it when acute cholecystitis fails to respond to antibiotics, a palpable tender RUQ mass develops, and WBC is markedly elevated, particularly in diabetic or immunocompromised patients."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Mucocele of the gallbladder",
+    "question": "A 60-year-old woman is referred by her GP with a 3-month history of a painless lump in the right upper quadrant. She has no fever, no jaundice, and no weight loss. She had two previous episodes of biliary colic 1 year ago but has had no pain since. On examination she has a smooth, non-tender, palpable mass in the RUQ that moves with respiration. WBC and LFTs are normal. Ultrasound shows a markedly distended gallbladder (10 × 5 cm) filled with homogeneous anechoic fluid, a single large gallstone at the neck, and no pericholecystic fluid or wall thickening beyond 3 mm. What is the most likely diagnosis?",
+    "options": [
+      "Empyema of the gallbladder",
+      "Carcinoma of the gallbladder",
+      "Mucocele of the gallbladder",
+      "Hepatic cyst",
+      "Hydatid cyst of the liver"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Mucocele of the gallbladder results from chronic obstruction of the cystic duct (here by a large stone at the neck) with reabsorption of bile and accumulation of mucus secreted by the gallbladder mucosa. It presents as a painless, smooth, non-tender, palpable RUQ mass that moves with respiration, with no systemic sepsis and a normal WBC. Ultrasound characteristically shows a distended gallbladder with anechoic (clear) fluid — in contrast to the echogenic debris of empyema. Treatment is elective cholecystectomy.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Empyema is pus-filled and presents with fever, systemic sepsis, a markedly elevated WBC, and echogenic debris within the gallbladder on ultrasound — none of which are present here.",
+      "Incorrect. Gallbladder carcinoma typically presents in older patients with weight loss, jaundice, and a hard irregular mass; ultrasound would show a mural mass or irregular wall thickening, not homogeneous anechoic fluid.",
+      "Correct. A painless, non-tender, smooth RUQ mass moving with respiration, with anechoic distended gallbladder and a stone at the cystic duct on ultrasound, and no fever or leukocytosis, is the classic presentation of mucocele.",
+      "Incorrect. A hepatic cyst would be located within the liver parenchyma and would not move with the gallbladder; it would not be associated with a gallstone at the cystic duct.",
+      "Incorrect. Hydatid cysts have characteristic ultrasound features (daughter cysts, floating membranes, calcification) and are epidemiologically associated with livestock exposure; they do not originate in the gallbladder."
+    ],
+    "clinicalPearl": "Mucocele is a painless, non-tender, smooth RUQ mass from chronic cystic duct obstruction with mucus accumulation — unlike empyema it is sterile and the patient is afebrile; treat with elective cholecystectomy."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Gallstone ileus",
+    "question": "A 75-year-old woman presents with a 3-day history of colicky central abdominal pain, abdominal distension, vomiting, and absolute constipation. She has a past history of recurrent acute cholecystitis. On examination she is dehydrated, with a distended abdomen and high-pitched bowel sounds. AXR shows multiple air-fluid levels and air within the biliary tree. CT abdomen confirms a 3.5 cm stone impacted in the terminal ileum and a cholecystoduodenal fistula. What is the most appropriate treatment?",
+    "options": [
+      "Urgent ERCP to retrieve the stone endoscopically",
+      "Nasogastric decompression and IV fluids; arrange colonoscopic retrieval of the stone",
+      "Emergency laparotomy with enterotomy and stone retrieval (enterolithotomy) proximally to the impaction site",
+      "Emergency laparotomy with enterotomy and stone retrieval, plus simultaneous cholecystectomy and fistula repair",
+      "Extracorporeal shock wave lithotripsy (ESWL) to fragment the stone in situ"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Gallstone ileus is a mechanical small bowel obstruction caused by a large gallstone (usually >2.5 cm) that has eroded through a cholecystoenteric fistula and impacted at a narrow bowel segment (most commonly the terminal ileum). Treatment is emergency laparotomy with enterotomy and extraction of the stone proximal to the site of impaction to relieve the obstruction. Simultaneous fistula repair and cholecystectomy (one-stage procedure) carries significantly higher morbidity and mortality in these typically elderly, frail patients and is reserved for selected fit individuals; the staged approach (enterolithotomy alone first) is the standard.",
+    "wrongAnswerExplanations": [
+      "Incorrect. ERCP is used for common bile duct stones; it cannot retrieve an impacted stone within the small bowel lumen causing mechanical obstruction.",
+      "Incorrect. Colonoscopy cannot reach the terminal ileum in an obstructed, dilated bowel, and nasogastric decompression alone will not relieve mechanical small bowel obstruction caused by an impacted stone.",
+      "Correct. Emergency enterolithotomy (enterotomy + stone removal proximal to impaction) is the standard first-stage procedure for gallstone ileus, relieving the obstruction with minimum operative risk in an elderly frail patient.",
+      "Incorrect. One-stage cholecystectomy and fistula repair may be appropriate in a highly selected, fit patient but carries much higher operative morbidity in a 75-year-old with acute obstruction; it is not the standard recommendation.",
+      "Incorrect. ESWL cannot be applied to a stone impacted in the small bowel and would not relieve the mechanical obstruction; it has no role in gallstone ileus."
+    ],
+    "clinicalPearl": "Gallstone ileus: think of it in elderly women with small bowel obstruction plus Rigler's triad on imaging (pneumobilia + SBO + ectopic gallstone); treatment is emergency enterolithotomy — leave fistula repair for a later elective procedure."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Acute cholecystitis — investigation",
+    "question": "A 48-year-old woman presents with 18 hours of right upper quadrant pain and fever (38.2°C). She has nausea and reports two prior similar but shorter episodes. On examination Murphy's sign is positive and there is voluntary guarding in the RUQ. WBC is 13.5 × 10⁹/L. Her bilirubin is 28 µmol/L (normal <21), ALT 55 U/L (mildly elevated), ALP 145 U/L (mildly elevated). Ultrasound is performed and shows gallstones, gallbladder wall thickening of 5 mm, and pericholecystic fluid, but the common bile duct measures 9 mm (upper limit of normal for age: 8 mm). What is the most appropriate next investigation?",
+    "options": [
+      "Hepatobiliary iminodiacetic acid (HIDA) scan",
+      "CT abdomen with contrast",
+      "Magnetic resonance cholangiopancreatography (MRCP)",
+      "Endoscopic retrograde cholangiopancreatography (ERCP) immediately",
+      "Repeat ultrasound in 48 hours"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has confirmed acute cholecystitis but also has mildly elevated bilirubin, mildly elevated liver enzymes, and a mildly dilated CBD (9 mm) — features that raise suspicion of concomitant choledocholithiasis (intermediate probability). MRCP is the investigation of choice in this setting: it is non-invasive, has high sensitivity and specificity for CBD stones, avoids radiation, and guides the decision whether ERCP (therapeutic) is subsequently needed. ERCP should not be performed diagnostically when MRCP is available.",
+    "wrongAnswerExplanations": [
+      "Incorrect. HIDA scan is useful for diagnosing acute cholecystitis when ultrasound is equivocal; in this case cholecystitis is already confirmed and the question is whether CBD stones are also present — HIDA does not image the CBD for stones.",
+      "Incorrect. CT can demonstrate CBD dilation and some stones but has lower sensitivity for CBD stones than MRCP and exposes the patient to radiation; MRCP is the preferred next step.",
+      "Correct. MRCP is the non-invasive gold standard investigation to detect common bile duct stones in a patient with intermediate probability of choledocholithiasis (mild LFT derangement, borderline CBD dilation).",
+      "Incorrect. ERCP is both diagnostic and therapeutic but carries procedure-related risks (pancreatitis, perforation, bleeding); it should be reserved for when CBD stones are confirmed or highly likely, not as the first investigation.",
+      "Incorrect. Repeating the ultrasound in 48 hours would delay diagnosis and treatment; the clinical concern for CBD stones requires definitive imaging now."
+    ],
+    "clinicalPearl": "When acute cholecystitis coexists with mildly elevated LFTs and a borderline dilated CBD, intermediate probability of choledocholithiasis — MRCP is the non-invasive investigation of choice before committing to ERCP."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Acute cholecystitis — complications",
+    "question": "A 70-year-old man with poorly controlled type 2 diabetes is admitted with acute cholecystitis. He is treated with IV antibiotics. On day 3 of admission he deteriorates: temperature spikes to 40°C, HR 130 bpm, BP 88/54 mmHg, and he becomes confused. His WBC has risen to 26 × 10⁹/L. Repeat ultrasound shows a grossly distended gallbladder with echogenic fluid and bright intraluminal specks with ring-down artefact (gas). There is no free intraperitoneal air. What is the most likely diagnosis?",
+    "options": [
+      "Mirizzi syndrome",
+      "Emphysematous cholecystitis",
+      "Gallbladder perforation with abscess formation",
+      "Ascending cholangitis",
+      "Acute pancreatitis secondary to passed gallstone"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Emphysematous cholecystitis is a rare but life-threatening variant of acute cholecystitis caused by gas-forming organisms (Clostridium perfringens, E. coli, Klebsiella) infecting the gallbladder wall. It is strongly associated with diabetes mellitus and male sex. The pathognomonic finding is gas within the gallbladder lumen or wall on imaging (ultrasound ring-down artefact from gas; CT is definitive). It carries a high risk of perforation and mortality and requires emergency cholecystectomy or cholecystostomy.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Mirizzi syndrome is caused by a large gallstone impacting the cystic duct and compressing the common hepatic duct, producing obstructive jaundice — it does not cause gas in the gallbladder or septic shock of this severity.",
+      "Correct. Gas within the gallbladder on ultrasound (ring-down artefact) in a septic diabetic male who fails to respond to antibiotics is emphysematous cholecystitis — a surgical emergency caused by gas-forming organisms.",
+      "Incorrect. Gallbladder perforation with abscess formation would show pericholecystic fluid collection; it would not produce intraluminal gas with ring-down artefact.",
+      "Incorrect. Ascending cholangitis (Charcot's triad: fever, RUQ pain, jaundice) typically presents with jaundice and is caused by biliary obstruction — there is no mention of jaundice or dilated ducts, and the ultrasound finding of intraluminal gas is not explained by cholangitis.",
+      "Incorrect. Acute pancreatitis would show epigastric pain radiating to the back, elevated serum amylase/lipase, and CT changes in the pancreas — not gas in the gallbladder."
+    ],
+    "clinicalPearl": "Emphysematous cholecystitis — think gas-forming organisms in the gallbladder in a diabetic or immunocompromised patient with severe sepsis failing antibiotics; gas on imaging is pathognomonic and it is a surgical emergency."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Choledocholithiasis / ascending cholangitis",
+    "question": "A 62-year-old man is brought to the ED with a 12-hour history of rigors, jaundice, and severe right upper quadrant pain. He underwent laparoscopic cholecystectomy 3 years ago. His temperature is 39.8°C, HR 120 bpm, BP 92/58 mmHg, and he is confused. He is deeply jaundiced. Bloods: WBC 22 × 10⁹/L, bilirubin 145 µmol/L, ALP 420 U/L, ALT 180 U/L. Ultrasound shows a dilated common bile duct of 14 mm with no obvious stones seen. What is the diagnosis and the most urgent therapeutic intervention?",
+    "options": [
+      "Acute cholecystitis; admit for IV antibiotics and early cholecystectomy",
+      "Ascending cholangitis with septic shock; urgent ERCP with sphincterotomy and stone extraction or biliary stenting",
+      "Primary sclerosing cholangitis; arrange liver biopsy for histological confirmation",
+      "Viral hepatitis; supportive care and liver function monitoring",
+      "Gallbladder carcinoma with biliary obstruction; arrange CT staging before intervention"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This man has Reynolds' pentad (Charcot's triad of RUQ pain + fever + jaundice, plus hypotension and confusion), indicating severe ascending cholangitis with septic shock — a life-threatening emergency. The cause is likely a retained or recurrent CBD stone post-cholecystectomy. After resuscitation with IV fluids and broad-spectrum antibiotics, urgent biliary decompression via ERCP (sphincterotomy + stone extraction or biliary stenting) is the definitive treatment and dramatically reduces mortality. Surgical drainage is a fallback if ERCP fails.",
+    "wrongAnswerExplanations": [
+      "Incorrect. He has no gallbladder (prior cholecystectomy) and the presentation is Charcot's triad plus cardiovascular collapse and confusion — this is ascending cholangitis, not cholecystitis.",
+      "Correct. Reynolds' pentad confirms severe ascending cholangitis. After IV resuscitation and antibiotics, urgent ERCP with biliary decompression is the life-saving intervention.",
+      "Incorrect. Primary sclerosing cholangitis is a chronic inflammatory condition causing strictures; it does not present acutely with rigors, septic shock, and a single episode of jaundice requiring emergency drainage.",
+      "Incorrect. Viral hepatitis would not produce rigors, septic shock, or a dilated CBD; the clinical picture and dilated CBD indicate mechanical biliary obstruction with secondary infection.",
+      "Incorrect. Gallbladder carcinoma is possible but does not explain the acute infectious presentation with rigors and septic shock in hours; ascending cholangitis with CBD stone is the primary diagnosis requiring urgent action."
+    ],
+    "clinicalPearl": "Reynolds' pentad (RUQ pain + fever + jaundice + hypotension + confusion) = severe ascending cholangitis — a surgical emergency requiring urgent biliary decompression via ERCP after IV resuscitation and antibiotics."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Bile duct injury — complication of cholecystectomy",
+    "question": "A 38-year-old woman undergoes routine elective laparoscopic cholecystectomy for symptomatic gallstones. The operation is reported as technically straightforward. On day 2 post-operatively she develops increasing abdominal pain, nausea, and low-grade fever (37.8°C). Abdominal examination reveals mild generalised tenderness and distension. LFTs are: bilirubin 55 µmol/L, ALP 240 U/L, ALT 90 U/L. A drain in situ has drained 450 mL of bile-stained fluid in the last 24 hours. Which of the following is the most appropriate next investigation?",
+    "options": [
+      "Repeat full blood count and C-reactive protein to assess for infection",
+      "CT abdomen with IV contrast to assess for haematoma",
+      "MRCP and/or ERCP to assess for bile duct injury or bile leak",
+      "Barium swallow to exclude gastrointestinal perforation",
+      "Upper GI endoscopy to exclude peptic ulcer disease"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Post-cholecystectomy bile drainage from the drain, combined with rising bilirubin and liver enzymes, indicates a bile leak — most commonly from the cystic duct stump, a duct of Luschka, or a major bile duct injury. MRCP provides non-invasive anatomical detail of the bile ducts to identify the site of leak or injury. ERCP can then be both diagnostic and therapeutic (sphincterotomy ± stenting to reduce biliary pressure and seal the leak). Identification of the level of injury guides whether endoscopic, percutaneous, or surgical repair is required.",
+    "wrongAnswerExplanations": [
+      "Incorrect. While infection markers are useful adjuncts, they do not identify the source of the bile leak or characterise the biliary anatomy — the priority is imaging the biliary tree.",
+      "Incorrect. CT with contrast may show a bile collection but is inferior to MRCP for delineating the biliary anatomy and identifying the exact site of a bile duct injury or leak.",
+      "Correct. MRCP (and subsequent ERCP if indicated) is the investigation of choice to evaluate post-operative bile leak — it identifies the site, defines the anatomy, and ERCP can simultaneously treat minor leaks with stenting.",
+      "Incorrect. Barium swallow evaluates the oesophagus and stomach; it has no role in evaluating post-cholecystectomy bile leak.",
+      "Incorrect. Upper GI endoscopy evaluates the luminal stomach and duodenum; it does not assess the biliary tree for a post-operative bile leak."
+    ],
+    "clinicalPearl": "Post-cholecystectomy bile leak (bilious drain output + rising bilirubin) — investigate with MRCP to map the injury, then ERCP for sphincterotomy ± stenting; major bile duct injuries need specialist hepatobiliary surgical repair."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Acute cholecystitis — risk factors and pathophysiology",
+    "question": "A 35-year-old woman who recently lost 18 kg following Roux-en-Y gastric bypass surgery 4 months ago presents with acute right upper quadrant pain and fever. Ultrasound reveals gallstones and acute cholecystitis. She is surprised as she has never had gallstone symptoms before. Which of the following best explains the mechanism by which her rapid weight loss predisposed her to gallstone formation?",
+    "options": [
+      "Increased hepatic secretion of cholesterol into bile due to mobilisation of adipose tissue during rapid weight loss",
+      "Decreased bile acid synthesis leading to a reduced bile acid pool and relative cholesterol supersaturation",
+      "Increased dietary fat absorption causing hypercholesterolaemia",
+      "Reduced gallbladder contractility due to bypassing the duodenum and reduced cholecystokinin stimulation, combined with cholesterol supersaturation from mobilised fat stores",
+      "Increased pigment stone formation due to haemolysis from nutritional deficiency post-bypass"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Rapid weight loss (especially post-bariatric surgery) promotes gallstone formation through two concurrent mechanisms: (1) increased hepatic secretion of cholesterol into bile as adipose tissue is mobilised (cholesterol supersaturation), and (2) impaired gallbladder emptying because the duodenum is bypassed in Roux-en-Y bypass, reducing cholecystokinin (CCK) release, leading to gallbladder stasis. Bile stasis and cholesterol supersaturation together promote cholesterol crystal nucleation and stone formation. Ursodeoxycholic acid is often prescribed prophylactically after bariatric surgery.",
+    "wrongAnswerExplanations": [
+      "Incorrect (incomplete). While increased hepatic cholesterol secretion does occur during rapid weight loss, this alone does not fully explain the pathogenesis; reduced gallbladder motility due to CCK deficiency from duodenal bypass is equally important.",
+      "Incorrect. Bile acid synthesis is not primarily reduced; the main problem is cholesterol supersaturation (increased cholesterol secretion) and impaired gallbladder emptying, not a reduced bile acid pool.",
+      "Incorrect. This patient has had bariatric surgery and is in a caloric deficit — her gallstones are not from increased dietary fat absorption but from mobilised body fat cholesterol being excreted in bile.",
+      "Correct. Roux-en-Y bypass bypasses the duodenum, reducing CCK stimulation → gallbladder stasis; simultaneously, mobilised fat stores increase hepatic cholesterol secretion → bile supersaturation. Both factors together drive cholesterol gallstone formation.",
+      "Incorrect. Pigment stones from haemolysis occur in haemolytic conditions (sickle cell, hereditary spherocytosis) and are not the mechanism in this rapid-weight-loss post-bariatric surgery context."
+    ],
+    "clinicalPearl": "Rapid weight loss and Roux-en-Y gastric bypass both promote cholesterol gallstone formation — bariatric centres routinely prescribe prophylactic ursodeoxycholic acid for 6 months post-surgery to reduce this risk."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Mirizzi syndrome",
+    "question": "A 58-year-old woman presents with progressive obstructive jaundice, intermittent RUQ pain, and low-grade fever over 6 weeks. She has no prior history of biliary surgery. LFTs: bilirubin 120 µmol/L, ALP 480 U/L, ALT 95 U/L. CA 19-9 is mildly elevated at 68 U/mL. Ultrasound shows a contracted gallbladder with a large stone at the neck, a dilated common hepatic duct (CHD) above the level of the cystic duct, but a normal-calibre common bile duct below. MRCP confirms extrinsic compression of the CHD by a stone impacted in the cystic duct/gallbladder neck. What is the most likely diagnosis?",
+    "options": [
+      "Choledocholithiasis with stone impacted in the distal CBD",
+      "Cholangiocarcinoma (Klatskin tumour) at the biliary hilum",
+      "Mirizzi syndrome",
+      "Primary sclerosing cholangitis",
+      "Carcinoma of the head of the pancreas"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Mirizzi syndrome occurs when a stone impacted in the cystic duct or Hartmann's pouch of the gallbladder extrinsically compresses the common hepatic duct, causing obstructive jaundice. The key differentiating MRCP finding is dilation of the CHD above the level of compression with a normal-calibre CBD below — contrasting with distal CBD obstruction seen in pancreatic carcinoma or distal choledocholithiasis. It can mimic malignancy (elevated CA 19-9 may occur with benign biliary obstruction). Treatment typically requires cholecystectomy, sometimes with bile duct reconstruction depending on the extent of erosion.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Choledocholithiasis with a distal CBD stone would dilate both the CHD and CBD above the stone; here the CBD below the cystic duct junction is normal, indicating extrinsic compression at the CHD level.",
+      "Incorrect. Klatskin tumour (hilar cholangiocarcinoma) would show a stricture at the hilum on MRCP without a clearly impacted gallstone, and would not have a contracted gallbladder with a stone at the neck as the primary finding.",
+      "Correct. Mirizzi syndrome is defined by extrinsic CHD compression from a cystic duct/Hartmann's pouch stone — MRCP demonstrating dilation above and normal CBD below, with a large impacted stone, is pathognomonic.",
+      "Incorrect. Primary sclerosing cholangitis causes multifocal biliary strictures with a beaded appearance on MRCP, not a single extrinsic compression by a gallstone.",
+      "Incorrect. Pancreatic head carcinoma would cause distal CBD and pancreatic duct dilation (double duct sign) with a pancreatic head mass on imaging — not a contracted gallbladder with a stone at the cystic duct."
+    ],
+    "clinicalPearl": "Mirizzi syndrome: an impacted cystic duct stone compressing the CHD — the hallmark on MRCP is CHD dilation with a normal CBD below the cystic duct insertion; it can mimic malignancy and requires expert biliary surgery."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Laparoscopic cholecystectomy — conversion and complications",
+    "question": "A 52-year-old obese man with a history of three prior episodes of acute cholecystitis is undergoing laparoscopic cholecystectomy. Intraoperatively, the surgeon notes dense adhesions in the triangle of Calot, making anatomical identification of the cystic duct and cystic artery extremely difficult. The critical view of safety cannot be achieved. What is the most appropriate intraoperative action?",
+    "options": [
+      "Proceed with clipping and dividing the structures as they appear, using best clinical judgement",
+      "Abandon the operation and close the ports without removing the gallbladder",
+      "Perform intraoperative cholangiography (IOC) to define the anatomy before proceeding",
+      "Convert to open cholecystectomy or perform a laparoscopic subtotal cholecystectomy if open conversion is not immediately feasible",
+      "Request an intraoperative ERCP to opacify the bile ducts and guide dissection"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "When the critical view of safety (CVS) cannot be achieved in laparoscopic cholecystectomy — i.e., the cystic duct and cystic artery cannot be definitively identified — the risk of bile duct injury is substantially increased. The safe intraoperative strategy is conversion to open cholecystectomy to gain better visualisation, or a laparoscopic subtotal cholecystectomy (partial resection of the gallbladder leaving the posterior wall) if anatomy is too hostile. Proceeding blindly is the single most important preventable cause of major bile duct injury. IOC may assist anatomy delineation but does not substitute for safe dissection.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Proceeding without achieving CVS and clipping unidentified structures is the primary cause of major bile duct injuries during laparoscopic cholecystectomy — this is the action that must be avoided.",
+      "Incorrect. Abandoning the operation entirely without any definitive management leaves the patient with untreated disease and is not appropriate; conversion to open or subtotal cholecystectomy is the correct response.",
+      "Incorrect. IOC can help delineate biliary anatomy and should be considered, but alone it does not resolve dense adhesions or make a difficult dissection safe — the decision to convert must still be made if CVS cannot be achieved.",
+      "Correct. When CVS cannot be achieved, the surgeon must convert to open cholecystectomy to improve visualisation and reduce bile duct injury risk, or perform subtotal cholecystectomy laparoscopically if anatomy is too hostile for safe open dissection.",
+      "Incorrect. Intraoperative ERCP is not a standard or practical intraoperative adjunct for guiding laparoscopic cholecystectomy dissection; it is not an appropriate response to inability to achieve CVS."
+    ],
+    "clinicalPearl": "If the critical view of safety cannot be achieved during laparoscopic cholecystectomy — convert. Conversion is not failure; proceeding without CVS is the leading preventable cause of major bile duct injury."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "2-Disease of gall bladder -2025- for lectures.pdf",
+    "topic": "Acute cholecystitis — conservative vs. surgical management",
+    "question": "An 82-year-old woman with COPD (FEV1 45% predicted), ischaemic heart disease with an EF of 30%, and CKD stage 4 is admitted with acute cholecystitis confirmed on ultrasound. She is started on IV antibiotics and responds well, becoming afebrile with a falling WBC at 48 hours. The surgical team reviews her cardiorespiratory risk and estimates operative mortality for general anaesthesia to be very high. She does not want to proceed with surgery if alternatives exist. What is the most appropriate next step in her management?",
+    "options": [
+      "Proceed with emergency laparoscopic cholecystectomy regardless of her wishes and operative risk",
+      "Complete the antibiotic course, discharge, and plan interval laparoscopic cholecystectomy in 6 weeks",
+      "Perform percutaneous ultrasound-guided cholecystostomy tube insertion for definitive source control as a bridge or long-term palliation",
+      "Administer ursodeoxycholic acid long-term to dissolve the gallstones and prevent recurrence",
+      "Refer for endoscopic transmural gallbladder drainage (EUS-GBD) as primary therapy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In elderly, high-risk surgical patients (high anaesthetic risk and/or patient refusing surgery) who respond partially to antibiotics but remain at risk of recurrence or progression, percutaneous cholecystostomy is the procedure of choice. It can be performed under local anaesthesia with ultrasound or CT guidance, achieves source control by draining the obstructed, inflamed gallbladder, and avoids general anaesthesia. It can serve as a bridge to elective surgery if the patient's condition improves or as long-term palliation in those permanently unfit for surgery.",
+    "wrongAnswerExplanations": [
+      "Incorrect. Proceeding with surgery against the patient's wishes is an ethical violation, and given her very high operative mortality risk (EF 30%, severe COPD, CKD4), the harm clearly outweighs benefit in this frail elderly patient.",
+      "Incorrect. Given her extremely high operative risk and refusal of surgery, planning interval cholecystectomy is not realistic. Moreover, interval cholecystectomy in conservatively managed acute cholecystitis has a significant recurrence rate in the waiting period.",
+      "Correct. Percutaneous cholecystostomy under local anaesthesia is the appropriate intervention for high-risk, non-operative patients — it decompresses the gallbladder, controls sepsis, and avoids the risks of general anaesthesia.",
+      "Incorrect. Ursodeoxycholic acid has extremely limited efficacy (small cholesterol stones only), acts very slowly, and provides no acute source control in a patient who is currently septic with acute cholecystitis.",
+      "Incorrect. EUS-guided gallbladder drainage (EUS-GBD) is an emerging technique available at specialist centres, but it is not universally available and is not currently a standard first-line alternative to percutaneous cholecystostomy in frail high-risk patients with acute cholecystitis."
+    ],
+    "clinicalPearl": "Percutaneous cholecystostomy under local anaesthesia is the preferred intervention for acute cholecystitis in patients with prohibitive surgical risk — it drains the gallbladder, controls sepsis, and avoids general anaesthesia."
+  }
+]

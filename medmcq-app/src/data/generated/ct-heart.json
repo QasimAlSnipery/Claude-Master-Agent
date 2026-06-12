@@ -1,0 +1,301 @@
+[
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "6- Valvular heart diseases Gwe La Recordaka Bgra.pdf",
+    "topic": "Aortic stenosis: surgical decision",
+    "question": "A 72-year-old man presents with a 6-month history of exertional chest pain and two episodes of syncope. On examination he has a slow-rising pulse, a systolic pressure of 110/80 mmHg, and a harsh ejection systolic murmur at the right upper sternal border radiating to the carotids. Echocardiography shows a calcified aortic valve with a peak gradient of 68 mmHg and an aortic valve area of 0.7 cm². Left ventricular ejection fraction is 55%. Which is the most appropriate next management step?",
+    "options": [
+      "Commence long-term beta-blocker therapy and observe with 6-monthly echo",
+      "Aortic valve replacement (surgical or TAVI)",
+      "Percutaneous balloon aortic valvuloplasty as definitive treatment",
+      "Commence ACE inhibitor to reduce afterload",
+      "Refer for coronary angiography alone and defer valve decision"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has severe symptomatic aortic stenosis (AVA <1.0 cm², peak gradient >64 mmHg) with classic symptoms of chest pain and syncope. Symptomatic severe AS carries a median survival of 2–3 years without intervention, and valve replacement (surgical AVR or TAVI depending on operative risk) is the definitive treatment. Medical therapy does not alter the natural history of AS.",
+    "wrongAnswerExplanations": [
+      "Watchful waiting with beta-blockers is appropriate only for asymptomatic mild-to-moderate AS; this patient is symptomatic with severe disease and requires prompt intervention.",
+      "Aortic valve replacement is correct — symptomatic severe AS with syncope is a Class I indication for AVR/TAVI regardless of ejection fraction.",
+      "Balloon valvuloplasty has a very high restenosis rate and is reserved as a bridge to definitive surgery in haemodynamically unstable patients, not as standalone definitive therapy in adults.",
+      "ACE inhibitors are relatively contraindicated in severe AS because they reduce afterload against a fixed obstruction and can cause profound hypotension.",
+      "Coronary angiography is often performed pre-operatively to assess for concomitant coronary disease, but deferring the valve decision is inappropriate once the patient is symptomatic with severe AS."
+    ],
+    "clinicalPearl": "The triad of syncope, angina, and dyspnoea in aortic stenosis signals critical severity — median survival without valve replacement is <3 years once symptoms appear."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "6- Valvular heart diseases Gwe La Recordaka Bgra.pdf",
+    "topic": "Acute mitral regurgitation: emergency management",
+    "question": "A 58-year-old woman is brought to the emergency department with sudden-onset severe breathlessness and hypotension 4 days after an acute anterior myocardial infarction treated with thrombolysis. Her BP is 85/60 mmHg, O2 saturation 88% on high-flow oxygen, and she has a new loud pansystolic murmur at the apex with radiation to the axilla. Chest X-ray shows acute pulmonary oedema. Bedside echocardiography confirms severe mitral regurgitation with a flail posterior leaflet. What is the most appropriate immediate management?",
+    "options": [
+      "Urgent intra-aortic balloon pump insertion followed by emergency mitral valve surgery",
+      "IV furosemide 80 mg and oral ramipril titration",
+      "Emergency coronary angiography and repeat thrombolysis",
+      "Urgent pericardiocentesis to relieve tamponade",
+      "Intravenous amiodarone for suspected ventricular tachycardia"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Papillary muscle rupture causing acute severe mitral regurgitation is a mechanical complication of MI that carries near-100% mortality without surgical intervention. The immediate priority is haemodynamic stabilisation with an intra-aortic balloon pump (reduces afterload and augments forward flow), followed by urgent mitral valve repair or replacement. Vasodilators and diuretics alone are insufficient in cardiogenic shock.",
+    "wrongAnswerExplanations": [
+      "IABP stabilisation followed by emergency mitral surgery is correct — this is the only intervention that addresses the underlying mechanical cause and bridges the patient to definitive repair.",
+      "Furosemide and ACE inhibitors are useful in chronic MR but are inadequate and potentially harmful in acute cardiogenic shock from papillary muscle rupture.",
+      "The acute problem here is mechanical (flail leaflet on echo), not recurrent thrombosis; repeat thrombolysis would not address mitral regurgitation and carries bleeding risk.",
+      "The clinical and echocardiographic findings point to acute MR, not pericardial tamponade; pericardiocentesis would be inappropriate.",
+      "There is no evidence of arrhythmia; amiodarone would not address the haemodynamic collapse caused by severe regurgitation."
+    ],
+    "clinicalPearl": "A new pansystolic murmur with acute pulmonary oedema after MI should prompt immediate echocardiography to distinguish papillary muscle rupture (MR) from ventricular septal defect — both are surgical emergencies."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "6- Valvular heart diseases Gwe La Recordaka Bgra.pdf",
+    "topic": "Mitral stenosis: complications and management",
+    "question": "A 45-year-old woman from Bangladesh presents with progressive exertional dyspnoea, haemoptysis, and palpitations. She has a history of rheumatic fever in childhood. Examination reveals an irregular pulse, a tapping apex beat, loud S1, an opening snap, and a low-pitched mid-diastolic rumble at the apex. ECG shows atrial fibrillation. Echocardiography demonstrates a mitral valve area of 1.2 cm² with moderate subvalvular disease, a Wilkins score of 9, and no significant mitral regurgitation. What is the most appropriate intervention?",
+    "options": [
+      "Percutaneous mitral balloon valvotomy (PMBV)",
+      "Mitral valve replacement with a mechanical prosthesis",
+      "Long-term rate control with digoxin alone",
+      "Surgical open mitral commissurotomy",
+      "Anticoagulation with warfarin and elective cardioversion"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A Wilkins score of 9 (favourable threshold is ≤8) indicates significant subvalvular disease, making PMBV less likely to succeed and more likely to cause complications. Surgical open mitral commissurotomy or mitral valve replacement is therefore preferred. With a Wilkins score of 9 and moderate subvalvular involvement, surgical commissurotomy (or MVR if anatomy is unsuitable) is the correct choice.",
+    "wrongAnswerExplanations": [
+      "PMBV is the preferred intervention when the Wilkins score is ≤8 with pliable, non-calcified valves and minimal subvalvular disease; a score of 9 makes surgical correction more appropriate.",
+      "Mitral valve replacement would be chosen if the valve is heavily calcified or unsuitable for repair, but surgical commissurotomy should be attempted first when commissural fusion is the predominant pathology.",
+      "Rate control alone does not address the mechanical obstruction and would not prevent progressive heart failure, pulmonary hypertension, or systemic embolism.",
+      "Surgical open mitral commissurotomy is correct here given the unfavourable valve morphology (Wilkins score 9) that contraindicates percutaneous intervention.",
+      "Anticoagulation is mandatory in mitral stenosis with AF to prevent thromboembolism but is not a definitive treatment for the stenosis itself."
+    ],
+    "clinicalPearl": "A Wilkins echocardiographic score >8 (accounting for leaflet mobility, thickening, calcification, and subvalvular disease) predicts a poor outcome with percutaneous valvotomy and favours surgical intervention."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "6- Valvular heart diseases Gwe La Recordaka Bgra.pdf",
+    "topic": "Aortic regurgitation: timing of surgery",
+    "question": "A 38-year-old man with known Marfan syndrome attends his annual cardiology review. He is asymptomatic and plays recreational tennis. Echocardiography shows moderate-to-severe aortic regurgitation; the left ventricle is dilated with an end-systolic diameter (LVEsd) of 51 mm and an ejection fraction of 48%. Aortic root diameter is 44 mm. He has no symptoms on exertion. What is the most appropriate management?",
+    "options": [
+      "Continue surveillance with annual echocardiography and reassure",
+      "Commence nifedipine to reduce afterload and reassess in 6 months",
+      "Aortic valve replacement (or valve-sparing root replacement) now",
+      "Commence ACE inhibitor and repeat echo in 12 months",
+      "Refer for cardiac MRI and defer surgery until symptomatic"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Current guidelines recommend surgery for severe AR even in asymptomatic patients when LV ejection fraction falls below 50% or LV end-systolic diameter exceeds 50 mm (or ≥25 mm/m²). This patient has an EF of 48% and LVEsd of 51 mm — both are operative thresholds — and given Marfan syndrome, valve-sparing root replacement is preferable. Waiting for symptoms risks irreversible LV dysfunction.",
+    "wrongAnswerExplanations": [
+      "Surveillance alone is appropriate for mild-moderate AR with preserved LV function; this patient has crossed two operative thresholds (EF <50%, LVEsd >50 mm) and requires surgery.",
+      "Vasodilator therapy (nifedipine, ACE inhibitors) is a temporising measure; it does not replace surgery when LV remodelling has reached operative thresholds.",
+      "Aortic valve replacement or valve-sparing root repair is correct — both EF <50% and LVEsd ≥51 mm are Class I indications for surgery in chronic severe AR.",
+      "ACE inhibitor therapy may slow progression but is not an alternative to surgery once operative thresholds are met.",
+      "Cardiac MRI can add information but should not delay surgery when clear echocardiographic indications are present."
+    ],
+    "clinicalPearl": "In chronic severe aortic regurgitation, surgery is indicated before symptoms develop if LVEF drops below 50% or LVEsd exceeds 50 mm — waiting for symptoms allows irreversible myocardial damage."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "congenital heart diseases.pdf",
+    "topic": "Ventricular septal defect: management decision",
+    "question": "A 6-week-old male infant is reviewed at the paediatric cardiology clinic for a murmur noticed at birth. He is feeding poorly, sweating during feeds, and has gained only 150 g in 4 weeks. Weight is below the 3rd centile. Examination reveals tachycardia, tachypnoea, and a harsh pansystolic murmur at the left lower sternal border. Echocardiography shows a large perimembranous VSD with a left-to-right shunt and Qp:Qs ratio of 2.8:1. What is the most appropriate management?",
+    "options": [
+      "Reassure and observe as most VSDs close spontaneously by age 2",
+      "Commence diuretics and ACE inhibitor to manage heart failure, then plan elective surgical closure",
+      "Immediate surgical VSD closure under cardiopulmonary bypass",
+      "Percutaneous device closure in the cardiac catheterisation laboratory",
+      "High-calorie feeding alone and recheck in 3 months"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This infant has a large VSD causing symptomatic heart failure (poor feeding, failure to thrive, sweating). Medical management with diuretics (furosemide) and ACE inhibitor (captopril) is first-line to control pulmonary overcirculation and optimise nutritional status before planned surgical repair — typically within the first 3–6 months to prevent pulmonary hypertension. Immediate emergency surgery is not required unless medical treatment fails.",
+    "wrongAnswerExplanations": [
+      "Spontaneous closure is common for small muscular VSDs but is unlikely for large perimembranous defects with a Qp:Qs >2:1; watchful waiting is inappropriate given symptomatic heart failure.",
+      "Medical optimisation followed by planned surgical closure is correct — this approach stabilises the infant haemodynamically and allows elective rather than emergency repair.",
+      "Immediate emergency surgery is reserved for refractory heart failure not responding to medical therapy; initial management should be medical.",
+      "Percutaneous device closure is suitable for muscular VSDs of appropriate size but is technically difficult for large perimembranous VSDs in small infants; surgical closure remains standard.",
+      "High-calorie feeding alone does not address the underlying haemodynamic problem; without intervention this infant will develop worsening pulmonary hypertension."
+    ],
+    "clinicalPearl": "Large VSDs causing symptomatic heart failure in infancy require medical optimisation followed by surgical closure within the first 3–6 months of life to prevent the development of irreversible pulmonary vascular disease (Eisenmenger syndrome)."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "congenital heart diseases.pdf",
+    "topic": "Tetralogy of Fallot: hypercyanotic spell management",
+    "question": "A 4-month-old girl with known Tetralogy of Fallot becomes acutely cyanosed and inconsolable during a nappy change in the ward. Her oxygen saturation drops from 78% to 45%. She is tachypnoeic and the previously audible systolic murmur has disappeared. The on-call doctor is called urgently. What is the most appropriate immediate management sequence?",
+    "options": [
+      "Place in knee-chest position, give morphine IV, administer IV propranolol",
+      "Emergency surgical repair of Tetralogy of Fallot in the next 2 hours",
+      "High-flow oxygen via face mask and urgent echocardiography",
+      "Administer IV digoxin to improve cardiac output",
+      "Immediate endotracheal intubation and mechanical ventilation"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A hypercyanotic ('Tet') spell is caused by dynamic infundibular spasm reducing pulmonary blood flow. The immediate management is the knee-chest (squatting) position to increase SVR and reduce the right-to-left shunt, followed by IV morphine (reduces hyperpnea and sympathetic drive) and IV propranolol (relieves infundibular spasm). These measures abort most spells. The disappearance of the murmur indicates maximal RVOTO with little pulmonary flow.",
+    "wrongAnswerExplanations": [
+      "Knee-chest position, morphine, and propranolol is the correct acute management sequence — it addresses the physiology of infundibular spasm and reverses the hypercyanotic spell.",
+      "Emergency surgical repair is not feasible within 2 hours and is not the immediate response to an acute spell; medical stabilisation takes precedence.",
+      "While oxygen may be given, it is not the primary intervention and echocardiography is not urgently needed for a known diagnosis; position and medications are first priority.",
+      "Digoxin increases myocardial contractility and would worsen dynamic infundibular obstruction, potentially deepening the spell.",
+      "Intubation may be necessary if the spell is refractory, but it is not the first-line response and carries its own risks in this setting."
+    ],
+    "clinicalPearl": "In a Tet spell, the disappearance of the systolic murmur is an ominous sign indicating severe dynamic RVOTO; the knee-chest position is the single most important immediate manoeuvre to increase SVR and restore pulmonary blood flow."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "congenital heart diseases.pdf",
+    "topic": "Patent ductus arteriosus: management in preterm infant",
+    "question": "A premature infant born at 28 weeks' gestation is now 5 days old. The neonatology team notes increasing oxygen requirements, a hyperactive precordium, bounding peripheral pulses, and a continuous 'machinery' murmur at the left infraclavicular area. Chest X-ray shows cardiomegaly and increased pulmonary vascular markings. Echocardiography confirms a large patent ductus arteriosus with a significant left-to-right shunt. What is the most appropriate first-line treatment?",
+    "options": [
+      "Surgical ligation of the PDA via left thoracotomy",
+      "IV indomethacin (or ibuprofen) to promote ductal closure",
+      "Transcatheter coil occlusion of the PDA",
+      "Digoxin and furosemide for cardiac failure management only",
+      "Conservative management with fluid restriction and await spontaneous closure"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In symptomatic PDA in a preterm infant, the first-line pharmacological treatment is an indomethacin (or ibuprofen) course, which inhibits prostaglandin synthesis and promotes ductal closure. This is effective in approximately 70–80% of cases. Surgical ligation is reserved for cases where medical therapy fails or is contraindicated (e.g., renal impairment, thrombocytopenia, necrotising enterocolitis).",
+    "wrongAnswerExplanations": [
+      "Surgical ligation is effective but is second-line after failed or contraindicated medical therapy; the higher procedural risk in a premature infant justifies a medical trial first.",
+      "Indomethacin or ibuprofen is the correct first-line treatment for symptomatic PDA in premature infants, promoting closure by inhibiting prostaglandin E2.",
+      "Transcatheter device closure is appropriate for older infants and children with persistent PDA but is not feasible or appropriate in a 28-week premature neonate.",
+      "Diuretics and digoxin may temporarily manage symptoms but do not close the ductus; they are supportive adjuncts, not definitive therapy.",
+      "Fluid restriction alone is insufficient for a large symptomatic PDA with haemodynamically significant shunting in a preterm infant."
+    ],
+    "clinicalPearl": "The continuous 'machinery' murmur of PDA is heard best below the left clavicle; in premature infants with symptomatic haemodynamically significant PDA, indomethacin/ibuprofen is first-line before considering surgical ligation."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "congenital heart diseases.pdf",
+    "topic": "Coarctation of the aorta: presentation and diagnosis",
+    "question": "A 16-year-old boy is referred by his GP after a routine school medical reveals hypertension of 162/95 mmHg in the right arm. He reports occasional headaches and leg fatigue on exercise. On examination, femoral pulses are weak and delayed compared with the right radial pulse. BP in the right leg is 115/70 mmHg. A soft systolic murmur is audible over the back. CXR shows bilateral rib notching. What investigation would best delineate the anatomy prior to intervention?",
+    "options": [
+      "Doppler ultrasound of the femoral arteries",
+      "CT angiography of the thoracic aorta",
+      "Transthoracic echocardiography alone",
+      "Invasive cardiac catheterisation with aortography",
+      "Renal ultrasound with Doppler to exclude renovascular hypertension"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "CT angiography (or MRI/MRA) of the thoracic aorta is the investigation of choice to delineate the anatomy of coarctation — defining the site, severity, extent, and collateral vessels — before planning intervention (surgical repair or endovascular stenting). It provides superior 3D anatomical detail compared with echo or Doppler alone.",
+    "wrongAnswerExplanations": [
+      "Doppler of the femoral arteries can confirm delayed flow but does not provide the anatomical detail of the coarctation segment needed for intervention planning.",
+      "CT angiography of the thoracic aorta is correct — it provides definitive anatomical mapping of the coarctation, associated arch anomalies, and collateral vessels for pre-intervention planning.",
+      "Transthoracic echocardiography can estimate the gradient and identify associated lesions (bicuspid aortic valve) but is limited in adults for imaging the descending aorta.",
+      "Invasive aortography was historically gold-standard but has been largely replaced by non-invasive CT/MR angiography for diagnostic workup.",
+      "Renal ultrasound is appropriate for renovascular hypertension, but the clinical findings (weak femoral pulses, arm-leg BP differential, rib notching) firmly establish aortic coarctation as the diagnosis."
+    ],
+    "clinicalPearl": "Rib notching on CXR (from hypertrophied intercostal collateral arteries) is virtually pathognomonic of coarctation of the aorta in a young patient with upper limb hypertension and weak femoral pulses."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "congenital heart diseases.pdf",
+    "topic": "Atrial septal defect: indication for closure",
+    "question": "A 34-year-old woman is investigated for exertional dyspnoea and palpitations. She has no prior cardiac history. ECG shows incomplete right bundle branch block and right axis deviation. Transthoracic echocardiography with bubble study shows a secundum ASD with a Qp:Qs of 2.2:1. Right heart catheterisation confirms a pulmonary artery pressure of 28/12 mmHg. What is the most appropriate management?",
+    "options": [
+      "Lifestyle modification and annual echocardiographic surveillance",
+      "Percutaneous transcatheter ASD closure",
+      "Surgical ASD closure via median sternotomy on cardiopulmonary bypass",
+      "Anticoagulation with warfarin and rate control for arrhythmia",
+      "Targeted pulmonary arterial hypertension therapy with bosentan"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has a haemodynamically significant secundum ASD (Qp:Qs >1.5:1) with symptoms, mild pulmonary hypertension (not severe), and right heart volume overload. Percutaneous transcatheter closure (Amplatzer or similar device) is the preferred intervention for secundum ASDs of suitable anatomy, carrying lower morbidity than open surgery. Pulmonary artery pressure <2/3 systemic confirms operability.",
+    "wrongAnswerExplanations": [
+      "Surveillance alone is appropriate for small, haemodynamically insignificant ASDs; a Qp:Qs of 2.2:1 with symptoms and right heart enlargement warrants closure.",
+      "Percutaneous transcatheter closure is correct for secundum ASD with favourable anatomy — it offers equivalent closure rates to surgery with lower procedural morbidity.",
+      "Surgical closure is reserved for large defects with deficient rims unsuitable for device closure, or when concomitant cardiac surgery is needed; transcatheter approach is preferred here.",
+      "Anticoagulation and rate control address the sequelae of AF but do not treat the underlying shunt causing haemodynamic overload.",
+      "Bosentan is used for established pulmonary arterial hypertension with Eisenmenger physiology; this patient's PAP is only mildly elevated and the shunt is still left-to-right, making closure appropriate."
+    ],
+    "clinicalPearl": "Secundum ASD with Qp:Qs >1.5:1 and symptoms should be closed; transcatheter device closure is the preferred approach provided the defect has adequate rims and the pulmonary-to-systemic pressure ratio is <0.67."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "W4_S3_L1 Surgery for IHDb.pdf",
+    "topic": "CABG vs PCI: multivessel disease",
+    "question": "A 64-year-old man with type 2 diabetes and stable angina refractory to maximal medical therapy undergoes coronary angiography. This demonstrates: 85% stenosis of the proximal left anterior descending artery, 75% stenosis of the left circumflex, and 90% stenosis of the right coronary artery. LV ejection fraction is 50%. SYNTAX score is calculated at 28. He has no prior cerebrovascular disease. Which revascularisation strategy is associated with the best long-term outcome in this patient?",
+    "options": [
+      "Percutaneous coronary intervention (PCI) with drug-eluting stents to all three vessels",
+      "Coronary artery bypass grafting (CABG)",
+      "Medical therapy optimisation alone with isosorbide mononitrate and ranolazine",
+      "Hybrid revascularisation (LIMA to LAD via MIDCAB, PCI to remaining vessels)",
+      "PCI to the dominant right coronary artery only as a staged procedure"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In diabetic patients with three-vessel coronary disease and a SYNTAX score ≥23, CABG is associated with significantly lower rates of major adverse cardiac events, mortality, and repeat revascularisation compared with PCI — as demonstrated by the FREEDOM and SYNTAX trials. CABG with LIMA to LAD provides the most durable revascularisation in this high-complexity anatomy.",
+    "wrongAnswerExplanations": [
+      "PCI with DES is appropriate for low-to-intermediate SYNTAX scores (≤22) and non-diabetic patients; in this diabetic patient with SYNTAX 28 and three-vessel disease, CABG is superior per current evidence.",
+      "CABG is the correct answer — guidelines recommend CABG over PCI for diabetic patients with multivessel disease and SYNTAX score ≥23 based on the FREEDOM trial.",
+      "Medical therapy alone is appropriate for patients who decline revascularisation or have prohibitive surgical risk; this patient has refractory angina and preserved LV function — revascularisation improves symptoms and outcomes.",
+      "Hybrid revascularisation is an emerging option but lacks the robust evidence base of CABG for complex three-vessel disease with diabetes.",
+      "Incomplete revascularisation (culprit-only in stable multivessel disease) is associated with inferior outcomes compared with complete revascularisation by CABG."
+    ],
+    "clinicalPearl": "In diabetic patients with three-vessel coronary artery disease and SYNTAX score ≥23, CABG with LIMA-to-LAD graft provides superior long-term survival and freedom from repeat revascularisation compared with multivessel PCI."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "W4_S3_L1 Surgery for IHDb.pdf",
+    "topic": "Post-CABG complications: graft occlusion",
+    "question": "A 67-year-old man underwent three-vessel CABG (LIMA to LAD, SVG to OM, SVG to RCA) 8 years ago with excellent initial results. He now presents with recurrent exertional angina over the past 3 months. Stress testing shows new inferolateral ischaemia. Coronary angiography shows the LIMA-LAD graft is patent, but both saphenous vein grafts are occluded with diffuse disease. Native coronary vessels are also heavily diseased. Which statement best guides re-intervention in this patient?",
+    "options": [
+      "Redo CABG using both internal mammary arteries is the preferred first approach",
+      "PCI to the native vessels or patent graft segments is usually preferred over redo CABG in this setting",
+      "Conservative management with medical therapy optimisation and no further revascularisation",
+      "Transmyocardial laser revascularisation (TMLR) as first-line treatment",
+      "Heart transplantation assessment as the immediate next step"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Redo CABG carries substantially higher morbidity and mortality (2–4 times the risk of primary CABG) due to patent LIMA adhesions, mediastinal fibrosis, and fragile SVG manipulation risk. PCI to viable native vessel segments or interventions guided by ischaemia imaging are therefore preferred over redo surgery in most patients with recurrent angina after prior CABG, provided suitable targets exist.",
+    "wrongAnswerExplanations": [
+      "Redo CABG is associated with significantly elevated risk and is usually reserved for patients with extensive ischaemia not amenable to PCI; PCI is preferred when technically feasible.",
+      "PCI to native vessels or graft segments is correct — it offers lower procedural risk than redo CABG and is the preferred strategy for most patients with recurrent angina after prior bypass surgery.",
+      "Medical optimisation alone may be appropriate if revascularisation targets are absent, but this patient has demonstrable ischaemia and viable targets should be explored before accepting purely medical therapy.",
+      "TMLR is an adjunctive option for patients with refractory angina and no revascularisation options; it is not appropriate as first-line treatment when PCI targets exist.",
+      "Heart transplantation is appropriate for end-stage heart failure with no revascularisation options; this patient has preserved function and documented ischaemia — revascularisation should be attempted first."
+    ],
+    "clinicalPearl": "Saphenous vein grafts have a 50% attrition rate at 10 years compared with >90% patency for LIMA-LAD grafts; redo CABG carries 2–4 times the mortality of primary surgery and PCI to native vessels is preferred when feasible."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "W4_S3_L1 Surgery for IHDb.pdf",
+    "topic": "Acute STEMI: emergency revascularisation decision",
+    "question": "A 59-year-old man presents to the emergency department with 90-minute history of severe central crushing chest pain. ECG shows ST elevation in leads II, III, and aVF with reciprocal changes in I and aVL. Troponin I is elevated. He is in cardiogenic shock with BP 75/50 mmHg despite fluid resuscitation. Emergent coronary angiography shows a totally occluded dominant right coronary artery with a large area of jeopardised myocardium. He also has a 70% LAD stenosis and a 60% LCx stenosis. What is the most appropriate revascularisation strategy?",
+    "options": [
+      "Primary PCI to the culprit right coronary artery only; defer non-culprit vessels",
+      "Emergency CABG to all three vessels under cardiopulmonary bypass",
+      "Multivessel primary PCI to all three coronary arteries in the same sitting",
+      "IV thrombolysis with tenecteplase then transfer for angiography",
+      "IABP insertion only and optimal medical therapy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Current guidelines (ESC/ACC) recommend primary PCI to the culprit vessel only in STEMI with cardiogenic shock — restoring flow in the infarct-related artery is the priority. The CULPRIT-SHOCK trial demonstrated that complete multivessel PCI at the time of STEMI in cardiogenic shock was associated with higher 30-day mortality compared with culprit-only PCI. Non-culprit stenoses are deferred to staged PCI.",
+    "wrongAnswerExplanations": [
+      "Primary PCI to the culprit RCA only is correct — the CULPRIT-SHOCK trial showed this approach reduces 30-day mortality compared with immediate multivessel PCI in cardiogenic shock.",
+      "Emergency CABG is not feasible in the acute phase of STEMI with ongoing ischaemia; primary PCI is the standard of care, with CABG reserved for failed PCI or left main/complex anatomy.",
+      "Multivessel PCI in the same sitting was shown in CULPRIT-SHOCK to be associated with higher mortality and more renal replacement therapy versus culprit-only PCI in cardiogenic shock.",
+      "Thrombolysis is appropriate when primary PCI is unavailable within 120 minutes of first medical contact; this patient is already in the cath lab and PCI is available.",
+      "IABP alone without revascularisation does not restore coronary flow and will not salvage the infarct territory; it may be a useful adjunct to PCI but not a standalone treatment."
+    ],
+    "clinicalPearl": "In STEMI with cardiogenic shock, the CULPRIT-SHOCK trial established that culprit-vessel-only primary PCI is preferred over immediate multivessel PCI — staged revascularisation of non-culprit lesions is performed after haemodynamic stabilisation."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "W4_S3_L1 Surgery for IHDb.pdf",
+    "topic": "Ventricular septal defect post-MI: surgical decision",
+    "question": "A 71-year-old woman is admitted with a large anterior STEMI treated with primary PCI to the LAD 5 days ago. She now develops sudden haemodynamic deterioration with a new harsh pansystolic murmur at the left sternal border. Oxygen saturation step-up is noted on right heart catheterisation (SaO2 75% in RA, 89% in PA). Echocardiography confirms a post-infarct ventricular septal defect with a Qp:Qs of 3.1:1. BP is 82/55 mmHg on vasopressors. What is the definitive treatment?",
+    "options": [
+      "Immediate surgical repair of the VSD under cardiopulmonary bypass",
+      "Percutaneous transcatheter VSD closure as definitive treatment",
+      "Optimise vasopressor support and anticoagulation, then plan surgery in 4–6 weeks",
+      "Repeat coronary angiography and PCI to improve collateral flow",
+      "Insertion of ventricular assist device (VAD) as sole therapy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Post-infarct VSD is a surgical emergency with mortality approaching 90% without repair. Although timing is debated, patients in cardiogenic shock require urgent surgical repair (with haemodynamic stabilisation via IABP or Impella as a bridge). Waiting 4–6 weeks is appropriate only for stable patients — in shock, urgent surgery is mandated. Transcatheter closure has limited evidence in the acute setting.",
+    "wrongAnswerExplanations": [
+      "Immediate surgical repair is the correct definitive treatment for post-infarct VSD with cardiogenic shock — mortality without surgery approaches 90%, and while risk is high, surgery remains the standard of care.",
+      "Percutaneous transcatheter closure is increasingly used but is technically challenging in acute post-infarct VSDs with friable necrotic margins and lacks robust evidence for use in cardiogenic shock.",
+      "Delayed surgery (4–6 weeks) allows tissue consolidation and reduces operative difficulty, but this strategy is only appropriate in haemodynamically stable patients — cardiogenic shock mandates urgent intervention.",
+      "PCI to the LAD has already been performed; re-intervention will not close the septal defect and will not reverse the haemodynamic compromise from the shunt.",
+      "A VAD may be used as a bridge to surgery by supporting cardiac output, but it is not a standalone definitive therapy for post-infarct VSD."
+    ],
+    "clinicalPearl": "Post-infarct VSD complicates approximately 0.2% of MIs and carries a 90% untreated mortality; a step-up in oxygen saturation between RA and PA on right heart catheterisation confirms the diagnosis and mandates urgent surgical or device repair."
+  }
+]

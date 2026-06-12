@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Neurogenic shock",
+    "question": "A 22-year-old motorcyclist is brought to the emergency department after a high-speed collision. He is found to have a complete cervical spinal cord injury at C5. On assessment his blood pressure is 78/40 mmHg, heart rate is 52 bpm, and he is warm and vasodilated peripherally. His GCS is 15. Which of the following best describes the mechanism of his haemodynamic instability?",
+    "options": [
+      "Loss of sympathetic vasomotor tone with intact parasympathetic activity causing vasodilation and bradycardia",
+      "Hypovolaemia from internal haemorrhage causing reflex tachycardia",
+      "Cardiac tamponade causing obstructive shock with elevated JVP",
+      "Adrenal insufficiency from bilateral adrenal haemorrhage",
+      "Tension pneumothorax causing obstructive shock with tracheal deviation"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Neurogenic shock results from disruption of descending sympathetic pathways in the spinal cord above T6, causing loss of vasomotor tone (vasodilation and hypotension) and loss of cardiac accelerator fibres (bradycardia). This produces the classic triad of hypotension, bradycardia, and warm peripheries, distinguishing it from hypovolaemic shock where tachycardia and cool peripheries are expected.",
+    "wrongAnswerExplanations": [
+      "Correct. Cervical cord injury above T6 interrupts descending sympathetic pathways, removing vasomotor tone and cardiac acceleration, producing hypotension with bradycardia and warm vasodilated peripheries — the hallmark of neurogenic shock.",
+      "Wrong. Hypovolaemic shock from haemorrhage produces compensatory tachycardia and cold, clammy peripheries due to intact sympathetic response — the opposite of this presentation.",
+      "Wrong. Cardiac tamponade causes obstructive shock with elevated JVP (Beck's triad: hypotension, raised JVP, muffled heart sounds), not bradycardia with warm peripheries.",
+      "Wrong. Adrenal haemorrhage causing Addisonian crisis is rare in trauma and presents with hyponatraemia, hyperkalaemia, and hypoglycaemia over a longer time course, not acute haemodynamic collapse with bradycardia.",
+      "Wrong. Tension pneumothorax causes obstructive shock with tracheal deviation, absent breath sounds, and distended neck veins — not bradycardia with warm vasodilated peripheries."
+    ],
+    "clinicalPearl": "Neurogenic shock = hypotension + bradycardia + warm peripheries after high cervical injury; always rule out concurrent haemorrhagic shock, which co-exists in up to 20% of cases."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Cauda equina syndrome",
+    "question": "A 45-year-old man presents to the emergency department with a 3-day history of worsening low back pain radiating bilaterally to both legs. For the past 12 hours he has noticed difficulty initiating micturition and reduced sensation when wiping after defecation. Examination reveals reduced perianal sensation and a palpable bladder on abdominal examination. Lower limb power is 4/5 bilaterally. Which is the most appropriate immediate next step in management?",
+    "options": [
+      "Urgent MRI lumbar spine within 4 hours",
+      "Lumbar X-ray to assess for fracture",
+      "Catheterisation and analgesia, with MRI the following morning",
+      "CT myelogram as first-line imaging",
+      "Physiotherapy referral and NSAIDs with outpatient MRI in 6 weeks"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is a clinical diagnosis of cauda equina syndrome (CES) — bilateral radiculopathy, bladder dysfunction, and saddle anaesthesia. NICE and BASS guidelines mandate emergency MRI within 4 hours of presentation to confirm the diagnosis and facilitate urgent surgical decompression. Delay in imaging and surgery is directly associated with worse neurological outcomes including permanent bladder dysfunction.",
+    "wrongAnswerExplanations": [
+      "Correct. Urgent MRI within 4 hours is the standard of care for suspected cauda equina syndrome to confirm diagnosis and guide emergency surgical decompression, as outcome is time-dependent.",
+      "Wrong. Plain X-rays cannot visualise the soft-tissue disc prolapse or cauda equina compression that causes CES and will critically delay diagnosis.",
+      "Wrong. Delaying MRI until the following morning in a patient with active bladder dysfunction from suspected CES risks permanent incontinence; this is a surgical emergency.",
+      "Wrong. CT myelogram is invasive, involves radiation and contrast, and is inferior to MRI for soft-tissue neural compression; it is not first-line in suspected CES.",
+      "Wrong. Outpatient physiotherapy and delayed MRI are entirely inappropriate for a patient with bladder symptoms and saddle anaesthesia — CES is a surgical emergency."
+    ],
+    "clinicalPearl": "Any combination of bilateral leg pain, saddle anaesthesia, and bladder/bowel dysfunction demands emergency MRI within 4 hours — cauda equina syndrome is a surgical emergency where hours determine continence."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "ASIA classification of spinal cord injury",
+    "question": "A 30-year-old woman is admitted after a diving accident. She has complete loss of motor and sensory function below T10. Examination at 48 hours reveals no motor or sensory function in the sacral segments S4–S5, including absent perianal sensation and no voluntary anal contraction. Which ASIA impairment grade best describes her injury?",
+    "options": [
+      "ASIA A — complete injury",
+      "ASIA B — incomplete, sensory only preserved below level",
+      "ASIA C — incomplete, motor preserved but majority grade <3",
+      "ASIA D — incomplete, majority motor grade ≥3 below level",
+      "ASIA E — normal motor and sensory function"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The ASIA classification defines a complete injury (Grade A) as no motor or sensory function preserved in the sacral segments S4–S5. Sacral sparing (any perianal sensation, voluntary anal contraction, or great toe flexor activity) would make the injury incomplete. This patient has absent perianal sensation and no voluntary anal contraction, fulfilling criteria for ASIA A.",
+    "wrongAnswerExplanations": [
+      "Correct. ASIA A is a complete injury defined by the absence of all motor and sensory function in sacral segments S4–S5, which is present here with absent perianal sensation and no voluntary anal contraction.",
+      "Wrong. ASIA B requires preserved sensory but not motor function below the neurological level, including in sacral segments — this patient has no sensory preservation at S4–S5.",
+      "Wrong. ASIA C requires some motor function below the neurological level with more than half of key muscles having grade <3 — there is no motor function preserved here.",
+      "Wrong. ASIA D requires preserved motor function below the level with at least half of key muscles grade ≥3 — not applicable with complete motor and sensory loss including sacral segments.",
+      "Wrong. ASIA E indicates normal motor and sensory function throughout — entirely inconsistent with complete T10-level deficits."
+    ],
+    "clinicalPearl": "Sacral sparing (perianal sensation, voluntary anal contraction, or big toe flexion) is the key determinant of complete vs incomplete spinal cord injury — even a flicker of sacral function changes prognosis dramatically."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Anatomy of the Spine _251116_091226.pdf",
+    "topic": "Cervical fracture — atlantoaxial instability",
+    "question": "A 68-year-old woman with longstanding rheumatoid arthritis presents to the emergency department after a minor fall. She is complaining of severe neck pain and tingling in both hands. Her cervical X-ray lateral view shows an atlanto-dens interval (ADI) of 8 mm. Which of the following is the most appropriate immediate management?",
+    "options": [
+      "Rigid cervical collar immobilisation and urgent neurosurgical referral",
+      "Reassurance and physiotherapy as minor soft tissue injury is likely",
+      "Oral prednisolone for an RA flare",
+      "CT chest/abdomen/pelvis to exclude malignant cord compression",
+      "Lumbar puncture to exclude meningitis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "An ADI >3 mm in adults (>5 mm is critically abnormal) indicates atlantoaxial instability from transverse ligament disruption. In rheumatoid arthritis, erosion of the transverse ligament and odontoid peg is common. An ADI of 8 mm indicates gross instability with risk of catastrophic cord compression. Immediate collar immobilisation and urgent neurosurgical referral for posterior stabilisation are required.",
+    "wrongAnswerExplanations": [
+      "Correct. An ADI of 8 mm (normal <3 mm in adults) represents severe atlantoaxial instability in the context of RA; immediate immobilisation and neurosurgical referral are mandatory to prevent spinal cord injury.",
+      "Wrong. An ADI of 8 mm is not a soft tissue injury; it indicates ligamentous disruption and gross instability — dismissing this finding risks catastrophic cord injury.",
+      "Wrong. Steroid treatment for an RA flare does not address the mechanical instability or the risk of cord compression from atlantoaxial subluxation.",
+      "Wrong. Malignant cord compression is a consideration in cancer patients but is not the priority here; the X-ray has already demonstrated the diagnosis of atlantoaxial instability.",
+      "Wrong. Lumbar puncture is contraindicated with raised intracranial pressure or cord compression risk and is entirely inappropriate here given the radiological finding."
+    ],
+    "clinicalPearl": "Rheumatoid arthritis patients are at high risk of atlantoaxial instability — always obtain a lateral cervical X-ray and measure the atlanto-dens interval (normal <3 mm in adults) before any procedure requiring neck manipulation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Thoracolumbar burst fracture",
+    "question": "A 35-year-old construction worker falls 4 metres from scaffolding and lands on his feet. He has severe back pain at the thoracolumbar junction. Plain X-rays show loss of anterior vertebral height at L1 with comminution. CT confirms a burst fracture with 40% canal compromise. Neurological examination is intact. Which of the following best guides the decision between operative and non-operative management?",
+    "options": [
+      "Degree of posterior ligamentous complex (PLC) disruption on MRI",
+      "Patient's occupation and time off work required",
+      "Degree of anterior vertebral height loss on plain X-ray alone",
+      "Age of the patient",
+      "Level of fracture only — thoracolumbar junction fractures always require surgery"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The posterior ligamentous complex (PLC) — comprising the supraspinous and interspinous ligaments, facet joint capsules, and ligamentum flavum — is the primary determinant of spinal instability in burst fractures. Disruption of the PLC indicates mechanical instability and is the key indicator for surgical fixation even in neurologically intact patients. MRI best assesses PLC integrity and guides operative decision-making.",
+    "wrongAnswerExplanations": [
+      "Correct. PLC integrity on MRI is the critical determinant of instability in burst fractures; disrupted PLC in a neurologically intact patient is a strong indication for surgical fixation to prevent progressive deformity.",
+      "Wrong. Occupation and time off work are secondary social considerations and do not determine spinal stability or the indication for surgery.",
+      "Wrong. Anterior vertebral height loss is one parameter in scoring systems (e.g. TLICS), but PLC integrity is the dominant factor — canal compromise and height loss alone do not mandate surgery in neurologically intact patients.",
+      "Wrong. Age is relevant to bone quality and surgical risk but is not the primary determinant of operative vs non-operative management in burst fractures.",
+      "Wrong. Not all thoracolumbar junction fractures require surgery; management depends on neurological status, PLC integrity, and fracture morphology."
+    ],
+    "clinicalPearl": "In neurologically intact burst fractures, intact posterior ligamentous complex (PLC) on MRI supports non-operative management; disrupted PLC indicates instability and operative fixation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Prolapsed intervertebral disc — L4/5",
+    "question": "A 38-year-old woman presents with a 6-week history of low back pain and right leg pain radiating from the buttock down the posterior thigh and lateral calf to the dorsum of the foot. Examination reveals weakness of right great toe extension, reduced sensation on the dorsum of the right foot, and a positive straight leg raise at 40°. Knee and ankle reflexes are normal. Which nerve root is most likely affected?",
+    "options": [
+      "L5",
+      "L4",
+      "S1",
+      "L3",
+      "S2"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The L5 nerve root exits at the L4/5 level and supplies: sensation to the dorsum of the foot and lateral calf, motor supply to extensor hallucis longus (great toe extension) and tibialis anterior, and contributes to the medial hamstring reflex (which is often absent). L5 radiculopathy does not typically reduce the ankle reflex (S1) or knee reflex (L4), consistent with this presentation.",
+    "wrongAnswerExplanations": [
+      "Correct. L5 radiculopathy causes weakness of great toe extension (EHL), sensory loss on the dorsum of the foot and lateral calf, with a normal ankle reflex — exactly this presentation.",
+      "Wrong. L4 radiculopathy affects knee extension and tibialis anterior, reduces the knee jerk, and causes medial calf/shin sensory loss — not dorsal foot sensory loss with toe extensor weakness.",
+      "Wrong. S1 radiculopathy causes weakness of plantar flexion and eversion, reduced ankle reflex, and sensory loss on the lateral border of the foot and little toe — not dorsal foot/great toe extension.",
+      "Wrong. L3 radiculopathy causes anterior thigh sensory loss, knee flexion/extension weakness, and reduced knee jerk — does not explain foot or toe findings.",
+      "Wrong. S2 supplies the posterior thigh and perineum; radiculopathy at this level would not explain toe extensor weakness or dorsal foot sensory loss."
+    ],
+    "clinicalPearl": "L5 radiculopathy = great toe extensor weakness + dorsal foot sensory loss + normal reflexes; S1 = ankle reflex loss + plantar flexion weakness + lateral foot numbness."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Central cord syndrome",
+    "question": "A 72-year-old man with known cervical spondylosis is brought in after a rear-end car collision causing neck hyperextension. He did not lose consciousness. On examination he has disproportionate upper limb weakness compared to the lower limbs, with burning dysaesthesia in both hands. Lower limb power is 4/5 bilaterally. Bladder dysfunction is present. MRI shows no fracture but signal change in the cord at C4/5. What is the most likely diagnosis?",
+    "options": [
+      "Central cord syndrome",
+      "Anterior cord syndrome",
+      "Brown-Séquard syndrome",
+      "Posterior cord syndrome",
+      "Complete transection at C4"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Central cord syndrome is the most common incomplete spinal cord injury, typically occurring in older patients with pre-existing cervical spondylosis after hyperextension injury without fracture. It is characterised by disproportionately greater upper limb than lower limb weakness (as motor fibres serving the upper limbs lie more centrally in the corticospinal tracts), sacral sensory sparing, and bladder dysfunction. Burning dysaesthesia in the hands is a hallmark feature.",
+    "wrongAnswerExplanations": [
+      "Correct. Central cord syndrome presents with greater arm than leg weakness after hyperextension in elderly spondylotic patients — the central cord is most vulnerable, affecting medially positioned upper limb motor tracts first.",
+      "Wrong. Anterior cord syndrome results from disruption of the anterior spinal artery, causing loss of motor function and pain/temperature sensation with preserved proprioception — not the disproportionate arm-more-than-leg pattern.",
+      "Wrong. Brown-Séquard syndrome is a hemicord injury causing ipsilateral motor loss with contralateral pain/temperature loss — not bilateral arm-predominant weakness.",
+      "Wrong. Posterior cord syndrome causes loss of proprioception and vibration with preserved motor and pain/temperature function — not the pattern described here.",
+      "Wrong. Complete cord transection at C4 would cause complete loss of motor and sensory function including respiratory compromise (phrenic nerve C3-5); this patient has partial deficits and is breathing normally."
+    ],
+    "clinicalPearl": "Central cord syndrome in an elderly patient after hyperextension = arms weaker than legs + burning hands + bladder dysfunction — the most common incomplete SCI and has the best prognosis of all incomplete injuries."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Jefferson fracture — C1 burst fracture",
+    "question": "A 28-year-old man dives into a shallow swimming pool and is brought to the emergency department with severe neck pain but no neurological deficit. Cervical X-ray open-mouth odontoid view shows lateral masses of C1 overhanging the C2 lateral masses bilaterally. CT confirms a four-part burst fracture of C1 with total lateral mass overhang of 9 mm. What is the most appropriate management?",
+    "options": [
+      "Halo vest immobilisation for 8–12 weeks given intact transverse ligament on MRI",
+      "Immediate surgical posterior fusion C1–C2",
+      "Soft collar and analgesia with outpatient review",
+      "Anterior odontoid screw fixation",
+      "Skull traction with progressive weight increase"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Jefferson fractures (C1 burst fractures) result from axial loading. Stability depends on the integrity of the transverse atlantal ligament (TAL). If total lateral mass overhang is <7 mm, the TAL is likely intact and halo vest immobilisation for 8–12 weeks is appropriate. If >7 mm (as here, 9 mm, Spence's rule), TAL disruption is likely and MRI should confirm; if TAL is intact on MRI, halo vest remains appropriate. Surgical fusion is reserved for unstable injuries with confirmed TAL rupture and/or neurological compromise.",
+    "wrongAnswerExplanations": [
+      "Correct. With lateral mass overhang of 9 mm, TAL disruption is suspected but must be confirmed on MRI; if the TAL is intact, halo vest for 8–12 weeks is the appropriate non-operative treatment for Jefferson fractures.",
+      "Wrong. Surgical posterior C1–C2 fusion is reserved for confirmed TAL disruption with instability or neurological compromise — not the first step before MRI confirmation of ligamentous status.",
+      "Wrong. A soft collar provides inadequate immobilisation for a Jefferson fracture with this degree of lateral mass displacement and suspected ligamentous injury.",
+      "Wrong. Odontoid screw fixation addresses C2 odontoid fractures, not C1 burst fractures.",
+      "Wrong. Skull traction is appropriate for fracture-dislocations requiring reduction but is not the standard management pathway for a Jefferson fracture without neurological deficit or subluxation requiring reduction."
+    ],
+    "clinicalPearl": "Jefferson fracture stability follows Spence's rule: total C1 lateral mass overhang >7 mm on open-mouth X-ray suggests transverse ligament rupture and instability — confirm with MRI before deciding on halo vs surgical fusion."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Hangman's fracture — C2 traumatic spondylolisthesis",
+    "question": "A 55-year-old driver is involved in a high-speed frontal collision. He has neck pain but intact neurology. CT of the cervical spine shows bilateral fractures through the pedicles of C2 with 3 mm anterior displacement of C2 on C3 and no angulation. Which classification and management is most appropriate?",
+    "options": [
+      "Effendi Type I — stable fracture, managed with rigid cervical collar or halo vest",
+      "Effendi Type II — unstable, requires surgical fusion",
+      "Effendi Type III — requires emergency closed reduction then surgical stabilisation",
+      "Jefferson fracture variant — requires halo vest for 12 weeks",
+      "Odontoid Type II fracture — consider surgical screw fixation"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Hangman's fractures (traumatic spondylolisthesis of C2) are classified by the Effendi system. Type I has <3 mm displacement and no angulation — considered stable as the C2/3 disc and ALL are intact. It is managed non-operatively with a rigid collar or halo vest. Type II has >3 mm displacement or angulation (disrupted disc), and Type III has facet dislocation. This patient has exactly 3 mm displacement and no angulation, consistent with Type I.",
+    "wrongAnswerExplanations": [
+      "Correct. Effendi Type I hangman's fracture (<3 mm displacement, no angulation) is a stable injury managed non-operatively with a rigid collar or halo vest; the C2/3 disc complex remains intact.",
+      "Wrong. Type II has >3 mm displacement or significant angulation indicating C2/3 disc disruption; this patient has 3 mm without angulation, which classifies as Type I.",
+      "Wrong. Type III involves C2/3 facet dislocation and is the most severe variant requiring reduction and surgical stabilisation — not applicable here without facet injury.",
+      "Wrong. Jefferson fractures involve C1, not bilateral C2 pedicle fractures; these are distinct injury patterns.",
+      "Wrong. Odontoid fractures involve the dens of C2 (Type I: tip, Type II: base, Type III: body) — distinct from pedicle fractures causing traumatic spondylolisthesis."
+    ],
+    "clinicalPearl": "Hangman's fracture = bilateral C2 pedicle fractures from hyperextension/axial load; Type I (<3 mm, no angulation) is surprisingly stable and treated with collar — paradoxically, the fracture decompresses the canal and neurological injury is rare."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Anterior cord syndrome",
+    "question": "A 62-year-old man undergoes elective aortic aneurysm repair. In the recovery room he is found to have complete bilateral lower limb paralysis with loss of pain and temperature sensation below T10. However, proprioception, vibration sense, and light touch are intact bilaterally. Bladder function is lost. What is the most likely diagnosis?",
+    "options": [
+      "Anterior cord syndrome secondary to anterior spinal artery ischaemia",
+      "Central cord syndrome from intraoperative positioning",
+      "Complete cord transection at T10",
+      "Posterior cord syndrome",
+      "Brown-Séquard syndrome from surgical retraction"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Anterior cord syndrome results from ischaemia of the anterior spinal artery, which supplies the anterior two-thirds of the cord including the corticospinal and spinothalamic tracts. This causes loss of motor function and pain/temperature sensation below the lesion, with preservation of proprioception and vibration (carried in the posterior columns, supplied by posterior spinal arteries). Aortic surgery carries a specific risk of anterior spinal artery ischaemia from disruption of the artery of Adamkiewicz.",
+    "wrongAnswerExplanations": [
+      "Correct. Anterior spinal artery ischaemia classically follows aortic surgery and causes the anterior cord syndrome pattern: bilateral motor loss + pain/temperature loss with preserved posterior column function (proprioception and vibration).",
+      "Wrong. Central cord syndrome causes disproportionate arm > leg weakness with sacral sparing and is typically associated with cervical hyperextension in elderly patients — not bilateral complete lower limb paralysis with dissociated sensory loss.",
+      "Wrong. Complete cord transection would abolish ALL modalities including proprioception, vibration, and light touch — posterior column function is intact here.",
+      "Wrong. Posterior cord syndrome causes loss of proprioception and vibration with intact motor and pain/temperature function — the exact opposite of this presentation.",
+      "Wrong. Brown-Séquard is a hemicord syndrome causing unilateral motor loss with contralateral pain/temperature loss — not bilateral symmetrical deficits."
+    ],
+    "clinicalPearl": "Anterior cord syndrome after aortic surgery = preserved proprioception and vibration (posterior columns intact) with loss of motor and pain/temperature — the artery of Adamkiewicz (T8–L2) is the critical supply to the anterior cord."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Odontoid fracture",
+    "question": "A 78-year-old woman with osteoporosis trips over a doorstep and falls forwards, striking her forehead. She attends with midline neck pain but no neurological deficit. CT shows a fracture through the base of the odontoid peg (Type II). She is anticoagulated for atrial fibrillation. Which statement best guides management?",
+    "options": [
+      "Type II odontoid fractures in the elderly have a high non-union rate with halo vest; surgical stabilisation (posterior C1–C2 fusion) is often preferred",
+      "All Type II odontoid fractures should be treated with anterior odontoid screw fixation as first-line",
+      "Rigid collar for 6 weeks is sufficient for all Type II fractures regardless of age",
+      "Type II fractures are stable and require no immobilisation",
+      "MRI is contraindicated due to anticoagulation and CT alone guides management"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Type II odontoid fractures (at the base of the dens) have the highest non-union rate, particularly in elderly patients with osteoporosis, displacement >5 mm, or posterior displacement. Non-operative management with halo vest carries a non-union rate exceeding 40% in patients over 65. Surgical options include anterior odontoid screw fixation (for acute fractures with preserved disc, no comminution) or posterior C1–C2 fusion, which is often preferred in elderly patients with osteoporosis where screw purchase is poor.",
+    "wrongAnswerExplanations": [
+      "Correct. Elderly patients with Type II odontoid fractures have >40% non-union with conservative treatment; posterior C1–C2 fusion is often preferred over halo vest and over anterior screw fixation (which requires good bone stock).",
+      "Wrong. Anterior odontoid screw fixation is appropriate for acute, non-comminuted fractures with intact C1/2 disc in younger patients with good bone stock — not the preferred choice in an osteoporotic elderly patient.",
+      "Wrong. A rigid collar alone provides insufficient immobilisation for Type II odontoid fractures and is associated with unacceptably high non-union and displacement rates.",
+      "Wrong. Type II odontoid fractures are inherently unstable (the base of the dens lacks cancellous bone vascularity) and require formal immobilisation or surgical stabilisation.",
+      "Wrong. MRI is not contraindicated by anticoagulation; it is safe and valuable for assessing ligamentous injury and cord signal change in cervical fractures."
+    ],
+    "clinicalPearl": "Type II odontoid fractures in elderly osteoporotic patients have >40% non-union with conservative treatment — surgical stabilisation (posterior C1–C2 fusion) is preferred over halo vest in this high-risk group."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "19- Spine Dr Hamid.pdf",
+    "topic": "Spinal cord injury — autonomic dysreflexia",
+    "question": "A 32-year-old man with a known T4 complete spinal cord injury is brought to the emergency department with a sudden severe throbbing headache, profuse sweating above his level of injury, and flushing of the face. His blood pressure is recorded at 210/120 mmHg and heart rate is 48 bpm. On inspection, his urinary catheter is kinked and the bladder is distended. What is the most appropriate immediate action?",
+    "options": [
+      "Sit the patient upright and immediately relieve the bladder distension by straightening the catheter or performing straight catheterisation",
+      "Administer IV labetalol as the priority to treat the hypertensive crisis",
+      "Administer sublingual glyceryl trinitrate and transfer to a cardiac unit",
+      "Order an urgent CT head to exclude subarachnoid haemorrhage",
+      "Reassure the patient and administer oral analgesia for the headache"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Autonomic dysreflexia is a life-threatening emergency unique to patients with spinal cord injuries at or above T6. It is triggered by a noxious stimulus below the level of injury (most commonly bladder distension or bowel impaction) causing an unmodulated sympathetic surge. The first step is to sit the patient upright (reduces BP by inducing orthostatic hypotension) and immediately identify and remove the trigger — in this case, relieving bladder distension by straightening or replacing the catheter. Antihypertensive medication is only used if BP remains elevated after trigger removal.",
+    "wrongAnswerExplanations": [
+      "Correct. Sitting upright combined with immediate removal of the triggering stimulus (bladder distension) is the definitive first-line treatment for autonomic dysreflexia — antihypertensives are adjunctive if the BP does not settle after trigger removal.",
+      "Wrong. IV labetalol treats the hypertension but does not address the underlying trigger; if the bladder remains distended, the sympathetic surge will continue — treat the cause first.",
+      "Wrong. GTN treats the symptom, not the cause; moreover, if the trigger is not removed, BP will remain dangerously elevated — cause removal is always the priority.",
+      "Wrong. While intracranial haemorrhage can complicate uncontrolled autonomic dysreflexia, the clinical picture here is diagnostic and immediate trigger removal takes priority over imaging.",
+      "Wrong. A BP of 210/120 mmHg represents a hypertensive emergency that can cause stroke, cardiac events, or death — reassurance is entirely inappropriate."
+    ],
+    "clinicalPearl": "Autonomic dysreflexia: sit upright, find and remove the trigger (bladder first, then bowel) — in SCI at or above T6, bladder distension can trigger a life-threatening hypertensive crisis with bradycardia."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Anatomy of the Spine _251116_091226.pdf",
+    "topic": "Brown-Séquard syndrome",
+    "question": "A 25-year-old man is stabbed in the right side of his lower neck. On examination he has right-sided weakness and loss of proprioception and vibration below C6, with loss of pain and temperature sensation on the left side below C6. Right-sided pain and temperature sensation are intact. What is the most likely injury pattern?",
+    "options": [
+      "Right hemicord transection causing Brown-Séquard syndrome",
+      "Complete cord transection at C6",
+      "Right anterior horn injury only",
+      "Anterior cord syndrome from right anterior spinal artery damage",
+      "Central cord syndrome from penetrating injury"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Brown-Séquard syndrome results from hemisection of the spinal cord. Ipsilateral loss of motor function and dorsal column function (proprioception, vibration, fine touch) occurs because corticospinal and dorsal column fibres are uncrossed at the cord level. Contralateral loss of pain and temperature sensation occurs because spinothalamic fibres cross within 1–2 segments of entry. This patient has right-sided motor and proprioceptive loss with contralateral (left-sided) pain and temperature loss — classic Brown-Séquard.",
+    "wrongAnswerExplanations": [
+      "Correct. Brown-Séquard syndrome from right hemicord injury = ipsilateral (right) motor and posterior column loss + contralateral (left) spinothalamic (pain/temperature) loss, because spinothalamic fibres cross immediately while corticospinal/dorsal column fibres do not.",
+      "Wrong. Complete cord transection abolishes all modalities bilaterally below the level of injury — this patient retains right-sided pain/temperature and left-sided proprioception/motor function.",
+      "Wrong. Isolated anterior horn injury causes ipsilateral lower motor neurone weakness at that segment only, without sensory dissociation or long tract signs.",
+      "Wrong. Anterior cord syndrome causes bilateral loss of motor and pain/temperature sensation with preserved posterior column function bilaterally — not the unilateral dissociated pattern seen here.",
+      "Wrong. Central cord syndrome causes bilateral arm-predominant weakness without the clear dissociation of sensory modalities between sides seen in Brown-Séquard."
+    ],
+    "clinicalPearl": "Brown-Séquard = ipsilateral motor and proprioception loss + contralateral pain and temperature loss — remember: spinothalamic fibres cross immediately (1–2 segments), dorsal columns and corticospinal tracts do not cross until the brainstem."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Airway management with C-spine protection",
+    "question": "A 28-year-old male is brought to the emergency department after a high-speed motor vehicle collision. He is unconscious with a GCS of 7 (E2V2M3). He has noisy, gurgling respirations at 8 breaths/min. His SpO2 is 82% on room air. There is blood in the oropharynx and visible facial trauma. A rigid cervical collar is in place. What is the most appropriate immediate airway intervention?",
+    "options": [
+      "Nasopharyngeal airway insertion and bag-mask ventilation",
+      "Oropharyngeal airway insertion and suction",
+      "Rapid sequence intubation with inline manual cervical stabilisation",
+      "Cricothyroidotomy",
+      "Jaw thrust and 15L/min oxygen via non-rebreather mask"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has a definitive airway indication: GCS ≤8, inability to protect airway, and hypoxia. Rapid sequence intubation (RSI) with inline manual cervical stabilisation (IMCS) is the gold-standard definitive airway in trauma. IMCS maintains cervical alignment while permitting laryngoscopy without relying solely on the collar. The collar should be opened anteriorly during intubation while an assistant maintains IMCS.",
+    "wrongAnswerExplanations": [
+      "Nasopharyngeal airway is a temporising adjunct, not a definitive airway. In a patient with GCS 7 and active haemorrhage this alone is insufficient; RSI with inline stabilisation is required.",
+      "Oropharyngeal airway and suction may briefly improve patency but do not secure the airway; this patient requires a cuffed definitive airway given his depressed consciousness and ongoing risk of aspiration.",
+      "RSI with inline manual cervical stabilisation is correct — this secures a definitive airway while protecting the cervical spine, which is the standard ATLS approach for trauma patients requiring intubation.",
+      "Cricothyroidotomy is reserved for the 'can't intubate, can't oxygenate' scenario after failed RSI attempts; it should not be the first intervention when RSI is feasible.",
+      "Jaw thrust and high-flow oxygen are basic airway manoeuvres appropriate for initial assessment but are inadequate as definitive management for a GCS 7 patient with ongoing haemorrhage and hypoxia."
+    ],
+    "clinicalPearl": "In unconscious trauma patients requiring intubation, always use inline manual cervical stabilisation — not just a collar — during laryngoscopy, as the collar must be opened anteriorly to allow mouth opening."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Tension pneumothorax",
+    "question": "A 35-year-old male pedestrian struck by a lorry arrives in the resuscitation bay. He is in severe respiratory distress with SpO2 65% despite 15L/min oxygen. Examination reveals absent breath sounds on the right, tracheal deviation to the left, distended neck veins, and a blood pressure of 70/40 mmHg. He was intubated en route by paramedics. What is the single most important immediate intervention?",
+    "options": [
+      "Portable chest X-ray to confirm diagnosis before intervention",
+      "FAST ultrasound to identify haemothorax",
+      "Needle decompression of the right chest at the 2nd intercostal space, mid-clavicular line",
+      "Bilateral chest drains inserted in the 5th intercostal space, mid-axillary line",
+      "Pericardiocentesis for suspected cardiac tamponade"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This is a clinical diagnosis of tension pneumothorax: absent breath sounds, tracheal deviation away, distended neck veins, and haemodynamic collapse in a ventilated trauma patient. ATLS mandates immediate needle decompression without waiting for imaging. A 14G cannula at the 2nd ICS, MCL decompresses the tension and is followed by definitive chest drain insertion.",
+    "wrongAnswerExplanations": [
+      "Chest X-ray is absolutely contraindicated as the first step — tension pneumothorax is a clinical diagnosis and any delay to imaging is potentially fatal; immediate decompression is required.",
+      "FAST ultrasound may identify haemothorax but will not relieve the tension; this patient's clinical picture is tension pneumothorax and requires immediate needle decompression.",
+      "Needle decompression of the right chest is correct — the clinical triad of absent breath sounds, tracheal deviation, and haemodynamic collapse after intubation mandates immediate needle decompression of the affected side.",
+      "A definitive chest drain will ultimately be needed but inserting it as the first step wastes critical time; needle decompression is faster and is done first to relieve the tension immediately.",
+      "Cardiac tamponade can cause haemodynamic collapse and distended neck veins, but absent breath sounds and tracheal deviation strongly favour tension pneumothorax; pericardiocentesis would be the wrong intervention here."
+    ],
+    "clinicalPearl": "Tension pneumothorax is a clinical diagnosis — absent breath sounds + tracheal deviation + haemodynamic collapse = immediate needle decompression; never wait for a chest X-ray."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Haemorrhagic shock classification and resuscitation",
+    "question": "A 42-year-old woman is brought in after a stab wound to the left flank. On arrival: HR 128 bpm, BP 88/60 mmHg, RR 26/min, GCS 14, skin is pale and cool, urine output 10 mL over the past hour. She is anxious and confused. Two large-bore IV cannulas are placed. Which class of haemorrhagic shock best describes her presentation, and what is the most appropriate initial resuscitation fluid?",
+    "options": [
+      "Class I shock; 500 mL crystalloid bolus",
+      "Class II shock; 1L crystalloid bolus followed by reassessment",
+      "Class III shock; 1L warm crystalloid and activate massive transfusion protocol",
+      "Class IV shock; immediate surgical haemostasis without fluid resuscitation",
+      "Class III shock; 2L cold normal saline rapidly administered"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Class III haemorrhagic shock (estimated 1500–2000 mL blood loss, 30–40% of circulating volume) presents with HR >120, BP falling, RR 30–40, confused mental state, and oliguria — matching this patient's profile. ATLS now recommends 1L warm crystalloid as initial resuscitation while simultaneously activating a massive transfusion protocol (1:1:1 pRBC:FFP:platelets) to avoid crystalloid overload and coagulopathy.",
+    "wrongAnswerExplanations": [
+      "Class I shock involves less than 750 mL blood loss (up to 15% volume) with a normal HR and BP; this patient's tachycardia, hypotension, oliguria, and confusion clearly exceed Class I criteria.",
+      "Class II shock (750–1500 mL) produces tachycardia and anxiety but typically normal BP and adequate urine output; this patient has hypotension and oliguria placing her in Class III, requiring activation of massive transfusion protocol.",
+      "Class III shock with 1L warm crystalloid and massive transfusion protocol activation is correct — her HR, BP, mental status, and oliguria indicate approximately 30–40% volume loss, and early blood product resuscitation prevents dilutional coagulopathy.",
+      "Class IV shock (>40% volume loss) involves profound hypotension, obtundation, and imminent cardiac arrest; while surgery is ultimately needed, complete withholding of fluid resuscitation is not the ATLS-recommended approach at this stage.",
+      "Cold normal saline in large volumes is specifically avoided in modern trauma resuscitation — hypothermia worsens coagulopathy and the lethal triad; warm fluids and blood products are preferred."
+    ],
+    "clinicalPearl": "Modern ATLS limits crystalloid to 1L warm bolus and emphasises early activation of massive transfusion protocol (1:1:1) to prevent the lethal triad of hypothermia, acidosis, and coagulopathy."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Cardiac tamponade",
+    "question": "A 22-year-old male arrives after a penetrating stab wound to the left precordium. He is confused, HR 120 bpm, BP 80/60 mmHg. Examination reveals muffled heart sounds, distended neck veins, and no obvious external haemorrhage. Breath sounds are equal bilaterally. Chest X-ray shows a mildly enlarged cardiac silhouette. FAST ultrasound confirms pericardial fluid with diastolic right ventricular collapse. What is the definitive management?",
+    "options": [
+      "Urgent pericardiocentesis under ultrasound guidance as definitive treatment",
+      "Immediate left lateral thoracotomy",
+      "Emergency resuscitative thoracotomy in the ED",
+      "Urgent operative pericardiotomy via sternotomy or anterolateral thoracotomy",
+      "IV fluid bolus of 1L crystalloid and reassess in 10 minutes"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Cardiac tamponade from penetrating trauma requires operative decompression — pericardiotomy via median sternotomy or anterolateral thoracotomy allows direct cardiac repair. While pericardiocentesis can be a temporising bridge, it is not definitive for traumatic tamponade (clotted blood cannot be aspirated). FAST confirming pericardial effusion with haemodynamic compromise mandates operative intervention.",
+    "wrongAnswerExplanations": [
+      "Pericardiocentesis is only a temporising measure in traumatic tamponade because the blood is often clotted and cannot be drained with a needle; definitive operative repair is required and should not be delayed.",
+      "Left lateral thoracotomy is not the standard approach for isolated penetrating cardiac injury; median sternotomy or anterolateral thoracotomy provides better exposure for cardiac repair.",
+      "Resuscitative ED thoracotomy is indicated for patients in traumatic cardiac arrest or near-arrest after penetrating trauma — this patient is hypotensive but still has a pulse, making operative theatre the appropriate destination.",
+      "Urgent operative pericardiotomy via sternotomy or anterolateral thoracotomy is correct — this is the definitive management for penetrating cardiac tamponade confirmed by FAST ultrasound in a haemodynamically compromised patient.",
+      "IV fluid resuscitation may transiently increase filling pressures but will not relieve the mechanical obstruction of tamponade and delays life-saving surgery; it is not appropriate as primary management."
+    ],
+    "clinicalPearl": "Beck's triad (hypotension, muffled heart sounds, distended neck veins) + FAST showing pericardial effusion after penetrating chest trauma = cardiac tamponade requiring urgent operative pericardiotomy, not pericardiocentesis alone."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "GCS and disability assessment",
+    "question": "A 55-year-old male motorcyclist is brought in after a collision at 60 mph. He opens his eyes only to pain, makes incomprehensible sounds, and flexes his arms to painful stimulation. Pupils are 5 mm bilaterally and sluggishly reactive. BP is 160/90 mmHg, HR 58 bpm, RR 10/min. Blood glucose is 5.4 mmol/L. What is his GCS score, and what does the bradycardia with hypertension most likely indicate?",
+    "options": [
+      "GCS 8; findings represent neurogenic shock from spinal cord injury",
+      "GCS 7; Cushing's response indicating raised intracranial pressure",
+      "GCS 9; benign vagal response from pain",
+      "GCS 7; early septic shock with compensatory hypertension",
+      "GCS 8; medication effect from pre-hospital analgesia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "GCS: Eyes to pain = 2, Verbal incomprehensible = 2, Motor flexion (abnormal) = 3; total GCS = 7. Bradycardia combined with hypertension (Cushing's response/reflex) is a late sign of critically raised intracranial pressure indicating brainstem compression. Bilateral sluggish pupils further support herniation. This combination demands urgent CT head and neurosurgical review.",
+    "wrongAnswerExplanations": [
+      "Neurogenic shock causes hypotension and bradycardia (loss of sympathetic tone) — not hypertension; the hypertension here makes neurogenic shock incorrect and points to Cushing's response from raised ICP.",
+      "GCS 7 with Cushing's response is correct — eyes to pain (2) + incomprehensible sounds (2) + abnormal flexion (3) = GCS 7, and the hypertension-bradycardia triad is the Cushing reflex indicating critically raised intracranial pressure.",
+      "GCS of 9 requires a minimum verbal score of 3 (inappropriate words), but incomprehensible sounds score only 2; therefore GCS 9 is arithmetically incorrect here.",
+      "Septic shock causes hypotension and tachycardia, not hypertension and bradycardia; there is no indication of infection in this acute trauma scenario.",
+      "Pre-hospital opioid analgesia may cause bradycardia but does not cause simultaneous hypertension; the hypertension-bradycardia combination with bilateral sluggish pupils specifically indicates Cushing's response from raised ICP."
+    ],
+    "clinicalPearl": "Cushing's triad (hypertension + bradycardia + irregular breathing) is a late, ominous sign of raised ICP indicating impending brainstem herniation — act immediately with head CT and neurosurgical consultation."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Massive haemothorax",
+    "question": "A 30-year-old male presents after a gunshot wound to the right chest. He is tachycardic (HR 118), BP 90/60 mmHg, SpO2 88% on 15L oxygen. Right-sided breath sounds are absent. There is no tracheal deviation and neck veins are flat. A chest drain is inserted and immediately drains 1600 mL of blood. What is the most appropriate next step?",
+    "options": [
+      "Clamp the chest drain and observe for 30 minutes",
+      "Administer 2L crystalloid and reassess drain output",
+      "Urgent thoracotomy",
+      "CT chest with angiography to identify bleeding source",
+      "Insert a second chest drain on the same side"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Initial drainage of >1500 mL blood from a chest drain (or >200 mL/hour for 2–4 hours) is an indication for urgent thoracotomy. This represents a massive haemothorax from a major vessel or cardiac injury requiring surgical haemostasis. Continued conservative management risks fatal exsanguination.",
+    "wrongAnswerExplanations": [
+      "Clamping the drain is dangerous and contraindicated — it would cause blood to re-accumulate, compress the lung, and potentially cause tension haemothorax; surgical haemostasis is needed.",
+      "Crystalloid resuscitation may be given concurrently but does not address the source of haemorrhage; with immediate drainage of 1600 mL, surgical intervention is the priority, not further fluid administration.",
+      "Urgent thoracotomy is correct — immediate drainage of ≥1500 mL blood via a chest drain is a direct operative indication (massive haemothorax criterion), as this implies major vascular or cardiac injury requiring surgical control.",
+      "CT angiography is inappropriate in a haemodynamically unstable patient who has just drained 1600 mL; the patient needs direct operative intervention, not further imaging.",
+      "A second chest drain will not address the source of bleeding from a major vessel; it may improve drainage marginally but surgical haemostasis is the only definitive treatment."
+    ],
+    "clinicalPearl": "Immediate drainage of ≥1500 mL blood (or ongoing loss >200 mL/hour) from a chest drain after penetrating thoracic trauma is a direct indication for urgent thoracotomy."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Pelvic fracture and haemorrhage control",
+    "question": "A 45-year-old female is brought in after being struck by a car at 40 mph. She is haemodynamically unstable: HR 135 bpm, BP 78/50 mmHg despite 1L of warm crystalloid and activation of the massive transfusion protocol. Examination reveals instability on pelvic compression. FAST is positive in the pelvis but negative in the abdomen. Pelvic X-ray confirms an open-book pelvic fracture. What is the single most important immediate intervention?",
+    "options": [
+      "Emergency laparotomy to control pelvic haemorrhage",
+      "Application of a pelvic binder or sheet to reduce pelvic volume",
+      "CT abdomen and pelvis with contrast to identify bleeding vessels",
+      "External fixation of the pelvis in theatre as the first priority",
+      "Bilateral femoral arterial embolisation in the interventional radiology suite"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Open-book pelvic fractures massively expand pelvic volume, allowing catastrophic venous and bony haemorrhage. Immediate application of a pelvic binder (or improvised sheet) reduces the pelvic ring, restores volume, and tamponades venous bleeding. This is a rapid, life-saving intervention that must precede imaging or surgery. It is part of the 'C' (circulation) phase of the ATLS primary survey.",
+    "wrongAnswerExplanations": [
+      "Emergency laparotomy is indicated if there is a confirmed intra-abdominal source of haemorrhage; the FAST is negative in the abdomen here, and pelvic haemorrhage is best controlled first with a binder before considering operative intervention.",
+      "Application of a pelvic binder is correct — it immediately reduces the expanded pelvic volume of an open-book fracture, tamponades venous haemorrhage, and is a first-line life-saving manoeuvre that must be done before any imaging.",
+      "CT imaging is contraindicated in a haemodynamically unstable patient; the priority is haemorrhage control with a pelvic binder, followed by haemostatic resuscitation, before any cross-sectional imaging.",
+      "External fixation achieves similar pelvic stabilisation to a binder but requires transport to theatre and anaesthesia — a pelvic binder is faster and must be applied first as immediate damage control.",
+      "Interventional radiology embolisation targets arterial pelvic bleeding (only ~20% of pelvic haemorrhage), is not immediately available, and must be preceded by mechanical pelvic closure with a binder."
+    ],
+    "clinicalPearl": "An open-book pelvic fracture with haemodynamic instability requires immediate pelvic binder application as the first intervention — reducing pelvic volume tamponades venous haemorrhage and can be life-saving within seconds."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Traumatic brain injury — secondary insults",
+    "question": "A 38-year-old male is admitted to the ICU after a severe TBI (CT: large right-sided subdural haematoma, midline shift 8 mm). He was intubated in the ED. An hour after admission, nursing staff note his BP has dropped to 85/55 mmHg and SpO2 is 91%. His ICP monitor reads 28 mmHg. Which statement best describes your immediate priorities?",
+    "options": [
+      "Increase sedation and administer mannitol 1 g/kg IV to reduce ICP as the priority",
+      "Immediately correct hypotension and hypoxia, as secondary brain insults double mortality in TBI",
+      "Hyperventilate to PaCO2 of 30 mmHg to rapidly lower ICP",
+      "Raise the head of the bed to 90 degrees to maximise ICP reduction",
+      "Administer hypertonic saline 23.4% as first-line treatment for the hypotension"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Secondary brain insults — particularly hypotension (SBP <90 mmHg) and hypoxia (SpO2 <90%) — are the most preventable causes of secondary brain injury and significantly worsen TBI outcomes. ATLS emphasises that correcting these systemic insults takes priority. Hypotension after TBI is associated with a doubling of mortality. The target SBP in TBI is ≥90 mmHg (or ≥110 mmHg in patients over 50 years). ICP-lowering measures follow systemic stabilisation.",
+    "wrongAnswerExplanations": [
+      "Mannitol and sedation are appropriate adjuncts for raised ICP but are secondary to correcting systemic hypotension and hypoxia; initiating ICP therapy without addressing systemic insults allows ongoing secondary brain injury.",
+      "Correcting hypotension and hypoxia is correct — these two secondary insults are the leading preventable causes of additional brain injury in TBI, and their immediate correction takes precedence over isolated ICP-lowering manoeuvres.",
+      "Hyperventilation to PaCO2 of 30 mmHg causes cerebral vasoconstriction and can reduce ICP temporarily but also risks cerebral ischaemia; it is only a short-term rescue manoeuvre and should not be the immediate priority over correcting systemic haemodynamics.",
+      "Head-of-bed elevation to 30 degrees (not 90) is recommended to facilitate venous drainage and lower ICP; 90 degrees reduces cerebral perfusion pressure and is harmful.",
+      "Hypertonic saline 23.4% is a hyperosmolar agent for ICP management, not a vasopressor for haemodynamic support; it should not be used as first-line treatment for hypotension in the context of TBI."
+    ],
+    "clinicalPearl": "In TBI, even a single episode of hypotension (SBP <90 mmHg) or hypoxia (SpO2 <90%) doubles mortality — preventing secondary brain insults is the most impactful intervention after securing the airway."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Trauma triage — mechanism and field triage",
+    "question": "A mass casualty incident occurs after a building collapse. You are the triage officer. Among the survivors, you assess a 50-year-old male who is breathing at 28/min, has a radial pulse, follows simple commands, and has a crushed right leg with active bleeding controlled by a tourniquet. A 25-year-old female has no spontaneous breathing, which does not resume after repositioning the airway. A 60-year-old male with minor lacerations is walking and talking. Using the START triage system, what colour tags should these three patients receive, in order?",
+    "options": [
+      "Red, Black, Green",
+      "Yellow, Red, Green",
+      "Red, Red, Yellow",
+      "Yellow, Black, Green",
+      "Red, Black, Yellow"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "START triage: Patient 1 (RR 28, radial pulse present, obeys commands, controlled haemorrhage) = RED (immediate — RR >30 borderline, but capillary refill and mental status are intact; controlled major injury). Patient 2 (no breathing after airway repositioning) = BLACK (expectant/deceased — no spontaneous respirations after airway manoeuvre). Patient 3 (walking and talking with minor injuries) = GREEN (minor — 'walking wounded').",
+    "wrongAnswerExplanations": [
+      "Red, Black, Green is correct — Patient 1 meets RED criteria (tachypnoea, significant injury requiring immediate intervention), Patient 2 meets BLACK criteria (no breathing after repositioning), and Patient 3 is GREEN (walking wounded with minor injuries).",
+      "Yellow (delayed) for Patient 1 is incorrect — his RR of 28 and active major limb injury with controlled haemorrhage make him an immediate (RED) priority, not delayed; and Patient 2 should be BLACK, not RED.",
+      "Assigning RED to Patient 2 is incorrect under START triage; if breathing does not return after airway repositioning, the patient is tagged BLACK (expectant/deceased) — rescuers should move on to maximise survivors.",
+      "Yellow for Patient 1 underestimates his urgency; tachypnoea and controlled major haemorrhage from a crush injury place him in the RED (immediate) category under START triage criteria.",
+      "Red, Black, Yellow misclassifies Patient 3 — a walking, talking patient with only minor lacerations is GREEN (minor) not YELLOW (delayed), as the 'walking wounded' are categorised green in START."
+    ],
+    "clinicalPearl": "In START triage: walking = GREEN; not breathing after airway repositioning = BLACK; breathing + haemodynamic compromise or RR abnormality = RED; breathing + stable haemodynamics but unable to walk = YELLOW."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Flail chest and pulmonary contusion",
+    "question": "A 62-year-old male restrained driver is involved in a high-speed RTC. In the ED, he is in respiratory distress with RR 32/min, SpO2 86% on 15L oxygen. Examination shows paradoxical chest wall movement over the left lateral chest. CXR demonstrates fractures of ribs 5–9 on the left in two places, with patchy opacification of the left lung field. His ABG on 15L oxygen: PaO2 7.1 kPa, PaCO2 6.2 kPa, pH 7.28. What is the most appropriate management?",
+    "options": [
+      "Oral analgesia, physiotherapy, and observation in a ward bed",
+      "Surgical rib fixation as the immediate definitive intervention",
+      "Endotracheal intubation and positive pressure ventilation",
+      "Intercostal nerve blocks and high-flow nasal oxygen only",
+      "Non-invasive positive pressure ventilation (BiPAP) as first-line ventilatory support"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has a flail segment (two fracture sites in ≥3 consecutive ribs) with pulmonary contusion causing respiratory failure: SpO2 86% despite 15L oxygen, hypercapnia, and acidosis. The ABG indicates type 2 respiratory failure with inadequate gas exchange despite maximal non-invasive measures. ATLS indicates intubation and positive pressure ventilation when flail chest causes respiratory failure (PaO2 <8 kPa on O2, rising PaCO2, or increasing work of breathing).",
+    "wrongAnswerExplanations": [
+      "Oral analgesia and ward observation are entirely insufficient for a patient in respiratory failure with SpO2 86% and rising PaCO2; this patient requires immediate airway protection and mechanical ventilation.",
+      "Surgical rib fixation (ORIF) has a role in flail chest management but is not the immediate life-saving intervention — this patient's acute respiratory failure must be treated with intubation and ventilation first.",
+      "Endotracheal intubation and positive pressure ventilation is correct — this patient has respiratory failure from flail chest with pulmonary contusion (PaO2 7.1 kPa, PaCO2 6.2 kPa, SpO2 86% on maximal oxygen), meeting clear criteria for mechanical ventilation.",
+      "Intercostal nerve blocks improve analgesia and may reduce splinting but are insufficient to manage established respiratory failure with hypercapnia and hypoxia in a flail chest — definitive airway management is required.",
+      "BiPAP may be considered in milder cases but is contraindicated in a patient with impaired consciousness, significant secretions, or severe respiratory failure requiring immediate definitive airway control as is the case here."
+    ],
+    "clinicalPearl": "Flail chest + pulmonary contusion causing respiratory failure (hypoxia, hypercapnia, increased work of breathing despite oxygen) is an indication for immediate intubation and positive pressure ventilation — do not wait for further deterioration."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Secondary survey — log roll and missed injuries",
+    "question": "A 28-year-old female is brought in after a fall from a horse. She has completed the primary survey: airway secured, bilateral breath sounds, haemodynamics stable after 1L crystalloid. GCS is 15. During the secondary survey, you perform a log roll. Examination of the back reveals bruising in the lumbar region, step deformity at L2-L3, and blood at the urethral meatus. Which combination of injuries should be most urgently investigated?",
+    "options": [
+      "Lumbar spine fracture and splenic laceration",
+      "Lumbar spine fracture and posterior urethral injury",
+      "Renal contusion and hepatic laceration",
+      "Aortic injury and bladder rupture",
+      "Cauda equina injury and pelvic fracture"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Step deformity at L2-L3 on log roll indicates a lumbar spine fracture requiring urgent imaging (CT spine). Blood at the urethral meatus is a pathognomonic sign of posterior urethral injury, most commonly associated with pelvic fractures or significant pelvic/lumbar trauma. A urethral catheter must NOT be passed until urethral integrity is confirmed by urethrogram. These two injuries are the most pressing findings from the log roll and secondary survey examination.",
+    "wrongAnswerExplanations": [
+      "Splenic laceration is possible from this mechanism but the log roll findings directly point to lumbar spine and urethral injury; the FAST/CT abdomen will evaluate solid organ injuries, but they are not the immediate priorities indicated by the examination findings.",
+      "Lumbar spine fracture and posterior urethral injury is correct — the step deformity at L2-L3 requires urgent CT spine evaluation, and blood at the urethral meatus is a classic sign of posterior urethral disruption that absolutely contraindicates blind urethral catheterisation.",
+      "Renal contusion and hepatic laceration are not directly suggested by the specific examination findings on log roll (step deformity and urethral meatus blood); these require imaging but are not the immediate priorities based on clinical findings.",
+      "Aortic injury typically presents with widened mediastinum and haemodynamic instability; bladder rupture is possible but less directly indicated than urethral injury in a patient with urethral meatus blood and lumbar step deformity.",
+      "Cauda equina injury is a serious complication of lumbar fractures and should be assessed neurologically, but pelvic fracture is not confirmed by the examination findings described; the urethral injury takes priority as a management contraindication."
+    ],
+    "clinicalPearl": "Blood at the urethral meatus after trauma absolutely contraindicates urethral catheterisation — perform a retrograde urethrogram first to exclude posterior urethral disruption before any catheter insertion."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Traumatic arrest — resuscitative thoracotomy",
+    "question": "A 24-year-old male arrives in the resuscitation bay 6 minutes after a witnessed single stab wound to the left precordium. He had signs of life at scene (palpable pulse) but arrests in the ambulance. On arrival, he has no palpable pulse, BP unrecordable, and CPR is in progress. He was intubated by paramedics. What is the most appropriate intervention?",
+    "options": [
+      "Continue ALS protocol: 2 minutes CPR cycles, adrenaline 1 mg IV every 3–5 minutes",
+      "Immediate FAST scan to confirm pericardial effusion before any intervention",
+      "Emergency resuscitative thoracotomy in the ED",
+      "Bilateral needle decompression followed by reassessment",
+      "Declare death and cease resuscitation efforts given CPR in progress"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Resuscitative ED thoracotomy (EDT) is indicated for penetrating thoracic trauma with cardiac arrest when there were signs of life (pulse, respiratory effort, purposeful movement) within the preceding 15 minutes. This patient had a pulse at scene and arrested 6 minutes ago — he is within the window and EDT offers the best chance of survival. It allows direct cardiac massage, relief of tamponade, and control of cardiac haemorrhage.",
+    "wrongAnswerExplanations": [
+      "Standard ALS algorithms are designed for medical cardiac arrest; in penetrating traumatic arrest with signs of life within 15 minutes, resuscitative thoracotomy offers far superior survival outcomes and should be performed immediately.",
+      "FAST ultrasound is useful in the haemodynamically unstable patient but should not delay EDT in a patient in traumatic arrest with penetrating chest injury; the diagnosis is clinical and the intervention must be immediate.",
+      "Emergency resuscitative thoracotomy in the ED is correct — penetrating thoracic trauma with witnessed cardiac arrest and signs of life within 15 minutes is the prime indication for EDT, which allows tamponade relief, cardiac repair, and internal cardiac massage.",
+      "Needle decompression addresses tension pneumothorax, which could contribute to arrest; however, bilateral decompression alone will not address the cardiac tamponade from a precordial stab wound — EDT is required for definitive management.",
+      "Ceasing resuscitation is inappropriate — the patient had signs of life only 6 minutes ago and penetrating cardiac injury is potentially surgically reversible; EDT is indicated and should be performed immediately."
+    ],
+    "clinicalPearl": "Resuscitative ED thoracotomy is indicated for penetrating thoracic trauma with cardiac arrest and signs of life (pulse or movement) within the preceding 15 minutes — it is the only intervention that can reverse traumatic cardiac tamponade causing arrest."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "ATLS.pdf",
+    "topic": "Exposure and hypothermia in trauma",
+    "question": "A 19-year-old male motorcyclist is brought in from a road traffic collision in winter. He has been exposed and examined fully during the primary and secondary survey. His core temperature is now 34.2°C. He received 2L of cold normal saline in the field. HR is 108 bpm, BP 100/70 mmHg, and he is shivering. His coagulation screen shows PT 22 seconds and APTT 52 seconds. What is the most appropriate next step in management?",
+    "options": [
+      "Administer further 1L of cold crystalloid to improve BP",
+      "Active external and internal warming, switch to warm IV fluids, and administer FFP",
+      "Observe and allow passive rewarming at room temperature",
+      "Transfuse 2 units packed red blood cells for his coagulopathy",
+      "Urgent CT whole-body to identify occult injuries before addressing temperature"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has mild-to-moderate hypothermia (34.2°C) with trauma-induced coagulopathy — part of the lethal triad (hypothermia, acidosis, coagulopathy). ATLS mandates exposure to examine the patient fully followed by immediate active rewarming: warm blankets, warm IV fluids (≥39°C), and warm humidified oxygen. Coagulopathy in this context is best treated with FFP (fresh frozen plasma) as part of damage control resuscitation. Cold crystalloid worsens all three elements of the lethal triad.",
+    "wrongAnswerExplanations": [
+      "Cold crystalloid further lowers core temperature, worsening hypothermia and coagulopathy — the lethal triad is exacerbated by cold fluids; all resuscitation fluids in trauma should be warmed to ≥39°C.",
+      "Active warming, warm IV fluids, and FFP is correct — this addresses all three elements of the lethal triad: warming corrects hypothermia, warm fluids prevent further heat loss, and FFP addresses the trauma-induced coagulopathy; this is the cornerstone of damage control resuscitation.",
+      "Passive rewarming at room temperature is insufficient for a trauma patient with active haemorrhage and coagulopathy; active rewarming measures are required to rapidly restore normothermia and reverse coagulopathy.",
+      "Packed red blood cells treat haemorrhagic anaemia but do not correct coagulopathy; FFP is needed to replace clotting factors, and temperature correction is essential — pRBC alone is insufficient for this clinical scenario.",
+      "CT imaging in a hypothermic, coagulopathic trauma patient should not precede active rewarming and coagulopathy correction; damage control resuscitation (temperature + coagulation) takes priority before imaging in haemodynamically tenuous patients."
+    ],
+    "clinicalPearl": "The lethal triad of trauma — hypothermia, acidosis, and coagulopathy — is worsened by cold crystalloid; all resuscitation fluids must be warmed, active rewarming initiated immediately after exposure, and coagulopathy corrected with early FFP."
+  }
+]

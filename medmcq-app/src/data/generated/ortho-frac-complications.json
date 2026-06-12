@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "General_principles_of_fractures_IV__Early_local_complications_P2.pdf",
+    "topic": "Acute compartment syndrome",
+    "question": "A 19-year-old male is brought to the emergency department after a motorbike collision. He sustained a closed fracture of the left tibia and fibula. The leg was splinted and he was given analgesia. Four hours later he reports severe, worsening pain in the calf that is out of proportion to the injury and is not relieved by opioids. On examination the calf is tense and swollen; passive dorsiflexion of the toes elicits excruciating pain. Distal pulses are palpable. What is the most appropriate next step in management?",
+    "options": [
+      "Urgent fasciotomy of all four compartments of the leg",
+      "Increase the opioid analgesia dose and reassess in two hours",
+      "Measure compartment pressures and treat only if above 30 mmHg",
+      "Apply a compression bandage to reduce swelling",
+      "Arrange urgent MRI of the left leg to assess muscle viability"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This patient has acute compartment syndrome, a surgical emergency. The classic features are pain out of proportion to injury, pain on passive stretch, and a tense compartment. The diagnosis here is clinical and fasciotomy of all four compartments must not be delayed. Waiting for compartment pressure measurements or imaging wastes critical time when the clinical picture is unambiguous.",
+    "wrongAnswerExplanations": [
+      "Correct. Clinical diagnosis of acute compartment syndrome mandates urgent fasciotomy without delay; all four compartments of the leg must be decompressed to prevent irreversible muscle necrosis and Volkmann ischaemic contracture.",
+      "Incorrect. Increasing analgesia masks the cardinal warning sign (escalating pain) and delays life-saving fasciotomy; it does not address the underlying ischaemia.",
+      "Incorrect. Compartment pressure measurement is an adjunct when the diagnosis is equivocal. When clinical features are clear-cut, waiting for pressure values delays definitive treatment; action should be taken on clinical grounds.",
+      "Incorrect. A compression bandage would increase external pressure on an already compromised compartment, worsening ischaemia and is absolutely contraindicated.",
+      "Incorrect. MRI is not indicated in the acute setting of suspected compartment syndrome; arranging imaging would critically delay fasciotomy and allow muscle necrosis to progress."
+    ],
+    "clinicalPearl": "In acute compartment syndrome, pain out of proportion to injury and pain on passive stretch are the earliest and most reliable signs — act surgically without waiting for pressure readings when the clinical picture is clear."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General_principles_of_fractures_IV__Early_local_complications_P2.pdf",
+    "topic": "Volkmann ischaemic contracture",
+    "question": "A 9-year-old girl is seen in orthopaedic clinic six weeks after a supracondylar fracture of the right humerus that was treated with a plaster cast in the emergency department. Her parents report that at the time she complained of severe forearm pain for several days post-injury, but this was attributed to the fracture. Now on examination her elbow is held in flexion, the wrist in flexion, and the fingers in the 'intrinsic minus' position with fixed flexion of the interphalangeal joints and extension of the metacarpophalangeal joints. Sensation is reduced in the median nerve distribution. What is the most likely diagnosis?",
+    "options": [
+      "Established Volkmann ischaemic contracture",
+      "Complex regional pain syndrome (CRPS) type I",
+      "Missed posterior interosseous nerve palsy",
+      "Delayed malunion of the supracondylar fracture",
+      "Juvenile idiopathic arthritis flare"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Volkmann ischaemic contracture is the end-stage consequence of unrecognised or untreated compartment syndrome of the forearm, most commonly following supracondylar fractures in children. The characteristic posture — elbow flexion, wrist flexion, fingers in intrinsic minus — results from ischaemic fibrosis of the flexor compartment. The history of severe forearm pain in the days following fracture confirms the missed acute event.",
+    "wrongAnswerExplanations": [
+      "Correct. The triad of forearm compartment syndrome history, fixed flexion deformity of wrist and fingers in intrinsic minus position, and median nerve sensory loss following supracondylar fracture is pathognomonic of Volkmann ischaemic contracture.",
+      "Incorrect. CRPS does not produce a fixed mechanical contracture with intrinsic minus posturing; it presents with allodynia, autonomic changes, and diffuse pain rather than structural deformity.",
+      "Incorrect. Posterior interosseous nerve palsy causes weakness of finger and thumb extension but does not produce fixed flexion contractures of the wrist and fingers or sensory loss in the median distribution.",
+      "Incorrect. Malunion causes bony deformity (e.g. cubitus varus) but does not explain the soft tissue contracture, intrinsic minus position, or sensory deficit.",
+      "Incorrect. JIA could cause joint stiffness but would not produce this specific pattern of forearm muscle fibrosis, intrinsic minus deformity, and median nerve involvement following trauma."
+    ],
+    "clinicalPearl": "Volkmann ischaemic contracture is a preventable tragedy — any child with a supracondylar fracture complaining of forearm pain escalating after reduction must be assessed urgently for compartment syndrome."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "Fat embolism syndrome",
+    "question": "A 24-year-old male is admitted following a road traffic accident sustaining closed fractures of the right femur and left tibia. He is haemodynamically stable and taken to theatre for intramedullary nailing the following morning. Approximately 36 hours after admission, he develops acute confusion, pyrexia of 38.4°C, and tachypnoea (RR 28/min). On examination you notice petechiae across the chest and conjunctivae. SpO2 is 88% on room air. ABG shows PaO2 of 7.1 kPa. CXR reveals bilateral patchy infiltrates. What is the most likely diagnosis?",
+    "options": [
+      "Fat embolism syndrome",
+      "Pulmonary thromboembolism",
+      "Hospital-acquired pneumonia",
+      "Transfusion-related acute lung injury (TRALI)",
+      "ARDS secondary to sepsis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Fat embolism syndrome classically presents 24–72 hours after long bone or pelvic fractures with Gurd's triad: respiratory failure, cerebral dysfunction, and petechial rash (pathognomonic when present on the chest, axillae, and conjunctivae). The temporal relationship, the long bone fractures, and the petechiae make fat embolism syndrome the unifying diagnosis.",
+    "wrongAnswerExplanations": [
+      "Correct. The 24–72 hour latency after long bone fractures, hypoxia, confusion, and petechial rash across the chest and conjunctivae fulfil Gurd's major criteria for fat embolism syndrome.",
+      "Incorrect. PE can cause hypoxia and tachypnoea but does not cause petechiae, fever, or the characteristic bilateral infiltrates; presentation would more typically include pleuritic chest pain and haemoptysis.",
+      "Incorrect. HAP would present later (>48–72 h post-admission), with productive cough, focal consolidation, and leucocytosis but would not produce petechiae.",
+      "Incorrect. TRALI is a transfusion reaction occurring within 6 hours of blood product administration; this patient may not have received transfusion, and the timing and petechiae do not fit.",
+      "Incorrect. While ARDS can complicate sepsis, the petechiae are not explained by sepsis-related ARDS and the specific temporal pattern with long bone fractures points to fat embolism."
+    ],
+    "clinicalPearl": "Petechiae across the chest, axillae, and conjunctivae appearing 24–72 hours after a long bone fracture are pathognomonic of fat embolism syndrome — the triad of hypoxia, confusion, and petechiae is Gurd's classic presentation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "Deep vein thrombosis after fracture",
+    "question": "A 68-year-old woman underwent surgical fixation of a right intertrochanteric hip fracture five days ago. She is now complaining of right calf pain and swelling. On examination the right calf is erythematous, warm, and tender; Homans sign is positive. Her observations are: HR 92 bpm, BP 128/78 mmHg, SpO2 96% on room air, RR 16/min. She is fully conscious. What is the most appropriate next investigation?",
+    "options": [
+      "Compression duplex ultrasound of the right lower limb",
+      "D-dimer blood test",
+      "CT pulmonary angiography",
+      "Venography of the right leg",
+      "Bilateral lower limb X-rays"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "In a post-operative orthopaedic patient with clinical signs highly suggestive of DVT (unilateral calf swelling, erythema, warmth, tenderness), the investigation of choice is compression duplex ultrasound. This is non-invasive, readily available, and has high sensitivity and specificity for proximal DVT. D-dimer is unhelpful as it will be elevated post-operatively in all such patients, making it non-discriminatory.",
+    "wrongAnswerExplanations": [
+      "Correct. Compression duplex ultrasound is the gold-standard, non-invasive first-line investigation for suspected DVT, with high sensitivity and specificity in symptomatic patients.",
+      "Incorrect. D-dimer is invariably elevated after surgery and fracture, rendering it non-discriminatory in this clinical context; it cannot confirm or exclude DVT post-operatively.",
+      "Incorrect. CTPA is indicated for suspected pulmonary embolism; this patient has no respiratory compromise, chest pain, or haemodynamic instability to suggest PE at this time.",
+      "Incorrect. Venography is the historical gold standard but is invasive, involves radiation and contrast, and has been superseded by duplex ultrasound in routine clinical practice.",
+      "Incorrect. Lower limb X-rays assess bony structures and have no role in the diagnosis of venous thrombosis."
+    ],
+    "clinicalPearl": "D-dimer is non-discriminatory after fracture surgery — always use compression duplex ultrasound as the first-line investigation when DVT is clinically suspected in the post-operative orthopaedic patient."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "Pulmonary embolism post-fracture",
+    "question": "A 55-year-old obese man is on day 8 following intramedullary nailing of a femoral shaft fracture. He suddenly develops pleuritic chest pain and haemoptysis. His HR is 118 bpm, BP 100/65 mmHg, RR 24/min, SpO2 90% on 4L O2 via nasal cannulae. ECG shows sinus tachycardia with S1Q3T3 pattern. What is the single most appropriate immediate management step?",
+    "options": [
+      "Commence therapeutic anticoagulation with low molecular weight heparin",
+      "Request urgent CT pulmonary angiography before starting treatment",
+      "Perform urgent echocardiography to assess right heart strain",
+      "Give 500 mL crystalloid bolus and reassess haemodynamics",
+      "Arrange urgent V/Q scan as contrast is contraindicated post-surgery"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This patient has a high pre-test probability of massive or sub-massive PE (post-orthopaedic surgery, clinical features, ECG changes, haemodynamic compromise). When clinical suspicion is high and the patient is haemodynamically unstable, anticoagulation should be commenced immediately without waiting for confirmatory imaging. Delay in treatment risks fatal right heart failure.",
+    "wrongAnswerExplanations": [
+      "Correct. In high-probability PE with haemodynamic compromise, the benefit of immediate anticoagulation outweighs the risk; treatment must not await imaging when the patient is deteriorating.",
+      "Incorrect. CTPA is the investigation of choice to confirm PE but should not delay anticoagulation in a haemodynamically compromised patient with high clinical probability — treat first, confirm after.",
+      "Incorrect. Echocardiography can demonstrate right heart strain and is useful for risk stratification or if thrombolysis is considered, but it should not delay anticoagulation.",
+      "Incorrect. A crystalloid bolus in PE with right heart strain is of limited benefit and can worsen RV dilation; it does not address the underlying diagnosis or provide treatment.",
+      "Incorrect. V/Q scanning is an acceptable alternative in patients with contrast allergy or renal impairment but is not the reason to delay CTPA here, and treatment should not be withheld pending any imaging."
+    ],
+    "clinicalPearl": "In haemodynamically unstable PE, start anticoagulation immediately on clinical grounds — imaging confirms but must never delay treatment when the clinical probability is high."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General_principles_of_fractures_IV__Early_local_complications_P2.pdf",
+    "topic": "Vascular injury after fracture",
+    "question": "A 32-year-old man is brought to the emergency department after a motorcycle crash. He has a closed fracture of the right femur at the supracondylar level. On examination the right foot is cool, pale, and pulseless. Capillary refill time is greater than 4 seconds. The right knee appears unstable. An ankle-brachial pressure index (ABPI) of 0.4 is measured on the right. CT angiography confirms a popliteal artery transection. What is the maximum safe ischaemia time beyond which irreversible muscle damage is expected?",
+    "options": [
+      "6 hours",
+      "12 hours",
+      "2 hours",
+      "24 hours",
+      "4 hours"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The critical ischaemia time for skeletal muscle is approximately 6 hours from the onset of ischaemia. Beyond this, irreversible Wallerian degeneration of nerves and irreversible muscle necrosis occur. Vascular repair must be accomplished within this window, with temporary shunting used if orthopaedic stabilisation is required first.",
+    "wrongAnswerExplanations": [
+      "Correct. Six hours is the accepted threshold for reversible limb ischaemia; beyond this, irreversible muscle necrosis and nerve death are expected, making revascularisation futile for functional recovery.",
+      "Incorrect. Twelve hours is far beyond the safe ischaemia window; irreversible necrosis and likely non-viable limb would be expected well before this time.",
+      "Incorrect. While revascularisation sooner than 6 hours is always preferable, 2 hours is not the established cut-off — there is time to perform necessary orthopaedic stabilisation before vascular repair if done promptly.",
+      "Incorrect. Twenty-four hours of ischaemia would result in complete muscle necrosis and amputation would be the only option; this is not a clinical time limit for intervention.",
+      "Incorrect. Four hours is not the established threshold, though earlier revascularisation always reduces muscle and nerve damage; the accepted critical limit cited in surgical literature is 6 hours."
+    ],
+    "clinicalPearl": "Popliteal artery injury complicates supracondylar femoral and posterior knee dislocations — the 6-hour ischaemia window demands immediate vascular surgery referral and expedited revascularisation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General_principles_of_fractures_IV__Early_local_complications_P2.pdf",
+    "topic": "Nerve injury after fracture",
+    "question": "A 45-year-old woman sustained a mid-shaft humeral fracture after a fall from height. She is treated conservatively in a hanging cast. At the fracture clinic review two weeks later she is noted to have wrist drop, inability to extend the fingers and thumb at the metacarpophalangeal joints, and loss of sensation over the dorsum of the hand in the first web space. What is the most likely nerve injured and the most common anatomical level of injury?",
+    "options": [
+      "Radial nerve at the spiral groove of the humerus",
+      "Posterior interosseous nerve at the arcade of Frohse",
+      "Ulnar nerve at the medial epicondyle",
+      "Median nerve at the elbow",
+      "Axillary nerve at the surgical neck of the humerus"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The radial nerve runs in the spiral groove of the humerus and is the most commonly injured nerve in mid-shaft humeral fractures. Wrist drop, loss of MCP extension, and sensory loss over the first dorsal web space are classic features of radial nerve palsy at this level. The nerve is tethered here making it vulnerable to neurapraxia or axonotmesis.",
+    "wrongAnswerExplanations": [
+      "Correct. The radial nerve is intimately related to the spiral groove of the humerus; mid-shaft fractures are the classic cause of radial nerve palsy with wrist drop and sensory loss in the first dorsal web space.",
+      "Incorrect. Posterior interosseous nerve palsy (deep branch of radial) causes finger and thumb drop but spares wrist extension (preserved by ECRL innervated above the elbow) and spares sensation entirely.",
+      "Incorrect. Ulnar nerve injury produces weakness of intrinsic hand muscles and sensory loss over the ring and little fingers, not wrist drop or first web space sensory loss.",
+      "Incorrect. Median nerve injury at the elbow causes weakness of forearm pronation and wrist/finger flexion, with sensory loss over the lateral 3.5 fingers — not wrist drop.",
+      "Incorrect. Axillary nerve is injured with fractures at the surgical neck of the humerus, causing deltoid weakness and sensory loss over the regimental badge area, not wrist drop."
+    ],
+    "clinicalPearl": "Radial nerve palsy complicating mid-shaft humeral fractures is usually a neurapraxia or axonotmesis and recovers spontaneously in over 90% of cases — immediate exploration is not required unless the palsy develops after reduction."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "Avascular necrosis",
+    "question": "A 38-year-old man was involved in a road traffic accident 18 months ago and sustained a displaced intracapsular fracture of the right femoral neck, which was treated with cannulated screws. He now presents to clinic with gradually worsening right groin pain on weight-bearing, with stiffness and a restricted range of hip motion. Plain radiograph of the right hip shows increased density and a crescent sign in the femoral head. What is the most likely complication?",
+    "options": [
+      "Avascular necrosis of the femoral head",
+      "Non-union of the femoral neck fracture",
+      "Implant failure with screw cut-out",
+      "Osteoarthritis of the right hip",
+      "Septic arthritis of the right hip"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Avascular necrosis (AVN) of the femoral head is a well-recognised complication of displaced intracapsular femoral neck fractures, occurring due to disruption of the medial circumflex femoral artery, which is the primary blood supply to the femoral head. The crescent sign on X-ray represents subchondral fracture due to collapse of the necrotic bone, and increased radiodensity reflects sclerosis — these are hallmark radiographic features of AVN.",
+    "wrongAnswerExplanations": [
+      "Correct. Disruption of the retinacular vessels (mainly the medial circumflex femoral artery) at the time of displaced intracapsular fracture leads to ischaemia of the femoral head; the crescent sign and sclerosis are pathognomonic radiographic findings of AVN.",
+      "Incorrect. Non-union would present with pain and failure of the fracture line to consolidate on imaging, but the femoral head would remain intact; sclerosis and a crescent sign are not features of non-union.",
+      "Incorrect. Screw cut-out is an early mechanical complication visible on X-ray as hardware penetrating the femoral head; it does not cause the diffuse sclerosis and crescent sign described.",
+      "Incorrect. Primary osteoarthritis at this age and in this timeframe following fracture is less likely; OA causes joint space narrowing, osteophytes, and subchondral sclerosis but the crescent sign specifically points to AVN.",
+      "Incorrect. Septic arthritis would present with fever, raised inflammatory markers, and joint effusion; the imaging findings described are not consistent with infection."
+    ],
+    "clinicalPearl": "The crescent sign — a subchondral lucency following the contour of the femoral head — is the earliest plain radiograph sign of avascular necrosis and indicates imminent femoral head collapse."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "Non-union of fracture",
+    "question": "A 52-year-old smoker with poorly controlled type 2 diabetes sustained a closed tibial shaft fracture nine months ago, treated with intramedullary nailing. He continues to report pain at the fracture site, and X-rays at six and nine months show persistent fracture line with sclerosis of the fracture ends, no bridging callus, and medullary canal obliteration. He is afebrile, CRP is normal, and WBC is within normal limits. What type of non-union does this most likely represent?",
+    "options": [
+      "Atrophic non-union",
+      "Hypertrophic non-union",
+      "Oligotrophic non-union",
+      "Infected non-union",
+      "Pseudarthrosis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Atrophic non-union is characterised by failure of callus formation due to poor biological environment — the fracture ends become sclerotic, the medullary canal obliterates, and there is no periosteal reaction. This occurs when vascularity and healing potential are compromised, as in smokers and diabetics. Hypertrophic non-union, by contrast, shows abundant callus (elephant foot or horse hoof pattern) due to inadequate mechanical stability but preserved biological potential.",
+    "wrongAnswerExplanations": [
+      "Correct. Atrophic non-union shows sclerotic fracture ends, no callus, and obliteration of the medullary canal — the result of impaired biological healing capacity as seen in diabetes and smoking.",
+      "Incorrect. Hypertrophic non-union is characterised by abundant callus production (adequate biology, inadequate stability); this patient's X-ray shows sclerosis and absent callus, the opposite pattern.",
+      "Incorrect. Oligotrophic non-union shows minimal callus; while closer to atrophic, the key features here of medullary canal obliteration and sclerotic ends with no callus are more consistent with atrophic pattern.",
+      "Incorrect. Infected non-union would be suggested by fever, raised CRP/WBC, or discharging sinus — all absent here; infection must always be excluded but is not supported by the clinical picture presented.",
+      "Incorrect. Pseudarthrosis (false joint) is a subtype of non-union where fibrocartilaginous tissue fills the gap with a false joint cavity; this would show a different radiographic appearance with a synovial-like space."
+    ],
+    "clinicalPearl": "Atrophic non-union requires both biological augmentation (autologous bone graft, optimise vascularity, stop smoking, control diabetes) and mechanical stabilisation — biology is the limiting factor, not just stability."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "Malunion",
+    "question": "A 7-year-old boy fractured his right radius and ulna 12 months ago and was treated with closed reduction and cast immobilisation. His parents now bring him back to clinic concerned about the appearance of his forearm. On examination he has a visible bony deformity of the forearm. X-ray confirms malunion with 25 degrees of angulation. On functional assessment, forearm pronation is limited to 20 degrees (normal 90 degrees). What is the most significant functional consequence of malunion in forearm fractures?",
+    "options": [
+      "Loss of forearm rotation due to disruption of the interosseous membrane and proximal/distal radio-ulnar joint mechanics",
+      "Loss of grip strength due to weakness of the intrinsic hand muscles",
+      "Wrist instability due to disruption of the triangular fibrocartilage complex",
+      "Elbow flexion contracture due to adhesions of the biceps tendon",
+      "Median nerve compression causing carpal tunnel syndrome"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Forearm rotation (pronation and supination) depends on precise alignment of the radius and ulna relative to the interosseous membrane and the proximal and distal radio-ulnar joints. Malunion with angulation as small as 10 degrees can significantly reduce forearm rotation. The radius has a normal bow that must be restored for full rotation; loss of this bow following malunion results in the radius impinging on the ulna during rotation.",
+    "wrongAnswerExplanations": [
+      "Correct. The radius and ulna function as a mechanical unit; malunion alters the interosseous membrane tension and disrupts the arc of rotation at both radio-ulnar joints, causing the most clinically significant disability — restricted pronation and supination.",
+      "Incorrect. Intrinsic hand muscle strength is not directly related to forearm bone alignment; grip strength may be mildly reduced but is not the primary or most significant functional consequence.",
+      "Incorrect. The TFCC can be affected by distal radius malunion or distal radio-ulnar joint incongruity, but the primary functional loss in forearm shaft malunion is rotational, not wrist instability.",
+      "Incorrect. Elbow flexion contracture is not a typical consequence of forearm malunion; it may follow elbow trauma but would not arise from malunion of the radial and ulnar shafts.",
+      "Incorrect. Carpal tunnel syndrome is associated with distal radius fractures and carpal injuries, not malunion of forearm shaft fractures."
+    ],
+    "clinicalPearl": "Even minor angular malunion of forearm fractures can produce significant loss of pronation and supination — the forearm must be regarded as a joint, and anatomical reduction is essential, particularly in adults."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General_principles_of_fractures_IV__Early_local_complications_P2.pdf",
+    "topic": "Open fracture infection",
+    "question": "A 28-year-old motorcyclist is brought to the emergency department with a Gustilo-Anderson type IIIB open fracture of the left tibia with extensive soft tissue loss and periosteal stripping. He receives IV co-amoxiclav and tetanus prophylaxis in the emergency department. He is taken to theatre within 4 hours for debridement and external fixation. Seventy-two hours post-operatively he develops fever (39.1°C), tachycardia (HR 110 bpm), and the wound shows purulent discharge with a foul odour. What is the most appropriate next step in management?",
+    "options": [
+      "Return to theatre urgently for repeat debridement and wound washout with microbiological sampling",
+      "Start empirical IV broad-spectrum antibiotics and reassess at 48 hours",
+      "Proceed directly to primary amputation below the knee",
+      "Apply a negative pressure wound therapy dressing and continue current antibiotics",
+      "Arrange CT of the left leg to identify the extent of infection before acting"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Early post-operative wound infection following open fracture management requires urgent surgical debridement — antibiotics alone cannot eradicate infection in the presence of devitalised tissue, biofilm, and foreign material. Return to theatre for thorough repeat debridement, irrigation, and microbiological sampling is the definitive treatment. Antibiotics are an adjunct, not a substitute for surgical source control.",
+    "wrongAnswerExplanations": [
+      "Correct. Surgical debridement is the cornerstone of open fracture infection management; devitalised tissue and biofilm make antibiotic treatment alone ineffective — theatre is mandatory for source control.",
+      "Incorrect. Antibiotics without surgical debridement are insufficient to treat established wound infection after open fracture; delaying surgery allows infection to progress to osteomyelitis.",
+      "Incorrect. Amputation is a last resort for non-salvageable limbs; this patient has not failed repeated debridement attempts and early amputation is premature at this stage.",
+      "Incorrect. Negative pressure wound therapy can be a useful adjunct after adequate debridement but must not replace surgical debridement when active infection with purulent discharge is present.",
+      "Incorrect. CT may help delineate abscess collections or osteomyelitis in certain cases, but when there is clear clinical evidence of wound infection with purulent discharge, CT delays the urgent surgical debridement that is needed."
+    ],
+    "clinicalPearl": "Antibiotics treat bacteria in tissue; surgery removes dead tissue, biofilm, and contaminated material — in open fracture infection, surgical debridement is non-negotiable and cannot be replaced by antibiotics alone."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "general_principles_of_fracture_IV___general_complications_P1.pdf",
+    "topic": "VTE prophylaxis after fracture",
+    "question": "A 74-year-old woman with atrial fibrillation (on warfarin, INR 2.4 on admission) is admitted with a right neck of femur fracture. She is scheduled for total hip replacement the following morning. Warfarin is reversed with vitamin K and fresh frozen plasma overnight. Post-operatively, which VTE prophylaxis regimen is most appropriate for this patient following elective total hip replacement?",
+    "options": [
+      "Low molecular weight heparin (LMWH) for 28–35 days post-operatively",
+      "Aspirin 75 mg for 6 weeks post-operatively only",
+      "Unfractionated heparin twice daily for 5 days then stop",
+      "Compression stockings alone for the duration of hospital stay",
+      "Warfarin restarted at the pre-admission dose on day 1 post-operatively"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Current NICE guidelines (NG89) recommend extended VTE prophylaxis with LMWH for 28–35 days following hip replacement surgery. This reflects the prolonged hypercoagulable state and risk of DVT/PE after major hip arthroplasty. Aspirin alone is insufficient for high-risk orthopaedic surgery. Warfarin can be used as an alternative but requires INR monitoring.",
+    "wrongAnswerExplanations": [
+      "Correct. NICE recommends LMWH (or fondaparinux/rivaroxaban as alternatives) for 28–35 days following hip replacement to cover the extended high-risk period for VTE — this is one of the longest recommended durations in surgical VTE prophylaxis.",
+      "Incorrect. Aspirin alone is insufficient prophylaxis for total hip replacement; while some protocols use aspirin in combination with other agents, aspirin monotherapy does not provide adequate thromboprophylaxis for this high-risk procedure.",
+      "Incorrect. Unfractionated heparin for 5 days is entirely inadequate; the VTE risk following hip replacement extends for 4–6 weeks and prolonged prophylaxis is essential.",
+      "Incorrect. Mechanical prophylaxis (stockings, pneumatic compression) is an adjunct but is not adequate as sole pharmacological prophylaxis in high-risk orthopaedic surgery; pharmacological agents are mandated.",
+      "Incorrect. Restarting warfarin immediately post-operatively at the pre-admission dose creates bleeding risk and the INR will not reach therapeutic levels for several days; while warfarin is an accepted long-term option, LMWH bridge is standard in the immediate post-operative period."
+    ],
+    "clinicalPearl": "VTE prophylaxis after total hip replacement must be extended to 28–35 days post-operatively — the majority of fatal pulmonary emboli after hip surgery occur after hospital discharge."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "General_principles_of_fractures_IV__Early_local_complications_P2.pdf",
+    "topic": "Compartment syndrome — pressure measurement",
+    "question": "A 22-year-old male presents after a crush injury to his left forearm. He reports forearm pain but examination findings are equivocal — the forearm is moderately swollen, passive finger extension causes mild discomfort, and distal neurovascular status is intact. He is hypotensive from blood loss with a recorded mean arterial pressure (MAP) of 58 mmHg. Compartment pressure is measured at 32 mmHg. Using the delta pressure (ΔP = MAP minus compartment pressure) criterion, what is the correct interpretation and next action?",
+    "options": [
+      "ΔP is 26 mmHg, which is below the critical threshold of 30 mmHg — urgent fasciotomy is indicated",
+      "Fasciotomy is not indicated because the absolute compartment pressure of 32 mmHg is below the 40 mmHg threshold",
+      "Fasciotomy is not indicated because the patient's distal pulses are intact, confirming adequate perfusion",
+      "Fasciotomy should be delayed until the patient is haemodynamically resuscitated and MAP normalises",
+      "Repeat compartment pressure measurement in two hours and act only if the value increases further"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The delta pressure (ΔP) is calculated as MAP minus compartment pressure: 58 minus 32 = 26 mmHg. A ΔP below 30 mmHg indicates critically inadequate perfusion pressure to the compartment and is an indication for fasciotomy. This criterion is particularly important in hypotensive patients, where a seemingly modest absolute compartment pressure may still be devastating because systemic perfusion pressure is low. Intact pulses do not exclude compartment syndrome.",
+    "wrongAnswerExplanations": [
+      "Correct. ΔP = 58 minus 32 = 26 mmHg, which falls below the critical threshold of 30 mmHg; this indicates the perfusion pressure gradient is insufficient to maintain muscle viability and fasciotomy must not be delayed.",
+      "Incorrect. Absolute compartment pressure thresholds (whether 30 or 40 mmHg) do not account for the patient's systemic blood pressure; in a hypotensive patient a compartment pressure of 32 mmHg with MAP of 58 mmHg produces a dangerously low ΔP — the absolute value alone is misleading.",
+      "Incorrect. Intact distal pulses are a late and unreliable sign in compartment syndrome; arterial flow can be maintained even when microcirculatory perfusion of muscle and nerve is critically compromised, making this a false reassurance.",
+      "Incorrect. Waiting for haemodynamic resuscitation before performing fasciotomy is dangerous; ischaemic time continues to accumulate, and the decision to fasciotomise should be based on ΔP, which already indicates critical ischaemia now.",
+      "Incorrect. Repeating compartment pressure in two hours allows further irreversible ischaemic damage to occur; when ΔP is already below 30 mmHg, the threshold for intervention has been met and action must be immediate."
+    ],
+    "clinicalPearl": "Use the delta pressure (MAP minus compartment pressure): fasciotomy is indicated when ΔP falls below 30 mmHg — hypotensive patients are at particular risk because a low MAP unmasks critical ischaemia even at modest absolute compartment pressures."
+  }
+]

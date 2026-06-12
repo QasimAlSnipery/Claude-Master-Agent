@@ -1,0 +1,301 @@
+[
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Varicose veins",
+    "question": "A 42-year-old woman presents to the vascular outpatient clinic with a 3-year history of aching, heaviness, and visible tortuous veins in her right leg. She works as a nurse and stands for long periods. On examination there are prominent dilated veins along the medial thigh and calf, with a positive cough impulse at the saphenofemoral junction. There is no skin changes or ulceration. Duplex ultrasound confirms great saphenous vein reflux. Which is the most appropriate initial management?",
+    "options": [
+      "Endovenous laser ablation (EVLA) of the great saphenous vein",
+      "Below-knee compression stockings and lifestyle advice",
+      "Emergency saphenofemoral ligation and stripping",
+      "Foam sclerotherapy of the saphenofemoral junction",
+      "Reassurance and analgesia only"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "NICE guidelines recommend endovenous thermal ablation (EVLA or RFA) as first-line treatment for symptomatic varicose veins with confirmed GSV reflux on duplex. It has lower recurrence and complication rates than open surgery. Compression alone is appropriate only when intervention is contraindicated. Foam sclerotherapy is second-line. Surgical ligation and stripping is now third-line.",
+    "wrongAnswerExplanations": [
+      "Correct. EVLA is first-line per NICE NG168 for symptomatic GSV reflux, offering durable results with minimal morbidity.",
+      "Compression stockings are appropriate for patients unfit for intervention or who decline it, but should not be offered before interventional treatment in suitable candidates.",
+      "Surgical saphenofemoral ligation and stripping is now third-line after endovenous techniques and is not appropriate as initial management here.",
+      "Foam sclerotherapy is second-line for GSV reflux, used when endovenous ablation is unsuitable, not as the first choice.",
+      "Reassurance alone is inappropriate given confirmed reflux with significant symptoms; intervention will prevent progression to skin changes and ulceration."
+    ],
+    "clinicalPearl": "NICE NG168: for symptomatic varicose veins with confirmed truncal reflux, offer endovenous ablation first — compression stockings should not be given as a long-term alternative to treatment."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Saphenofemoral junction incompetence",
+    "question": "A 55-year-old man is being assessed for varicose veins. The vascular surgeon performs a Trendelenburg test: the leg is elevated to empty the veins, a tourniquet is applied at the upper thigh, the patient stands, and the veins fill rapidly from below with the tourniquet in place. When the tourniquet is released the veins fill rapidly from above. What does this result indicate?",
+    "options": [
+      "Incompetence at the saphenofemoral junction with competent perforators",
+      "Isolated perforator incompetence only",
+      "Competent saphenofemoral junction with incompetent perforators",
+      "Deep venous obstruction",
+      "Normal venous anatomy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "In the Trendelenburg (tourniquet) test, rapid filling from below with the tourniquet in place indicates incompetent perforators below it. When the tourniquet is released and veins fill rapidly from above, this confirms additional saphenofemoral junction (SFJ) incompetence. The combination here — filling from below AND from above on release — indicates both SFJ incompetence and perforator incompetence, but the dominant clinical finding asked about is the SFJ reflux demonstrated on tourniquet release.",
+    "wrongAnswerExplanations": [
+      "Correct. Rapid filling from below with tourniquet in place shows perforator incompetence below the tourniquet; release causing further rapid filling from above confirms SFJ incompetence. Together this indicates SFJ incompetence is present.",
+      "Isolated perforator incompetence would cause filling from below with the tourniquet on, but no rapid filling from above when released — this pattern is incomplete here.",
+      "If the SFJ were competent, releasing the tourniquet would not cause rapid filling from above.",
+      "Deep venous obstruction would cause the veins to remain engorged after elevation and compression, not produce this pattern of directional filling.",
+      "Normal venous anatomy would show no rapid filling in either phase of the test."
+    ],
+    "clinicalPearl": "In the Trendelenburg test, rapid filling from above on tourniquet release = saphenofemoral junction incompetence; rapid filling from below with tourniquet on = perforator incompetence."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Chronic venous insufficiency",
+    "question": "A 67-year-old woman presents with bilateral ankle swelling, brownish skin discolouration above the medial malleoli, and an itchy indurated area around the lower left leg. She has a long history of varicose veins. On examination there is pitting oedema to the mid-calf, lipodermatosclerosis, and haemosiderin deposits. Ankle-brachial pressure index (ABPI) is 0.95 bilaterally. What is the most appropriate management?",
+    "options": [
+      "Four-layer compression bandaging followed by class II compression hosiery",
+      "Topical corticosteroids to the affected skin",
+      "Urgent referral for deep vein surgery",
+      "Diuretics to reduce oedema",
+      "Antibiotics for suspected cellulitis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This patient has chronic venous insufficiency (CVI) with lipodermatosclerosis and haemosiderin deposition — CEAP class C4. With a normal ABPI (≥0.8), compression therapy is safe and is the cornerstone of CVI management. Four-layer compression bandaging reduces oedema and skin changes; transition to class II hosiery maintains benefit long-term. There is no sign of active infection to warrant antibiotics.",
+    "wrongAnswerExplanations": [
+      "Correct. Normal ABPI permits full compression; four-layer bandaging is first-line for significant CVI with skin changes, transitioning to maintenance hosiery.",
+      "Topical corticosteroids may treat varicose eczema superimposed on CVI but do not address the underlying venous hypertension causing lipodermatosclerosis.",
+      "Deep vein surgery is not the primary treatment for chronic venous insufficiency; compression and skin care are first-line and deep venous reconstruction is rare.",
+      "Diuretics treat systemic causes of oedema (cardiac, renal, hepatic) and are not appropriate for venous hypertension-related oedema.",
+      "There is no fever, erythema, warmth, or systemic signs of infection described; antibiotics are not indicated for lipodermatosclerosis."
+    ],
+    "clinicalPearl": "Lipodermatosclerosis + haemosiderin deposition = CEAP C4 CVI; always check ABPI before applying compression — if ≥0.8, full compression is safe and is the cornerstone of treatment."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Venous ulcer",
+    "question": "A 72-year-old man with a 10-year history of varicose veins presents with a painless ulcer on the medial aspect of his right lower leg just above the medial malleolus. The ulcer is shallow with irregular sloping edges, a granulating base, and surrounding haemosiderin pigmentation and lipodermatosclerosis. ABPI is 0.92. Which single investigation is most important before starting compression therapy?",
+    "options": [
+      "Duplex ultrasound of the venous system",
+      "Punch biopsy of the ulcer edge",
+      "CT angiography of lower limb arteries",
+      "Wound swab for microbiology",
+      "Plain X-ray of the tibia and fibula"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Before initiating compression therapy for a suspected venous ulcer, duplex ultrasound is essential to confirm venous reflux/obstruction, exclude significant arterial disease (ABPI is reassuring but duplex provides detail), and identify correctable underlying venous pathology (e.g. GSV reflux) that, if treated, dramatically improves healing rates. Biopsy is reserved for non-healing ulcers suspected to be malignant. ABPI alone is not sufficient to guide treatment planning.",
+    "wrongAnswerExplanations": [
+      "Correct. Duplex ultrasound confirms the venous aetiology, maps incompetent segments, and guides whether superficial venous surgery alongside compression will improve healing — evidence shows treating underlying reflux doubles healing rates.",
+      "Punch biopsy is indicated only when malignant transformation (Marjolin's ulcer) is suspected — typically in chronic, non-healing, raised-edge ulcers. This presentation is classic venous.",
+      "CT angiography carries radiation and contrast risk and is disproportionate here; ABPI of 0.92 makes critical ischaemia unlikely and duplex is the first-line vascular imaging.",
+      "Wound swabs are of limited value in venous ulcers without signs of clinical infection (increased pain, erythema, purulent discharge, fever); routine swabbing is not recommended.",
+      "Plain X-ray is not useful in the assessment of venous ulcers unless osteomyelitis or periosteal involvement is clinically suspected."
+    ],
+    "clinicalPearl": "For a venous ulcer, duplex ultrasound is the key investigation — it confirms aetiology and identifies correctable reflux; treating superficial venous incompetence alongside compression significantly improves healing."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Venous ulcer complications",
+    "question": "A 78-year-old woman has had a venous ulcer on the medial gaiter area of her left leg for 22 years. It has recently changed character: the edges have become raised and everted, the base is now necrotic, and the surrounding skin has thickened. There is no sign of systemic infection. What is the most important next step?",
+    "options": [
+      "Punch biopsy of the ulcer edge",
+      "Increase compression bandaging to four layers",
+      "Start systemic antibiotics for infected ulcer",
+      "Refer for split-skin grafting",
+      "Doppler ABPI and venous duplex scan"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A chronic venous ulcer that changes character — developing raised, everted edges and a necrotic base after many years — must be biopsied to exclude squamous cell carcinoma (Marjolin's ulcer). This is a well-recognised complication of chronic wounds. Increasing compression or grafting without histological diagnosis risks treating a malignancy inappropriately. Biopsy from the ulcer edge is diagnostic.",
+    "wrongAnswerExplanations": [
+      "Correct. Change in a long-standing ulcer's character (raised everted edges, necrotic base) mandates urgent biopsy to exclude Marjolin's ulcer (squamous cell carcinoma arising in a chronic wound).",
+      "Increasing compression is appropriate for uncomplicated venous ulcers but does not address the suspicious change in ulcer characteristics that demands histological assessment.",
+      "There are no systemic signs of infection; antibiotics would not address the underlying concern about malignant transformation.",
+      "Split-skin grafting without histology risks grafting onto malignant tissue; biopsy must precede any reconstructive intervention.",
+      "Venous duplex and ABPI are useful in initial workup but have already been established in this long-standing case; the urgent priority is excluding malignancy with biopsy."
+    ],
+    "clinicalPearl": "Any chronic ulcer that changes character — especially raised or everted edges after years of stability — must be biopsied to exclude Marjolin's ulcer (squamous cell carcinoma)."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Deep vein thrombosis diagnosis",
+    "question": "A 58-year-old woman returns from a 14-hour flight and presents to the emergency department with a 2-day history of left calf swelling, warmth, and aching. She takes the combined oral contraceptive pill. On examination the left calf is 3 cm wider than the right, tender on deep palpation, and there is pitting oedema to the ankle. Her Wells DVT score is calculated as 3 (high probability). Which is the single best next investigation?",
+    "options": [
+      "Compression duplex ultrasound of the left leg",
+      "D-dimer assay",
+      "CT pulmonary angiography",
+      "MRI of the left lower limb",
+      "Venography of the left leg"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "With a high pre-test probability (Wells score ≥3), D-dimer is not required — a negative D-dimer does not safely exclude DVT when probability is high. Compression duplex ultrasound is the gold-standard non-invasive investigation and should be performed immediately. It has high sensitivity and specificity for proximal DVT and guides anticoagulation decisions. Venography is now rarely used and reserved for inconclusive duplex.",
+    "wrongAnswerExplanations": [
+      "Correct. Compression duplex ultrasound is the investigation of choice for suspected DVT, particularly with high pre-test probability where D-dimer is uninformative.",
+      "D-dimer is most useful in low or intermediate pre-test probability to rule out DVT; with a high Wells score (≥3) it should not be used as the primary test as a negative result cannot safely exclude DVT.",
+      "CTPA is the investigation for suspected pulmonary embolism, not DVT; while DVT and PE are related, the primary investigation for suspected DVT is duplex ultrasound.",
+      "MRI is not a standard first-line investigation for DVT; it may be used for pelvic or iliac vein thrombosis when duplex is inadequate.",
+      "Contrast venography was the historical gold standard but is now largely obsolete due to invasiveness and radiation; reserved for inconclusive duplex results."
+    ],
+    "clinicalPearl": "With a Wells DVT score ≥3 (high probability), go straight to compression duplex ultrasound — do not waste time with D-dimer as it cannot rule out DVT in high-probability patients."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Deep vein thrombosis management",
+    "question": "A 45-year-old man is diagnosed with a first unprovoked proximal DVT (left popliteal and femoral veins) confirmed on duplex ultrasound. He has no known malignancy, no contraindications to anticoagulation, and no family history of thrombophilia. Renal function is normal. Which is the most appropriate initial management?",
+    "options": [
+      "Direct oral anticoagulant (DOAC) — rivaroxaban or apixaban — for at least 3 months",
+      "Intravenous unfractionated heparin infusion for 5 days followed by warfarin",
+      "Low molecular weight heparin (LMWH) injection for 3 months only",
+      "Aspirin 75 mg daily for 3 months",
+      "Surgical thrombectomy of the femoral vein"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Current guidelines (NICE NG158) recommend DOACs (rivaroxaban or apixaban) as first-line for most patients with DVT. They are at least as effective as LMWH-bridged warfarin, do not require INR monitoring, and are more convenient. For a first unprovoked proximal DVT, treatment is for at least 3 months with consideration of extended therapy. IV heparin is no longer routine for DVT management.",
+    "wrongAnswerExplanations": [
+      "Correct. Rivaroxaban or apixaban are NICE-recommended first-line DOACs for DVT with normal renal function; they are effective, safe, and require no monitoring.",
+      "IV UFH followed by warfarin is the older approach; it is still used in specific situations (e.g. antiphospholipid syndrome, severe renal impairment) but is not first-line for straightforward DVT.",
+      "LMWH alone for 3 months is an option for active malignancy where it was previously preferred over warfarin, but DOACs are now preferred even in cancer-associated thrombosis for many patients.",
+      "Aspirin has no role as primary treatment for DVT; it is used in specific antiplatelet indications but provides insufficient anticoagulation to treat established venous thromboembolism.",
+      "Surgical thrombectomy is reserved for massive iliofemoral DVT with phlegmasia cerulea dolens or limb-threatening ischaemia; it is not appropriate for uncomplicated proximal DVT."
+    ],
+    "clinicalPearl": "DOACs (rivaroxaban or apixaban) are now first-line for DVT treatment — convenient, effective, and safe without INR monitoring in patients with normal renal function."
+  },
+  {
+    "system": "venous diseases !! 3.pdf",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Pulmonary embolism risk",
+    "question": "A 63-year-old obese man (BMI 34) undergoes elective total hip replacement. He has a history of DVT 5 years ago. He is not on any anticoagulants. His pre-operative Wells PE score context aside, which single intervention is most important in reducing his post-operative risk of pulmonary embolism?",
+    "options": [
+      "Low molecular weight heparin (LMWH) starting 6–12 hours post-operatively and continued for 28–35 days",
+      "Aspirin 75 mg daily for 10 days post-operatively",
+      "Thromboembolic deterrent (TED) stockings alone for 6 weeks",
+      "Early mobilisation on post-operative day 1 without pharmacological prophylaxis",
+      "Inferior vena cava filter insertion pre-operatively"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "After total hip replacement, NICE recommends extended pharmacological VTE prophylaxis with LMWH for 28–35 days (or alternatively rivaroxaban for 35 days). This patient has multiple risk factors: obesity, orthopaedic surgery, and prior DVT. LMWH (or DOAC) is the most effective single intervention. TED stockings are adjunctive, not sufficient alone. IVC filters are reserved for patients with acute DVT/PE who cannot be anticoagulated.",
+    "wrongAnswerExplanations": [
+      "Correct. NICE recommends 28–35 days of LMWH (or rivaroxaban 35 days) after total hip replacement — extended prophylaxis is essential given the high thrombotic risk of this surgery.",
+      "Aspirin alone provides insufficient VTE prophylaxis after major orthopaedic surgery; while it reduces arterial events, it does not adequately prevent DVT/PE in this high-risk context.",
+      "TED stockings are adjunctive mechanical prophylaxis; used alone they are insufficient after total hip replacement, particularly in a patient with prior DVT.",
+      "Early mobilisation is encouraged but does not replace pharmacological prophylaxis; mobilisation alone is insufficient in high-risk surgical patients.",
+      "IVC filters are not used prophylactically in patients without acute VTE who can receive anticoagulation; they carry their own risks including filter thrombosis."
+    ],
+    "clinicalPearl": "After total hip replacement, extended LMWH prophylaxis for 28–35 days (or rivaroxaban 35 days) is mandatory — VTE risk remains elevated for weeks post-operatively."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "venous diseases !! 3.pdf",
+    "topic": "Phlegmasia cerulea dolens",
+    "question": "A 55-year-old woman with known ovarian cancer presents with sudden onset of severe left leg swelling that has progressed over 12 hours. The entire limb from groin to foot is massively swollen, tense, and deeply cyanotic. There are early blisters on the dorsum of the foot. She is hypotensive (BP 85/50) and in significant pain. Duplex shows extensive iliofemoral thrombosis. What is the most appropriate immediate management?",
+    "options": [
+      "Intravenous heparin infusion with urgent referral for catheter-directed thrombolysis or surgical thrombectomy",
+      "Therapeutic LMWH subcutaneously and elevation of the limb",
+      "Four-layer compression bandaging and DOAC",
+      "Emergency below-knee amputation",
+      "IVC filter insertion alone"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is phlegmasia cerulea dolens — a limb-threatening emergency caused by massive iliofemoral DVT with venous outflow obstruction causing arterial compromise. The cyanosis, blistering, and hypotension indicate impending venous gangrene. Systemic heparin should be started immediately to prevent propagation, and the patient requires urgent catheter-directed thrombolysis or surgical thrombectomy to restore venous outflow and salvage the limb. Standard anticoagulation alone is insufficient.",
+    "wrongAnswerExplanations": [
+      "Correct. Phlegmasia cerulea dolens is a limb-threatening emergency requiring immediate heparin and urgent mechanical thrombus removal (catheter-directed thrombolysis or thrombectomy) to prevent venous gangrene.",
+      "LMWH and elevation alone are inadequate for phlegmasia cerulea dolens with impending gangrene; active thrombus removal is required to restore venous outflow.",
+      "Compression bandaging is absolutely contraindicated in the setting of massive venous outflow obstruction and arterial compromise; it would worsen ischaemia.",
+      "Amputation is a last resort for established irreversible venous gangrene; aggressive revascularisation should be attempted first to salvage the limb.",
+      "IVC filter alone does not treat the existing thrombosis or restore venous outflow; it only prevents embolisation and does not address the limb-threatening obstruction."
+    ],
+    "clinicalPearl": "Phlegmasia cerulea dolens = massive iliofemoral DVT with venous gangrene risk — start IV heparin immediately and arrange urgent catheter-directed thrombolysis or thrombectomy."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "lymphedema  4.pdf",
+    "topic": "Lymphoedema diagnosis",
+    "question": "A 35-year-old woman presents with progressive swelling of her right leg over 2 years. The swelling involves the dorsum of the foot (including the toes), is non-pitting on prolonged pressure, and the skin is thickened with a warty texture. She had no previous surgery or radiation. There is no family history. Venous duplex is normal and ABPI is 1.1. Which clinical sign is most specific for lymphoedema?",
+    "options": [
+      "Stemmer sign (inability to pinch and lift the skin at the base of the second toe)",
+      "Pitting oedema at the ankle resolving with overnight elevation",
+      "Bilateral symmetrical swelling worse in the morning",
+      "Varicose veins on the medial calf",
+      "Haemosiderin deposition above the medial malleolus"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Stemmer sign is the most specific clinical test for lymphoedema. In healthy individuals, the skin over the dorsum of the second toe base can be lifted; in lymphoedema, dermal fibrosis prevents this (positive Stemmer sign). The presence of toe and dorsal foot involvement, non-pitting oedema, and skin thickening with hyperkeratosis are all characteristic of lymphoedema rather than venous disease. A positive Stemmer sign is pathognomonic.",
+    "wrongAnswerExplanations": [
+      "Correct. A positive Stemmer sign — inability to pinch and lift the skin at the base of the second toe — is pathognomonic of lymphoedema and distinguishes it from venous or systemic oedema.",
+      "Pitting oedema that resolves with elevation is characteristic of early venous or systemic (cardiac/renal/hepatic) oedema, not established lymphoedema where fibrosis prevents pitting.",
+      "Bilateral symmetrical swelling worse in the morning suggests systemic causes (cardiac, renal, medication-related); lymphoedema is often unilateral and worsens through the day.",
+      "Varicose veins indicate venous disease; this patient has a normal venous duplex making a primary venous cause unlikely.",
+      "Haemosiderin deposition above the medial malleolus is a hallmark of chronic venous insufficiency, not lymphoedema."
+    ],
+    "clinicalPearl": "A positive Stemmer sign (inability to lift the skin at the base of the second toe) is pathognomonic of lymphoedema — test it in every patient with lower limb swelling of uncertain aetiology."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "lymphedema  4.pdf",
+    "topic": "Lymphoedema classification",
+    "question": "A 52-year-old woman presents 18 months after right axillary lymph node dissection and radiotherapy for breast cancer with progressive right arm swelling. The circumference difference between right and left upper arms is 4 cm. The skin is thickened but still pits slightly. She has no signs of infection. Which best describes her condition and its classification?",
+    "options": [
+      "Secondary lymphoedema (stage II) due to lymphatic damage from cancer treatment",
+      "Primary lymphoedema tarda presenting after age 35",
+      "Lipoedema secondary to hormonal changes after cancer treatment",
+      "Axillary vein thrombosis causing venous oedema",
+      "Recurrent breast cancer with dermal lymphatic invasion"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is classic secondary lymphoedema following axillary lymph node clearance and radiotherapy — the most common cause of unilateral arm lymphoedema in women. It represents stage II lymphoedema (spontaneously irreversible, skin changes present but still soft enough to pit). Secondary lymphoedema arises from an identifiable cause (surgery, radiation, infection, malignancy) distinguishing it from primary (idiopathic or genetic) lymphoedema.",
+    "wrongAnswerExplanations": [
+      "Correct. Secondary lymphoedema after breast cancer treatment (axillary dissection ± radiotherapy) is the most common cause of unilateral upper limb lymphoedema; stage II = spontaneously irreversible with early fibrosis.",
+      "Primary lymphoedema tarda (onset >35 years) is idiopathic with no identifiable precipitating cause; this patient has a clear iatrogenic cause from cancer treatment.",
+      "Lipoedema primarily affects the legs (not arms), is symmetrical, spares the feet, and is associated with adipose tissue abnormality rather than lymphatic damage; it does not cause arm swelling.",
+      "Axillary vein thrombosis would cause acute oedema with engorgement of superficial veins, pain, and cyanosis; it would be visible on duplex and is a separate diagnosis from lymphoedema.",
+      "Dermal lymphatic invasion by recurrent breast cancer (lymphangitis carcinomatosa) is possible but would typically present with erythema, rapid onset, systemic features, and skin changes suggesting peau d'orange."
+    ],
+    "clinicalPearl": "Arm swelling after ipsilateral axillary node dissection ± radiotherapy = secondary lymphoedema until proven otherwise; up to 20% of breast cancer survivors develop this complication."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "lymphedema  4.pdf",
+    "topic": "Lymphoedema management",
+    "question": "A 48-year-old man with bilateral lower limb primary lymphoedema presents for management advice. His legs are chronically swollen to the knees, the skin is hyperkeratotic with a warty surface, and Stemmer sign is positive bilaterally. He has had two episodes of cellulitis in the past year. Which management approach is most appropriate for long-term control?",
+    "options": [
+      "Complete decongestive therapy (CDT): manual lymphatic drainage, multilayer bandaging, skin care, and compression hosiery",
+      "Long-term oral diuretics to reduce fluid accumulation",
+      "Bilateral superficial lymphadenectomy",
+      "Elevation of both legs above heart level at all times",
+      "Systemic corticosteroids to reduce skin thickening"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Complete decongestive therapy (CDT) is the gold-standard, evidence-based treatment for lymphoedema. It comprises four components: manual lymphatic drainage (MLD), multilayer short-stretch compression bandaging (intensive phase), meticulous skin care (to prevent cellulitis), and transition to compression hosiery (maintenance phase). CDT can achieve significant limb volume reduction and must be continued long-term. Diuretics are ineffective for lymphoedema and can cause protein concentration in tissues.",
+    "wrongAnswerExplanations": [
+      "Correct. CDT — combining MLD, compression bandaging, skin care, and hosiery — is the evidence-based standard of care for lymphoedema and achieves the best long-term limb volume reduction.",
+      "Diuretics are contraindicated in lymphoedema as they reduce intravascular volume without removing the protein-rich interstitial fluid; this can worsen fibrosis and is ineffective long-term.",
+      "Lymphadenectomy would further damage lymphatic drainage and is contraindicated; surgical options for lymphoedema include lymphovenous anastomosis or vascularised lymph node transfer — not removal.",
+      "Continuous elevation is impractical and does not address the underlying lymphatic failure or promote lymphatic regeneration; it is a supportive measure, not a definitive treatment.",
+      "Systemic corticosteroids do not treat lymphoedema and carry significant long-term side effects; they may be used acutely for cellulitis management but have no role in controlling lymphoedema itself."
+    ],
+    "clinicalPearl": "CDT is the cornerstone of lymphoedema management — skin care is especially critical as recurrent cellulitis accelerates fibrosis and worsens lymphoedema in a vicious cycle."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "lymphedema  4.pdf",
+    "topic": "Lymphoedema complications",
+    "question": "A 62-year-old man with longstanding primary lymphoedema of the left leg presents with a new painless violaceous bruise-like lesion on the dorsal foot, plus three satellite lesions appearing over 4 weeks. He has had lymphoedema for over 20 years. He is otherwise well and has no lymphadenopathy. A punch biopsy shows high-grade vascular neoplasm. What is the most likely diagnosis?",
+    "options": [
+      "Stewart-Treves syndrome (lymphangiosarcoma arising in chronic lymphoedema)",
+      "Kaposi's sarcoma in an immunocompromised patient",
+      "Melanoma with lymphatic spread",
+      "Haemangioendothelioma",
+      "Dermal metastases from an occult primary"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Stewart-Treves syndrome is a rare but life-threatening lymphangiosarcoma arising in the setting of chronic lymphoedema — classically post-mastectomy arm lymphoedema but also primary lymphoedema. It presents as violaceous, bruise-like cutaneous lesions that multiply rapidly. It is a high-grade vascular sarcoma with a very poor prognosis. Recognition is critical: mean survival after diagnosis is less than 2 years. Wide local excision or amputation is the only potentially curative treatment.",
+    "wrongAnswerExplanations": [
+      "Correct. Stewart-Treves syndrome is lymphangiosarcoma complicating chronic lymphoedema; violaceous satellite lesions on a lymphoedematous limb must be biopsied urgently as prognosis depends on early diagnosis.",
+      "Kaposi's sarcoma is associated with HIV/AIDS or immunosuppression (transplant-related); this patient has no immunocompromising history and the clinical context of chronic lymphoedema strongly favours Stewart-Treves.",
+      "Melanoma typically arises from melanocytes (pigmented lesion with ABCDE features); while it can metastasise to the skin, the biopsy shows vascular neoplasm excluding melanoma.",
+      "Haemangioendothelioma is a vascular tumour but is far less commonly associated with chronic lymphoedema and has a less aggressive course; the clinical context here is classic for Stewart-Treves.",
+      "Dermal metastases from an occult primary are possible but biopsy showing high-grade vascular neoplasm in the setting of chronic lymphoedema is diagnostic of lymphangiosarcoma (Stewart-Treves)."
+    ],
+    "clinicalPearl": "Violaceous satellite skin lesions in a limb with chronic lymphoedema = Stewart-Treves syndrome (lymphangiosarcoma) until proven otherwise — biopsy urgently as prognosis is extremely poor."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Hyperacute rejection",
+    "question": "A 45-year-old man with end-stage renal disease secondary to IgA nephropathy undergoes a cadaveric renal transplant. Within 20 minutes of reperfusion, the kidney rapidly turns dusky then blue-black and becomes flaccid. The surgeon notes cessation of urine output immediately. Which of the following is the most likely underlying mechanism?",
+    "options": [
+      "T-lymphocyte mediated cytotoxicity against donor HLA antigens",
+      "Complement activation by pre-formed recipient antibodies against donor ABO or HLA antigens",
+      "Natural killer cell infiltration and antibody-dependent cellular cytotoxicity",
+      "Ischaemia-reperfusion injury from prolonged cold ischaemia time",
+      "Acute tubular necrosis secondary to calcineurin inhibitor toxicity"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Hyperacute rejection occurs within minutes to hours of reperfusion and is caused by pre-formed recipient antibodies (anti-ABO or anti-HLA class I) that bind donor endothelium, activate complement, and trigger widespread thrombosis of graft vasculature. The macroscopic appearance of rapid graft discolouration and loss of turgor is pathognomonic. There is no treatment; the graft must be removed.",
+    "wrongAnswerExplanations": [
+      "T-lymphocyte mediated cytotoxicity is the mechanism of acute cellular rejection, which occurs days to weeks post-transplant, not within minutes of reperfusion.",
+      "Complement activation by pre-formed antibodies against donor ABO or HLA antigens is the correct mechanism — this results in immediate vascular thrombosis and graft loss.",
+      "NK cell and ADCC mechanisms are associated with antibody-mediated (humoral) acute rejection occurring over days, not the near-instantaneous hyperacute picture described.",
+      "Ischaemia-reperfusion injury causes delayed graft function, not immediate irreversible graft loss; the graft would still be viable and perfused.",
+      "Calcineurin inhibitor toxicity presents weeks to months post-transplant as a rise in creatinine, not intraoperative graft discolouration."
+    ],
+    "clinicalPearl": "Hyperacute rejection (minutes) = pre-formed antibodies + complement → irreversible thrombosis; prevented by crossmatch testing and ABO compatibility before transplant."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Acute cellular rejection",
+    "question": "A 38-year-old woman received a living-donor renal transplant 12 days ago. She is on tacrolimus, mycophenolate mofetil, and prednisolone. She now presents with rising creatinine (from 110 to 198 µmol/L over 3 days), low-grade fever, graft tenderness, and reduced urine output. Ultrasound shows normal perfusion and no hydronephrosis. What is the most appropriate next step?",
+    "options": [
+      "Increase tacrolimus dose and recheck creatinine in 1 week",
+      "Start broad-spectrum IV antibiotics for presumed urinary tract infection",
+      "Perform renal transplant biopsy",
+      "Arrange urgent return to theatre for graft exploration",
+      "Switch mycophenolate to azathioprine and increase prednisolone dose"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The clinical picture — rising creatinine at day 12 with graft tenderness and fever, normal vascular flow on Doppler, and no obstruction — is highly suggestive of acute cellular rejection. Renal transplant biopsy is mandatory to confirm the diagnosis and grade severity (Banff classification) before initiating high-dose corticosteroid rescue therapy. Empirical treatment without histological confirmation risks both under- and over-treatment.",
+    "wrongAnswerExplanations": [
+      "Blindly increasing tacrolimus without biopsy confirmation is inappropriate and risks nephrotoxicity; tacrolimus toxicity is itself a differential that biopsy can help distinguish.",
+      "Antibiotics would be appropriate for pyelonephritis, but absence of dysuria, normal urinalysis, and graft tenderness without pyuria make rejection more likely; biopsy is required first.",
+      "Renal transplant biopsy is correct — it confirms acute cellular rejection by demonstrating tubulitis and interstitial inflammation (Banff criteria) and guides pulse steroid therapy.",
+      "Urgent graft exploration is indicated for vascular complications (thrombosis, rupture), not for the clinical picture described here with normal Doppler.",
+      "Switching immunosuppressants empirically without biopsy is not standard practice; the diagnosis must be confirmed histologically before escalating therapy."
+    ],
+    "clinicalPearl": "Any unexplained rise in creatinine post-transplant requires Doppler ultrasound to exclude vascular/obstructive causes followed by biopsy — never escalate immunosuppression without histological diagnosis."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Chronic allograft nephropathy",
+    "question": "A 55-year-old man received a cadaveric renal transplant 7 years ago and has been stable on tacrolimus and prednisolone. Over the past 18 months he has had a gradual rise in creatinine from 130 to 220 µmol/L, new-onset proteinuria (1.2 g/day), and blood pressure has increased from 130/80 to 158/94 mmHg. Biopsy shows interstitial fibrosis, tubular atrophy, and glomerulosclerosis. What is the most likely diagnosis?",
+    "options": [
+      "Acute cellular rejection",
+      "Tacrolimus nephrotoxicity",
+      "Recurrence of original disease",
+      "Chronic allograft nephropathy (interstitial fibrosis and tubular atrophy)",
+      "Post-transplant lymphoproliferative disorder"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Chronic allograft nephropathy (now termed interstitial fibrosis and tubular atrophy, IF/TA on Banff classification) is the leading cause of late graft loss. It presents insidiously years after transplantation with slowly declining GFR, proteinuria, and hypertension. Biopsy confirms fibrosis and atrophy without features of acute rejection. Management includes optimising blood pressure control, reducing calcineurin inhibitor exposure, and treating modifiable risk factors.",
+    "wrongAnswerExplanations": [
+      "Acute cellular rejection presents acutely with rapid creatinine rise and graft tenderness, typically within weeks to months; this 18-month gradual decline is inconsistent.",
+      "Tacrolimus nephrotoxicity can mimic this picture and is a contributing factor, but pure CNI toxicity shows arteriolar hyalinosis on biopsy; IF/TA is a broader diagnosis encompassing multiple chronic injury mechanisms.",
+      "Recurrence of original disease is possible for some conditions (e.g. focal segmental glomerulosclerosis, IgA nephropathy) but requires specific histological features on biopsy; IF/TA as described is the best fit for this non-specific chronic picture.",
+      "Chronic allograft nephropathy/IF/TA is correct — insidious decline, proteinuria, hypertension, and interstitial fibrosis on biopsy years after transplant are the hallmarks.",
+      "Post-transplant lymphoproliferative disorder presents with systemic symptoms (fever, lymphadenopathy, mass lesions) and elevated LDH, not with isolated proteinuria and fibrosis on biopsy."
+    ],
+    "clinicalPearl": "Chronic allograft nephropathy (IF/TA) is the commonest cause of late graft loss; it is multifactorial (immune, CNI toxicity, hypertension) and largely irreversible once established."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Immunosuppression complications — infection",
+    "question": "A 42-year-old renal transplant recipient (3 months post-transplant) on tacrolimus, mycophenolate mofetil, and prednisolone presents with 2 weeks of progressive dry cough, exertional dyspnoea, and low-grade fever. Chest X-ray shows bilateral perihilar infiltrates. Oxygen saturation is 91% on air. CD4 count is 320 cells/µL. BAL shows cysts with methenamine silver stain. What is the most appropriate treatment?",
+    "options": [
+      "IV piperacillin-tazobactam for hospital-acquired pneumonia",
+      "High-dose oral co-trimoxazole (trimethoprim-sulfamethoxazole)",
+      "IV ganciclovir for CMV pneumonitis",
+      "Oral itraconazole for pulmonary aspergillosis",
+      "Reduction of all immunosuppression and supportive oxygen therapy alone"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The clinical picture — subacute dry cough, bilateral perihilar infiltrates, hypoxia, and methenamine silver-positive cysts on BAL — is diagnostic of Pneumocystis jirovecii pneumonia (PCP). This is a classic opportunistic infection in the 1-6 month period post-transplant. Treatment of choice is high-dose co-trimoxazole (TMP-SMX); IV can be used in severe disease. Adjunctive corticosteroids are added if PaO2 < 70 mmHg. After treatment, prophylactic co-trimoxazole is continued.",
+    "wrongAnswerExplanations": [
+      "Piperacillin-tazobactam covers bacterial pathogens but has no activity against Pneumocystis; the subacute course, bilateral perihilar pattern, and BAL findings exclude a typical bacterial pneumonia.",
+      "High-dose co-trimoxazole is the correct treatment for PCP — it inhibits folate synthesis in Pneumocystis and is the standard first-line agent.",
+      "Ganciclovir is used for CMV disease; CMV pneumonitis can cause bilateral infiltrates but BAL cytology typically shows owl-eye inclusions, not silver-staining cysts.",
+      "Itraconazole is used for Aspergillus or endemic fungal infections; Aspergillus typically causes nodular or cavitating lesions, not bilateral perihilar infiltrates with the described BAL finding.",
+      "Reducing immunosuppression alone without specific anti-PCP therapy would be insufficient and would likely lead to respiratory failure; targeted treatment is mandatory."
+    ],
+    "clinicalPearl": "PCP prophylaxis with co-trimoxazole is standard practice for all solid organ transplant recipients for at least 6-12 months post-transplant to prevent this potentially fatal opportunistic infection."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Post-transplant malignancy",
+    "question": "A 60-year-old man who received a renal transplant 9 years ago on long-term ciclosporin and azathioprine develops a rapidly enlarging painless cervical lymph node and splenomegaly over 6 weeks. He reports drenching night sweats and unintentional 6 kg weight loss. EBV viral load on PCR is markedly elevated. CT confirms widespread lymphadenopathy. Biopsy shows diffuse large B-cell lymphoma. What is the most appropriate immediate management step?",
+    "options": [
+      "Initiate R-CHOP chemotherapy while continuing current immunosuppression",
+      "Reduce or withdraw immunosuppression and initiate anti-viral therapy",
+      "Perform allogeneic stem cell transplant as first-line treatment",
+      "Switch ciclosporin to tacrolimus and add rituximab monotherapy",
+      "Refer for urgent surgical excision of enlarged lymph nodes"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Post-transplant lymphoproliferative disorder (PTLD) is strongly EBV-associated and driven by immunosuppression-induced failure to control EBV-infected B cells. The first and most critical step is reduction or withdrawal of immunosuppression — this allows reconstitution of T-cell surveillance and can cause tumour regression, particularly in early polymorphic PTLD. Rituximab and chemotherapy (R-CHOP) are reserved for cases that do not respond to immunosuppression reduction.",
+    "wrongAnswerExplanations": [
+      "Initiating R-CHOP while maintaining full immunosuppression would further impair immune surveillance against EBV-driven B-cell proliferation; immunosuppression reduction must come first.",
+      "Reducing or withdrawing immunosuppression is the correct first step in PTLD — EBV-driven PTLD may regress with immune reconstitution; chemotherapy and rituximab are second-line.",
+      "Allogeneic stem cell transplant has no role as first-line PTLD therapy; it would require conditioning chemotherapy on an already immunocompromised patient.",
+      "Simply switching the CNI without reducing overall immunosuppressive burden does not address the underlying PTLD driver; rituximab alone may be considered after immunosuppression reduction fails.",
+      "Surgical excision of lymph nodes is diagnostic (biopsy) but not therapeutic for widespread nodal disease; systemic management of PTLD is required."
+    ],
+    "clinicalPearl": "PTLD is an EBV-driven B-cell proliferation in transplant recipients; reduction of immunosuppression is the cornerstone of initial management and can induce remission without chemotherapy."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Brain death and organ donation",
+    "question": "A 28-year-old man is admitted to the ICU following a severe traumatic brain injury. He is GCS 3, on mechanical ventilation, and has had no neurological improvement for 48 hours. The neurosurgical team believes he has suffered catastrophic irreversible brain injury. Which of the following sets of clinical criteria is required to confirm brainstem death in the UK?",
+    "options": [
+      "Absent EEG activity on two recordings 6 hours apart, confirmed by two consultants",
+      "Absent cortical function on MRI brain plus absent brainstem reflexes confirmed by one consultant",
+      "Two separate examinations confirming absent brainstem reflexes (including absent vestibulo-ocular, corneal, gag, and cough reflexes, fixed dilated pupils, and a positive apnoea test) by two senior doctors",
+      "Absent cerebral blood flow on CT angiography confirmed by one consultant neurologist",
+      "Flat EEG for 30 minutes, absent cortical evoked potentials, and confirmed by one doctor"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "UK law (and the Academy of Medical Royal Colleges code) requires brainstem death to be confirmed by two separate sets of tests performed by two senior doctors (at least one a consultant), each independently examining the patient. Tests include: absent pupillary reflexes, corneal reflexes, vestibulo-ocular reflexes (cold calorics), motor responses in cranial nerve distribution, gag and cough reflexes, and a positive apnoea test (no respiratory effort when PaCO2 rises above 6.65 kPa). EEG is not required.",
+    "wrongAnswerExplanations": [
+      "EEG is not a requirement for brainstem death diagnosis in the UK; the criteria focus entirely on clinical brainstem reflex testing, not cortical electrical activity.",
+      "MRI is not a required or standard component of brainstem death confirmation; clinical brainstem reflex examination is the legal standard and must be performed by two doctors.",
+      "This is the correct answer — two sets of clinical tests by two senior doctors confirming absent brainstem reflexes plus a positive apnoea test constitutes legal brainstem death in the UK.",
+      "CT angiography can support the diagnosis in specific circumstances (e.g. when clinical testing is impossible) but is not the primary requirement; two-doctor clinical brainstem testing is the standard.",
+      "EEG is not required; cortical evoked potentials are ancillary tests not required under the UK code; one doctor is insufficient — two senior doctors must independently confirm."
+    ],
+    "clinicalPearl": "UK brainstem death requires two independent clinical examinations by two senior doctors; preconditions (exclusion of reversible causes, adequate oxygenation, normothermia) must be satisfied before testing begins."
+  },
+  {
+    "system": "Surgical approach for morbid obesity.pdf",
+    "sourceLecture": "Surgical approach for morbid obesity.pdf",
+    "topic": "Bariatric surgery indications",
+    "question": "A 44-year-old woman with a BMI of 38 kg/m² presents to a bariatric surgery clinic. She has type 2 diabetes managed on metformin and insulin, obstructive sleep apnoea requiring CPAP, and hypertension on two agents. She has attempted supervised diet and exercise programmes twice over the past 3 years without achieving sustained weight loss. Which of the following best represents her eligibility for bariatric surgery according to NICE guidelines?",
+    "options": [
+      "She does not qualify because her BMI is below 40 kg/m²",
+      "She qualifies because her BMI is ≥35 kg/m² with significant obesity-related comorbidities and failure of non-surgical weight loss attempts",
+      "She qualifies only if she achieves a 5% weight loss with a very-low-calorie diet pre-operatively",
+      "She qualifies but only for sleeve gastrectomy, not gastric bypass, at this BMI",
+      "She does not qualify because she is not currently in a specialist multidisciplinary obesity programme"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "NICE guidelines (CG189) recommend bariatric surgery for patients with BMI ≥40 kg/m² or BMI 35-39.9 kg/m² with significant obesity-related comorbidities (such as type 2 diabetes, hypertension, or sleep apnoea) when non-surgical interventions have failed to achieve or maintain adequate weight loss. This patient meets the BMI ≥35 threshold with multiple comorbidities and documented failed conservative management.",
+    "wrongAnswerExplanations": [
+      "BMI ≥35 with significant comorbidities qualifies for bariatric surgery under NICE guidelines; the 40 kg/m² threshold is for patients without significant comorbidities.",
+      "This is the correct answer — BMI ≥35 with significant comorbidities (T2DM, OSA, hypertension) and documented failure of non-surgical management meets NICE eligibility criteria.",
+      "Pre-operative very-low-calorie diet is often recommended to reduce liver size and improve surgical safety, but it is not a prerequisite for eligibility determination under NICE criteria.",
+      "NICE does not restrict specific procedure type based on BMI alone in this range; the choice between sleeve and bypass depends on individual factors, comorbidities, and patient preference discussed with the MDT.",
+      "Patients should be assessed within a specialist MDT, but the absence of current enrolment does not disqualify them; prior documented attempts at non-surgical management are sufficient."
+    ],
+    "clinicalPearl": "NICE recommends bariatric surgery for BMI ≥40 kg/m², or ≥35 kg/m² with significant comorbidities, after failure of non-surgical weight management — type 2 diabetes, hypertension, and OSA are recognised qualifying comorbidities."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Surgical approach for morbid obesity.pdf",
+    "topic": "Sleeve gastrectomy vs Roux-en-Y gastric bypass",
+    "question": "A 50-year-old man with a BMI of 46 kg/m², type 2 diabetes (HbA1c 78 mmol/mol on three agents), and severe gastro-oesophageal reflux disease requiring twice-daily PPI is being assessed for bariatric surgery. He has no previous abdominal surgery. The MDT is discussing the choice of procedure. Which statement best guides the choice between sleeve gastrectomy and Roux-en-Y gastric bypass in this patient?",
+    "options": [
+      "Sleeve gastrectomy is preferred because it avoids malabsorption and therefore nutritional supplementation is not required",
+      "Roux-en-Y gastric bypass is preferred because it improves GORD and achieves superior long-term glycaemic control compared to sleeve gastrectomy",
+      "Sleeve gastrectomy is preferred in all patients with BMI > 45 kg/m² due to lower operative risk",
+      "Roux-en-Y gastric bypass is contraindicated in patients with pre-existing GORD",
+      "Both procedures are equally effective for GORD; the choice should be based on BMI alone"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Roux-en-Y gastric bypass (RYGB) is preferred in this patient for two reasons: first, it reliably reduces GORD by diverting bile away from the oesophagus and reducing acid production (whereas sleeve gastrectomy can worsen GORD due to increased intragastric pressure); second, RYGB achieves superior and more durable type 2 diabetes remission compared to sleeve gastrectomy, mediated by foregut and hindgut hormonal changes (reduced GIP, increased GLP-1 and PYY).",
+    "wrongAnswerExplanations": [
+      "Sleeve gastrectomy is a purely restrictive procedure with minimal malabsorption, but all bariatric surgery patients require lifelong nutritional supplementation; furthermore, sleeve worsens GORD making it a poor choice here.",
+      "This is the correct answer — RYGB is the preferred procedure when GORD is significant and when superior long-term T2DM remission is a priority, both of which apply to this patient.",
+      "There is no absolute BMI threshold at which sleeve is universally preferred; procedure selection is individualised; BMI alone does not determine the choice between sleeve and bypass.",
+      "GORD is actually an indication for RYGB, not a contraindication — bypass improves or resolves GORD by eliminating bile reflux into the excluded stomach and oesophagus.",
+      "The two procedures are not equally effective for GORD — sleeve gastrectomy frequently worsens GORD, while RYGB typically resolves it; this distinction is clinically important in procedure selection."
+    ],
+    "clinicalPearl": "In bariatric patients with significant GORD or type 2 diabetes, Roux-en-Y gastric bypass is preferred over sleeve gastrectomy — sleeve can worsen GORD, while bypass reliably resolves it and achieves higher T2DM remission rates."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Surgical approach for morbid obesity.pdf",
+    "topic": "Bariatric surgery complications — anastomotic leak",
+    "question": "A 48-year-old woman undergoes laparoscopic Roux-en-Y gastric bypass. On post-operative day 3 she develops tachycardia (heart rate 118 bpm), fever (38.7°C), and left shoulder tip pain. She reports worsening epigastric discomfort but her abdomen is not peritonitic. Drain output has changed from serosanguinous to bile-stained. What is the most appropriate next step in management?",
+    "options": [
+      "Reassure the patient and prescribe analgesia as the shoulder tip pain is likely diaphragmatic referred pain from a pneumoperitoneum",
+      "Request urgent upper GI contrast study (water-soluble contrast swallow) and plan for urgent return to theatre",
+      "Commence oral broad-spectrum antibiotics and review in 48 hours",
+      "Arrange CT chest to exclude pulmonary embolism as the cause of tachycardia",
+      "Increase PPI dose and advise liquid diet, as symptoms suggest anastomotic oedema"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The clinical picture — tachycardia, fever, left shoulder tip pain (diaphragmatic irritation from intraperitoneal leak), and bile-stained drain output on post-operative day 3 — is highly suggestive of an anastomotic leak. This is a life-threatening complication requiring urgent investigation with a water-soluble contrast study or CT with oral contrast, followed by urgent surgical or radiological intervention. Delayed diagnosis significantly worsens mortality.",
+    "wrongAnswerExplanations": [
+      "While shoulder tip pain can occur from residual pneumoperitoneum, the combination with tachycardia, fever, and bile-stained drain output on day 3 is highly suspicious for anastomotic leak and must not be attributed to benign causes.",
+      "This is the correct answer — bile-stained drain with systemic signs of sepsis after RYGB should be investigated urgently with contrast imaging, and operative intervention (washout ± repair) planned promptly.",
+      "Oral antibiotics alone are wholly insufficient for a probable anastomotic leak with systemic sepsis; IV antibiotics may be part of supportive care but definitive investigation and intervention are required.",
+      "PE must always be considered post-bariatric surgery, but bile-stained drain output is not explained by PE; a contrast study to assess for leak takes diagnostic priority given this specific finding.",
+      "Anastomotic oedema does not produce bile-stained drain output or systemic sepsis; conservative management here would dangerously delay treatment of a probable anastomotic leak."
+    ],
+    "clinicalPearl": "Post-bariatric surgery tachycardia is an anastomotic leak until proven otherwise — bile-stained drain output with systemic sepsis demands urgent contrast imaging and surgical review; 'tachycardia = leak' is the cardinal teaching point."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Surgical approach for morbid obesity.pdf",
+    "topic": "Nutritional deficiency after bariatric surgery",
+    "question": "A 36-year-old woman presents 18 months after Roux-en-Y gastric bypass with fatigue, tingling in her hands and feet, and difficulty walking. Examination reveals absent ankle jerks, reduced vibration sense to the knee, and a positive Romberg sign. Blood tests show: Hb 9.8 g/dL (MCV 108 fL), serum B12 48 pmol/L (normal >150), folate normal. She admits taking her multivitamin irregularly. What is the most likely diagnosis and the best initial treatment?",
+    "options": [
+      "Iron deficiency anaemia; start oral ferrous sulphate",
+      "Thiamine (B1) deficiency causing Wernicke's encephalopathy; give IV thiamine urgently",
+      "Vitamin B12 deficiency causing subacute combined degeneration of the spinal cord; give intramuscular hydroxocobalamin",
+      "Calcium and vitamin D deficiency causing peripheral neuropathy; give IV calcium gluconate",
+      "Folate deficiency megaloblastic anaemia; start oral folic acid supplementation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "After RYGB, the proximal small intestine (duodenum and proximal jejunum — the primary site of B12 absorption via intrinsic factor) is bypassed, predisposing to B12 deficiency. The clinical features — macrocytic anaemia, peripheral neuropathy with posterior column signs (absent ankle jerks, impaired vibration, positive Romberg) — are classic for subacute combined degeneration of the spinal cord (SACD) due to B12 deficiency. Treatment is intramuscular hydroxocobalamin, which bypasses the absorptive defect.",
+    "wrongAnswerExplanations": [
+      "Iron deficiency causes microcytic anaemia and fatigue but does not explain the macrocytosis, absent reflexes, posterior column signs, or the low B12 level.",
+      "Thiamine deficiency causes Wernicke's encephalopathy (ophthalomoplegia, ataxia, confusion) and Korsakoff's syndrome; the posterior column signs, macrocytic anaemia, and low B12 point specifically to B12 deficiency, not thiamine.",
+      "This is the correct answer — low B12, macrocytic anaemia, and posterior column signs (SACD) following RYGB is a classic presentation; IM hydroxocobalamin bypasses the absorptive defect in the bypassed proximal small bowel.",
+      "Calcium and vitamin D deficiency cause hypocalcaemia (cramps, tetany, perioral paraesthesia) and osteomalacia; they do not cause macrocytic anaemia or the specific neurological picture described.",
+      "Folate is normal in this patient; folate deficiency causes macrocytic anaemia but does not cause posterior column signs or peripheral neuropathy."
+    ],
+    "clinicalPearl": "After RYGB, the bypassed duodenum and proximal jejunum impair B12 absorption — posterior column signs (SACD) + macrocytic anaemia in a bariatric patient = B12 deficiency until proven otherwise; IM B12 is required."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Surgical approach for morbid obesity.pdf",
+    "topic": "Dumping syndrome after bariatric surgery",
+    "question": "A 42-year-old man who had a Roux-en-Y gastric bypass 8 months ago reports episodes of palpitations, sweating, nausea, and abdominal cramps occurring approximately 15 minutes after eating a meal containing refined carbohydrates. Symptoms resolve within an hour. He has not had any symptoms in the early post-operative period. Blood glucose monitoring during an episode shows a value of 3.0 mmol/L. What is the most likely diagnosis and recommended initial management?",
+    "options": [
+      "Early dumping syndrome; advise small frequent meals, avoid simple carbohydrates, and separate fluids from solids",
+      "Reactive hypoglycaemia (late dumping syndrome); advise low glycaemic index diet and small frequent meals",
+      "Anastomotic stricture causing post-prandial obstruction; refer for upper GI endoscopy",
+      "Hypoadrenalism from surgical stress; arrange 9 am cortisol measurement",
+      "Insulinoma; arrange fasting serum insulin and C-peptide levels"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is late dumping syndrome (reactive hypoglycaemia), occurring 1-3 hours after carbohydrate-rich meals. Rapid delivery of simple sugars to the small intestine triggers an exaggerated GLP-1 and insulin response, causing postprandial hypoglycaemia. Key features distinguishing it from early dumping: onset 1-3 hours post-meal (not 15-30 minutes), demonstrable hypoglycaemia, and relief with sugar intake. Management is a low-GI diet with small frequent meals; octreotide or acarbose may be used in refractory cases.",
+    "wrongAnswerExplanations": [
+      "Early dumping occurs 15-30 minutes after eating due to rapid osmotic fluid shifts into the bowel; it causes bloating, diarrhoea, and vasomotor symptoms but glucose is typically normal or elevated, not low at 3.0 mmol/L.",
+      "This is the correct answer — onset 15-60 minutes after refined carbohydrates with documented hypoglycaemia is late dumping (reactive hypoglycaemia); dietary modification (low-GI, small frequent meals) is first-line.",
+      "Anastomotic stricture causes dysphagia, regurgitation, and poor weight loss, not episodic hypoglycaemia with palpitations 15 minutes after eating refined carbohydrates.",
+      "Hypoadrenalism causes fatigue, orthostatic hypotension, and electrolyte disturbances; it does not cause episodic postprandial hypoglycaemia specifically related to carbohydrate intake.",
+      "Insulinoma should be considered in persistent unexplained hypoglycaemia, but in the context of recent RYGB with symptoms triggered by refined carbohydrate ingestion, post-bariatric reactive hypoglycaemia is far more likely."
+    ],
+    "clinicalPearl": "Late dumping = postprandial reactive hypoglycaemia 1-3 hours after refined carbohydrates due to exaggerated insulin response post-RYGB; a low-glycaemic index diet with small frequent meals is the cornerstone of management."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Solid Organ Ttransplantation.pdf",
+    "topic": "Immunosuppression complications — calcineurin inhibitor toxicity",
+    "question": "A 52-year-old man who received a renal transplant 2 years ago is on tacrolimus (trough level 12 ng/mL; target 6-10 ng/mL), mycophenolate mofetil, and prednisolone. He presents with a creatinine rise from 145 to 215 µmol/L over 4 weeks, tremor, headache, and new-onset hypertension. Urine dipstick shows no proteinuria. Renal biopsy shows striped interstitial fibrosis and arteriolar hyalinosis. What is the most likely diagnosis?",
+    "options": [
+      "Acute antibody-mediated rejection requiring plasmapheresis",
+      "Tacrolimus (calcineurin inhibitor) nephrotoxicity",
+      "BK virus nephropathy requiring reduction of immunosuppression",
+      "Recurrent IgA nephropathy in the transplant",
+      "New-onset hypertensive nephrosclerosis from inadequate blood pressure control"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The supratherapeutic tacrolimus trough level (12 ng/mL against a target of 6-10 ng/mL), combined with rising creatinine, tremor, headache, hypertension, absence of proteinuria, and the characteristic biopsy findings of striped interstitial fibrosis and arteriolar hyalinosis are pathognomonic of calcineurin inhibitor (CNI) nephrotoxicity. Management involves reducing the tacrolimus dose and monitoring renal function.",
+    "wrongAnswerExplanations": [
+      "Acute antibody-mediated rejection shows peritubular capillaritis and C4d deposition on biopsy; supratherapeutic CNI levels with neurotoxicity (tremor, headache) point away from rejection.",
+      "This is the correct answer — supratherapeutic tacrolimus with striped fibrosis and arteriolar hyalinosis on biopsy is classic CNI nephrotoxicity; dose reduction is the treatment.",
+      "BK nephropathy shows characteristic decoy cells in urine and intranuclear inclusions on biopsy; the supratherapeutic CNI level and neurotoxic features make BK nephropathy less likely here.",
+      "Recurrent IgA nephropathy would show mesangial IgA deposits on immunofluorescence and does not cause tremor, supratherapeutic drug levels, or arteriolar hyalinosis.",
+      "Hypertensive nephrosclerosis is a diagnosis of exclusion; the supratherapeutic CNI level and characteristic biopsy findings make CNI nephrotoxicity the primary diagnosis rather than a blood pressure–driven process."
+    ],
+    "clinicalPearl": "Tacrolimus nephrotoxicity: supratherapeutic trough levels + rising creatinine + neurotoxicity (tremor, headache) + striped fibrosis/arteriolar hyalinosis on biopsy — reduce the dose; CNI levels must be monitored regularly in all transplant recipients."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Surgical approach for morbid obesity.pdf",
+    "topic": "Bariatric surgery complications — internal hernia",
+    "question": "A 39-year-old woman presents to the emergency department 2 years after laparoscopic Roux-en-Y gastric bypass with sudden-onset severe central abdominal pain, nausea, and vomiting. She reports intermittent similar but milder episodes over the past 3 months that resolved spontaneously. On examination, she is tachycardic (HR 102 bpm) and has central abdominal tenderness without guarding. CT abdomen demonstrates 'swirling' of mesenteric vessels and dilated small bowel loops. What is the most likely diagnosis and appropriate management?",
+    "options": [
+      "Marginal ulcer at the gastrojejunal anastomosis; commence high-dose PPI and refer for endoscopy",
+      "Internal hernia through a mesenteric defect; urgent surgical exploration and hernia repair",
+      "Adhesional small bowel obstruction; trial of conservative management with NG tube decompression",
+      "Intussusception of the Roux limb; proceed to urgent CT angiography",
+      "Anastomotic stricture of the gastrojejunostomy; arrange urgent upper GI endoscopy and balloon dilation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Internal hernia is a well-recognised complication of RYGB, occurring in 2-5% of patients. Mesenteric defects (Peterson's space and the jejunojejunostomy mesenteric defect) are created during the procedure. Intermittent colicky pain that spontaneously resolves followed by a presentation with acute small bowel obstruction and CT findings of mesenteric 'swirling' (whirl sign) and dilated bowel is the classic presentation. This requires urgent laparoscopic or open surgical exploration and closure of the defect, as strangulation and bowel necrosis can develop rapidly.",
+    "wrongAnswerExplanations": [
+      "Marginal ulcer causes epigastric pain, haematemesis, or dysphagia; it does not cause acute small bowel obstruction or CT mesenteric swirling signs.",
+      "This is the correct answer — CT whirl sign (mesenteric swirling) + intermittent prior episodes + history of RYGB = internal hernia; urgent surgical exploration is mandatory to prevent bowel strangulation.",
+      "Adhesional obstruction is much less common after laparoscopic surgery; the prior intermittent symptoms and CT whirl sign strongly favour internal hernia over adhesional obstruction, and conservative management risks strangulation.",
+      "Retrograde intussusception can occur after RYGB but is less common than internal hernia; the mesenteric swirling sign is more typical of internal hernia, and CT angiography is not the appropriate next step — surgical exploration is.",
+      "Anastomotic stricture causes dysphagia, vomiting of solid food, and poor weight loss from early post-operative period; it does not present with mesenteric swirling on CT or acute small bowel obstruction."
+    ],
+    "clinicalPearl": "Internal hernia after RYGB: intermittent colicky pain + CT 'whirl sign' of mesenteric swirling = surgical emergency — urgent exploration and closure of mesenteric defects is mandatory to prevent bowel strangulation."
+  }
+]

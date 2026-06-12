@@ -1,0 +1,301 @@
+[
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "ASA classification",
+    "question": "A 58-year-old man is scheduled for elective right inguinal hernia repair. He has well-controlled type 2 diabetes (HbA1c 47 mmol/mol), takes metformin and a statin, and has a BMI of 28 kg/m². He walks 2 miles daily without symptoms, is a non-smoker, and his ECG is normal. What is his ASA physical status classification?",
+    "options": [
+      "ASA I",
+      "ASA II",
+      "ASA III",
+      "ASA IV",
+      "ASA V"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "ASA II applies to patients with mild systemic disease that does not limit activity and poses no significant functional impairment. Well-controlled type 2 diabetes (HbA1c <53 mmol/mol) without end-organ damage and a BMI of 28 falls squarely in this category. ASA III would require substantive functional limitation or poorly controlled systemic disease.",
+    "wrongAnswerExplanations": [
+      "ASA I is reserved for completely healthy patients with no systemic disease; this patient has type 2 diabetes, excluding ASA I.",
+      "ASA II is correct — well-controlled diabetes with no functional limitation and no end-organ damage constitutes mild systemic disease.",
+      "ASA III requires substantive functional limitation or poorly controlled systemic disease; this patient's diabetes is well controlled and he exercises without symptoms.",
+      "ASA IV is for severe systemic disease that is a constant threat to life; this patient does not meet that threshold.",
+      "ASA V indicates a moribund patient not expected to survive without surgery; entirely inappropriate here."
+    ],
+    "clinicalPearl": "ASA II covers mild, well-controlled systemic disease (e.g. diet- or medication-controlled DM2 with HbA1c <53, BMI 25–30, mild hypertension) without functional limitation."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Cardiac risk — revised cardiac risk index",
+    "question": "A 72-year-old woman is listed for elective sigmoid colectomy for diverticular disease. Her past medical history includes stable angina (CCS class II), insulin-dependent type 2 diabetes, a previous MI 3 years ago, and chronic kidney disease (creatinine 165 µmol/L). She lives on the first floor and avoids stairs due to breathlessness. How many Revised Cardiac Risk Index (RCRI) points does she accrue, and what is the implication?",
+    "options": [
+      "1 point — low risk, proceed without further cardiac investigation",
+      "2 points — intermediate risk, consider preoperative stress testing",
+      "3 points — intermediate-high risk; cardiology review and optimisation recommended before major intra-abdominal surgery",
+      "4 points — high risk; surgery should be cancelled",
+      "5 points — prohibitive risk; palliative management only"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The RCRI assigns 1 point each for: high-risk surgery (intra-abdominal), ischaemic heart disease (prior MI/angina), congestive heart failure, cerebrovascular disease, insulin-dependent diabetes, and pre-operative creatinine >177 µmol/L. This patient scores: high-risk surgery (1) + ischaemic heart disease (1) + insulin-dependent diabetes (1) = 3 points, conferring approximately 5–11% risk of major adverse cardiac events (MACE). Cardiology review and optimisation is appropriate before proceeding.",
+    "wrongAnswerExplanations": [
+      "1 point would suggest <1% MACE risk; this patient scores 3 points from ischaemic heart disease, insulin-dependent diabetes, and high-risk surgery.",
+      "2 points implies ~2% MACE risk; functional limitation and multiple risk factors here yield 3 RCRI points.",
+      "3 points is correct — ischaemic heart disease, insulin-dependent diabetes, and high-risk intra-abdominal surgery each contribute 1 point, giving an intermediate-high MACE risk warranting cardiology input.",
+      "Creatinine of 165 µmol/L does not reach the RCRI threshold of >177 µmol/L, so CKD does not score here; total remains 3, not 4.",
+      "5 points is not achievable with the risk factors described and would not automatically mandate palliative management."
+    ],
+    "clinicalPearl": "The RCRI has 6 variables; each scores 1 point. A score ≥3 carries ~5–11% risk of MACE perioperatively and warrants cardiology review before high-risk elective surgery."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Functional capacity assessment",
+    "question": "A 65-year-old man awaiting elective abdominal aortic aneurysm repair reports he can walk on the flat indefinitely but becomes breathless climbing one flight of stairs and is unable to do heavy housework. He denies chest pain. His resting ECG shows left bundle branch block. What is his estimated functional capacity and what does this imply for preoperative assessment?",
+    "options": [
+      "≥10 METs — excellent functional capacity; no further cardiac testing required",
+      "4–10 METs — moderate functional capacity; proceed with surgery without further testing",
+      "<4 METs — poor functional capacity; further cardiac investigation (e.g. stress echocardiography) should be considered before high-risk surgery",
+      "Functional capacity cannot be estimated clinically; cardiopulmonary exercise testing (CPET) is mandatory",
+      "LBBB on ECG automatically categorises the patient as ASA IV; surgery must be postponed"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "One MET equals resting oxygen consumption. Climbing one flight of stairs represents approximately 4 METs; inability to do so suggests functional capacity <4 METs. In a patient with poor functional capacity (< 4 METs) scheduled for high-risk vascular surgery, guidelines recommend considering further non-invasive stress testing (e.g. dobutamine stress echo or CPET) to stratify cardiac risk before proceeding. The LBBB warrants cardiology awareness but does not by itself mandate cancellation.",
+    "wrongAnswerExplanations": [
+      "≥10 METs requires vigorous activity such as running or heavy sport; this patient cannot climb one flight of stairs, making ≥10 METs impossible.",
+      "4–10 METs would require climbing stairs comfortably and doing moderate activity; this patient specifically cannot climb one flight, placing him below 4 METs.",
+      "Less than 4 METs is correct — inability to climb one flight of stairs (a ~4 MET task) indicates poor functional capacity, and further cardiac testing is warranted before major vascular surgery.",
+      "Clinical estimation of METs is validated and widely used; CPET is valuable but is not automatically mandatory in all patients with poor clinical functional capacity.",
+      "LBBB alone does not define ASA class; ASA classification depends on the overall clinical picture, not a single ECG finding."
+    ],
+    "clinicalPearl": "Climbing one flight of stairs ≈ 4 METs. Patients unable to achieve 4 METs before high-risk surgery have poor functional capacity and merit further cardiac risk stratification."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Anticoagulant management — warfarin bridging",
+    "question": "A 70-year-old woman with mechanical mitral valve replacement is anticoagulated with warfarin (INR target 2.5–3.5). She is scheduled for elective laparoscopic cholecystectomy in 5 days. Her current INR is 3.1. What is the most appropriate perioperative anticoagulation strategy?",
+    "options": [
+      "Continue warfarin at the current dose; the procedure can be performed at INR 3.1",
+      "Stop warfarin 5 days pre-operatively and bridge with therapeutic low-molecular-weight heparin (LMWH) until surgery, resuming warfarin postoperatively",
+      "Stop warfarin 2 days pre-operatively; no bridging is needed given low thromboembolic risk",
+      "Switch permanently to a direct oral anticoagulant (DOAC) perioperatively",
+      "Administer 10 mg oral vitamin K immediately and proceed with surgery in 24 hours"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Mechanical mitral valve replacement carries high thrombotic risk (risk of valve thrombosis or systemic embolism). For high-thrombotic-risk patients, bridging therapy with therapeutic LMWH is recommended when warfarin is stopped preoperatively. Warfarin is discontinued 5 days before surgery to allow the INR to fall to safe operative levels (<1.5), and therapeutic LMWH is substituted until 24 hours before surgery, then resumed postoperatively alongside warfarin.",
+    "wrongAnswerExplanations": [
+      "Proceeding with INR 3.1 risks major perioperative haemorrhage; most surgical procedures require INR <1.5.",
+      "Stopping warfarin 5 days pre-op and bridging with therapeutic LMWH is correct for high-thrombotic-risk patients such as those with mechanical mitral valves.",
+      "A mechanical mitral valve is high thrombotic risk; omitting bridging therapy exposes the patient to potentially fatal valve thrombosis or stroke.",
+      "DOACs are not recommended for patients with mechanical heart valves due to evidence of increased thromboembolic events compared with warfarin in trials.",
+      "Vitamin K would reverse anticoagulation but takes 24–48 hours to work fully and would make restarting anticoagulation for the mechanical valve more unpredictable; it is reserved for urgent reversal, not elective scheduling."
+    ],
+    "clinicalPearl": "Mechanical mitral valves are high thrombotic risk: bridge with therapeutic LMWH when warfarin is interrupted perioperatively and never omit anticoagulation cover without specialist input."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "DOAC management perioperatively",
+    "question": "A 68-year-old man taking apixaban 5 mg twice daily for non-valvular atrial fibrillation (CHA₂DS₂-VASc score 3) is listed for elective total knee replacement in 5 days. His renal function is normal (eGFR 75 mL/min/1.73m²). What is the most appropriate management of his apixaban?",
+    "options": [
+      "Continue apixaban up to and including the morning of surgery",
+      "Stop apixaban 48 hours (2 days) before surgery; no bridging required; restart 12–24 hours postoperatively when haemostasis is assured",
+      "Switch to warfarin 2 weeks before surgery",
+      "Bridge with therapeutic LMWH after stopping apixaban, as for warfarin",
+      "Stop apixaban 5 days before surgery and admit for intravenous unfractionated heparin bridging"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "For standard DOACs (including apixaban) and normal renal function, the recommended peri-operative hold is 48 hours (2 days) before procedures with intermediate–high bleeding risk such as joint arthroplasty. No bridging with heparin is required because DOACs have rapid onset on restarting. Apixaban is restarted 12–24 hours postoperatively once surgical haemostasis is secured.",
+    "wrongAnswerExplanations": [
+      "Continuing apixaban up to surgery significantly increases intraoperative and postoperative bleeding risk for a major orthopaedic procedure.",
+      "Stopping apixaban 48 hours before surgery with no bridging and restarting 12–24 hours postoperatively is the correct evidence-based strategy for DOACs in patients with normal renal function.",
+      "Switching to warfarin introduces the complexity of INR monitoring and a loading period; current guidelines recommend simply stopping DOACs perioperatively, not converting.",
+      "LMWH bridging is not recommended for DOACs; unlike warfarin, DOACs act rapidly on resumption and bridging confers additional bleeding risk without meaningful thrombotic benefit.",
+      "Five-day hold and IV heparin bridging are strategies for high-risk warfarin patients with mechanical valves, not for DOACs; this is excessive and exposes the patient to unnecessary heparin-related risks."
+    ],
+    "clinicalPearl": "DOACs do not require bridging therapy; simply hold them 48 hours pre-operatively (longer if renal impairment) and restart 12–24 hours post-op once haemostasis is secure."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Perioperative diabetes management",
+    "question": "A 55-year-old woman with type 2 diabetes managed with metformin 1 g twice daily and glipizide 5 mg once daily is scheduled for an elective laparoscopic Nissen fundoplication at 08:00. She is first on the morning list. What is the most appropriate preoperative diabetes medication instruction?",
+    "options": [
+      "Take both metformin and glipizide as usual with a sip of water at 06:00",
+      "Omit glipizide on the morning of surgery; hold metformin on the day of surgery; monitor blood glucose perioperatively",
+      "Admit 24 hours in advance and convert to an insulin infusion regardless of glucose control",
+      "Take only the glipizide at 06:00; omit metformin",
+      "Double the usual glipizide dose the night before to prevent intraoperative hyperglycaemia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Sulphonylureas (glipizide) should be omitted on the day of surgery because fasting patients are at risk of hypoglycaemia if they take sulphonylureas without eating. Metformin is held on the day of surgery (and for 48 hours post-op if iodinated contrast has been or will be used) to reduce the risk of lactic acidosis, particularly given perioperative haemodynamic changes. Blood glucose should be monitored every 1–2 hours perioperatively with a target of 6–10 mmol/L.",
+    "wrongAnswerExplanations": [
+      "Taking glipizide while fasted risks potentially severe hypoglycaemia; this is unsafe and contraindicated.",
+      "Omitting glipizide (hypoglycaemia risk when fasted) and holding metformin (lactic acidosis risk) is the correct approach, combined with blood glucose monitoring.",
+      "Converting all type 2 diabetics to insulin infusion preoperatively is not standard practice and is reserved for poorly controlled patients (HbA1c >69 mmol/mol) or those on insulin already.",
+      "Omitting metformin while continuing glipizide is the wrong combination; glipizide is the greater immediate risk (hypoglycaemia) and must be withheld.",
+      "Doubling sulphonylurea dose in a fasted patient would cause dangerous hypoglycaemia and is absolutely contraindicated."
+    ],
+    "clinicalPearl": "Omit sulphonylureas and SGLT-2 inhibitors on the day of surgery (hypoglycaemia/euglycaemic DKA risk); hold metformin on the day of surgery and for 48 hours post-op if contrast is used."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Preoperative fasting guidelines",
+    "question": "A 42-year-old man is scheduled for an elective right hemicolectomy under general anaesthesia. He asks the ward nurse what he is allowed to eat and drink before surgery, which is planned for 13:00. He is otherwise healthy (ASA I). Which of the following fasting instructions is most consistent with current evidence-based guidelines?",
+    "options": [
+      "Nil by mouth from midnight the night before surgery",
+      "Solids permitted until 06:00; clear fluids including water permitted until 11:00 (2 hours before anaesthesia)",
+      "Clear fluids until midnight; solid food until 06:00",
+      "Solids permitted until 09:00; only clear water permitted until 11:00",
+      "A light breakfast (e.g. toast) may be taken up to 4 hours before surgery"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Current AAGBI/ERAS guidelines recommend: no solid food for 6 hours before induction, but clear fluids (water, black tea or coffee without milk, clear juice without pulp) up to 2 hours before induction. For a 13:00 surgery, solids should stop by 07:00 and clear fluids can continue until 11:00. Prolonged fasting from midnight is outdated, increases patient discomfort, and worsens insulin resistance.",
+    "wrongAnswerExplanations": [
+      "Nil by mouth from midnight is the outdated practice; modern guidelines allow clear fluids up to 2 hours preoperatively and solids up to 6 hours, reducing insulin resistance and patient discomfort.",
+      "Solids until 06:00 (≥6 hours before a 13:00 case) and clear fluids until 11:00 (2 hours before) is the correct application of current fasting guidelines.",
+      "This reverses the correct order — solids must be stopped 6 hours before, not fluids; clear fluids are safe up to 2 hours preoperatively.",
+      "Solids at 09:00 would be only 4 hours before a 13:00 case, which is insufficient to allow gastric emptying of solids; 6 hours is required for solids.",
+      "A light breakfast 4 hours before surgery does not satisfy the 6-hour solid food fast requirement and risks aspiration."
+    ],
+    "clinicalPearl": "2-6 rule: clear fluids up to 2 hours before anaesthesia; solids (and milky drinks) must stop 6 hours before. Prolonged fasting from midnight is obsolete and harmful."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "VTE prophylaxis — risk stratification",
+    "question": "A 64-year-old obese woman (BMI 38 kg/m²) with a history of unprovoked DVT 2 years ago (not currently anticoagulated) is admitted for an elective total hip replacement. She is ambulatory but slow. Using the Caprini or equivalent surgical VTE risk scoring, what is her VTE risk category and what prophylaxis is most appropriate?",
+    "options": [
+      "Low risk — TED stockings alone are sufficient",
+      "Moderate risk — intermittent pneumatic compression devices alone are sufficient",
+      "High risk — pharmacological prophylaxis with LMWH plus mechanical prophylaxis (TED stockings and/or IPC) is indicated",
+      "Very high risk — therapeutic dose anticoagulation is required perioperatively",
+      "Risk cannot be assessed without a thrombophilia screen result"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has multiple VTE risk factors: major orthopaedic surgery (highest-risk surgical category), obesity (BMI ≥35), age >60, and a prior unprovoked DVT. Major orthopaedic surgery alone mandates combined pharmacological (LMWH) and mechanical (IPC ± TED stockings) VTE prophylaxis. The additional risk factors further reinforce this. LMWH is started postoperatively once surgical haemostasis is confirmed and continued for 28–35 days following hip arthroplasty per NICE guidelines.",
+    "wrongAnswerExplanations": [
+      "TED stockings alone provide insufficient prophylaxis for high-risk surgical patients; pharmacological agents are required for major orthopaedic procedures.",
+      "IPC devices alone are inadequate for this risk level; pharmacological prophylaxis is the cornerstone of VTE prevention in major orthopaedic surgery.",
+      "Combined LMWH and mechanical prophylaxis is the correct answer — major orthopaedic surgery with prior DVT and obesity constitutes high VTE risk mandating dual prophylaxis.",
+      "Therapeutic anticoagulation is reserved for patients with active thrombosis or very high individual thrombophilias; prophylactic dosing is appropriate here.",
+      "Thrombophilia screening is not required to initiate standard VTE prophylaxis; clinical risk factors are sufficient to guide management."
+    ],
+    "clinicalPearl": "Total hip and knee replacement carry the highest surgical VTE risk; NICE mandates LMWH plus mechanical prophylaxis for 28–35 days post hip and 14 days post knee arthroplasty."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Respiratory risk — COPD and anaesthetic risk",
+    "question": "A 70-year-old man with COPD (FEV₁ 48% predicted, FEV₁/FVC 0.58) is scheduled for elective left lower lobectomy for lung cancer. He is an ex-smoker who quit 6 months ago. Resting SpO₂ is 93% on air. His predicted postoperative FEV₁ (ppoFEV₁) is calculated at 38% predicted. Which statement best describes the implications for surgical risk and fitness?",
+    "options": [
+      "ppoFEV₁ >40% predicted — the patient is fit for lobectomy without further assessment",
+      "ppoFEV₁ 30–40% predicted — intermediate risk; cardiopulmonary exercise testing (CPET) should be performed to assess VO₂ max before proceeding",
+      "ppoFEV₁ <40% predicted — the patient is inoperable and should receive radiotherapy only",
+      "Smoking cessation less than 8 weeks ago increases respiratory complications; surgery should be delayed a further 6 months",
+      "FEV₁/FVC ratio below 0.7 is an absolute contraindication to thoracic surgery"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Predicted postoperative FEV₁ (ppoFEV₁) <40% identifies patients at increased risk following lung resection. For ppoFEV₁ 30–40% (as in this case), BTS/ERS guidelines recommend CPET to calculate VO₂ max. A VO₂ max ≥15 mL/kg/min suggests acceptable risk, while <10 mL/kg/min indicates high operative mortality and alternative therapies should be considered. The patient is not automatically inoperable.",
+    "wrongAnswerExplanations": [
+      "ppoFEV₁ >40% is the threshold below which additional assessment is triggered; this patient's ppoFEV₁ of 38% falls below this threshold.",
+      "ppoFEV₁ 30–40% triggering CPET to determine VO₂ max before proceeding is the correct management pathway per BTS guidelines.",
+      "ppoFEV₁ <40% does not automatically render the patient inoperable; CPET with VO₂ max measurement is needed to determine operability.",
+      "Smoking cessation increases mucus production transiently in the first 4–8 weeks; however, the benefits of quitting 6 months ago (improved mucociliary clearance, reduced infection risk) outweigh this concern, and further delay is not indicated.",
+      "Obstructive spirometry (FEV₁/FVC <0.7) is common in thoracic surgical patients; it is a risk factor to quantify but not an absolute contraindication."
+    ],
+    "clinicalPearl": "Use the three-legged stool for thoracic surgical fitness: spirometry (ppoFEV₁), gas transfer (ppoDLCO), and exercise capacity (CPET VO₂ max). ppoFEV₁ <40% mandates CPET."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Consent for surgery",
+    "question": "A 45-year-old Jehovah's Witness with capacity is listed for an elective laparoscopic right hemicolectomy for colorectal cancer. She clearly states she refuses blood transfusion under any circumstances and signs a specific advance decision to refuse treatment (ADRT) pre-operatively. Intraoperatively, she haemorrhages 2.5 litres and becomes haemodynamically unstable. The surgical team cannot achieve haemostasis with diathermy alone. What is the most legally and ethically appropriate action?",
+    "options": [
+      "Transfuse red blood cells without consent, as the duty of care overrides the refusal",
+      "Immediately apply for an emergency court order to authorise transfusion",
+      "Respect the valid ADRT and continue with all blood-conservation techniques (cell salvage, tranexamic acid, haemostatic agents) but do not transfuse allogeneic blood",
+      "Contact the next of kin to obtain consent for transfusion",
+      "Administer platelets and FFP but not packed red cells, as only red cell refusal was specified"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A valid ADRT (advance decision to refuse treatment) made by a capacitous adult is legally binding under the Mental Capacity Act 2005 in England and Wales. The patient's specific, informed, contemporaneous refusal of blood transfusion must be respected even if her life is at risk. The appropriate response is to maximise all non-blood strategies: cell salvage, tranexamic acid, haemostatic agents, permissive hypotension, and surgical technique, but not to administer allogeneic blood products.",
+    "wrongAnswerExplanations": [
+      "Transfusing against a valid ADRT constitutes battery in law; the duty of care does not override a capacitous refusal — doing so could expose the surgeon to criminal and civil liability.",
+      "An emergency court order is not required when a valid ADRT already exists; the ADRT is itself the legal authority directing treatment refusal.",
+      "Respecting the valid ADRT and using all blood-conservation techniques without transfusing allogeneic blood is the correct legal and ethical approach.",
+      "Next of kin cannot consent or refuse on behalf of a capacitous adult; the patient's own ADRT is the governing document.",
+      "A Jehovah's Witness ADRT typically covers all blood products including components; administering FFP or platelets would still breach the patient's documented wishes."
+    ],
+    "clinicalPearl": "A valid ADRT from a capacitous adult refusing blood is legally binding under the MCA 2005; maximise cell salvage, tranexamic acid, and surgical haemostasis, but never transfuse against it."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "ASA classification — emergency modifier",
+    "question": "An 82-year-old man with severe aortic stenosis (valve area 0.7 cm², mean gradient 52 mmHg), chronic heart failure (EF 30%), and NYHA class III symptoms presents with a perforated duodenal ulcer requiring emergency laparotomy. He is haemodynamically compromised (BP 85/60 mmHg, HR 110 bpm). What is his correct ASA classification?",
+    "options": [
+      "ASA III",
+      "ASA IV",
+      "ASA IVE",
+      "ASA VE",
+      "ASA VI"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "ASA V denotes a moribund patient not expected to survive without surgery; the 'E' suffix indicates emergency surgery. This patient has decompensated severe aortic stenosis with heart failure (EF 30%), haemodynamic compromise, and a life-threatening surgical emergency. He meets the criteria for ASA VE. ASA IV would apply to a severe systemic disease that is a constant threat to life without the moribund/shock component.",
+    "wrongAnswerExplanations": [
+      "ASA III covers substantive systemic disease with functional limitation but not immediately life-threatening disease; this patient's decompensated cardiac disease and haemodynamic shock exceed this.",
+      "ASA IV applies to severe disease that is a constant threat to life; while this patient has severe cardiac disease, the addition of haemodynamic shock and moribund status elevates him to ASA V.",
+      "ASA IVE would be appropriate for a haemodynamically stable patient with severe systemic disease undergoing emergency surgery; this patient is haemodynamically compromised and moribund.",
+      "ASA VE is correct — moribund patient (haemodynamic compromise, decompensated heart failure, severe AS) who requires emergency surgery to survive; the E suffix denotes emergency.",
+      "ASA VI is reserved for brain-dead organ donors; it is not applicable to patients undergoing emergency therapeutic surgery."
+    ],
+    "clinicalPearl": "Add 'E' to any ASA class for emergency surgery (e.g. ASA IIIE, IVE, VE). ASA V = moribund, not expected to survive without surgery — haemodynamic shock in a patient with decompensated severe cardiac disease qualifies."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "Antiplatelet management — aspirin and clopidogrel",
+    "question": "A 66-year-old man who had a drug-eluting coronary stent (DES) inserted 5 months ago for an NSTEMI is on dual antiplatelet therapy (aspirin 75 mg + clopidogrel 75 mg). He develops symptomatic gallstones and is listed for elective laparoscopic cholecystectomy. What is the most appropriate antiplatelet management strategy?",
+    "options": [
+      "Stop both aspirin and clopidogrel 7 days before surgery; no bridging required",
+      "Continue both aspirin and clopidogrel through surgery",
+      "Defer elective surgery until at least 12 months after DES insertion; if surgery cannot wait, liaise with cardiology — continue aspirin, consider stopping clopidogrel only after 6 months post-stent with cardiology agreement",
+      "Stop clopidogrel 5 days before surgery; continue aspirin alone perioperatively",
+      "Replace both agents with low-molecular-weight heparin bridging pre-operatively"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Drug-eluting stents require dual antiplatelet therapy (DAPT) for a minimum of 6–12 months to prevent in-stent thrombosis, which carries 20–45% mortality. Elective surgery within this window poses a high risk of catastrophic in-stent thrombosis if DAPT is interrupted. Current guidelines (ACC/AHA, BASC) recommend deferring elective surgery until at least 12 months post-DES. If surgery is necessary between 6–12 months, cardiology should be involved and aspirin continued; clopidogrel cessation may be considered only after 6 months with multidisciplinary agreement.",
+    "wrongAnswerExplanations": [
+      "Stopping both antiplatelets 5 months post-DES risks catastrophic in-stent thrombosis; DAPT must not be interrupted without cardiology guidance this early.",
+      "Continuing both antiplatelets increases perioperative bleeding but may be acceptable for minor procedures; for laparoscopic cholecystectomy, cardiology input is needed to balance risks individually.",
+      "Deferring elective surgery to ≥12 months post-DES is the safest strategy; if surgery is needed between 6–12 months, continuing aspirin with careful cardiology-directed management of clopidogrel is correct.",
+      "Stopping clopidogrel alone at 5 months post-DES without cardiology review is premature; the minimum recommended DAPT duration post-DES is 6–12 months.",
+      "LMWH does not adequately protect against in-stent thrombosis; antiplatelet agents, not anticoagulants, are the cornerstone of stent protection."
+    ],
+    "clinicalPearl": "Defer elective surgery for ≥12 months after DES insertion. If surgery must occur at 6–12 months, continue aspirin, involve cardiology, and never stop both antiplatelets simultaneously."
+  },
+  {
+    "system": "periop",
+    "sourceLecture": "Preoperative Assessment & Approach to General Anesthesia 2.pdf",
+    "topic": "VTE prophylaxis — LMWH timing and neuraxial anaesthesia",
+    "question": "A 58-year-old woman is scheduled for elective total knee arthroplasty under spinal anaesthesia. She received her last prophylactic dose of enoxaparin 40 mg subcutaneously 10 hours ago. The anaesthetist is called to perform the spinal. What is the most appropriate course of action?",
+    "options": [
+      "Proceed with spinal anaesthesia immediately, as prophylactic LMWH has minimal effect on spinal haematoma risk",
+      "Delay spinal anaesthesia until at least 12 hours after the last prophylactic LMWH dose",
+      "Convert to general anaesthesia; LMWH is an absolute contraindication to any neuraxial technique",
+      "Check anti-Xa level; if <0.1 IU/mL proceed with the spinal",
+      "Proceed with spinal only after administering protamine sulphate to reverse the enoxaparin"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "AAGBI and regional anaesthesia guidelines stipulate that neuraxial blockade should not be performed until at least 12 hours after the last prophylactic LMWH dose (and 24 hours after therapeutic dosing). The risk of epidural/spinal haematoma causing cord compression rises significantly if this interval is not observed. The procedure should be delayed until the 12-hour window has elapsed from the last 40 mg enoxaparin dose.",
+    "wrongAnswerExplanations": [
+      "Spinal haematoma, though rare, can cause irreversible paraplegia; the 12-hour minimum interval after prophylactic LMWH is a firm safety recommendation.",
+      "Waiting at least 12 hours after the last prophylactic LMWH dose before neuraxial blockade is the correct, guideline-recommended approach to minimise spinal haematoma risk.",
+      "LMWH is not an absolute contraindication to neuraxial techniques; safe neuraxial anaesthesia is achievable with appropriate timing windows.",
+      "Anti-Xa level monitoring is not routinely recommended to guide spinal timing; fixed time intervals based on dose and renal function are the standard approach.",
+      "Protamine only partially reverses LMWH (approximately 60% of anti-Xa activity) and is not the recommended strategy; simply waiting the appropriate time interval is both safer and more practical."
+    ],
+    "clinicalPearl": "Neuraxial blocks: wait ≥12 hours after prophylactic LMWH and ≥24 hours after therapeutic LMWH before needle insertion; do not give the next LMWH dose for ≥4 hours after catheter removal."
+  }
+]

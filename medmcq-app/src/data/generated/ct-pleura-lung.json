@@ -1,0 +1,301 @@
+[
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Primary spontaneous pneumothorax",
+    "question": "A 22-year-old tall, thin male presents to the emergency department with sudden-onset right-sided pleuritic chest pain and mild dyspnoea that began while he was sitting at his desk. He has no significant past medical history and does not smoke. Observations: HR 92 bpm, BP 122/78 mmHg, O2 sat 96% on air, RR 18/min. Examination reveals reduced breath sounds on the right. CXR shows a 2.5 cm rim of air at the right apex with no mediastinal shift. What is the most appropriate initial management?",
+    "options": [
+      "Immediate needle decompression at the 2nd intercostal space, midclavicular line",
+      "Aspiration via a 16G cannula and discharge if lung re-expands",
+      "High-flow oxygen, observation for 4 hours, and discharge with outpatient review if no progression",
+      "Insertion of a large-bore (28 Fr) intercostal chest drain",
+      "Urgent CT pulmonary angiography to exclude pulmonary embolism"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is a primary spontaneous pneumothorax (PSP) of moderate size (2.5 cm rim) in a haemodynamically stable patient. BTS guidelines recommend aspiration as the first-line intervention for PSPs ≥2 cm or symptomatic. Successful aspiration with lung re-expansion allows same-day discharge. Observation alone is appropriate for small (<2 cm) PSPs.",
+    "wrongAnswerExplanations": [
+      "Needle decompression is reserved for tension pneumothorax with haemodynamic compromise; this patient is stable.",
+      "Aspiration via a 16G cannula and discharge if lung re-expands is correct — this is BTS first-line management for a moderate symptomatic PSP in a stable patient.",
+      "Observation alone is appropriate for a small PSP (<2 cm rim); at 2.5 cm with symptoms, intervention is indicated per BTS guidelines.",
+      "Large-bore drains are not first-line for PSP; they are reserved for failed aspiration, large haemopneumothorax, or mechanically ventilated patients.",
+      "CT-PA is indicated when PE is the primary differential; here the CXR confirms pneumothorax and the clinical picture is consistent."
+    ],
+    "clinicalPearl": "In primary spontaneous pneumothorax ≥2 cm or symptomatic, BTS guidelines recommend aspiration first; a large-bore drain is not required unless aspiration fails."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Tension pneumothorax",
+    "question": "A 19-year-old motorcyclist is brought to resus following a high-speed road traffic collision. He is confused and agitated. Observations: HR 138 bpm, BP 74/40 mmHg, O2 sat 82% on 15 L/min non-rebreather mask, RR 32/min. On examination, the trachea is deviated to the left, the right hemithorax is hyper-resonant with absent breath sounds, and the neck veins are markedly distended. What is the single most appropriate immediate action?",
+    "options": [
+      "Urgent CXR to confirm diagnosis before treatment",
+      "Immediate needle decompression of the right chest at the 2nd intercostal space, midclavicular line",
+      "Insertion of a right intercostal chest drain in the 5th intercostal space, midaxillary line",
+      "Rapid infusion of 1 litre IV crystalloid and reassess",
+      "Emergency intubation and mechanical ventilation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Tension pneumothorax is a clinical diagnosis requiring immediate treatment without waiting for imaging. The classic triad of tracheal deviation away from the affected side, absent breath sounds with hyper-resonance, and haemodynamic collapse indicates a right-sided tension pneumothorax. Immediate needle decompression is life-saving, converting tension to open pneumothorax, followed by definitive chest drain insertion.",
+    "wrongAnswerExplanations": [
+      "Delaying treatment to obtain a CXR in a haemodynamically unstable patient with clinical tension pneumothorax is dangerous and potentially fatal.",
+      "Immediate needle decompression at the 2nd ICS MCL right side is correct — this is the ATLS-mandated emergency treatment for clinical tension pneumothorax.",
+      "Chest drain insertion is the definitive treatment but takes longer to perform; needle decompression must come first to rapidly relieve the tension.",
+      "IV fluids will not address the obstructive cause of shock; the mediastinal shift is compressing the contralateral lung and great veins.",
+      "Intubation with positive pressure ventilation before relieving the tension will worsen the pneumothorax and precipitate cardiac arrest."
+    ],
+    "clinicalPearl": "Tension pneumothorax is a clinical emergency — do not wait for imaging; needle decompress immediately, then insert a chest drain."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Pleural effusion — Light's criteria",
+    "question": "A 58-year-old woman with a known history of rheumatoid arthritis presents with progressive dyspnoea over 3 weeks. CXR confirms a large right pleural effusion. Diagnostic thoracentesis is performed. Pleural fluid analysis: protein 48 g/L, LDH 310 U/L. Simultaneous serum protein 62 g/L, serum LDH 210 U/L. Which of the following correctly characterises this effusion and the most likely underlying aetiology?",
+    "options": [
+      "Transudate; most likely due to cardiac failure",
+      "Transudate; most likely due to hypoalbuminaemia from rheumatoid cachexia",
+      "Exudate; most likely due to rheumatoid pleuritis",
+      "Exudate; most likely due to pulmonary embolism",
+      "Transudate; most likely due to hepatic cirrhosis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Applying Light's criteria: pleural fluid/serum protein ratio = 48/62 = 0.77 (>0.5); pleural fluid/serum LDH ratio = 310/210 = 1.48 (>0.6); absolute pleural LDH 310 U/L (>2/3 upper limit of normal). All three criteria are met, confirming an exudate. In a patient with rheumatoid arthritis, rheumatoid pleuritis is the most likely cause; RA effusions are typically exudates with low glucose and high LDH.",
+    "wrongAnswerExplanations": [
+      "This cannot be a transudate; all three of Light's criteria are met, classifying it as an exudate.",
+      "Hypoalbuminaemia causes transudates; this fluid meets all Light's criteria for an exudate.",
+      "Exudate due to rheumatoid pleuritis is correct — all three Light's criteria are met and RA is the known underlying condition.",
+      "PE can cause an exudate but is a diagnosis of exclusion here; the known RA makes rheumatoid pleuritis far more likely.",
+      "Cirrhosis causes transudative hepatic hydrothorax; this fluid is an exudate and the patient has RA, not liver disease."
+    ],
+    "clinicalPearl": "Light's criteria (any one of: fluid/serum protein >0.5, fluid/serum LDH >0.6, or fluid LDH >2/3 serum upper limit) classify an effusion as an exudate with ~98% sensitivity."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Empyema — diagnosis and management",
+    "question": "A 65-year-old man with type 2 diabetes presents with a 10-day history of productive cough, fever, and right-sided pleuritic chest pain following a community-acquired pneumonia treated with oral amoxicillin. Temperature 38.8°C, HR 102 bpm. CXR shows a right lower zone opacity with a loculated effusion. Diagnostic pleural aspirate yields turbid yellow fluid; pH 7.12, glucose 1.8 mmol/L, LDH 3200 U/L, Gram stain shows Gram-positive cocci in clusters. What is the most appropriate management?",
+    "options": [
+      "Continue oral antibiotics and repeat CXR in 1 week",
+      "IV antibiotics alone without pleural drainage",
+      "Chest drain insertion, IV antibiotics, and intrapleural fibrinolytics if drain output is poor",
+      "Urgent CT-guided aspiration of pleural fluid as a one-off procedure",
+      "Immediate video-assisted thoracoscopic surgery (VATS) without a trial of chest drainage"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This is a confirmed empyema (turbid fluid, pH <7.2, low glucose, high LDH, positive Gram stain). The British Thoracic Society recommends prompt chest drain insertion plus IV antibiotics as the first-line treatment. If the drain fails due to loculation, intrapleural fibrinolytics (e.g. tPA/DNase) are the next step before escalating to surgical debridement or VATS.",
+    "wrongAnswerExplanations": [
+      "Oral antibiotics alone are insufficient for empyema; established pus in the pleural space requires drainage.",
+      "IV antibiotics without drainage will not adequately treat an empyema; the infected collection must be drained.",
+      "Chest drain + IV antibiotics + fibrinolytics if drain output is poor is the correct BTS-recommended stepwise approach for empyema.",
+      "A one-off aspiration is inadequate for empyema with loculation; a definitive indwelling drain is required.",
+      "VATS decortication is reserved for failure of medical management (failed drain + fibrinolytics) or chronic organised empyema; it is not the immediate first step."
+    ],
+    "clinicalPearl": "Empyema criteria (pH <7.2, glucose <2.2 mmol/L, LDH >1000, positive culture, or frank pus) mandate chest drain insertion plus IV antibiotics; add intrapleural fibrinolytics for loculated collections before escalating to surgery."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Decortication — indications",
+    "question": "A 52-year-old man was treated 6 weeks ago for a right-sided parapneumonic empyema with chest drain and IV antibiotics. His drain was removed after 2 weeks when output ceased. He now re-presents with persistent low-grade fever, malaise, and reduced exercise tolerance. CT chest shows a right-sided pleural collection with a thick rind encasing the right lung, which is trapped and not expanding. Spirometry shows a restrictive pattern. Blood cultures are negative. What is the definitive treatment?",
+    "options": [
+      "Repeat intercostal chest drain insertion",
+      "Prolonged course of oral co-amoxiclav for 6 weeks",
+      "Intrapleural fibrinolytics via a new chest drain",
+      "Surgical decortication (VATS or open) to remove the fibrous peel and re-expand the lung",
+      "Ultrasound-guided aspiration and repeat in 4 weeks"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "This patient has a chronic organising empyema with a thick fibrous cortex (pleural peel) trapping the lung, causing a restrictive ventilatory defect. Decortication — removal of the visceral and parietal pleural peel surgically — is the definitive treatment that allows the lung to re-expand and restore function. VATS is preferred where feasible; open thoracotomy is used for densely adherent peels.",
+    "wrongAnswerExplanations": [
+      "A repeat chest drain will not penetrate or dissolve a thick chronic fibrous peel; the window for simple drainage has passed.",
+      "Antibiotics alone cannot treat a mechanical problem caused by an encasing fibrous rind; there is no active acute bacterial infection on cultures.",
+      "Fibrinolytics are effective in the early exudative/fibrinopurulent phases; at 6 weeks with an organised fibrous peel, they are ineffective.",
+      "Surgical decortication is correct — it is the standard treatment for chronic organised empyema with trapped lung causing restrictive lung disease.",
+      "Simple aspiration cannot remove a solid fibrous cortex; it is only appropriate for free-flowing fluid collections."
+    ],
+    "clinicalPearl": "Decortication is indicated for chronic empyema with a trapped lung (fibrous peel causing restrictive lung disease) when medical management and drainage have failed."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Secondary spontaneous pneumothorax",
+    "question": "A 68-year-old man with severe COPD (FEV1 35% predicted) presents acutely breathless with right-sided chest pain. He is distressed, with O2 sat 84% on air. CXR confirms a right-sided pneumothorax with a 3 cm rim of air. There is no mediastinal shift. What is the most appropriate management?",
+    "options": [
+      "Aspiration via a 16G cannula and discharge if successful, as per primary PSP guidelines",
+      "High-flow oxygen, observation for 24 hours, and discharge if stable",
+      "Admit, supplemental oxygen to maintain SpO2 88–92%, and insert an intercostal chest drain",
+      "Emergency thoracotomy given underlying severe COPD",
+      "Non-invasive ventilation (BiPAP) to splint the airways and resolve the pneumothorax"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In secondary spontaneous pneumothorax (SSP) in a patient with underlying lung disease, even a moderate pneumothorax is poorly tolerated. BTS guidelines recommend hospital admission, controlled oxygen (88–92% target to avoid hypercapnic drive suppression in COPD), and chest drain insertion for SSPs ≥2 cm or any SSP with significant symptoms — aspiration is not recommended as first-line for SSP.",
+    "wrongAnswerExplanations": [
+      "Aspiration is appropriate for PSP, not SSP; SSP patients have limited respiratory reserve and require definitive drainage.",
+      "Observation alone is inadequate for a symptomatic 3 cm SSP in severe COPD; this approach risks respiratory failure.",
+      "Admission with controlled O2 (88–92%) and chest drain insertion is the correct BTS-recommended management for SSP ≥2 cm.",
+      "Emergency thoracotomy is not indicated; chest drain insertion is the appropriate first intervention.",
+      "BiPAP increases intrathoracic pressure and would worsen a pneumothorax; it is contraindicated until the pneumothorax is drained."
+    ],
+    "clinicalPearl": "Secondary spontaneous pneumothorax requires hospital admission and chest drain insertion (not aspiration); target SpO2 88–92% in COPD to avoid suppressing hypoxic respiratory drive."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "PLEURA.pdf",
+    "topic": "Chest drain — complications",
+    "question": "A 45-year-old woman has a left-sided intercostal chest drain inserted for a large pleural effusion. The procedure is uncomplicated and 1500 mL of straw-coloured fluid is drained over 2 hours. Shortly after, she complains of severe left-sided chest tightness, worsening dyspnoea, and a productive cough with frothy pink sputum. Her O2 sat drops from 97% to 88%. CXR shows new left lower-zone airspace shadowing. What is the most likely diagnosis?",
+    "options": [
+      "Iatrogenic pneumothorax from the chest drain procedure",
+      "Re-expansion pulmonary oedema",
+      "Haemothorax from intercostal vessel injury",
+      "Tension pneumothorax",
+      "Hospital-acquired pneumonia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Re-expansion pulmonary oedema (RPO) is a recognised complication following rapid drainage of a large pleural effusion or pneumothorax. It occurs due to sudden re-expansion of a chronically collapsed lung, leading to increased capillary permeability and acute pulmonary oedema. The characteristic features are new ipsilateral airspace shadowing with frothy pink sputum occurring shortly after drainage. Limiting drainage to ≤1–1.5 L at a time helps prevent RPO.",
+    "wrongAnswerExplanations": [
+      "Iatrogenic pneumothorax would show air on CXR rather than airspace (consolidative/oedema) shadowing, and would not produce frothy pink sputum.",
+      "Re-expansion pulmonary oedema is correct — rapid drainage of >1.5 L causes this well-recognised complication characterised by new ipsilateral oedema and frothy sputum.",
+      "Haemothorax would not cause the constellation of frothy pink sputum and pulmonary airspace shadowing; it would present with blood draining from the tube.",
+      "Tension pneumothorax would cause haemodynamic instability, tracheal deviation, and absent breath sounds — not frothy sputum with unilateral airspace shadowing.",
+      "Hospital-acquired pneumonia has a slower onset over days; this acute onset immediately after drainage is characteristic of RPO."
+    ],
+    "clinicalPearl": "Limit pleural drainage to ≤1–1.5 L per session to prevent re-expansion pulmonary oedema; clamp the drain if the patient develops chest tightness or cough during drainage."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "tumours of lungs and bronchi.pptx",
+    "topic": "Pancoast tumour",
+    "question": "A 62-year-old retired shipyard worker with a 40 pack-year smoking history presents with a 3-month history of right shoulder pain radiating down the medial aspect of his right arm to the ring and little fingers. On examination, he has wasting of the right hand intrinsics, a right-sided ptosis, miosis, and anhidrosis. CXR shows an opacity at the right apex. What is the most likely diagnosis?",
+    "options": [
+      "Cervical disc prolapse at C7/T1 causing right brachial plexopathy",
+      "Pancoast tumour (superior sulcus tumour) of the right lung apex",
+      "Right-sided subclavian artery aneurysm with distal embolisation",
+      "Mesothelioma arising from the right parietal pleura",
+      "Thoracic outlet syndrome due to a cervical rib"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The combination of an apical lung mass, ipsilateral Horner's syndrome (ptosis, miosis, anhidrosis), C8/T1 brachial plexopathy (medial forearm/hand pain, intrinsic hand wasting), and heavy smoking history is pathognomonic of a Pancoast (superior sulcus) tumour. The tumour invades the brachial plexus (C8–T1) and the sympathetic chain, producing both the neurological deficit and Horner's syndrome.",
+    "wrongAnswerExplanations": [
+      "Cervical disc prolapse does not cause Horner's syndrome or an apical lung mass on CXR; the combination is far more specific for Pancoast tumour.",
+      "Pancoast tumour is correct — the triad of apical lung mass, Horner's syndrome, and C8/T1 brachial plexopathy is classic for superior sulcus tumour.",
+      "Subclavian artery aneurysm can cause arm ischaemia and pain but would not produce Horner's syndrome or an apical lung mass.",
+      "Mesothelioma typically presents as a diffuse pleural thickening rather than an apical mass, and it rarely causes Horner's syndrome in this fashion.",
+      "Thoracic outlet syndrome may cause C8/T1 symptoms but does not produce Horner's syndrome or an apical lung lesion on CXR."
+    ],
+    "clinicalPearl": "Pancoast (superior sulcus) tumour classically presents with Horner's syndrome + ipsilateral C8/T1 brachial plexopathy + apical lung mass — always obtain CT chest and consider MRI for surgical planning."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "tumours of lungs and bronchi.pptx",
+    "topic": "Lung carcinoma — paraneoplastic syndrome",
+    "question": "A 58-year-old man presents with a 2-month history of thirst, polyuria, confusion, and constipation. He has lost 8 kg in weight. He smokes 30 cigarettes per day. Blood tests: Na+ 138 mmol/L, corrected Ca2+ 3.4 mmol/L, PTHrP elevated, PTH suppressed. CXR shows a hilar mass. Which cell type of lung cancer is most likely responsible for this presentation?",
+    "options": [
+      "Small cell lung carcinoma (SCLC)",
+      "Adenocarcinoma",
+      "Large cell carcinoma",
+      "Squamous cell carcinoma (SCC)",
+      "Carcinoid tumour"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Hypercalcaemia due to ectopic PTHrP secretion is the classic paraneoplastic syndrome associated with squamous cell carcinoma of the lung. SCC accounts for the majority of PTHrP-mediated hypercalcaemia in lung cancer. SCLC is more associated with SIADH and Eaton-Lambert syndrome. Adenocarcinoma more commonly causes hypercoagulability.",
+    "wrongAnswerExplanations": [
+      "SCLC produces SIADH (hyponatraemia) and Eaton-Lambert syndrome, not PTHrP-mediated hypercalcaemia.",
+      "Adenocarcinoma is more associated with hypercoagulable states (Trousseau's syndrome) and is typically peripheral; it rarely causes PTHrP hypercalcaemia.",
+      "Large cell carcinoma can occasionally cause paraneoplastic syndromes but PTHrP-mediated hypercalcaemia is classically attributed to SCC.",
+      "Squamous cell carcinoma is correct — PTHrP-mediated hypercalcaemia is the classic paraneoplastic syndrome of SCC of the lung.",
+      "Carcinoid tumours produce serotonin/5-HIAA causing carcinoid syndrome (flushing, diarrhoea, bronchospasm); they do not typically cause PTHrP hypercalcaemia."
+    ],
+    "clinicalPearl": "Hypercalcaemia via ectopic PTHrP is the classic paraneoplastic syndrome of squamous cell lung carcinoma; SIADH/hyponatraemia and Eaton-Lambert syndrome are hallmarks of small cell lung cancer."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "tumours of lungs and bronchi.pptx",
+    "topic": "Small cell lung cancer — SIADH",
+    "question": "A 67-year-old woman, a lifelong smoker, presents to the medical take with a 3-week history of confusion, nausea, and headaches. Serum Na+ 118 mmol/L, serum osmolality 245 mOsm/kg, urine osmolality 620 mOsm/kg, urine Na+ 55 mmol/L. She is euvolaemic. CXR shows a large central hilar mass with associated mediastinal widening. What is the most likely histological type of lung cancer and what syndrome does she have?",
+    "options": [
+      "Squamous cell carcinoma causing hypercalcaemia",
+      "Adenocarcinoma causing Trousseau's syndrome",
+      "Small cell lung carcinoma causing SIADH",
+      "Large cell carcinoma causing ectopic ACTH syndrome",
+      "Squamous cell carcinoma causing SIADH"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The biochemical picture — hyponatraemia with low serum osmolality, inappropriately high urine osmolality, elevated urine sodium, and euvolaemia — defines SIADH. In the context of a central hilar mass and heavy smoking, small cell lung carcinoma (SCLC) is the most likely diagnosis. SCLC is the classic cause of ectopic ADH secretion (SIADH) among lung cancers.",
+    "wrongAnswerExplanations": [
+      "SCC causes PTHrP-mediated hypercalcaemia, not SIADH; the biochemistry here shows hyponatraemia, not hypercalcaemia.",
+      "Adenocarcinoma is more peripherally located and associated with hypercoagulability/Trousseau's; SIADH is not its characteristic paraneoplastic syndrome.",
+      "Small cell lung carcinoma causing SIADH is correct — SCLC is the classic cause of ectopic ADH secretion producing the characteristic biochemical picture described.",
+      "Ectopic ACTH (causing Cushing's syndrome) can occur with SCLC but the biochemistry here is clearly SIADH, not hypercortisolism.",
+      "SCC causes hypercalcaemia via PTHrP, not SIADH; even if SIADH did occur, the central mass pattern is more typical of SCLC."
+    ],
+    "clinicalPearl": "SCLC is the most common cause of ectopic ADH secretion (SIADH) — always suspect SCLC in a smoker with severe hyponatraemia and a central lung mass."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "tumours of lungs and bronchi.pptx",
+    "topic": "Lung carcinoma — staging and resectability",
+    "question": "A 61-year-old man with a 35 pack-year history undergoes investigation for a 4 cm right upper lobe mass found incidentally on CXR. CT chest/abdomen/pelvis shows the mass with no mediastinal lymphadenopathy, no pleural effusion, no distant metastases, and clear hilar nodes. PET-CT confirms no uptake beyond the primary lesion. Spirometry: FEV1 78% predicted, FVC 82%, DLCO 74%. Mediastinoscopy is negative. His performance status is ECOG 1. What is the most appropriate management?",
+    "options": [
+      "Palliative chemotherapy with carboplatin/paclitaxel",
+      "Stereotactic ablative radiotherapy (SABR) as the preferred modality",
+      "Surgical resection (lobectomy) with curative intent",
+      "Radical chemoradiotherapy as this is inoperable disease",
+      "Watchful waiting with repeat CT in 3 months"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has clinical stage I NSCLC (T2aN0M0) — a 4 cm mass with no nodal or distant disease confirmed on PET-CT and negative mediastinoscopy. Lung function is adequate (FEV1 >60% predicted, DLCO >60%). Surgical lobectomy with curative intent is the gold-standard treatment for resectable stage I/II NSCLC in patients with adequate lung function and good performance status.",
+    "wrongAnswerExplanations": [
+      "Palliative chemotherapy is reserved for stage IV or unresectable disease; this patient has resectable stage I NSCLC.",
+      "SABR is an alternative for patients who are medically inoperable or who refuse surgery; this patient has adequate lung function and performance status for surgery.",
+      "Surgical lobectomy is the correct answer — it is the gold-standard curative treatment for stage I NSCLC in operable patients with adequate lung function.",
+      "Radical chemoradiotherapy is indicated for unresectable stage III NSCLC; this is stage I disease that is fully resectable.",
+      "Watchful waiting is inappropriate for a confirmed or suspected lung carcinoma with curative potential; delayed treatment allows disease progression."
+    ],
+    "clinicalPearl": "Surgical lobectomy is the gold-standard curative treatment for stage I/II NSCLC in patients with adequate lung function (FEV1 >60% predicted) and good performance status."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "tumours of lungs and bronchi.pptx",
+    "topic": "Superior vena cava obstruction",
+    "question": "A 64-year-old man presents with a 2-week history of progressively worsening facial swelling, headache worse on bending forward, and arm swelling. He has a 40 pack-year smoking history. On examination, his face is plethoric and oedematous, the neck veins are grossly distended non-pulsatile, and there is bilateral arm oedema. CXR shows a large right paratracheal mass. What is the most appropriate immediate management while the tissue diagnosis is being arranged?",
+    "options": [
+      "Urgent pericardiocentesis to relieve cardiac tamponade",
+      "IV dexamethasone and elevation of the head of the bed",
+      "Immediate surgical debulking of the mediastinal mass",
+      "Oral furosemide to reduce venous congestion",
+      "Urgent bronchoscopy and biopsy under general anaesthesia"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is superior vena cava obstruction (SVCO), most commonly caused by lung cancer (particularly SCLC or right-sided NSCLC with mediastinal involvement). Immediate symptomatic management includes IV dexamethasone (reduces peritumoural oedema) and head-of-bed elevation. Endovascular SVC stenting offers rapid relief. Tissue diagnosis should be obtained before definitive treatment but should not delay urgent symptom control.",
+    "wrongAnswerExplanations": [
+      "Pericardiocentesis is for cardiac tamponade; the clinical picture here (non-pulsatile neck vein distension, facial oedema, paratracheal mass) is SVCO, not tamponade.",
+      "IV dexamethasone and head elevation is correct — this reduces peritumoural oedema and provides immediate symptomatic relief while staging and biopsy are arranged.",
+      "Surgical debulking is not the immediate management for SVCO; SCLC causing SVCO often responds rapidly to chemotherapy and/or SVC stenting.",
+      "Oral furosemide will not address the mechanical venous obstruction and risks dehydration; it is not appropriate for SVCO.",
+      "GA bronchoscopy in a patient with severe SVCO carries high anaesthetic risk due to airway oedema and haemodynamic instability; biopsy can often be obtained by CT-guided core biopsy."
+    ],
+    "clinicalPearl": "Superior vena cava obstruction presenting with facial oedema, arm swelling, and raised non-pulsatile JVP should be treated immediately with IV dexamethasone and head elevation; SVC stenting provides the most rapid definitive relief."
+  },
+  {
+    "system": "cardiothoracic",
+    "sourceLecture": "tumours of lungs and bronchi.pptx",
+    "topic": "Lung carcinoma — investigation algorithm",
+    "question": "A 70-year-old woman is referred urgently to the lung cancer clinic with a 3.5 cm spiculated left lower lobe mass on CXR. She has a 25 pack-year history and reports 3 months of haemoptysis, progressive dyspnoea, and 6 kg weight loss. CT chest/abdomen/pelvis shows the mass with two enlarged left hilar nodes (2 cm) and no distant metastases. PET-CT confirms avid FDG uptake in the mass and left hilar nodes only. What is the most appropriate next step to guide definitive management?",
+    "options": [
+      "Proceed directly to left lower lobectomy as PET-CT confirms local disease only",
+      "Bronchoscopy with endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of the hilar nodes",
+      "CT-guided percutaneous core biopsy of the lung mass only",
+      "Repeat CT in 3 months to assess for interval growth",
+      "Sputum cytology on three consecutive mornings"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Before definitive surgical or oncological treatment can be planned, both histological confirmation and accurate nodal staging are required. EBUS-TBNA allows simultaneous tissue sampling of the lung mass (via guided biopsy) and the hilar/mediastinal nodes in one procedure under conscious sedation, providing both diagnosis and N-stage. This determines whether the patient has N1 (potentially resectable stage II) or N2 disease (which may require neoadjuvant therapy or chemoradiotherapy).",
+    "wrongAnswerExplanations": [
+      "Surgery without histological diagnosis and accurate nodal staging is inappropriate; enlarged hilar nodes need sampling to exclude N2/N3 disease which would change management.",
+      "EBUS-TBNA is correct — it provides simultaneous tissue diagnosis and nodal staging (N1 vs N2) in a single minimally invasive procedure, which is essential before definitive treatment planning.",
+      "CT-guided biopsy of the mass alone would provide histology but not nodal staging; the hilar node status critically affects resectability and treatment decision.",
+      "A 3.5 cm spiculated mass with PET-avid hilar nodes and weight loss in a smoker warrants urgent investigation, not watchful waiting.",
+      "Sputum cytology has low sensitivity (~20–30%) for peripheral tumours and provides no nodal staging information; it is not appropriate as the next step."
+    ],
+    "clinicalPearl": "EBUS-TBNA is the preferred first-line procedure for simultaneous histological diagnosis and mediastinal/hilar nodal staging in lung cancer — accurate N-staging determines resectability and treatment strategy."
+  }
+]

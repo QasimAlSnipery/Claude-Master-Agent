@@ -1,0 +1,301 @@
+[
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Triple assessment — breast lump investigation",
+    "question": "A 52-year-old postmenopausal woman presents with a 3-week history of a painless lump in the upper outer quadrant of her right breast. On examination there is a 2 cm firm, irregular, non-tender mass with slight skin tethering; no palpable axillary lymphadenopathy. Mammography shows a spiculated lesion with microcalcifications (R4). Core needle biopsy returns as grade 2 invasive ductal carcinoma, ER+/PR+/HER2−. What is the SINGLE MOST APPROPRIATE next step in management?",
+    "options": [
+      "Proceed to wide local excision and sentinel lymph node biopsy",
+      "Arrange MRI breast as the mammogram is insufficient for surgical planning alone",
+      "Request CT chest/abdomen/pelvis to exclude distant metastases before any local treatment",
+      "Repeat core biopsy from a different site to confirm receptor status",
+      "Refer for neoadjuvant chemotherapy prior to any surgical planning"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This patient has completed triple assessment (clinical examination, imaging R4, core biopsy confirming invasive carcinoma) with a unifocal 2 cm lesion in a postmenopausal woman — the standard next step is definitive surgery. Wide local excision with sentinel lymph node biopsy is appropriate for a clinically node-negative, ER+ invasive ductal carcinoma ≤4 cm. Staging CT is reserved for high-risk features (grade 3, large tumour, node-positive disease) not present here. Neoadjuvant therapy is used to downstage inoperable or large tumours.",
+    "wrongAnswerExplanations": [
+      "Correct. Triple assessment is complete; the tumour is suitable for breast-conserving surgery with sentinel node staging, which is the standard of care for this presentation.",
+      "Wrong. MRI is not routinely required after adequate mammographic characterisation unless there is lobular histology, dense breasts obscuring extent, or consideration of contralateral disease; it would delay surgery without clear benefit here.",
+      "Wrong. Routine staging CT is not indicated for a small, node-negative, grade 2 invasive ductal carcinoma with no clinical high-risk features; it is reserved for symptomatic patients or high-risk pathology.",
+      "Wrong. Receptor status on a good-quality core biopsy is reliable and reproducible; repeat biopsy is not needed and would delay treatment.",
+      "Wrong. Neoadjuvant chemotherapy is indicated to downstage large (>4 cm) or locally advanced tumours, or triple-negative/HER2+ tumours to enable breast conservation; it is not first-line for a small ER+ tumour."
+    ],
+    "clinicalPearl": "Triple assessment (clinical + imaging + pathology) must be complete before surgical planning; once all three concur on invasive carcinoma in a surgically resectable lesion, proceed directly to definitive surgery."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "DCIS — diagnosis and management",
+    "question": "A 47-year-old woman is recalled from routine breast screening. She has no palpable breast abnormality and no family history of breast cancer. Stereotactic mammography demonstrates a 15 mm cluster of pleomorphic microcalcifications in the left breast. Vacuum-assisted biopsy confirms high-grade ductal carcinoma in situ (DCIS) with no invasive component on multiple cores. She is otherwise fit and well. What is the MOST APPROPRIATE surgical management?",
+    "options": [
+      "Wide local excision with radiotherapy to the affected breast",
+      "Mastectomy alone, as DCIS is a pre-invasive lesion not requiring axillary staging",
+      "Sentinel lymph node biopsy without excision of the breast lesion",
+      "Surveillance mammography every 6 months for 2 years before considering surgery",
+      "Wide local excision alone without radiotherapy, as DCIS does not recur after clear margins"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "High-grade DCIS carries a significant risk of local recurrence and progression to invasive carcinoma if left untreated. For localised high-grade DCIS ≤4 cm, breast-conserving surgery (wide local excision) followed by whole-breast radiotherapy is standard of care, reducing local recurrence rates from ~30% to ~15%. Mastectomy is reserved for extensive (>4 cm) or multifocal DCIS. Sentinel node biopsy is not routinely required for pure DCIS unless mastectomy is planned (where axillary access is lost) or there is high suspicion of microinvasion.",
+    "wrongAnswerExplanations": [
+      "Correct. Wide local excision to clear margins plus adjuvant radiotherapy is the standard treatment for localised high-grade DCIS, balancing breast conservation with adequate oncological control.",
+      "Wrong. Mastectomy is not the first-line treatment for a small, localised DCIS lesion in a fit patient; breast conservation with radiotherapy is preferred. Also, mastectomy alone without sentinel node biopsy would be acceptable if mastectomy were chosen, but the premise that DCIS does not require axillary staging is an oversimplification — sentinel node biopsy at mastectomy is recommended.",
+      "Wrong. Sentinel lymph node biopsy alone addresses the axilla but does nothing to treat the primary DCIS lesion; excision of the lesion is mandatory.",
+      "Wrong. DCIS is a precancerous lesion with ~30% risk of progression to invasive carcinoma over 10 years if untreated; surveillance without excision is not appropriate for high-grade DCIS.",
+      "Wrong. Radiotherapy after breast-conserving surgery for DCIS approximately halves the local recurrence rate; omitting it significantly increases the risk of ipsilateral breast tumour recurrence."
+    ],
+    "clinicalPearl": "High-grade DCIS requires excision to clear margins; adjuvant whole-breast radiotherapy after breast-conserving surgery halves the local recurrence rate regardless of margin width."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Paget disease of the nipple",
+    "question": "A 58-year-old woman presents with a 4-month history of an eczematous, crusting rash confined to the right nipple and areola. She has been using topical steroid cream prescribed by her GP with no improvement. She has no palpable breast lump. Punch biopsy of the nipple skin shows large pale cells with prominent nucleoli within the epidermis. Mammography shows a 12 mm area of microcalcifications in the retroareolar region. Which of the following is the MOST LIKELY underlying diagnosis?",
+    "options": [
+      "Paget disease of the nipple associated with underlying DCIS or invasive carcinoma",
+      "Eczematous dermatitis of the nipple — steroid dose should be increased",
+      "Nipple adenoma — a benign lesion requiring local excision only",
+      "Inflammatory breast carcinoma presenting as nipple skin change",
+      "Superficial spreading melanoma involving the nipple"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Paget disease of the nipple presents as a unilateral eczematous change confined to the nipple/areola that fails to respond to topical steroids. The pathognomonic finding is Paget cells (large, pale, mucin-containing intraepidermal adenocarcinoma cells) on biopsy. It is virtually always associated with underlying DCIS (in ~80%) or invasive carcinoma. The retroareolar microcalcifications on mammography support an underlying DCIS. Failure to respond to steroids and nipple-only distribution distinguish it from eczema.",
+    "wrongAnswerExplanations": [
+      "Correct. Paget disease of the nipple is confirmed by the Paget cells on biopsy and almost invariably indicates underlying breast carcinoma (DCIS or invasive); the retroareolar calcifications support this.",
+      "Wrong. True nipple eczema is bilateral in most cases, responds to topical steroids, and does not show intraepidermal large pale cells on biopsy; failure to respond to steroids and unilateral distribution should always prompt biopsy.",
+      "Wrong. Nipple adenoma is a benign periductal proliferation but would not show Paget cells on biopsy; histology here is diagnostic of malignancy.",
+      "Wrong. Inflammatory breast carcinoma presents with diffuse breast erythema, skin oedema (peau d'orange), and warmth from dermal lymphatic involvement — it does not typically present as an isolated nipple rash with epidermal Paget cells.",
+      "Wrong. Melanoma of the nipple is rare and would show atypical melanocytes rather than mucin-containing adenocarcinoma cells (Paget cells) on biopsy; the clinical picture strongly favours Paget disease."
+    ],
+    "clinicalPearl": "Any unilateral nipple rash that fails to respond to topical steroids must be biopsied — Paget disease is associated with underlying DCIS or invasive carcinoma in nearly all cases."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Inflammatory breast carcinoma — recognition",
+    "question": "A 44-year-old woman presents to the emergency department with a 3-week history of a rapidly enlarging, warm, erythematous right breast. The entire breast is oedematous with marked skin thickening and a peau d'orange appearance. She is afebrile, and her inflammatory markers are mildly elevated. She has no history of breastfeeding or recent breast trauma. The referring GP has treated her with two courses of antibiotics with no improvement. What is the MOST IMPORTANT next investigation?",
+    "options": [
+      "Punch biopsy of the affected skin and core biopsy of the breast",
+      "Incision and drainage under general anaesthesia for presumed breast abscess",
+      "Mammography alone to characterise the breast mass",
+      "Blood cultures and continuation of intravenous antibiotics",
+      "Breast MRI to assess for occult lymphoma"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This presentation is classic for inflammatory breast carcinoma (IBC): rapid onset, erythema, peau d'orange, and no response to antibiotics. IBC is diagnosed clinically and histologically — core biopsy of the breast parenchyma confirms carcinoma, and punch biopsy of the skin demonstrates dermal lymphatic tumour emboli (pathognomonic). Failure to diagnose IBC and treating as mastitis/abscess is a critical error; incision and drainage would be harmful and delay treatment.",
+    "wrongAnswerExplanations": [
+      "Correct. Skin punch biopsy (to demonstrate dermal lymphatic emboli) and core breast biopsy are the key investigations to confirm inflammatory breast carcinoma; this diagnosis must be excluded in any breast erythema unresponsive to antibiotics.",
+      "Wrong. There is no fluctuant mass, fever, or history suggesting abscess; incision and drainage of an inflammatory carcinoma would be harmful and would delay diagnosis of a potentially curable cancer.",
+      "Wrong. Mammography alone is insufficient — it may show diffuse skin thickening but cannot provide tissue diagnosis; biopsy is essential for confirmation.",
+      "Wrong. The absence of fever, the clinical course, and failure of two antibiotic courses make infective mastitis/abscess highly unlikely; continuing antibiotics without biopsy would further delay diagnosis.",
+      "Wrong. Lymphoma can cause breast swelling but is far less common than IBC in this context; the priority investigation is biopsy to distinguish IBC from infection, not MRI."
+    ],
+    "clinicalPearl": "Inflammatory breast carcinoma mimics mastitis — any breast erythema/oedema unresponsive to two courses of antibiotics requires urgent skin punch biopsy and core biopsy to exclude IBC."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Sentinel lymph node biopsy — indication and interpretation",
+    "question": "A 61-year-old woman undergoes wide local excision and sentinel lymph node biopsy (SLNB) for a 1.8 cm ER+/PR+/HER2− grade 2 invasive ductal carcinoma of the left breast. The sentinel node is identified using blue dye and radioisotope. Intraoperative frozen section of the sentinel node shows a 3 mm macrometastasis. She has no palpable axillary nodes preoperatively and her preoperative axillary ultrasound was normal. What is the MOST APPROPRIATE management of the axilla at this point?",
+    "options": [
+      "Complete the operation and plan adjuvant axillary radiotherapy rather than axillary node clearance, in keeping with Z0011 trial criteria",
+      "Immediately convert to axillary lymph node dissection (ALND) in the same anaesthetic",
+      "Defer all axillary treatment and observe with serial ultrasound",
+      "Perform a further four-node sampling procedure to assess axillary burden",
+      "Proceed to mastectomy and ALND as breast-conserving surgery is no longer appropriate"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The ACOSOG Z0011 trial demonstrated that in women with T1-T2 invasive breast cancer undergoing breast-conserving surgery with 1–2 positive sentinel nodes who receive whole-breast radiotherapy and systemic therapy, omitting ALND does not compromise overall or disease-free survival. This patient meets Z0011 criteria — completing the WLE and planning adjuvant radiotherapy (which covers the lower axilla) avoids the morbidity of ALND (lymphoedema, nerve injury) without oncological compromise.",
+    "wrongAnswerExplanations": [
+      "Correct. The Z0011 trial supports omitting ALND in patients with T1-T2 breast cancer, clinically node-negative preoperatively, with ≤2 positive sentinel nodes, receiving breast-conserving surgery and whole-breast radiotherapy — axillary radiotherapy or standard whole-breast fields adequately control residual axillary disease.",
+      "Wrong. Immediate ALND is no longer routinely indicated when 1–2 sentinel nodes contain macrometastases in patients meeting Z0011 criteria; ALND carries significant morbidity including lymphoedema (up to 20–25%) without proven survival benefit in this population.",
+      "Wrong. Doing nothing is inappropriate once a macrometastasis is confirmed; some form of adjuvant axillary management (radiotherapy or ALND) is required.",
+      "Wrong. Four-node sampling is not a recognised guideline-endorsed procedure in modern breast surgery; SLNB has replaced axillary node sampling.",
+      "Wrong. Sentinel node positivity does not mandate conversion to mastectomy; the breast-conserving surgery can proceed, and the axilla managed per Z0011 criteria."
+    ],
+    "clinicalPearl": "In T1-T2 breast-conserving surgery patients with 1–2 positive sentinel nodes (Z0011 criteria), omitting ALND and treating with whole-breast radiotherapy achieves equivalent survival with significantly less morbidity."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "HER2-positive breast cancer — adjuvant targeted therapy",
+    "question": "A 49-year-old woman has just undergone mastectomy and axillary node clearance for a 3.5 cm grade 3 invasive ductal carcinoma. Final pathology shows: ER−/PR−/HER2 3+ (confirmed by FISH amplification), 4 of 18 axillary nodes positive. Staging CT is clear of distant metastases. She is fit with good cardiac function (LVEF 65%). Which adjuvant systemic therapy regimen is MOST APPROPRIATE?",
+    "options": [
+      "Anthracycline- and taxane-based chemotherapy plus 12 months of trastuzumab",
+      "Tamoxifen for 5 years as the tumour is hormone receptor negative",
+      "Trastuzumab alone for 12 months without chemotherapy",
+      "Radiotherapy to the chest wall and supraclavicular fossa only, with no systemic therapy",
+      "Capecitabine monotherapy for 6 months as residual disease management"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "HER2-positive breast cancer is treated with chemotherapy combined with trastuzumab (anti-HER2 monoclonal antibody). Standard adjuvant regimens include anthracycline- and taxane-based chemotherapy (e.g., FEC-T or AC-TH) with concurrent or sequential trastuzumab for 12 months, which significantly reduces recurrence and mortality in HER2+ disease. Given node-positive, grade 3, ER−/PR− status, the indication for aggressive adjuvant chemotherapy plus trastuzumab is clear. Pertuzumab may be added for high-risk node-positive disease per current guidelines.",
+    "wrongAnswerExplanations": [
+      "Correct. HER2 3+ node-positive breast cancer requires anthracycline/taxane chemotherapy plus 12 months of trastuzumab; this regimen reduces mortality by ~33% in HER2+ disease and is the established standard of care.",
+      "Wrong. Tamoxifen targets oestrogen receptor-positive tumours; this tumour is ER−/PR−, so endocrine therapy has no role.",
+      "Wrong. Trastuzumab is not effective as a single agent in the adjuvant setting; it must be combined with chemotherapy to achieve its survival benefit.",
+      "Wrong. Radiotherapy addresses loco-regional disease but does not treat systemic micrometastases; omitting systemic therapy in node-positive HER2+ disease would significantly increase the risk of distant relapse.",
+      "Wrong. Capecitabine as extended adjuvant therapy (CREATE-X regimen) is used specifically for HER2-negative triple-negative breast cancer with residual disease after neoadjuvant chemotherapy — it is not the appropriate first-line adjuvant treatment for HER2+ disease."
+    ],
+    "clinicalPearl": "HER2-positive breast cancer requires 12 months of adjuvant trastuzumab combined with chemotherapy; trastuzumab alone or endocrine therapy alone has no role in HER2+/ER− disease."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Breast conservation vs mastectomy — patient selection",
+    "question": "A 38-year-old BRCA2 carrier presents with a newly diagnosed 2.2 cm grade 2 ER+/PR+/HER2− invasive lobular carcinoma in the right breast. MRI shows no additional ipsilateral foci but a 6 mm enhancing lesion in the contralateral left breast confirmed as invasive carcinoma on biopsy. She has no axillary lymphadenopathy. She understands her options and wants to discuss the surgical approach. Which of the following statements BEST guides surgical decision-making?",
+    "options": [
+      "Bilateral mastectomy is a reasonable choice given synchronous bilateral disease and high lifetime risk from BRCA2 mutation",
+      "Wide local excision of both lesions simultaneously with bilateral sentinel node biopsy is the preferred approach",
+      "The BRCA2 mutation alone is an absolute contraindication to breast-conserving surgery",
+      "Contralateral prophylactic mastectomy should be deferred until after adjuvant chemotherapy is completed",
+      "Mastectomy of the right breast only is required; the left 6 mm lesion should be observed as it is too small to treat surgically"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Synchronous bilateral breast carcinoma in a BRCA2 carrier represents a strong indication for bilateral mastectomy. BRCA2 carriers have a lifetime breast cancer risk of 45–85%, and a contralateral breast cancer develops in up to 30% at 10 years if the remaining breast is preserved. Bilateral mastectomy addresses both synchronous lesions, eliminates the need for bilateral radiotherapy, and substantially reduces future ipsilateral and contralateral risk. Reconstruction options should be discussed. BRCA2 is not an absolute contraindication to breast-conservation but makes it a less favourable choice in this bilateral presentation.",
+    "wrongAnswerExplanations": [
+      "Correct. Synchronous bilateral disease in a high-risk BRCA2 carrier is a strong indication for bilateral mastectomy; this addresses both confirmed carcinomas and reduces the very high lifetime risk of further breast events.",
+      "Wrong. While bilateral breast-conserving surgery is technically feasible, it would require bilateral radiotherapy, leaves high-risk breast tissue in situ in a BRCA2 carrier, and offers no quality-of-life advantage over bilateral mastectomy with reconstruction in this context.",
+      "Wrong. BRCA2 mutation alone is not an absolute contraindication to breast conservation; relative contraindications include prior chest radiotherapy, active connective tissue disease, and inability to achieve clear margins — but the bilateral synchronous disease in this case, not BRCA2 alone, tips the balance.",
+      "Wrong. There is no oncological rationale to defer surgical management of the contralateral confirmed carcinoma until after chemotherapy; both lesions require definitive surgical treatment.",
+      "Wrong. A confirmed 6 mm invasive carcinoma in the contralateral breast is not a 'wait and see' situation; it requires definitive treatment regardless of size."
+    ],
+    "clinicalPearl": "Synchronous bilateral breast cancer in a BRCA carrier is a compelling indication for bilateral mastectomy, addressing current disease and substantially reducing future breast cancer risk."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Locally advanced breast cancer — neoadjuvant therapy",
+    "question": "A 43-year-old woman presents with a 6 cm irregular right breast mass, fixed to the underlying pectoralis major, and ipsilateral fixed matted axillary lymphadenopathy. There is no skin ulceration. CT chest/abdomen/pelvis shows no distant metastases. Core biopsy confirms grade 3 invasive ductal carcinoma, ER−/PR−/HER2−. What is the MOST APPROPRIATE initial management?",
+    "options": [
+      "Neoadjuvant chemotherapy to downstage the tumour before surgery",
+      "Emergency modified radical mastectomy and axillary clearance",
+      "Primary radiotherapy to the breast and axilla as the definitive treatment",
+      "Commence letrozole (aromatase inhibitor) for 3 months before reassessment",
+      "Referral for palliative care as locally advanced cancer is incurable"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is locally advanced, inoperable breast cancer (T4b equivalent — fixed to muscle) with fixed nodal disease. The primary treatment is neoadjuvant (preoperative) chemotherapy. This aims to downstage the tumour to achieve resectability, allows assessment of chemotherapy response (pathological complete response is prognostically important), and treats systemic micrometastases early. Triple-negative breast cancer (ER−/PR−/HER2−) is particularly chemosensitive. Surgery (usually mastectomy) follows if a response is achieved.",
+    "wrongAnswerExplanations": [
+      "Correct. Neoadjuvant chemotherapy is the standard initial treatment for locally advanced inoperable breast cancer; it downstages the tumour, converts inoperable disease to operable, and treats systemic micrometastases early.",
+      "Wrong. Emergency surgery is inappropriate for a fixed, inoperable tumour — attempting resection without downstaging would likely result in involved margins and severe morbidity; neoadjuvant therapy must precede surgery.",
+      "Wrong. Radiotherapy alone as primary treatment does not achieve the same long-term outcomes as combined modality treatment; it may be used after neoadjuvant chemotherapy if surgery remains impossible, but is not the first step.",
+      "Wrong. Letrozole (aromatase inhibitor) is neoadjuvant endocrine therapy used for ER+ tumours in postmenopausal women; this tumour is triple-negative, so endocrine therapy has no role.",
+      "Wrong. Locally advanced breast cancer without distant metastases is potentially curable with multimodal treatment including neoadjuvant chemotherapy, surgery, and radiotherapy; palliative care at this stage is premature and inappropriate."
+    ],
+    "clinicalPearl": "Locally advanced inoperable breast cancer is treated with neoadjuvant chemotherapy first; pathological complete response (pCR) after chemotherapy is associated with improved long-term survival, particularly in triple-negative disease."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Radiotherapy indication after breast-conserving surgery",
+    "question": "A 71-year-old woman undergoes wide local excision for a 1.2 cm grade 1 ER+/PR+/HER2− invasive ductal carcinoma with clear margins (>2 mm). Sentinel lymph node biopsy is negative. She declines chemotherapy and is commenced on letrozole. Her oncologist discusses the role of adjuvant radiotherapy. Which of the following BEST describes the current evidence-based recommendation for radiotherapy in this patient?",
+    "options": [
+      "Whole-breast radiotherapy is recommended but can be omitted in selected low-risk elderly patients taking adjuvant endocrine therapy, with informed consent",
+      "Radiotherapy is mandatory after all breast-conserving surgery regardless of age, grade, or receptor status",
+      "Radiotherapy must be given before commencing letrozole as the two cannot be given sequentially",
+      "Partial breast irradiation is contraindicated in a patient over 70 years of age",
+      "Radiotherapy should be given only if the resection margin is less than 1 mm"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Current evidence (PRIME II and CALGB 9343 trials) demonstrates that in women aged ≥65–70 years with small (≤3 cm), ER+, node-negative invasive breast cancer treated with breast-conserving surgery and adjuvant endocrine therapy, the absolute benefit of radiotherapy is small (~5% absolute reduction in local recurrence at 10 years). Omission of radiotherapy may be considered with informed consent in this low-risk group, accepting a slightly higher local recurrence rate without compromising overall survival. Radiotherapy remains recommended as the standard but the decision may be individualised.",
+    "wrongAnswerExplanations": [
+      "Correct. PRIME II and CALGB 9343 trials support selective omission of radiotherapy in older patients (≥65–70 years) with small, ER+, node-negative tumours on endocrine therapy; the absolute local recurrence benefit is small, and omission is an acceptable option with informed consent.",
+      "Wrong. While radiotherapy after breast-conserving surgery substantially reduces local recurrence, it is not unconditionally mandatory in all patients; risk stratification (age, grade, receptor status, node status) guides the absolute benefit, and omission is guideline-accepted in certain low-risk elderly patients.",
+      "Wrong. Sequential (not concurrent) radiotherapy and endocrine therapy are standard; letrozole can be started after radiotherapy is complete. There is no contraindication to this sequence.",
+      "Wrong. Partial breast irradiation (e.g., APBI) can be considered in selected low-risk patients including those over 70 years with small, node-negative, ER+ tumours — age alone is not a contraindication.",
+      "Wrong. The recommended resection margin for invasive breast cancer after breast-conserving surgery is 'no ink on tumour' (i.e., tumour not touching the margin); a margin <1 mm is not the trigger for radiotherapy — radiotherapy is given based on overall risk stratification, not margin width alone."
+    ],
+    "clinicalPearl": "In women ≥70 years with small, ER+, node-negative breast cancer on endocrine therapy, omission of radiotherapy after breast-conserving surgery is guideline-acceptable — the absolute local recurrence benefit is ~5% at 10 years with no overall survival difference."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Receptor status — endocrine therapy selection",
+    "question": "A 55-year-old postmenopausal woman is diagnosed with a 2.5 cm ER+/PR+/HER2− grade 2 invasive ductal carcinoma with 1 positive sentinel lymph node. She undergoes mastectomy and axillary node clearance followed by adjuvant chemotherapy and radiotherapy. She is now being counselled on adjuvant endocrine therapy. Which of the following is the MOST APPROPRIATE endocrine therapy regimen?",
+    "options": [
+      "Aromatase inhibitor (e.g., letrozole or anastrozole) for 5–10 years",
+      "Tamoxifen 20 mg daily for 2 years followed by no further endocrine therapy",
+      "Ovarian suppression with GnRH agonist as she is postmenopausal",
+      "No endocrine therapy is needed as she has already received chemotherapy",
+      "Fulvestrant (oestrogen receptor antagonist) as first-line adjuvant endocrine therapy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "In postmenopausal women with ER+ breast cancer, aromatase inhibitors (AIs — letrozole, anastrozole, exemestane) are the preferred adjuvant endocrine therapy, as they are superior to tamoxifen in reducing recurrence and improving disease-free survival in this population. AIs block peripheral oestrogen synthesis (the main source in postmenopausal women). Current guidelines recommend 5–10 years of AI therapy; extended therapy (up to 10 years) is considered in node-positive disease. Ovarian suppression is used in premenopausal women, not postmenopausal.",
+    "wrongAnswerExplanations": [
+      "Correct. Aromatase inhibitors are first-line adjuvant endocrine therapy for postmenopausal ER+ breast cancer; they reduce recurrence by ~3–5% absolute compared with tamoxifen, and 5–10 years of therapy is recommended based on nodal status and risk.",
+      "Wrong. Tamoxifen for only 2 years is suboptimal; while tamoxifen is an alternative for postmenopausal women who cannot tolerate AIs, the minimum duration is 5 years, and tamoxifen is second-line to AIs in postmenopausal patients.",
+      "Wrong. Ovarian suppression with GnRH agonists is used in premenopausal women to render them postmenopausal for the purpose of adding AI therapy; it has no role in a woman who is already postmenopausal.",
+      "Wrong. Chemotherapy and endocrine therapy have complementary, non-overlapping mechanisms; ER+ tumours benefit from both, and omitting endocrine therapy would leave significant residual oestrogen-driven risk untreated.",
+      "Wrong. Fulvestrant is a selective oestrogen receptor degrader (SERD) used in advanced/metastatic ER+ breast cancer after progression on prior endocrine therapy; it is not licensed as first-line adjuvant endocrine therapy."
+    ],
+    "clinicalPearl": "In postmenopausal ER+ breast cancer, aromatase inhibitors are preferred over tamoxifen as adjuvant endocrine therapy; extended therapy for up to 10 years further reduces recurrence in node-positive disease."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Mammographic screening — recall and risk stratification",
+    "question": "A 50-year-old asymptomatic woman attends routine NHS breast screening mammography. Her mammogram shows a 10 mm asymmetric density in the right breast classified as R3 (indeterminate). She has no family history of breast cancer and no BRCA mutation. She has no palpable abnormality on examination. What is the MOST APPROPRIATE next step?",
+    "options": [
+      "Recall for further assessment including targeted ultrasound and/or stereotactic core biopsy",
+      "Reassure and discharge back to routine 3-yearly screening as R3 is low risk",
+      "Refer directly for mastectomy as any indeterminate lesion should be treated surgically",
+      "Arrange urgent MRI breast as mammography alone is insufficient for R3 lesions",
+      "Prescribe hormone replacement therapy and repeat mammography in 6 months"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "An R3 (indeterminate/probably benign) mammographic finding requires further assessment, not simple reassurance. The patient should be recalled to a one-stop breast assessment clinic for targeted ultrasound of the area and, if the lesion is not characterised adequately, stereotactic or ultrasound-guided core biopsy. The triple assessment process must be completed before a decision on management. R3 carries a small but non-negligible malignancy rate (~5–10%) and cannot be discharged without further workup.",
+    "wrongAnswerExplanations": [
+      "Correct. R3 (indeterminate) findings require recall for further assessment — targeted ultrasound and/or core biopsy to complete triple assessment; this is the standard NHS breast screening programme recall pathway.",
+      "Wrong. R3 cannot be dismissed as low risk without further assessment; a proportion will prove malignant and discharging without workup could delay diagnosis of a curable early cancer.",
+      "Wrong. Mastectomy for an R3 lesion without histological confirmation is completely inappropriate; surgical planning requires tissue diagnosis, and most R3 lesions will prove benign.",
+      "Wrong. MRI is not the first-line investigation for an R3 lesion; targeted ultrasound ± core biopsy is the appropriate next step within triple assessment. MRI is reserved for specific indications (lobular carcinoma, BRCA carriers, preoperative planning).",
+      "Wrong. HRT use can cause mammographic density changes, but prescribing it to investigate an R3 finding makes no clinical sense; repeating the mammogram alone in 6 months without first completing triple assessment is substandard care."
+    ],
+    "clinicalPearl": "Any mammographic finding of R3 or above mandates recall for further assessment — targeted ultrasound and tissue biopsy to complete triple assessment before any management decision."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Male breast cancer",
+    "question": "A 67-year-old man is referred by his GP with a 2-month history of a painless, firm, eccentric subareolar lump in his left breast. He has a history of Klinefelter syndrome and takes no regular medications. Ultrasound shows a 14 mm hypoechoic irregular lesion with posterior acoustic shadowing, classified as U4. Core biopsy confirms invasive ductal carcinoma ER+/PR+/HER2−. What is the MOST APPROPRIATE surgical treatment?",
+    "options": [
+      "Modified radical mastectomy with axillary staging (sentinel lymph node biopsy or axillary node clearance)",
+      "Wide local excision as breast-conserving surgery is equally effective in men",
+      "Gynecomastia excision (subcutaneous mastectomy) as the underlying cause is hormonal",
+      "Reassurance and monitoring as male breast cancer is universally indolent",
+      "Immediate neoadjuvant hormonal therapy with letrozole before any surgical planning"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Male breast cancer is rare but managed along similar principles to female breast cancer. Because the male breast is small with limited tissue, modified radical mastectomy (total mastectomy with axillary staging) is the standard surgical treatment — breast-conserving surgery is rarely feasible due to the central/retroareolar position and limited breast volume. Klinefelter syndrome (XXY) is a recognised risk factor for male breast cancer due to elevated oestrogen levels. Axillary staging via SLNB or clearance is performed concurrently. Adjuvant tamoxifen is the endocrine therapy of choice in men (not aromatase inhibitors as monotherapy).",
+    "wrongAnswerExplanations": [
+      "Correct. Modified radical mastectomy with axillary staging is the standard surgical treatment for male breast cancer; the small breast volume and central tumour location make breast-conserving surgery impractical in most cases.",
+      "Wrong. Breast-conserving surgery is rarely feasible in men due to the small breast volume and typically central/retroareolar position of the tumour; mastectomy is the standard approach.",
+      "Wrong. Gynecomastia is a benign proliferation of breast glandular tissue in men; this lesion is confirmed as invasive carcinoma on biopsy and requires oncological surgical treatment, not gynecomastia excision.",
+      "Wrong. Male breast cancer is not universally indolent; it can metastasise and requires the same staging and treatment principles as female breast cancer. Reassurance and monitoring would be inappropriate for a confirmed invasive carcinoma.",
+      "Wrong. Neoadjuvant endocrine therapy alone is not standard for a resectable male breast cancer; aromatase inhibitors as monotherapy are also less effective in men (who retain testicular androgen production) — surgery is the correct first step, followed by adjuvant tamoxifen."
+    ],
+    "clinicalPearl": "Male breast cancer is most commonly ER+, treated with mastectomy and axillary staging; adjuvant tamoxifen (not aromatase inhibitor monotherapy) is the endocrine therapy of choice in men."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Breast Cancer.pdf",
+    "topic": "Breast cancer — bone metastasis management",
+    "question": "A 58-year-old woman with a 4-year history of ER+/HER2− breast cancer, previously treated with mastectomy and letrozole, presents with a 6-week history of progressive lower thoracic back pain. Plain radiograph shows a lytic lesion in T9 with no pathological fracture. Bone scan confirms isolated T9 metastasis. Bisphosphonate therapy is initiated. Her oncologist discusses systemic treatment. Which change to her systemic therapy is MOST APPROPRIATE?",
+    "options": [
+      "Switch endocrine therapy to fulvestrant or add a CDK4/6 inhibitor (e.g., palbociclib) to her current aromatase inhibitor",
+      "Commence platinum-based chemotherapy as bone metastases indicate endocrine resistance",
+      "Stop all systemic therapy and manage with radiotherapy to T9 alone",
+      "Add trastuzumab to her regimen as HER2 status may change at relapse",
+      "Refer for surgical stabilisation of T9 before any systemic treatment change"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "In ER+/HER2− metastatic breast cancer, CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) combined with endocrine therapy have transformed the management of hormone receptor-positive metastatic disease, significantly improving progression-free and overall survival compared with endocrine monotherapy. For a patient progressing on an aromatase inhibitor, options include switching to fulvestrant ± CDK4/6 inhibitor, or adding a CDK4/6 inhibitor to current AI therapy. Bone-only metastatic disease with good performance status is an ideal setting for endocrine-based therapy rather than chemotherapy.",
+    "wrongAnswerExplanations": [
+      "Correct. For ER+/HER2− metastatic breast cancer progressing on AI therapy, CDK4/6 inhibitor plus endocrine therapy (fulvestrant or AI) is the standard of care; phase III trials (PALOMA-3, MONALEESA-3, MONARCH-2) demonstrate significant survival benefits over endocrine therapy alone.",
+      "Wrong. Chemotherapy is not the appropriate first-line choice for ER+ metastatic breast cancer with bone-only disease and good performance status; endocrine-based therapy should be exhausted first, reserving chemotherapy for endocrine-refractory visceral crisis.",
+      "Wrong. Radiotherapy to T9 addresses local bone pain and fracture prevention but does not treat systemic disease; systemic therapy must be optimised to control all sites of metastasis.",
+      "Wrong. HER2 status at relapse can occasionally differ from the primary, but re-testing without evidence of HER2 positivity on biopsy is speculative; trastuzumab should not be added empirically in confirmed HER2-negative disease.",
+      "Wrong. T9 lytic metastasis without fracture or neurological compromise does not require emergency surgical stabilisation; radiotherapy to T9 for pain and fracture risk prevention is appropriate, alongside systemic therapy optimisation."
+    ],
+    "clinicalPearl": "CDK4/6 inhibitors combined with endocrine therapy are the standard of care for ER+/HER2− metastatic breast cancer, significantly extending progression-free and overall survival compared with endocrine monotherapy alone."
+  }
+]

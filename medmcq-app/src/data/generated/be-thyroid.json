@@ -1,0 +1,301 @@
+[
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Solitary thyroid nodule work-up",
+    "question": "A 42-year-old woman presents with a 2 cm solitary thyroid nodule discovered incidentally on neck ultrasound. She has no symptoms of hyper- or hypothyroidism, no dysphagia, no voice change, and no family history of thyroid cancer. TSH is 1.8 mIU/L (normal). Ultrasound shows a hypoechoic nodule with microcalcifications and irregular margins. What is the most appropriate next investigation?",
+    "options": [
+      "Radionuclide thyroid scan (Tc-99m)",
+      "CT neck with contrast",
+      "Ultrasound-guided fine needle aspiration cytology (FNAC)",
+      "Thyroid peroxidase antibody measurement",
+      "MRI neck"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A solitary thyroid nodule with high-risk ultrasound features (hypoechoic, microcalcifications, irregular margins) requires tissue diagnosis. Ultrasound-guided FNAC is the first-line investigation for characterising thyroid nodules and guiding management. The normal TSH makes a functioning ('hot') nodule unlikely, so a radionuclide scan adds little. CT and MRI are used for assessing retrosternal extension or compression, not primary nodule characterisation.",
+    "wrongAnswerExplanations": [
+      "Radionuclide scan is useful when TSH is suppressed (to identify a hot autonomous nodule), but TSH is normal here and the ultrasound features are suspicious — FNAC is the priority.",
+      "CT with contrast is reserved for assessing airway compression, retrosternal extension, or surgical planning; it is not the first-line investigation for a nodule with suspicious ultrasound features.",
+      "Ultrasound-guided FNAC is correct: it provides cytological diagnosis and is the gold-standard first investigation for suspicious thyroid nodules, directly influencing management.",
+      "TPO antibodies are useful when Hashimoto's thyroiditis is suspected, but this nodule has malignant ultrasound features requiring cytological diagnosis.",
+      "MRI is not routinely used for characterising thyroid nodules and is reserved for specific situations such as substernal extension or soft tissue invasion."
+    ],
+    "clinicalPearl": "Microcalcifications, hypoechoic texture, irregular margins, and taller-than-wide shape on ultrasound are high-risk features mandating FNAC before any other investigation."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Papillary thyroid carcinoma",
+    "question": "A 28-year-old woman has a 1.5 cm right thyroid lobe nodule. FNAC shows cells with nuclear grooves, intranuclear inclusions, and a 'ground glass' nuclear appearance. She undergoes total thyroidectomy; histology confirms papillary thyroid carcinoma confined to the thyroid. Which statement best describes the most appropriate adjuvant management?",
+    "options": [
+      "External beam radiotherapy to the neck",
+      "Radioactive iodine (I-131) ablation and TSH suppression with thyroxine",
+      "Chemotherapy with doxorubicin",
+      "Prophylactic central neck dissection only",
+      "No further treatment; surveillance ultrasound alone"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "After total thyroidectomy for papillary thyroid carcinoma, radioactive iodine ablation destroys any residual thyroid tissue and micrometastases, and TSH suppression with thyroxine reduces the stimulus for tumour recurrence. This is standard adjuvant therapy for differentiated thyroid carcinoma. External beam radiotherapy and chemotherapy are not first-line treatments. Surveillance alone is insufficient after total thyroidectomy for confirmed carcinoma.",
+    "wrongAnswerExplanations": [
+      "External beam radiotherapy is not standard adjuvant therapy for differentiated thyroid carcinoma; it may be used in anaplastic carcinoma or for specific unresectable situations.",
+      "Radioactive iodine ablation followed by TSH suppression is correct: this is the standard post-operative management for papillary thyroid carcinoma after total thyroidectomy.",
+      "Chemotherapy is not effective for well-differentiated thyroid carcinoma and is reserved for anaplastic carcinoma or as a last resort.",
+      "Prophylactic central neck dissection is a surgical option at the time of thyroidectomy but does not replace the need for radioactive iodine ablation and TSH suppression.",
+      "Surveillance alone is inadequate after total thyroidectomy for papillary carcinoma; adjuvant radioiodine and TSH suppression are required."
+    ],
+    "clinicalPearl": "Papillary thyroid carcinoma is the most common thyroid malignancy and has an excellent prognosis; total thyroidectomy followed by radioiodine ablation and lifelong TSH suppression is standard management."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Follicular thyroid carcinoma",
+    "question": "A 55-year-old man undergoes thyroid lobectomy for a 3 cm solitary thyroid nodule. Preoperative FNAC reported 'follicular neoplasm' (Bethesda Category IV). Histology shows follicular carcinoma with capsular and vascular invasion. What is the most appropriate next step in management?",
+    "options": [
+      "Observation with annual ultrasound",
+      "Completion total thyroidectomy followed by radioiodine ablation",
+      "External beam radiotherapy",
+      "Repeat FNAC of the contralateral lobe",
+      "Commence thyroxine and discharge"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Follicular carcinoma with vascular invasion is a high-risk lesion requiring completion total thyroidectomy to remove residual thyroid tissue and allow effective radioiodine ablation. FNAC cannot distinguish between follicular adenoma and carcinoma — capsular or vascular invasion on histology confirms malignancy and mandates completion thyroidectomy plus adjuvant radioiodine. Observation alone is inadequate.",
+    "wrongAnswerExplanations": [
+      "Observation alone is inappropriate when histology confirms follicular carcinoma with vascular invasion; completion thyroidectomy and radioiodine are required.",
+      "Completion total thyroidectomy followed by radioiodine ablation is correct: vascular invasion confirms malignancy requiring complete resection and adjuvant therapy.",
+      "External beam radiotherapy is not the standard management for differentiated follicular carcinoma; it is used in anaplastic carcinoma.",
+      "Repeat FNAC of the contralateral lobe is not indicated; the confirmed histological diagnosis drives management.",
+      "Thyroxine alone without completing the thyroidectomy is insufficient given confirmed invasive follicular carcinoma."
+    ],
+    "clinicalPearl": "FNAC cannot diagnose follicular carcinoma — only histological evidence of capsular or vascular invasion confirms malignancy, necessitating completion thyroidectomy."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Medullary thyroid carcinoma",
+    "question": "A 45-year-old man presents with a firm thyroid nodule and bilateral cervical lymphadenopathy. His serum calcitonin is markedly elevated at 1200 pg/mL. FNAC shows amyloid deposits and spindle-shaped cells. He reports that his father died of adrenal tumours. Which additional investigation should be performed before any thyroid surgery?",
+    "options": [
+      "Serum thyroglobulin",
+      "24-hour urinary catecholamines and metanephrines (or plasma metanephrines)",
+      "Parathyroid hormone level",
+      "Neck MRI",
+      "Serum gastrin"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This presentation is consistent with MEN 2A (medullary thyroid carcinoma + family history of adrenal tumours suggesting phaeochromocytoma). Before any thyroid surgery, phaeochromocytoma must be excluded by measuring urinary or plasma catecholamines/metanephrines because undiagnosed phaeochromocytoma can cause life-threatening hypertensive crisis under anaesthesia. Surgery proceeds only after phaeochromocytoma is excluded or treated.",
+    "wrongAnswerExplanations": [
+      "Thyroglobulin is a marker for differentiated thyroid carcinoma (papillary/follicular), not medullary carcinoma, which secretes calcitonin.",
+      "Plasma or urinary metanephrines are correct: phaeochromocytoma must be excluded before surgery in suspected MEN 2A to prevent fatal intraoperative hypertensive crisis.",
+      "PTH measurement is relevant in MEN 2A (hyperparathyroidism), but the most urgent pre-operative investigation is exclusion of phaeochromocytoma.",
+      "Neck MRI may assist surgical planning but does not address the life-threatening risk of undiagnosed phaeochromocytoma.",
+      "Serum gastrin is relevant in MEN 1 (Zollinger-Ellison syndrome), not MEN 2A."
+    ],
+    "clinicalPearl": "Always exclude phaeochromocytoma before operating on medullary thyroid carcinoma — a missed phaeochromocytoma in MEN 2 can cause fatal intraoperative hypertensive crisis."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Anaplastic thyroid carcinoma",
+    "question": "A 74-year-old woman presents with a rapidly enlarging, hard, fixed anterior neck mass over 6 weeks. She reports progressive dysphagia, hoarseness, and stridor. CT shows a large thyroid mass invading the trachea and oesophagus with bilateral cervical lymphadenopathy. FNAC reveals pleomorphic giant cells with necrosis. What is the most likely diagnosis and the most realistic management goal?",
+    "options": [
+      "Papillary thyroid carcinoma; total thyroidectomy is curative",
+      "Anaplastic thyroid carcinoma; palliative multimodality therapy (chemo-radiotherapy) to maintain airway and quality of life",
+      "Medullary thyroid carcinoma; total thyroidectomy and radioiodine",
+      "Riedel's thyroiditis; corticosteroids",
+      "Lymphoma of the thyroid; rituximab-based chemotherapy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Anaplastic (undifferentiated) thyroid carcinoma is the most aggressive thyroid malignancy, typically presenting in elderly patients with rapidly enlarging, locally invasive neck masses causing airway compromise. It carries near-100% mortality. The goal of management is palliative: maintaining the airway (tracheostomy if needed) and chemo-radiotherapy for local control. Curative resection is rarely possible due to extensive invasion at presentation.",
+    "wrongAnswerExplanations": [
+      "Papillary carcinoma typically presents as a slow-growing nodule in younger patients and is curable with surgery; rapid invasion in an elderly patient with giant cells on cytology is classic for anaplastic carcinoma.",
+      "Anaplastic thyroid carcinoma with palliative multimodality therapy is correct: this is an almost universally fatal tumour and curative resection is not achievable when tracheal and oesophageal invasion is present.",
+      "Medullary carcinoma is slower growing, associated with elevated calcitonin and amyloid, and does not present with this clinical picture.",
+      "Riedel's thyroiditis causes a hard fibrous thyroid mass but without this degree of rapid growth, malignant cytology, or lymphadenopathy.",
+      "Primary thyroid lymphoma can resemble anaplastic carcinoma but the cytology here shows pleomorphic giant cells consistent with anaplastic carcinoma, not lymphoma."
+    ],
+    "clinicalPearl": "Anaplastic thyroid carcinoma is almost universally fatal within months; management focuses on airway protection and palliative chemo-radiotherapy rather than curative intent."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Thyrotoxicosis — Graves disease",
+    "question": "A 30-year-old woman presents with 4 months of palpitations, weight loss despite increased appetite, heat intolerance, and tremor. On examination she has a diffuse smooth goitre, proptosis, and pretibial myxoedema. TSH is undetectable; free T4 is markedly elevated. TSH receptor antibodies are positive. She wishes to avoid surgery and radioiodine. What is the most appropriate first-line medical management?",
+    "options": [
+      "High-dose corticosteroids",
+      "Carbimazole with titration or block-and-replace regimen",
+      "Propranolol alone",
+      "Lithium carbonate",
+      "Cholestyramine"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Graves' disease (positive TSH receptor antibodies, diffuse goitre, ophthalmopathy, pretibial myxoedema) is managed first-line medically with a thionamide — carbimazole (or propylthiouracil) — either as a titration regimen or block-and-replace. Propranolol controls symptoms (palpitations, tremor) but does not address the underlying hyperthyroidism and must be used adjunctively, not alone. Carbimazole inhibits thyroid hormone synthesis.",
+    "wrongAnswerExplanations": [
+      "Corticosteroids are used for Graves' ophthalmopathy, not for primary control of thyrotoxicosis.",
+      "Carbimazole is correct: it is the first-line antithyroid drug in Graves' disease, inhibiting thyroid peroxidase and reducing hormone synthesis.",
+      "Propranolol relieves adrenergic symptoms but does not treat the underlying hyperthyroidism; it is an adjunct, not definitive therapy.",
+      "Lithium has antithyroid properties but is not a recognised first-line treatment and carries significant toxicity.",
+      "Cholestyramine may reduce thyroid hormone recycling but is not a standard or first-line treatment for Graves' disease."
+    ],
+    "clinicalPearl": "Graves' disease is the most common cause of hyperthyroidism in young women; the triad of diffuse goitre, ophthalmopathy, and pretibial myxoedema is pathognomonic, and carbimazole is the first-line medical treatment."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Thyroid storm",
+    "question": "A 65-year-old man with known hyperthyroidism presents to the emergency department 24 hours after an emergency appendicectomy. He is agitated, febrile (40.2°C), tachycardic (HR 148 bpm), and confused. BP is 160/90 mmHg. TFTs from yesterday show suppressed TSH and elevated free T4. Which is the most important initial pharmacological intervention?",
+    "options": [
+      "IV paracetamol for fever control",
+      "High-dose propylthiouracil (PTU) orally or via nasogastric tube, followed by iodine, IV propranolol, and IV hydrocortisone",
+      "Oral carbimazole alone and observation",
+      "Emergency thyroidectomy",
+      "IV amiodarone"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is thyroid storm (Thyrotoxic crisis) precipitated by surgery. Management requires urgent multi-drug therapy: PTU or carbimazole blocks new hormone synthesis (PTU also blocks peripheral T4-to-T3 conversion), iodine (Lugol's) is given 1 hour later to block hormone release (Wolff-Chaikoff effect), IV propranolol controls adrenergic symptoms, and IV hydrocortisone treats relative adrenal insufficiency and blocks T4-to-T3 conversion. This combination addresses multiple pathways simultaneously.",
+    "wrongAnswerExplanations": [
+      "Paracetamol alone addresses fever but not the life-threatening hyperthyroid state; aspirin is avoided as it displaces T4 from binding proteins.",
+      "PTU followed by iodine, propranolol, and hydrocortisone is correct: this multi-drug regimen is the established treatment for thyroid storm, addressing synthesis, release, peripheral conversion, and adrenergic effects.",
+      "Carbimazole alone is wholly inadequate in thyroid storm, which is a life-threatening emergency requiring immediate multi-drug therapy.",
+      "Emergency thyroidectomy is only considered in rare refractory cases once the patient is stabilised; operating on an unstable thyroid storm patient carries extreme risk.",
+      "IV amiodarone can worsen hyperthyroidism by providing an iodine load and should be avoided in this context."
+    ],
+    "clinicalPearl": "Thyroid storm is a life-threatening emergency requiring immediate PTU (blocks synthesis and conversion), iodine given 1 hour after PTU (blocks release), propranolol (adrenergic control), and hydrocortisone (adrenal support and conversion blockade)."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Multinodular goitre",
+    "question": "A 60-year-old woman is referred with a 10-year history of a slowly enlarging neck swelling. She reports no hyperthyroid symptoms. On examination there is a large irregular thyroid gland with multiple palpable nodules. TSH is 2.1 mIU/L. Ultrasound confirms a multinodular goitre with the largest nodule measuring 3.2 cm. The nodule is hypoechoic with punctate calcifications. What is the most appropriate next step?",
+    "options": [
+      "Reassure and review in 5 years",
+      "Start thyroxine to suppress TSH and reduce goitre size",
+      "FNAC of the dominant/suspicious nodule",
+      "Radioiodine to reduce goitre size",
+      "Bilateral total thyroidectomy without further investigation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In a multinodular goitre, the dominant or ultrasound-suspicious nodule (hypoechoic with punctate calcifications) requires FNAC to exclude malignancy. Multinodular goitre carries a small but real risk of containing a carcinoma, especially when one nodule has suspicious features. FNAC is the standard first investigation before any definitive management decision. TSH suppression is not recommended as a treatment for established multinodular goitre.",
+    "wrongAnswerExplanations": [
+      "Reassurance alone is inappropriate when a dominant nodule within the goitre has high-risk ultrasound features (hypoechoic, punctate calcifications).",
+      "TSH suppression with thyroxine is not an effective treatment for multinodular goitre and risks causing iatrogenic thyrotoxicosis in older patients.",
+      "FNAC of the suspicious dominant nodule is correct: any nodule with concerning ultrasound features in a multinodular goitre requires cytological assessment.",
+      "Radioiodine can reduce goitre size but is not the next step before excluding malignancy in a suspicious nodule.",
+      "Proceeding to bilateral thyroidectomy without prior cytological confirmation of the suspicious nodule is not appropriate management."
+    ],
+    "clinicalPearl": "A dominant or suspicious nodule within a multinodular goitre must be assessed with FNAC — the background multinodularity does not reduce the malignancy risk of an individual suspicious nodule."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Retrosternal goitre",
+    "question": "A 68-year-old man presents with progressive exertional dyspnoea, dysphagia, and a 'fullness' sensation in his neck. He has no hyperthyroid symptoms. Examination reveals a large goitre extending below the clavicles. When he raises both arms above his head, facial plethora and distended neck veins appear (Pemberton's sign). CT thorax shows a large retrosternal thyroid mass causing 60% tracheal compression. TSH is normal. What is the definitive management?",
+    "options": [
+      "Radioiodine ablation",
+      "Oral thyroxine suppression",
+      "Urgent surgical thyroidectomy (usually via cervical incision)",
+      "Endoscopic tracheal stenting",
+      "Annual CT surveillance"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A symptomatic retrosternal goitre causing significant tracheal compression with a positive Pemberton's sign requires definitive surgical resection. The vast majority (>95%) can be delivered through a cervical incision despite retrosternal extension, as the blood supply originates from the neck. Radioiodine is ineffective for large goitres with significant compression and carries a risk of transient swelling worsening airway compromise. Stenting treats the symptom not the cause.",
+    "wrongAnswerExplanations": [
+      "Radioiodine is ineffective for large compressive retrosternal goitres and is contraindicated when there is significant tracheal compromise due to risk of acute swelling.",
+      "Thyroxine suppression does not significantly reduce the size of a long-standing multinodular retrosternal goitre and will not relieve tracheal compression.",
+      "Urgent surgical thyroidectomy via cervical incision is correct: this is the definitive treatment for symptomatic retrosternal goitre with tracheal compression; sternotomy is rarely needed.",
+      "Tracheal stenting addresses airway obstruction temporarily but does not remove the compressive mass and may complicate subsequent surgery.",
+      "Annual CT surveillance is inappropriate when there is already 60% tracheal compression and significant symptoms — the patient requires surgery."
+    ],
+    "clinicalPearl": "Pemberton's sign (facial plethora and venous distension on arm elevation) indicates superior vena cava compression from a retrosternal goitre; surgical resection is the definitive treatment and is usually achievable via a cervical incision."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Recurrent laryngeal nerve injury — thyroidectomy complication",
+    "question": "A 38-year-old woman undergoes total thyroidectomy for multinodular goitre. In the immediate postoperative period she is noted to have a hoarse voice. Flexible nasolaryngoscopy shows an immobile right vocal cord in the paramedian position. The left cord is mobile. What is the most likely explanation and the immediate management priority?",
+    "options": [
+      "Bilateral RLN injury; urgent reintubation",
+      "Unilateral right recurrent laryngeal nerve (RLN) injury; reassurance and voice therapy if no airway compromise",
+      "External laryngeal nerve injury; surgical re-exploration",
+      "Hypocalcaemia causing laryngospasm; IV calcium gluconate",
+      "Tracheomalacia; tracheostomy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A unilateral RLN injury causes ipsilateral vocal cord palsy in the paramedian position, resulting in hoarseness. The airway is maintained as the contralateral cord is mobile and the cords can still approximate. If the injury is neuropraxia (stretch or heat), recovery may occur over weeks to months. Voice therapy assists in compensation. Urgent re-exploration is not indicated for unilateral injury without airway compromise. Bilateral RLN injury would cause stridor and acute airway obstruction requiring immediate intervention.",
+    "wrongAnswerExplanations": [
+      "Bilateral RLN injury would cause both cords to be fixed near the midline, leading to stridor and acute airway compromise, which is not described here.",
+      "Unilateral RLN injury causing right vocal cord palsy is correct: hoarseness with a mobile contralateral cord and no stridor indicates unilateral injury manageable conservatively with voice therapy.",
+      "External (superior) laryngeal nerve injury causes loss of cricothyroid tension, resulting in altered voice pitch and reduced vocal projection, not a fixed cord on laryngoscopy.",
+      "Hypocalcaemia can cause laryngospasm but would not produce an isolated cord immobility on laryngoscopy in the absence of other hypocalcaemia features (tingling, Chvostek's sign).",
+      "Tracheomalacia presents with stridor or tracheal collapse on extubation, not unilateral vocal cord palsy."
+    ],
+    "clinicalPearl": "Unilateral RLN injury after thyroidectomy causes hoarseness with a paramedian fixed cord; bilateral injury causes stridor and acute airway emergency requiring immediate reintubation or tracheostomy."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Hypocalcaemia after thyroidectomy",
+    "question": "A 50-year-old woman is 18 hours post-total thyroidectomy for Graves' disease. She reports perioral tingling, numbness in her fingertips, and muscle cramps. On examination, tapping over the facial nerve produces ipsilateral facial muscle twitching. Serum corrected calcium is 1.85 mmol/L (normal 2.2–2.6). What is the most appropriate immediate management?",
+    "options": [
+      "Reassurance; recheck calcium in 24 hours",
+      "Oral calcium carbonate and vitamin D (calcitriol) supplementation",
+      "IV calcium gluconate 10% (10 mL slowly over 10 minutes) followed by oral calcium and vitamin D",
+      "Urgent parathyroid reimplantation",
+      "IV magnesium sulphate"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Symptomatic hypocalcaemia post-thyroidectomy (Chvostek's sign, perioral tingling, muscle cramps, calcium 1.85 mmol/L) requires immediate IV calcium gluconate 10% given slowly (to avoid cardiac arrhythmia), followed by maintenance oral calcium and calcitriol. Hypoparathyroidism from parathyroid gland injury or inadvertent removal is the cause. IV treatment is needed when symptomatic; oral supplementation alone is insufficient at this level with symptoms present.",
+    "wrongAnswerExplanations": [
+      "Reassurance is inappropriate when the patient is symptomatic with Chvostek's sign and calcium of 1.85 mmol/L; this requires immediate treatment.",
+      "Oral calcium and vitamin D are appropriate for mild or asymptomatic hypocalcaemia but are insufficient for symptomatic hypocalcaemia with Chvostek's sign and calcium <2.0.",
+      "IV calcium gluconate is correct: symptomatic hypocalcaemia requires urgent IV replacement followed by oral maintenance therapy with calcium and calcitriol.",
+      "Parathyroid reimplantation is a surgical option for permanent hypoparathyroidism planned before or during surgery, not an immediate response to acute postoperative hypocalcaemia.",
+      "IV magnesium is used for hypomagnesaemia-induced hypocalcaemia refractory to calcium replacement; it is not the first-line treatment for postoperative hypoparathyroidism."
+    ],
+    "clinicalPearl": "Chvostek's sign (facial twitch on tapping) and symptomatic hypocalcaemia within 24–48 hours of thyroidectomy indicate parathyroid injury; treat immediately with IV calcium gluconate then transition to oral calcium and calcitriol."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Solitary thyroid nodule — toxic adenoma",
+    "question": "A 48-year-old woman presents with palpitations, weight loss, and heat intolerance for 3 months. She has a palpable 3 cm right thyroid nodule. TSH is suppressed at <0.01 mIU/L; free T4 is mildly elevated. Radionuclide thyroid scan shows a single area of increased uptake in the right lobe with suppression of the remainder of the gland. What is the most likely diagnosis?",
+    "options": [
+      "Graves' disease",
+      "Toxic multinodular goitre",
+      "Toxic (autonomous) thyroid adenoma (Plummer's disease)",
+      "Papillary thyroid carcinoma",
+      "Subacute (De Quervain's) thyroiditis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A solitary 'hot' nodule on radionuclide scan — with uptake concentrated in one area and suppression of the rest of the gland — is diagnostic of a toxic autonomous adenoma (Plummer's disease). These nodules produce thyroid hormone independently of TSH, causing hyperthyroidism. Graves' disease causes diffuse gland uptake; toxic multinodular goitre shows multiple hot areas; carcinoma typically appears as a cold nodule; De Quervain's shows globally reduced uptake.",
+    "wrongAnswerExplanations": [
+      "Graves' disease produces diffuse uniform increased uptake throughout the entire gland on radionuclide scan, not a focal single hot nodule with surrounding suppression.",
+      "Toxic multinodular goitre shows multiple foci of increased uptake scattered throughout an enlarged gland, not a single dominant hot nodule.",
+      "Toxic adenoma is correct: a single hot nodule with suppression of the surrounding gland is the hallmark of an autonomous functioning adenoma causing hyperthyroidism.",
+      "Thyroid carcinoma typically appears as a cold nodule (absent or reduced uptake) on scintigraphy, not a hot autonomous nodule.",
+      "Subacute thyroiditis causes painful thyroid swelling, elevated ESR, and globally reduced isotope uptake due to follicular destruction, not a focal hot nodule."
+    ],
+    "clinicalPearl": "A single hot nodule on thyroid scintigraphy with suppression of the remaining gland is pathognomonic of a toxic autonomous adenoma; treatment options include radioiodine, surgery, or ethanol ablation."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "thyroid diseases dr sarmad.pdf",
+    "topic": "Thyroidectomy — postoperative haematoma",
+    "question": "A 52-year-old man has returned to the ward 3 hours after an uncomplicated total thyroidectomy. The ward nurse calls urgently: the patient is visibly distressed, has rapidly increasing neck swelling, muffled stridor, and is becoming hypoxic with SpO2 88% on air. The neck wound appears tense and purple. What is the single most important immediate action?",
+    "options": [
+      "Urgent CT neck to confirm haematoma before any intervention",
+      "Immediate bedside opening of the wound and evacuation of the haematoma, then return to theatre",
+      "High-flow oxygen and urgent referral to ENT for flexible nasolaryngoscopy",
+      "IV furosemide and head elevation",
+      "Emergency tracheostomy at the bedside"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Post-thyroidectomy haematoma causing airway compromise is a surgical emergency — delay is fatal. The wound must be immediately opened at the bedside (without waiting for theatre) to decompress the haematoma and relieve tracheal compression. All post-thyroidectomy ward areas should have a 'haematoma box' with instruments for this. Once decompressed and the patient stabilised, formal haemostasis is achieved in theatre under general anaesthetic.",
+    "wrongAnswerExplanations": [
+      "CT imaging must never delay treatment in acute airway compromise from post-thyroidectomy haematoma; the diagnosis is clinical and requires immediate bedside intervention.",
+      "Immediate bedside wound opening is correct: this is a life-threatening airway emergency and the wound must be opened immediately at the bedside to decompress the haematoma before formal theatre washout.",
+      "Nasolaryngoscopy and ENT referral are entirely inappropriate in an acute airway emergency; the priority is immediate decompression of the haematoma.",
+      "IV furosemide and head elevation are completely ineffective for a compressive haematoma and will cause fatal delay.",
+      "Tracheostomy may be needed if decompression fails or the airway remains compromised, but the first step is wound opening and haematoma release, not immediate tracheostomy."
+    ],
+    "clinicalPearl": "Post-thyroidectomy haematoma with airway compromise is a surgical emergency: open the wound immediately at the bedside to decompress the haematoma — every minute of delay increases the risk of fatal asphyxiation."
+  }
+]

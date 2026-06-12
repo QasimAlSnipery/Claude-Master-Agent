@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "BONE TUMOURS 2026 .pdf",
+    "topic": "Osteosarcoma",
+    "question": "A 15-year-old boy presents with a 6-week history of progressive pain and swelling around the distal right femur. He initially attributed it to a sports injury, but it has not settled. On examination there is a firm, tender mass above the knee. Plain radiograph shows a mixed lytic and sclerotic lesion in the distal femoral metaphysis with periosteal elevation producing a Codman triangle and a sunburst pattern. His ESR is 22 mm/hr and ALP is markedly elevated. What is the most likely diagnosis?",
+    "options": [
+      "Ewing sarcoma",
+      "Osteosarcoma",
+      "Giant cell tumour of bone",
+      "Chronic osteomyelitis",
+      "Osteoid osteoma"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Osteosarcoma is the most common primary malignant bone tumour in children and adolescents, characteristically arising in the metaphysis of long bones (distal femur most common). Radiographic features include the Codman triangle (periosteal elevation) and sunburst pattern of new bone formation. Markedly elevated ALP reflects osteoblastic activity. The age, site, and radiological findings are classic.",
+    "wrongAnswerExplanations": [
+      "Ewing sarcoma also affects this age group but classically arises in the diaphysis rather than metaphysis, and shows an 'onion-skin' periosteal reaction rather than a sunburst pattern; patients are also more likely to have systemic features (fever, raised ESR).",
+      "Osteosarcoma is correct: distal femoral metaphysis, Codman triangle, sunburst periosteal reaction, and markedly elevated ALP in a teenage boy are all hallmarks of osteosarcoma.",
+      "Giant cell tumour arises in the epiphysis of skeletally mature patients (18–40 years), presenting as a soap-bubble lytic lesion abutting the articular surface — not matching this case.",
+      "Chronic osteomyelitis can produce periosteal new bone but would be associated with systemic sepsis, elevated CRP/WBC, and does not produce a sunburst pattern; the history of progressive bony swelling without fever makes this unlikely.",
+      "Osteoid osteoma is a small benign lesion (<2 cm) producing night pain relieved by NSAIDs with a characteristic nidus on CT; it does not produce a large metaphyseal mass or Codman triangle."
+    ],
+    "clinicalPearl": "In a teenager with distal femoral metaphyseal pain, markedly raised ALP, and a sunburst/Codman triangle on X-ray, osteosarcoma must be excluded urgently — refer to a bone tumour centre for staging MRI and biopsy."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "BONE TUMOURS 2026 .pdf",
+    "topic": "Ewing sarcoma",
+    "question": "A 12-year-old girl presents to the ED with a 3-week history of worsening mid-shaft left femoral pain, fever (38.4°C), and lethargy. Her WBC is 14.2 × 10⁹/L and ESR is 78 mm/hr. Plain X-ray shows an aggressive diaphyseal lesion with a lamellated 'onion-skin' periosteal reaction. MRI demonstrates a large extraosseous soft-tissue mass. What is the single most important next investigation to confirm the diagnosis and guide treatment?",
+    "options": [
+      "Whole-body bone scan",
+      "CT chest, abdomen, and pelvis",
+      "Bone marrow biopsy",
+      "Open incisional biopsy with histology, immunohistochemistry, and cytogenetics",
+      "Serum LDH and uric acid"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Tissue biopsy is the definitive investigation to confirm Ewing sarcoma. It shows small round blue cells on histology, and cytogenetics/FISH demonstrates the pathognomonic t(11;22) translocation producing EWS-FLI1 fusion. Biopsy must be performed at a specialist tumour centre as the biopsy tract must be included in any subsequent resection. Systemic staging and bone marrow biopsy follow, but histological confirmation is the priority.",
+    "wrongAnswerExplanations": [
+      "Whole-body bone scan is part of staging for Ewing sarcoma (detecting skeletal metastases) but cannot confirm the diagnosis — tissue histology is required first.",
+      "CT chest, abdomen, and pelvis is essential for staging to detect pulmonary and nodal metastases but does not confirm the diagnosis; it is performed after histological confirmation.",
+      "Bone marrow biopsy is performed as part of staging in Ewing sarcoma (marrow metastases affect prognosis and staging) but is not the primary diagnostic investigation.",
+      "Open incisional biopsy with histology, immunohistochemistry, and cytogenetics is the correct answer: it provides definitive tissue diagnosis including the t(11;22) translocation and small round blue cell morphology; it must be done at a tumour centre to plan the biopsy tract.",
+      "Serum LDH is a prognostic marker in Ewing sarcoma (elevated LDH correlates with worse outcome) but is non-specific and cannot confirm the diagnosis."
+    ],
+    "clinicalPearl": "Ewing sarcoma = small round blue cells + t(11;22)/EWS-FLI1; always biopsy at a bone tumour centre so the biopsy tract can be excised en bloc at definitive surgery."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "BONE TUMOURS 2026 .pdf",
+    "topic": "Giant cell tumour of bone",
+    "question": "A 28-year-old woman presents with a 3-month history of progressive right knee pain worsened by activity. She has no history of trauma. X-ray of the right knee shows a lytic, soap-bubble lesion in the distal femoral epiphysis extending to the subchondral bone. There is no periosteal reaction and no cortical breakthrough. Her blood results are normal. What is the most appropriate next step in management?",
+    "options": [
+      "Immobilisation in a cast and repeat X-ray in 6 weeks",
+      "Urgent referral to a specialist bone tumour unit for MRI and biopsy",
+      "Intravenous antibiotics for 6 weeks",
+      "Open curettage and bone grafting as a day-case procedure",
+      "Amputation of the lower limb"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Giant cell tumour (GCT) of bone typically presents in skeletally mature adults aged 20–40 years as an epiphyseal lytic lesion extending to the subchondral plate. The soap-bubble appearance on X-ray is characteristic. Any aggressive or uncertain bony lesion in this demographic requires referral to a specialist bone tumour unit for MRI (local staging), CT (pulmonary metastasis screening), and biopsy before any surgical intervention.",
+    "wrongAnswerExplanations": [
+      "Immobilisation and watchful waiting is inappropriate for an aggressive lytic epiphyseal lesion — this delays diagnosis of a potentially malignant or locally destructive tumour.",
+      "Urgent referral to a specialist bone tumour unit for MRI and biopsy is correct: GCT can be locally aggressive and has a small risk of malignant transformation; specialist assessment with MRI and biopsy is mandatory before treatment.",
+      "Intravenous antibiotics are appropriate for septic arthritis or osteomyelitis, not a lytic bony lesion with normal bloods; this would dangerously delay the correct diagnosis.",
+      "Open curettage and bone grafting is the definitive surgical treatment for GCT, but it must not be performed without prior staging imaging and biopsy confirming the diagnosis — performing surgery at a non-specialist centre risks inadequate resection.",
+      "Amputation is not indicated as initial management; GCT is treated with intralesional curettage ± adjuvants ± reconstruction; amputation would only be considered for multiply recurrent or unresectable tumours."
+    ],
+    "clinicalPearl": "GCT of bone = epiphyseal soap-bubble lytic lesion in a 20–40-year-old; always refer to a bone tumour unit before any surgical intervention."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "BONE TUMOURS 2026 .pdf",
+    "topic": "Osteochondroma",
+    "question": "A 17-year-old male rugby player is referred by his GP with a painless bony lump on the medial aspect of the distal left femur, noticed for 2 years. It is hard, non-tender, and immobile. X-ray shows a pedunculated bony outgrowth with cortical and medullary continuity with the underlying bone. He is skeletally immature. He reports no neurological symptoms and the lump has not grown recently. What is the most appropriate management?",
+    "options": [
+      "Urgent MRI and biopsy to exclude malignant transformation",
+      "En bloc surgical excision within 4 weeks",
+      "Reassurance, observation, and patient education about warning signs",
+      "Radiotherapy to the lesion",
+      "Bone scan to assess for multiple lesions"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Osteochondroma (osteocartilaginous exostosis) is the most common benign bone tumour, presenting as a painless pedunculated or sessile bony outgrowth with cortical/medullary continuity. In an asymptomatic skeletally immature patient with a stable, non-painful lesion and no neurological compromise, reassurance and observation are appropriate. Patients should be educated to report rapid growth, new pain, or neurological symptoms, which would indicate possible malignant transformation (chondrosarcoma — rare, <1% of solitary lesions).",
+    "wrongAnswerExplanations": [
+      "Urgent MRI and biopsy is not indicated for an asymptomatic, stable, solitary osteochondroma in a child — this would over-investigate a benign lesion; MRI is reserved for rapidly growing lesions or those with a cartilage cap >2 cm in adults.",
+      "En bloc surgical excision is performed for symptomatic lesions (pain, neurovascular compromise, bursa formation) or those with features of malignant transformation; it is not indicated here.",
+      "Reassurance, observation, and patient education is correct: stable asymptomatic osteochondromas in skeletally immature patients require no active treatment; education about warning signs (rapid growth, pain, neurological symptoms) is key.",
+      "Radiotherapy has no role in osteochondroma management and would be harmful to a growing skeleton.",
+      "Bone scan to look for multiple lesions is relevant if hereditary multiple exostoses (HME) is suspected, but a single lesion in an otherwise well teenager does not warrant this as first-line management."
+    ],
+    "clinicalPearl": "Solitary osteochondroma in a child = observe; advise the patient/parents to report any rapid growth or new pain, which would prompt MRI to assess the cartilage cap and exclude malignant transformation."
+  },
+  {
+    "system": "BONE TUMOURS 2026 .pdf",
+    "sourceLecture": "BONE TUMOURS 2026 .pdf",
+    "topic": "Bone metastases",
+    "question": "A 67-year-old woman with a known history of breast carcinoma (diagnosed 4 years ago, treated with mastectomy and adjuvant chemotherapy) presents with severe right hip pain for 3 weeks, worse at night and at rest. X-ray shows a lytic lesion in the proximal right femoral shaft with cortical thinning. Bone scan demonstrates multiple areas of increased uptake in the axial skeleton, ribs, and proximal right femur. What is the most likely diagnosis?",
+    "options": [
+      "Primary osteosarcoma of the femur",
+      "Avascular necrosis of the femoral head",
+      "Osteoporotic insufficiency fracture",
+      "Skeletal metastases from breast carcinoma",
+      "Multiple myeloma"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "In a patient with known breast carcinoma, lytic bone lesions with multiple hot spots on bone scan are overwhelmingly likely to represent skeletal metastases. Breast, prostate, lung, kidney, and thyroid are the five most common primary tumours to metastasise to bone. Metastases are far more common than primary bone tumours in adults over 40, and any new bone lesion in a patient with a known malignancy should be assumed to be metastatic until proven otherwise.",
+    "wrongAnswerExplanations": [
+      "Primary osteosarcoma of the femur is extremely rare in a 67-year-old woman without prior radiation exposure; in patients over 40 with a known primary cancer, multiple bone lesions are metastases until proven otherwise.",
+      "Avascular necrosis of the femoral head produces a crescent sign or subchondral collapse on X-ray within the femoral head — it does not cause multiple hot spots on bone scan or lytic cortical lesions in the shaft.",
+      "Osteoporotic insufficiency fractures occur in the vertebrae, proximal femur, or sacrum but do not produce widespread skeletal hot spots or lytic lesions on plain films in this distribution.",
+      "Skeletal metastases from breast carcinoma is correct: known primary + multiple lytic lesions + polyostotic bone scan uptake = metastatic disease until proven otherwise; breast carcinoma is the most common cause of lytic bone metastases in women.",
+      "Multiple myeloma is a valid differential (also causes multiple lytic lesions) but would not be the most likely diagnosis in a patient with a known primary breast carcinoma — myeloma is characterised by punched-out lesions and a negative bone scan (lytic lesions without osteoblastic activity)."
+    ],
+    "clinicalPearl": "Any bone lesion in a patient over 40 with a known primary malignancy is a metastasis until proven otherwise — breast, prostate, lung, kidney, and thyroid are the five most common sources."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "stress and pathological fractures  2.pdf",
+    "topic": "Pathological fracture",
+    "question": "A 72-year-old man with metastatic prostate carcinoma presents to the ED after a trivial trip at home. He reports sudden left thigh pain. X-ray shows a transverse fracture through the proximal left femoral shaft at the site of a pre-existing lytic lesion. He is haemodynamically stable. What is the most appropriate definitive management?",
+    "options": [
+      "Long-leg cast immobilisation and non-weight-bearing for 12 weeks",
+      "External beam radiotherapy to the femur followed by immobilisation",
+      "Intramedullary nailing of the femur",
+      "Palliative oral analgesia only",
+      "Total hip arthroplasty"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Pathological fractures through metastatic lesions in long bones are best managed with surgical stabilisation, typically intramedullary nailing for diaphyseal fractures, to restore function, relieve pain, and allow immediate weight-bearing. Radiotherapy is an important adjunct postoperatively to control local disease, but surgery is the primary treatment. Casting is inadequate as pathological bone heals poorly. The goal is palliative: maintaining mobility and quality of life.",
+    "wrongAnswerExplanations": [
+      "Cast immobilisation is inadequate for a pathological fracture in a long bone: metastatic bone heals poorly, the patient would be bed-bound for months risking DVT/PE/decubitus ulcers, and pain control would be poor.",
+      "Radiotherapy alone is used for impending pathological fractures (prophylactic) or post-operative adjuvant treatment, but not as primary management of an established fracture — it does not restore structural integrity.",
+      "Intramedullary nailing is the correct answer: it provides immediate structural stabilisation, allows early weight-bearing, and controls pain; postoperative radiotherapy is then added to prevent local disease progression.",
+      "Palliative analgesia alone leaves the fracture unstabilised — the patient would have uncontrolled pain and be immobile, dramatically worsening quality of life; surgical fixation is appropriate even in palliative settings.",
+      "Total hip arthroplasty is used for pathological fractures involving the femoral neck or head, not for diaphyseal shaft fractures — intramedullary nailing is the appropriate implant for a mid-shaft lesion."
+    ],
+    "clinicalPearl": "Pathological fractures in long bones require surgical stabilisation (IM nail for diaphysis, arthroplasty for femoral neck) followed by adjuvant radiotherapy — casting is inadequate as tumour bone does not heal normally."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "stress and pathological fractures  2.pdf",
+    "topic": "Impending pathological fracture",
+    "question": "A 65-year-old woman with known lung carcinoma attends the fracture clinic with 2 weeks of worsening left femoral shaft pain. She has not fractured. X-ray shows a lytic lesion in the proximal femoral diaphysis measuring 4 cm, with >50% cortical destruction, but no fracture line. She is ambulatory. Which scoring system is used to assess the risk of pathological fracture and guide prophylactic fixation in this scenario?",
+    "options": [
+      "LRINEC score",
+      "Kocher criteria",
+      "Mirels scoring system",
+      "Tokuhashi score",
+      "SINS (Spinal Instability Neoplastic Score)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Mirels scoring system is used to predict the risk of pathological fracture in long bones with metastatic lesions. It scores four variables: site (upper limb vs lower limb vs peritrochanteric), pain (mild/moderate/functional), lesion type (blastic/mixed/lytic), and cortical destruction (<1/3, 1/3–2/3, >2/3). A score of ≥9 indicates high fracture risk warranting prophylactic fixation. This patient's peritrochanteric, lytic, cortex-destructive painful lesion would likely score ≥9.",
+    "wrongAnswerExplanations": [
+      "The LRINEC (Laboratory Risk Indicator for Necrotising Fasciitis) score is used to risk-stratify suspected necrotising fasciitis — it has no role in bone metastases assessment.",
+      "Kocher criteria are used to differentiate septic arthritis from transient synovitis in children based on fever, WBC, ESR, and non-weight-bearing — not applicable here.",
+      "Mirels scoring system is correct: it specifically quantifies fracture risk in long bone metastases across four domains; a score ≥9 is an indication for prophylactic surgical fixation.",
+      "Tokuhashi score is used to estimate prognosis and guide surgical decision-making in spinal metastases (vertebral involvement), not for long bone metastases.",
+      "SINS (Spinal Instability Neoplastic Score) assesses stability of spinal metastatic lesions and guides surgical vs non-surgical management of the spine — it is not applicable to appendicular long bone lesions."
+    ],
+    "clinicalPearl": "Use the Mirels score for impending pathological fractures in long bones — a score ≥9 indicates prophylactic surgical fixation before the fracture occurs."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "MSK infection 25-26.pdf",
+    "topic": "Acute haematogenous osteomyelitis",
+    "question": "A 7-year-old boy is brought to the ED with a 3-day history of fever (38.9°C), severe right distal tibial pain, and refusal to walk. On examination there is localised tenderness and warmth over the distal tibial metaphysis with no joint effusion. WBC is 17.8 × 10⁹/L, CRP 112 mg/L, ESR 68 mm/hr. Plain X-ray is normal. MRI shows periosteal oedema and marrow signal change in the distal tibia. Blood cultures are taken. What is the most likely causative organism?",
+    "options": [
+      "Streptococcus pyogenes",
+      "Pseudomonas aeruginosa",
+      "Staphylococcus aureus",
+      "Haemophilus influenzae",
+      "Salmonella species"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Staphylococcus aureus is the most common causative organism in acute haematogenous osteomyelitis in all age groups including children. It accounts for approximately 90% of cases. The clinical picture — metaphyseal localisation, fever, raised inflammatory markers, and MRI changes without X-ray abnormality (X-ray lags 10–21 days) — is classic for acute osteomyelitis. Empirical antibiotic therapy should cover S. aureus (including MRSA in high-risk areas).",
+    "wrongAnswerExplanations": [
+      "Streptococcus pyogenes (Group A Strep) can cause osteomyelitis but is much less common than S. aureus and would not be the single most likely organism.",
+      "Pseudomonas aeruginosa is associated with osteomyelitis following puncture wounds to the foot (through trainers) or in intravenous drug users — not typical for a child with haematogenous spread.",
+      "Staphylococcus aureus is correct: it is the dominant pathogen in haematogenous osteomyelitis across all age groups, colonising the highly vascular metaphyseal sinusoids during bacteraemia.",
+      "Haemophilus influenzae type b used to be an important cause in children under 4 years before routine Hib vaccination; it is now rarely encountered in vaccinated populations.",
+      "Salmonella is the most common organism in osteomyelitis associated with sickle cell disease — in the absence of sickle cell disease, it is not the leading cause in a healthy child."
+    ],
+    "clinicalPearl": "S. aureus causes ~90% of acute haematogenous osteomyelitis; empirical treatment must cover it — in children, flucloxacillin IV is first-line (add clindamycin or vancomycin if MRSA suspected)."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "MSK infection 25-26.pdf",
+    "topic": "Acute osteomyelitis — diagnosis and management",
+    "question": "A 6-year-old girl presents with a 4-day history of high fever, left knee pain, and limping. On examination she is systemically unwell (temperature 39.1°C), with localised tenderness over the distal femoral metaphysis but no knee joint effusion. CRP is 94 mg/L. X-ray is normal. MRI of the left knee confirms signal change in the distal femoral metaphysis consistent with osteomyelitis, with no subperiosteal collection. Blood cultures have been taken. She has not received antibiotics. What is the most appropriate immediate management?",
+    "options": [
+      "Oral flucloxacillin and discharge with GP follow-up",
+      "Surgical incision and drainage of the metaphysis",
+      "IV flucloxacillin and inpatient monitoring",
+      "Arthroscopic washout of the knee joint",
+      "NSAIDs and repeat MRI in 48 hours"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Acute haematogenous osteomyelitis without a subperiosteal abscess or joint involvement is managed non-operatively with intravenous antibiotics. IV flucloxacillin (or equivalent anti-staphylococcal agent) achieves higher tissue levels than oral therapy in the acute phase and is recommended for initial treatment. The patient requires inpatient monitoring of inflammatory markers and clinical response; switch to oral antibiotics is appropriate once the patient is afebrile and CRP is falling.",
+    "wrongAnswerExplanations": [
+      "Oral flucloxacillin is used in mild cases or for step-down therapy after IV treatment; for a systemically unwell febrile child with a 4-day history and raised CRP, IV therapy and hospital admission are required.",
+      "Surgical incision and drainage is reserved for acute osteomyelitis complicated by a subperiosteal abscess, failure to respond to 48–72 hours of IV antibiotics, or sequestrum formation — it is not first-line when there is no collection on MRI.",
+      "IV flucloxacillin and inpatient monitoring is correct: this treats the most likely organism (S. aureus), achieves adequate tissue concentrations, and allows reassessment of response; surgery is reserved for complications.",
+      "Arthroscopic washout is the treatment for septic arthritis (joint involvement) — this patient has metaphyseal osteomyelitis without a joint effusion, so joint washout is not indicated.",
+      "NSAIDs alone are insufficient; delaying antibiotics in acute osteomyelitis risks progression to subperiosteal abscess, septic arthritis, chronic osteomyelitis, and septicaemia."
+    ],
+    "clinicalPearl": "Uncomplicated acute osteomyelitis (no abscess on MRI) is managed with IV anti-staphylococcal antibiotics; surgery is reserved for collections, joint involvement, or failure to respond within 48–72 hours."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "MSK infection 25-26.pdf",
+    "topic": "Septic arthritis — Kocher criteria",
+    "question": "A 4-year-old boy is brought to the ED with a 2-day history of right hip pain and refusal to bear weight. He had a mild upper respiratory tract infection last week. Temperature is 38.7°C, WBC is 14.5 × 10⁹/L, ESR is 52 mm/hr. Hip is held in flexion, abduction, and external rotation. There is no bony tenderness. Ultrasound of the right hip shows a small joint effusion. Which combination of Kocher criteria does this child satisfy, and what does it indicate?",
+    "options": [
+      "Two criteria (fever and ESR >40): low probability of septic arthritis; observe",
+      "Three criteria (fever, WBC >12, ESR >40): predicted probability ~73%; likely septic arthritis requiring urgent joint aspiration",
+      "One criterion (non-weight-bearing): low risk; treat as transient synovitis",
+      "Four criteria (fever, WBC >12, ESR >40, non-weight-bearing): predicted probability ~99%; emergency joint washout",
+      "Three criteria satisfying Kocher: confirmed septic arthritis; commence IV antibiotics without aspiration"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Kocher criteria (fever >38.5°C, non-weight-bearing, WBC >12 × 10⁹/L, ESR >40 mm/hr) were derived to differentiate septic arthritis from transient synovitis in children. This child has fever, WBC >12, and ESR >40 = 3 criteria, giving a predicted probability of ~73% for septic arthritis. With 3 criteria, urgent hip aspiration under ultrasound guidance is required to obtain synovial fluid for MC&S; if septic arthritis is confirmed, operative washout is indicated.",
+    "wrongAnswerExplanations": [
+      "Two criteria carry an approximately 40% probability of septic arthritis — not low enough to simply observe; joint aspiration would still be warranted at this threshold in most centres.",
+      "Three criteria (fever, WBC >12, ESR >40) predicting ~73% probability is correct: this child meets fever, raised WBC, and raised ESR, with the fourth criterion (non-weight-bearing) debatable — either way, ≥3 Kocher criteria mandate urgent aspiration/washout.",
+      "One criterion (non-weight-bearing alone) carries only ~3% probability of septic arthritis; this child clearly has more criteria than one, so this answer understates the risk.",
+      "Four criteria approach would give ~99% probability and mandate emergency arthrotomy, but this child has at most 3 of the 4 criteria — non-weight-bearing is ambiguous as the question says refusal to bear weight.",
+      "Antibiotic treatment without aspiration is incorrect — synovial fluid MC&S is essential to guide targeted antibiotic therapy and confirm the diagnosis; antibiotics before aspiration compromise culture results."
+    ],
+    "clinicalPearl": "Kocher criteria: 0 = ~0.2%, 1 = ~3%, 2 = ~40%, 3 = ~73%, 4 = ~99% predicted probability of septic arthritis; 3–4 criteria mandate urgent joint aspiration and washout."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "MSK infection 25-26.pdf",
+    "topic": "Septic arthritis — management",
+    "question": "A 58-year-old man with type 2 diabetes presents with a 3-day history of acute severe right knee pain, fever (38.8°C), and inability to weight-bear. The right knee is hot, swollen, and tender with a large effusion and marked restriction of all movements. CRP is 210 mg/L, WBC 18 × 10⁹/L. Joint aspiration yields 30 mL of turbid yellow fluid; Gram stain shows Gram-positive cocci in clusters. He is given intravenous antibiotics. What is the most appropriate definitive surgical management?",
+    "options": [
+      "Repeated needle aspiration every 24–48 hours until dry",
+      "Immobilisation in a plaster cast for 6 weeks",
+      "Arthroscopic washout of the knee joint",
+      "Open arthrotomy and joint washout",
+      "Total knee replacement within 48 hours"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Septic arthritis of a large joint (knee) requires urgent surgical joint washout. Arthroscopic lavage is the preferred approach in most centres for the knee as it allows thorough joint debridement, irrigation, and synovial biopsy with lower morbidity than open arthrotomy. Open arthrotomy is reserved for failed arthroscopy, anatomically difficult joints, or when an arthroscope is unavailable. Antibiotics alone or repeated aspiration are insufficient for established bacterial septic arthritis, especially in a diabetic patient at risk of cartilage destruction.",
+    "wrongAnswerExplanations": [
+      "Repeated needle aspiration may be used as adjunctive management in some low-risk cases or non-operative candidates, but is inferior to arthroscopic washout for established septic arthritis of the knee in a surgically fit patient.",
+      "Immobilisation alone without joint decompression is inappropriate — septic arthritis causes cartilage destruction within hours via proteolytic enzymes; delayed washout leads to long-term joint destruction.",
+      "Arthroscopic washout is the correct answer: it is the gold standard in surgically accessible joints such as the knee; it provides thorough mechanical debridement, removal of exudate, and enables synovial biopsy for culture.",
+      "Open arthrotomy is appropriate when arthroscopy is unavailable or in joints not amenable to arthroscopy (e.g. hip in neonates), but for the knee in a modern surgical centre, arthroscopy is preferred.",
+      "Total knee replacement in the acute septic phase is contraindicated — implanting a prosthesis into an infected joint virtually guarantees prosthetic joint infection and is never performed acutely."
+    ],
+    "clinicalPearl": "Septic arthritis requires emergency joint washout (arthroscopic in the knee and shoulder; open arthrotomy in the hip); antibiotics alone are insufficient — cartilage is destroyed within hours by bacterial enzymes."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "MSK infection 25-26.pdf",
+    "topic": "Neonatal septic arthritis",
+    "question": "A 12-day-old neonate is reviewed by the paediatricians following maternal Group B Streptococcus (GBS) infection at delivery. The baby is febrile (38.2°C), irritable, not feeding well, and the left leg is held in a position of relative immobility ('pseudoparalysis'). The left hip shows resistance to passive movement. WBC is 22 × 10⁹/L. Ultrasound of the left hip confirms a joint effusion with capsular distension. What is the most appropriate initial management after stabilising the neonate?",
+    "options": [
+      "Oral co-amoxiclav for 4 weeks and observation",
+      "Aspiration of hip effusion under ultrasound guidance and IV antibiotics",
+      "Open arthrotomy and hip washout under general anaesthesia",
+      "Hip spica immobilisation",
+      "MRI hip and watchful waiting for 48 hours"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In a neonate with suspected septic arthritis, urgent joint aspiration under ultrasound guidance is both diagnostic and potentially therapeutic; it must be combined with IV broad-spectrum antibiotics covering GBS and S. aureus (e.g. benzylpenicillin + flucloxacillin or cefuroxime). Aspiration confirms septic arthritis (cell count, Gram stain, MC&S) and may relieve pressure. Neonatal septic arthritis requires a very low threshold for intervention as cartilage and epiphyseal damage can lead to permanent growth disturbance; formal open or arthroscopic washout follows if aspiration is insufficient.",
+    "wrongAnswerExplanations": [
+      "Oral antibiotics are inappropriate for neonatal septic arthritis — IV administration is required to achieve adequate tissue concentrations in a neonate with immature pharmacokinetics and high risk of rapid clinical deterioration.",
+      "Aspiration of hip effusion under ultrasound guidance and IV antibiotics is correct: this is diagnostic (MC&S) and therapeutic (decompression); IV antibiotics targeting GBS and S. aureus are initiated simultaneously; formal washout follows if needed.",
+      "Immediate open arthrotomy under general anaesthesia carries significant anaesthetic risk in a 12-day-old neonate; ultrasound-guided aspiration as a first step is preferred, proceeding to formal washout only if aspiration fails or the baby deteriorates.",
+      "Hip spica immobilisation alone ignores the septic process; immobilisation may have a role post-washout to prevent dislocation but is not treatment for infection.",
+      "Watchful waiting with MRI would dangerously delay treatment in a septic neonate — the hip cartilage and epiphysis can be irreversibly destroyed within hours of established infection."
+    ],
+    "clinicalPearl": "Neonatal septic arthritis presents with pseudoparalysis; treat urgently with US-guided aspiration + IV antibiotics (GBS and S. aureus cover) — delayed treatment leads to avascular necrosis and permanent growth disturbance."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "BONE TUMOURS 2026 .pdf",
+    "topic": "Bone tumour biopsy principles",
+    "question": "A 19-year-old man is referred to your hospital with a suspected primary bone tumour of the left proximal tibia. MRI shows an aggressive intraosseous lesion with cortical breakthrough and soft-tissue extension. The radiologist suggests the lesion may be an osteosarcoma. A colleague in A&E mentions that an orthopaedic registrar on call has offered to biopsy the lesion that night. What is the most important principle regarding biopsy in primary bone tumour management?",
+    "options": [
+      "Biopsy should be performed immediately to avoid delay in diagnosis",
+      "CT-guided percutaneous biopsy is always preferred over open biopsy",
+      "Biopsy must be performed at the specialist bone tumour centre that will perform the definitive resection, with careful planning of the biopsy tract",
+      "Biopsy should be avoided if an MRI has been performed, as imaging is diagnostic",
+      "Fine needle aspiration cytology is sufficient for diagnosis and staging"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Biopsy of a suspected primary bone tumour must be performed at the treating specialist tumour centre, not at the referring hospital. This is because the biopsy tract is contaminated and must be excised en bloc with the tumour at definitive surgery. An incorrectly placed biopsy tract can compromise limb-salvage surgery, potentially necessitating amputation. The biopsy approach (percutaneous vs open, tract direction) must be planned by the same surgeon who will perform the resection.",
+    "wrongAnswerExplanations": [
+      "Speed alone must not override oncological principles — an immediately performed biopsy at the wrong centre with an incorrectly placed tract can render a limb-salvageable tumour unresectable, necessitating amputation.",
+      "CT-guided percutaneous core biopsy is often preferred for deep lesions, but the choice of biopsy type is secondary to the principle that it must be performed at the treating centre; open biopsy may be needed for superficial lesions or when core biopsy is non-diagnostic.",
+      "Biopsy must be performed at the specialist bone tumour centre that will perform the definitive resection is correct: this is the single most important principle — the biopsy tract must be planned so it can be excised en bloc at definitive surgery.",
+      "MRI cannot provide a histological diagnosis — tissue is always required for definitive diagnosis, grading, and tumour subtype determination needed to plan neo-adjuvant chemotherapy and surgery.",
+      "Fine needle aspiration provides cytology only, not architecture — it is insufficient for grading bone tumours, assessing margins, or performing cytogenetics (e.g. for Ewing sarcoma translocation analysis); core biopsy is the minimum requirement."
+    ],
+    "clinicalPearl": "The golden rule of bone tumour biopsy: it must be performed at the treating specialist centre by the operating surgeon — a misplaced biopsy tract can convert a limb-salvage case into an amputation."
+  }
+]

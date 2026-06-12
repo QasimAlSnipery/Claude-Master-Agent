@@ -1,0 +1,301 @@
+[
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Fibroadenoma",
+    "question": "A 22-year-old woman presents with a 2 cm smooth, firm, highly mobile lump in her right breast that she noticed 3 months ago. It is non-tender and does not change with her menstrual cycle. There is no skin change, nipple discharge, or axillary lymphadenopathy. Ultrasound shows a well-defined, homogeneous hypoechoic oval lesion with a thin echogenic capsule. Core biopsy is performed. Which of the following is the most likely histological finding?",
+    "options": [
+      "Proliferation of intralobular stroma with compressed epithelial elements",
+      "Dilated ducts filled with foamy macrophages and periductal fibrosis",
+      "Cystically dilated acini lined by apocrine epithelium",
+      "Intraductal epithelial proliferation with a fibrovascular core",
+      "Lobular hyperplasia with calcification and stromal elastosis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Fibroadenoma is composed of proliferating intralobular fibrous stroma that compresses and distorts the epithelial elements, producing either intracanalicular or pericanalicular patterns. It is the most common benign breast tumour in young women, typically presenting as a smooth, firm, highly mobile ('breast mouse') lump. Ultrasound characteristically shows a well-defined hypoechoic oval lesion.",
+    "wrongAnswerExplanations": [
+      "Correct — fibroadenoma shows proliferating intralobular stroma compressing the ducts/lobules, the hallmark histology.",
+      "Dilated ducts with foamy macrophages and periductal fibrosis describe duct ectasia, which typically presents in perimenopausal women with nipple discharge and retraction.",
+      "Cystically dilated acini with apocrine metaplasia are features of fibrocystic change, not a discrete mobile lump in a young woman.",
+      "A fibrovascular core with intraductal epithelial proliferation describes an intraductal papilloma, which classically presents with bloody nipple discharge.",
+      "Lobular hyperplasia with calcification and stromal elastosis is associated with lobular carcinoma in situ or sclerosing adenosis, not a smooth mobile lump in a 22-year-old."
+    ],
+    "clinicalPearl": "Fibroadenomas are the classic 'breast mouse' of young women — smooth, firm, highly mobile, and composed of proliferating intralobular stroma compressing epithelial elements."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Breast cyst",
+    "question": "A 47-year-old woman presents to the breast clinic with a 3 cm tender lump in her left breast that appeared suddenly over 2 days. She is premenopausal. Examination reveals a smooth, tense, well-defined lump. Ultrasound confirms a thin-walled, anechoic lesion with posterior acoustic enhancement and no internal septations. What is the most appropriate next step in management?",
+    "options": [
+      "Fine needle aspiration of the cyst",
+      "Wide local excision under general anaesthesia",
+      "Core needle biopsy",
+      "MRI of both breasts",
+      "Reassurance and review in 6 months without intervention"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simple breast cyst (anechoic, thin-walled, posterior acoustic enhancement) in a symptomatic premenopausal woman is best managed by fine needle aspiration, which is both diagnostic and therapeutic. Aspiration relieves discomfort immediately and the fluid need not be sent for cytology if it is non-bloodstained and the lump resolves completely. Surgery is not indicated for simple cysts.",
+    "wrongAnswerExplanations": [
+      "Correct — fine needle aspiration is the standard first-line management for a symptomatic simple breast cyst; it is diagnostic and therapeutic in one step.",
+      "Wide local excision is not indicated for a simple cyst; surgery is reserved for complex cysts with intracystic masses or recurrent cysts with atypical features.",
+      "Core biopsy is not the first-line intervention for a clearly simple cyst on ultrasound; it is used when solid or complex lesions require tissue diagnosis.",
+      "MRI is not indicated as the next step; ultrasound has already characterised this as a simple cyst, and MRI adds no further value at this point.",
+      "Expectant management alone is inappropriate for a symptomatic, tense 3 cm cyst causing discomfort; aspiration provides immediate relief."
+    ],
+    "clinicalPearl": "Simple breast cysts are common in premenopausal women aged 40–50 and are best managed by fine needle aspiration — diagnostic and therapeutic in one visit; send fluid for cytology only if bloodstained or the lump does not fully resolve."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Acute mastitis and breast abscess",
+    "question": "A 28-year-old woman who is 6 weeks postpartum and breastfeeding presents with a 4-day history of increasing pain, swelling, and redness in the outer quadrant of her right breast. She is pyrexial at 38.6°C. Examination reveals a 4 cm fluctuant, erythematous mass. Ultrasound confirms a well-defined fluid collection. She has already completed 5 days of flucloxacillin without improvement. What is the most appropriate next step?",
+    "options": [
+      "Ultrasound-guided aspiration or surgical incision and drainage",
+      "Switch to co-amoxiclav and continue breastfeeding",
+      "Urgent mammogram to exclude inflammatory carcinoma",
+      "Cessation of breastfeeding and application of ice packs",
+      "Intravenous cefuroxime for 48 hours then reassess"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A fluctuant breast abscess that has failed a full course of antibiotics requires drainage — either by ultrasound-guided aspiration (preferred in lactational abscesses as it avoids a scar and preserves breastfeeding) or surgical incision and drainage. Antibiotics alone are insufficient once frank pus is present. Breastfeeding should continue or the breast should be expressed to prevent milk stasis.",
+    "wrongAnswerExplanations": [
+      "Correct — a fluctuant abscess failing antibiotics must be drained; ultrasound-guided aspiration is the preferred minimally invasive approach for lactational abscess.",
+      "Switching antibiotics alone is insufficient when a defined abscess is present; antibiotic penetration into an abscess cavity is poor and drainage is required.",
+      "Mammogram is not indicated acutely; imaging has already confirmed a fluid collection, and mammography in a lactating breast is technically limited and unhelpful.",
+      "Cessation of breastfeeding is not necessary and is counterproductive — milk stasis worsens abscess formation; the patient should continue feeding or express regularly.",
+      "IV antibiotics without drainage will not resolve an established abscess; the fluctuant collection requires physical drainage regardless of antibiotic route."
+    ],
+    "clinicalPearl": "A lactational breast abscess that fails antibiotic therapy requires drainage — ultrasound-guided aspiration is preferred over open incision as it preserves cosmesis, allows breastfeeding to continue, and avoids a milk fistula."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Fat necrosis",
+    "question": "A 55-year-old woman presents with a hard, irregular, painless lump in her left breast 6 months after a seat-belt injury sustained in a road traffic collision. There is overlying skin dimpling and the lump measures 2 cm. Mammogram shows a spiculated mass with rim calcification. Core biopsy is planned. What is the most likely diagnosis?",
+    "options": [
+      "Fat necrosis",
+      "Invasive ductal carcinoma",
+      "Sclerosing adenosis",
+      "Phyllodes tumour",
+      "Lipoma"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Fat necrosis classically follows trauma or surgery to the breast and can mimic carcinoma both clinically (hard, irregular lump with skin tethering) and radiologically (spiculated mass with rim calcification). The clear history of antecedent trauma and rim calcification (characteristic of an oil cyst or fat necrosis) are key clues. Core biopsy will show ghost fat cells, foamy macrophages, and fibrosis without malignant cells.",
+    "wrongAnswerExplanations": [
+      "Correct — fat necrosis following trauma classically produces a hard spiculated lump with skin tethering and rim calcification, mimicking carcinoma; the traumatic history is the diagnostic key.",
+      "Invasive ductal carcinoma must be excluded by biopsy but is less likely given the clear traumatic aetiology; carcinoma does not typically follow a specific injury and does not usually show rim calcification.",
+      "Sclerosing adenosis produces a firm lump but is not associated with trauma, does not cause skin dimpling, and does not show the characteristic rim calcification of fat necrosis.",
+      "Phyllodes tumour is typically a rapidly growing smooth mass in middle-aged women and is not associated with trauma or rim calcification.",
+      "A lipoma is soft and compressible, not hard and irregular, and does not produce skin dimpling or spiculated mammographic appearances."
+    ],
+    "clinicalPearl": "Fat necrosis is a great mimic of breast carcinoma — trauma history, rim calcification on mammogram, and foamy macrophages on biopsy are the triad that clinches the benign diagnosis."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Intraductal papilloma",
+    "question": "A 42-year-old woman presents with spontaneous, unilateral, bloodstained discharge from her right nipple over 3 months. She denies any breast lump, skin change, or family history of breast cancer. Examination reveals no discrete lump and discharge can be elicited from a single duct orifice. Ultrasound shows a 6 mm hypoechoic intraductal mass just beneath the areola. Which investigation will best characterise this lesion prior to surgery?",
+    "options": [
+      "Ductoscopy or ductogram (galactogram)",
+      "Core needle biopsy of the periareolar region",
+      "MRI of both breasts with contrast",
+      "Excision of the involved duct segment (microdochectomy) without further imaging",
+      "Discharge cytology alone"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Ductoscopy or galactography (ductogram) best characterises an intraductal lesion causing single-duct bloodstained discharge by visualising or opacifying the affected duct and demonstrating the site, size, and nature of the filling defect before microdochectomy. This guides the surgeon to the correct duct and confirms the extent of disease. Ultrasound has already suggested the lesion but ductoscopy/ductogram defines the intraductal anatomy.",
+    "wrongAnswerExplanations": [
+      "Correct — ductoscopy or ductogram directly visualises the intraductal pathology and guides targeted excision of the affected duct segment.",
+      "Core biopsy of the periareolar region may miss a small intraductal lesion and could cause ductal disruption; ductoscopy is more targeted for intraductal lesions.",
+      "MRI with contrast can demonstrate intraductal lesions but is more expensive, less specific for small papillomas, and less useful for surgical planning than direct ductoscopy.",
+      "Proceeding to microdochectomy without ductoscopy risks removing the wrong duct or incomplete excision; localisation of the culprit duct improves surgical accuracy.",
+      "Discharge cytology has a high false-negative rate for papillomas and cannot localise the lesion or guide surgical planning; it is insufficient as the sole pre-operative investigation."
+    ],
+    "clinicalPearl": "Single-duct bloodstained nipple discharge in a woman over 40 should be investigated with ductoscopy or galactogram to localise the lesion before targeted microdochectomy — cytology alone misses too many papillomas."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Duct ectasia",
+    "question": "A 52-year-old perimenopausal woman presents with bilateral thick, greenish-brown nipple discharge and a burning, periareolar discomfort. She also notices her nipples have become slightly inverted over 6 months. Examination confirms bilateral slit-like nipple inversion and a thickened subareolar ridge but no discrete lump. Ultrasound shows bilateral dilated subareolar ducts. What is the most likely diagnosis?",
+    "options": [
+      "Duct ectasia",
+      "Paget's disease of the nipple",
+      "Bilateral intraductal carcinoma",
+      "Periductal mastitis",
+      "Prolactinoma"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Duct ectasia (also called mammary duct ectasia or plasma cell mastitis) characteristically presents in perimenopausal women with thick, multicoloured (green, brown, or cheesy) bilateral nipple discharge, periareolar inflammation or burning, and slit-like nipple inversion due to periductal fibrosis causing ductal shortening. Dilated subareolar ducts on ultrasound confirm the diagnosis.",
+    "wrongAnswerExplanations": [
+      "Correct — duct ectasia is the classic cause of bilateral thick coloured discharge, periareolar burning, and slit-like nipple inversion in a perimenopausal woman, caused by dilatation and periductal inflammation of the major ducts.",
+      "Paget's disease presents with unilateral nipple eczema, crusting, and erythema rather than bilateral discharge; it is associated with underlying DCIS or invasive carcinoma.",
+      "Bilateral intraductal carcinoma (bilateral DCIS) is rare and would not typically cause multicoloured bilateral discharge; it usually presents as microcalcification on mammogram.",
+      "Periductal mastitis overlaps with duct ectasia but typically occurs in younger women who smoke and causes periareolar abscess formation rather than bilateral coloured discharge.",
+      "Prolactinoma causes bilateral milky (galactorrhoea) discharge, not thick coloured discharge, and would be associated with amenorrhoea and elevated serum prolactin."
+    ],
+    "clinicalPearl": "Duct ectasia is the classic perimenopause breast condition — bilateral, thick, multicoloured nipple discharge with slit-like inversion and dilated subareolar ducts on ultrasound; it requires reassurance, not surgery, unless symptomatic."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Gynaecomastia",
+    "question": "A 16-year-old boy is brought to clinic by his mother with a 4-month history of bilateral tender subareolar breast tissue enlargement. He is otherwise healthy, has no history of medication use, and denies alcohol or drug use. Pubertal development is appropriate for his age. Examination reveals bilateral firm, mobile, disc-like subareolar tissue of approximately 3 cm, symmetrical, with no skin change or axillary lymphadenopathy. Testicular examination is normal. What is the most appropriate management?",
+    "options": [
+      "Reassurance and observation; spontaneous resolution expected",
+      "Testosterone supplementation to suppress oestrogen excess",
+      "Urgent testicular ultrasound to exclude a Leydig cell tumour",
+      "Bilateral subcutaneous mastectomy",
+      "Measurement of serum beta-hCG, LH, FSH, and testosterone"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Pubertal gynaecomastia is extremely common in adolescent males (up to 65% incidence at peak puberty), caused by a transient oestrogen-to-androgen imbalance during the pubertal growth spurt. It is bilateral, tender, and disc-like, and the vast majority resolves spontaneously within 1–2 years without any intervention. With a normal testicular examination and no medication history, reassurance and observation are the appropriate management.",
+    "wrongAnswerExplanations": [
+      "Correct — pubertal gynaecomastia is physiological, bilateral, and self-limiting; reassurance and watchful waiting are all that is needed in an otherwise healthy adolescent with normal examination.",
+      "Testosterone supplementation is not indicated for physiological pubertal gynaecomastia and may paradoxically worsen it through peripheral aromatisation to oestradiol.",
+      "Urgent testicular ultrasound would be warranted for unilateral gynaecomastia with a testicular mass or asymmetric presentation suggesting a Leydig or Sertoli cell tumour, but normal bilateral symmetrical pubertal gynaecomastia does not require this.",
+      "Bilateral subcutaneous mastectomy is only considered for longstanding, non-resolving, cosmetically significant gynaecomastia in adults; it is not indicated in a 16-year-old with pubertal gynaecomastia of 4 months' duration.",
+      "Hormonal workup (beta-hCG, LH, FSH, testosterone) is indicated for unilateral gynaecomastia, a testicular mass, features suggesting pathological cause, or gynaecomastia persisting beyond 2 years — not for typical bilateral pubertal presentation."
+    ],
+    "clinicalPearl": "Pubertal gynaecomastia affects up to two-thirds of adolescent boys, is physiological, and resolves spontaneously within 1–2 years — reassure, do not investigate or treat unless there are features suggesting pathological aetiology."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Triple assessment",
+    "question": "A 38-year-old woman presents with a 2.5 cm firm, irregular lump in her right breast. She has no family history of breast cancer. Triple assessment is performed: clinical examination is suspicious (E4), ultrasound and mammography show a spiculated mass with microcalcification rated U5/M5, and core biopsy reports invasive ductal carcinoma (B5b). How should these results be interpreted?",
+    "options": [
+      "All three components are malignant — proceed to definitive surgical management",
+      "The discordant B5b result should prompt repeat biopsy before any surgery",
+      "Benign features on clinical examination should lead to a 6-month surveillance plan",
+      "A single B5 core biopsy result is insufficient — vacuum-assisted biopsy is mandatory before surgery",
+      "Results are equivocal; MRI is required to resolve the discordance"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Triple assessment consists of clinical examination, imaging (mammogram ± ultrasound), and tissue pathology, each scored 1–5 (1=normal, 2=benign, 3=indeterminate, 4=suspicious, 5=malignant). When all three components independently yield a score of 4 or 5, the results are concordantly malignant and the patient should proceed directly to definitive surgical planning. There is no discordance here requiring further biopsy or MRI.",
+    "wrongAnswerExplanations": [
+      "Correct — when all three arms of triple assessment are independently suspicious or malignant (E4/5, U5/M5, B5), the results are concordant and the patient should proceed to definitive treatment planning without further delay.",
+      "There is no discordance in these results — all three components point to malignancy; repeat biopsy is only indicated when there is genuine discordance between the clinical, imaging, and pathological assessments.",
+      "Clinical examination showing E4 (suspicious) is not a benign feature; moreover, concordant malignant results from imaging and histology override any single mildly discordant clinical finding — surveillance is not appropriate here.",
+      "Vacuum-assisted biopsy adds no benefit when core biopsy has already returned a definitive B5b (invasive carcinoma) result; it is used for indeterminate lesions (B3) or calcification requiring larger tissue samples.",
+      "There is no discordance to resolve — all three components are concordantly malignant; MRI is used for staging or equivocal cases, not to 'resolve' concordant malignant triple assessment."
+    ],
+    "clinicalPearl": "Triple assessment is the gold standard for breast lump evaluation — when clinical examination, imaging, and core biopsy are all concordantly malignant (4 or 5), proceed directly to definitive treatment; discordance (e.g., B2 with U5) mandates repeat sampling."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Fibrocystic change",
+    "question": "A 35-year-old woman presents with bilateral, cyclical breast pain that is worst in the week before her period and relieves with menstruation. She also reports generalised breast lumpiness that fluctuates with her cycle. Examination shows bilateral nodular breast tissue without a dominant lump, and no skin changes or nipple discharge. Ultrasound shows no discrete lesion. What is the most appropriate initial management?",
+    "options": [
+      "Reassurance, well-fitting bra, and evening primrose oil or NSAIDs for cyclical mastalgia",
+      "Start danazol at 200 mg twice daily immediately",
+      "Bilateral core biopsies to exclude atypical ductal hyperplasia",
+      "Hormonal suppression with bromocriptine as first-line therapy",
+      "Refer for bilateral subcutaneous mastectomy to remove the abnormal tissue"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Cyclical mastalgia with no discrete lump and normal imaging is the hallmark of fibrocystic change (also called fibrocystic disease or benign breast change). Initial management is conservative: reassurance that there is no cancer, a well-fitting sports bra, and simple analgesia such as NSAIDs or evening primrose oil (gamolenic acid). Danazol and bromocriptine are second-line agents reserved for severe, refractory cases due to their side-effect profiles.",
+    "wrongAnswerExplanations": [
+      "Correct — cyclical mastalgia without a discrete lump is managed conservatively first with reassurance, bra support, and simple analgesia/evening primrose oil before escalating to hormonal therapy.",
+      "Danazol is effective for severe cyclical mastalgia but is a second-line agent due to androgenic side effects (acne, hirsutism, voice change); it is not appropriate as the initial management for newly presenting cyclical mastalgia.",
+      "Core biopsies are not indicated when ultrasound shows no discrete lesion and the presentation is classical cyclical mastalgia; biopsy would expose the patient to unnecessary risk and is not part of the management of fibrocystic change without a lump.",
+      "Bromocriptine is a dopamine agonist used for cyclical mastalgia but is also second-line due to side effects (nausea, dizziness, hypotension); conservative measures must be tried first.",
+      "Surgery has no role in the management of diffuse fibrocystic change with cyclical mastalgia and no discrete lump; mastectomy would be wholly inappropriate for this benign cyclical condition."
+    ],
+    "clinicalPearl": "Cyclical mastalgia with bilateral nodularity and normal imaging is fibrocystic change — start with reassurance and conservative measures; escalate to evening primrose oil, then danazol or bromocriptine only if conservative treatment fails."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Gynaecomastia — secondary causes",
+    "question": "A 68-year-old man with metastatic prostate cancer being treated with bicalutamide presents with a 3-month history of bilateral tender breast enlargement and nipple sensitivity. He is on no other regular medications. Examination confirms bilateral soft, subareolar breast tissue of approximately 4 cm without any discrete mass or skin change. Which mechanism best explains his gynaecomastia?",
+    "options": [
+      "Androgen receptor blockade leading to unopposed oestrogen activity at breast tissue",
+      "Direct oestrogenic stimulation from bicalutamide metabolites",
+      "Hyperprolactinaemia secondary to bicalutamide",
+      "Cross-reactivity of bicalutamide at oestrogen receptors",
+      "Adrenal androgen excess stimulating peripheral aromatisation"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Bicalutamide is a non-steroidal anti-androgen that competitively blocks androgen receptors throughout the body. In breast tissue, this blockade removes the normal androgenic suppression of oestrogen-mediated proliferation, leaving oestrogen (from peripheral aromatisation of adrenal androgens) to act unopposed at breast tissue receptors, causing gynaecomastia. This is the most common side effect of anti-androgen therapy and occurs in up to 70% of patients on bicalutamide.",
+    "wrongAnswerExplanations": [
+      "Correct — anti-androgens like bicalutamide block androgen receptors, removing androgenic suppression and leaving oestrogen to act unopposed in breast tissue, which drives ductal and stromal proliferation.",
+      "Bicalutamide metabolites do not have direct oestrogenic activity; the mechanism is receptor blockade of androgens rather than direct oestrogen receptor agonism.",
+      "Bicalutamide does not cause hyperprolactinaemia; prolactin elevation causing gynaecomastia is associated with antipsychotics, metoclopramide, or a prolactinoma.",
+      "Bicalutamide acts on androgen receptors, not oestrogen receptors; it does not bind or activate oestrogen receptors.",
+      "Adrenal androgen excess is not caused by bicalutamide; in fact, blocking androgen receptors in the pituitary can raise LH and testosterone through loss of negative feedback, but the net effect on breast is still unopposed oestrogen due to receptor blockade."
+    ],
+    "clinicalPearl": "Anti-androgen therapy (bicalutamide, flutamide) causes gynaecomastia in up to 70% of men with prostate cancer by blocking androgen receptors, leaving oestrogen unopposed in breast tissue — prophylactic radiotherapy or tamoxifen can be used to prevent it."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Non-lactational breast abscess",
+    "question": "A 32-year-old woman who smokes 20 cigarettes per day presents with a recurrent periareolar abscess on the left breast. She has had two previous incision and drainage procedures for similar abscesses in the same area. Examination reveals a small tender periareolar mass at the 5 o'clock position with a discharging sinus tract. She is apyrexial. What is the most appropriate definitive management?",
+    "options": [
+      "Excision of the affected duct and sinus tract after the acute inflammation has settled",
+      "A third course of incision and drainage followed by long-term antibiotics",
+      "Immediate incision and drainage with co-amoxiclav for 2 weeks",
+      "Total duct excision (Hadfield's procedure) for all periareolar ducts",
+      "Cessation of smoking alone will resolve the sinus tract"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Recurrent periareolar abscess with sinus tract formation in a young smoker is periductal mastitis (non-lactational). The definitive treatment after acute inflammation resolves is excision of the underlying affected duct(s) and the associated sinus tract, typically a microdochectomy or duct excision. Smoking impairs ductal keratinocyte function and is a major risk factor; smoking cessation is important but does not alone resolve an established sinus.",
+    "wrongAnswerExplanations": [
+      "Correct — excision of the diseased duct and fistula tract (after acute inflammation settles) is the definitive treatment for recurrent periductal mastitis with sinus formation; simple drainage repeatedly fails to address the underlying ductal pathology.",
+      "Repeated incision and drainage without duct excision will not cure this condition; the underlying duct remains diseased and the sinus tract will recur — this approach has already failed twice.",
+      "Immediate incision and drainage with antibiotics treats only the acute episode; without addressing the diseased duct, recurrence is near-certain, as already demonstrated.",
+      "Total duct excision (Hadfield's procedure) is reserved for severe, bilateral, or refractory duct ectasia — a single-quadrant recurrent abscess with one sinus tract is better managed with targeted single-duct excision to preserve nipple sensation and function.",
+      "Smoking cessation reduces recurrence risk and should be advised, but an established sinus tract will not close spontaneously; surgical excision of the tract and underlying duct is required for cure."
+    ],
+    "clinicalPearl": "Recurrent periareolar abscess with sinus formation in a young smoker = periductal mastitis — definitive cure requires surgical excision of the affected duct and sinus tract after acute inflammation settles; smoking cessation reduces recurrence risk."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Fibroadenoma — management",
+    "question": "A 28-year-old woman has a proven fibroadenoma in her right breast (core biopsy confirmed B2) measuring 1.8 cm on ultrasound. She is anxious about leaving it in place. Triple assessment is fully benign (E2, U2, B2). She has no family history of breast cancer, BRCA mutation testing is not indicated, and she is otherwise well. After counselling, she wishes to know her management options. Which of the following best represents current evidence-based management for a small, proven, benign fibroadenoma in a young woman?",
+    "options": [
+      "Conservative management with reassurance and annual follow-up; excision offered if she prefers or if the lesion grows significantly",
+      "Immediate wide local excision as standard of care for all fibroadenomas",
+      "Radiofrequency ablation is mandatory for fibroadenomas larger than 1.5 cm",
+      "Cryoablation is the only evidence-based non-surgical option and should be first-line",
+      "Hormone therapy with norethisterone to shrink the fibroadenoma before any decision"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Small fibroadenomas (under 3 cm) with concordant benign triple assessment in young women do not require excision. Conservative management with reassurance and surveillance is the standard of care, as most fibroadenomas remain stable or regress with time. Surgical excision is offered if the patient requests it after counselling, if the lesion shows significant growth (>20% increase in maximum diameter), or if it reaches over 3 cm. Patient preference and anxieties are always factored in.",
+    "wrongAnswerExplanations": [
+      "Correct — conservative surveillance is current evidence-based management for small concordantly benign fibroadenomas; excision is elective and reserved for patient preference, growth, or size over 3 cm.",
+      "Immediate excision is not standard of care for all fibroadenomas — it would expose many young women to unnecessary surgical risk, scarring, and anaesthesia for a benign, often self-limiting condition.",
+      "Radiofrequency ablation is an emerging technique being evaluated in trials but is not mandatory or standard of care for fibroadenomas of any size at present.",
+      "Cryoablation is not universally available, not currently the standard first-line recommendation, and has not replaced conservative management as the initial approach for small benign fibroadenomas.",
+      "Hormonal therapy with progestogens is not used to treat fibroadenomas; there is no evidence that norethisterone shrinks fibroadenomas, and this would expose the patient to unnecessary hormonal side effects."
+    ],
+    "clinicalPearl": "A concordantly benign fibroadenoma under 3 cm in a young woman does not need excision — offer conservative surveillance with annual follow-up; operate if the patient prefers after counselling, if the lesion grows >20%, or if it exceeds 3 cm."
+  },
+  {
+    "system": "breast-endo",
+    "sourceLecture": "Benign Breast Diseases.pdf",
+    "topic": "Triple assessment — indeterminate biopsy",
+    "question": "A 45-year-old woman has a 1.5 cm, well-defined hypoechoic breast lump (U3, E3). Core biopsy returns B3 (benign but of uncertain malignant potential), showing atypical ductal hyperplasia (ADH). Mammogram shows no suspicious microcalcification. What is the most appropriate next step?",
+    "options": [
+      "Vacuum-assisted excision biopsy to obtain more tissue and exclude upgrade to DCIS or invasive carcinoma",
+      "Reassure the patient: a B3 result means the lump is benign and no further action is needed",
+      "Proceed directly to wide local excision under general anaesthesia",
+      "Arrange MRI to characterise the lesion and decide whether surgery is needed",
+      "Repeat standard 14-gauge core biopsy in 6 months to reassess"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A B3 result (benign lesion of uncertain malignant potential), particularly atypical ductal hyperplasia (ADH), carries an upgrade risk of up to 20–30% to DCIS or invasive carcinoma on complete excision. The current standard of care is vacuum-assisted excision biopsy (VAEB), which retrieves a larger tissue volume, resolves discordance, and provides definitive characterisation. If VAEB confirms ADH without upgrade, surveillance is appropriate; if it upgrades, surgery follows.",
+    "wrongAnswerExplanations": [
+      "Correct — B3 (ADH) has a significant upgrade risk to DCIS or invasive cancer on complete excision, so vacuum-assisted excision biopsy is the standard next step to resolve the indeterminate result and exclude malignancy.",
+      "A B3 result cannot be dismissed as definitively benign — ADH carries up to a 20–30% upgrade risk to in-situ or invasive carcinoma; reassurance without further investigation is inappropriate and potentially dangerous.",
+      "Proceeding directly to wide local excision under general anaesthesia is an overtreatment for a B3 result; VAEB first provides adequate tissue for diagnosis and avoids an unnecessary operation if the lesion proves benign on complete sampling.",
+      "MRI can provide additional information but does not replace tissue sampling; it would not change the fundamental need for more tissue given the B3 result, and adds cost, time, and false-positive risk.",
+      "Repeating standard core biopsy in 6 months is inadequate — the current core biopsy has already shown ADH, which requires complete excision sampling (VAEB) rather than deferral; delay risks missing an existing upgrade."
+    ],
+    "clinicalPearl": "A B3 biopsy result (especially ADH or lobular neoplasia) mandates vacuum-assisted excision biopsy — upgrade rates to DCIS or invasive carcinoma range from 10–30%, making complete excisional sampling essential before any reassurance."
+  }
+]

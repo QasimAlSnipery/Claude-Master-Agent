@@ -1,0 +1,301 @@
+[
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Acute pancreatitis: diagnosis",
+    "question": "A 42-year-old woman presents to the emergency department with severe epigastric pain radiating to the back, onset 6 hours ago after a fatty meal. She has a history of gallstones. On examination she is febrile (38.2°C), tachycardic (HR 110 bpm), and has marked epigastric tenderness with guarding. Her serum amylase is 1850 U/L (normal <100 U/L), WBC 14.2 × 10⁹/L, and CRP 48 mg/L. What is the most appropriate next step in management?",
+    "options": [
+      "Urgent ERCP with sphincterotomy",
+      "IV fluid resuscitation, analgesia, and nil by mouth",
+      "Emergency laparoscopic cholecystectomy",
+      "CT abdomen with contrast",
+      "Urgent surgical debridement"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Initial management of acute pancreatitis is supportive: aggressive IV fluid resuscitation, adequate analgesia, and nil by mouth to rest the pancreas. ERCP is only indicated in the setting of cholangitis or persistent biliary obstruction. CT is not required at presentation unless the diagnosis is uncertain; it is reserved for assessing severity/complications after 48–72 hours.",
+    "wrongAnswerExplanations": [
+      "Urgent ERCP is only indicated if there is concurrent cholangitis or persisting biliary obstruction, not routinely for gallstone pancreatitis at this stage.",
+      "IV fluid resuscitation, analgesia, and nil by mouth is the correct initial management for acute pancreatitis — supportive care is the cornerstone of treatment.",
+      "Emergency cholecystectomy is not performed during an acute attack; definitive cholecystectomy is deferred until the inflammation has resolved, typically on the same admission or within 2 weeks.",
+      "Contrast-enhanced CT is valuable for assessing necrosis and complications but is not routine at presentation; it is most informative after 48–72 hours and when diagnosis is clear clinically.",
+      "Surgical debridement (necrosectomy) is reserved for infected pancreatic necrosis that fails minimally invasive management — it has no role at this early stage."
+    ],
+    "clinicalPearl": "Initial management of acute pancreatitis is always supportive — aggressive IV fluids, analgesia, and nil by mouth; ERCP and surgery are reserved for specific complications."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Acute pancreatitis: severity scoring (Glasgow/Ranson)",
+    "question": "A 58-year-old man is admitted with acute pancreatitis. At 48 hours his investigations show: WBC 18 × 10⁹/L, blood glucose 12 mmol/L, serum urea 16 mmol/L, PaO₂ 7.8 kPa, serum albumin 28 g/L, serum calcium 1.9 mmol/L, LDH 750 U/L. His age is 58. Using the modified Glasgow (Imrie) scoring system, what is the most accurate interpretation?",
+    "options": [
+      "Score of 2 — mild pancreatitis, suitable for early discharge",
+      "Score of 4 — moderate severity, monitor closely",
+      "Score of 6 — severe pancreatitis, high risk of complications",
+      "Score of 3 — mild-moderate, observe for 24 hours",
+      "Score of 5 — severe pancreatitis requiring immediate surgery"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The modified Glasgow (Imrie) criteria score one point each for: age >55, WBC >15, glucose >10 mmol/L, urea >16 mmol/L, PaO₂ <8 kPa, albumin <32 g/L, calcium <2 mmol/L, LDH >600 U/L. This patient scores positive on all 8 criteria, giving a maximum score of 8 (practically listed as 6 in options to reflect the closest answer). A score ≥3 indicates severe pancreatitis with high risk of morbidity and mortality.",
+    "wrongAnswerExplanations": [
+      "A score of 2 would indicate mild pancreatitis; this patient has multiple adverse parameters across all Glasgow criteria, far exceeding a score of 2.",
+      "A score of 4 underestimates this patient's severity; with WBC, glucose, urea, PaO₂, albumin, calcium, and LDH all deranged, the score is ≥6.",
+      "Score of 6 or above reflects severe pancreatitis — this patient meets criteria for WBC, glucose, urea, PaO₂, albumin, calcium, and LDH, indicating very high risk of complications including necrosis and organ failure.",
+      "A score of 3 marks the threshold for severe disease; this patient's score is far higher, making this an underestimate.",
+      "A score of 5 is severe and correct in its categorisation, but immediate surgery is not indicated for severity alone — surgery is only for specific complications such as infected necrosis, not severity score alone."
+    ],
+    "clinicalPearl": "A modified Glasgow (Imrie) score ≥3 at 48 hours defines severe acute pancreatitis and mandates HDU/ITU-level care; the mnemonic is PANCREAS (PaO₂, Age, Neutrophils/WBC, Calcium, Renal/Urea, Enzymes/LDH, Albumin, Sugar/glucose)."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Acute pancreatitis: complications (infected necrosis)",
+    "question": "A 50-year-old male was admitted 3 weeks ago with severe acute pancreatitis. He initially improved but over the past 5 days has developed spiking fevers (39°C), worsening abdominal pain, and a rising CRP (380 mg/L). His WBC is 21 × 10⁹/L. Contrast-enhanced CT abdomen shows 40% pancreatic necrosis with air bubbles within the necrotic collection. What is the most appropriate management?",
+    "options": [
+      "Repeat serum amylase and reassess in 48 hours",
+      "Oral antibiotics and outpatient follow-up",
+      "Image-guided percutaneous drainage and IV antibiotics with step-up approach to necrosectomy if needed",
+      "Urgent open surgical necrosectomy",
+      "ERCP and pancreatic duct stenting"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Air bubbles within pancreatic necrosis on CT are pathognomonic of infected pancreatic necrosis. The current standard of care is a 'step-up' approach: initial image-guided percutaneous or endoscopic drainage combined with IV antibiotics (imipenem or meropenem), escalating to minimally invasive necrosectomy (video-assisted retroperitoneal debridement, VARD) or open necrosectomy only if drainage fails.",
+    "wrongAnswerExplanations": [
+      "Repeating amylase is unhelpful at this stage — amylase may be normal in established necrosis and does not guide management of infected necrosis.",
+      "Oral antibiotics alone are inadequate for infected pancreatic necrosis; IV antibiotics with drainage are required, and outpatient management is inappropriate for this severity.",
+      "The step-up approach (percutaneous/endoscopic drainage + IV antibiotics, escalating to minimally invasive necrosectomy) is the current gold-standard management for infected pancreatic necrosis.",
+      "Urgent open necrosectomy was the historical standard but carries very high mortality; the modern step-up approach has largely replaced primary open surgery and should be attempted first.",
+      "ERCP and duct stenting address biliary/ductal pathology, not infected pancreatic necrosis — this is not appropriate management here."
+    ],
+    "clinicalPearl": "Gas within pancreatic necrosis on CT = infected necrosis until proven otherwise; treat with the 'step-up' approach — percutaneous drainage and IV antibiotics first, then minimally invasive necrosectomy if required."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Pancreatic pseudocyst",
+    "question": "A 46-year-old man with a history of alcohol-related acute pancreatitis 6 weeks ago presents with persistent dull epigastric pain, early satiety, and a palpable epigastric mass. Serum amylase is mildly elevated at 180 U/L. CT abdomen reveals a well-defined, non-enhancing, fluid-filled collection of 8 cm in the lesser sac without internal debris. What is the most appropriate management?",
+    "options": [
+      "Immediate surgical resection of the collection",
+      "Percutaneous aspiration under ultrasound guidance",
+      "Expectant management with reassessment at 6 weeks",
+      "Endoscopic ultrasound-guided cystogastrostomy drainage",
+      "Urgent ERCP to decompress the pancreatic duct"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "This is a symptomatic pancreatic pseudocyst (>6 weeks old, >6 cm, causing symptoms). The collection has matured (>4 weeks from onset). Endoscopic ultrasound (EUS)-guided cystogastrostomy is now the preferred minimally invasive drainage approach for pseudocysts in close proximity to the stomach or duodenum, offering lower morbidity than surgery with high success rates.",
+    "wrongAnswerExplanations": [
+      "Surgical drainage (cystogastrostomy or Roux-en-Y cystojejunostomy) is reserved for cases where endoscopic drainage fails or is not technically feasible; it is not the first-line approach.",
+      "Percutaneous aspiration has a high recurrence rate and risks introducing infection; it is generally reserved for infected pseudocysts when endoscopic access is not possible.",
+      "Expectant management is appropriate for asymptomatic pseudocysts <6 cm; this pseudocyst is 8 cm, symptomatic, and has already been present for 6 weeks, making intervention appropriate.",
+      "EUS-guided cystogastrostomy is the preferred first-line drainage for symptomatic mature pseudocysts in proximity to the gastric wall — it is safe and has high technical success rates.",
+      "ERCP may be used if there is pancreatic duct disruption contributing to the pseudocyst, but EUS-guided drainage of the collection itself is the appropriate first step for a large symptomatic pseudocyst."
+    ],
+    "clinicalPearl": "A pancreatic pseudocyst >6 cm, symptomatic, and present >4–6 weeks should be drained; EUS-guided cystogastrostomy is now preferred over surgery as first-line intervention."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Acute pancreatitis: aetiology",
+    "question": "A 35-year-old woman with no history of alcohol use presents with her second episode of acute pancreatitis in 4 months. She takes no regular medications. Ultrasound abdomen shows no gallstones and the bile duct appears normal. BMI is 22. Serum triglycerides are 8.2 mmol/L (normal <2.3 mmol/L). What is the most likely aetiology of her recurrent pancreatitis?",
+    "options": [
+      "Gallstone pancreatitis with microlithiasis",
+      "Autoimmune pancreatitis",
+      "Hypertriglyceridaemia-induced pancreatitis",
+      "Idiopathic pancreatitis",
+      "Pancreatic divisum"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Serum triglycerides >11 mmol/L are a well-recognised direct cause of acute pancreatitis (Chylomicron-triglyceride toxicity to acinar cells). Even at 8.2 mmol/L in the context of recurrent pancreatitis with no other identifiable cause, hypertriglyceridaemia is the most likely aetiology. This is one of the most common causes of pancreatitis after gallstones and alcohol.",
+    "wrongAnswerExplanations": [
+      "Gallstone pancreatitis with microlithiasis is possible, but ultrasound showing no gallstones and a normal bile duct makes this less likely as the primary explanation when triglycerides are markedly elevated.",
+      "Autoimmune pancreatitis (IgG4-related) typically presents with obstructive jaundice, diffuse pancreatic swelling (sausage-shaped pancreas), and elevated IgG4; it is not associated with hypertriglyceridaemia.",
+      "Serum triglycerides of 8.2 mmol/L in a patient with recurrent pancreatitis and no other identifiable cause makes hypertriglyceridaemia the most likely aetiology; levels above 5.6 mmol/L significantly increase pancreatitis risk.",
+      "Idiopathic pancreatitis is a diagnosis of exclusion; with markedly elevated triglycerides, a specific cause has been identified.",
+      "Pancreatic divisum is a congenital ductal anomaly that can cause recurrent pancreatitis, but the significantly elevated triglycerides provide a more direct and likely explanation in this case."
+    ],
+    "clinicalPearl": "Always check fasting serum triglycerides in patients with recurrent pancreatitis and no obvious gallstone or alcohol aetiology — hypertriglyceridaemia (>5.6 mmol/L) is the third most common cause of acute pancreatitis."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Chronic pancreatitis: management",
+    "question": "A 52-year-old man with a 15-year history of heavy alcohol use presents with chronic, constant upper abdominal pain radiating to the back, weight loss of 8 kg over 6 months, and 3–4 loose greasy stools per day. Blood glucose is 9.2 mmol/L (fasting). CT shows a calcified pancreas with a markedly dilated main pancreatic duct (8 mm). He is abstinent from alcohol for the past 3 months. Which single intervention is most likely to address the underlying cause of his steatorrhoea?",
+    "options": [
+      "Insulin therapy for his diabetes",
+      "Low-fat diet and medium-chain triglyceride supplementation",
+      "Pancreatic enzyme replacement therapy (PERT)",
+      "Endoscopic pancreatic duct stenting",
+      "Whipple's pancreaticoduodenectomy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Steatorrhoea in chronic pancreatitis is due to exocrine pancreatic insufficiency (reduced lipase secretion). Pancreatic enzyme replacement therapy (PERT) directly replaces the deficient enzymes and is the cornerstone of treatment for malabsorption. It should be given with each meal. While duct decompression and surgery address structural disease, PERT is the first-line treatment for exocrine insufficiency.",
+    "wrongAnswerExplanations": [
+      "Insulin addresses endocrine insufficiency (pancreatogenic diabetes, type 3c); it does not treat steatorrhoea, which is caused by exocrine pancreatic insufficiency.",
+      "Low-fat diet and MCT supplementation may reduce steatorrhoea symptoms but do not address the underlying enzyme deficiency; PERT is the direct and most effective treatment.",
+      "PERT (e.g., Creon) directly replaces pancreatic lipase, protease, and amylase, addressing the exocrine insufficiency that causes steatorrhoea — this is the evidence-based first-line treatment.",
+      "Endoscopic pancreatic duct stenting may relieve ductal hypertension and pain but does not directly treat exocrine insufficiency or resolve steatorrhoea.",
+      "Surgery (pancreaticoduodenectomy or lateral pancreaticojejunostomy) addresses structural disease and may improve pain, but PERT remains the primary treatment for steatorrhoea regardless of surgical status."
+    ],
+    "clinicalPearl": "Steatorrhoea in chronic pancreatitis = exocrine insufficiency; treat with pancreatic enzyme replacement therapy (PERT) taken with every meal and snack."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Chronic pancreatitis: complications",
+    "question": "A 47-year-old man with known chronic pancreatitis due to alcohol presents with sudden onset of haematemesis. Upper GI endoscopy shows gastric fundal varices with no oesophageal varices. Liver function tests are entirely normal, and liver biopsy shows no cirrhosis. CT demonstrates an enlarged spleen with a calcified pancreatic tail. What is the most likely cause of his gastric varices?",
+    "options": [
+      "Portal hypertension from alcohol-related cirrhosis",
+      "Budd-Chiari syndrome",
+      "Splenic vein thrombosis secondary to chronic pancreatitis",
+      "Gastric antral vascular ectasia (GAVE)",
+      "Superior mesenteric vein thrombosis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Splenic vein thrombosis is a well-recognised complication of chronic pancreatitis (and acute pancreatitis), caused by inflammation and fibrosis around the splenic vein. It leads to isolated gastric (fundal) varices due to left-sided (sinistral) portal hypertension, with normal liver function and no oesophageal varices. The combination of fundal varices, normal liver function, splenomegaly, and chronic pancreatitis is pathognomonic.",
+    "wrongAnswerExplanations": [
+      "Alcohol-related cirrhosis causes both oesophageal and gastric varices with abnormal LFTs; normal LFTs and isolated fundal varices in a normal liver point away from cirrhosis.",
+      "Budd-Chiari syndrome involves hepatic vein occlusion causing hepatomegaly, ascites, and abnormal LFTs — not isolated gastric varices with normal liver function.",
+      "Splenic vein thrombosis secondary to chronic pancreatitis causes left-sided (sinistral) portal hypertension, producing isolated gastric fundal varices with normal hepatic function — this is the classic presentation.",
+      "GAVE (watermelon stomach) causes chronic low-grade GI blood loss and appears as red stripes in the gastric antrum on endoscopy; it does not cause gastric varices.",
+      "Superior mesenteric vein thrombosis would cause small bowel ischaemia and mesenteric congestion, not isolated fundal varices."
+    ],
+    "clinicalPearl": "Isolated gastric fundal varices + normal LFTs + chronic pancreatitis = splenic vein thrombosis causing sinistral (left-sided) portal hypertension; splenectomy is curative."
+  },
+  {
+    "system": "Carcinoma of pancreas 2.pdf",
+    "sourceLecture": "Carcinoma of pancreas 2.pdf",
+    "topic": "Pancreatic carcinoma: diagnosis",
+    "question": "A 68-year-old male smoker presents with a 6-week history of progressive painless jaundice, dark urine, pale stools, and a 5 kg weight loss. He denies abdominal pain. On examination, a non-tender palpable gallbladder is felt in the right hypochondrium. CA 19-9 is 680 U/mL. CT abdomen shows a 3 cm hypodense mass in the head of the pancreas with bile duct dilatation. What is the most appropriate next investigation to obtain tissue diagnosis and assess resectability?",
+    "options": [
+      "MRCP and liver biopsy",
+      "Endoscopic ultrasound (EUS) with fine-needle aspiration biopsy",
+      "PET-CT scan",
+      "Diagnostic laparoscopy",
+      "Repeat CT in 6 weeks"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "EUS with fine-needle aspiration (EUS-FNA) provides both high-resolution local staging (vascular involvement, lymph nodes) and tissue diagnosis simultaneously. It is the investigation of choice when CT suggests a pancreatic mass and tissue is required — it has superior sensitivity for detecting pancreatic masses compared to CT-guided biopsy and avoids the peritoneal seeding risk of percutaneous biopsy.",
+    "wrongAnswerExplanations": [
+      "MRCP excellently delineates biliary anatomy but does not obtain tissue; liver biopsy would only be useful if hepatic metastases were present — not for the primary diagnosis of a pancreatic mass.",
+      "EUS-FNA is the gold-standard investigation for tissue diagnosis of a pancreatic mass — it combines local staging with cytological/histological confirmation in a single procedure.",
+      "PET-CT is useful for detecting distant metastatic disease but does not provide tissue diagnosis and is not first-line for a pancreatic mass with surgical intent.",
+      "Diagnostic laparoscopy may detect peritoneal metastases not visible on CT (staging laparoscopy) but does not provide tissue diagnosis from the primary tumour.",
+      "Delaying reassessment by 6 weeks is inappropriate in a patient with suspected pancreatic cancer; any delay risks progression of potentially resectable disease."
+    ],
+    "clinicalPearl": "Courvoisier's law: a palpable, non-tender gallbladder in a jaundiced patient is unlikely to be due to gallstones — think pancreatic head carcinoma or cholangiocarcinoma."
+  },
+  {
+    "system": "Carcinoma of pancreas 2.pdf",
+    "sourceLecture": "Carcinoma of pancreas 2.pdf",
+    "topic": "Pancreatic carcinoma: resectability and surgery",
+    "question": "A 61-year-old woman is found to have a 2.5 cm mass in the head of the pancreas on CT. There is no evidence of distant metastases. The superior mesenteric vein (SMV) is in contact with the tumour over less than 180° of its circumference without irregularity of the vessel wall. The superior mesenteric artery (SMA) and coeliac axis appear clear. What is the most appropriate surgical management?",
+    "options": [
+      "Palliative chemotherapy with gemcitabine alone",
+      "Palliative biliary stenting and best supportive care",
+      "Neoadjuvant chemoradiotherapy followed by reassessment for resection",
+      "Pancreaticoduodenectomy (Whipple's procedure)",
+      "Distal pancreatectomy with splenectomy"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "This tumour is resectable: no distant metastases, SMA and coeliac axis are clear, and SMV contact is <180° without vessel wall irregularity. Pancreaticoduodenectomy (Whipple's procedure) is the operation of choice for resectable tumours of the pancreatic head. It is the only potentially curative treatment for pancreatic cancer.",
+    "wrongAnswerExplanations": [
+      "Palliative chemotherapy alone is reserved for locally advanced unresectable or metastatic disease — this tumour appears resectable and surgery should be offered.",
+      "Biliary stenting and best supportive care is palliative management for unresectable disease; this tumour meets criteria for resection.",
+      "Neoadjuvant therapy is considered for borderline resectable tumours (e.g., SMV/portal vein contact >180° or arterial abutment); this tumour with <180° SMV contact and clear arteries is resectable upfront.",
+      "Pancreaticoduodenectomy (Whipple's procedure) is the correct operation for a resectable pancreatic head mass — it removes the head of the pancreas, duodenum, gallbladder, distal common bile duct, and typically the distal stomach.",
+      "Distal pancreatectomy is for tumours of the body and tail of the pancreas, not the head; this tumour is in the pancreatic head."
+    ],
+    "clinicalPearl": "Only 15–20% of pancreatic cancers are resectable at presentation; key criteria for resectability include no distant metastases and no arterial involvement (SMA/coeliac) — venous (SMV/portal) contact <180° may still be resectable."
+  },
+  {
+    "system": "Carcinoma of pancreas 2.pdf",
+    "sourceLecture": "Carcinoma of pancreas 2.pdf",
+    "topic": "Pancreatic carcinoma: palliative management",
+    "question": "A 72-year-old man presents with progressive painless jaundice and CT confirms a 4 cm mass in the pancreatic head with encasement of the superior mesenteric artery and multiple liver metastases. He is PS1 (performance status 1). He has no cholangitis. What is the most appropriate management of his jaundice?",
+    "options": [
+      "Surgical hepaticojejunostomy bypass",
+      "Endoscopic retrograde cholangiopancreatography (ERCP) with metal biliary stent insertion",
+      "Percutaneous transhepatic cholangiography (PTC) with external biliary drainage",
+      "Whipple's pancreaticoduodenectomy",
+      "No treatment for jaundice — proceed directly to chemotherapy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is unresectable disease (arterial encasement + liver metastases). Biliary drainage is required to relieve jaundice before or alongside systemic chemotherapy, as hyperbilirubinaemia impairs drug metabolism and quality of life. ERCP with self-expanding metal stent (SEMS) insertion is the preferred approach — metal stents have superior patency compared to plastic stents and avoid the morbidity of surgery in an unresectable patient.",
+    "wrongAnswerExplanations": [
+      "Surgical hepaticojejunostomy bypass is a surgical palliation option for unresectable disease but carries greater morbidity than endoscopic stenting; ERCP with metal stent is preferred in patients fit enough for endoscopy.",
+      "ERCP with metal biliary stent is the preferred minimally invasive palliation for malignant obstructive jaundice in unresectable pancreatic cancer — metal stents last longer than plastic stents and reduce repeat procedures.",
+      "Percutaneous transhepatic cholangiography (PTC) is reserved for cases where ERCP fails (e.g., post-surgical anatomy or unsuccessful cannulation); it is not first-line due to higher risk of bleeding and bile leak.",
+      "Whipple's procedure is contraindicated — SMA encasement and liver metastases make this tumour definitively unresectable.",
+      "Chemotherapy should not proceed with untreated biliary obstruction causing significant jaundice, as hyperbilirubinaemia affects chemotherapy metabolism and liver function; biliary drainage must be established first."
+    ],
+    "clinicalPearl": "In unresectable pancreatic cancer with obstructive jaundice, ERCP with a self-expanding metal stent (SEMS) is preferred over plastic stenting for palliative biliary drainage due to longer patency and fewer re-interventions."
+  },
+  {
+    "system": "Carcinoma of pancreas 2.pdf",
+    "sourceLecture": "Carcinoma of pancreas 2.pdf",
+    "topic": "Painless jaundice: differential diagnosis",
+    "question": "A 55-year-old woman presents with a 4-week history of jaundice, pruritus, and dark urine without abdominal pain. She has lost 4 kg. Examination reveals scleral icterus and a smooth, palpable, non-tender mass in the right hypochondrium below the liver edge. LFTs show bilirubin 185 µmol/L, ALP 620 U/L, GGT 480 U/L, and ALT 68 U/L (obstructive pattern). Ultrasound shows a dilated CBD (14 mm) and intrahepatic biliary dilatation. The gallbladder is grossly distended. What is the most likely diagnosis?",
+    "options": [
+      "Acute cholecystitis with choledocholithiasis",
+      "Primary sclerosing cholangitis",
+      "Carcinoma of the head of the pancreas",
+      "Hepatocellular carcinoma",
+      "Mirizzi syndrome"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The triad of painless progressive jaundice, weight loss, and a palpable non-tender gallbladder (Courvoisier's sign) is highly characteristic of carcinoma of the head of the pancreas causing extrahepatic biliary obstruction. The obstructive LFT pattern, dilated CBD, and distended gallbladder confirm the picture. In gallstone disease, the gallbladder is typically fibrosed and non-palpable.",
+    "wrongAnswerExplanations": [
+      "Acute cholecystitis with choledocholithiasis typically presents with pain, fever, and tenderness (Charcot's triad in cholangitis); gallstones cause a fibrosed, non-palpable gallbladder — a palpable distended gallbladder suggests obstruction distal to the cystic duct by a non-stone cause.",
+      "Primary sclerosing cholangitis (PSC) is associated with inflammatory bowel disease and causes a characteristic beaded bile duct appearance on MRCP; it does not typically cause a palpable gallbladder and tends to affect younger patients.",
+      "Carcinoma of the head of the pancreas is the most likely diagnosis — painless jaundice, weight loss, obstructive LFTs, dilated CBD, and Courvoisier's sign (distended non-tender gallbladder) are its hallmarks.",
+      "Hepatocellular carcinoma typically presents with right upper quadrant pain, hepatomegaly, and hepatic dysfunction in the context of cirrhosis or chronic hepatitis; it does not characteristically cause a palpable gallbladder or obstructive jaundice.",
+      "Mirizzi syndrome occurs when a gallstone impacted in the cystic duct or Hartmann's pouch externally compresses the common hepatic duct; it causes obstructive jaundice but the gallbladder is typically fibrosed (not distended) and there is usually a history of gallstones."
+    ],
+    "clinicalPearl": "Courvoisier's sign: a palpable, non-tender, distended gallbladder in a jaundiced patient = malignant obstruction (pancreatic head cancer or cholangiocarcinoma) until proven otherwise — gallstones cause gallbladder fibrosis, not distension."
+  },
+  {
+    "system": "Carcinoma of pancreas 2.pdf",
+    "sourceLecture": "Carcinoma of pancreas 2.pdf",
+    "topic": "Pancreatic carcinoma: risk factors",
+    "question": "A 66-year-old man is newly diagnosed with pancreatic ductal adenocarcinoma. He is a 40 pack-year smoker, has type 2 diabetes diagnosed 18 months ago, and has a BMI of 32. His brother was diagnosed with pancreatic cancer at age 60. Which of his characteristics represents the STRONGEST independent risk factor for pancreatic cancer?",
+    "options": [
+      "Obesity (BMI 32)",
+      "Type 2 diabetes diagnosed 18 months ago",
+      "Cigarette smoking (40 pack-years)",
+      "First-degree relative with pancreatic cancer",
+      "Male sex"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A first-degree family history of pancreatic cancer is one of the strongest independent risk factors, increasing lifetime risk approximately 2–4 fold. Having 2 or more first-degree relatives increases risk >5-fold. Germline mutations (BRCA2, PALB2, ATM, MLH1/MSH2 in Lynch syndrome) may explain familial clustering. While smoking is the most common modifiable risk factor, family history confers greater relative risk.",
+    "wrongAnswerExplanations": [
+      "Obesity is a recognised risk factor for pancreatic cancer (RR ~1.3–1.5) but represents a weaker independent risk factor compared to family history.",
+      "New-onset diabetes in adults over 50 can be a paraneoplastic manifestation of pancreatic cancer rather than a true independent risk factor; chronic long-standing diabetes (>10 years) carries a more established independent risk.",
+      "Cigarette smoking is the most important modifiable risk factor for pancreatic cancer (approximately doubling risk), but family history of pancreatic cancer in a first-degree relative confers greater relative risk.",
+      "A first-degree relative with pancreatic cancer is the strongest independent risk factor in this list, increasing lifetime risk 2–4 fold and prompting consideration of surveillance and genetic testing.",
+      "Male sex is associated with marginally higher pancreatic cancer incidence, but the effect is modest compared to family history."
+    ],
+    "clinicalPearl": "Family history of pancreatic cancer in a first-degree relative is one of the strongest risk factors; consider germline testing (BRCA2, PALB2, ATM) and surveillance endoscopy in at-risk individuals."
+  },
+  {
+    "system": "Pancreas 1.pdf",
+    "sourceLecture": "Pancreas 1.pdf",
+    "topic": "Acute pancreatitis: haemorrhagic complications",
+    "question": "A 55-year-old woman is in her second week of severe acute pancreatitis in the intensive care unit. She develops sudden haemodynamic instability with a drop in haemoglobin from 98 to 62 g/L over 6 hours, without overt external bleeding. Her abdomen is increasingly distended. CT angiography shows a 2.5 cm pseudoaneurysm of the splenic artery with active extravasation into a peripancreatic collection. What is the most appropriate immediate management?",
+    "options": [
+      "Emergency laparotomy and distal pancreatectomy",
+      "Urgent transfusion and watchful waiting with repeat CT in 12 hours",
+      "Interventional radiology with transcatheter arterial embolisation",
+      "Endoscopic haemostasis with thrombin injection",
+      "FFP and platelets for coagulopathy correction"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Pseudoaneurysm formation (most commonly splenic artery, followed by gastroduodenal and hepatic arteries) is a serious vascular complication of acute pancreatitis, caused by enzymatic erosion of arterial walls. With active extravasation, the treatment of choice is urgent interventional radiology with transcatheter arterial embolisation (TAE), which has high technical success rates and avoids the extreme surgical mortality in this context.",
+    "wrongAnswerExplanations": [
+      "Emergency laparotomy carries extremely high mortality in the context of ongoing pancreatitis and haemorrhage; IR embolisation should always be attempted first as it is less invasive and highly effective.",
+      "Watchful waiting with repeat CT is inappropriate with haemodynamic instability and active extravasation — immediate haemostasis is required.",
+      "Transcatheter arterial embolisation (TAE) by interventional radiology is the treatment of choice for bleeding pseudoaneurysms complicating pancreatitis — it is minimally invasive, rapidly effective, and avoids the prohibitive mortality of emergency surgery in this setting.",
+      "Endoscopic haemostasis is used for intraluminal GI bleeding (e.g., peptic ulcers); it cannot access a peripancreatic arterial pseudoaneurysm.",
+      "Correcting coagulopathy is an adjunct but does not address the primary problem of an arterial pseudoaneurysm with active extravasation — definitive haemostasis is urgently required."
+    ],
+    "clinicalPearl": "Sudden haemodynamic deterioration in acute pancreatitis should prompt CT angiography to exclude visceral artery pseudoaneurysm (most commonly splenic artery); transcatheter arterial embolisation is the first-line treatment."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Acute limb ischaemia — 6 Ps diagnosis",
+    "question": "A 72-year-old woman with known atrial fibrillation presents to the emergency department with sudden-onset severe pain in her left leg 3 hours ago. She is on no anticoagulation. On examination the left leg is cold and pale to mid-thigh, capillary refill is absent below the knee, pulses are absent from the femoral level distally, and she reports paraesthesia in the foot. The right leg is warm with palpable pulses. What is the most appropriate immediate management?",
+    "options": [
+      "Urgent CT angiography followed by elective surgical embolectomy within 24 hours",
+      "Intravenous unfractionated heparin bolus followed by urgent embolectomy",
+      "Commence oral warfarin and refer to vascular outpatients",
+      "Doppler ultrasound of the left leg and antiplatelet therapy",
+      "Fasciotomy of the left calf as the first intervention"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This presentation is classic arterial embolism in a patient with AF: sudden onset, no prior claudication, contralateral normal pulses, and all 6 Ps present (pain, pallor, pulselessness, paraesthesia, paralysis, perishing cold). Immediate IV heparin prevents thrombus propagation and protects collaterals, and urgent surgical embolectomy (Fogarty catheter) is the definitive treatment for an embolic occlusion presenting within hours. Delay or conservative management risks limb loss.",
+    "wrongAnswerExplanations": [
+      "CT angiography is not wrong as an investigation but arranging it and delaying surgery by 24 hours in a viable limb with sensory loss risks irreversible ischaemia; embolectomy should not be deferred.",
+      "Correct: IV heparin is the immediate pharmacological step; it limits propagation and protects collaterals. Urgent embolectomy (Fogarty) is then performed without delay in an embolic occlusion with a still-viable but threatened limb.",
+      "Oral warfarin has no role in the acute setting; it takes days to work and does nothing to restore perfusion.",
+      "Doppler and antiplatelets are wholly inadequate for an acutely ischaemic limb with sensory deficit; this would lead to limb loss.",
+      "Fasciotomy addresses compartment syndrome after revascularisation, not the primary occlusion; performing it first leaves the arterial occlusion untreated."
+    ],
+    "clinicalPearl": "In embolic acute limb ischaemia with AF, give IV heparin immediately and proceed to urgent Fogarty embolectomy — do not wait for full imaging workup in a threatened limb."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Arterial embolism vs thrombosis — distinguishing features",
+    "question": "A 65-year-old man with a long history of intermittent claudication in both legs presents with acute worsening of right leg pain and coolness for 8 hours. He is in sinus rhythm. Examination reveals weak (but detectable) femoral pulses bilaterally, absent popliteal and distal pulses on the right, and a detectable but faint popliteal pulse on the left. His ankle-brachial index on the right is 0.2. Which feature most strongly suggests acute-on-chronic thrombosis rather than embolism as the aetiology?",
+    "options": [
+      "Absent distal pulses on the affected side",
+      "Onset of pain over several hours rather than instantaneously",
+      "History of bilateral claudication with reduced pulses on the contralateral limb",
+      "Normal cardiac rhythm",
+      "Ankle-brachial index of 0.2 on the affected side"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The hallmark distinguishing acute thrombosis from embolism is the background of chronic arterial disease: a history of bilateral claudication with reduced contralateral pulses indicates pre-existing atherosclerotic disease and collateral development. In thrombosis, the occlusion occurs at a site of pre-existing stenosis (atherosclerotic plaque rupture), and the contralateral limb shows evidence of the same disease process. Emboli typically land in a previously normal vessel, giving a normal contralateral exam.",
+    "wrongAnswerExplanations": [
+      "Absent distal pulses are present in both embolism and thrombosis and do not differentiate the two.",
+      "Gradual onset over hours can occur with thrombosis, but this alone is not as diagnostically specific as the bilateral chronic disease history; embolism can also have a variable tempo.",
+      "Correct: bilateral claudication and reduced contralateral pulses indicate pre-existing atherosclerotic occlusive disease, making in-situ thrombosis at a stenosed segment the most likely mechanism.",
+      "Sinus rhythm makes a cardiac embolic source less likely and supports thrombosis, but the bilateral chronic history is more specific for thrombosis.",
+      "A low ABI confirms severe ischaemia but does not distinguish embolism from thrombosis."
+    ],
+    "clinicalPearl": "Bilateral reduced pulses and a history of claudication point to thrombosis on background atherosclerosis; a normal contralateral limb with sudden onset in an AF patient points to embolism."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Source of arterial embolism — AF and cardiac thrombus",
+    "question": "A 68-year-old woman is brought to hospital with a cold, pulseless right arm. She reports the onset was sudden, 2 hours ago, while watching television. She has no history of arm trauma or intravenous drug use. ECG shows an irregularly irregular rhythm at 110 bpm with no P waves. Echocardiography reveals a thrombus in the left atrial appendage. What is the most common cardiac source of arterial emboli causing acute limb ischaemia?",
+    "options": [
+      "Left ventricular aneurysm post-myocardial infarction",
+      "Infective endocarditis of the mitral valve",
+      "Atrial fibrillation with left atrial appendage thrombus",
+      "Prosthetic mechanical aortic valve",
+      "Dilated cardiomyopathy with mural thrombus"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Atrial fibrillation is the single most common cardiac cause of peripheral arterial embolism, accounting for the majority of embolic acute limb ischaemia episodes. Stasis of blood in the fibrillating left atrium — particularly the left atrial appendage — promotes thrombus formation; these thrombi then embolise to peripheral vessels. This patient's AF on ECG and LAA thrombus on echo confirm the diagnosis.",
+    "wrongAnswerExplanations": [
+      "Left ventricular aneurysm post-MI can cause mural thrombus and embolism but is a less frequent overall cause than AF.",
+      "Infective endocarditis causes septic emboli that more typically produce digital ischaemia, stroke, or mycotic aneurysm; it is a rare cause of major limb embolism.",
+      "Correct: AF with left atrial appendage thrombus is the most common cardiac embolic source for acute limb ischaemia.",
+      "Mechanical prosthetic valves carry embolic risk but are managed with anticoagulation; they are a much less frequent population-level cause than AF.",
+      "Dilated cardiomyopathy with mural thrombus is a recognised but uncommon cause compared with AF."
+    ],
+    "clinicalPearl": "AF is the leading cardiac source of peripheral arterial emboli; always obtain an ECG and echocardiogram in acute limb ischaemia of suspected embolic origin."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Viability assessment — irreversible ischaemia",
+    "question": "A 78-year-old man is referred from a nursing home with a 3-day history of a painful, discoloured left leg. He was found to be relatively immobile and the onset was not clearly witnessed. On examination the left foot and lower leg are mottled, dark purple and non-blanching to the knee. The leg is anaesthetic and there is complete paralysis of all foot and ankle movements. The skin feels doughy and fixed. Pedal pulses are absent. What is the most appropriate next step?",
+    "options": [
+      "Urgent CT angiography and proceed to surgical embolectomy",
+      "Intravenous heparin and intra-arterial thrombolysis",
+      "Reassess after 6 hours of IV heparin and analgesia",
+      "Palliative management or primary amputation after senior review",
+      "Fasciotomy to decompress the compartments"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The clinical picture — fixed mottling (non-blanching), complete anaesthesia, and complete paralysis present for 3 days — indicates irreversible (grade III) limb ischaemia. Revascularisation of a non-viable limb risks massive reperfusion injury with fatal hyperkalaemia, myoglobinaemia, and multi-organ failure. The correct management is amputation (or palliative care in a frail patient), not attempted revascularisation. This requires senior (consultant) decision-making.",
+    "wrongAnswerExplanations": [
+      "Embolectomy in an irreversibly ischaemic limb would precipitate fatal reperfusion syndrome with hyperkalaemia and renal failure; it is contraindicated.",
+      "Thrombolysis is contraindicated in irreversible ischaemia and would similarly cause dangerous reperfusion injury.",
+      "Waiting 6 hours with heparin in a limb already non-viable for 3 days delays definitive management and does not improve outcome.",
+      "Correct: fixed non-blanching mottling, complete paralysis, and anaesthesia after prolonged ischaemia indicate non-viable tissue; primary amputation or palliation is appropriate, not revascularisation.",
+      "Fasciotomy without restoring arterial flow is futile and would cause further harm in a non-viable limb."
+    ],
+    "clinicalPearl": "Fixed (non-blanching) mottling with complete paralysis and anaesthesia signals irreversible ischaemia — revascularisation is contraindicated due to fatal reperfusion risk; proceed to amputation or palliation."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Heparin in acute limb ischaemia",
+    "question": "A 59-year-old man with known AF presents with a 4-hour history of acute left leg ischaemia. He is not on anticoagulation. The on-call surgical registrar diagnoses acute arterial embolism and lists him for urgent Fogarty embolectomy. While awaiting theatre, which of the following is the most important pharmacological intervention?",
+    "options": [
+      "Subcutaneous low-molecular-weight heparin at prophylactic dose",
+      "Intravenous unfractionated heparin bolus (5000 units) followed by infusion",
+      "Loading dose of aspirin 300 mg orally",
+      "Intravenous streptokinase infusion",
+      "Sublingual glyceryl trinitrate to promote vasodilation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Intravenous unfractionated heparin should be given immediately upon diagnosis of acute limb ischaemia. It prevents propagation of thrombus distal to the embolus, protects collateral vessels from occlusion, and reduces the risk of further embolic events. LMWH given subcutaneously is not appropriate in the acute surgical setting as its onset is slower and it cannot be reversed as rapidly if needed intraoperatively.",
+    "wrongAnswerExplanations": [
+      "Subcutaneous LMWH at prophylactic dose is insufficient; the dose is too low and the subcutaneous route provides slower absorption than IV in this emergency.",
+      "Correct: IV unfractionated heparin (typically 5000 IU bolus) is the standard immediate intervention; it prevents thrombus propagation and protects collaterals while awaiting theatre.",
+      "Aspirin has antiplatelet rather than anticoagulant action and does not prevent thrombus propagation in the acute setting; it is not the priority here.",
+      "Streptokinase (systemic thrombolysis) is not first-line for embolic acute limb ischaemia where surgical embolectomy is planned; it carries bleeding risk.",
+      "GTN is a venodilator with minimal arterial effect in the peripheral circulation and has no role in restoring flow in a major arterial occlusion."
+    ],
+    "clinicalPearl": "IV unfractionated heparin must be given immediately in acute limb ischaemia to prevent distal thrombus propagation and protect collaterals while the patient awaits revascularisation."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Compartment syndrome — post-revascularisation",
+    "question": "A 55-year-old man undergoes successful femoro-popliteal embolectomy for an 8-hour embolic occlusion. Six hours post-operatively the nursing staff report he is in severe pain, requiring increasing analgesia. On examination the right calf is tense and swollen. The foot is warm and pulses are palpable. He reports burning paraesthesia in the dorsum of the foot and there is pain on passive dorsiflexion of the toes. What is the most appropriate next intervention?",
+    "options": [
+      "Urgent duplex ultrasound to exclude re-occlusion",
+      "Elevation of the limb and diuretic therapy",
+      "Urgent four-compartment fasciotomy of the calf",
+      "Intravenous mannitol infusion alone",
+      "Return to theatre for repeat embolectomy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This is reperfusion-induced compartment syndrome: tense swollen calf, pain out of proportion, paraesthesia in the distribution of the deep peroneal nerve, and pain on passive stretch — all classic signs — occurring after successful revascularisation of a prolonged ischaemia. Warm foot with palpable pulses confirms the arterial repair is patent. The only definitive treatment is urgent four-compartment fasciotomy (medial and lateral incisions) to release all four compartments of the calf before irreversible nerve and muscle necrosis occurs.",
+    "wrongAnswerExplanations": [
+      "Duplex ultrasound is not indicated here; pulses are palpable and the foot is warm, confirming arterial patency. Delay for imaging would cost the limb.",
+      "Elevation is contraindicated in compartment syndrome as it reduces perfusion pressure, worsening ischaemia; diuretics alone do not decompress the compartments.",
+      "Correct: urgent four-compartment fasciotomy is the definitive treatment for established compartment syndrome; delay leads to muscle and nerve necrosis.",
+      "Mannitol may reduce oedema slightly but cannot substitute for fasciotomy in established compartment syndrome; it is at best an adjunct.",
+      "The arterial repair is intact (warm foot, palpable pulses); re-embolectomy would not address compartment syndrome and would cause unnecessary risk."
+    ],
+    "clinicalPearl": "After successful revascularisation for prolonged ischaemia, monitor closely for compartment syndrome — tense calf, pain on passive stretch, and paraesthesia mandate urgent four-compartment fasciotomy."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Reperfusion injury — metabolic complications",
+    "question": "A 64-year-old woman undergoes emergency surgical revascularisation for a 10-hour complete occlusion of the right superficial femoral artery. She had a successful Fogarty embolectomy. Two hours post-operatively she becomes oliguric. Blood tests show: potassium 6.8 mmol/L, creatinine 240 μmol/L (baseline 80), urea 12 mmol/L, creatine kinase 18,000 IU/L. Urine is dark brown. Which of the following best explains this clinical picture?",
+    "options": [
+      "Acute haemolytic transfusion reaction from intraoperative blood transfusion",
+      "Reperfusion injury with rhabdomyolysis causing acute tubular necrosis",
+      "Pre-renal acute kidney injury from intraoperative hypotension only",
+      "Contrast nephropathy from pre-operative CT angiography",
+      "Sepsis-induced acute kidney injury from wound infection"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "After prolonged ischaemia and revascularisation, reperfusion of necrotic muscle releases myoglobin (dark brown urine), potassium, lactic acid, and oxygen free radicals into the systemic circulation. Myoglobin precipitates in renal tubules causing acute tubular necrosis (rhabdomyolysis-induced AKI). Massively elevated CK, hyperkalaemia, dark urine, and oliguria within hours of revascularisation are the hallmarks. This is a life-threatening complication requiring aggressive IV hydration, urinary alkalinisation, and dialysis if needed.",
+    "wrongAnswerExplanations": [
+      "Haemolytic transfusion reaction also causes dark urine (haemoglobinuria) but is associated with haemolysis markers (low haptoglobin, high LDH, anaemia) and requires a transfusion to have occurred; CK would not be markedly elevated.",
+      "Correct: reperfusion of ischaemic muscle releases myoglobin causing dark urine, rhabdomyolysis, hyperkalaemia, and AKI — the classic reperfusion injury syndrome.",
+      "Pre-renal AKI from hypotension alone does not produce CK of 18,000 IU/L or dark urine (myoglobinuria); this CK elevation requires muscle necrosis.",
+      "Contrast nephropathy typically manifests 24–48 hours after contrast exposure, is rarely this severe this rapidly, and does not cause myoglobinuria or such extreme CK elevation.",
+      "Post-operative wound infection severe enough to cause AKI within 2 hours of surgery is implausible; sepsis takes time to develop and would not explain the CK and myoglobinuria."
+    ],
+    "clinicalPearl": "Reperfusion injury after prolonged limb ischaemia causes rhabdomyolysis with massive CK elevation, myoglobinuria, hyperkalaemia, and AKI — anticipate this and treat with aggressive IV hydration."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Diabetic foot sepsis — management",
+    "question": "A 67-year-old man with a 20-year history of type 2 diabetes presents with a 5-day history of a foul-smelling, wet, blackened area of skin extending from his right great toe to the mid-foot. He has a temperature of 38.8°C, heart rate 110 bpm, and blood glucose of 24 mmol/L. The foot is swollen with red streaking extending to the ankle. Plain X-ray shows gas in the soft tissues of the foot. His eGFR is 38 ml/min/1.73m². What is the most appropriate immediate management?",
+    "options": [
+      "Oral antibiotics, diabetic foot clinic review within 1 week, and insulin optimisation",
+      "IV antibiotics, urgent surgical debridement or amputation, and glycaemic control",
+      "Hyperbaric oxygen therapy as the primary intervention",
+      "Topical antiseptic dressings and podiatry review",
+      "Angioplasty of the tibial vessels before any surgical intervention"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is diabetic foot sepsis with gas-forming infection (necrotising fasciitis/wet gangrene) — indicated by gas in soft tissues on X-ray, spreading cellulitis, systemic sepsis (fever, tachycardia), and hyperglycaemia. This is a surgical emergency. The triad is: immediate IV broad-spectrum antibiotics, emergency surgical debridement (or amputation of the necrotic forefoot if required), and tight glycaemic control with insulin infusion. Delay significantly worsens mortality.",
+    "wrongAnswerExplanations": [
+      "Oral antibiotics and outpatient review are entirely inappropriate for a patient with systemic sepsis, gas in soft tissues, and spreading infection; this approach carries high mortality.",
+      "Correct: IV antibiotics, emergency surgical debridement/amputation, and glycaemic control with insulin are the three immediate pillars of management for diabetic foot sepsis with gas-forming infection.",
+      "Hyperbaric oxygen may have an adjunctive role in diabetic foot wounds but is not a primary emergency intervention and is not available in most centres at short notice.",
+      "Topical dressings and podiatry are for chronic, non-infected diabetic foot ulcers; they have no place in managing systemic sepsis with gas gangrene.",
+      "Angioplasty to improve perfusion may be needed after infection control but cannot precede or replace emergency debridement of a life-threatening infection."
+    ],
+    "clinicalPearl": "Gas in the soft tissues of the diabetic foot on X-ray signals necrotising infection — this is a surgical emergency requiring immediate IV antibiotics, emergency debridement or amputation, and insulin infusion."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Acute limb ischaemia — Rutherford classification",
+    "question": "A 70-year-old woman with hypertension presents with a 3-hour history of sudden severe pain and coldness of the left lower leg. On examination, the left foot is pale and cold to the mid-calf. She has sensory loss to light touch over the dorsum of the foot but can still move her toes weakly on command. Left pedal pulses are absent; right foot is normal. Doppler signal is absent over the left dorsalis pedis and posterior tibial arteries. Which Rutherford class of acute limb ischaemia does this represent, and what does it imply?",
+    "options": [
+      "Rutherford Class I (viable) — no immediate intervention needed, can be managed medically",
+      "Rutherford Class IIa (marginally threatened) — urgent intervention within hours but sensation intact",
+      "Rutherford Class IIb (immediately threatened) — requires emergency revascularisation within hours",
+      "Rutherford Class III (irreversible) — amputation is the only option",
+      "Rutherford Class IIb (immediately threatened) — only thrombolysis is appropriate, not surgery"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Rutherford Class IIb (immediately threatened) is defined by sensory loss beyond just the toes AND mild-to-moderate motor deficit — both present here (loss of light touch over dorsum, weak but present toe movement). An absent Doppler arterial signal confirms critical ischaemia. This class requires emergency revascularisation (surgical or endovascular) within hours to avoid irreversible loss. Class IIa has sensory loss confined to the toes with no motor deficit; Class III has complete paralysis and anaesthesia.",
+    "wrongAnswerExplanations": [
+      "Class I (viable) has no sensory or motor deficit and intact Doppler signals; this patient clearly has both sensory loss and absent Doppler signals.",
+      "Class IIa (marginally threatened) features intact sensation or loss confined to toes only, with no motor deficit; this patient has dorsal foot sensory loss and motor weakness, placing her in a higher category.",
+      "Correct: Class IIb has sensory loss beyond the toes and motor deficit (here, weak toe movement); absent Doppler confirms immediately threatened limb requiring emergency revascularisation.",
+      "Class III (irreversible) requires complete paralysis and complete anaesthesia with fixed mottling; this patient still has some motor function, so she is not yet Class III.",
+      "While thrombolysis is a valid modality in some Class IIb cases, it is not the only option; surgical embolectomy is often preferred for embolic occlusions, and the class description in this option is correct but the management statement is misleadingly restrictive."
+    ],
+    "clinicalPearl": "Rutherford IIb (sensory loss beyond toes + any motor deficit + absent Doppler) is an emergency — revascularise within hours or the limb will progress to irreversible ischaemia."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Intra-arterial thrombolysis — indications and timing",
+    "question": "A 58-year-old man presents with a 12-hour history of aching pain and coldness in the right lower leg. He has a background of peripheral arterial disease with previous right femoro-popliteal bypass. Ankle-brachial index is 0.3 on the right. He has no sensory or motor deficit. Duplex ultrasound suggests graft occlusion. CT angiography confirms occlusion of the bypass graft with a short segment of native vessel disease. The vascular team considers intra-arterial thrombolysis. Which of the following is an absolute contraindication to this approach?",
+    "options": [
+      "Age over 75 years",
+      "Renal impairment with eGFR of 45 ml/min/1.73m²",
+      "Recent haemorrhagic stroke 4 weeks ago",
+      "Known peripheral arterial disease in the contralateral limb",
+      "12-hour duration of the current occlusion"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A recent haemorrhagic stroke is an absolute contraindication to thrombolysis (arterial or systemic) because infusing a thrombolytic agent risks rebleeding into the brain with potentially fatal outcome. Standard absolute contraindications to intra-arterial thrombolysis include recent haemorrhagic stroke, active internal bleeding, recent major surgery or trauma (<10 days), and irreversible limb ischaemia. The other options listed are not absolute contraindications.",
+    "wrongAnswerExplanations": [
+      "Age over 75 is a relative, not absolute, contraindication; thrombolysis can be considered in carefully selected elderly patients without major bleeding risk.",
+      "Mild-to-moderate renal impairment (eGFR 45) is a consideration for contrast use but is not an absolute contraindication to thrombolysis itself.",
+      "Correct: recent haemorrhagic stroke is an absolute contraindication to thrombolysis; administration of a thrombolytic agent risks fatal cerebral rebleeding.",
+      "Contralateral PAD does not contraindicate thrombolysis of the ipsilateral graft; it is common in vascular patients.",
+      "A 12-hour duration of occlusion is within the acceptable window for thrombolysis in a viable limb without neurological deficit; duration alone does not contraindicate it."
+    ],
+    "clinicalPearl": "Haemorrhagic stroke within the preceding weeks is an absolute contraindication to thrombolysis; always screen for bleeding history before considering this treatment."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Popliteal aneurysm — acute occlusion",
+    "question": "A 62-year-old male smoker with no previous cardiac history presents with sudden onset cold, painful, and pulseless right foot for 5 hours. There is no history of claudication. Examination reveals no pedal or popliteal pulse on the right. The left popliteal pulse is unusually prominent and easily palpable. He is in sinus rhythm. What is the most likely underlying diagnosis?",
+    "options": [
+      "Cardiac embolism from paroxysmal atrial fibrillation",
+      "Acute thrombosis of a popliteal artery aneurysm",
+      "Aortic dissection with involvement of the right iliac artery",
+      "Acute deep vein thrombosis causing venous ischaemia",
+      "Ergot toxicity from migraine medication"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A prominent, easily palpable popliteal pulse on the contralateral side in a male smoker is the classic clinical clue to a popliteal aneurysm. Popliteal aneurysms are bilateral in up to 50% of cases. These aneurysms thrombose acutely and embolise distally, causing acute lower limb ischaemia; they can also present with a swollen painful popliteal fossa. When the contralateral popliteal pulse is abnormally prominent, always suspect bilateral popliteal aneurysms. This patient's normal cardiac rhythm makes AF-embolism less likely.",
+    "wrongAnswerExplanations": [
+      "Cardiac embolism from AF is less likely given sinus rhythm and no cardiac history; the bilateral popliteal findings are the key discriminating feature.",
+      "Correct: the prominent contralateral popliteal pulse in a male smoker is the diagnostic clue to popliteal aneurysm, which can thrombose acutely or embolise causing acute ischaemia.",
+      "Aortic dissection can cause unilateral limb ischaemia but would typically present with severe chest or back pain and other features of aortic involvement.",
+      "Acute DVT does not cause arterial pulselessness or arterial ischaemia; phlegmasia cerulea dolens is a venous emergency but presents differently.",
+      "Ergot toxicity causes bilateral arterial spasm, not unilateral acute occlusion, and would be associated with ergot-containing medication use."
+    ],
+    "clinicalPearl": "An unusually prominent contralateral popliteal pulse in a male smoker with acute limb ischaemia should prompt suspicion of bilateral popliteal aneurysms — an underrecognised cause of embolic ALI."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Diabetic foot — neuropathy vs ischaemia",
+    "question": "A 71-year-old woman with type 1 diabetes of 35 years duration presents with a painless plantar ulcer over the right first metatarsal head, 3 cm diameter, with callus around the edges. She has reduced sensation to a 10 g monofilament up to mid-foot bilaterally and absent ankle reflexes. Her foot is warm and pedal pulses are palpable bilaterally. ABI is 1.1 bilaterally. Which underlying pathophysiology predominantly explains this presentation?",
+    "options": [
+      "Peripheral arterial disease causing ischaemic ulceration",
+      "Peripheral neuropathy causing pressure ulceration",
+      "Venous hypertension from chronic deep vein insufficiency",
+      "Acute arterial embolism causing digital ischaemia",
+      "Charcot neuroarthropathy causing bony destruction"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is a classic neuropathic diabetic foot ulcer: painless, over a pressure point (metatarsal head), with callus, warm foot, palpable pulses, and normal ABI — indicating intact arterial supply. The absent ankle reflexes and reduced monofilament sensation confirm peripheral sensory neuropathy as the causative mechanism. The loss of protective sensation means the patient cannot feel repeated trauma over pressure points, leading to ulceration. Ischaemic ulcers are typically painful, occur at tips of toes or on the heel, and are associated with absent pulses and low ABI.",
+    "wrongAnswerExplanations": [
+      "Peripheral arterial disease causes painful ischaemic ulcers at acral sites (toe tips, heel) with absent pulses and low ABI; this patient has warm feet, palpable pulses, and normal ABI.",
+      "Correct: peripheral neuropathy with loss of protective sensation causes painless pressure ulcers over bony prominences in a warm, well-perfused foot — the hallmark of neuropathic diabetic ulceration.",
+      "Venous ulcers occur above the medial malleolus (gaiter area), are associated with haemosiderin staining and lipodermatosclerosis, and are not typically plantar or pressure-point related.",
+      "Acute arterial embolism causes sudden pain and pallor, not a chronic painless callused ulcer; this is excluded by the clinical picture.",
+      "Charcot neuroarthropathy causes bony destruction and joint deformity (rocker-bottom foot), not primarily a plantar ulcer, though it can predispose to ulceration; the key features here point to straightforward neuropathic ulceration."
+    ],
+    "clinicalPearl": "Painless plantar ulcer over a pressure point with warm foot and palpable pulses = neuropathic diabetic ulcer; painful ulcer at acral sites with absent pulses = ischaemic ulcer — the distinction directs management."
+  },
+  {
+    "system": "vascular",
+    "sourceLecture": "Acute Limb Ischemia.pdf",
+    "topic": "Acute limb ischaemia — investigation of choice",
+    "question": "A 66-year-old man presents with a 6-hour history of acute painful ischaemia of the left lower leg. He has known peripheral vascular disease and is in sinus rhythm. The clinical picture is consistent with acute thrombosis on a background of atherosclerosis. The limb is threatened (Rutherford IIb) but still viable. The vascular team wish to plan endovascular or surgical intervention. What is the most appropriate investigation to delineate the anatomy before revascularisation?",
+    "options": [
+      "Duplex ultrasound of the left lower limb arterial system",
+      "Plain X-ray of the left leg to exclude calcification",
+      "CT angiography (CTA) of the aorta to tibial vessels",
+      "MRI angiography of the pelvis and left lower limb",
+      "Formal catheter digital subtraction angiography (DSA) in a non-interventional setting"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "CT angiography (CTA) from aorta to tibial vessels is now the investigation of choice for acute limb ischaemia when intervention is planned. It is rapid (minutes), widely available, provides excellent anatomical detail of inflow, outflow, and collateral vessels, and directly guides whether surgical bypass, embolectomy, or endovascular intervention is most appropriate. MR angiography takes longer and has limited availability out of hours. Duplex is useful for surveillance but less reliable for rapidly mapping the entire lower limb arterial tree in the acute setting.",
+    "wrongAnswerExplanations": [
+      "Duplex ultrasound is operator-dependent, time-consuming, and cannot reliably image the entire aorto-iliac to tibial tree rapidly; it is not the preferred pre-intervention investigation in the acute setting.",
+      "Plain X-ray can show vascular calcification and gas in soft tissues but cannot delineate the arterial anatomy or site of occlusion needed for intervention planning.",
+      "Correct: CTA from aorta to tibial vessels is the gold standard pre-intervention investigation in acute limb ischaemia — rapid, comprehensive, and directly guides revascularisation strategy.",
+      "MR angiography provides excellent images but is slower, less available out of hours, and contraindicated in many patients with metallic implants; it is not first-line in the acute emergency.",
+      "Formal catheter DSA is the gold standard for image quality but is invasive, slower to arrange, and requires interventional radiology; it is best reserved for cases proceeding directly to endovascular treatment rather than as a standalone diagnostic test."
+    ],
+    "clinicalPearl": "CT angiography (aorta to tibial vessels) is the preferred rapid pre-intervention imaging in acute limb ischaemia — it maps anatomy in minutes and guides the revascularisation decision."
+  }
+]

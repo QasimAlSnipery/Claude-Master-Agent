@@ -1,0 +1,301 @@
+[
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Pyogenic liver abscess",
+    "question": "A 62-year-old man with a history of recent sigmoid diverticulitis presents with a 10-day history of spiking fevers, right upper quadrant pain, and anorexia. On examination he is febrile at 38.9°C, has right upper quadrant tenderness, and mild jaundice. Blood tests show WBC 18 × 10⁹/L, CRP 210 mg/L, bilirubin 42 µmol/L, and ALP 320 U/L. CT abdomen shows a 6 cm unilocular fluid-filled lesion in the right lobe of the liver with a peripheral enhancing rim. What is the most appropriate next step in management?",
+    "options": [
+      "IV broad-spectrum antibiotics alone for 6 weeks",
+      "Urgent surgical drainage via laparotomy",
+      "Ultrasound-guided percutaneous aspiration and IV antibiotics",
+      "Oral metronidazole for 10 days",
+      "ERCP to exclude biliary source before any intervention"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A pyogenic liver abscess >5 cm should be managed with percutaneous drainage (aspiration or catheter) combined with IV broad-spectrum antibiotics targeting enteric gram-negatives and anaerobes. Percutaneous drainage provides both diagnostic (culture) and therapeutic benefit, achieving resolution in the majority of cases. Surgery is reserved for failure of percutaneous drainage or complicated abscesses requiring source control.",
+    "wrongAnswerExplanations": [
+      "Antibiotics alone are insufficient for a 6 cm pyogenic abscess; drainage is required to achieve adequate source control and resolution.",
+      "Surgical drainage is reserved for failure of percutaneous approach or when laparotomy is needed for underlying source control; it is not first-line for a straightforward large abscess.",
+      "Ultrasound-guided percutaneous aspiration combined with IV antibiotics is the correct first-line management for a large pyogenic liver abscess.",
+      "Oral metronidazole alone is appropriate for amoebic abscess; pyogenic abscess requires IV broad-spectrum cover and drainage.",
+      "ERCP may be needed if biliary obstruction is confirmed as the source, but in this patient with a diverticulitis history (portal pyaemia route), drainage and antibiotics should not be delayed pending ERCP."
+    ],
+    "clinicalPearl": "Pyogenic liver abscesses >5 cm require percutaneous drainage plus IV antibiotics; antibiotics alone are insufficient for large abscesses."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Amoebic liver abscess",
+    "question": "A 34-year-old male traveller returns from a 3-month stay in rural India with a 5-day history of right upper quadrant pain, fever to 38.5°C, and non-bloody diarrhoea. He is tender in the right upper quadrant with hepatomegaly. Chest X-ray shows elevation of the right hemidiaphragm. Ultrasound reveals a 7 cm hypoechoic lesion in the right lobe of the liver. Serology for Entamoeba histolytica is positive. WBC is 11 × 10⁹/L. What is the most appropriate initial management?",
+    "options": [
+      "IV broad-spectrum antibiotics targeting gram-negative organisms",
+      "Percutaneous drainage combined with IV metronidazole",
+      "Oral metronidazole 400–800 mg three times daily for 5–10 days",
+      "Emergency laparotomy and surgical drainage",
+      "Albendazole 400 mg twice daily for 28 days"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Amoebic liver abscess responds excellently to metronidazole monotherapy, which is the treatment of choice. The vast majority of amoebic abscesses resolve with metronidazole alone without the need for drainage. Percutaneous drainage is reserved for abscesses at risk of rupture (>10 cm), lack of clinical response after 72 hours of metronidazole, or left lobe abscesses at risk of pericardial rupture.",
+    "wrongAnswerExplanations": [
+      "IV broad-spectrum antibiotics target bacteria, not Entamoeba histolytica; they are appropriate for pyogenic abscess, not amoebic.",
+      "Percutaneous drainage is not routinely needed for amoebic abscess; metronidazole alone achieves resolution in most cases and should be the first step.",
+      "Oral metronidazole is the correct first-line treatment for amoebic liver abscess; most cases resolve without drainage.",
+      "Emergency laparotomy is not indicated for an uncomplicated amoebic abscess; it is reserved for rupture with peritonitis.",
+      "Albendazole is the treatment for hydatid cyst (Echinococcus), not amoebic abscess."
+    ],
+    "clinicalPearl": "Amoebic liver abscess responds to metronidazole monotherapy in >90% of cases; drainage is only needed if the abscess is large (>10 cm), left-sided, or fails to respond within 72 hours."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Hydatid cyst",
+    "question": "A 45-year-old shepherdess from rural Greece presents with a 3-month history of right upper quadrant discomfort and progressive abdominal fullness. She is afebrile and not jaundiced. CT abdomen demonstrates a 10 cm well-defined cyst in the right lobe with internal daughter cysts and a calcified rim. Serology for Echinococcus granulosus is positive. She has no signs of infection or rupture. What is the most appropriate management?",
+    "options": [
+      "Oral metronidazole for 6 weeks followed by reassessment",
+      "PAIR (Puncture, Aspiration, Injection, Re-aspiration) with perioperative albendazole",
+      "Emergency surgical excision without medical preparation",
+      "Observation and repeat imaging in 6 months given asymptomatic nature",
+      "IV praziquantel monotherapy for 4 weeks"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "PAIR (Puncture, Aspiration, Injection of hypertonic saline/ethanol, Re-aspiration) combined with perioperative albendazole is now a well-established minimally invasive treatment for uncomplicated hepatic hydatid cysts (WHO stages CE1 and CE3a). Albendazole is given before and after PAIR to reduce the risk of secondary seeding from spillage. Surgery is reserved for complicated cysts, cysts communicating with the biliary tree, or those not amenable to PAIR.",
+    "wrongAnswerExplanations": [
+      "Metronidazole has no activity against Echinococcus; it is used for amoebic infections.",
+      "PAIR with perioperative albendazole is the correct minimally invasive approach for this uncomplicated hydatid cyst with positive serology.",
+      "Surgery without medical preparation risks scolex spillage and anaphylaxis; perioperative albendazole is mandatory.",
+      "A 10 cm symptomatic hydatid cyst with positive serology requires active treatment; observation alone is inappropriate and risks rupture or secondary infection.",
+      "Praziquantel is sometimes used as an adjunct to albendazole to kill protoscolices but is not a standalone treatment for hepatic hydatid disease."
+    ],
+    "clinicalPearl": "Hepatic hydatid cysts are treated with PAIR plus perioperative albendazole; never aspirate without albendazole cover due to the risk of anaphylaxis and secondary dissemination."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Hepatocellular carcinoma",
+    "question": "A 58-year-old man with known hepatitis B-related cirrhosis (Child-Pugh A) attends his 6-monthly surveillance ultrasound, which shows a new 2.5 cm arterially enhancing lesion in segment VII with portal venous washout. His AFP is 850 ng/mL. There is no vascular invasion and no extrahepatic disease. He has no co-morbidities. What is the most appropriate treatment?",
+    "options": [
+      "Systemic sorafenib therapy",
+      "Percutaneous radiofrequency ablation",
+      "Surgical resection",
+      "Transarterial chemoembolisation (TACE)",
+      "Liver transplantation under Milan criteria"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient has a single HCC lesion within a compensated cirrhotic liver (Child-Pugh A), which is the ideal candidate for surgical resection. Resection offers the best long-term survival in patients with preserved liver function and a solitary tumour. Adequate future liver remnant must be confirmed pre-operatively. Transplantation is reserved for patients with impaired liver function or multifocal disease within Milan criteria.",
+    "wrongAnswerExplanations": [
+      "Sorafenib is reserved for advanced HCC (BCLC stage C) with vascular invasion or extrahepatic spread; it is not appropriate for a resectable early-stage lesion.",
+      "RFA is an effective alternative for lesions ≤3 cm in patients who are not surgical candidates; however, in a fit Child-Pugh A patient, surgical resection offers superior local control and long-term outcomes.",
+      "Surgical resection is the correct treatment for this fit patient with a single resectable HCC in a compensated liver.",
+      "TACE is used as a bridge to transplant or for intermediate-stage HCC (BCLC B) with multiple lesions; it is not first-line for a resectable single lesion in a fit patient.",
+      "Transplantation is the preferred option for patients within Milan criteria who have impaired liver function (Child-Pugh B/C); with Child-Pugh A function, resection takes priority to preserve the transplant pool."
+    ],
+    "clinicalPearl": "In Child-Pugh A cirrhosis with a single resectable HCC and no vascular invasion, surgical resection is the first-line curative option."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Hepatocellular carcinoma — diagnosis",
+    "question": "A 67-year-old woman with alcoholic cirrhosis (Child-Pugh B7) undergoes surveillance ultrasound that reveals a 1.8 cm hypoechoic nodule in the right lobe. A 4-phase CT confirms a 1.8 cm lesion with arterial hyperenhancement and portal venous washout. Her AFP is 24 ng/mL (mildly elevated). There are no other lesions and no vascular involvement. Which statement best describes the diagnostic standard for HCC in a cirrhotic patient?",
+    "options": [
+      "Biopsy is mandatory for all lesions >1 cm before any treatment can be offered",
+      "A lesion >1 cm showing arterial enhancement and washout on CT or MRI in a cirrhotic liver is diagnostic of HCC without biopsy",
+      "AFP >20 ng/mL in a cirrhotic patient is sufficient to diagnose HCC without imaging",
+      "A second imaging modality is required and both must show typical features before HCC is diagnosed",
+      "Only MRI with hepatobiliary contrast can diagnose HCC non-invasively in cirrhosis"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "According to EASL and AASLD guidelines, a nodule >1 cm in a cirrhotic liver demonstrating the hallmark vascular pattern of arterial hyperenhancement and portal venous washout on a single dynamic imaging modality (CT or MRI) is sufficient to diagnose HCC non-invasively, without biopsy. This avoids the risk of tumour seeding and procedural complications.",
+    "wrongAnswerExplanations": [
+      "Biopsy is not required when imaging shows the hallmark vascular pattern; it is reserved for atypical lesions where non-invasive criteria are not met.",
+      "This correctly reflects international guidelines: arterial enhancement plus washout on CT or MRI in a cirrhotic liver is diagnostic of HCC without tissue confirmation for lesions >1 cm.",
+      "AFP alone is neither sensitive nor specific enough to diagnose HCC; imaging confirmation is always required.",
+      "Current guidelines (EASL 2018) require only one imaging modality showing typical features, not two; the earlier two-modality requirement has been superseded.",
+      "Both CT and MRI are accepted for non-invasive HCC diagnosis; CT with typical features is sufficient and MRI is not exclusively required."
+    ],
+    "clinicalPearl": "A nodule >1 cm in cirrhosis with arterial hyperenhancement and washout on CT or MRI meets non-invasive diagnostic criteria for HCC — biopsy is not needed."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Liver metastases",
+    "question": "A 52-year-old woman who underwent a right hemicolectomy for T3N1M0 sigmoid colon adenocarcinoma 18 months ago now presents with fatigue and rising CEA (84 ng/mL). CT chest/abdomen/pelvis demonstrates three liver metastases confined to the right lobe (largest 4 cm), no extrahepatic disease, and an intact primary anastomosis. She is fit and has no cirrhosis. What is the most appropriate management strategy?",
+    "options": [
+      "Palliative systemic chemotherapy with FOLFOX",
+      "Liver-directed radiofrequency ablation of all three lesions",
+      "Surgical resection of liver metastases with curative intent",
+      "Selective internal radiation therapy (SIRT) with yttrium-90",
+      "Stereotactic body radiotherapy (SBRT) to the hepatic metastases"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Surgical resection of colorectal liver metastases (CRLM) is the standard of care when technically feasible, offering 5-year survival rates of 25–40%, which is the only potentially curative option. The key criteria are resectability with adequate future liver remnant (>25–30%), absence of extrahepatic disease, and fitness for surgery. This patient's three right-lobe lesions with no extrahepatic disease represent a resectable scenario.",
+    "wrongAnswerExplanations": [
+      "Palliative chemotherapy is appropriate for unresectable metastatic disease; in a fit patient with resectable liver-only disease, surgery with curative intent is preferred.",
+      "RFA is used for small lesions (≤3 cm) or as an adjunct to surgery; for multiple lesions up to 4 cm in a resectable patient, surgical resection provides superior local control and survival.",
+      "Surgical resection with curative intent is the correct answer for resectable colorectal liver metastases in a fit patient with no extrahepatic disease.",
+      "SIRT is a palliative liver-directed therapy for chemotherapy-refractory unresectable CRLM; it is not first-line for resectable disease.",
+      "SBRT is not a first-line treatment for resectable CRLM in a surgical candidate; it may be used for oligometastatic disease when surgery is contraindicated."
+    ],
+    "clinicalPearl": "Resection of colorectal liver metastases is the only potentially curative option, achieving 5-year survival of 25–40%; always assess resectability before defaulting to chemotherapy."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Portal hypertension — variceal haemorrhage",
+    "question": "A 49-year-old man with known alcoholic cirrhosis (Child-Pugh C) presents with haematemesis and melaena. He is haemodynamically unstable (BP 85/50 mmHg, HR 118 bpm). After initial resuscitation, OGD is performed urgently and demonstrates actively bleeding oesophageal varices which are banded. Despite band ligation, re-bleeding occurs within 24 hours. What is the most appropriate next step?",
+    "options": [
+      "Repeat OGD and further endoscopic band ligation",
+      "Insertion of a Sengstaken-Blakemore tube as definitive therapy",
+      "Transjugular intrahepatic portosystemic shunt (TIPS)",
+      "Emergency surgical portocaval shunt",
+      "Intravenous vasopressin infusion and watchful waiting"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "TIPS is the recommended salvage procedure for acute variceal haemorrhage that fails endoscopic therapy. It creates a low-resistance intrahepatic channel between the portal and hepatic veins, rapidly decompressing the portal system. TIPS controls bleeding in >90% of cases and is preferred over emergency surgical shunting due to lower procedural mortality, particularly in Child-Pugh C patients.",
+    "wrongAnswerExplanations": [
+      "Repeat endoscopic band ligation after failure of a second banding attempt has a very high re-bleed rate and is not appropriate as the next definitive step; escalation to TIPS is required.",
+      "The Sengstaken-Blakemore tube is a temporising bridge (maximum 24 hours) to control bleeding while awaiting definitive TIPS; it is not a definitive therapy and carries significant risks (aspiration, oesophageal necrosis).",
+      "TIPS is the correct salvage treatment for refractory variceal bleeding after failed endoscopic therapy.",
+      "Emergency surgical portocaval shunting has very high operative mortality in Child-Pugh C patients and is largely superseded by TIPS in modern practice.",
+      "Vasopressin infusion (or terlipressin) is used as adjunct pharmacological therapy at initial presentation; it is not the appropriate escalation step after failure of endoscopic banding."
+    ],
+    "clinicalPearl": "TIPS is the salvage treatment of choice for acute variceal haemorrhage refractory to endoscopic therapy, controlling bleeding in >90% of cases with lower mortality than emergency surgery."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Portal hypertension — primary prophylaxis",
+    "question": "A 44-year-old woman with hepatitis C-related cirrhosis undergoes screening OGD which identifies medium-sized oesophageal varices (grade 2) with no red wale signs. She has no history of variceal bleeding. Liver function is preserved (Child-Pugh A5). What is the most appropriate management?",
+    "options": [
+      "Reassure and repeat OGD in 2 years",
+      "Non-selective beta-blocker therapy (propranolol or carvedilol)",
+      "Prophylactic endoscopic variceal band ligation immediately",
+      "TIPS to reduce portal pressure",
+      "Prophylactic long-term terlipressin"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Non-selective beta-blockers (NSBBs) such as propranolol or carvedilol are first-line for primary prophylaxis of variceal bleeding in patients with medium or large varices. They reduce portal pressure by decreasing cardiac output (β1) and causing splanchnic vasoconstriction (β2). Endoscopic band ligation is an alternative if beta-blockers are contraindicated or not tolerated, but is not first-line in current guidelines.",
+    "wrongAnswerExplanations": [
+      "Observation alone is inappropriate for medium varices; primary prophylaxis with beta-blockers significantly reduces the risk of first bleed and is guideline-recommended.",
+      "Non-selective beta-blockers are the correct first-line primary prophylaxis for medium/large oesophageal varices without prior haemorrhage.",
+      "Endoscopic band ligation is an effective alternative primary prophylaxis when beta-blockers are contraindicated or not tolerated, but it is not the first-line choice over pharmacological therapy.",
+      "TIPS is reserved for refractory variceal haemorrhage and is not indicated for primary prophylaxis due to its procedural risk and the risk of hepatic encephalopathy.",
+      "Terlipressin is a vasopressin analogue used for acute variceal haemorrhage; it has no role as long-term prophylaxis."
+    ],
+    "clinicalPearl": "Non-selective beta-blockers are the cornerstone of primary prophylaxis for oesophageal varices, reducing the risk of a first bleed by approximately 45%."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Liver trauma — blunt injury",
+    "question": "A 28-year-old male motorcyclist is brought to the emergency department following a high-speed collision. On arrival he is haemodynamically stable (BP 118/72 mmHg, HR 92 bpm). FAST exam is positive for free fluid in Morrison's pouch. CT abdomen reveals a grade III liver laceration with a subcapsular haematoma involving <50% of the liver surface and no active contrast extravasation. There is no bowel injury. What is the most appropriate management?",
+    "options": [
+      "Immediate exploratory laparotomy and formal hepatic resection",
+      "Angioembolisation of the hepatic artery",
+      "Non-operative management with close haemodynamic monitoring in an HDU setting",
+      "Diagnostic laparoscopy to assess for ongoing bleeding",
+      "Damage control laparotomy with packing"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Non-operative management (NOM) is the standard of care for haemodynamically stable patients with blunt hepatic injuries (grades I–III) and is successful in >80% of cases. The key criterion is haemodynamic stability; CT confirming no active contrast extravasation further supports NOM. The patient requires close monitoring in HDU with serial haematocrit and clinical reassessment, with angioembolisation or surgery available if he deteriorates.",
+    "wrongAnswerExplanations": [
+      "Formal hepatic resection in the acute trauma setting is associated with very high mortality and is not indicated for a haemodynamically stable grade III injury.",
+      "Angioembolisation is indicated for grade III–V injuries with active contrast extravasation on CT or haemodynamic instability unresponsive to resuscitation; it is not first-line for a stable grade III without active bleeding.",
+      "Non-operative management is the correct approach for this haemodynamically stable patient with a grade III liver laceration and no active bleeding on CT.",
+      "Diagnostic laparoscopy has no role in a stable patient with a known CT-confirmed injury; it risks converting a stable situation into an unstable one.",
+      "Damage control laparotomy with packing is reserved for haemodynamically unstable patients in whom resuscitation is failing; it is not appropriate for a stable patient."
+    ],
+    "clinicalPearl": "Haemodynamic stability is the key decision point in liver trauma: stable patients with grades I–III injuries should be managed non-operatively, with angioembolisation or surgery reserved for failure of NOM."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Liver trauma — haemodynamic instability",
+    "question": "A 35-year-old woman is brought in by ambulance following a stab wound to the right upper quadrant. Her BP is 70/40 mmHg and HR is 138 bpm despite 2 litres of IV crystalloid. Her abdomen is rigid. FAST exam shows massive free fluid. She is taken directly to the operating theatre. On laparotomy there is a high-grade hepatic laceration with brisk arterial and venous haemorrhage. The anaesthetist reports hypothermia (34.5°C), acidosis (pH 7.21), and coagulopathy (INR 2.1). What is the most appropriate intraoperative strategy?",
+    "options": [
+      "Formal right hepatic lobectomy to achieve haemostasis",
+      "Pringle manoeuvre followed by definitive hepatic reconstruction in one stage",
+      "Damage control laparotomy: perihepatic packing and temporary abdominal closure",
+      "Intraoperative angioembolisation of the hepatic artery",
+      "Total hepatic vascular exclusion and primary vascular repair"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The 'lethal triad' of hypothermia, acidosis, and coagulopathy defines physiological exhaustion and mandates a damage control approach. In damage control laparotomy, the immediate goals are haemorrhage control by perihepatic packing, contamination control, and temporary abdominal closure. The patient is then resuscitated in the ICU before planned re-look and definitive repair at 24–48 hours once physiology is restored.",
+    "wrongAnswerExplanations": [
+      "Formal hepatic lobectomy in a physiologically exhausted patient with the lethal triad carries near-100% mortality; it is not appropriate in the damage control setting.",
+      "Definitive hepatic reconstruction in a single stage is contraindicated in the presence of the lethal triad; attempting definitive repair risks the patient dying on the table from irreversible coagulopathy.",
+      "Damage control laparotomy with perihepatic packing and temporary abdominal closure is the correct strategy when the lethal triad is present.",
+      "Intraoperative angioembolisation is a hybrid approach used in select centres but requires specialised equipment; perihepatic packing remains the primary damage control manoeuvre for haemostasis.",
+      "Total hepatic vascular exclusion is a technically demanding elective manoeuvre for major hepatic resection; attempting it in a coagulopathic, acidotic, hypothermic trauma patient is inappropriate."
+    ],
+    "clinicalPearl": "The lethal triad (hypothermia + acidosis + coagulopathy) mandates damage control laparotomy — pack, close temporarily, and resuscitate in the ICU before definitive repair."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Pyogenic liver abscess — source identification",
+    "question": "A 70-year-old man presents with a 2-week history of fever, weight loss, and right upper quadrant discomfort. He has no recent travel history. CT abdomen demonstrates multiple small pyogenic liver abscesses in both lobes. Blood cultures grow Klebsiella pneumoniae. There is no history of recent biliary instrumentation or diverticulitis. Which investigation is most important to perform next?",
+    "options": [
+      "Serology for Entamoeba histolytica",
+      "Colonoscopy or CT colonography to exclude colorectal malignancy",
+      "MRCP to assess the biliary tree for stones or stricture",
+      "Echocardiography to exclude infective endocarditis",
+      "PET-CT to exclude occult malignancy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Klebsiella pneumoniae liver abscess in an older patient without a clear biliary or diverticular source raises strong suspicion for an occult colorectal carcinoma acting as the portal of entry via portal pyaemia. Colonoscopy or CT colonography is mandatory to exclude a colonic primary tumour, as colorectal cancer is found in a significant proportion of cryptogenic pyogenic liver abscess cases, particularly with Klebsiella bacteraemia.",
+    "wrongAnswerExplanations": [
+      "Entamoeba histolytica serology is relevant for amoebic abscess in travellers returning from endemic regions; this patient has no travel history and Klebsiella bacteraemia makes pyogenic abscess the diagnosis.",
+      "Colonoscopy or CT colonography is the correct next investigation to exclude a colonic source (particularly colorectal carcinoma) given Klebsiella bacteraemia and a cryptogenic presentation in an older patient.",
+      "MRCP is important to assess biliary pathology as a source; however, in the absence of jaundice, biliary dilatation, or biliary history, and with Klebsiella bacteraemia, colonoscopy to exclude colorectal cancer takes precedence.",
+      "Echocardiography is indicated for infective endocarditis workup; it is not the priority in a patient with liver abscesses and without cardiac symptoms or risk factors.",
+      "PET-CT is not the immediate first investigation; colonoscopy is more targeted, less expensive, and directly tests the most likely source."
+    ],
+    "clinicalPearl": "Klebsiella pneumoniae pyogenic liver abscess in an older patient without an obvious source mandates colonoscopy to exclude occult colorectal carcinoma as the portal of entry."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Hydatid cyst — complication",
+    "question": "A 38-year-old woman from Turkey with a known hepatic hydatid cyst (previously managed conservatively) presents acutely with sudden-onset right upper quadrant pain, urticaria, and hypotension (BP 80/50 mmHg, HR 120 bpm). She is flushed and wheezy. Bloods show eosinophilia. What is the most likely complication and the immediate management priority?",
+    "options": [
+      "Secondary bacterial infection of the cyst; start IV antibiotics",
+      "Biliary rupture with cholangitis; urgent ERCP",
+      "Anaphylaxis due to rupture of the hydatid cyst; immediate IM adrenaline 0.5 mg",
+      "Haemorrhage into the cyst; urgent surgical exploration",
+      "Peritoneal seeding of scolices; emergency albendazole infusion"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Rupture of a hepatic hydatid cyst releases antigenic protoscolex fluid into the circulation, triggering a potentially fatal anaphylactic reaction. The clinical picture of sudden RUQ pain, urticaria, wheeze, hypotension, and eosinophilia in a patient with a known hydatid cyst is classic. The immediate life-saving intervention is IM adrenaline 0.5 mg (1:1000) as per anaphylaxis guidelines, followed by antihistamines and corticosteroids.",
+    "wrongAnswerExplanations": [
+      "Secondary bacterial infection causes fever and localised pain but does not cause anaphylaxis with urticaria, wheeze, and cardiovascular collapse.",
+      "Biliary rupture presents with jaundice and cholangitis (fever, rigors, right upper quadrant pain); it would not cause the anaphylactic features described here.",
+      "Anaphylaxis from hydatid cyst rupture is the correct diagnosis, and immediate IM adrenaline is the life-saving first intervention.",
+      "Haemorrhage into the cyst causes acute pain and haemodynamic compromise but does not cause urticaria, wheeze, or eosinophilia.",
+      "Peritoneal seeding of scolices is a complication of rupture but occurs over time; the immediate life threat is anaphylaxis requiring adrenaline, not albendazole."
+    ],
+    "clinicalPearl": "Rupture of a hepatic hydatid cyst can cause fatal anaphylaxis — IM adrenaline is the immediate priority; never aspirate a hydatid cyst without albendazole cover and resuscitation facilities."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "Liver.pdf",
+    "topic": "Portal hypertension — complications",
+    "question": "A 56-year-old man with decompensated alcoholic cirrhosis is admitted with increasing abdominal distension. Diagnostic paracentesis shows: ascitic fluid protein 8 g/L, albumin 6 g/L, serum albumin 28 g/L, and 450 white cells/mm³ (80% neutrophils). He is febrile at 38.2°C. What is the diagnosis and the most appropriate immediate treatment?",
+    "options": [
+      "Malignant ascites; refer to oncology for chemotherapy",
+      "Spontaneous bacterial peritonitis (SBP); IV cefotaxime and IV albumin",
+      "Tuberculous peritonitis; anti-tuberculous therapy",
+      "Secondary peritonitis due to bowel perforation; emergency laparotomy",
+      "Chylous ascites; low-fat diet and octreotide"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Spontaneous bacterial peritonitis is diagnosed when ascitic fluid neutrophil count exceeds 250 cells/mm³ in the absence of a surgically treatable cause. The serum-ascites albumin gradient (SAAG = 28 − 6 = 22 g/L) is >11 g/L, confirming portal hypertension as the cause of ascites. Treatment is IV cefotaxime (or a third-generation cephalosporin) plus IV albumin (1.5 g/kg on day 1, 1 g/kg on day 3), which reduces the risk of hepatorenal syndrome and significantly reduces mortality.",
+    "wrongAnswerExplanations": [
+      "Malignant ascites typically has a low SAAG (<11 g/L) and high protein; this patient's SAAG confirms portal hypertension, not malignancy.",
+      "SBP with IV cefotaxime and albumin infusion is the correct diagnosis and treatment: neutrophil count >250 cells/mm³ in a cirrhotic patient with ascites confirms SBP.",
+      "Tuberculous peritonitis has a high protein ascites but typically causes lymphocyte-predominant cells, not neutrophil-predominant; it is less likely in a decompensated alcoholic cirrhosis patient.",
+      "Secondary peritonitis from bowel perforation would show very high neutrophils, mixed organisms on culture, and often free air on imaging; the clinical picture here fits SBP more closely and surgery is not the first step.",
+      "Chylous ascites is milky in appearance, high in triglycerides, and not associated with fever or neutrophilia; this presentation is not consistent."
+    ],
+    "clinicalPearl": "Ascitic neutrophil count >250 cells/mm³ in a cirrhotic patient diagnoses SBP — treat immediately with IV cefotaxime plus IV albumin to prevent hepatorenal syndrome."
+  }
+]

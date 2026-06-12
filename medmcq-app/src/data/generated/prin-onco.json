@@ -1,0 +1,301 @@
+[
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "TNM staging",
+    "question": "A 62-year-old woman undergoes wide local excision for a 2.8 cm invasive ductal carcinoma of the left breast. Sentinel lymph node biopsy reveals metastatic deposits in 2 of 3 nodes. CT chest, abdomen, and pelvis shows no distant metastases. How should this tumour be staged using the TNM classification?",
+    "options": [
+      "T2 N1 M0",
+      "T1 N2 M0",
+      "T2 N2 M0",
+      "T3 N1 M0",
+      "T2 N1 M1"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A tumour between 2 cm and 5 cm is classified as T2. Metastasis to 1-3 axillary lymph nodes is N1. The absence of distant metastases on staging CT makes this M0, giving an overall stage of T2 N1 M0 (Stage IIA/IIB depending on nodal sub-classification). TNM staging is based on tumour size (T), regional node involvement (N), and distant metastasis (M).",
+    "wrongAnswerExplanations": [
+      "T2 N1 M0 is correct: tumour 2.8 cm = T2, 1-3 positive axillary nodes = N1, no distant metastases = M0.",
+      "T1 N2 M0 is incorrect: T1 applies to tumours ≤2 cm; this tumour is 2.8 cm and therefore T2. N2 requires 4-9 positive nodes; only 2 are involved here.",
+      "T2 N2 M0 is incorrect: N2 classification requires 4-9 positive axillary nodes; this patient has only 2 positive nodes, which is N1.",
+      "T3 N1 M0 is incorrect: T3 applies to tumours >5 cm; this tumour measures 2.8 cm and is therefore T2.",
+      "T2 N1 M1 is incorrect: M1 denotes distant metastases; the staging CT showed no distant disease, making this M0."
+    ],
+    "clinicalPearl": "In breast cancer TNM staging, T2 = 2-5 cm, N1 = 1-3 positive axillary nodes, and M0 = no distant metastasis — each component is assessed independently before combining into a stage group."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Tumour grading",
+    "question": "A 58-year-old man undergoes transurethral resection of a bladder tumour. Histopathology reports: high nuclear-to-cytoplasmic ratio, marked nuclear pleomorphism, numerous mitoses (>10 per high-power field), and areas of necrosis. The tumour invades the lamina propria but not the muscularis propria. Which statement best describes the relationship between grade and stage in this case?",
+    "options": [
+      "The tumour is high grade (G3) and superficially staged (T1), indicating aggressive biology with currently limited invasion",
+      "The tumour is low grade (G1) and deeply staged (T2), suggesting slow growth with significant invasion",
+      "Grade and stage are equivalent terms describing the same feature of this tumour",
+      "The tumour is high grade (G3) and deeply staged (T3), indicating full-thickness bladder wall invasion",
+      "The tumour is intermediate grade (G2) and superficially staged (T1), with an intermediate prognosis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Grade describes the degree of differentiation (cellular appearance) while stage describes the anatomical extent of spread. Marked pleomorphism, high mitotic rate, and necrosis are features of high-grade (G3) tumour. Invasion of the lamina propria without muscularis propria involvement places this at T1 — superficial but high-risk due to its grade. High-grade T1 bladder cancer carries significant recurrence and progression risk.",
+    "wrongAnswerExplanations": [
+      "This is correct: numerous mitoses, marked pleomorphism, and necrosis define G3 (high grade); invasion limited to lamina propria is pT1 (superficial stage).",
+      "This is incorrect: the histological features described (marked pleomorphism, high mitotic rate, necrosis) are features of high grade (G3), not low grade (G1). Invasion of the lamina propria is T1, not T2.",
+      "This is incorrect: grade and stage are distinct concepts. Grade reflects differentiation (cellular morphology), whereas stage reflects anatomical extent of disease spread.",
+      "This is incorrect: T3 denotes invasion through the muscularis propria into perivesical fat; this tumour only invades the lamina propria (T1).",
+      "This is incorrect: the histological features — marked pleomorphism, >10 mitoses/HPF, and necrosis — are characteristic of high grade (G3), not intermediate grade (G2)."
+    ],
+    "clinicalPearl": "Grade (differentiation) and stage (anatomical extent) are independent prognostic variables; high-grade T1 bladder cancer is paradoxically dangerous — superficial but biologically aggressive with high progression risk."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Biopsy types",
+    "question": "A 45-year-old woman presents with a 3 cm firm, irregular mass in the right breast. Mammography shows a spiculated lesion with microcalcifications. Ultrasound confirms a solid hypoechoic lesion. The breast surgeon wishes to obtain a tissue diagnosis before planning definitive surgery. Which biopsy method provides the most tissue while avoiding the need for a separate surgical procedure in this outpatient setting?",
+    "options": [
+      "Core needle biopsy (Tru-cut)",
+      "Fine needle aspiration cytology (FNAC)",
+      "Incisional biopsy",
+      "Excisional biopsy",
+      "Punch biopsy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Core needle biopsy (Tru-cut) provides a core of tissue enabling histological diagnosis including assessment of tumour type, grade, hormone receptor status, and HER2 — all essential for surgical planning. It is performed under local anaesthesia in the outpatient or radiology setting. FNAC provides cytology only and cannot assess architecture or receptor status. Incisional and excisional biopsies are surgical procedures requiring a theatre.",
+    "wrongAnswerExplanations": [
+      "Core needle biopsy is correct: it provides a tissue core for full histological analysis including receptor profiling, and is performed percutaneously under local anaesthesia without a theatre procedure.",
+      "FNAC is incorrect: it provides cytology only (individual cells, no architecture) and cannot reliably assess receptor status (ER, PR, HER2) or tumour grade — insufficient for modern breast cancer treatment planning.",
+      "Incisional biopsy is incorrect: this is a surgical procedure requiring theatre time. It removes part of a lesion and is now rarely used for breast masses given the availability of image-guided core biopsy.",
+      "Excisional biopsy is incorrect: this removes the entire lesion and constitutes a surgical procedure. It conflates diagnosis with treatment and prevents accurate surgical margin planning.",
+      "Punch biopsy is incorrect: punch biopsy is a dermatological tool used for skin lesions. It is not appropriate for a deep breast mass and would not access the parenchymal lesion."
+    ],
+    "clinicalPearl": "Core needle biopsy is the gold-standard pre-operative tissue diagnosis for breast masses — it provides histology, grade, and receptor status without a surgical procedure, enabling neo-adjuvant or operative planning."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Principles of cancer surgery — margins",
+    "question": "A 55-year-old man undergoes anterior resection for a sigmoid colon adenocarcinoma. The resection specimen is examined by the pathologist, who reports that the circumferential resection margin (CRM) is 0.5 mm from the deepest point of tumour invasion. The proximal and distal margins are clear. What is the clinical significance of this finding?",
+    "options": [
+      "A positive CRM (≤1 mm) is associated with significantly increased risk of local recurrence",
+      "A CRM of 0.5 mm is regarded as a clear surgical margin and requires no further treatment",
+      "The finding mandates immediate re-operation to achieve a wider circumferential margin",
+      "CRM involvement only affects distant metastasis risk, not local recurrence",
+      "The proximal and distal margins are the only oncologically relevant margins in colorectal surgery"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A circumferential resection margin of ≤1 mm is classified as a positive (involved) CRM in colorectal surgery and is the single most important predictor of local pelvic recurrence following rectal and sigmoid resection. It also correlates with worse overall survival. Adjuvant radiotherapy (or chemoradiotherapy) is typically considered in this scenario. The 1 mm threshold is the internationally accepted pathological definition of a positive CRM.",
+    "wrongAnswerExplanations": [
+      "This is correct: a CRM of ≤1 mm is a positive margin by the Royal College of Pathologists and College of American Pathologists definition and is the strongest predictor of local recurrence in colorectal cancer surgery.",
+      "This is incorrect: 0.5 mm is well within the ≤1 mm positive CRM threshold. A clear margin requires tumour to be >1 mm from the circumferential resection margin.",
+      "This is incorrect: immediate re-operation is generally not feasible for a positive CRM after colorectal resection. The standard approach is to discuss adjuvant chemoradiotherapy at the multidisciplinary tumour board.",
+      "This is incorrect: CRM involvement is primarily associated with local (pelvic) recurrence risk. It can also influence distant metastasis and survival, but local recurrence is the dominant concern.",
+      "This is incorrect: the circumferential resection margin is the most oncologically critical margin in rectal and rectosigmoid surgery, reflecting radial clearance around the mesorectal envelope — it supersedes axial margins in prognostic importance."
+    ],
+    "clinicalPearl": "A circumferential resection margin ≤1 mm is defined as positive and is the strongest independent predictor of local recurrence after colorectal cancer resection — total mesorectal excision (TME) technique is essential to achieve adequate CRM."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Lumps.pdf",
+    "topic": "Examining a lump — clinical assessment",
+    "question": "A 34-year-old woman presents with a 4 cm swelling on the posterior aspect of her right wrist that has been present for 2 years. It is soft, fluctuant, transilluminates brightly, and is not tender. It moves with flexion of the wrist but is tethered to the underlying tendon sheath. There is no overlying skin change. What is the most likely diagnosis?",
+    "options": [
+      "Ganglion cyst",
+      "Lipoma",
+      "Sebaceous cyst",
+      "Bursitis",
+      "Soft tissue sarcoma"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A ganglion cyst is a myxoid degeneration of joint capsule or tendon sheath, most commonly occurring on the dorsum of the wrist (60-70% of hand ganglia). The classic features are: soft, fluctuant, transilluminates (fluid-filled), tethered to the tendon sheath or joint capsule, and moves with tendon movement. It is benign and asymptomatic in most cases. Lipomas do not transilluminate and are not tethered to tendons. Sebaceous cysts have a punctum and are dermal in origin.",
+    "wrongAnswerExplanations": [
+      "Ganglion cyst is correct: the combination of transillumination, fluctuance, posterior wrist location, tethering to tendon sheath, and movement with wrist flexion is pathognomonic for a ganglion cyst.",
+      "Lipoma is incorrect: lipomas are soft but do NOT transilluminate (fat does not transmit light), are not attached to tendon sheaths, and typically arise in subcutaneous fat rather than over tendon sheaths.",
+      "Sebaceous cyst is incorrect: sebaceous (epidermoid) cysts arise from the dermis, have a visible punctum on examination, do not transilluminate brightly, and are not tethered to underlying tendons.",
+      "Bursitis is incorrect: while a bursal swelling can be fluctuant, bursae overlie bony prominences (olecranon, patella, prepatellar) rather than tendon sheaths of the wrist, and bursitis is typically associated with tenderness and erythema.",
+      "Soft tissue sarcoma is incorrect: sarcomas are firm to hard, do not transilluminate, grow progressively, and would warrant urgent investigation. This lesion has been stable for 2 years with benign clinical features."
+    ],
+    "clinicalPearl": "Transillumination differentiates fluid-filled cysts (ganglion, bursae) from solid lesions (lipoma, sarcoma) — a bright transillumination in a tethered wrist swelling is pathognomonic of a ganglion cyst."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Lumps.pdf",
+    "topic": "Lipoma",
+    "question": "A 50-year-old man presents with a 6 cm soft subcutaneous swelling on his back that has slowly enlarged over 5 years. On examination it is soft, lobulated, non-tender, and the overlying skin is freely mobile. It is not fluctuant and does not transilluminate. He is concerned it may be cancerous. Which feature, if present, would most strongly indicate the need for urgent excision and histological assessment to exclude liposarcoma?",
+    "options": [
+      "Rapid recent enlargement with a firm consistency on re-examination",
+      "Transillumination of the lesion under a pen torch",
+      "A visible punctum on the overlying skin",
+      "Complete mobility in all directions",
+      "A long history of slow growth over several years"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Liposarcoma is the most important differential for a large lipoma. Features that raise suspicion include: size >5 cm, deep location (deep to deep fascia), rapid growth, and hard consistency. A previously soft lipoma that has recently increased rapidly in size and become firm requires urgent MRI and excisional/incisional biopsy to exclude liposarcoma. The '5 cm rule' — any soft tissue lump >5 cm warrants imaging regardless of apparent benign features.",
+    "wrongAnswerExplanations": [
+      "Rapid enlargement with increasing firmness is correct: these are the cardinal red-flag features of malignant transformation or a de novo liposarcoma — any change in a long-standing lipoma warrants urgent MRI and histological evaluation.",
+      "Transillumination is incorrect as a red flag: transillumination indicates a fluid-filled cyst (e.g. ganglion), not a lipoma or liposarcoma. A transilluminating lesion would be reassuringly benign.",
+      "A visible punctum is incorrect: a punctum is a feature of a sebaceous (epidermoid) cyst, not a lipoma or liposarcoma, and would point toward a different benign diagnosis.",
+      "Complete mobility in all directions is incorrect: high mobility is a reassuring feature of a benign superficial lipoma. Deep fixation or tethering to fascia would be more concerning.",
+      "A long history of slow growth is incorrect: slow growth over years is a reassuring feature of a benign lipoma. It is rapid change in an established lesion that signals malignancy risk."
+    ],
+    "clinicalPearl": "Any soft tissue lump >5 cm, or one that rapidly enlarges or becomes firm, mandates urgent MRI and histology to exclude liposarcoma — the '5 cm rule' is a critical safety net in soft tissue swelling assessment."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Lumps.pdf",
+    "topic": "Sebaceous (epidermoid) cyst",
+    "question": "A 28-year-old man presents to the GP with a 2 cm dome-shaped swelling on his scalp. Examination reveals a smooth, firm, mobile swelling with a small central dark punctum. It is not fluctuant but the overlying skin moves with the lesion. It is non-tender. He requests removal. The GP refers him to a surgeon. What is the most appropriate surgical management?",
+    "options": [
+      "Elective excision of the cyst with its entire capsule under local anaesthesia",
+      "Incision and drainage under local anaesthesia",
+      "Aspiration of the cyst contents with a wide-bore needle",
+      "Punch biopsy to obtain histology before any intervention",
+      "Intralesional corticosteroid injection to reduce the swelling"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A sebaceous (epidermoid) cyst requires complete excision of the cyst wall and its capsule to prevent recurrence. Incomplete removal of the capsule leads to recurrence. Incision and drainage alone is only appropriate for an acutely infected cyst as a temporising measure; it does not remove the capsule and results in recurrence. Aspiration similarly fails to remove the capsule. Elective excision under local anaesthesia is straightforward and curative.",
+    "wrongAnswerExplanations": [
+      "Elective excision with the intact capsule is correct: complete removal of the keratin-filled cyst along with the entire cyst wall under local anaesthesia is curative. The punctum and overlying skin ellipse are included to ensure complete removal.",
+      "Incision and drainage is incorrect for an elective, non-infected cyst: I&D is reserved for acute infection/abscess formation as a temporising measure; it invariably leaves the capsule behind, causing recurrence.",
+      "Aspiration is incorrect: the contents of a sebaceous cyst are semi-solid keratin debris that cannot be reliably aspirated, and the procedure does not address the capsule — recurrence is inevitable.",
+      "Punch biopsy is incorrect: the clinical diagnosis of an epidermoid cyst is straightforward based on appearance, location, and the characteristic punctum. Pre-operative biopsy is unnecessary and would disrupt the capsule.",
+      "Intralesional corticosteroid is incorrect: this is appropriate for keloids or hypertrophic scars. It has no role in the management of epidermoid cysts and would not address the structural abnormality."
+    ],
+    "clinicalPearl": "Complete excision of the cyst capsule is the key principle in sebaceous cyst removal — incomplete excision invariably leads to recurrence. For infected cysts, drain first, excise electively after resolution of inflammation."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Tumour markers",
+    "question": "A 68-year-old man with known hepatitis C cirrhosis attends for routine surveillance. His AFP (alpha-fetoprotein) has risen from 12 U/mL six months ago to 850 U/mL today. Ultrasound shows a new 3.2 cm hypervascular lesion in the right lobe of the liver. CT confirms arterial enhancement with portal venous washout. What is the most likely diagnosis and what is the primary role of AFP in this clinical context?",
+    "options": [
+      "Hepatocellular carcinoma; AFP is used as a surveillance and diagnostic adjunct in high-risk patients",
+      "Metastatic colorectal cancer; AFP is a marker of colorectal liver metastases",
+      "Cholangiocarcinoma; AFP is the primary tumour marker for biliary tract tumours",
+      "Hepatic adenoma; elevated AFP reflects benign hepatocyte proliferation in cirrhosis",
+      "Focal nodular hyperplasia; AFP elevation is expected in regenerative nodules"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Rising AFP in a patient with hepatitis C cirrhosis with a new hypervascular hepatic lesion showing arterial enhancement and portal venous washout on CT is diagnostic of hepatocellular carcinoma (HCC). AFP >400 ng/mL in this context is highly specific. AFP is used in surveillance (6-monthly USS ± AFP) and as a diagnostic adjunct in high-risk patients (cirrhosis, chronic viral hepatitis). It is not reliable as a standalone test but in context is highly informative.",
+    "wrongAnswerExplanations": [
+      "HCC with AFP as surveillance/diagnostic adjunct is correct: the clinical scenario — cirrhosis, rising AFP, and a hypervascular lesion with characteristic enhancement pattern — fulfils diagnostic criteria for HCC. AFP is the established surveillance biomarker in this population.",
+      "Metastatic colorectal cancer is incorrect: the tumour marker for colorectal cancer is CEA (carcinoembryonic antigen), not AFP. Colorectal liver metastases are typically hypovascular, not hypervascular.",
+      "Cholangiocarcinoma is incorrect: CA 19-9 and CEA are the relevant tumour markers for cholangiocarcinoma. AFP is not elevated in biliary tract tumours. Cholangiocarcinoma also has a different imaging appearance.",
+      "Hepatic adenoma is incorrect: adenomas occur in young women on oral contraceptives, not cirrhotic men. AFP is not a marker of hepatic adenoma, and the imaging characteristics described are those of HCC.",
+      "Focal nodular hyperplasia is incorrect: FNH is a benign entity not associated with AFP elevation. It has characteristic central scar on MRI and does not present with rising AFP in a cirrhotic patient."
+    ],
+    "clinicalPearl": "AFP >400 ng/mL in a cirrhotic patient with a hypervascular hepatic lesion is virtually diagnostic of HCC — 6-monthly ultrasound surveillance (with or without AFP) is recommended in all patients with cirrhosis or chronic hepatitis B."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Paraneoplastic syndrome",
+    "question": "A 63-year-old male smoker presents with a 3-month history of progressive proximal muscle weakness affecting his thighs and shoulders. He reports difficulty climbing stairs and raising his arms. He has lost 6 kg in 3 months. Chest X-ray reveals a hilar mass. Serum calcium is 2.35 mmol/L (normal). Neurological examination confirms proximal weakness with reduced reflexes that transiently improve after repeated muscle contraction. What is the most likely explanation for his neurological findings?",
+    "options": [
+      "Lambert-Eaton myasthenic syndrome (LEMS) — a paraneoplastic syndrome associated with small cell lung cancer",
+      "Hypercalcaemia of malignancy causing proximal myopathy",
+      "Direct invasion of the brachial plexus by the hilar tumour",
+      "Paraneoplastic cerebellar degeneration causing ataxia misidentified as weakness",
+      "Cushing's syndrome due to ectopic ACTH secretion causing steroid myopathy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Lambert-Eaton myasthenic syndrome (LEMS) is a paraneoplastic syndrome caused by autoantibodies (anti-VGCC) against voltage-gated calcium channels at the pre-synaptic neuromuscular junction, classically associated with small cell lung carcinoma. Key distinguishing feature from myasthenia gravis: reflexes initially absent/reduced but augment transiently with repeated muscle contraction (post-tetanic facilitation). This is the reverse of myasthenia gravis where weakness worsens with use.",
+    "wrongAnswerExplanations": [
+      "LEMS is correct: the pathognomonic feature of proximal weakness with hyporeflexia that transiently improves after repeated contraction (post-tetanic facilitation) in a smoker with a hilar mass confirms LEMS, a well-characterised paraneoplastic syndrome of SCLC.",
+      "Hypercalcaemia of malignancy is incorrect: although it can cause proximal myopathy, the serum calcium is stated to be normal (2.35 mmol/L). Furthermore, hypercalcaemic myopathy does not cause the characteristic reflex augmentation with repeated contraction seen here.",
+      "Direct brachial plexus invasion is incorrect: Pancoast tumours invade the brachial plexus causing pain and lower motor neuron signs in the arm/hand, not bilateral proximal leg and shoulder weakness. The pattern described is myopathic, not plexopathy.",
+      "Paraneoplastic cerebellar degeneration is incorrect: cerebellar degeneration causes ataxia, dysarthria, nystagmus, and gait instability — not isolated proximal limb weakness. The examination findings here are at the neuromuscular junction level.",
+      "Ectopic ACTH/Cushing's syndrome is incorrect: while SCLC can secrete ectopic ACTH causing Cushing's syndrome with steroid myopathy, the characteristic examination finding of reflex augmentation with repeated contraction is specific to LEMS and not seen in steroid myopathy."
+    ],
+    "clinicalPearl": "Lambert-Eaton syndrome (LEMS) is distinguished from myasthenia gravis by reflexes that improve with repeated muscle activity (post-tetanic facilitation) rather than worsening — always screen for occult SCLC when LEMS is diagnosed."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Principles of cancer surgery — curative vs palliative intent",
+    "question": "A 72-year-old woman is found to have a 4 cm sigmoid colon cancer with two small synchronous liver metastases (both <2 cm, confined to the right lobe). She has a good performance status (ECOG 1). CT shows no other metastatic disease. A colorectal MDT meeting is held. Which surgical strategy offers the best chance of long-term survival in this patient?",
+    "options": [
+      "Resection of the primary sigmoid cancer combined with synchronous or staged right hepatic metastasectomy with curative intent",
+      "Palliative stenting of the sigmoid tumour followed by systemic chemotherapy only",
+      "Defunctioning colostomy to relieve potential obstruction, with no further intervention",
+      "Sigmoid colectomy only, as liver metastases preclude any curative surgery",
+      "Systemic chemotherapy alone as first-line treatment with surgery deferred indefinitely"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Hepatic metastasectomy for colorectal liver metastases is potentially curative, with 5-year survival rates of 25-40% in selected patients. Criteria for resectability include: resectable primary, limited hepatic disease (technically resectable leaving adequate functional liver remnant), no extra-hepatic disease, and good performance status. This patient fulfils all criteria. Synchronous or staged resection of both the primary and metastases is therefore the correct oncological approach.",
+    "wrongAnswerExplanations": [
+      "Combined resection with curative intent is correct: limited, technically resectable colorectal liver metastases are not an absolute contraindication to surgery — hepatic metastasectomy offers 25-40% 5-year survival in carefully selected patients.",
+      "Palliative stenting with chemotherapy only is incorrect: this patient has a resectable primary and resectable liver disease with good performance status. Offering palliative treatment only would deprive her of a potentially curative surgical option.",
+      "Defunctioning colostomy alone is incorrect: this is a damage-control manoeuvre for obstruction or perforation, not a treatment strategy for resectable colorectal cancer with liver metastases in a fit patient.",
+      "Sigmoid colectomy only, treating metastases as non-resectable, is incorrect: the presence of two small right-lobe liver metastases in a fit patient with otherwise clear disease is not a contraindication to hepatic surgery. Leaving resectable metastases untreated forfeits curative potential.",
+      "Chemotherapy alone deferring surgery indefinitely is incorrect: while systemic chemotherapy may be used neo-adjuvantly or adjuvantly, it is not a substitute for surgical resection in a fit patient with limited, technically resectable metastatic disease."
+    ],
+    "clinicalPearl": "Solitary or limited colorectal liver metastases are potentially curable — hepatic metastasectomy achieves 25-40% 5-year survival in selected patients, and surgical resectability (not merely the presence of metastases) should guide decision-making."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "Lumps.pdf",
+    "topic": "Ganglion — management",
+    "question": "A 26-year-old female trainee nurse presents with a 2 cm ganglion on the volar aspect of her right wrist, directly overlying the radial artery. She reports mild aching after prolonged computer use. She asks about aspiration in the clinic. What is the most important reason to avoid blind aspiration of this ganglion?",
+    "options": [
+      "Proximity to the radial artery poses a significant risk of inadvertent arterial puncture and haematoma",
+      "Aspiration is contraindicated for all ganglia because it invariably causes infection",
+      "Volar wrist ganglia always contain infected material that must not be dispersed",
+      "Aspiration is ineffective for ganglions because the fluid is too thick to aspirate",
+      "All wrist ganglia must be excised under general anaesthesia to prevent recurrence"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Volar (palmar) wrist ganglia overlie the radial artery and are in close proximity to the radial nerve sensory branch. Blind aspiration risks inadvertent radial artery puncture causing haematoma, arteriovenous fistula, or median/radial nerve injury. Aspiration or excision of volar ganglia should be performed under imaging guidance (ultrasound) or in theatre. Dorsal wrist ganglia are generally safer to aspirate blindly given their distance from major vessels.",
+    "wrongAnswerExplanations": [
+      "Radial artery proximity is correct: volar wrist ganglia are directly adjacent to the radial artery and radial sensory nerve. Blind aspiration without ultrasound guidance carries a real risk of inadvertent arterial puncture.",
+      "Aspiration causing infection in all ganglia is incorrect: infection from aspiration of a sterile ganglion is a risk of any percutaneous procedure but is not the primary concern specific to volar ganglia. Vascular injury is the dominant risk here.",
+      "Volar ganglia containing infected material is incorrect: ganglia contain myxoid, mucinous fluid derived from joint capsule or tendon sheath degeneration — they are not infected and their aspiration does not pose a contamination risk.",
+      "Fluid too thick to aspirate is incorrect: while ganglion fluid is viscous (gelatinous/myxoid), it can often be aspirated using a wide-bore needle (18G). Fluid viscosity is a practical challenge but not a safety contraindication specific to the volar wrist.",
+      "All wrist ganglia require general anaesthesia for excision is incorrect: ganglia can be managed conservatively (reassurance, observation), aspirated (dorsal ganglia), or excised under local or regional anaesthesia — general anaesthesia is not mandatory."
+    ],
+    "clinicalPearl": "Volar wrist ganglia overlie the radial artery — blind aspiration is contraindicated due to arterial puncture risk; ultrasound-guided aspiration or theatre excision is required for safe management."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Paraneoplastic — hypercalcaemia",
+    "question": "A 71-year-old woman with a known right upper lobe squamous cell carcinoma of the lung presents with a 1-week history of confusion, constipation, polyuria, and polydipsia. She is haemodynamically stable. Bloods show: corrected calcium 3.4 mmol/L, PTH <0.5 pmol/L (suppressed), PTHrP elevated. Renal function is mildly impaired. What is the most appropriate immediate management?",
+    "options": [
+      "Aggressive IV 0.9% saline rehydration followed by IV bisphosphonate (zoledronic acid)",
+      "Urgent parathyroidectomy to remove the source of PTH excess",
+      "Oral calcium supplementation and increased fluid intake",
+      "High-dose oral prednisolone to suppress PTHrP production",
+      "Urgent haemodialysis to rapidly normalise serum calcium"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This is humoral hypercalcaemia of malignancy (HHM) caused by PTHrP (parathyroid hormone-related protein) secretion from squamous cell lung cancer — the commonest paraneoplastic endocrine syndrome. Immediate management: IV 0.9% saline (typically 3-4 L/day) to restore intravascular volume and promote renal calcium excretion, followed by IV bisphosphonate (zoledronate) once adequately hydrated, which inhibits osteoclast-mediated bone resorption. Suppressed PTH excludes primary hyperparathyroidism.",
+    "wrongAnswerExplanations": [
+      "IV saline rehydration followed by IV bisphosphonate is correct: the immediate priority in symptomatic hypercalcaemia of malignancy is aggressive IV fluid resuscitation to correct dehydration and promote calciuresis, followed by zoledronic acid to inhibit osteoclastic bone resorption. This is the standard of care.",
+      "Parathyroidectomy is incorrect: suppressed PTH (<0.5 pmol/L) excludes primary hyperparathyroidism. The elevated PTHrP is produced by the lung tumour, not the parathyroid glands. Parathyroidectomy would have no effect.",
+      "Oral calcium and increased fluids is incorrect: this patient has severe, symptomatic hypercalcaemia (3.4 mmol/L with neurological symptoms). Oral management is wholly inadequate; IV rehydration is urgently required.",
+      "High-dose oral prednisolone is incorrect: corticosteroids can lower calcium in haematological malignancies (myeloma, lymphoma) by reducing calcitriol production. They are not effective in PTHrP-mediated hypercalcaemia from solid tumours such as squamous cell lung cancer.",
+      "Urgent haemodialysis is incorrect: haemodialysis is a last resort for life-threatening, refractory hypercalcaemia unresponsive to medical management. This patient is haemodynamically stable and appropriate for standard medical treatment first."
+    ],
+    "clinicalPearl": "Humoral hypercalcaemia of malignancy (PTHrP-mediated) is the commonest cause of hypercalcaemia in a hospitalised patient with cancer — treat with aggressive IV saline first, then bisphosphonate; suppressed PTH with elevated PTHrP distinguishes it from primary hyperparathyroidism."
+  },
+  {
+    "system": "principles",
+    "sourceLecture": "principles of surgical oncology.pdf",
+    "topic": "Sentinel lymph node biopsy",
+    "question": "A 48-year-old woman is diagnosed with a 1.8 cm invasive ductal carcinoma of the left breast with clinically impalpable axillary lymph nodes and a negative pre-operative axillary ultrasound. She is scheduled for wide local excision. The surgical team proposes sentinel lymph node biopsy (SLNB) rather than axillary lymph node dissection (ALND) to stage the axilla. Which statement best justifies this approach?",
+    "options": [
+      "SLNB has equivalent staging accuracy to ALND with significantly less morbidity (particularly lymphoedema) in clinically node-negative patients",
+      "SLNB is preferred over ALND because it removes more lymph nodes and provides better local control",
+      "SLNB should be performed instead of ALND because it eliminates the need for post-operative radiotherapy",
+      "SLNB is only appropriate if intra-operative frozen section confirms the node is negative before the patient wakes from anaesthesia",
+      "SLNB is contraindicated in invasive ductal carcinoma and should be reserved for lobular carcinoma only"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "SLNB accurately stages the axilla by identifying and removing the first draining lymph node(s) (sentinel node) using blue dye and/or radioisotope mapping. In clinically node-negative patients, it has equivalent staging accuracy to ALND (false-negative rate ~5-8%) with markedly reduced morbidity — particularly lymphoedema (1-3% vs 20-30%), shoulder dysfunction, and paraesthesia. It is the established standard of care for axillary staging in clinically node-negative early breast cancer.",
+    "wrongAnswerExplanations": [
+      "Equivalent staging with less morbidity is correct: SLNB provides comparable axillary staging accuracy to full ALND in clinically node-negative patients, while carrying substantially lower risks of lymphoedema, sensory loss, and shoulder morbidity.",
+      "SLNB removes more nodes is incorrect: SLNB intentionally removes fewer nodes (typically 1-4 sentinel nodes) than ALND (which removes 10-20+ nodes). The goal is targeted staging, not maximal nodal clearance.",
+      "SLNB eliminates need for radiotherapy is incorrect: axillary node status informs radiotherapy decisions, but SLNB does not replace radiotherapy when indicated (e.g. involved nodes, large tumours). These are independent treatment modalities.",
+      "Intra-operative frozen section required is incorrect: while intra-operative analysis can be used, it is not mandatory for SLNB. Definitive assessment is by formal paraffin section histopathology. Completion ALND can be performed at a second operation if the sentinel node returns positive on final histology.",
+      "SLNB contraindicated in IDC is incorrect: SLNB is the standard of care in invasive ductal carcinoma and invasive lobular carcinoma alike. There is no histological subtype-based contraindication to SLNB in early breast cancer."
+    ],
+    "clinicalPearl": "Sentinel lymph node biopsy is the standard axillary staging procedure for clinically node-negative early breast cancer — it provides equivalent oncological information to axillary dissection with dramatically lower lymphoedema rates (1-3% vs 20-30%)."
+  }
+]

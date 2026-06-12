@@ -1,0 +1,301 @@
+[
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Achalasia",
+    "question": "A 38-year-old woman presents with a 2-year history of progressive dysphagia to both solids and liquids. She also reports regurgitation of undigested food, particularly at night, and has lost 6 kg over 6 months. She denies heartburn. On examination she appears cachectic. A barium swallow demonstrates a smooth, tapering 'bird-beak' narrowing at the gastro-oesophageal junction with proximal dilatation. What is the most appropriate next investigation to confirm the diagnosis?",
+    "options": [
+      "CT thorax with contrast",
+      "Oesophagogastroduodenoscopy (OGD)",
+      "Oesophageal manometry",
+      "24-hour pH monitoring",
+      "Endoscopic ultrasound"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Oesophageal manometry is the gold-standard investigation for confirming achalasia. It demonstrates absent peristalsis in the oesophageal body and failure of relaxation of the lower oesophageal sphincter (LOS) with raised resting LOS pressure. The barium swallow finding of bird-beak narrowing is highly suggestive but manometry provides definitive functional confirmation.",
+    "wrongAnswerExplanations": [
+      "CT thorax can identify complications or alternative diagnoses (e.g. malignancy causing pseudo-achalasia) but does not confirm the functional diagnosis of achalasia.",
+      "OGD is important to exclude malignancy at the GOJ (pseudo-achalasia) and should be performed, but it cannot demonstrate the manometric abnormalities that define achalasia.",
+      "Oesophageal manometry is the gold-standard investigation: it confirms absent peristalsis and impaired LOS relaxation, which are the defining features of achalasia.",
+      "24-hour pH monitoring assesses gastro-oesophageal reflux and is not useful in diagnosing achalasia.",
+      "Endoscopic ultrasound is used to stage oesophageal malignancy and assess mural pathology; it does not provide functional information about motility or LOS relaxation."
+    ],
+    "clinicalPearl": "Dysphagia to BOTH solids and liquids from the outset is the hallmark of motility disorders such as achalasia, distinguishing it from mechanical obstruction which typically begins with solids alone."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Boerhaave syndrome",
+    "question": "A 52-year-old man is brought to the emergency department after a severe episode of vomiting following a large meal and alcohol. He now complains of sudden-onset severe chest and upper abdominal pain radiating to the back and left shoulder. On examination he is tachycardic (HR 118 bpm), hypotensive (BP 88/60 mmHg), febrile (38.9°C), and there is surgical emphysema palpable in the neck. A chest X-ray shows left pleural effusion and mediastinal widening. What is the most appropriate immediate management?",
+    "options": [
+      "Urgent upper GI endoscopy to identify and clip the tear",
+      "Intravenous proton pump inhibitor and observation",
+      "Broad-spectrum IV antibiotics, IV fluids, nil by mouth, and urgent CT oesophagram followed by surgical consultation",
+      "Emergency intercostal chest drain insertion and discharge with oral antibiotics",
+      "Barium swallow to confirm the diagnosis before any intervention"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Boerhaave syndrome (spontaneous oesophageal perforation) is a life-threatening surgical emergency. Immediate resuscitation with IV fluids, broad-spectrum antibiotics (covering gram-negatives and anaerobes), strict nil by mouth, and urgent water-soluble contrast CT oesophagram to confirm and locate the perforation are essential. Prompt surgical consultation is mandatory as most cases require operative repair, particularly when presentation is within 24 hours.",
+    "wrongAnswerExplanations": [
+      "Urgent endoscopy risks extending the perforation and introducing air into the mediastinum; it is contraindicated as the initial intervention in suspected Boerhaave syndrome.",
+      "IV PPI and observation alone is wholly inadequate for a full-thickness oesophageal perforation with mediastinitis and haemodynamic compromise; this approach would be fatal.",
+      "This is the correct immediate approach: aggressive resuscitation, antibiotics, nil by mouth, and urgent CT oesophagram to confirm the perforation, followed by emergency surgical consultation.",
+      "A chest drain alone may be needed to drain an empyema but does not address the source; discharging the patient would be dangerous and inappropriate given his haemodynamic instability.",
+      "Barium is contraindicated in suspected perforation as it causes severe chemical mediastinitis; water-soluble contrast (Gastrografin) should be used, and only after initial resuscitation."
+    ],
+    "clinicalPearl": "The triad of vomiting, chest pain, and subcutaneous emphysema after forceful emesis is Mackler's triad — pathognomonic of Boerhaave syndrome, requiring immediate surgical emergency management."
+  },
+  {
+    "system": "Esophageal Disorders.pdf",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Barrett's oesophagus",
+    "question": "A 58-year-old obese man with a 15-year history of gastro-oesophageal reflux disease (GORD), poorly controlled on once-daily omeprazole, undergoes surveillance OGD. Endoscopy reveals salmon-coloured mucosa extending 4 cm above the gastro-oesophageal junction. Biopsies confirm intestinal metaplasia with specialised columnar epithelium but no dysplasia. What is the most appropriate next step in management?",
+    "options": [
+      "Immediate oesophagectomy due to high malignancy risk",
+      "Radiofrequency ablation of the Barrett's segment",
+      "Optimise PPI therapy to twice daily and arrange surveillance OGD in 3–5 years",
+      "Refer urgently for photodynamic therapy",
+      "No further follow-up required as there is no dysplasia"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Non-dysplastic Barrett's oesophagus carries a low but real risk of progression to oesophageal adenocarcinoma (approximately 0.3% per year). Current guidelines recommend optimising acid suppression (twice-daily PPI) and surveillance endoscopy every 3–5 years to monitor for development of dysplasia. Interventional ablation is reserved for confirmed dysplasia.",
+    "wrongAnswerExplanations": [
+      "Immediate oesophagectomy is not indicated for non-dysplastic Barrett's; surgery is reserved for high-grade dysplasia or early invasive carcinoma.",
+      "Radiofrequency ablation (RFA) is effective for Barrett's with confirmed dysplasia; it is not first-line for non-dysplastic Barrett's due to the low progression risk.",
+      "Optimising PPI therapy and 3–5 yearly surveillance OGD is the correct management for non-dysplastic Barrett's oesophagus according to current guidelines.",
+      "Photodynamic therapy is an older endoscopic ablative technique largely superseded by RFA; it is not used for non-dysplastic Barrett's.",
+      "Abandoning surveillance would be inappropriate; although the annual cancer risk is low (~0.3%), ongoing endoscopic surveillance is recommended to detect progression to dysplasia."
+    ],
+    "clinicalPearl": "Barrett's oesophagus with non-dysplastic intestinal metaplasia warrants surveillance every 3–5 years; the presence of low-grade dysplasia escalates to annual surveillance, and high-grade dysplasia mandates endoscopic ablation."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "GORD",
+    "question": "A 45-year-old woman presents with a 3-year history of heartburn, acid regurgitation, and an intermittent dry cough. Symptoms are worse after large meals and when lying flat. Her BMI is 32 kg/m². She has been taking over-the-counter antacids with minimal relief. OGD shows erythema and erosions at the gastro-oesophageal junction. She is started on once-daily omeprazole 20 mg. After 8 weeks, her symptoms persist. What is the most appropriate next step?",
+    "options": [
+      "Add a H2-receptor antagonist at night",
+      "Increase omeprazole to twice daily (20 mg BD) taken 30 minutes before meals",
+      "Proceed directly to laparoscopic Nissen fundoplication",
+      "Perform 24-hour ambulatory pH monitoring to confirm GORD",
+      "Add domperidone as a prokinetic agent"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "When standard once-daily PPI therapy fails in erosive GORD, the evidence-based next step is to escalate to twice-daily dosing, with each dose taken 30–60 minutes before a meal to maximise acid suppression during peak meal-stimulated secretion. Compliance with correct timing is also reviewed as a common cause of apparent PPI failure.",
+    "wrongAnswerExplanations": [
+      "Adding a nocturnal H2-receptor antagonist can help nocturnal acid breakthrough but is not the primary next step; dose escalation of the PPI is preferred first.",
+      "Doubling the PPI dose to twice daily (BD), taken before meals, is the correct escalation step when standard once-daily therapy is insufficient for erosive oesophagitis.",
+      "Surgical fundoplication may be appropriate for medically refractory GORD but is not the next step before optimising medical therapy with a twice-daily PPI trial.",
+      "24-hour pH monitoring is used when the diagnosis is uncertain or before surgery; in this case the diagnosis is confirmed endoscopically, so pH monitoring is not the immediate next step.",
+      "Domperidone (a prokinetic) has a limited evidence base for GORD and is not first-line; dose escalation of PPI is preferred."
+    ],
+    "clinicalPearl": "PPI tablets should be taken 30–60 minutes before a meal — this ensures the drug is absorbed and active when meal-stimulated proton pumps are maximally expressed, optimising acid suppression."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Oesophageal squamous cell carcinoma",
+    "question": "A 67-year-old male smoker with a 40 pack-year history and heavy alcohol use presents with a 3-month history of progressive dysphagia — initially to solids, now to liquids — accompanied by a 10 kg weight loss. He reports no heartburn. OGD reveals an irregular, friable mid-oesophageal stricture at 28 cm from the incisors; biopsies confirm squamous cell carcinoma. What is the most appropriate investigation to stage the disease and plan treatment?",
+    "options": [
+      "Barium swallow to assess length of the tumour",
+      "PET-CT combined with CT chest/abdomen/pelvis and endoscopic ultrasound",
+      "Bronchoscopy alone to exclude airway invasion",
+      "MRI thorax",
+      "Repeat OGD in 6 weeks after starting nasogastric feeding"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Accurate staging of oesophageal carcinoma requires CT chest/abdomen/pelvis (for distant nodal and organ metastases), endoscopic ultrasound (for T and N staging — the most accurate modality for local staging), and PET-CT (to detect occult distant metastases and guide radiotherapy planning). This combination is the accepted staging workup before determining resectability and planning neoadjuvant therapy.",
+    "wrongAnswerExplanations": [
+      "Barium swallow delineates luminal anatomy but provides no information on tumour depth (T stage), nodal involvement, or distant metastases; it is not a staging tool.",
+      "CT chest/abdomen/pelvis combined with EUS and PET-CT is the correct multimodality staging workup, providing T, N, and M staging to guide treatment decisions.",
+      "Bronchoscopy is indicated if tracheo-oesophageal fistula or airway invasion is suspected but is not a complete staging investigation on its own.",
+      "MRI thorax has limited spatial resolution for oesophageal tumour staging compared to CT and EUS; it is not routinely used in this setting.",
+      "Repeating OGD merely for surveillance before staging is inappropriate and delays treatment planning; nutritional support should be initiated alongside, not instead of, staging."
+    ],
+    "clinicalPearl": "Mid-oesophageal SCC in a heavy smoker/drinker is staged with CT, EUS, and PET-CT; neoadjuvant chemoradiotherapy (CROSS protocol) followed by surgery is the standard curative approach for resectable disease."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophagus & Stomach Theory.pdf",
+    "topic": "Hiatus hernia",
+    "question": "A 72-year-old obese woman presents with post-prandial fullness, dysphagia, and episodes of chest pain. She denies vomiting. An erect chest X-ray shows an air-fluid level behind the cardiac shadow. OGD is attempted but the endoscope cannot be passed into the stomach. CT chest reveals the entire stomach is herniated into the thorax with its greater curvature oriented superiorly. What type of hiatus hernia does she most likely have, and what is the most appropriate management?",
+    "options": [
+      "Type I (sliding) hiatus hernia — manage with PPI and lifestyle measures",
+      "Type II (rolling/para-oesophageal) hernia — elective laparoscopic surgical repair",
+      "Type III (mixed) hiatus hernia — urgent surgical reduction and gastropexy due to risk of volvulus",
+      "Type IV hiatus hernia — conservative management as surgery is too risky",
+      "Type I hernia with gastric volvulus — manage with nasogastric decompression only"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The CT description of the entire stomach herniated into the thorax with the greater curvature uppermost is characteristic of a Type III (mixed) hiatus hernia with organo-axial gastric volvulus. This is a surgical emergency due to the risk of gastric ischaemia, strangulation, and perforation. Urgent laparoscopic (or open) reduction, repair of the hiatal defect, and gastropexy are required.",
+    "wrongAnswerExplanations": [
+      "Type I (sliding) hernia involves only the GOJ sliding into the thorax; it is managed medically. This patient's CT shows the entire stomach herniated — inconsistent with Type I.",
+      "Type II (para-oesophageal) hernia involves the gastric fundus herniating alongside a normally positioned GOJ; elective repair is appropriate but this presentation with organo-axial volvulus requires urgent intervention.",
+      "Type III mixed hernia with organo-axial volvulus is the correct diagnosis; the risk of strangulation mandates urgent surgical reduction and repair — this is the correct answer.",
+      "Type IV hernia involves herniation of other abdominal organs (e.g. colon, spleen) in addition to the stomach; regardless, an incarcerated or volvulated stomach is not managed conservatively.",
+      "Nasogastric decompression alone is insufficient for a complete organo-axial gastric volvulus; surgical repair is essential to prevent ischaemia and perforation."
+    ],
+    "clinicalPearl": "A chest X-ray showing a retrocardiac air-fluid level in an elderly patient should prompt consideration of a large hiatus hernia or gastric volvulus — an urgent CT confirms the anatomy and the need for surgical repair."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Corrosive oesophageal injury",
+    "question": "A 4-year-old boy is brought to the emergency department after accidentally ingesting a household alkaline drain-cleaning liquid 30 minutes ago. He is drooling, distressed, and refusing to swallow. His mother estimates he swallowed approximately one mouthful. On examination there are white plaques on the lips and anterior tongue. Vital signs are stable. What is the most appropriate immediate management?",
+    "options": [
+      "Induce vomiting immediately to remove the caustic agent",
+      "Administer oral neutralising agent (vinegar or lemon juice)",
+      "Nil by mouth, IV access, analgesia, and urgent OGD within 12–24 hours to assess injury extent",
+      "Immediate emergency laparotomy",
+      "Discharge home with proton pump inhibitor and follow-up in one week"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Caustic ingestion requires immediate nil by mouth, IV access, analgesia, and assessment of airway. Early OGD within 12–24 hours (but not in the first 2 hours) is the gold standard to grade the injury (Zargar classification) and guide further management. Induced vomiting and neutralising agents are absolutely contraindicated as they cause exothermic reactions and re-exposure of damaged mucosa.",
+    "wrongAnswerExplanations": [
+      "Inducing vomiting is absolutely contraindicated after caustic ingestion as it re-exposes the oropharynx and oesophagus to the corrosive agent, worsening injury.",
+      "Administering neutralising agents (acid for alkali, or vice versa) causes exothermic reactions that generate heat and can cause thermal injury in addition to the chemical injury; strictly contraindicated.",
+      "Nil by mouth, IV access, analgesia, and urgent OGD within 12–24 hours is the correct management; endoscopy grades injury severity and guides the need for surgery or long-term dilation.",
+      "Emergency laparotomy is only indicated if there is evidence of oesophageal or gastric perforation (peritonitis, pneumoperitoneum); it is not the immediate first step in a haemodynamically stable child.",
+      "Discharging the patient is dangerous; the extent of mucosal injury cannot be determined clinically and a significant ingestion requires endoscopic assessment and monitoring."
+    ],
+    "clinicalPearl": "Never induce vomiting or give neutralising agents after caustic ingestion — early endoscopy (12–24 h, not in the first 2 h) using the Zargar classification guides prognosis and management of corrosive oesophageal injury."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Oesophageal adenocarcinoma",
+    "question": "A 61-year-old obese man with a 20-year history of GORD and known Barrett's oesophagus attends his scheduled surveillance OGD. Random biopsies from the Barrett's segment reveal high-grade dysplasia (HGD) confirmed on two separate biopsies reviewed by a specialist GI pathologist. There is no endoscopically visible lesion. CT staging and EUS show no mural thickening, lymphadenopathy, or distant disease. What is the most appropriate management?",
+    "options": [
+      "Increase PPI to twice daily and repeat OGD in 3 months",
+      "Immediate oesophagectomy",
+      "Endoscopic radiofrequency ablation (RFA) of the Barrett's segment",
+      "External beam radiotherapy to the lower oesophagus",
+      "Photodynamic therapy followed by 6-monthly surveillance"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Confirmed high-grade dysplasia in Barrett's oesophagus without an endoscopically visible lesion or invasive carcinoma is now managed with endoscopic ablation, specifically radiofrequency ablation (RFA). RFA achieves eradication rates of HGD exceeding 90% and significantly reduces progression to invasive carcinoma with a far lower morbidity than oesophagectomy. Any visible lesion would first require endoscopic mucosal resection (EMR) to fully stage.",
+    "wrongAnswerExplanations": [
+      "Intensifying PPI alone and repeating surveillance is wholly inadequate for confirmed high-grade dysplasia; this carries a significant risk of progression to invasive adenocarcinoma.",
+      "Oesophagectomy carries significant morbidity and mortality and was previously the standard for HGD; it has been largely replaced by endoscopic ablation (RFA) for flat HGD with equivalent oncological outcomes and far less morbidity.",
+      "Endoscopic radiofrequency ablation (RFA) is the correct first-line treatment for flat HGD in Barrett's oesophagus; it achieves >90% eradication of HGD with low complication rates.",
+      "External beam radiotherapy is used for locally advanced or metastatic oesophageal carcinoma; it has no role in managing high-grade dysplasia in an endoscopically normal-appearing Barrett's segment.",
+      "Photodynamic therapy is an older technique with higher complication rates (stricture, skin photosensitivity) that has been largely superseded by RFA; it is not current standard of care."
+    ],
+    "clinicalPearl": "Confirmed high-grade dysplasia in Barrett's oesophagus mandates endoscopic ablation (RFA); any endoscopically visible nodule should be removed by EMR first for accurate histological staging before ablation."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Dysphagia work-up",
+    "question": "A 70-year-old man presents with a 6-week history of progressive dysphagia, initially to solids and now to soft foods. He has lost 8 kg in 2 months and reports pain on swallowing. He is a non-smoker with no history of GORD. Examination reveals left supraclavicular lymphadenopathy (Virchow's node). What is the single most important first investigation?",
+    "options": [
+      "Barium swallow",
+      "CT chest, abdomen, and pelvis with contrast",
+      "Urgent OGD with biopsies",
+      "24-hour ambulatory pH study",
+      "Oesophageal manometry"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Progressive dysphagia with weight loss and left supraclavicular lymphadenopathy (Troisier's sign) in a 70-year-old strongly suggests oesophageal malignancy. Urgent OGD with biopsies is the single most important first investigation — it directly visualises the lesion, obtains tissue for histological diagnosis, and allows assessment of any stricture. Histological confirmation is prerequisite to all staging and treatment decisions.",
+    "wrongAnswerExplanations": [
+      "Barium swallow can delineate a luminal abnormality but cannot obtain tissue; a histological diagnosis is essential and OGD with biopsies achieves both visualisation and diagnosis in one step.",
+      "CT staging is critical but follows tissue diagnosis; it cannot provide histology and should not precede OGD when malignancy is strongly suspected clinically.",
+      "Urgent OGD with biopsies is correct — it provides direct visualisation and tissue diagnosis, which are essential before any staging or treatment planning for suspected oesophageal malignancy.",
+      "24-hour pH monitoring assesses acid reflux and is not relevant in the investigation of suspected oesophageal malignancy.",
+      "Oesophageal manometry assesses motility disorders; it is not appropriate in the work-up of suspected malignant dysphagia."
+    ],
+    "clinicalPearl": "Progressive solid dysphagia with weight loss in an elderly patient is malignancy until proven otherwise — urgent OGD with biopsies is the mandatory first step; the 2-week wait pathway should be triggered immediately."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Achalasia management",
+    "question": "A 29-year-old man is diagnosed with achalasia on manometry (absent peristalsis, elevated resting LOS pressure, incomplete LOS relaxation). He has mild-to-moderate dysphagia and has lost 4 kg. He has no significant comorbidities and is keen for a definitive long-term solution. What is the most appropriate treatment?",
+    "options": [
+      "Sublingual nifedipine before meals",
+      "Endoscopic botulinum toxin injection into the LOS",
+      "Laparoscopic Heller myotomy with partial fundoplication",
+      "Serial pneumatic balloon dilation alone",
+      "Proton pump inhibitor twice daily"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Laparoscopic Heller cardiomyotomy (myotomy) with a partial anti-reflux procedure (e.g. Dor or Toupet fundoplication) is the gold-standard long-term treatment for achalasia in a fit young patient. It provides durable symptomatic relief in approximately 90% of patients at 10 years, superior to endoscopic therapies in fit surgical candidates. The partial fundoplication prevents post-operative GORD without reintroducing obstruction.",
+    "wrongAnswerExplanations": [
+      "Nifedipine (a calcium channel blocker) reduces LOS pressure transiently and may provide modest symptom relief, but its efficacy is poor and it is used only when other treatments are contraindicated or as a bridge.",
+      "Botulinum toxin injection provides temporary relief (typically 6–12 months) before efficacy wanes; it is reserved for elderly or high-surgical-risk patients, not young fit individuals seeking a durable cure.",
+      "Laparoscopic Heller myotomy with partial fundoplication is the correct answer for a young fit patient; it offers the most durable long-term symptomatic control with a low complication rate.",
+      "Pneumatic balloon dilation is an effective non-surgical alternative, particularly for older patients; it has a higher perforation risk (1–3%) and a lower long-term success rate than surgery in young patients, though POEM is also an emerging equivalent.",
+      "PPIs treat acid reflux and have no role in the management of achalasia, which is a motility disorder not a reflux disease."
+    ],
+    "clinicalPearl": "Laparoscopic Heller myotomy with a partial fundoplication is the definitive treatment for achalasia in fit patients; POEM (per-oral endoscopic myotomy) is an emerging equivalent with comparable efficacy but higher post-procedure GORD rates."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophagus & Stomach Theory.pdf",
+    "topic": "Sliding hiatus hernia with GORD",
+    "question": "A 55-year-old woman with a BMI of 34 kg/m² presents with a 5-year history of heartburn, regurgitation, and worsening dysphagia. OGD reveals a 4 cm sliding hiatus hernia and a 3 cm Barrett's segment with low-grade dysplasia confirmed on biopsy. She has been on twice-daily omeprazole for 2 years with good symptom control. Which factor in this patient's history represents the strongest indication to consider surgical anti-reflux intervention?",
+    "options": [
+      "BMI of 34 kg/m²",
+      "Age of 55 years",
+      "Confirmed Barrett's oesophagus with low-grade dysplasia despite adequate acid suppression",
+      "Duration of symptoms for 5 years",
+      "Hiatus hernia size of 4 cm"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Barrett's oesophagus with persistent low-grade dysplasia despite optimised medical therapy represents a strong indication to consider surgical anti-reflux procedures (laparoscopic fundoplication) or escalation to endoscopic ablation. The presence of dysplasia indicates ongoing mutagenic acid/bile exposure and progression risk. Symptom control alone is insufficient when dysplastic Barrett's is present.",
+    "wrongAnswerExplanations": [
+      "Obesity (BMI 34) is a risk factor for GORD and hernia recurrence post-surgery; weight loss should be encouraged, but obesity alone is not the primary surgical indication in this context.",
+      "Age 55 is not a strong indication for surgery; if anything, younger patients have more to gain from definitive surgery given the long duration of drug therapy required.",
+      "Confirmed Barrett's with low-grade dysplasia despite adequate PPI therapy is the strongest indication for escalating intervention, either surgical or endoscopic ablation — this is correct.",
+      "Duration of 5 years of symptoms warrants continued management but is not itself a specific indication for surgery if symptom control is adequate and there is no mucosal progression.",
+      "A 4 cm sliding hernia contributes to GORD but hernia size alone is not the primary indication for surgery; it is the dysplastic Barrett's that drives the decision."
+    ],
+    "clinicalPearl": "Persistent dysplastic Barrett's oesophagus despite optimal acid suppression is an indication to escalate therapy — either surgical fundoplication or endoscopic ablation — because symptom control does not equate to mucosal protection against malignant progression."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophageal Disorders.pdf",
+    "topic": "Oesophageal perforation — iatrogenic",
+    "question": "A 63-year-old woman undergoes OGD and pneumatic balloon dilation for achalasia. Two hours later she develops worsening chest pain and dyspnoea. On examination she is pyrexial (38.2°C), tachycardic (HR 112 bpm), and chest auscultation reveals a crunching sound synchronous with the heartbeat (Hamman's sign). A plain chest X-ray shows pneumomediastinum and a small left pleural effusion. What is the most likely diagnosis and what initial investigation best characterises the injury?",
+    "options": [
+      "Pneumothorax — CT pulmonary angiogram to exclude PE",
+      "Oesophageal perforation — water-soluble contrast (Gastrografin) swallow or CT oesophagram",
+      "Mediastinitis from spontaneous rupture — emergency bronchoscopy",
+      "Aspiration pneumonia — sputum culture and chest X-ray series",
+      "Cardiac tamponade — urgent echocardiogram"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Post-instrumentation chest pain with pneumomediastinum and Hamman's sign (mediastinal crunch) indicates oesophageal perforation — the most feared complication of therapeutic endoscopy. Water-soluble contrast swallow (Gastrografin) or CT with oral contrast (CT oesophagram) best delineates the site and extent of the perforation and identifies mediastinal or pleural contamination. Barium is contraindicated due to the risk of barium mediastinitis.",
+    "wrongAnswerExplanations": [
+      "A pneumothorax cannot explain pneumomediastinum and Hamman's sign in the context of recent oesophageal instrumentation; CT-PA for PE does not address the likely diagnosis.",
+      "Post-dilation oesophageal perforation is the correct diagnosis; water-soluble contrast swallow or CT oesophagram is the best investigation to confirm location and extent — this is correct.",
+      "Although mediastinitis may complicate perforation, bronchoscopy is not used to characterise oesophageal perforation; contrast swallow/CT is the appropriate investigation.",
+      "Aspiration pneumonia does not explain acute-onset pneumomediastinum or Hamman's sign; it would develop over hours to days and is not the immediate diagnosis here.",
+      "Cardiac tamponade presents with Beck's triad (hypotension, muffled heart sounds, raised JVP) and does not explain pneumomediastinum after oesophageal dilation."
+    ],
+    "clinicalPearl": "Hamman's sign (mediastinal crunch on auscultation) after oesophageal instrumentation is pathognomonic of pneumomediastinum from oesophageal perforation; water-soluble contrast swallow or CT oesophagram confirms the diagnosis — never use barium."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Esophagus & Stomach Theory.pdf",
+    "topic": "Oesophageal carcinoma — palliative management",
+    "question": "A 78-year-old man presents with a 2-month history of rapidly progressive dysphagia, now unable to swallow saliva. CT staging reveals a T4b N2 M1 lower oesophageal adenocarcinoma with hepatic and pulmonary metastases. His performance status is ECOG 3. He is distressed by his inability to swallow and is losing weight rapidly. What is the most appropriate palliative intervention to restore luminal patency and improve swallowing?",
+    "options": [
+      "Palliative oesophagectomy to debulk the tumour",
+      "Urgent neoadjuvant chemotherapy followed by reassessment for surgery",
+      "Endoscopic self-expanding metal stent (SEMS) insertion",
+      "Radical chemoradiotherapy with curative intent",
+      "Insertion of a radiologically-guided percutaneous gastrostomy (PEG) tube alone"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In a patient with metastatic oesophageal cancer, ECOG 3 performance status, and complete dysphagia, the goal is palliation of symptoms. Endoscopic self-expanding metal stent (SEMS) insertion is the most effective and rapid palliative intervention to restore luminal patency and allow oral intake, improving quality of life. It can be performed under conscious sedation with immediate improvement in swallowing.",
+    "wrongAnswerExplanations": [
+      "Palliative oesophagectomy carries high operative mortality and morbidity and offers no survival benefit in metastatic disease; it is not appropriate in an ECOG 3 patient with M1 disease.",
+      "Neoadjuvant chemotherapy followed by surgical reassessment is a curative strategy for resectable disease; it is not appropriate for T4b M1 disease with poor performance status.",
+      "SEMS insertion is the correct palliative intervention — it rapidly restores swallowing with minimal procedural risk and significantly improves quality of life in this palliative setting.",
+      "Radical chemoradiotherapy with curative intent is not appropriate for M1 disease with ECOG 3 performance status; it would not be tolerated and cannot be curative.",
+      "PEG tube alone bypasses the oropharynx for nutrition but does not restore the ability to swallow; SEMS is preferred as it allows oral intake and directly addresses the symptom of dysphagia."
+    ],
+    "clinicalPearl": "Endoscopic SEMS insertion is the first-line palliative intervention for malignant oesophageal obstruction in non-surgical candidates; it provides rapid restoration of swallowing and improves quality of life within 24–48 hours of placement."
+  }
+]

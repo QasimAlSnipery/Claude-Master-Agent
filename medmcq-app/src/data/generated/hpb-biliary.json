@@ -1,0 +1,301 @@
+[
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Choledocholithiasis",
+    "question": "A 52-year-old woman presents to the emergency department with a 6-hour history of right upper quadrant pain radiating to the back, nausea, and vomiting. She had a similar but milder episode 3 months ago that resolved spontaneously. On examination, she is afebrile (37.2°C), heart rate 88 bpm, and blood pressure 124/78 mmHg. She has mild RUQ tenderness but no peritonism. Blood tests show: bilirubin 68 µmol/L (conjugated 52 µmol/L), ALP 320 U/L, ALT 180 U/L, GGT 290 U/L, WCC 9.2 × 10⁹/L. An ultrasound confirms gallstones with a CBD diameter of 11 mm; no CBD stone is visualised. What is the most appropriate next investigation?",
+    "options": [
+      "CT abdomen with contrast",
+      "MRCP",
+      "Endoscopic ultrasound (EUS)",
+      "Proceed directly to ERCP",
+      "Hepatobiliary iminodiacetic acid (HIDA) scan"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has biochemical and sonographic features strongly suggestive of choledocholithiasis (dilated CBD, conjugated hyperbilirubinaemia, elevated ALP/GGT) but no visualised CBD stone on ultrasound. MRCP is the non-invasive gold standard for confirming CBD stones before proceeding to therapeutic ERCP, avoiding unnecessary endoscopic intervention. ERCP carries procedural risks (pancreatitis ~3–5%, bleeding, perforation) and should only be performed when stones are confirmed or the clinical picture is highly compelling.",
+    "wrongAnswerExplanations": [
+      "MRCP is the correct next step — it is non-invasive and highly sensitive (>90%) for detecting CBD stones, confirming the diagnosis before therapeutic ERCP.",
+      "CT abdomen has poor sensitivity for CBD stones (~50–70%) because stones are often isodense with bile and is not the investigation of choice here.",
+      "EUS is highly accurate but is invasive, requires sedation, and is reserved for cases where MRCP is non-diagnostic or contraindicated (e.g., metallic implants).",
+      "Proceeding directly to ERCP without imaging confirmation exposes the patient to procedural risks unnecessarily; MRCP should first confirm the stone.",
+      "HIDA scan assesses biliary function and is useful for diagnosing acute cholecystitis or biliary dyskinesia, not for detecting CBD stones."
+    ],
+    "clinicalPearl": "In suspected choledocholithiasis with a non-diagnostic ultrasound, MRCP is the non-invasive investigation of choice to confirm CBD stones before therapeutic ERCP."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Ascending cholangitis",
+    "question": "A 68-year-old man with known gallstones presents with a 2-day history of right upper quadrant pain, jaundice, and fever with rigors. He is confused on arrival. Observations: temperature 39.4°C, HR 118 bpm, BP 88/54 mmHg, SpO₂ 96% on air. Examination reveals jaundice, RUQ tenderness, and cool peripheries. Blood tests: bilirubin 145 µmol/L, ALP 680 U/L, WCC 22 × 10⁹/L, CRP 310 mg/L, creatinine 168 µmol/L. Blood cultures are pending. What is the most appropriate immediate management?",
+    "options": [
+      "Urgent MRCP to confirm CBD stones, then arrange ERCP within 24 hours",
+      "IV fluid resuscitation, broad-spectrum IV antibiotics, and urgent ERCP within 24 hours",
+      "Laparoscopic cholecystectomy with intraoperative cholangiogram on the next available list",
+      "Percutaneous transhepatic cholangiography (PTC) and biliary drainage",
+      "IV fluid resuscitation and broad-spectrum IV antibiotics alone, with ERCP deferred until the patient is stable"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has Charcot's triad (fever/rigors, jaundice, RUQ pain) plus hypotension and confusion — the full Reynolds' pentad — indicating severe/suppurative ascending cholangitis with septic shock. Management requires immediate resuscitation with IV fluids, broad-spectrum antibiotics (covering Gram-negatives and anaerobes), and urgent biliary decompression via ERCP within 24 hours. Delaying ERCP worsens mortality; decompression is definitive and life-saving in this context.",
+    "wrongAnswerExplanations": [
+      "Urgent MRCP first is inappropriate here — this is a clinical emergency with Reynolds' pentad, and ERCP should not be delayed for confirmatory imaging when the diagnosis is clear and the patient is in septic shock.",
+      "This is correct: IV resuscitation, broad-spectrum antibiotics, and urgent ERCP within 24 hours is the guideline-recommended management for severe ascending cholangitis with septic shock.",
+      "Laparoscopic cholecystectomy does not decompress the CBD and is not appropriate acute management for ascending cholangitis; CBD clearance via ERCP is needed first.",
+      "PTC is reserved for when ERCP fails or is not technically feasible (e.g., post-gastrectomy anatomy); ERCP is the first-line biliary drainage approach.",
+      "Decompression cannot safely be deferred in Reynolds' pentad — the source of sepsis is the obstructed biliary system and antibiotics alone will not control the infection without drainage."
+    ],
+    "clinicalPearl": "Reynolds' pentad (Charcot's triad + hypotension + confusion) signals suppurative ascending cholangitis requiring immediate resuscitation, antibiotics, and urgent ERCP within 24 hours."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Courvoisier's law / pancreatic head malignancy",
+    "question": "A 71-year-old man presents with a 6-week history of progressive painless jaundice, dark urine, pale stools, and a 6 kg weight loss. He denies fever or rigors. On examination, he is deeply jaundiced. His abdomen is soft with a palpable, non-tender mass in the right upper quadrant below the liver edge. Blood tests show: bilirubin 310 µmol/L (conjugated), ALP 920 U/L, CA 19-9 elevated at 4800 U/mL. Which clinical statement best explains the significance of the palpable gallbladder in this patient?",
+    "options": [
+      "The palpable gallbladder indicates acute cholecystitis complicating choledocholithiasis",
+      "In the presence of obstructive jaundice, a palpable non-tender gallbladder suggests the obstruction is unlikely to be caused by gallstones (Courvoisier's law)",
+      "A palpable gallbladder with jaundice is pathognomonic of primary sclerosing cholangitis",
+      "The palpable gallbladder indicates Mirizzi syndrome with extrinsic CBD compression",
+      "A non-tender palpable gallbladder in a jaundiced patient is consistent with acute cholangitis requiring immediate ERCP"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Courvoisier's law states that in the presence of obstructive jaundice, a palpable non-tender gallbladder suggests the obstruction is unlikely to be caused by gallstones. Gallstone disease causes a fibrotic, contracted, non-distensible gallbladder, whereas malignant obstruction (e.g., carcinoma of the pancreatic head or cholangiocarcinoma) allows a normal or enlarged gallbladder to distend. This man's painless jaundice, weight loss, very high CA 19-9, and palpable gallbladder are highly suspicious for pancreatic head carcinoma.",
+    "wrongAnswerExplanations": [
+      "Acute cholecystitis typically causes a tender, not non-tender, RUQ mass, and the jaundice would usually be associated with fever and raised WCC — not painless progressive jaundice.",
+      "This is correct: Courvoisier's law holds that a palpable non-tender gallbladder with obstructive jaundice suggests malignant rather than gallstone-related obstruction.",
+      "Primary sclerosing cholangitis does not typically produce a palpable gallbladder and presents differently (young patient, IBD association, multifocal strictures).",
+      "Mirizzi syndrome is caused by a large gallstone impacted in Hartmann's pouch compressing the CBD, not causing a distended palpable gallbladder, and is not associated with markedly elevated CA 19-9.",
+      "Acute cholangitis presents with fever, rigors, and sepsis (Charcot's triad), not painless progressive jaundice with weight loss and a non-tender palpable gallbladder."
+    ],
+    "clinicalPearl": "Courvoisier's law: painless obstructive jaundice + palpable non-tender gallbladder = malignancy until proven otherwise (gallstones cause a fibrotic, non-distensible gallbladder)."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "ERCP complications",
+    "question": "A 45-year-old woman undergoes ERCP for confirmed choledocholithiasis. Sphincterotomy is performed and a 12 mm stone is successfully extracted. Four hours after the procedure she develops epigastric pain radiating to the back, nausea, and vomiting. Her observations are: temperature 37.6°C, HR 104 bpm, BP 110/70 mmHg. Blood tests: amylase 1800 U/L (normal <100 U/L), WCC 13 × 10⁹/L, CRP 45 mg/L. What is the most likely complication and its initial management?",
+    "options": [
+      "Duodenal perforation; urgent CT abdomen and surgical review",
+      "Post-ERCP pancreatitis; IV fluid resuscitation, analgesia, and nil by mouth",
+      "Ascending cholangitis; broad-spectrum IV antibiotics and repeat ERCP",
+      "Haemobilia; urgent angiography and embolisation",
+      "Biliary leak; CT abdomen followed by biliary stenting"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Post-ERCP pancreatitis (PEP) is the most common complication of ERCP, occurring in 3–5% of cases (up to 15% in high-risk patients). It presents within hours with epigastric pain, nausea, and a markedly elevated serum amylase (>3× upper limit of normal at 24 hours). Initial management follows standard acute pancreatitis protocols: aggressive IV fluid resuscitation, adequate analgesia, and nil by mouth. Most cases are mild and self-limiting.",
+    "wrongAnswerExplanations": [
+      "Duodenal perforation is a rare ERCP complication that typically presents with subcutaneous emphysema, severe pain, and peritonism, not predominantly with elevated amylase; management is urgent CT and often surgical.",
+      "This is correct: post-ERCP pancreatitis is the most common ERCP complication, presenting with epigastric pain and markedly elevated amylase, managed with IV fluids, analgesia, and NBM.",
+      "Ascending cholangitis would present with fever, rigors, and jaundice (Charcot's triad) rather than predominantly elevated amylase and epigastric pain post-ERCP.",
+      "Haemobilia presents with the classic Quincke's triad (upper GI bleed, RUQ pain, jaundice) and would not cause a markedly elevated amylase.",
+      "Biliary leak post-ERCP presents with abdominal pain and bile peritonitis signs, often with raised bilirubin and ALP rather than a predominantly elevated amylase."
+    ],
+    "clinicalPearl": "Post-ERCP pancreatitis is the most common ERCP complication (~3–5%); aggressive IV fluid resuscitation within the first 24 hours is the cornerstone of management."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Mirizzi syndrome",
+    "question": "A 58-year-old woman with a long history of recurrent biliary colic presents with jaundice, RUQ pain, and low-grade fever. Ultrasound shows a contracted gallbladder with multiple stones, a stone impacted at the neck of the gallbladder, and a dilated CBD of 14 mm. MRCP demonstrates extrinsic compression of the common hepatic duct by the impacted stone. There is no intrahepatic biliary dilatation above a short smooth stricture at the level of the cystic duct confluence. What is the most likely diagnosis?",
+    "options": [
+      "Klatskin tumour (hilar cholangiocarcinoma)",
+      "Mirizzi syndrome",
+      "Primary sclerosing cholangitis",
+      "Choledocholithiasis with spontaneous migration",
+      "Carcinoma of the gallbladder with CBD invasion"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Mirizzi syndrome occurs when a large gallstone impacted in Hartmann's pouch or the cystic duct causes extrinsic compression of the common hepatic duct, resulting in obstructive jaundice. The MRCP findings here — a stone at the gallbladder neck, smooth extrinsic compression at the cystic duct–CHD junction, and a dilated CBD below — are characteristic. It is a pre-operative diagnosis that significantly increases the risk of bile duct injury during cholecystectomy.",
+    "wrongAnswerExplanations": [
+      "Klatskin tumour causes hilar stricturing at the confluence of the hepatic ducts with intrahepatic biliary dilatation above, and is not typically associated with a stone impacted at Hartmann's pouch.",
+      "This is correct: Mirizzi syndrome is extrinsic CBD/CHD compression by a gallstone impacted at Hartmann's pouch or cystic duct — a recognised cause of obstructive jaundice mimicking malignancy.",
+      "Primary sclerosing cholangitis produces multifocal beading of intrahepatic and extrahepatic ducts (not a single extrinsic compression) and is associated with IBD, not gallstones.",
+      "Choledocholithiasis with migration would show a stone within the duct lumen on MRCP, not extrinsic compression at the cystic duct confluence.",
+      "Gallbladder carcinoma with CBD invasion may mimic this radiologically but would typically show a gallbladder mass with irregular invasion, not a smooth impacted stone at the neck."
+    ],
+    "clinicalPearl": "Mirizzi syndrome — extrinsic CHD compression by an impacted cystic duct/Hartmann's pouch stone — must be identified pre-operatively to avoid inadvertent bile duct injury during cholecystectomy."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Gallbladder carcinoma",
+    "question": "A 67-year-old woman underwent laparoscopic cholecystectomy for symptomatic cholelithiasis. The procedure was uncomplicated and the gallbladder was retrieved in a bag. The histology report returns 10 days later showing moderately differentiated adenocarcinoma invading into the perimuscular connective tissue (pT2 disease) with clear resection margins. What is the most appropriate next step in her management?",
+    "options": [
+      "Reassurance and surveillance ultrasound at 6 months",
+      "Re-resection: segment IVb/V liver resection and regional lymphadenectomy",
+      "Adjuvant chemotherapy with gemcitabine and cisplatin alone",
+      "Completion cholecystectomy (port-site excision only)",
+      "PET-CT staging followed by radical chemoradiotherapy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Incidentally discovered gallbladder carcinoma at pT2 (invasion through the muscularis into perimuscular connective tissue) requires re-resection to achieve cure, as simple cholecystectomy alone leaves a significant risk of residual disease and lymph node metastases. The recommended re-resection is hepatic segments IVb and V (the gallbladder fossa) plus portal lymphadenectomy. pT1b and deeper lesions are at risk of hepatic bed involvement, and pT2 is the threshold at which re-resection is strongly indicated per current guidelines.",
+    "wrongAnswerExplanations": [
+      "Surveillance alone is insufficient for pT2 gallbladder carcinoma; without re-resection the risk of residual hepatic bed disease and nodal metastases significantly reduces survival.",
+      "This is correct: pT2 incidental gallbladder carcinoma requires re-resection with segments IVb/V liver resection and regional lymphadenectomy to achieve curative intent.",
+      "Chemotherapy alone is not curative in resectable disease and is reserved for unresectable or metastatic disease; re-resection offers the best survival for pT2.",
+      "Port-site excision alone does not address the hepatic bed (the gallbladder is attached to segments IVb/V) or regional lymph nodes, and is insufficient for pT2 disease.",
+      "Chemoradiotherapy is not the standard of care for resectable incidental pT2 gallbladder carcinoma; surgical re-resection with curative intent is the correct approach."
+    ],
+    "clinicalPearl": "Incidental pT2 gallbladder carcinoma on cholecystectomy histology requires re-resection (hepatic segments IVb/V + portal lymphadenectomy) — do not discharge without oncological surgical review."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Obstructive jaundice — investigation pathway",
+    "question": "A 60-year-old man presents with a 3-week history of progressive jaundice, dark urine, and pale stools. He has no abdominal pain, no fever, and no history of gallstones. He has lost 5 kg in 4 weeks. Examination reveals deep jaundice and a smooth palpable mass in the right upper quadrant. Blood tests: bilirubin 280 µmol/L (conjugated), ALP 1100 U/L, ALT 95 U/L, albumin 32 g/L. What is the single most important first investigation?",
+    "options": [
+      "ERCP with brushings for cytology",
+      "MRCP",
+      "Ultrasound abdomen",
+      "CT abdomen and pelvis with contrast (triple phase)",
+      "CA 19-9 and CEA tumour markers"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Ultrasound is the first-line investigation for obstructive jaundice because it is widely available, cheap, non-invasive, radiation-free, and excellent at distinguishing intrahepatic from extrahepatic causes, identifying biliary dilatation, detecting gallstones, and sometimes identifying a pancreatic head mass. It guides the subsequent investigation pathway (e.g., to CT or MRCP). MRCP and CT are important but come after ultrasound has established the level and likely cause of obstruction.",
+    "wrongAnswerExplanations": [
+      "ERCP is a therapeutic/diagnostic procedure reserved for when CBD stones are confirmed or biopsies are required; it should not be the first investigation before cross-sectional imaging.",
+      "MRCP is excellent for biliary anatomy and stone detection but is second-line after ultrasound establishes the presence and level of biliary dilatation.",
+      "This is correct: ultrasound is the first-line investigation for obstructive jaundice — it is non-invasive, readily available, and identifies biliary dilatation and its level to guide further workup.",
+      "CT is the best staging investigation once malignancy is suspected, but ultrasound should be performed first to confirm biliary obstruction and guide subsequent CT/MRCP.",
+      "Tumour markers (CA 19-9, CEA) are not diagnostic in isolation (poor specificity), are useful adjuncts only, and should not replace imaging as the first step."
+    ],
+    "clinicalPearl": "The investigation pathway for obstructive jaundice always starts with ultrasound to confirm biliary dilatation and its level, before proceeding to MRCP, CT, or ERCP."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Cholangiocarcinoma — Klatskin tumour",
+    "question": "A 64-year-old man with a known 10-year history of primary sclerosing cholangitis presents with worsening jaundice, pruritus, and a 7 kg weight loss over 3 months. MRCP shows a tight hilar stricture at the confluence of the left and right hepatic ducts with dilatation of both intrahepatic ductal systems. CA 19-9 is 1200 U/mL. CT chest/abdomen/pelvis shows no distant metastases. What is the most likely diagnosis?",
+    "options": [
+      "Benign dominant stricture secondary to primary sclerosing cholangitis",
+      "Hilar cholangiocarcinoma (Klatskin tumour)",
+      "Mirizzi syndrome type II",
+      "Hepatocellular carcinoma with biliary invasion",
+      "Gallbladder carcinoma with hilar extension"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Primary sclerosing cholangitis (PSC) is the strongest risk factor for cholangiocarcinoma (lifetime risk ~10–15%). A hilar stricture at the biliary confluence (Bismuth–Corlette classification) with intrahepatic ductal dilatation, progressive weight loss, and a markedly elevated CA 19-9 (>100 U/mL is suspicious; >1000 is highly suspicious) in a PSC patient is characteristic of a Klatskin tumour (hilar cholangiocarcinoma). This is a surgical emergency for resectability assessment.",
+    "wrongAnswerExplanations": [
+      "Benign dominant PSC strictures do occur but would not typically cause such dramatic weight loss, a CA 19-9 of 1200, or this rapid clinical deterioration; malignancy must be excluded.",
+      "This is correct: PSC is the major risk factor for cholangiocarcinoma; hilar stricture at the confluence with markedly raised CA 19-9 and weight loss = Klatskin tumour until proven otherwise.",
+      "Mirizzi syndrome causes extrinsic compression at the cystic duct–CHD junction due to gallstones, not a hilar stricture at the biliary confluence, and is not associated with PSC.",
+      "HCC with biliary invasion is a recognised entity but would typically show a hepatic mass on CT, not an isolated hilar stricture without a liver mass, and is not associated with PSC.",
+      "Gallbladder carcinoma can extend to the hilum but would typically show a gallbladder mass or wall thickening on CT/ultrasound; isolated hilar stricture in PSC points to cholangiocarcinoma."
+    ],
+    "clinicalPearl": "PSC carries a 10–15% lifetime risk of cholangiocarcinoma; any new dominant hilar stricture with weight loss and rising CA 19-9 in a PSC patient must be treated as cholangiocarcinoma until proven otherwise."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Choledocholithiasis — management after cholecystectomy",
+    "question": "A 48-year-old man underwent laparoscopic cholecystectomy 2 years ago. He now presents with a 3-day history of RUQ pain, jaundice, and fever. Blood tests show bilirubin 98 µmol/L, ALP 410 U/L, WCC 14 × 10⁹/L. Ultrasound shows a dilated CBD of 10 mm; no gallbladder. MRCP confirms a single 9 mm stone in the distal CBD. He is haemodynamically stable and apyrexial after IV antibiotics. What is the most appropriate definitive management?",
+    "options": [
+      "Repeat MRCP in 6 weeks to check for spontaneous passage",
+      "Open exploration of the CBD",
+      "ERCP with sphincterotomy and stone extraction",
+      "Ursodeoxycholic acid for chemical dissolution",
+      "Percutaneous transhepatic biliary drainage"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In a patient with a post-cholecystectomy CBD stone confirmed on MRCP, ERCP with endoscopic sphincterotomy and stone extraction is the definitive first-line treatment. It is minimally invasive, highly effective (>90% stone clearance), and avoids open surgery. Open CBD exploration is reserved for failed or inaccessible ERCP. This patient has no gallbladder, so laparoscopic CBD exploration is not an option.",
+    "wrongAnswerExplanations": [
+      "Watchful waiting for spontaneous passage is not appropriate for a symptomatic 9 mm CBD stone causing cholangitis; definitive treatment is required.",
+      "Open CBD exploration is reserved for cases where ERCP has failed or is not technically possible; it carries significantly higher morbidity than ERCP.",
+      "This is correct: ERCP with sphincterotomy and stone extraction is the definitive first-line treatment for confirmed symptomatic post-cholecystectomy CBD stones.",
+      "Ursodeoxycholic acid dissolves cholesterol gallbladder stones slowly over months–years and has no role in the acute management of a symptomatic CBD stone.",
+      "PTC is invasive and reserved for cases where ERCP is not technically feasible (e.g., altered anatomy post-surgery, failed ERCP); it is not first-line here."
+    ],
+    "clinicalPearl": "Post-cholecystectomy CBD stones are managed definitively with ERCP and sphincterotomy; open surgery is a last resort for failed endoscopic clearance."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Acute cholecystitis vs ascending cholangitis",
+    "question": "A 55-year-old obese woman presents to A&E with a 24-hour history of severe RUQ pain, fever (38.6°C), and nausea. She has no jaundice. Murphy's sign is positive. Blood tests: WCC 17 × 10⁹/L, CRP 180 mg/L, bilirubin 22 µmol/L (normal), ALP 90 U/L (normal), ALT 35 U/L (normal). Ultrasound shows gallbladder wall thickening (5 mm), pericholecystic fluid, and gallstones. CBD measures 4 mm. What is the most appropriate management?",
+    "options": [
+      "Urgent ERCP for biliary decompression",
+      "IV antibiotics, analgesia, and laparoscopic cholecystectomy within 72 hours of symptom onset (early cholecystectomy)",
+      "Conservative management with IV antibiotics and elective cholecystectomy at 6 weeks",
+      "Percutaneous cholecystostomy as definitive treatment",
+      "MRCP to exclude CBD stones before any further management"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This is acute cholecystitis (positive Murphy's sign, gallbladder wall thickening, pericholecystic fluid, stones, normal liver function) without evidence of choledocholithiasis or cholangitis (no jaundice, normal ALP/bilirubin, normal CBD). Current guidelines (Tokyo Guidelines) recommend early laparoscopic cholecystectomy within 72 hours of symptom onset for grade I/II acute cholecystitis — this reduces conversion rates, hospital stay, and complications compared with delayed (interval) cholecystectomy.",
+    "wrongAnswerExplanations": [
+      "ERCP is indicated for CBD stones and cholangitis, not for acute cholecystitis without biliary obstruction; the CBD is normal here.",
+      "This is correct: early laparoscopic cholecystectomy within 72 hours is recommended for acute cholecystitis — it is associated with lower conversion rates and shorter total hospital stay.",
+      "Interval (delayed) cholecystectomy at 6 weeks was historical practice but is now superseded by evidence supporting early surgery; delayed surgery risks recurrent attacks and Mirizzi syndrome.",
+      "Percutaneous cholecystostomy is reserved for high-risk surgical patients (Grade III Tokyo Guidelines) who cannot safely undergo early cholecystectomy, not for a fit 55-year-old.",
+      "MRCP is not indicated here — the CBD is normal at 4 mm and liver function tests are entirely normal, making choledocholithiasis very unlikely."
+    ],
+    "clinicalPearl": "Early laparoscopic cholecystectomy within 72 hours of symptom onset is the preferred treatment for acute cholecystitis in fit patients — it reduces total hospital stay and risk of recurrence."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Porcelain gallbladder / gallbladder carcinoma risk",
+    "question": "A 65-year-old woman has a CT abdomen performed for an unrelated reason. Incidentally, the gallbladder wall is noted to be diffusely calcified ('porcelain gallbladder'). She is asymptomatic with no jaundice or weight loss. Ultrasound confirms the finding with no intraluminal polyp or mass. Liver function tests are normal. What is the most appropriate management?",
+    "options": [
+      "Annual ultrasound surveillance with no intervention unless symptomatic",
+      "Immediate cholecystectomy due to high risk of gallbladder carcinoma",
+      "Cholecystectomy, as calcification of the gallbladder wall warrants removal even if asymptomatic, given associated carcinoma risk and inability to adequately survey the mucosa",
+      "ERCP to assess biliary anatomy",
+      "MRI liver with hepatobiliary contrast to assess for early malignant change"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Porcelain gallbladder — calcification of the gallbladder wall — has historically been associated with gallbladder carcinoma (risk estimates vary widely, 5–60% in older series; modern data suggest lower but non-negligible risk, particularly with incomplete/irregular calcification). Regardless of symptoms, the inability to adequately assess the gallbladder mucosa ultrasonographically for early malignancy, combined with the associated risk, makes cholecystectomy the recommended management. Surveillance alone is insufficient as early carcinoma may be occult.",
+    "wrongAnswerExplanations": [
+      "Surveillance alone is not adequate because the calcified wall obscures mucosal assessment; early malignancy may be missed and the associated risk justifies prophylactic removal.",
+      "'Immediate' (emergency) cholecystectomy implies urgency not warranted by an incidental asymptomatic finding; elective cholecystectomy is appropriate, not an emergency procedure.",
+      "This is correct: cholecystectomy is recommended for porcelain gallbladder because the calcification obscures the mucosa, preventing adequate surveillance for early malignancy.",
+      "ERCP has no role in the investigation of asymptomatic porcelain gallbladder; this is not a biliary obstruction problem.",
+      "MRI with hepatobiliary contrast may be used in specific situations but does not reliably assess the gallbladder mucosa through heavy calcification; cholecystectomy is the definitive management."
+    ],
+    "clinicalPearl": "Porcelain gallbladder warrants cholecystectomy even if asymptomatic because the calcified wall prevents adequate mucosal surveillance and carries a recognised — if debated — carcinoma risk."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "MRCP vs ERCP decision-making",
+    "question": "A 50-year-old woman is referred with incidental ultrasound finding of CBD dilatation (9 mm) during workup for non-specific abdominal pain. She has no jaundice, no fever, normal liver function tests, and no history of gallstones. She is asymptomatic regarding her biliary system. What is the most appropriate next investigation to evaluate the dilated CBD?",
+    "options": [
+      "Immediate ERCP with sphincterotomy",
+      "Repeat ultrasound in 3 months",
+      "MRCP",
+      "Laparoscopic cholecystectomy with intraoperative cholangiogram",
+      "Endoscopic ultrasound (EUS)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "MRCP is the appropriate non-invasive next step for evaluating an incidentally dilated CBD in an asymptomatic patient with normal LFTs. It will delineate the biliary tree anatomy, identify any stones, strictures, or other pathology without radiation, sedation, or procedural risk. ERCP is not justified in an asymptomatic patient without a confirmed indication for intervention. EUS is reserved for when MRCP is non-diagnostic or for tissue sampling.",
+    "wrongAnswerExplanations": [
+      "Immediate ERCP in an asymptomatic patient with no confirmed stone or obstruction is not justified; ERCP carries procedural risks (pancreatitis, bleeding, perforation) and is inappropriate without a therapeutic indication.",
+      "Repeat ultrasound alone would delay diagnosis of a potentially significant pathology (e.g., early cholangiocarcinoma, small CBD stone) and is not the standard of care for unexplained CBD dilatation.",
+      "This is correct: MRCP is the non-invasive gold-standard investigation for unexplained CBD dilatation, identifying stones, strictures, or malignancy without procedural risk.",
+      "Proceeding to laparoscopic cholecystectomy with IOC without a confirmed diagnosis is premature and exposes the patient to unnecessary surgical risk.",
+      "EUS is accurate but invasive and is typically reserved for cases where MRCP is inconclusive or when tissue sampling/FNA is required; MRCP is the appropriate first-line investigation."
+    ],
+    "clinicalPearl": "MRCP is the non-invasive gold standard for evaluating unexplained CBD dilatation — reserve ERCP for cases with a confirmed therapeutic indication (e.g., stone, stricture requiring stenting)."
+  },
+  {
+    "system": "hpb",
+    "sourceLecture": "1-gal bladder & bile duct 2025 - for lectures.pdf",
+    "topic": "Distal cholangiocarcinoma vs CBD stone",
+    "question": "A 72-year-old man presents with a 5-week history of progressive jaundice and a 4 kg weight loss. He denies pain, fever, or previous gallstone history. Blood tests: bilirubin 220 µmol/L (conjugated), ALP 850 U/L, CA 19-9 680 U/mL. Ultrasound shows intrahepatic biliary dilatation and a dilated CBD of 18 mm with abrupt tapering in the distal third; no stone is seen. MRCP confirms a smooth stricture at the distal CBD with associated wall thickening. CT shows no distant metastases. What is the next most appropriate step?",
+    "options": [
+      "ERCP with sphincterotomy and balloon sweep for CBD stone",
+      "ERCP with biliary stenting and brushings for cytology, followed by surgical assessment",
+      "Ursodeoxycholic acid therapy and repeat imaging in 4 weeks",
+      "Immediate Whipple's procedure (pancreaticoduodenectomy)",
+      "PTC with external biliary drainage as definitive management"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This presentation — progressive painless jaundice, weight loss, markedly elevated CA 19-9, smooth distal CBD stricture on MRCP without stones — is highly suspicious for distal cholangiocarcinoma or periampullary malignancy. The appropriate next step is ERCP: this allows biliary decompression with stenting (relieving jaundice pre-operatively), and brushings/biopsies for histological diagnosis. Surgical resection (Whipple's) should only follow staging confirmation of resectability and, where possible, tissue diagnosis. Immediate surgery without prior ERCP/stenting is not standard as jaundice increases operative risk.",
+    "wrongAnswerExplanations": [
+      "Sphincterotomy and balloon sweep are appropriate for confirmed CBD stones, not for a smooth stricture with wall thickening and markedly elevated CA 19-9 suggesting malignancy.",
+      "This is correct: ERCP with stenting relieves obstructive jaundice pre-operatively and brushings provide cytological diagnosis; surgical assessment follows staging confirmation.",
+      "Ursodeoxycholic acid has no role in malignant biliary obstruction; delaying diagnosis in a 72-year-old with suspected cholangiocarcinoma is harmful.",
+      "Immediate Whipple's without prior biliary decompression and staging confirmation carries higher operative mortality in the jaundiced patient; ERCP and staging precede surgical planning.",
+      "PTC is reserved for inaccessible biliary strictures at ERCP; ERCP is the first-line approach for distal CBD pathology and should be attempted before PTC."
+    ],
+    "clinicalPearl": "In suspected distal cholangiocarcinoma, ERCP serves dual purpose: biliary decompression (reducing operative risk) and tissue diagnosis via brushings — both required before surgical planning."
+  }
+]

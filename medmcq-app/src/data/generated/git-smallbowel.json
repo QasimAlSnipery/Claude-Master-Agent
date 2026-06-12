@@ -1,0 +1,301 @@
+[
+  {
+    "system": "git",
+    "sourceLecture": "Intestinal Obstruction 2025-2026.pdf",
+    "topic": "Small-bowel obstruction",
+    "question": "A 62-year-old woman presents to the emergency department with a 2-day history of colicky central abdominal pain, nausea, vomiting, and absolute constipation. She underwent an open appendicectomy 20 years ago. On examination her abdomen is distended with high-pitched tinkling bowel sounds. Her abdomen is diffusely tender but not peritonitic. An erect chest X-ray shows no free gas. AXR shows multiple central loops of dilated small bowel with a ladder pattern and no gas in the colon. What is the single most likely cause of her obstruction?",
+    "options": [
+      "Colorectal carcinoma",
+      "Adhesions from previous surgery",
+      "Strangulated femoral hernia",
+      "Crohn's disease stricture",
+      "Intussusception"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Adhesions from previous abdominal surgery are the single most common cause of small-bowel obstruction in adults, accounting for approximately 60-70% of cases. This patient's history of prior laparotomy (appendicectomy) with classic features of SBO — central colicky pain, vomiting, distension, tinkling bowel sounds, and ladder pattern on AXR — strongly points to adhesional obstruction.",
+    "wrongAnswerExplanations": [
+      "Colorectal carcinoma typically causes large-bowel obstruction with peripheral distension and loss of haustral pattern; it does not cause a central ladder pattern on AXR.",
+      "Adhesions from previous surgery are the correct answer — this is the commonest cause of SBO in adults with a history of prior abdominal surgery.",
+      "A strangulated femoral hernia could cause SBO but would present with a painful irreducible groin mass; the question describes no hernia on examination.",
+      "Crohn's disease stricture is a recognised cause of SBO but there is no history of inflammatory bowel disease; adhesions remain far more common in this clinical scenario.",
+      "Intussusception is the most common cause of SBO in young children, not in a 62-year-old with a prior laparotomy."
+    ],
+    "clinicalPearl": "Adhesions from prior surgery cause ~60-70% of small-bowel obstructions in adults — always ask about previous abdominal operations."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Intestinal Obstruction 2025-2026.pdf",
+    "topic": "Small-bowel obstruction — strangulation",
+    "question": "A 55-year-old man with a known right inguinal hernia presents with a 12-hour history of severe, constant right groin pain and vomiting. The hernia is tense, erythematous, and irreducible. He is pyrexial at 38.2°C and has a heart rate of 108 bpm. His abdomen is mildly distended with absent bowel sounds. CT abdomen/pelvis confirms a closed-loop obstruction with bowel wall thickening and mesenteric stranding at the hernia site. What is the most appropriate immediate management?",
+    "options": [
+      "Nasogastric tube decompression and IV fluids with review in 24 hours",
+      "Emergency surgery with hernia repair and assessment of bowel viability",
+      "IV antibiotics and urgent interventional radiology for reduction",
+      "Water-soluble contrast follow-through study to confirm diagnosis",
+      "Colonoscopic decompression under sedation"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient has a strangulated inguinal hernia causing closed-loop small-bowel obstruction — signs of strangulation include constant rather than colicky pain, pyrexia, tachycardia, absent bowel sounds, and CT evidence of bowel wall thickening with mesenteric stranding. Strangulation mandates immediate operative intervention: hernia repair with intraoperative assessment of bowel viability, and resection if bowel is non-viable.",
+    "wrongAnswerExplanations": [
+      "Conservative management with NG tube and IV fluids is appropriate for uncomplicated adhesional SBO, not for strangulated hernias where bowel viability is at immediate risk.",
+      "Emergency surgery with hernia repair and assessment of bowel viability is correct — strangulation is a surgical emergency requiring prompt operative intervention.",
+      "IV antibiotics and interventional radiology have no role in strangulated external hernias; only surgery can relieve the obstruction and assess bowel viability.",
+      "A contrast follow-through study is contraindicated when strangulation is suspected — it delays life-saving surgery and risks perforation.",
+      "Colonoscopic decompression applies to sigmoid volvulus causing large-bowel obstruction; it has no role in strangulated small-bowel hernia."
+    ],
+    "clinicalPearl": "Constant pain, pyrexia, tachycardia, and absent bowel sounds in a patient with an irreducible hernia indicate strangulation — operate immediately without delay."
+  },
+  {
+    "system": "Intestinal Obstruction 2025-2026.pdf",
+    "sourceLecture": "Intestinal Obstruction 2025-2026.pdf",
+    "topic": "Small-bowel obstruction — conservative vs operative",
+    "question": "A 48-year-old woman with no previous abdominal surgery presents with a 24-hour history of colicky central abdominal pain and bilious vomiting. She is haemodynamically stable. AXR confirms small-bowel obstruction. CT abdomen with contrast shows a transition point in the mid-ileum with a small amount of mesenteric free fluid but no bowel wall thickening, pneumatosis, or portal venous gas. She is started on IV fluids and nasogastric drainage. After 48 hours she has not passed flatus and her symptoms are unchanged. What is the most appropriate next step?",
+    "options": [
+      "Continue conservative management for a further 5 days",
+      "Administer oral gastrografin and repeat AXR at 24 hours",
+      "Proceed to urgent laparoscopic exploration",
+      "Arrange small-bowel MRI to characterise the transition point",
+      "Insert a long intestinal tube for further decompression"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In a patient with no prior surgery (no adhesions) who fails 48 hours of conservative management, there is a likely mechanical cause at the transition point (tumour, internal hernia, Meckel band) that requires operative intervention. The absence of previous surgery makes spontaneous resolution from adhesions unlikely, and failure to resolve after 48 hours with a clear transition point on CT warrants laparoscopic exploration.",
+    "wrongAnswerExplanations": [
+      "Prolonged conservative management beyond 48 hours in a patient with no prior surgery and a defined transition point risks missing a mechanical cause and increases the risk of complications.",
+      "Gastrografin challenge is appropriate in adhesional SBO to predict which patients will resolve; it is less appropriate when no prior surgery exists and a structural lesion at the transition point is likely.",
+      "Proceeding to urgent laparoscopic exploration is correct — failure of conservative therapy after 48 hours with a defined transition point and no prior surgery mandates operative intervention.",
+      "MRI would add delay without changing management; CT has already identified the transition point and the patient needs surgery.",
+      "Long intestinal tubes are not standard practice in modern SBO management and do not address the underlying mechanical cause."
+    ],
+    "clinicalPearl": "SBO with no history of prior surgery rarely resolves spontaneously — always suspect and investigate a structural mechanical cause."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Meckel diverticulum — bleeding",
+    "question": "A 9-year-old boy is brought to the emergency department by his parents with a 6-hour history of painless bright red rectal bleeding. He has no abdominal pain and is haemodynamically stable. There is no history of trauma, anal fissure, or polyps. Digital rectal examination is normal. Full blood count shows Hb 88 g/L. Colonoscopy to the terminal ileum is normal. Which investigation is most likely to identify the source of bleeding?",
+    "options": [
+      "CT angiography of the mesenteric vessels",
+      "Upper GI endoscopy",
+      "Technetium-99m pertechnetate (Meckel's) scan",
+      "Capsule endoscopy",
+      "Mesenteric angiography"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Painless rectal bleeding in a child is the classic presentation of a bleeding Meckel diverticulum containing ectopic gastric mucosa. The Tc-99m pertechnetate scan (Meckel's scan) detects ectopic gastric mucosa with sensitivity of ~85% in children, making it the investigation of choice when a Meckel diverticulum is suspected as the bleeding source.",
+    "wrongAnswerExplanations": [
+      "CT angiography is useful for active brisk bleeding (>0.5 mL/min) but is less specific than a Meckel's scan for identifying ectopic gastric mucosa and carries radiation risk in a child.",
+      "Upper GI endoscopy would be indicated if an upper GI source (peptic ulcer, oesophageal varices) were suspected; normal colonoscopy to the terminal ileum and the age/presentation make a lower source more likely.",
+      "Technetium-99m pertechnetate (Meckel's) scan is correct — it specifically targets ectopic gastric mucosa and is the investigation of choice for suspected bleeding Meckel diverticulum in children.",
+      "Capsule endoscopy can visualise the small bowel but requires haemostasis and cooperation, is less sensitive for Meckel's specifically, and is more appropriate after a negative Meckel's scan.",
+      "Mesenteric angiography requires active bleeding at >0.5-1 mL/min; in a stable child with intermittent bleeding a Meckel's scan is preferred first."
+    ],
+    "clinicalPearl": "Painless rectal bleeding in a child under 2 years is a Meckel diverticulum until proven otherwise — Tc-99m pertechnetate scan is the investigation of choice."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Meckel diverticulum — obstruction",
+    "question": "A 19-year-old man presents with a 12-hour history of central colicky abdominal pain migrating to the right iliac fossa, nausea, and vomiting. His WBC is 11.2 × 10⁹/L and CRP is 24 mg/L. CT abdomen with contrast demonstrates a 4 cm blind-ending outpouching arising from the antimesenteric border of the ileum approximately 60 cm from the ileocaecal valve, associated with small-bowel dilatation proximally. The appendix is normal. What is the most appropriate management?",
+    "options": [
+      "IV antibiotics and conservative management",
+      "Laparoscopic appendicectomy",
+      "Laparoscopic exploration with diverticulectomy or ileal resection",
+      "Small-bowel follow-through to characterise the lesion",
+      "Watchful waiting with interval CT in 6 weeks"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The CT describes a classic Meckel diverticulum (antimesenteric, within 100 cm of ileocaecal valve) causing small-bowel obstruction. The correct management is laparoscopic or open exploration with diverticulectomy (if the base is narrow) or segmental ileal resection (if the base is broad or ectopic mucosa suspected). Conservative management would leave the mechanical obstruction unresolved.",
+    "wrongAnswerExplanations": [
+      "IV antibiotics and conservative management do not address the mechanical small-bowel obstruction caused by the diverticulum and are inappropriate here.",
+      "Laparoscopic appendicectomy is inappropriate — the CT shows a normal appendix and the pathology is a Meckel diverticulum.",
+      "Laparoscopic exploration with diverticulectomy or ileal resection is correct — surgical excision is the definitive treatment for a symptomatic Meckel diverticulum causing obstruction.",
+      "Small-bowel follow-through adds delay without changing management when CT has already identified the pathology and the patient has obstruction requiring surgery.",
+      "Watchful waiting is inappropriate for a symptomatic Meckel diverticulum causing obstruction; delayed surgery increases morbidity."
+    ],
+    "clinicalPearl": "A Meckel diverticulum arises from the antimesenteric border of the ileum within 100 cm of the ileocaecal valve and is the most common congenital GI anomaly — the rule of 2s aids recall."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Intussusception — paediatric",
+    "question": "A 10-month-old boy is brought to the emergency department with a 6-hour history of intermittent, severe episodes of crying and drawing up his knees, separated by periods of normal behaviour. His mother noticed a small amount of dark red 'redcurrant jelly' stool in his nappy. On examination he is pale, his abdomen is soft between episodes, and a sausage-shaped mass is palpable in the right upper quadrant. What is the most appropriate first-line investigation and treatment?",
+    "options": [
+      "AXR followed by laparotomy",
+      "CT abdomen with IV contrast",
+      "Ultrasound abdomen and air enema reduction",
+      "Colonoscopy under general anaesthesia",
+      "Technetium-99m pertechnetate scan"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The clinical picture is classic ileocolic intussusception in an infant: intermittent colicky pain, redcurrant jelly stool, and a sausage-shaped right-sided mass. Ultrasound confirms the diagnosis (target/doughnut sign) and air enema reduction is the first-line non-operative treatment with success rates of 70-90% in haemodynamically stable patients without peritonitis.",
+    "wrongAnswerExplanations": [
+      "AXR followed by laparotomy is appropriate only if non-operative reduction fails or the patient is peritonitic; it should not be the first-line approach in a stable child.",
+      "CT abdomen exposes a child to significant radiation and is unnecessary when ultrasound is diagnostic; it does not permit simultaneous treatment.",
+      "Ultrasound abdomen and air enema reduction is correct — ultrasound is diagnostic and air (or contrast) enema reduction is the first-line treatment in a stable child.",
+      "Colonoscopy has no role in the acute management of paediatric intussusception and risks perforation.",
+      "A Tc-99m pertechnetate scan is used to detect ectopic gastric mucosa in Meckel diverticulum — it has no role in diagnosing or treating intussusception."
+    ],
+    "clinicalPearl": "Redcurrant jelly stool, intermittent colicky pain with 'well intervals', and a right-sided sausage-shaped mass in an infant spell intussusception — ultrasound and air enema reduction are first-line."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Intussusception — adult lead point",
+    "question": "A 54-year-old woman with no prior abdominal surgery presents with a 3-week history of intermittent colicky central abdominal pain and occasional vomiting. She has lost 4 kg unintentionally over 2 months. CT abdomen with contrast demonstrates a bowel-within-bowel configuration in the mid-jejunum with a 3 cm soft-tissue lead point at the apex of the intussusceptum. What is the most important next step in management?",
+    "options": [
+      "Barium follow-through to characterise the lesion",
+      "Air enema reduction",
+      "Surgical resection without attempting enema reduction",
+      "Capsule endoscopy and watchful waiting",
+      "IV steroids and immunosuppression"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Unlike paediatric intussusception, adult intussusception is almost always caused by a pathological lead point (neoplasm in up to 65% of cases). Enema reduction is contraindicated in adults because it risks perforation of a tumour, seeding of malignant cells, or incomplete treatment. Surgical resection with oncological margins is the correct management.",
+    "wrongAnswerExplanations": [
+      "Barium follow-through adds no information when CT has already characterised a lead point, and delays definitive surgical treatment.",
+      "Air enema reduction is the first-line treatment in children but is contraindicated in adults where a neoplastic lead point must be assumed until proven otherwise.",
+      "Surgical resection without attempting enema reduction is correct — in adults, the pathological lead point (likely neoplasm) must be resected with appropriate margins.",
+      "Capsule endoscopy and watchful waiting are inappropriate; a CT-proven lead point with weight loss in a 54-year-old demands prompt surgical referral.",
+      "IV steroids and immunosuppression are used for inflammatory bowel disease — there is no indication for them in mechanical intussusception with a structural lead point."
+    ],
+    "clinicalPearl": "Adult intussusception always demands surgical resection — never attempt enema reduction because a neoplastic lead point must be excluded."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Acute mesenteric ischaemia",
+    "question": "A 72-year-old man with known atrial fibrillation (not on anticoagulation) presents with sudden-onset severe periumbilical pain that is 'out of proportion to examination findings'. His abdomen is soft with mild diffuse tenderness. His heart rate is 92 bpm, irregularly irregular. WBC is 18 × 10⁹/L and lactate is 5.2 mmol/L. What is the most appropriate immediate investigation?",
+    "options": [
+      "Erect chest X-ray and AXR",
+      "Urgent upper GI endoscopy",
+      "CT angiography of the mesenteric vessels",
+      "Diagnostic laparoscopy",
+      "Serum amylase and lipase"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This presentation — sudden severe abdominal pain out of proportion to physical findings, AF without anticoagulation, elevated WBC and lactate — is highly suspicious for acute mesenteric ischaemia due to superior mesenteric artery embolism. CT angiography is the investigation of choice: it confirms the diagnosis, identifies the level and nature of occlusion, and guides whether intervention (embolectomy, thrombolysis, stenting) or surgery is required.",
+    "wrongAnswerExplanations": [
+      "Plain X-rays may show pneumatosis intestinalis or portal venous gas in advanced ischaemia but are insensitive early; they do not characterise the vascular anatomy needed for intervention planning.",
+      "Upper GI endoscopy is not indicated — the pain distribution and associated features point to a mesenteric vascular event, not a gastroduodenal pathology.",
+      "CT angiography of the mesenteric vessels is correct — it is the gold-standard investigation for acute mesenteric ischaemia, providing diagnosis and road-map for intervention.",
+      "Diagnostic laparoscopy may follow CT to assess bowel viability but is not the first investigation; CT angiography must direct whether revascularisation can be attempted before resection.",
+      "Serum amylase is useful for pancreatitis; while it should be checked, it does not diagnose mesenteric ischaemia and should not delay CT angiography."
+    ],
+    "clinicalPearl": "Severe abdominal pain out of proportion to examination findings in a patient with AF = acute mesenteric ischaemia until proven otherwise — CTA is the diagnostic gold standard."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Mesenteric ischaemia — non-occlusive",
+    "question": "A 68-year-old man is in the cardiac ICU on day 3 following a prolonged coronary artery bypass graft. He develops worsening abdominal distension, absent bowel sounds, and bloody nasogastric aspirate. His blood pressure has required vasopressor support throughout his ICU stay. Lactate is 7.1 mmol/L and WBC is 22 × 10⁹/L. CT angiography shows patent mesenteric vessels but diffuse small-bowel wall thickening with mucosal enhancement. What is the most likely diagnosis?",
+    "options": [
+      "Superior mesenteric artery embolism",
+      "Acute mesenteric venous thrombosis",
+      "Non-occlusive mesenteric ischaemia",
+      "Ischaemic colitis",
+      "Adhesional small-bowel obstruction"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Non-occlusive mesenteric ischaemia (NOMI) occurs in the setting of low cardiac output states, vasopressor use, and hypoperfusion — all present here (post-CABG, vasopressor-dependent). The CT shows diffuse bowel wall changes with patent mesenteric vessels, distinguishing NOMI from arterial embolism or thrombosis. Management includes vasopressor reduction where possible, intra-arterial papaverine, and surgery for necrosis.",
+    "wrongAnswerExplanations": [
+      "SMA embolism would show an occlusive filling defect on CT angiography in a proximal mesenteric vessel; vessels are patent here.",
+      "Mesenteric venous thrombosis would show thrombosis within the mesenteric or portal vein on CT; patent vessels exclude this.",
+      "Non-occlusive mesenteric ischaemia is correct — patent vessels on CT in the context of vasopressor use and low cardiac output is the hallmark of NOMI.",
+      "Ischaemic colitis primarily affects the colon (especially the watershed zones); the CT and clinical picture here involve the small bowel predominantly.",
+      "Adhesional SBO is unlikely in a patient without prior surgery who has patent bowel loops on CT; the vascular changes point to ischaemia, not obstruction."
+    ],
+    "clinicalPearl": "Non-occlusive mesenteric ischaemia occurs in critically ill patients with low cardiac output and vasopressor use — mesenteric vessels are patent on CTA, distinguishing it from embolic or thrombotic causes."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Short gut syndrome",
+    "question": "A 45-year-old woman underwent emergency laparotomy for a superior mesenteric artery thrombosis. After resection of non-viable bowel, she has 70 cm of jejunum remaining with no ileocaecal valve and no colon. Post-operatively she develops profuse high-output diarrhoea (>3 L/day), electrolyte disturbances, and weight loss despite enteral feeding. Which of the following best describes the primary mechanism underlying her nutritional failure?",
+    "options": [
+      "Bacterial overgrowth in the residual jejunum",
+      "Reduced mucosal absorptive surface area with inadequate intestinal transit time",
+      "Increased gastric acid secretion causing small-bowel mucosal injury",
+      "Bile salt malabsorption causing osmotic diarrhoea",
+      "Autoimmune enteropathy triggered by surgical stress"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Short gut syndrome (SGS) results primarily from loss of absorptive surface area when less than 200 cm of small bowel remains. The absence of an ileocaecal valve further accelerates transit, reducing contact time for nutrient, fluid, and electrolyte absorption. This leads to the characteristic high-output state with malabsorption, malnutrition, and electrolyte disturbances.",
+    "wrongAnswerExplanations": [
+      "Bacterial overgrowth may complicate SGS (especially with a dilated stagnant limb) but is not the primary mechanism of nutritional failure in acute short gut.",
+      "Reduced mucosal absorptive surface area with inadequate intestinal transit time is the correct primary mechanism — loss of absorptive epithelium and accelerated transit underlie malabsorption in SGS.",
+      "Hypergastrinaemia does occur transiently post-resection and can cause acid injury, but this is a secondary contributor rather than the primary mechanism of nutritional failure.",
+      "Bile salt malabsorption occurs specifically when the terminal ileum is resected; in this patient the jejunum is preserved — and while bile salts may contribute, loss of absorptive surface is the primary driver.",
+      "Autoimmune enteropathy is not triggered by bowel resection; this is not a recognised cause of post-surgical malabsorption in SGS."
+    ],
+    "clinicalPearl": "Short gut syndrome requires >50% small-bowel loss (or <200 cm remaining); absence of the ileocaecal valve dramatically worsens prognosis by accelerating intestinal transit."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Short gut syndrome — management",
+    "question": "A 38-year-old man with short gut syndrome (80 cm of jejunum, no ileocaecal valve, end-jejunostomy) is established on home parenteral nutrition (HPN) but suffers his third central line-associated bloodstream infection in 18 months and has developed intestinal failure-associated liver disease (IFALD) with a bilirubin of 68 µmol/L. He is reviewed at a specialist intestinal failure unit. What is the most appropriate next management step?",
+    "options": [
+      "Switch to peripheral parenteral nutrition to reduce infection risk",
+      "Increase enteral feed to wean from parenteral nutrition",
+      "Referral for intestinal transplantation assessment",
+      "Long-term prophylactic antibiotics through the central line",
+      "Surgical bowel-lengthening procedure (STEP or Bianchi)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Recurrent catheter-related bloodstream infections (≥2 episodes per year) and progressive IFALD are recognised indications for intestinal transplantation referral in a patient with irreversible intestinal failure who cannot be weaned from parenteral nutrition. The patient has only 80 cm of jejunum with no ileocaecal valve — intestinal adaptation is unlikely to allow independence from PN.",
+    "wrongAnswerExplanations": [
+      "Peripheral PN avoids some catheter complications but cannot provide adequate caloric density for long-term use and does not address IFALD; it is not appropriate as definitive management.",
+      "Increasing enteral feed is part of intestinal rehabilitation, but with only 80 cm of jejunum and no ileocaecal valve, full enteral independence is very unlikely and does not address the IFALD.",
+      "Referral for intestinal transplantation assessment is correct — recurrent CLABSI and IFALD are the key indications for transplant referral in irreversible intestinal failure.",
+      "Long-term prophylactic antibiotics through a central line promote resistance, do not treat the underlying IFALD, and are not recommended as a primary strategy.",
+      "Bowel-lengthening procedures (STEP/Bianchi) are appropriate in patients with a dilated remnant bowel who have potential for adaptation; 80 cm of non-dilated jejunum and IFALD make transplantation the priority."
+    ],
+    "clinicalPearl": "Recurrent CLABSI (≥2/year) and progressive IFALD are the key indications for intestinal transplantation referral in permanent intestinal failure."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Intestinal Obstruction 2025-2026.pdf",
+    "topic": "Closed-loop obstruction",
+    "question": "A 70-year-old man presents with a 6-hour history of sudden-onset, severe, continuous abdominal pain associated with nausea. He has had no previous abdominal surgery. On examination he is in agony, his abdomen is rigid, and there is generalised peritonism. CT abdomen with contrast shows two adjacent transition points in the mid-ileum with a whirl sign of the mesentery, and pneumatosis intestinalis of the affected loop. What is the most appropriate next step?",
+    "options": [
+      "IV fluids and nasogastric drainage with reassessment in 12 hours",
+      "Urgent water-soluble contrast enema",
+      "Emergency laparotomy",
+      "CT-guided aspiration of peritoneal fluid",
+      "Urgent colonoscopy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This CT demonstrates a closed-loop small-bowel obstruction with a volvulus (whirl sign of the mesentery) and pneumatosis intestinalis indicating bowel ischaemia/necrosis. Combined with peritonism this constitutes a surgical emergency. Immediate laparotomy is required to relieve the obstruction, untwist the volvulus, and resect non-viable bowel.",
+    "wrongAnswerExplanations": [
+      "Conservative management is absolutely contraindicated when there is peritonism and CT evidence of bowel ischaemia (pneumatosis intestinalis); delay will result in perforation and death.",
+      "A contrast enema is used for large-bowel obstruction — it has no role in small-bowel closed-loop obstruction and would delay life-saving surgery.",
+      "Emergency laparotomy is correct — closed-loop SBO with ischaemia (pneumatosis) and peritonism is an immediate surgical emergency.",
+      "CT-guided aspiration of peritoneal fluid is a diagnostic manoeuvre with no therapeutic role; the diagnosis is already clear and surgery must not be delayed.",
+      "Colonoscopy is used for large-bowel obstruction; it cannot access a mid-ileal closed-loop and would be futile and harmful here."
+    ],
+    "clinicalPearl": "Pneumatosis intestinalis and a mesenteric whirl sign on CT indicate bowel ischaemia in a closed-loop obstruction — emergency laparotomy without delay."
+  },
+  {
+    "system": "git",
+    "sourceLecture": "Small Intestine 2025-2026.pdf",
+    "topic": "Mesenteric venous thrombosis",
+    "question": "A 36-year-old woman on the combined oral contraceptive pill presents with a 5-day history of gradually worsening diffuse abdominal pain and nausea. She has no prior abdominal surgery. On examination she is afebrile, mildly tender in the central abdomen, and has no peritonism. WBC is 13 × 10⁹/L and D-dimer is markedly elevated. CT angiography shows thrombosis within the superior mesenteric vein and portal vein with associated bowel wall oedema but no pneumatosis. What is the most appropriate initial treatment?",
+    "options": [
+      "Emergency laparotomy and bowel resection",
+      "Systemic anticoagulation with low-molecular-weight heparin",
+      "Catheter-directed thrombolysis via the superior mesenteric artery",
+      "IV antibiotics for presumed mesenteric lymphadenitis",
+      "Laparoscopic exploration with mesenteric venous thrombectomy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Acute mesenteric venous thrombosis (MVT) without bowel infarction (no pneumatosis, no peritonism) is managed with systemic anticoagulation — LMWH initially, transitioning to therapeutic anticoagulation long-term. This halts clot propagation and allows venous recanalisation. Risk factors here include COCP use. Surgery is reserved for peritonism or bowel necrosis.",
+    "wrongAnswerExplanations": [
+      "Emergency laparotomy is reserved for MVT complicated by bowel infarction evidenced by peritonism or pneumatosis intestinalis; this patient has neither.",
+      "Systemic anticoagulation with LMWH is correct — non-occlusive MVT without bowel necrosis is treated with anticoagulation to prevent propagation and allow recanalisation.",
+      "Catheter-directed thrombolysis is an option for refractory arterial occlusion; it is not first-line for mesenteric venous thrombosis and carries significant bleeding risk.",
+      "IV antibiotics are inappropriate — this is a vascular thrombotic event, not an infective cause. Mesenteric lymphadenitis does not cause SMV/portal vein thrombosis.",
+      "Surgical venous thrombectomy is not standard practice for acute MVT — anticoagulation is the evidence-based first-line treatment."
+    ],
+    "clinicalPearl": "Mesenteric venous thrombosis without bowel necrosis is treated with anticoagulation — surgery is only required if peritonism or pneumatosis indicate bowel infarction."
+  }
+]

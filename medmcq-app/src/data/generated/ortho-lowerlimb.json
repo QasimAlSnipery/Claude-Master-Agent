@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "Common knee joint problems.pdf",
+    "topic": "ACL tear",
+    "question": "A 24-year-old male football player is brought off the pitch after a non-contact pivoting injury to his right knee. He heard a 'pop' and the knee swelled rapidly within 2 hours. Examination reveals a positive anterior drawer test and a positive Lachman test. McMurray's test is negative. Plain radiographs are normal. What is the most appropriate next investigation to confirm the diagnosis and assess associated structures?",
+    "options": [
+      "CT scan of the right knee",
+      "MRI of the right knee",
+      "Arthroscopy under general anaesthesia",
+      "Ultrasound of the right knee",
+      "Bone scintigraphy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "MRI is the gold standard non-invasive investigation for suspected ACL tears, providing excellent soft-tissue detail to confirm the ACL rupture and assess for concomitant meniscal or chondral injuries. Rapid haemarthrosis following a non-contact pivoting mechanism with positive Lachman and anterior drawer tests is the classic presentation of an ACL tear. CT does not adequately visualise soft tissues. Diagnostic arthroscopy is reserved for cases where non-operative assessment is inconclusive.",
+    "wrongAnswerExplanations": [
+      "CT scan is excellent for bony detail but has poor soft-tissue contrast and will not adequately image the ACL or associated meniscal injuries.",
+      "MRI is the correct answer — it is the gold standard for soft-tissue knee injury assessment, confirming ACL rupture and detecting meniscal tears or bone bruises.",
+      "Arthroscopy is the definitive diagnostic and therapeutic procedure but is invasive and not the first-line investigation; MRI should precede it.",
+      "Ultrasound can assess superficial ligaments but has limited utility for intra-articular structures such as the ACL.",
+      "Bone scintigraphy is useful for stress fractures and metabolic bone disease, not acute ligamentous injuries."
+    ],
+    "clinicalPearl": "Rapid haemarthrosis (within 2 hours) following a non-contact pivoting knee injury is an ACL tear until proven otherwise — MRI is the investigation of choice."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Common knee joint problems.pdf",
+    "topic": "Meniscal tear",
+    "question": "A 38-year-old woman presents with a 3-month history of right knee pain that is worse on squatting and twisting. She reports intermittent locking and giving way. On examination there is a small effusion, joint line tenderness along the medial aspect, and a positive McMurray's test with a painful click on external rotation. Lachman's test is negative. What is the most likely diagnosis?",
+    "options": [
+      "Anterior cruciate ligament rupture",
+      "Medial collateral ligament sprain",
+      "Medial meniscal tear",
+      "Osteoarthritis of the knee",
+      "Patellofemoral pain syndrome"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Medial meniscal tear presents with medial joint line tenderness, a positive McMurray's test (pain or click on external rotation of the tibia), mechanical symptoms such as locking and giving way, and a small effusion. The negative Lachman test makes an ACL injury unlikely. MCL sprain causes pain on valgus stress without mechanical symptoms.",
+    "wrongAnswerExplanations": [
+      "ACL rupture causes a positive Lachman/anterior drawer test and rapid haemarthrosis; the Lachman here is negative and the history is more chronic.",
+      "MCL sprain typically presents with pain on valgus stress testing and swelling over the medial ligament, not with joint locking or a positive McMurray's test.",
+      "Medial meniscal tear is the correct answer — medial joint line tenderness plus a positive McMurray's test with external rotation rotation is characteristic.",
+      "Osteoarthritis is possible at 38 but would show bony crepitus, reduced range of motion, and radiographic changes; it does not typically cause locking.",
+      "Patellofemoral pain syndrome causes anterior peripatellar pain worse on stairs and prolonged sitting, not medial joint line tenderness or locking."
+    ],
+    "clinicalPearl": "Medial joint line tenderness with a positive McMurray's test (click on external rotation) = medial meniscal tear; lateral tenderness with internal rotation click = lateral meniscal tear."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Common knee joint problems.pdf",
+    "topic": "Knee dislocation — vascular injury",
+    "question": "A 32-year-old motorcyclist is brought to the emergency department after a high-speed road traffic collision. His right knee is grossly deformed and swollen. The knee is relocated in the ED. Post-reduction X-rays confirm tibiofemoral alignment. On reassessment, the foot is cool and pale, with absent popliteal and pedal pulses, and capillary refill time is 4 seconds. What is the most urgent next step in management?",
+    "options": [
+      "MRI of the right knee",
+      "Urgent CT angiography of the right lower limb",
+      "Apply a long-leg backslab and admit for observation",
+      "Proceed to immediate surgical ligament reconstruction",
+      "Arrange duplex Doppler ultrasound in the vascular lab"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Knee dislocation carries a 25–40% risk of popliteal artery injury. Hard signs of vascular injury (absent pulses, cool pale limb, prolonged cap refill) mandate urgent vascular imaging — CT angiography is the fastest and most widely available modality to define the injury and plan revascularisation. Revascularisation must occur within 6 hours to prevent limb loss. MRI and ligament reconstruction are not priorities when the limb is ischaemic.",
+    "wrongAnswerExplanations": [
+      "MRI is useful for ligamentous assessment but is too slow and inappropriate when the limb is acutely ischaemic.",
+      "CT angiography is the correct answer — urgent imaging to identify the popliteal artery injury followed by revascularisation within 6 hours is the priority.",
+      "Immobilisation and observation is dangerous; this patient has hard signs of limb ischaemia requiring immediate vascular workup and intervention.",
+      "Ligament reconstruction is elective and should only be addressed after the vascular injury is repaired and the limb is viable.",
+      "Duplex ultrasound is operator-dependent, slower, and less reliable in the acute trauma setting compared to CT angiography."
+    ],
+    "clinicalPearl": "Every knee dislocation must have a vascular assessment — popliteal artery injury occurs in up to 40% of cases, and revascularisation within 6 hours is critical to limb salvage."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Common knee joint problems.pdf",
+    "topic": "Posterior cruciate ligament injury",
+    "question": "A 29-year-old male is involved in a car accident where his dashboard struck his right knee with the knee flexed. He presents with posterior knee pain and swelling. Examination reveals a positive posterior sag sign and a positive posterior drawer test. Plain radiographs are normal. Which structure is most likely injured?",
+    "options": [
+      "Anterior cruciate ligament",
+      "Medial collateral ligament",
+      "Posterior cruciate ligament",
+      "Lateral meniscus",
+      "Popliteal tendon"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A dashboard injury (direct blow to the anterior tibia with the knee flexed) is the classic mechanism for PCL injury. The posterior sag sign (tibia sagging posteriorly in 90° flexion) and positive posterior drawer test confirm PCL disruption. ACL injury occurs with non-contact pivoting or anterior tibial force, not posterior force.",
+    "wrongAnswerExplanations": [
+      "ACL injury is caused by non-contact pivoting or valgus force, and presents with a positive Lachman/anterior drawer test, not a posterior sag sign.",
+      "MCL injury presents with medial joint line tenderness and pain on valgus stress testing; it would not cause a posterior sag or posterior drawer.",
+      "PCL injury is the correct answer — dashboard mechanism (posterior tibial force with knee flexed) plus posterior sag and posterior drawer is pathognomonic.",
+      "Lateral meniscal tear presents with lateral joint line tenderness and a positive McMurray's on internal rotation, not a posterior drawer.",
+      "Popliteal tendon injury is rare and does not produce a positive posterior drawer or sag sign."
+    ],
+    "clinicalPearl": "The 'dashboard injury' (posterior force on flexed knee) = PCL tear; posterior sag sign is the hallmark clinical finding."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Tibial platue fractures.pdf",
+    "topic": "Tibial plateau fracture — compartment syndrome",
+    "question": "A 55-year-old woman is involved in a pedestrian versus car accident. She sustains a lateral tibial plateau fracture confirmed on CT scan (Schatzker type II). Eight hours after admission and splinting, she develops escalating pain in the right leg disproportionate to her injury, pain on passive dorsiflexion of the toes, and paraesthesia in the first web space. Her compartment pressure is measured at 38 mmHg and diastolic blood pressure is 75 mmHg. What is the most appropriate immediate management?",
+    "options": [
+      "Elevate the limb and increase analgesia",
+      "Urgent four-compartment fasciotomy",
+      "Proceed to immediate ORIF of the tibial plateau fracture",
+      "Intravenous mannitol infusion",
+      "Repeat compartment pressure measurement in 2 hours"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The delta pressure (diastolic BP minus compartment pressure) is 75 − 38 = 37 mmHg, which is below the threshold of 30 mmHg for fasciotomy (some guidelines use <30 mmHg). Combined with clinical signs of compartment syndrome (pain out of proportion, pain on passive stretch, paraesthesia in the first web space), urgent four-compartment fasciotomy is indicated without delay. Elevation and further observation would worsen ischaemia.",
+    "wrongAnswerExplanations": [
+      "Elevation and analgesia are appropriate for mild swelling but are contraindicated in established compartment syndrome as they do not address raised intracompartmental pressure.",
+      "Urgent four-compartment fasciotomy is the correct answer — delta pressure ≤30 mmHg with clinical signs mandates immediate surgical decompression.",
+      "ORIF of the tibial plateau is a definitive orthopaedic procedure but fasciotomy to address the compartment syndrome must take precedence.",
+      "Mannitol is used for cerebral oedema; it has no role in acute compartment syndrome of the limb.",
+      "Delaying reassessment risks irreversible muscle and nerve ischaemia; action must be taken immediately when clinical and pressure criteria are met."
+    ],
+    "clinicalPearl": "Acute compartment syndrome diagnosis is clinical first — pain out of proportion and pain on passive stretch are the cardinal signs; fasciotomy is indicated when delta pressure (DBP − compartment pressure) is ≤30 mmHg."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Tibial platue fractures.pdf",
+    "topic": "Tibial plateau fracture — classification and management",
+    "question": "A 62-year-old male pedestrian is struck by a car and sustains an injury to his right knee. Plain radiographs show a split-depression fracture of the lateral tibial plateau with articular depression of 8 mm. CT confirms a Schatzker type II pattern with no ligamentous avulsion. He is neurovascularly intact. What is the most appropriate definitive management?",
+    "options": [
+      "Non-operative management with hinged knee brace and protected weight-bearing",
+      "Closed reduction and application of a plaster cylinder cast",
+      "Open reduction and internal fixation with elevation of the articular surface and bone grafting",
+      "Total knee replacement",
+      "Traction for 6 weeks followed by early mobilisation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Schatzker type II tibial plateau fractures (lateral split-depression) with articular depression >3–5 mm require surgical intervention to restore articular congruity and prevent post-traumatic osteoarthritis. ORIF with subchondral support, bone grafting of the void, and buttress plating is the standard of care. Non-operative management is reserved for minimally displaced fractures in medically unfit patients.",
+    "wrongAnswerExplanations": [
+      "Non-operative management is acceptable only for Schatzker type I or minimally displaced fractures (<3 mm depression) in elderly low-demand patients; 8 mm depression requires surgery.",
+      "Plaster cylinder immobilisation will not maintain articular reduction and risks malunion and post-traumatic arthritis.",
+      "ORIF with articular elevation and bone grafting is the correct answer — restoring the joint surface to <3 mm incongruity optimises outcomes.",
+      "Total knee replacement is not the initial treatment for an isolated tibial plateau fracture in a 62-year-old; it may be considered later if post-traumatic arthritis develops.",
+      "Traction is an outdated method for tibial plateau fractures and does not address the articular depression."
+    ],
+    "clinicalPearl": "Articular depression >3–5 mm in a tibial plateau fracture is a surgical indication; ORIF with bone grafting restores the joint surface and prevents post-traumatic arthritis."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Ankle fractures.pdf",
+    "topic": "Weber B ankle fracture — management",
+    "question": "A 45-year-old woman rolls her ankle while stepping off a kerb. She presents to the emergency department with lateral ankle pain and swelling. Ottawa ankle rules are positive. Radiographs show a fibular fracture at the level of the syndesmosis (Weber B) with no medial-side injury and a mortise view showing a symmetrical joint space. She is neurovascularly intact. What is the most appropriate management?",
+    "options": [
+      "Below-knee plaster cast and non-weight-bearing for 6 weeks",
+      "Operative fixation with plate and screws",
+      "Compression bandage and immediate full weight-bearing",
+      "Below-knee walking boot with weight-bearing as tolerated",
+      "Syndesmotic screw fixation"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "An isolated Weber B fibular fracture with a congruent mortise (no medial injury, symmetric mortise on stress views) is a stable injury. Current evidence and NICE guidance support functional treatment with a removable below-knee walking boot and early weight-bearing, which gives equivalent outcomes to plaster immobilisation with less muscle wasting and earlier return to function. Surgery is reserved for unstable fractures (medial-side injury or widened mortise).",
+    "wrongAnswerExplanations": [
+      "Non-weight-bearing cast for 6 weeks is overly restrictive for a stable Weber B fracture; functional treatment in a walking boot has equivalent outcomes with better patient satisfaction.",
+      "Operative fixation is indicated for unstable ankle fractures (bimalleolar equivalent or widened mortise); this fracture has a congruent mortise and does not require surgery.",
+      "A compression bandage alone without structural support is insufficient for a fibular fracture.",
+      "A below-knee walking boot with weight-bearing as tolerated is the correct answer for a stable, isolated Weber B fracture with a congruent mortise.",
+      "Syndesmotic screw fixation is required for syndesmotic disruption with an unstable mortise, which is not present here."
+    ],
+    "clinicalPearl": "A stable isolated Weber B fracture (congruent mortise, no medial injury) can be managed functionally in a walking boot with weight-bearing — surgery is reserved for instability."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Ankle fractures.pdf",
+    "topic": "Ottawa ankle rules",
+    "question": "A 22-year-old male sustains a lateral ankle inversion injury during a football match. He is able to weight-bear immediately but has pain over the distal fibula. On examination, he has tenderness at the posterior edge of the lateral malleolus in the distal 6 cm, but no tenderness over the base of the 5th metatarsal, navicular, or medial malleolus. Using the Ottawa ankle rules, what is the correct course of action?",
+    "options": [
+      "No radiograph required; discharge with advice on PRICE therapy",
+      "Ankle radiograph only",
+      "Ankle and foot radiographs",
+      "Ankle radiograph and referral for MRI",
+      "Foot radiograph only"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Ottawa ankle rules indicate an ankle radiograph if there is bony tenderness at the posterior edge or tip of either malleolus in the distal 6 cm, or inability to weight-bear. Foot radiograph is indicated if there is tenderness over the base of the 5th metatarsal or navicular bone. This patient has ankle tenderness (posterior lateral malleolus) but no foot tenderness, so an ankle radiograph alone is indicated.",
+    "wrongAnswerExplanations": [
+      "The Ottawa ankle rules are positive for ankle tenderness at the posterior malleolus; radiograph is required and soft-tissue management alone is insufficient.",
+      "Ankle radiograph only is the correct answer — there is tenderness at the posterior lateral malleolus without foot-zone tenderness, satisfying the ankle but not the foot Ottawa criteria.",
+      "Foot radiograph is not indicated as there is no tenderness over the navicular or base of the 5th metatarsal.",
+      "MRI is not required as first-line imaging; Ottawa rules guide plain radiograph use in the acute setting.",
+      "Foot radiograph alone would miss a potential fibular fracture; the ankle Ottawa criterion is met, not the foot criterion."
+    ],
+    "clinicalPearl": "Ottawa ankle rules: ankle XR if posterior malleolar or medial malleolar tenderness, OR inability to weight-bear; foot XR if tenderness over navicular or base of 5th metatarsal."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Ankle fractures.pdf",
+    "topic": "Weber C ankle fracture — syndesmotic instability",
+    "question": "A 35-year-old man falls from a ladder, landing on his right foot. Radiographs show a fibular fracture proximal to the syndesmosis (Weber C) with widening of the medial clear space to 5 mm on the mortise view. He is neurovascularly intact. What is the most appropriate management?",
+    "options": [
+      "Below-knee plaster cast, non-weight-bearing for 8 weeks",
+      "Hinged ankle brace and weight-bearing as tolerated",
+      "Open reduction, fibular plating, and syndesmotic screw fixation",
+      "Closed reduction and short-leg cast",
+      "Tibiotalar fusion"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Weber C fractures are above the syndesmosis and by definition disrupt the syndesmotic ligaments, making the mortise unstable. A widened medial clear space (>4 mm) confirms instability. Operative treatment with fibular ORIF and syndesmotic screw fixation (or suture button device) is required to restore mortise congruity and syndesmotic integrity. Non-operative management of an unstable mortise leads to malunion and early post-traumatic arthritis.",
+    "wrongAnswerExplanations": [
+      "Non-operative management cannot maintain reduction of an unstable mortise; cast immobilisation alone will result in a valgus malunion.",
+      "A hinged brace is entirely inadequate for an unstable Weber C fracture-dislocation.",
+      "ORIF with fibular plating and syndesmotic screw fixation is the correct answer — it restores the fibular length and mortise stability.",
+      "Closed reduction and casting will not maintain syndesmotic reduction in a Weber C injury.",
+      "Tibiotalar fusion is a salvage procedure for end-stage ankle arthritis, not the initial management of an acute fracture."
+    ],
+    "clinicalPearl": "Weber C = above-syndesmosis fibular fracture = syndesmosis always disrupted = unstable mortise = operative fixation mandatory."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries to the pelvis .pdf",
+    "topic": "Haemodynamically unstable pelvic fracture — emergency management",
+    "question": "A 28-year-old male motorcyclist arrives at a major trauma centre following a high-speed collision. His GCS is 14, BP is 80/50 mmHg, HR is 130 bpm, and he has obvious pelvic instability on examination. A FAST scan shows no free abdominal fluid. Pelvic X-ray reveals an open-book pelvic fracture (APC type II). Despite 2 litres of IV crystalloid, his BP remains 82/48 mmHg. What is the single most important immediate intervention to control haemorrhage from the pelvis?",
+    "options": [
+      "Emergency laparotomy",
+      "Application of a pelvic binder",
+      "Bilateral external fixator application in theatre",
+      "CT angiography followed by embolisation",
+      "REBOA (Resuscitative Endovascular Balloon Occlusion of the Aorta)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In an open-book pelvic fracture with haemodynamic instability, immediate application of a pelvic binder (or sheet) at the level of the greater trochanters closes the pelvic ring, reduces pelvic volume, tamponades venous and bony bleeding, and is the first life-saving intervention. It should be applied before advanced imaging. Laparotomy is not indicated when FAST is negative. CT angiography/embolisation and REBOA are adjuncts after initial stabilisation.",
+    "wrongAnswerExplanations": [
+      "Emergency laparotomy is indicated for haemoperitoneum; the FAST scan is negative here, making an intra-abdominal source unlikely as the primary cause.",
+      "Pelvic binder application is the correct immediate answer — it reduces pelvic volume in an open-book fracture and tamponades haemorrhage before any further intervention.",
+      "External fixation in theatre is a definitive skeletal stabilisation technique but takes time to organise; a pelvic binder achieves the same immediate tamponade effect at the bedside.",
+      "CT angiography and embolisation are useful adjuncts for ongoing arterial pelvic haemorrhage but require haemodynamic stabilisation first; a binder should precede this.",
+      "REBOA is an advanced technique for zone III (infra-renal aorta) occlusion in refractory pelvic haemorrhage; it is not the first step before a binder has been applied."
+    ],
+    "clinicalPearl": "In an open-book pelvic fracture, apply a pelvic binder at the level of the greater trochanters immediately — this is the first haemorrhage-control step and must not be delayed for imaging."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries to the pelvis .pdf",
+    "topic": "Pelvic fracture — urological injury",
+    "question": "A 45-year-old male is admitted after a crush injury to the pelvis from a forklift. Pelvic radiographs show disruption of the pubic symphysis and bilateral superior/inferior rami fractures. He is haemodynamically stable. On physical examination, blood is noted at the urethral meatus and the prostate is impalpable on digital rectal examination. What is the most appropriate next step?",
+    "options": [
+      "Insert a urethral catheter immediately to assess urine output",
+      "Perform a suprapubic cystostomy",
+      "Perform a retrograde urethrogram before any catheterisation",
+      "Insert an indwelling catheter under antibiotic cover",
+      "Obtain an urgent CT abdomen and pelvis with contrast"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Blood at the urethral meatus and a high-riding or impalpable prostate are classic signs of urethral injury (most commonly posterior urethral disruption in pelvic fractures). Blind urethral catheterisation in this context risks converting a partial tear into a complete transaction and introducing infection. A retrograde urethrogram must be performed first to define the injury before any catheter is passed. Suprapubic catheterisation may follow if urethral injury is confirmed.",
+    "wrongAnswerExplanations": [
+      "Blind urethral catheterisation is absolutely contraindicated when urethral injury is suspected — it can convert a partial to complete tear.",
+      "Suprapubic cystostomy may be required if urethral injury is confirmed, but a retrograde urethrogram must be done first to characterise the injury.",
+      "Retrograde urethrogram is the correct answer — it must be performed before any catheterisation when urethral injury is suspected.",
+      "Urethral catheterisation under antibiotic cover does not mitigate the mechanical risk of worsening a urethral tear.",
+      "CT with contrast is important for overall injury assessment but does not replace the need for a urethrogram when urethral disruption is suspected, and catheterisation decisions cannot wait for CT."
+    ],
+    "clinicalPearl": "Blood at the urethral meatus + pelvic fracture = suspect urethral injury — NEVER insert a urethral catheter before a retrograde urethrogram confirms urethral integrity."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Injuries to the pelvis .pdf",
+    "topic": "Pelvic fracture classification — instability",
+    "question": "A 52-year-old woman is brought in after a road traffic accident. CT of the pelvis shows disruption of the pubic symphysis anteriorly and complete disruption of the posterior sacroiliac complex on the left, including the sacrotuberous and sacrospinous ligaments. The hemipelvis is displaced superiorly. According to the Tile/Young-Burgess classification, which pattern does this represent, and what does it imply for management?",
+    "options": [
+      "APC type I — stable, non-operative management",
+      "LC type II — partially stable, consider percutaneous fixation",
+      "VS (vertical shear) — rotationally and vertically unstable, requires operative fixation",
+      "APC type II — rotationally unstable but vertically stable, pelvic binder sufficient",
+      "CM (combined mechanism) — managed conservatively with bed rest"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A vertical shear (VS) injury involves complete disruption of both anterior and posterior pelvic ring with superior displacement of the hemipelvis, indicating both rotational and vertical instability. This is the most unstable pelvic fracture pattern and requires definitive operative fixation (anterior plating or external fixation combined with posterior iliosacral screws or sacral fixation). A pelvic binder alone will not control vertical instability.",
+    "wrongAnswerExplanations": [
+      "APC type I is a minor symphyseal widening (<2.5 cm) with intact posterior elements — it is stable and managed non-operatively; this case has complete posterior disruption.",
+      "LC type II involves partial posterior ligamentous injury (sacroiliac partially disrupted) with internal rotation; this case has complete posterior disruption and vertical displacement.",
+      "Vertical shear is the correct answer — complete posterior complex disruption with superior hemipelvis displacement = rotational + vertical instability = operative fixation required.",
+      "APC type II has symphyseal widening with anterior SI ligament disruption but intact posterior complex; it is rotationally unstable but vertically stable — a binder can temporise but does not match the complete posterior disruption described.",
+      "Combined mechanism injuries are complex but vertical displacement with complete posterior disruption still requires operative stabilisation, not bed rest."
+    ],
+    "clinicalPearl": "Vertical shear pelvic fracture = complete posterior ring disruption + superior hemipelvis displacement = the most unstable pelvic pattern, requiring operative posterior fixation."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Tibial platue fractures.pdf",
+    "topic": "Schatzker classification — bicondylar tibial plateau fracture",
+    "question": "A 68-year-old male pedestrian is struck by a car at low speed. He presents unable to weight-bear on his left leg. Radiographs show depression and comminution involving both medial and lateral tibial plateaux. CT confirms a Schatzker type VI pattern with diaphyseal-metaphyseal dissociation and significant soft tissue swelling and bruising. He has intact pulses and sensation. What is the most appropriate surgical strategy for definitive fixation?",
+    "options": [
+      "Immediate ORIF with dual plate fixation",
+      "Temporary spanning external fixator followed by staged ORIF once soft tissues settle",
+      "Intramedullary nail of the tibia",
+      "Long-leg cast with non-weight-bearing for 12 weeks",
+      "Primary total knee replacement"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Schatzker type VI (bicondylar with metaphyseal-diaphyseal dissociation) represents the most severe tibial plateau injury. In the presence of significant soft tissue injury (fracture blisters, bruising, swelling), immediate ORIF carries a high risk of wound dehiscence and infection. The damage control orthopaedic approach uses a temporary spanning external fixator to restore alignment, reduce swelling, and allow soft tissue recovery over 10–14 days before staged definitive ORIF with dual plates.",
+    "wrongAnswerExplanations": [
+      "Immediate ORIF in the presence of severe soft tissue compromise (swelling, bruising) risks wound breakdown, deep infection, and osteomyelitis — staged approach is safer.",
+      "Temporary external fixation followed by staged ORIF is the correct answer — this damage control strategy allows soft tissue recovery before definitive fixation.",
+      "Intramedullary nailing does not address the articular component of the tibial plateau fracture.",
+      "Cast immobilisation cannot maintain reduction of a complex bicondylar fracture and risks malunion with severe functional impairment.",
+      "Primary total knee replacement is not appropriate as initial management for an acute tibial plateau fracture, even in an older patient."
+    ],
+    "clinicalPearl": "Schatzker type VI tibial plateau fractures with severe soft tissue injury require staged management: spanning external fixator first, then definitive ORIF when swelling resolves (typically 10–14 days)."
+  }
+]

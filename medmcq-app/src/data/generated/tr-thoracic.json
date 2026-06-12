@@ -1,0 +1,301 @@
+[
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Tension pneumothorax",
+    "question": "A 28-year-old man is brought to the emergency department after a high-speed motorcycle collision. He is confused and agitated. On examination: RR 32/min, HR 130 bpm, BP 80/50 mmHg, SpO2 78% on high-flow oxygen. The trachea is deviated to the left. There is absent breath sounds on the right and the right neck veins are distended. What is the MOST appropriate immediate management?",
+    "options": [
+      "Needle decompression at the right 2nd intercostal space, mid-clavicular line",
+      "Urgent portable chest X-ray to confirm diagnosis before intervention",
+      "Endotracheal intubation and positive pressure ventilation",
+      "Insertion of right intercostal chest drain at the 5th intercostal space",
+      "Pericardiocentesis to relieve cardiac tamponade"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This patient has the classic triad of tension pneumothorax: hypoxia, hypotension, and absent breath sounds with tracheal deviation away from the affected side and raised JVP. Tension pneumothorax is a clinical diagnosis and must be treated immediately without waiting for imaging. The first step is needle decompression at the 2nd ICS, mid-clavicular line on the affected side to convert it to a simple pneumothorax, followed by definitive chest drain insertion.",
+    "wrongAnswerExplanations": [
+      "Correct. Immediate needle decompression is the life-saving first step for tension pneumothorax. Delay for imaging in a haemodynamically unstable patient is dangerous.",
+      "Wrong. Tension pneumothorax is a clinical diagnosis. Delaying treatment for a chest X-ray in a haemodynamically compromised patient can be fatal.",
+      "Wrong. Intubation and positive pressure ventilation in an undecompressed tension pneumothorax will worsen the tension effect and can cause cardiac arrest.",
+      "Wrong. Chest drain is the definitive treatment but needle decompression must come first to rapidly decompress the tension and stabilise the patient.",
+      "Wrong. There is no evidence of cardiac tamponade here. The tracheal deviation and absent breath sounds localise the problem to the right chest, not the pericardium."
+    ],
+    "clinicalPearl": "Tension pneumothorax kills within minutes — diagnose clinically and decompress immediately; never wait for a chest X-ray."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Open pneumothorax",
+    "question": "A 22-year-old man sustains a stab wound to the left chest during an altercation. In the resuscitation bay he is distressed with RR 28/min, SpO2 86%, and a 3 cm sucking chest wound visible in the left lateral chest wall. Breath sounds are reduced bilaterally. What is the correct immediate management of the chest wound?",
+    "options": [
+      "Apply a three-sided occlusive dressing over the wound",
+      "Pack the wound tightly with gauze to stop air entry",
+      "Immediately insert a chest drain through the wound",
+      "Apply a fully occlusive airtight dressing over the wound",
+      "Intubate and ventilate before addressing the chest wound"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "An open (sucking) chest wound creates an open pneumothorax. The standard first-aid management is a three-sided (flutter-valve) occlusive dressing — sealing three sides prevents air entry during inspiration while the open fourth side allows air to escape during expiration, preventing conversion to a tension pneumothorax. A definitive chest drain should then be sited away from the wound.",
+    "wrongAnswerExplanations": [
+      "Correct. A three-sided dressing acts as a flutter valve, allowing air to vent on expiration and preventing the development of tension pneumothorax.",
+      "Wrong. Tight packing creates an airtight seal, risking conversion to a tension pneumothorax as air accumulates in the pleural space with no escape route.",
+      "Wrong. Inserting a drain through an already contaminated penetrating wound increases infection risk; the drain should be sited at the standard 5th ICS, anterior axillary line.",
+      "Wrong. A fully occlusive dressing seals all four sides and may cause a tension pneumothorax if air continues to enter the pleural space.",
+      "Wrong. Airway management is important but the immediate priority is preventing ongoing pleural contamination and tension pneumothorax from the open chest wound."
+    ],
+    "clinicalPearl": "An open pneumothorax must be converted to a closed one with a flutter-valve dressing — a fully occlusive seal risks tension pneumothorax."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Massive haemothorax",
+    "question": "A 35-year-old woman is involved in a road traffic collision. She is pale and diaphoretic. Observations: HR 128 bpm, BP 88/60 mmHg, RR 26/min, SpO2 92%. Chest examination reveals dullness to percussion and absent breath sounds at the left base. A portable chest X-ray shows opacification of the left hemithorax. A chest drain is inserted and immediately drains 1600 mL of blood. What is the MOST appropriate next step?",
+    "options": [
+      "Activate the major haemorrhage protocol and refer urgently to thoracic surgery",
+      "Clamp the chest drain to tamponade the bleeding",
+      "Insert a second chest drain on the same side to improve drainage",
+      "Administer IV tranexamic acid and observe for 2 hours",
+      "Perform urgent CT thorax to identify the source of bleeding before any surgical referral"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Massive haemothorax is defined as immediate drainage of >1500 mL or drainage of >200 mL/hr for 2-4 hours. This patient has drained 1600 mL immediately, meeting the threshold. This indicates major vessel injury (internal mammary artery, intercostal vessels, hilum, or great vessels) requiring surgical haemostasis. The major haemorrhage protocol should be activated and urgent thoracic surgical referral made for operative intervention, likely thoracotomy.",
+    "wrongAnswerExplanations": [
+      "Correct. Immediate drainage of >1500 mL fulfils criteria for massive haemothorax and mandates urgent thoracic surgical intervention, with massive transfusion protocol activation.",
+      "Wrong. Clamping the drain traps blood in the pleural cavity, risks clot formation (retained haemothorax), and does not address the source of bleeding.",
+      "Wrong. A second drain adds drainage capacity but does nothing to control haemorrhage; the priority is surgical haemostasis.",
+      "Wrong. Tranexamic acid may be a useful adjunct but is insufficient as definitive management for a massive haemothorax requiring surgical control.",
+      "Wrong. In a haemodynamically unstable patient with massive haemothorax, CT scanning is inappropriate; the patient needs the operating theatre, not the scanner."
+    ],
+    "clinicalPearl": "Immediate chest drain output >1500 mL or ongoing loss >200 mL/hr equals massive haemothorax — call the thoracic surgeon and activate the major haemorrhage protocol."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Cardiac tamponade",
+    "question": "A 30-year-old man presents after a stab wound to the left chest in the cardiac box. He is anxious and confused. HR 118 bpm, BP 90/70 mmHg, RR 22/min. Neck veins are distended. Heart sounds are muffled on auscultation. ECG shows sinus tachycardia with low-voltage complexes. A focused FAST ultrasound shows a pericardial effusion with right ventricular collapse in diastole. What is the MOST appropriate immediate management?",
+    "options": [
+      "Emergency thoracotomy or pericardiocentesis as a bridge to theatre",
+      "Insert bilateral chest drains to exclude concurrent pneumothorax",
+      "Administer 1 litre of IV crystalloid rapidly to improve preload",
+      "Urgent CT angiography of the chest to delineate the injury",
+      "Administer IV adenosine to slow the heart rate and improve filling"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Beck's triad (hypotension, muffled heart sounds, distended neck veins) combined with the mechanism (stab wound to cardiac box) and FAST findings of pericardial effusion with RV diastolic collapse is diagnostic of cardiac tamponade. In traumatic tamponade, the pericardial blood is usually clotted, making needle pericardiocentesis less reliable than in medical tamponade. Emergency resuscitative thoracotomy (in extremis) or surgical pericardial decompression in theatre is the definitive treatment; pericardiocentesis may be used as a temporising bridge if surgery is not immediately available.",
+    "wrongAnswerExplanations": [
+      "Correct. Traumatic cardiac tamponade requires surgical decompression; pericardiocentesis can temporise but clotted blood limits its efficacy compared to open decompression.",
+      "Wrong. Chest drains address pleural collections; they do not decompress the pericardial sac and will not treat cardiac tamponade.",
+      "Wrong. Fluid loading may temporarily increase preload and improve output marginally but is not definitive treatment and may worsen tamponade by increasing pericardial pressure.",
+      "Wrong. CT angiography is inappropriate in a haemodynamically unstable patient with suspected cardiac tamponade — this patient needs the operating theatre urgently.",
+      "Wrong. Adenosine is a rate-controlling agent used in SVT; it has no role in cardiac tamponade and slowing the heart in tamponade could precipitate cardiac arrest."
+    ],
+    "clinicalPearl": "Beck's triad (hypotension, muffled heart sounds, JVD) after a penetrating cardiac box wound = tamponade — FAST confirms it; surgical decompression cures it."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Flail chest",
+    "question": "A 55-year-old man is admitted after a high-speed RTC in which he was the unrestrained driver. He is in significant pain and splinting his breathing. Observations: RR 30/min, SpO2 88% on 15 L/min oxygen, HR 110 bpm, BP 110/70 mmHg. Examination reveals paradoxical movement of the right lateral chest wall on breathing. Chest X-ray shows multiple right-sided rib fractures (ribs 4–9) in two places. What is the MOST likely mechanism causing his hypoxia?",
+    "options": [
+      "Underlying pulmonary contusion causing ventilation-perfusion mismatch",
+      "Paradoxical chest wall movement causing pendulum air movement between lungs",
+      "Haemopneumothorax compressing the right lung",
+      "Diaphragmatic rupture with abdominal visceral herniation",
+      "Fat embolism from multiple rib fractures causing ARDS"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Although paradoxical chest wall movement is the hallmark of flail chest, the primary cause of hypoxia is the underlying pulmonary contusion that inevitably accompanies the significant force required to fracture multiple ribs in two places. The contused lung develops haemorrhage, oedema, and alveolar collapse, causing ventilation-perfusion mismatch and intrapulmonary shunting. The paradoxical movement contributes to work of breathing but is not the main driver of hypoxia.",
+    "wrongAnswerExplanations": [
+      "Correct. Pulmonary contusion with V/Q mismatch is the dominant cause of hypoxia in flail chest — the paradoxical movement is visible but the contusion is the killer.",
+      "Wrong. The 'pendelluft' theory (air swinging between lungs) was historically proposed but has been disproved; it does not significantly contribute to hypoxia in clinical practice.",
+      "Wrong. Haemopneumothorax could co-exist but is not the primary mechanism; the question specifically asks about the mechanism in this presentation.",
+      "Wrong. Diaphragmatic rupture may occur with high-energy trauma but is a separate injury not described here and not the primary mechanism of hypoxia in flail chest.",
+      "Wrong. Fat embolism is a delayed complication (24-72 hours) of long bone fractures, not rib fractures, and would not explain acute hypoxia at presentation."
+    ],
+    "clinicalPearl": "In flail chest, the paradoxical movement is obvious but the pulmonary contusion beneath it is what actually kills — treat the underlying lung injury aggressively."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Flail chest management",
+    "question": "A 62-year-old woman with COPD (FEV1 55% predicted) is admitted following a fall from a height. She has a right-sided flail segment (ribs 3–8 fractured in two places). Despite high-flow oxygen, adequate analgesia (thoracic epidural), and chest physiotherapy for 4 hours, her RR is 34/min, SpO2 is 87%, and she is tiring. ABG shows pH 7.28, PaO2 7.1 kPa, PaCO2 7.8 kPa on 15 L O2. What is the MOST appropriate next step?",
+    "options": [
+      "Intubation and mechanical ventilation with internal pneumatic stabilisation",
+      "Application of external chest wall binder to stabilise the flail segment",
+      "Non-invasive ventilation (BiPAP) as the definitive management",
+      "Urgent surgical rib fixation to restore chest wall integrity",
+      "Increase the thoracic epidural infusion rate and repeat ABG in 2 hours"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "This patient is in type 2 respiratory failure (hypercapnia with acidosis) with a rising respiratory rate despite maximal conservative measures. She meets criteria for intubation and mechanical ventilation. Positive pressure ventilation acts as internal pneumatic stabilisation of the flail segment, addresses the respiratory failure, and allows the pulmonary contusion to be managed. COPD and pre-existing respiratory compromise lower the threshold for early intubation.",
+    "wrongAnswerExplanations": [
+      "Correct. Intubation provides internal pneumatic stabilisation and definitively manages type 2 respiratory failure that has failed conservative management.",
+      "Wrong. External chest binders restrict total chest expansion and worsen ventilation; they have no role in managing flail chest and the underlying pulmonary contusion.",
+      "Wrong. NIV (BiPAP) may be trialled in less severe cases but is contraindicated or inadequate here given worsening type 2 respiratory failure, tiring patient, and failed prior conservative management.",
+      "Wrong. Surgical rib fixation is considered for persistent flail after other injuries are stabilised or for patients difficult to wean from ventilation; it is not the immediate priority in acute respiratory failure.",
+      "Wrong. This patient is already tiring with worsening ABGs — increasing epidural rate without securing the airway risks precipitous respiratory arrest."
+    ],
+    "clinicalPearl": "Intubate a flail chest patient early when they are tiring — do not wait for arrest; positive pressure ventilation treats both the respiratory failure and the unstable chest wall simultaneously."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Pulmonary contusion",
+    "question": "A 45-year-old man is admitted after a motor vehicle collision. He has no external chest injuries but complains of chest pain. Initial chest X-ray shows patchy right-sided consolidation. His SpO2 is 94% on 4 L/min oxygen. Over the next 12 hours, his oxygen requirement increases progressively and a repeat chest X-ray shows more extensive right-sided opacification. HR 105, RR 24/min, BP 120/70 mmHg. What is the MOST likely diagnosis and the explanation for the worsening appearance?",
+    "options": [
+      "Pulmonary contusion — ongoing alveolar haemorrhage and oedema causing progressive opacification over 24–48 hours",
+      "Aspiration pneumonia — silent aspiration at the scene causing delayed consolidation",
+      "Tension pneumothorax — progressive lung collapse causing apparent opacification",
+      "Haemothorax — progressive bleeding into the pleural space giving an opaque hemithorax",
+      "ARDS — early multi-organ dysfunction causing bilateral alveolar infiltrates"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Pulmonary contusion is a bruise of the lung parenchyma caused by the energy transmitted through the chest wall. Crucially, the radiological appearance worsens over the first 24-48 hours as alveolar haemorrhage and inflammatory oedema progress, even as the initial impact is long past. This delayed worsening distinguishes it from pneumothorax or haemothorax and explains why an initially mild presentation can deteriorate significantly.",
+    "wrongAnswerExplanations": [
+      "Correct. Pulmonary contusion classically worsens radiologically over 24-48 hours due to progressive alveolar haemorrhage and oedema — this delayed progression is a key clinical feature.",
+      "Wrong. Aspiration pneumonia is possible after trauma but would typically take longer to develop radiologically and would not explain the immediate post-injury patchy consolidation.",
+      "Wrong. Tension pneumothorax causes hyperlucency (absent lung markings) and tracheal deviation, not opacification; it also causes haemodynamic instability not seen here.",
+      "Wrong. Haemothorax causes dependent opacification in the lower zones; the description is of patchy consolidation consistent with contusion, and the patient is haemodynamically stable.",
+      "Wrong. ARDS is a delayed complication (typically >24-48 hours post-injury) and requires bilateral infiltrates plus hypoxaemia plus a precipitant; this presentation is acute and unilateral."
+    ],
+    "clinicalPearl": "Pulmonary contusion worsens over 24-48 hours — a patient who looks acceptable at presentation may deteriorate significantly; monitor closely and have a low threshold for escalation."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Traumatic aortic injury",
+    "question": "A 40-year-old male driver is brought in after a high-speed frontal collision with an airbag deployment. He is haemodynamically stable with BP 130/85 mmHg. He complains of interscapular pain. Chest X-ray shows: widened mediastinum (>8 cm), obliteration of the aortic knuckle, left apical cap, and depression of the left main bronchus. What is the MOST appropriate next investigation?",
+    "options": [
+      "CT angiography of the chest (contrast-enhanced)",
+      "Transoesophageal echocardiography",
+      "Formal aortography via the cardiac catheterisation laboratory",
+      "Urgent bedside transthoracic echocardiogram",
+      "Repeat chest X-ray in 30 minutes to assess for progression"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The combination of a deceleration mechanism, interscapular pain, and multiple CXR signs (widened mediastinum, obliterated aortic knuckle, left apical cap, depressed left main bronchus) is highly suspicious for traumatic aortic injury, most commonly at the aortic isthmus. CT angiography of the chest is the gold-standard investigation in a haemodynamically stable patient — it is rapid, widely available, and provides precise anatomical detail to guide endovascular or open repair planning.",
+    "wrongAnswerExplanations": [
+      "Correct. CT angiography is the investigation of choice for suspected traumatic aortic injury in a stable patient — fast, sensitive, and provides anatomical detail for surgical planning.",
+      "Wrong. TOE is highly accurate but is invasive, operator-dependent, and not universally available 24/7 in trauma settings; CT angio is the preferred first-line investigation.",
+      "Wrong. Formal aortography was historically the gold standard but has been superseded by CT angiography, which is non-invasive, faster, and equally accurate.",
+      "Wrong. Transthoracic echo has poor sensitivity for aortic injury due to chest wall interference and is inadequate for definitive evaluation of the thoracic aorta.",
+      "Wrong. Repeat CXR adds no diagnostic value and risks delay in identifying a potentially fatal injury; the CXR findings are already sufficient to warrant definitive cross-sectional imaging."
+    ],
+    "clinicalPearl": "A widened mediastinum on CXR after a deceleration injury demands urgent CT angiography — the aortic isthmus is the classic injury site due to differential deceleration forces."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Traumatic aortic injury management",
+    "question": "A 38-year-old woman is found to have a Grade III traumatic aortic injury (contained rupture at the isthmus) on CT angiography following a high-speed RTC. She is haemodynamically stable (BP 105/70 mmHg). She also has a closed head injury (GCS 13) and bilateral femoral fractures. What is the MOST appropriate management strategy for the aortic injury?",
+    "options": [
+      "Thoracic endovascular aortic repair (TEVAR) when haemodynamically optimised",
+      "Emergency open surgical repair via left thoracotomy",
+      "Medical management alone with permissive hypotension and rate control",
+      "Immediate aortic repair followed by staged orthopaedic fixation",
+      "Delay all intervention for 48 hours to allow head injury stabilisation"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "TEVAR is the preferred treatment for traumatic aortic injury in haemodynamically stable patients as it avoids the morbidity of open thoracotomy (single-lung ventilation, aortic cross-clamping, spinal cord ischaemia risk). In a polytrauma patient with concurrent head injury and femoral fractures, the endovascular approach minimises physiological insult. Medical management (beta-blockade, heart rate and blood pressure control) is used as a bridge to TEVAR but is not definitive for a Grade III injury.",
+    "wrongAnswerExplanations": [
+      "Correct. TEVAR is now the standard of care for most traumatic aortic injuries in stable patients — lower morbidity than open repair and well-suited to polytrauma patients.",
+      "Wrong. Open surgical repair via left thoracotomy carries significant morbidity (paraplegia risk, single-lung ventilation, large blood loss) and has been largely superseded by TEVAR for most patients.",
+      "Wrong. Medical management alone (beta-blockade, anti-impulse therapy) is appropriate as a bridge to definitive repair in Grade I/II injuries or when repair must be briefly delayed, but a Grade III contained rupture requires definitive intervention.",
+      "Wrong. This sequence is reasonable only if the aortic injury is immediately life-threatening; in a stable patient TEVAR can be coordinated with orthopaedic care rather than a rushed emergency approach.",
+      "Wrong. A 48-hour delay without definitive or temporising anti-impulse therapy risks free rupture; head injury does not mandate such a delay if TEVAR can be performed safely."
+    ],
+    "clinicalPearl": "TEVAR has replaced open surgery as the preferred intervention for traumatic aortic injury — lower mortality, lower paraplegia risk, and better suited to the polytrauma patient."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Chest drain insertion",
+    "question": "A 50-year-old man with a right-sided haemopneumothorax following blunt chest trauma undergoes chest drain insertion. The drain is positioned at the 5th intercostal space, anterior axillary line. Initial drainage is 400 mL of blood. Four hours later the drain output has slowed to 20 mL/hour but the lung has not fully re-expanded on chest X-ray and there is a persistent fluid level. The drain is patent and swinging. What is the MOST likely cause of incomplete lung expansion?",
+    "options": [
+      "Retained haemothorax clot preventing full lung re-expansion",
+      "Malposition of the chest drain with the tip in the fissure",
+      "Contralateral tension pneumothorax requiring immediate decompression",
+      "Bronchopleural fistula preventing the lung from sealing",
+      "Inadvertent placement of the drain below the diaphragm into the abdomen"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A clotted retained haemothorax is the most likely explanation. Blood in the pleural space clots rapidly and a single drain cannot always adequately drain clotted material. The persistent fluid level and incomplete expansion despite a patent, swinging drain strongly suggests retained clot preventing the lung from re-expanding against the chest wall. If the retained haemothorax does not resolve with the drain, VATS (video-assisted thoracoscopic surgery) or fibrinolytic instillation may be needed within 72 hours to prevent empyema and fibrothorax.",
+    "wrongAnswerExplanations": [
+      "Correct. Retained haemothorax clot is the most common cause of incomplete lung expansion despite a functioning drain — blood clots quickly and cannot drain through a tube.",
+      "Wrong. Fissure malposition can impair drainage but the drain is described as patent and swinging, making significant malposition less likely as the primary cause.",
+      "Wrong. Contralateral tension pneumothorax would cause haemodynamic instability and tracheal deviation, not simply incomplete ipsilateral expansion.",
+      "Wrong. Bronchopleural fistula causes continuous air leak and bubbling in the drain; this would manifest as continuous air leak, not a fluid level with reduced output.",
+      "Wrong. Subdiaphragmatic drain placement would result in no drainage of pleural content and would likely be apparent on chest X-ray; the drain is swinging, confirming pleural placement."
+    ],
+    "clinicalPearl": "A retained haemothorax should be drained within 72 hours (via VATS or fibrinolytics) to prevent empyema and fibrothorax — do not rely on a single drain for clotted blood."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Tension pneumothorax in ventilated patient",
+    "question": "A 67-year-old woman is intubated and mechanically ventilated in the ICU following emergency laparotomy for trauma. The nurse alerts you because the ventilator is alarming with peak airway pressures rising from 22 to 42 cmH2O over the past 10 minutes. The patient's BP has dropped from 115/75 to 70/50 mmHg and HR is 135 bpm. SpO2 has fallen to 83%. On examination the left chest has decreased movement and the trachea appears deviated to the right. What is the MOST appropriate immediate action?",
+    "options": [
+      "Immediate needle decompression of the left chest at the 2nd ICS, MCL",
+      "Disconnect from the ventilator and hand-ventilate to assess compliance",
+      "Urgent bedside chest X-ray to confirm pneumothorax before intervention",
+      "Increase PEEP on the ventilator to recruit the collapsed lung",
+      "Administer IV adrenaline for presumed anaphylaxis"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "In a ventilated patient, tension pneumothorax presents with sudden deterioration: rising peak airway pressures, haemodynamic collapse, and falling SpO2. Tracheal deviation and decreased chest movement confirm the clinical diagnosis. Positive pressure ventilation accelerates tension development. This is a life-threatening emergency — immediate needle decompression must not be delayed for imaging. Increasing ventilator pressures in this context would worsen the tension pneumothorax.",
+    "wrongAnswerExplanations": [
+      "Correct. Tension pneumothorax in a ventilated patient requires immediate needle decompression — clinical signs are sufficient to act without imaging.",
+      "Wrong. Disconnecting from the ventilator may briefly reduce the driving pressure but does not treat the underlying tension pneumothorax and wastes critical time.",
+      "Wrong. A chest X-ray is inappropriate in this rapidly deteriorating patient — the clinical diagnosis is clear and treatment must not be delayed for imaging.",
+      "Wrong. Increasing PEEP in a tension pneumothorax will worsen the tension effect, increase mediastinal shift, and further compromise cardiac output — it is dangerous.",
+      "Wrong. Anaphylaxis does not cause unilateral decreased chest movement, tracheal deviation, or asymmetric ventilation; this clinical picture is diagnostic of tension pneumothorax."
+    ],
+    "clinicalPearl": "Rising peak airway pressures + haemodynamic collapse in a ventilated patient = tension pneumothorax until proven otherwise — decompress immediately."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Resuscitative thoracotomy",
+    "question": "A 25-year-old male arrives by ambulance after a single stab wound to the left chest. Paramedics report he had electrical cardiac activity on scene but arrested 3 minutes before arrival. CPR is in progress. No output has been achieved after 4 minutes of ED resuscitation. FAST shows a pericardial effusion. What is the MOST appropriate management?",
+    "options": [
+      "Emergency resuscitative thoracotomy in the resuscitation bay",
+      "Continue CPR for a further 10 minutes before considering thoracotomy",
+      "Immediate CT scan to identify the injury before operative intervention",
+      "Emergent coronary angiography to rule out traumatic coronary artery injury",
+      "Needle pericardiocentesis followed by reassessment of cardiac output"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Resuscitative thoracotomy is indicated in penetrating thoracic trauma with loss of vital signs within 15 minutes of arrival (or in transit). The patient has a penetrating mechanism, recent loss of vital signs, FAST-confirmed pericardial effusion (suggesting tamponade as a treatable cause), and has failed brief CPR. Opening the pericardium to relieve tamponade and directly compressing or cross-clamping the aorta are potentially life-saving. Survival rates for penetrating cardiac trauma are significantly better than for blunt trauma.",
+    "wrongAnswerExplanations": [
+      "Correct. Resuscitative thoracotomy is the only intervention that addresses the treatable cause (cardiac tamponade from penetrating injury) in a patient who arrested within the resuscitation window.",
+      "Wrong. Extended CPR in a penetrating trauma cardiac arrest without addressing the underlying cause (tamponade) is futile — the surgical intervention must occur now.",
+      "Wrong. CT scanning is absolutely contraindicated in a patient in cardiac arrest; imaging cannot take priority over immediate life-saving surgery.",
+      "Wrong. Coronary angiography is irrelevant in acute penetrating cardiac trauma with tamponade and arrest — this is a surgical emergency, not a coronary syndrome.",
+      "Wrong. Pericardiocentesis in traumatic tamponade is limited by clotted blood and is inadequate as definitive treatment; the patient requires open decompression and cardiac repair."
+    ],
+    "clinicalPearl": "Resuscitative thoracotomy for penetrating chest trauma with recent loss of vital signs can achieve survival — the penetrating mechanism and pericardial effusion on FAST are the key indications."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "thoracic trauma.pdf",
+    "topic": "Chest drain complications",
+    "question": "A 44-year-old man has a right chest drain inserted for a traumatic haemothorax. Six hours later he develops worsening breathlessness and cough. Chest X-ray shows the right lung has re-expanded but there is new right-sided haziness with a perihilar distribution. His SpO2 has fallen from 97% to 90% and he is increasingly breathless. Observations: HR 100, BP 122/78, RR 24. He has no fever. What is the MOST likely diagnosis?",
+    "options": [
+      "Re-expansion pulmonary oedema",
+      "Aspiration pneumonia following the procedure",
+      "Tension pneumothorax from drain dislodgement",
+      "Pulmonary embolism in the context of trauma",
+      "Empyema thoracis secondary to drain insertion"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Re-expansion pulmonary oedema (RPO) is a recognised complication following rapid re-expansion of a collapsed lung. It occurs when a lung that has been collapsed for a period is rapidly re-inflated — increased capillary permeability leads to interstitial and alveolar oedema in the ipsilateral lung. The classic radiological finding is perihilar haziness in the re-expanded lung appearing within hours of drain insertion. It is important to drain large haemopneumothoraces gradually to reduce this risk.",
+    "wrongAnswerExplanations": [
+      "Correct. Re-expansion pulmonary oedema occurs after rapid lung re-expansion — perihilar haziness in the newly re-expanded lung within hours of drainage is the hallmark.",
+      "Wrong. Aspiration pneumonia would cause fever, productive cough, and lower-zone consolidation rather than perihilar haziness, and typically takes 24-48 hours to develop.",
+      "Wrong. Tension pneumothorax would cause haemodynamic instability, tracheal deviation, and absent breath sounds — not a lung that appears re-expanded on CXR.",
+      "Wrong. Pulmonary embolism could cause breathlessness and hypoxia but would not explain the new perihilar haziness ipsilateral to the re-expanded lung seen on CXR.",
+      "Wrong. Empyema is a delayed complication (days to weeks) associated with fever and systemic sepsis; it would not develop within hours of drain insertion."
+    ],
+    "clinicalPearl": "Re-expansion pulmonary oedema can complicate rapid drainage of large haemopneumothoraces — clamp the drain temporarily if >1500 mL has drained acutely and the patient becomes breathless."
+  }
+]

@@ -1,0 +1,301 @@
+[
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Hypovolaemic shock classification",
+    "question": "A 28-year-old man is brought to the emergency department after a motorcycle collision. He is restless and anxious. On examination: BP 100/70 mmHg, HR 118 bpm, RR 22/min, capillary refill 3 seconds, GCS 14. He has an obvious femoral shaft fracture with significant thigh swelling. Urine output is 25 mL/hour. According to ATLS classification, which haemorrhage class does this patient most likely represent?",
+    "options": [
+      "Class I haemorrhage (up to 750 mL blood loss)",
+      "Class II haemorrhage (750–1500 mL blood loss)",
+      "Class III haemorrhage (1500–2000 mL blood loss)",
+      "Class IV haemorrhage (>2000 mL blood loss)",
+      "Neurogenic shock secondary to spinal injury"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "This patient demonstrates Class III haemorrhage: HR 100–120 bpm, BP decreased, RR 20–30, reduced urine output (20–30 mL/hr), and altered mental status (anxiety, restlessness). Estimated blood loss is 1500–2000 mL (30–40% of circulating volume). A femoral shaft fracture alone can sequester 1–1.5 litres into the thigh.",
+    "wrongAnswerExplanations": [
+      "Class I haemorrhage (<750 mL, <15% volume) causes minimal physiological change — HR <100, BP normal, no mental status changes. This patient is far more compromised.",
+      "Class II haemorrhage (750–1500 mL) produces tachycardia >100 and anxiety, but BP is maintained. This patient has a falling BP indicating greater loss.",
+      "Class III haemorrhage (1500–2000 mL, 30–40%) matches: BP falling, HR 100–120, oliguria, and altered consciousness — this is the correct answer.",
+      "Class IV haemorrhage (>2000 mL, >40%) produces profound hypotension (BP <70 mmHg), HR >140, anuria, and obtundation. This patient is not yet in extremis.",
+      "Neurogenic shock is characterised by hypotension with paradoxical bradycardia and warm, flushed skin due to loss of sympathetic tone. This patient is tachycardic, making neurogenic shock unlikely."
+    ],
+    "clinicalPearl": "Class III haemorrhage is the first ATLS class with a definite fall in BP and almost always requires blood transfusion, not just crystalloid."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Septic shock management",
+    "question": "A 65-year-old woman with type 2 diabetes presents with a 2-day history of rigors, confusion, and reduced urine output. She has a urinary catheter in situ. On examination: temperature 38.9°C, BP 82/50 mmHg, HR 126 bpm, RR 26/min, SpO2 91% on room air. Lactate is 4.8 mmol/L. Despite a 30 mL/kg crystalloid bolus over 3 hours, her BP remains 84/52 mmHg. What is the most appropriate next step in management?",
+    "options": [
+      "Administer a further 30 mL/kg crystalloid bolus",
+      "Start noradrenaline infusion to achieve MAP ≥65 mmHg",
+      "Perform urgent bedside echocardiography",
+      "Administer IV hydrocortisone 200 mg immediately",
+      "Insert a pulmonary artery catheter to guide fluid therapy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient meets criteria for septic shock (infection + hypotension + lactate >2 despite fluid resuscitation). Surviving Sepsis Campaign guidelines recommend noradrenaline as the first-line vasopressor when hypotension persists after adequate fluid resuscitation, targeting MAP ≥65 mmHg. Continuing further large-volume crystalloid after 30 mL/kg without vasopressor support risks fluid overload.",
+    "wrongAnswerExplanations": [
+      "Further large-volume crystalloid beyond 30 mL/kg without reassessment is inappropriate and risks pulmonary oedema in a patient who has already failed to respond to initial fluid resuscitation.",
+      "Noradrenaline is the correct vasopressor of choice in septic shock refractory to fluid resuscitation, targeting MAP ≥65 mmHg per Surviving Sepsis guidelines — this is the correct answer.",
+      "Bedside echocardiography can assess fluid responsiveness but is not the immediate priority when vasopressor therapy is clearly indicated; it would delay life-saving treatment.",
+      "Hydrocortisone is considered in septic shock refractory to vasopressors (steroid-refractory), not as a first-line step after initial fluids. Vasopressors should be started first.",
+      "Pulmonary artery catheters are not recommended routinely in septic shock and are not appropriate as the immediate next step in an acutely deteriorating patient."
+    ],
+    "clinicalPearl": "In septic shock, noradrenaline is the vasopressor of choice targeting MAP ≥65 mmHg; hydrocortisone is reserved for vasopressor-refractory cases."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Anaphylactic shock",
+    "question": "A 34-year-old man receives his first dose of IV co-amoxiclav for a dental abscess. Within 5 minutes he develops widespread urticaria, lip swelling, audible stridor, and feels faint. His BP is 74/40 mmHg, HR 138 bpm, SpO2 88%. What is the single most important immediate intervention?",
+    "options": [
+      "IV chlorphenamine 10 mg",
+      "IV hydrocortisone 200 mg",
+      "IM adrenaline 0.5 mg (1:1000)",
+      "High-flow oxygen via non-rebreather mask",
+      "IV fluid challenge with 500 mL 0.9% saline"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "IM adrenaline (epinephrine) 0.5 mg of 1:1000 solution into the anterolateral thigh is the first-line, life-saving treatment for anaphylaxis. It reverses bronchospasm and laryngeal oedema (β2), causes vasoconstriction and raises BP (α1), and stabilises mast cells. Delay in adrenaline is the leading cause of preventable death in anaphylaxis.",
+    "wrongAnswerExplanations": [
+      "Chlorphenamine (antihistamine) is an adjunct in anaphylaxis but does not reverse airway oedema, bronchospasm, or cardiovascular collapse. It must never be given instead of adrenaline.",
+      "IV hydrocortisone takes hours to act and is an adjunct to reduce biphasic reactions. It is not life-saving in the acute setting and cannot replace adrenaline.",
+      "IM adrenaline 0.5 mg 1:1000 is the correct immediate first-line treatment for anaphylaxis with airway compromise and cardiovascular collapse — this is the correct answer.",
+      "Oxygen is important and should be given, but it does not reverse the underlying anaphylaxis or treat cardiovascular collapse. Adrenaline must be given first.",
+      "IV fluids are an important adjunct in anaphylaxis but cannot reverse bronchospasm, laryngeal oedema, or mast cell mediator release. Adrenaline takes priority."
+    ],
+    "clinicalPearl": "In anaphylaxis, IM adrenaline 1:1000 (0.5 mg) into the anterolateral thigh is the only life-saving drug — antihistamines and steroids are adjuncts only."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Cardiogenic shock",
+    "question": "A 72-year-old man with a history of hypertension presents 6 hours after onset of crushing central chest pain. ECG shows extensive anterior ST elevation. Despite thrombolysis, he remains hypotensive. On examination: BP 80/60 mmHg, HR 108 bpm, JVP elevated at 6 cm, bilateral basal crepitations, cold peripheries, and urine output of 10 mL/hour. Which haemodynamic profile is most consistent with his diagnosis?",
+    "options": [
+      "Low CVP, low PCWP, high cardiac output, low SVR",
+      "High CVP, high PCWP, low cardiac output, high SVR",
+      "Low CVP, low PCWP, low cardiac output, high SVR",
+      "High CVP, low PCWP, low cardiac output, high SVR",
+      "Normal CVP, normal PCWP, low cardiac output, low SVR"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Cardiogenic shock is characterised by pump failure: low cardiac output with compensatory high systemic vascular resistance (vasoconstriction). Fluid backs up behind the failing left ventricle causing elevated PCWP (pulmonary oedema) and elevated CVP (right heart congestion). The clinical picture of elevated JVP, pulmonary oedema, cold peripheries, and oliguria is classic.",
+    "wrongAnswerExplanations": [
+      "Low CVP/PCWP with high CO and low SVR describes distributive/septic shock (warm, vasodilated), not cardiogenic shock.",
+      "High CVP, high PCWP, low CO, high SVR is the classic haemodynamic fingerprint of cardiogenic shock — pump failure with fluid congestion and compensatory vasoconstriction. This is the correct answer.",
+      "Low CVP and low PCWP with low CO describes hypovolaemic shock — the patient is volume-depleted rather than volume-overloaded.",
+      "High CVP with low PCWP suggests right heart failure or cardiac tamponade/tension pneumothorax, not left ventricular pump failure causing pulmonary oedema.",
+      "Normal filling pressures with low CO and low SVR could suggest early distributive shock or some vasodilatory states, but not established cardiogenic shock with clinical congestion."
+    ],
+    "clinicalPearl": "Cardiogenic shock presents with 'wet and cold' — pulmonary oedema (high PCWP) and poor perfusion (low CO, high SVR) — in contrast to the 'warm and wet' of early sepsis."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Neurogenic shock",
+    "question": "A 19-year-old man dives into a shallow pool and sustains a cervical spine injury at C5. On arrival to the emergency department: BP 85/55 mmHg, HR 52 bpm, RR assisted at 14/min, skin warm and well-perfused, no obvious external haemorrhage. He has flaccid paralysis below the level of injury. What is the most likely explanation for his haemodynamic state?",
+    "options": [
+      "Haemorrhagic shock from occult internal bleeding",
+      "Tension pneumothorax from associated chest injury",
+      "Neurogenic shock from loss of sympathetic tone",
+      "Obstructive shock from cardiac tamponade",
+      "Cardiogenic shock from myocardial contusion"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Neurogenic shock results from disruption of descending sympathetic pathways following high spinal cord injury (typically above T6). Loss of sympathetic vasoconstrictor tone causes vasodilation (warm, pink skin) and loss of cardiac accelerator fibres results in paradoxical bradycardia despite hypotension. This distinguishes it from all other shock types where tachycardia is the expected compensatory response.",
+    "wrongAnswerExplanations": [
+      "Haemorrhagic shock would present with tachycardia, cool clammy skin, and pallor — the classic sympathoadrenal response. The bradycardia and warm skin in this patient argue against haemorrhage as the primary cause.",
+      "Tension pneumothorax causes obstructive shock with absent breath sounds, tracheal deviation, and tachycardia — not bradycardia and warm peripheries.",
+      "Neurogenic shock from high cervical injury causing sympathetic denervation is the correct explanation — bradycardia + hypotension + warm vasodilated skin after high spinal injury is pathognomonic.",
+      "Cardiac tamponade presents with Beck's triad (hypotension, muffled heart sounds, elevated JVP) and tachycardia, not bradycardia with warm peripheries.",
+      "Myocardial contusion can cause arrhythmias and reduced cardiac output, but would not explain the warm vasodilated peripheries and is less likely without direct chest trauma mechanism."
+    ],
+    "clinicalPearl": "Neurogenic shock is the only shock type with bradycardia AND hypotension — warm, vasodilated skin distinguishes it from all other causes of traumatic hypotension."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Massive transfusion protocol",
+    "question": "A 45-year-old woman is brought to the trauma bay following a high-speed road traffic collision with suspected pelvic fracture and haemoperitoneum on FAST scan. She is in extremis: BP 70/40 mmHg, HR 145 bpm, GCS 10. She is not responding to initial crystalloid. The massive transfusion protocol is activated. What is the most evidence-based blood product ratio to guide initial transfusion?",
+    "options": [
+      "1 unit packed red cells : 4 units FFP : 1 unit platelets",
+      "1 unit packed red cells : 1 unit FFP : 1 unit platelets (1:1:1)",
+      "4 units packed red cells : 1 unit FFP : 0 platelets",
+      "2 units packed red cells : 1 unit FFP : 1 unit cryoprecipitate",
+      "Packed red cells only until surgical haemostasis is achieved"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The PROPPR trial (2015) demonstrated that a 1:1:1 ratio of packed red blood cells : fresh frozen plasma : platelets reduces 24-hour mortality and improves haemostasis compared to lower FFP/platelet ratios. This balanced haemostatic resuscitation strategy mimics whole blood and addresses the coagulopathy of trauma alongside oxygen-carrying replacement.",
+    "wrongAnswerExplanations": [
+      "A 1:4 ratio (more red cells than FFP) was the older approach based on the '10-unit PRBC then FFP' paradigm, but evidence from PROPPR showed this leads to dilutional coagulopathy and worsened outcomes.",
+      "1:1:1 (PRBC:FFP:platelets) is the evidence-based ratio from the PROPPR trial for massive haemorrhage, reducing 24-hour mortality and achieving haemostasis — this is the correct answer.",
+      "Red cells without FFP and platelets will worsen dilutional coagulopathy, creating a vicious cycle of continued bleeding. This is now considered harmful practice.",
+      "While cryoprecipitate is important in massive haemorrhage (especially for fibrinogen), the initial resuscitation ratio should follow 1:1:1 PRBC:FFP:platelets as the backbone of the protocol.",
+      "Red cells alone cannot address the coagulopathy of trauma. Untreated coagulopathy perpetuates the 'lethal triad' (hypothermia, acidosis, coagulopathy) and dramatically increases mortality."
+    ],
+    "clinicalPearl": "The PROPPR trial established 1:1:1 (PRBC:FFP:platelets) as the standard for massive transfusion, targeting haemostatic resuscitation rather than just volume replacement."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Permissive hypotension",
+    "question": "A 32-year-old man is stabbed in the left flank and arrives with haemoperitoneum on FAST scan. He is haemodynamically unstable: BP 80/50 mmHg, HR 130 bpm. He is conscious with GCS 15 and has no head injury. The surgical team is 8 minutes away. Which resuscitation strategy is most appropriate prior to surgical haemostasis?",
+    "options": [
+      "Aggressive fluid resuscitation with 2 L crystalloid to normalise blood pressure to 120/80 mmHg",
+      "Permissive hypotension targeting systolic BP 80–90 mmHg with small aliquots of blood products",
+      "Immediate vasopressor infusion to maintain MAP >65 mmHg without any fluids",
+      "Colloid infusion (500 mL gelatin) to achieve systolic BP >100 mmHg",
+      "No resuscitation — rush immediately to theatre without any intervention"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Permissive hypotension (hypotensive resuscitation) targets systolic BP 80–90 mmHg in penetrating torso trauma prior to surgical haemostasis. Aggressive fluid resuscitation dilutes clotting factors, displaces clot, worsens hypothermia, and increases hydrostatic pressure at the bleeding point — all of which worsen coagulopathy and increase mortality. Small balanced blood product aliquots maintain perfusion without these harms.",
+    "wrongAnswerExplanations": [
+      "Aggressive crystalloid resuscitation to normal BP worsens the lethal triad (acidosis, hypothermia, coagulopathy), dilutes clotting factors, and 'pops the clot' by increasing hydrostatic pressure at the bleeding site, increasing mortality in uncontrolled haemorrhage.",
+      "Permissive hypotension targeting SBP 80–90 mmHg with blood products is the evidence-based strategy for penetrating torso trauma prior to haemostasis — this is the correct answer.",
+      "Vasopressors without any volume replacement will cause end-organ ischaemia, worsen lactic acidosis, and are not recommended as sole therapy in haemorrhagic shock.",
+      "Colloid solutions provide no haemostatic benefit, cause platelet dysfunction, and are no longer recommended for trauma resuscitation; crystalloids are also harmful in large volumes.",
+      "Completely withholding resuscitation risks cardiovascular collapse and cardiac arrest before reaching theatre. Targeted permissive resuscitation is safer than no resuscitation."
+    ],
+    "clinicalPearl": "Permissive hypotension (SBP 80–90 mmHg) in penetrating torso trauma before surgical haemostasis prevents 'popping the clot' and avoids dilutional coagulopathy."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "ATLS Class IV haemorrhage",
+    "question": "A 55-year-old man is brought in by ambulance after being trapped under a collapsed building for 45 minutes. He is unresponsive, GCS 6. Vital signs: BP 60/30 mmHg, HR 148 bpm, RR 8/min, SpO2 82% on room air, skin cold, mottled, and cyanotic. There is no palpable radial pulse. What ATLS haemorrhage class does this represent, and what percentage of blood volume has been lost?",
+    "options": [
+      "Class I — less than 15% blood volume loss",
+      "Class II — 15–30% blood volume loss",
+      "Class III — 30–40% blood volume loss",
+      "Class IV — more than 40% blood volume loss",
+      "This presentation is consistent with obstructive shock, not haemorrhagic shock"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Class IV haemorrhage represents >40% blood volume loss (>2000 mL in a 70 kg adult). Features include profound hypotension (SBP <70), HR >140, absent radial pulse, anuria, and severely depressed mental status/unconsciousness. This is immediately life-threatening and requires immediate blood product resuscitation and emergency surgical haemostasis.",
+    "wrongAnswerExplanations": [
+      "Class I (<15%, <750 mL) causes minimal changes — HR <100, BP normal, no mental status change. This patient is moribund.",
+      "Class II (15–30%, 750–1500 mL) causes tachycardia and anxiety but BP is maintained and the patient is conscious. Far too mild for this presentation.",
+      "Class III (30–40%, 1500–2000 mL) causes falling BP and altered mental status but the patient is still conscious. This patient has absent radial pulse and GCS 6.",
+      "Class IV haemorrhage (>40%, >2000 mL) with profound hypotension, HR >140, absent radial pulse, GCS 6, and mottled cold skin — immediately life-threatening requiring emergency intervention. This is the correct answer.",
+      "While obstructive shock (e.g. tension pneumothorax, tamponade) must be excluded, the mechanism (crush injury/entrapment), absence of specific obstructive features, and overall picture is most consistent with massive haemorrhage."
+    ],
+    "clinicalPearl": "Class IV haemorrhage (>40% volume loss) has absent radial pulse and near-absent BP — immediate uncrossmatched O-negative blood and emergency haemostasis are required; crystalloid alone is lethal."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Septic shock — source control",
+    "question": "A 58-year-old man with known gallstones presents with jaundice, right upper quadrant pain, and fever for 3 days. He is now confused. Observations: temp 39.4°C, BP 88/55 mmHg, HR 122 bpm. Labs show WBC 22 × 10⁹/L, bilirubin 98 µmol/L, ALP 420 U/L, lactate 3.6 mmol/L. Blood cultures are taken. He receives 30 mL/kg crystalloid but remains hypotensive. CT confirms cholangitis with no free perforation. Noradrenaline is commenced. Which additional intervention is most urgently required within 12 hours?",
+    "options": [
+      "Emergency laparoscopic cholecystectomy",
+      "Endoscopic retrograde cholangiopancreatography (ERCP) with biliary decompression",
+      "Percutaneous cholecystostomy tube insertion",
+      "Continue antibiotics and reassess in 24 hours",
+      "Exploratory laparotomy and common bile duct exploration"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Acute cholangitis with septic shock requires urgent biliary decompression, most effectively and safely achieved by ERCP with sphincterotomy and stone extraction or biliary stenting within 12–24 hours. Source control is a fundamental principle of septic shock management — antibiotics and vasopressors alone are insufficient when an obstructed infected biliary system is the source.",
+    "wrongAnswerExplanations": [
+      "Emergency cholecystectomy in a patient with septic shock has prohibitive operative mortality. The gallbladder is not the primary source — the obstructed common bile duct is. Cholecystectomy can be deferred after recovery.",
+      "ERCP with biliary decompression is the preferred source control intervention for acute cholangitis causing septic shock — it addresses the obstruction safely without requiring general anaesthesia. This is the correct answer.",
+      "Percutaneous cholecystostomy drains the gallbladder, not the obstructed common bile duct. It is indicated for acute cholecystitis in high-risk surgical patients, not for cholangitis management.",
+      "Continuing antibiotics alone without source control in established septic shock secondary to biliary obstruction is inadequate and associated with high mortality. Source control must occur within 12 hours.",
+      "Exploratory laparotomy carries very high mortality in septic shock and is reserved for cases where ERCP fails or is not available. It is not the first-line intervention."
+    ],
+    "clinicalPearl": "In septic shock from cholangitis, source control by ERCP biliary decompression within 12–24 hours is as critical as antibiotics and vasopressors — sepsis cannot be controlled without draining the obstructed system."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "dr-farman.pdf",
+    "topic": "Fluid resuscitation — choice of fluid",
+    "question": "A 40-year-old woman undergoes emergency laparotomy for a small bowel perforation with faecal peritonitis. Post-operatively in ICU she requires resuscitation for persistent hypotension (BP 88/60 mmHg, HR 112). She has a creatinine of 156 µmol/L (baseline 80). The anaesthetist proposes large-volume 0.9% normal saline resuscitation. What is the most significant risk of this approach compared to balanced crystalloid?",
+    "options": [
+      "Hyponatraemia and cerebral oedema",
+      "Hyperchloraemic metabolic acidosis and worsening renal function",
+      "Hyperkalaemia and cardiac arrhythmia",
+      "Coagulopathy and platelet dysfunction",
+      "Hyperglycaemia from glucose content"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Large-volume 0.9% normal saline contains 154 mmol/L of both sodium and chloride — far above physiological plasma chloride (100 mmol/L). This causes hyperchloraemic metabolic acidosis (non-anion gap) which worsens renal vasoconstriction and is associated with AKI. The SMART and SALT-ED trials demonstrated that balanced crystalloids (Hartmann's/Plasma-Lyte) reduce AKI and mortality in critically ill patients compared to saline.",
+    "wrongAnswerExplanations": [
+      "0.9% saline is hypertonic in chloride and can cause hypernatraemia (not hyponatraemia) with large volumes. Hyponatraemia is associated with hypotonic fluids.",
+      "Hyperchloraemic metabolic acidosis from large-volume 0.9% saline causes renal vasoconstriction, mimics metabolic acidosis, and is associated with increased AKI — this is the primary concern confirmed by SMART/SALT-ED trials. Correct answer.",
+      "0.9% saline does not cause hyperkalaemia — in fact, it may cause hyperchloraemic acidosis which can shift potassium out of cells, but the primary problem is the acidosis itself, not primary hyperkalaemia.",
+      "Coagulopathy and platelet dysfunction are concerns with colloids (especially starches and gelatins), not with 0.9% saline crystalloid resuscitation.",
+      "0.9% saline contains no glucose whatsoever — hyperglycaemia is not a risk of saline infusion."
+    ],
+    "clinicalPearl": "Large-volume 0.9% saline causes hyperchloraemic metabolic acidosis and increases AKI risk — balanced crystalloids (Hartmann's, Plasma-Lyte) are preferred for most resuscitation scenarios."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "dr-farman.pdf",
+    "topic": "Haemorrhagic shock — initial management",
+    "question": "A 22-year-old woman is brought to the resuscitation bay following a stabbing to the right thigh. She is alert (GCS 15). BP 95/65 mmHg, HR 106 bpm, RR 20/min. There is active arterial bleeding from the wound controlled by direct manual pressure. Two large-bore IV cannulae are sited. What is the most appropriate immediate next step in managing her haemorrhage?",
+    "options": [
+      "Infuse 2 L of 0.9% normal saline rapidly",
+      "Apply a tourniquet above the wound and release manual pressure",
+      "Send blood for crossmatch and await fully crossmatched blood before transfusing",
+      "Tranexamic acid 1 g IV over 10 minutes",
+      "Infuse 500 mL of human albumin solution"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Tranexamic acid (TXA) 1 g IV over 10 minutes (followed by a second gram over 8 hours) should be given as early as possible in traumatic haemorrhage — ideally within 1 hour and no later than 3 hours from injury. The CRASH-2 trial showed a significant reduction in mortality from haemorrhage when TXA was given early. TXA inhibits fibrinolysis, preventing clot breakdown. This does not replace haemostasis but is an evidence-based adjunct.",
+    "wrongAnswerExplanations": [
+      "Large-volume crystalloid resuscitation is now discouraged as first-line in haemorrhagic shock — it dilutes clotting factors, worsens hypothermia, and does not restore haemostatic capacity. Permissive hypotension with blood products is preferred.",
+      "A tourniquet is appropriate for limb haemorrhage not controllable by direct pressure, but in this case direct manual pressure is already working. A tourniquet could be applied if pressure fails, but TXA should still be given urgently.",
+      "Awaiting fully crossmatched blood causes dangerous delay. Type-specific blood is available in ~10 minutes and O-negative blood immediately. TXA and haemostasis should not wait for crossmatching.",
+      "TXA 1 g IV over 10 minutes is the correct early intervention per CRASH-2 evidence, given within 3 hours of injury to reduce haemorrhage mortality by inhibiting fibrinolysis — this is the correct answer.",
+      "Human albumin solution has no role in acute traumatic haemorrhage and provides no haemostatic benefit. Colloids are not recommended in this setting."
+    ],
+    "clinicalPearl": "TXA must be given within 3 hours of injury in traumatic haemorrhage — after 3 hours it may increase mortality. Give it early, give it fast."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "Shock",
+    "topic": "Recognising shock — compensated vs decompensated",
+    "question": "A 16-year-old boy falls from a horse and sustains blunt abdominal trauma. In the emergency department he appears anxious but is talking normally. BP 108/78 mmHg, HR 102 bpm, RR 18/min, SpO2 98%. His abdomen is tender in the left upper quadrant with guarding. FAST scan shows free fluid around the spleen. His blood results are normal. Which statement best describes his current physiological state?",
+    "options": [
+      "He is in decompensated Class IV shock and needs immediate blood transfusion",
+      "He has no significant shock as his blood pressure is within normal limits",
+      "He is in compensated shock — normal BP is maintained by tachycardia and vasoconstriction despite likely splenic injury",
+      "His tachycardia is likely anxiety-related and does not require further investigation",
+      "He is in neurogenic shock from a thoracic spinal injury"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Young patients with good cardiovascular reserve can maintain a near-normal BP despite significant blood loss through compensatory tachycardia and peripheral vasoconstriction. This is compensated (Class II) shock — the physiological reserve masks the true severity. The tachycardia, free intraperitoneal fluid from likely splenic injury, and abdominal guarding indicate active haemorrhage. Blood pressure can fall precipitously and without warning once compensation fails.",
+    "wrongAnswerExplanations": [
+      "Class IV shock produces profound hypotension (SBP <70), HR >140, absent radial pulse, and altered consciousness. This patient maintains BP and consciousness — he is in compensated, not decompensated, shock.",
+      "Normal BP does not exclude significant shock — in young fit patients the adrenergic response can maintain BP until 30% of blood volume is lost. Interpreting normal BP as 'no shock' is a dangerous error in trauma.",
+      "This correctly identifies compensated shock: normal BP is preserved by physiological compensation (tachycardia, vasoconstriction) in the context of ongoing haemorrhage from splenic injury. This is the correct answer.",
+      "Attributing tachycardia to anxiety alone in a trauma patient with free intraperitoneal fluid is clinically dangerous. Tachycardia must be assumed to indicate haemorrhage until proven otherwise.",
+      "Neurogenic shock presents with bradycardia and vasodilation (warm skin), not tachycardia. There is no suggestion of spinal injury in this case."
+    ],
+    "clinicalPearl": "Young patients can maintain normal BP despite 30% blood volume loss — tachycardia alone may be the only early sign of shock; never be falsely reassured by a normal BP in trauma."
+  },
+  {
+    "system": "trauma",
+    "sourceLecture": "dr-farman.pdf",
+    "topic": "Lethal triad of trauma",
+    "question": "A 38-year-old man arrives from a major road traffic accident. He has massive haemothorax, pelvic fracture, and open femoral fracture. After 90 minutes of resuscitation: temperature 34.2°C, pH 7.18, BE -12, lactate 9 mmol/L, PT 38 seconds, APTT 72 seconds, platelets 62 × 10⁹/L, fibrinogen 0.8 g/L. He is about to undergo definitive orthopaedic fixation. What is the most appropriate surgical strategy?",
+    "options": [
+      "Proceed with immediate definitive surgical repair of all injuries in one sitting",
+      "Damage control surgery — control haemorrhage and contamination only, then ICU resuscitation before definitive repair",
+      "Delay all surgery until coagulopathy is fully corrected with blood products in ICU",
+      "Proceed with pelvic fixation first as this is the highest priority injury",
+      "Perform exploratory laparotomy regardless of the patient's physiological state"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "This patient demonstrates the 'lethal triad' of hypothermia (34.2°C), acidosis (pH 7.18), and coagulopathy (prolonged PT/APTT, low fibrinogen, thrombocytopaenia) — the hallmarks of physiological exhaustion that mandate a damage control approach. Damage control surgery (abbreviated procedure to control haemorrhage and contamination only) followed by ICU correction of the triad before planned definitive repair dramatically reduces mortality.",
+    "wrongAnswerExplanations": [
+      "Immediate definitive repair of all injuries in a patient with the lethal triad carries very high intraoperative mortality. Prolonged surgery in a coagulopathic, hypothermic, acidotic patient worsens all three parameters in a vicious cycle.",
+      "Damage control surgery — abbreviated haemorrhage and contamination control followed by ICU resuscitation to reverse the lethal triad before planned definitive surgery — is the correct strategy for physiologically depleted trauma patients. This is the correct answer.",
+      "Delaying all surgery while the triad is corrected is also dangerous — ongoing uncontrolled haemorrhage will kill the patient before the triad resolves. Haemorrhage control must happen now, but definitively fixing all injuries can wait.",
+      "Pelvic fixation alone does not address haemorrhage control (the source) and would not reverse the lethal triad. Pelvic packing/embolisation for pelvic haemorrhage may be part of damage control, but this is not 'definitive fixation'.",
+      "Exploratory laparotomy without a strategic damage control plan in a lethal triad patient risks prolonged anaesthesia, worsening the triad, and intraoperative cardiovascular collapse."
+    ],
+    "clinicalPearl": "The lethal triad (hypothermia + acidosis + coagulopathy) mandates damage control surgery — abbreviated haemorrhage and contamination control now, definitive repair after ICU resuscitation."
+  }
+]

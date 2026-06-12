@@ -1,0 +1,301 @@
+[
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Developmental dysplasia of the hip (DDH) — diagnosis",
+    "question": "A 6-week-old girl is brought to the outpatient clinic for a routine check. She was born at term by vaginal breech delivery, birth weight 3.6 kg, first baby. Examination reveals limited abduction of the left hip to 45° (right 80°), a positive Barlow test on the left, and a soft 'clunk' on Ortolani testing. Her spine and lower limb neurology are normal. What is the most appropriate next investigation?",
+    "options": [
+      "Anteroposterior pelvis X-ray",
+      "MRI of the pelvis under general anaesthesia",
+      "Ultrasound of both hips (Graf classification)",
+      "CT arthrography of the left hip",
+      "Technetium bone scan of the pelvis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In infants under 4–6 months of age, the femoral head is largely cartilaginous and invisible on plain X-ray, making ultrasound the gold-standard investigation for DDH. The Graf classification uses ultrasound to measure the alpha angle (bony acetabular roof) and beta angle (cartilaginous roof) to grade hip dysplasia and guide treatment. X-ray becomes useful only after ossification of the femoral head at around 4–6 months.",
+    "wrongAnswerExplanations": [
+      "Plain X-ray is unreliable in infants under 4–6 months because the femoral head is not yet ossified; bony landmarks used on X-ray (Hilgenreiner, Perkin lines) are inaccurate at this age.",
+      "MRI under GA carries anaesthetic risk and is not indicated as a first-line investigation for suspected DDH in an otherwise well infant.",
+      "Ultrasound using the Graf classification is the gold-standard investigation for DDH in infants under 4–6 months, when the femoral head is cartilaginous and not visible on X-ray.",
+      "CT arthrography is invasive and involves radiation; it is reserved for complex cases prior to surgical reconstruction, not initial diagnosis.",
+      "Bone scan is not used for diagnosing DDH; it is primarily used for detecting avascular necrosis or infection."
+    ],
+    "clinicalPearl": "In DDH screening, ultrasound (Graf classification) is gold-standard under 4–6 months; plain X-ray is used after femoral head ossification."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Developmental dysplasia of the hip (DDH) — management",
+    "question": "A 3-month-old boy is diagnosed with Graf type IIb developmental dysplasia of the left hip on screening ultrasound. Ortolani test is positive. He is otherwise well with no comorbidities. What is the most appropriate initial management?",
+    "options": [
+      "Pavlik harness for 6–8 weeks",
+      "Closed reduction and hip spica cast under general anaesthesia",
+      "Open surgical reduction via medial approach",
+      "Reassure and repeat ultrasound at 6 months",
+      "Abduction splint (Von Rosen splint) alone"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Pavlik harness is the first-line treatment for DDH in infants aged up to 6 months with a dislocatable or dislocated hip. It maintains the hip in flexion and abduction, promoting acetabular development and spontaneous reduction. Success rates exceed 90% when initiated before 3 months of age. Closed or open reduction is reserved for cases where the Pavlik harness fails or for older infants.",
+    "wrongAnswerExplanations": [
+      "The Pavlik harness is the correct first-line treatment for DDH under 6 months; it is non-invasive, well-tolerated, and highly effective when used early.",
+      "Closed reduction under GA is reserved for infants in whom the Pavlik harness has failed or who present after 6 months; it is not first-line at 3 months.",
+      "Open surgical reduction is a last resort for cases failing conservative and closed management, or for children over 18 months presenting late; inappropriate here.",
+      "A Graf IIb hip with a positive Ortolani test requires active treatment, not watchful waiting; delaying to 6 months risks missed opportunity for harness treatment.",
+      "The Von Rosen splint is an alternative abduction splint but the Pavlik harness is the most widely used and evidence-supported first-line device for DDH under 6 months."
+    ],
+    "clinicalPearl": "The Pavlik harness is first-line for DDH under 6 months; commence as soon as possible, as success rates drop significantly after ossification of the femoral head."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Perthes disease — diagnosis",
+    "question": "A 6-year-old boy presents with a 3-week history of intermittent left hip pain and a limp. He is systemically well, afebrile, and has a normal appetite. On examination he has a mild antalgic gait, restricted internal rotation and abduction of the left hip, and no leg length discrepancy. Blood tests including FBC, CRP, and ESR are all within normal limits. Plain X-ray of the left hip shows increased density of the femoral head with a small subchondral lucency (crescent sign). What is the most likely diagnosis?",
+    "options": [
+      "Transient synovitis of the hip",
+      "Septic arthritis of the left hip",
+      "Perthes disease (Legg-Calvé-Perthes)",
+      "Slipped upper femoral epiphysis",
+      "Juvenile idiopathic arthritis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Perthes disease is avascular necrosis of the femoral head in children aged 4–10 years, classically presenting with insidious hip pain and limp, normal inflammatory markers, and characteristic X-ray changes including increased femoral head density, a crescent sign (subchondral fracture), and eventual fragmentation. The crescent sign on X-ray is pathognomonic of the early stages of Perthes disease.",
+    "wrongAnswerExplanations": [
+      "Transient synovitis causes hip pain and limp with normal bloods but does not produce X-ray changes; the crescent sign on X-ray rules this out.",
+      "Septic arthritis is a surgical emergency associated with fever, elevated inflammatory markers, and a systemically unwell child; this child is well with normal bloods, making septic arthritis unlikely.",
+      "The crescent sign (subchondral fracture line) on X-ray with increased femoral head density in a well child with normal inflammatory markers is the classic presentation of Perthes disease.",
+      "SUFE presents in older, heavier children (typically 10–15 years), with X-ray showing posterior and inferior displacement of the epiphysis on the femoral neck; there is no crescent sign.",
+      "Juvenile idiopathic arthritis typically presents with prolonged morning stiffness, polyarticular involvement, and often elevated ESR/CRP; X-ray in early JIA is usually normal or shows periarticular osteopaenia."
+    ],
+    "clinicalPearl": "The crescent sign on hip X-ray — a subchondral lucency in the femoral head — is pathognomonic of early Perthes disease."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Perthes disease — management",
+    "question": "A 7-year-old girl is diagnosed with Perthes disease of the right hip. Lateral X-ray shows that less than 50% of the femoral head is involved (Catterall group II). She has a good range of motion with full abduction. Her parents ask about management. What is the most appropriate initial management strategy?",
+    "options": [
+      "Immediate femoral varus osteotomy",
+      "Total hip replacement",
+      "Conservative management with activity modification, physiotherapy, and close monitoring",
+      "Intravenous bisphosphonate infusion",
+      "Arthroscopic debridement of the hip"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In children under 8 years with Perthes disease involving less than half the femoral head (Catterall I–II) and a good range of motion, conservative management is the mainstay. This includes activity restriction to reduce loading, physiotherapy to maintain range of movement, analgesia, and serial clinical and radiological monitoring. Surgical containment (femoral or pelvic osteotomy) is reserved for older children, those with more than 50% head involvement, or those with failed conservative management.",
+    "wrongAnswerExplanations": [
+      "Femoral varus osteotomy is a surgical containment procedure reserved for older children (>8 years), more extensive disease (Catterall III–IV), or failure of conservative management; it is not first-line here.",
+      "Total hip replacement is not appropriate in a 7-year-old; it is a treatment for end-stage arthritis in adults.",
+      "Conservative management with activity modification and physiotherapy is appropriate first-line for mild-moderate Perthes disease in a young child with good hip motion.",
+      "Bisphosphonates have no established role in routine management of Perthes disease in children.",
+      "Arthroscopic debridement has no proven benefit in Perthes disease and is not part of standard management."
+    ],
+    "clinicalPearl": "In Perthes disease, age under 8 and less than 50% femoral head involvement predict a good outcome with conservative management; surgical containment is reserved for older children or extensive disease."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Slipped upper femoral epiphysis (SUFE) — diagnosis",
+    "question": "A 13-year-old obese boy presents with a 6-week history of right hip pain and progressive limp. He also notes referred pain to the right knee. On examination, BMI is 32 kg/m². He walks with an externally rotated gait. Right hip internal rotation is severely restricted and external rotation is increased. Flexion of the right hip produces obligatory external rotation (Drehmann sign). Anteroposterior pelvic X-ray shows widening of the right physis with loss of Klein's line. What is the diagnosis?",
+    "options": [
+      "Avulsion fracture of the anterior superior iliac spine",
+      "Perthes disease",
+      "Slipped upper femoral epiphysis (SUFE)",
+      "Septic arthritis of the right hip",
+      "Transient synovitis"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "SUFE is the most common hip disorder in adolescents, typically affecting obese boys aged 10–15. The femoral head slips posteriorly and inferiorly on the femoral neck. Classic findings include an externally rotated limp, obligatory external rotation on flexion (Drehmann sign), loss of Klein's line on AP X-ray, and referred knee pain. Obesity is the strongest risk factor. Prompt diagnosis is critical as delay risks complete slip and avascular necrosis.",
+    "wrongAnswerExplanations": [
+      "Avulsion fractures of the ASIS occur in sprinting athletes and cause acute localised anterior hip pain; they do not cause the chronic progressive picture with Drehmann sign or physeal changes.",
+      "Perthes disease affects younger children (4–10 years), presents with normal BMI, and shows femoral head density changes rather than physeal widening or loss of Klein's line.",
+      "SUFE is the correct diagnosis: obese adolescent boy, obligatory external rotation on hip flexion (Drehmann sign), loss of Klein's line, and widened physis on X-ray are all classic features.",
+      "Septic arthritis causes acute systemic illness with fever, elevated inflammatory markers, and refusal to bear weight; the 6-week chronic course and X-ray changes are inconsistent with infection.",
+      "Transient synovitis causes acute hip pain in young children (3–8 years) with normal X-ray and bloods; it does not cause physeal changes or occur in obese teenagers."
+    ],
+    "clinicalPearl": "In any obese adolescent with hip or knee pain, always obtain an AP and lateral frog-leg X-ray to exclude SUFE — a missed slip can lead to avascular necrosis."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Slipped upper femoral epiphysis (SUFE) — emergency management",
+    "question": "A 14-year-old girl is brought to the emergency department after sudden onset of severe left hip pain following a minor fall. She cannot bear weight. X-ray shows an acute-on-chronic SUFE with a Southwick angle of 55° (severe slip). She is otherwise well. What is the most appropriate immediate management?",
+    "options": [
+      "Traction and bed rest for 6 weeks followed by reassessment",
+      "Urgent surgical fixation with a single cannulated screw in situ",
+      "Closed reduction and spica cast application under GA",
+      "Femoral osteotomy as a first-line procedure",
+      "Analgesia, discharge, and outpatient orthopaedic follow-up in 2 weeks"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Regardless of slip severity, the definitive treatment of SUFE is urgent surgical fixation in situ with a single cannulated screw to prevent further slippage and physeal closure. Closed reduction should be avoided as forceful manipulation dramatically increases the risk of avascular necrosis. Even severe slips are initially fixed in situ; corrective osteotomy may be considered later once the physis has closed. The contralateral hip should also be assessed and prophylactic pinning considered.",
+    "wrongAnswerExplanations": [
+      "Traction and bed rest does not prevent progression of the slip and is not standard of care; surgical fixation is required urgently.",
+      "Urgent in-situ cannulated screw fixation is the correct treatment — it prevents further slippage without the AVN risk of manipulation.",
+      "Closed reduction under GA is contraindicated in SUFE as forceful manipulation of the hip significantly increases the risk of avascular necrosis of the femoral head.",
+      "Corrective femoral osteotomy is sometimes performed after physeal closure for severe symptomatic deformity, but is not the initial treatment; in-situ pinning comes first.",
+      "Discharge with outpatient follow-up is dangerous; an acute SUFE is an orthopaedic emergency requiring urgent admission and surgical fixation to prevent complete slip and AVN."
+    ],
+    "clinicalPearl": "SUFE is treated with urgent in-situ cannulated screw fixation; forceful closed reduction is contraindicated due to the high risk of avascular necrosis."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Septic arthritis of the hip — diagnosis and Kocher criteria",
+    "question": "A 4-year-old girl presents to the emergency department with a 24-hour history of right hip pain, fever, and refusal to walk. Temperature is 38.9°C. She lies with her right hip held in flexion, abduction, and external rotation (position of comfort). Passive movement of the hip in any direction causes distress. Blood tests: WBC 15.4 × 10⁹/L, CRP 68 mg/L, ESR 52 mm/hr. Hip X-ray shows widening of the joint space. Ultrasound confirms a right hip effusion. Using the Kocher criteria, how many criteria does she meet and what is the most appropriate next step?",
+    "options": [
+      "2 criteria; admit for IV antibiotics and reassess in 48 hours",
+      "3 criteria; urgent MRI hip before any intervention",
+      "4 criteria; emergency surgical washout of the hip joint",
+      "2 criteria; joint aspiration under ultrasound guidance in the radiology suite",
+      "3 criteria; hip spica application and bed rest"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The four Kocher criteria for septic arthritis of the hip are: fever >38.5°C, non-weight-bearing, ESR >40 mm/hr, and WBC >12 × 10⁹/L. This child meets all four (fever 38.9°C, non-weight-bearing, ESR 52, WBC 15.4), giving a predicted probability of septic arthritis >99%. Septic arthritis of the hip is a surgical emergency; the joint must be washed out urgently (open arthrotomy or arthroscopic washout) to prevent cartilage destruction and avascular necrosis from raised intra-articular pressure and bacterial toxins.",
+    "wrongAnswerExplanations": [
+      "She meets all 4 Kocher criteria, not 2; IV antibiotics alone without surgical drainage is insufficient for septic arthritis of the hip and risks permanent joint destruction.",
+      "She meets 4 criteria, not 3; MRI, while useful, should not delay emergency surgical drainage when all four Kocher criteria are met and septic arthritis is highly probable.",
+      "All four Kocher criteria are met (fever, non-weight-bearing, ESR >40, WBC >12), conferring >99% probability of septic arthritis — emergency surgical washout is the correct management.",
+      "She meets 4 criteria, not 2; ultrasound-guided aspiration is insufficient drainage for septic arthritis of the hip and does not adequately decompress the joint.",
+      "Hip spica and bed rest have no role in the management of septic arthritis; this diagnosis requires urgent surgical drainage to prevent avascular necrosis."
+    ],
+    "clinicalPearl": "All four Kocher criteria (fever, non-weight-bearing, ESR >40, WBC >12) carry >99% risk of septic arthritis — this demands emergency surgical joint washout, not antibiotics alone."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Septic arthritis vs transient synovitis — differentiation",
+    "question": "A 5-year-old boy presents with acute onset right hip pain and limp for 18 hours. He had a mild URTI 2 weeks ago. Temperature is 37.4°C. He is reluctant to weight-bear but can walk with a limp. Right hip is held in slight flexion and abduction; range of motion is mildly restricted and painful at extremes. WBC 8.2 × 10⁹/L, CRP 6 mg/L, ESR 18 mm/hr. Ultrasound shows a small right hip effusion. What is the most likely diagnosis and appropriate management?",
+    "options": [
+      "Septic arthritis; emergency surgical washout",
+      "Perthes disease; weight-bearing X-ray and outpatient referral",
+      "Transient synovitis; analgesia, rest, and review in 48 hours",
+      "SUFE; urgent orthopaedic admission for in-situ pinning",
+      "Juvenile idiopathic arthritis; rheumatology referral and NSAID therapy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Transient synovitis (irritable hip) is the most common cause of acute hip pain in children aged 3–10 years and typically follows a viral illness. It is a diagnosis of exclusion. This child meets zero Kocher criteria (afebrile, can weight-bear, normal WBC and ESR), making septic arthritis very unlikely. Management is conservative: analgesia (NSAIDs), rest, and review in 24–48 hours. Parents should be advised to return immediately if the child deteriorates or develops fever.",
+    "wrongAnswerExplanations": [
+      "Septic arthritis requires urgent washout but is very unlikely here — the child meets zero Kocher criteria; his inflammatory markers and temperature are normal.",
+      "Perthes disease presents with a more chronic history (weeks to months) and shows X-ray changes; an 18-hour acute presentation with a recent viral illness is inconsistent with Perthes.",
+      "Transient synovitis is correct: post-viral, afebrile, normal inflammatory markers, zero Kocher criteria, and a small effusion — conservative management with analgesia and review is appropriate.",
+      "SUFE occurs in obese adolescents and causes progressive pain with loss of internal rotation; it is not consistent with an acute presentation in a 5-year-old after a viral illness.",
+      "JIA requires symptoms persisting for more than 6 weeks by definition; this 18-hour presentation does not meet criteria, and JIA does not typically follow viral URI."
+    ],
+    "clinicalPearl": "Transient synovitis is managed conservatively; if Kocher criteria are met (even 2–3), septic arthritis must be excluded urgently, potentially with joint aspiration."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Paediatric supracondylar fracture — neurovascular assessment",
+    "question": "A 7-year-old boy falls from a trampoline onto an outstretched left hand. He attends the emergency department with a swollen, painful left elbow. X-ray shows a Gartland type III supracondylar humerus fracture with significant posterior displacement. On examination, the hand is pale, the radial pulse is absent, and capillary refill time is 4 seconds. Active and passive extension of the fingers causes severe pain. What is the most appropriate immediate management?",
+    "options": [
+      "Broad arm sling, elevation, and urgent orthopaedic outpatient review",
+      "Closed reduction and above-elbow backslab in the emergency department by the ED team",
+      "Emergency closed reduction and percutaneous K-wire fixation, with urgent vascular surgery review if perfusion does not return",
+      "Observation for 4 hours with repeated neurovascular checks",
+      "Fasciotomy of the forearm before fracture reduction"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A Gartland type III supracondylar fracture with a pulseless, pale hand and elevated compartment pressure signs (pain on passive finger extension) represents a limb-threatening emergency. The immediate priority is emergency closed reduction and percutaneous K-wire fixation in theatre under GA, which frequently restores perfusion by decompressing the brachial artery. If the hand remains ischaemic after satisfactory reduction, urgent vascular surgical exploration of the brachial artery is required.",
+    "wrongAnswerExplanations": [
+      "A pulseless, pale hand with signs of compartment syndrome cannot be managed with a sling and outpatient review; this is a limb-threatening emergency requiring immediate surgical intervention.",
+      "ED-based manipulation without K-wire fixation is inappropriate for a Gartland III fracture with vascular compromise; this requires a theatre setting with anaesthesia and surgical expertise.",
+      "Emergency closed reduction and K-wire fixation with vascular surgery on standby is correct — this restores alignment and usually restores perfusion; vascular exploration follows if ischaemia persists.",
+      "Four hours of observation with an ischaemic hand is dangerous; irreversible muscle ischaemia (Volkmann's contracture) can occur within 6 hours, so urgent operative intervention is required.",
+      "Fasciotomy before fracture reduction is incorrect; fracture reduction itself usually relieves the vascular compression, and fasciotomy is performed only if compartment syndrome is confirmed after reduction."
+    ],
+    "clinicalPearl": "A pulseless hand after supracondylar fracture requires emergency K-wire fixation; fracture reduction alone often restores perfusion — always involve vascular surgery if ischaemia persists post-reduction."
+  },
+  {
+    "system": "ortho",
+    "sourceLecture": "Pediatric Orthopedics and peripheral nerve injuries.pdf",
+    "topic": "Paediatric supracondylar fracture — nerve injury",
+    "question": "An 8-year-old girl sustains a Gartland type II supracondylar humerus fracture of the right arm. After closed reduction and backslab application, the radial pulse is present and capillary refill is normal. However, she is unable to make the 'OK' sign (tip-to-tip pinch between thumb and index finger) and has weakness of flexion of the distal phalanx of the index finger. Sensation is intact over the hand. Which nerve has most likely been injured?",
+    "options": [
+      "Radial nerve",
+      "Ulnar nerve",
+      "Median nerve (main trunk)",
+      "Anterior interosseous nerve (AIN)",
+      "Musculocutaneous nerve"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The anterior interosseous nerve (AIN) is a pure motor branch of the median nerve and is the most commonly injured nerve in supracondylar fractures. It innervates flexor pollicis longus, pronator quadratus, and the flexor digitorum profundus to the index and middle fingers. Inability to make the 'OK' sign (loss of FPL + FDP index) with intact hand sensation is the classic clinical picture of an AIN palsy. Most AIN injuries are neuropraxias that recover spontaneously.",
+    "wrongAnswerExplanations": [
+      "Radial nerve injury causes wrist drop and loss of finger/thumb extension, not loss of the OK sign; the posterior interosseous nerve is a branch of the radial nerve.",
+      "Ulnar nerve injury causes loss of intrinsic hand muscles, ring/little finger clawing, and sensory loss over the little finger and medial half of ring finger — not the OK sign deficit.",
+      "Main median nerve trunk injury would cause additional sensory loss over the lateral palm and thenar wasting; the pure motor deficit with intact sensation points to the AIN branch rather than the main trunk.",
+      "The AIN is a pure motor branch of the median nerve; its injury causes the classic 'inability to make the OK sign' due to loss of FPL and FDP to the index finger, with no sensory deficit.",
+      "The musculocutaneous nerve innervates elbow flexors and provides sensation over the lateral forearm; it is not involved in this clinical picture."
+    ],
+    "clinicalPearl": "The anterior interosseous nerve (AIN) is the most commonly injured nerve in supracondylar fractures — test with the 'OK sign'; most AIN palsies are neuropraxias that recover within 3 months."
+  },
+  {
+    "system": "common foot deformities.pdf",
+    "sourceLecture": "common foot deformities.pdf",
+    "topic": "Congenital talipes equinovarus (clubfoot/CTEV) — diagnosis",
+    "question": "A baby boy is born at 39 weeks by normal vaginal delivery to a mother who had polyhydramnios. At birth examination, the midwife notes that the left foot is plantarflexed, inverted, and the forefoot is adducted. The foot cannot be passively corrected to a neutral position. The right foot is normal. The baby cries and moves all limbs. Spine examination is normal. What is the correct description of the four components of this deformity?",
+    "options": [
+      "Calcaneus, valgus, dorsiflexion, and forefoot abduction",
+      "Equinus, varus, forefoot adduction, and midfoot cavus",
+      "Equinus, valgus, forefoot abduction, and hindfoot dorsiflexion",
+      "Calcaneus, varus, hindfoot equinus, and forefoot supination only",
+      "Equinus of the forefoot only with normal hindfoot alignment"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Congenital talipes equinovarus (clubfoot) is defined by four characteristic components: equinus (plantarflexion of the ankle), varus (heel inversion), forefoot adduction (metatarsus adductus), and cavus (high medial arch/midfoot plantarflexion). All four must be corrected during treatment. The Ponseti method sequentially addresses cavus first, then adduction/varus, and finally equinus (via Achilles tenotomy).",
+    "wrongAnswerExplanations": [
+      "Calcaneus and valgus describe the opposite foot position — a calcaneovalgus foot is dorsiflexed and everted, the reverse of clubfoot.",
+      "Equinus, varus, forefoot adduction, and midfoot cavus are the four correct components of CTEV — this is the complete and accurate description.",
+      "Valgus and forefoot abduction are the opposite of clubfoot deformity; clubfoot has varus and adduction, not valgus and abduction.",
+      "This description is incomplete and inaccurate; clubfoot involves four components (equinus, varus, adduction, cavus) not just hindfoot equinus and varus.",
+      "Clubfoot involves hindfoot equinus, not just forefoot equinus; it is a complex multi-planar deformity of the whole foot, not an isolated forefoot abnormality."
+    ],
+    "clinicalPearl": "Remember CAVE for clubfoot components: Cavus, Adduction, Varus, Equinus — the Ponseti method corrects them in this exact sequence."
+  },
+  {
+    "system": "common foot deformities.pdf",
+    "sourceLecture": "common foot deformities.pdf",
+    "topic": "Congenital talipes equinovarus (clubfoot) — Ponseti management",
+    "question": "A 3-week-old girl is referred with bilateral congenital talipes equinovarus. Pirani scores are 4.5 bilaterally. She is otherwise well and there is no family history of neuromuscular disease. The paediatric orthopaedic team initiates the Ponseti method of serial casting. After five plasters, the forefoot adduction and varus are fully corrected but persistent equinus remains. What is the next step in management?",
+    "options": [
+      "Continue plasters for a further 6 weeks",
+      "Percutaneous Achilles tenotomy followed by a final cast for 3 weeks",
+      "Open posteromedial surgical release (PMR)",
+      "French physiotherapy method for 6 months",
+      "Application of a custom ankle-foot orthosis (AFO) without further casting"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In the Ponseti method, serial plaster casts correct cavus, adduction, and varus sequentially. Persistent equinus after correction of the other components (approximately 90% of cases) is addressed by percutaneous Achilles tenotomy, performed under local anaesthetic. A final cast is then applied for 3 weeks to allow the tendon to heal in a lengthened position. This is followed by long-term use of foot abduction bracing (Denis Browne boots) to prevent relapse.",
+    "wrongAnswerExplanations": [
+      "Further plasters alone cannot correct a rigid equinus deformity once the other components are corrected; Achilles tenotomy is required to release the tight tendon.",
+      "Percutaneous Achilles tenotomy followed by a 3-week final cast is the correct Ponseti protocol step once equinus persists after correction of cavus, adduction, and varus.",
+      "Open posteromedial surgical release was the historical treatment but is now used only for Ponseti failures or relapsed clubfoot; it carries higher rates of scarring, stiffness, and long-term arthritis.",
+      "The French physiotherapy method (continuous passive mobilisation) is an alternative conservative approach to Ponseti but would not be introduced mid-Ponseti course; it is not the standard next step here.",
+      "An AFO without completing Achilles tenotomy would leave the equinus uncorrected; bracing (Denis Browne boots) is appropriate after full correction is achieved, not as a substitute for equinus correction."
+    ],
+    "clinicalPearl": "Approximately 90% of clubfeet treated with Ponseti casting require percutaneous Achilles tenotomy for residual equinus; lifelong Denis Browne bracing compliance prevents relapse."
+  },
+  {
+    "system": "common foot deformities.pdf",
+    "sourceLecture": "common foot deformities.pdf",
+    "topic": "Foot deformities — pes planus vs pes cavus",
+    "question": "A 9-year-old boy is brought by his mother because she is worried about his flat feet. She reports he has no pain and participates in PE without limitation. On examination, both feet appear flat when standing, but a normal medial arch forms when he stands on tiptoe (Jack's test positive). Subtalar joint is mobile bilaterally. Neurological examination of the lower limbs is normal. What is the most appropriate management?",
+    "options": [
+      "MRI both feet to exclude tarsal coalition",
+      "Referral for custom-moulded orthotics immediately",
+      "Reassurance; flexible flatfoot is a normal variant that usually resolves spontaneously",
+      "Referral to physiotherapy for intensive arch-strengthening exercises",
+      "Surgical correction with calcaneal osteotomy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Flexible flatfoot (pes planus) in a child where the arch reconstitutes on tiptoe (Jack's test positive) and subtalar motion is normal is a physiological variant and does not require treatment in an asymptomatic child. The vast majority resolve spontaneously by mid-adolescence. Evidence does not support routine use of orthoses in asymptomatic flexible flatfoot. Investigation and treatment are indicated only if the flatfoot is rigid, painful, or associated with neurological signs.",
+    "wrongAnswerExplanations": [
+      "MRI for tarsal coalition is appropriate for rigid painful flatfoot with limited subtalar motion; this child has flexible painless flatfoot with full subtalar mobility, which does not warrant imaging.",
+      "Custom orthotics have no proven benefit in asymptomatic flexible flatfoot and are not recommended in current guidelines; they may be considered if the child is symptomatic.",
+      "Reassurance is correct — flexible flatfoot with a positive Jack's test (arch reconstitutes on tiptoe) is a normal variant in a pain-free child and does not require intervention.",
+      "Physiotherapy exercises have not been shown to accelerate resolution of physiological flatfoot; they are not indicated in an asymptomatic child with normal neurological examination.",
+      "Calcaneal osteotomy is a surgical procedure for symptomatic, rigid, or progressive flatfoot deformity; it is entirely inappropriate for a pain-free child with flexible flatfoot."
+    ],
+    "clinicalPearl": "Flexible flatfoot (arch reconstitutes on tiptoe, mobile subtalar joint, pain-free) is a normal variant requiring only reassurance — investigate and treat only if rigid, painful, or neurologically abnormal."
+  }
+]
