@@ -8,6 +8,8 @@ export type Specialty =
 export interface MCQ {
   id: string
   specialty: Specialty
+  /** Organ-system key, e.g. 'git', 'vascular'. May be derived from sourceLecture if omitted. */
+  system?: string
   sourceLecture: string
   topic: string
   question: string
