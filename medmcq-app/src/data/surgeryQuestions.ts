@@ -1,4 +1,17 @@
-import type { MCQ } from './types'
+/** Legacy seed shape — normalized to the full MCQ type in specialties.ts. */
+interface SeedMCQ {
+  id: string
+  specialty: 'Surgery'
+  system?: string
+  sourceLecture: string
+  topic: string
+  question: string
+  options: string[]
+  correctAnswerIndex: number
+  explanation: string
+  wrongAnswerExplanations: string[]
+  clinicalPearl: string
+}
 
 /**
  * Surgery clinical MCQ bank.
@@ -6,7 +19,7 @@ import type { MCQ } from './types'
  * Every item is a clinical vignette grounded in a real lecture file (see `sourceLecture`).
  * Content is standard direct-response surgical teaching, not copied from the slides.
  */
-export const surgeryQuestions: MCQ[] = [
+export const surgeryQuestions: SeedMCQ[] = [
   {
     id: 'surg-001',
     specialty: 'Surgery',

@@ -1,47 +1,114 @@
 import { useState } from 'react'
-import type { Specialty } from './data/types'
+import type { Specialty, MCQ } from './data/types'
+import { allQuestions, questionsForSpecialty } from './data/specialties'
+import { shuffle } from './utils/quiz'
+import { Header } from './components/layout/Header'
 import { Dashboard } from './pages/Dashboard'
-import { SystemSelect } from './pages/SystemSelect'
-import { Quiz } from './pages/Quiz'
+import { SpecialtyPage } from './pages/SpecialtyPage'
+import { QuizBuilder } from './pages/QuizBuilder'
+import { Quiz, type QuizConfig } from './pages/Quiz'
+import { ReviewHub, type ReviewView } from './pages/ReviewHub'
+import { ReviewList } from './pages/ReviewList'
 
-type View =
-  | { name: 'dashboard' }
-  | { name: 'systems'; specialty: Specialty }
-  | { name: 'quiz'; specialty: Specialty; system: string | 'all' }
+type Route =
+  | { v: 'dashboard' }
+  | { v: 'specialty'; specialty: Specialty }
+  | { v: 'builder'; specialty: Specialty | 'Mixed' }
+  | { v: 'quiz'; config: QuizConfig }
+  | { v: 'reviewHub' }
+  | { v: 'reviewList'; view: ReviewView }
 
 export default function App() {
-  const [view, setView] = useState<View>({ name: 'dashboard' })
+  const [route, setRoute] = useState<Route>({ v: 'dashboard' })
+
+  const go = (r: Route) => {
+    setRoute(r)
+    window.scrollTo({ top: 0 })
+  }
+
+  function quickStudy(specialty: Specialty, count = 20) {
+    const pool = questionsForSpecialty(specialty)
+    go({
+      v: 'quiz',
+      config: { questions: shuffle(pool).slice(0, Math.min(count, pool.length)), mode: 'study', timed: false, timeLimitMin: 20, label: specialty, specialty },
+    })
+  }
+
+  function practiceQuestions(questions: MCQ[], label: string, specialty: Specialty | 'Mixed' = 'Mixed') {
+    if (!questions.length) return
+    go({ v: 'quiz', config: { questions: shuffle(questions), mode: 'study', timed: false, timeLimitMin: 20, label, specialty } })
+  }
+
+  const headerActive: 'dashboard' | 'builder' | 'review' | 'quiz' | 'specialty' =
+    route.v === 'builder' ? 'builder'
+      : route.v === 'reviewHub' || route.v === 'reviewList' ? 'review'
+      : route.v === 'quiz' ? 'quiz'
+      : route.v === 'specialty' ? 'specialty'
+      : 'dashboard'
 
   return (
     <div className="min-h-screen">
-      {/* slim top brand bar */}
-      <div className="border-b border-white/10 bg-navy-900/40 backdrop-blur sticky top-0 z-20">
-        <div className="max-w-6xl mx-auto px-5 sm:px-8 h-14 flex items-center justify-between">
-          <button onClick={() => setView({ name: 'dashboard' })} className="flex items-center gap-2.5 group">
-            <span className="grid place-items-center w-8 h-8 rounded-lg bg-gradient-to-br from-teal-500 to-emerald-500 text-navy-900">
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="M6 3v6a4 4 0 0 0 8 0V3M10 13v3a5 5 0 0 0 10 0v-3M20 10a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" /></svg>
-            </span>
-            <span className="font-bold text-white tracking-tight group-hover:text-teal-200 transition">ClinicalQ Bank</span>
-          </button>
-          <span className="text-xs text-slate-400 hidden sm:block">Surgery edition · v1.1</span>
-        </div>
-      </div>
+      <Header
+        onHome={() => go({ v: 'dashboard' })}
+        onCustom={() => go({ v: 'builder', specialty: 'Mixed' })}
+        onReview={() => go({ v: 'reviewHub' })}
+        active={headerActive}
+      />
 
-      {view.name === 'dashboard' && (
-        <Dashboard onSelectSpecialty={(specialty) => setView({ name: 'systems', specialty })} />
-      )}
-
-      {view.name === 'systems' && (
-        <SystemSelect
-          onBack={() => setView({ name: 'dashboard' })}
-          onSelectSystem={(system) => setView({ name: 'quiz', specialty: view.specialty, system })}
+      {route.v === 'dashboard' && (
+        <Dashboard
+          onOpenSpecialty={(s) => go({ v: 'specialty', specialty: s })}
+          onCustom={(s) => go({ v: 'builder', specialty: s })}
+          onReviewHub={() => go({ v: 'reviewHub' })}
+          onContinue={(s) => quickStudy(s)}
         />
       )}
 
-      {view.name === 'quiz' && (
+      {route.v === 'specialty' && (
+        <SpecialtyPage
+          specialty={route.specialty}
+          onBack={() => go({ v: 'dashboard' })}
+          onStart={(config) => go({ v: 'quiz', config })}
+          onCustom={() => go({ v: 'builder', specialty: route.specialty })}
+        />
+      )}
+
+      {route.v === 'builder' && (
+        <QuizBuilder
+          initialSpecialty={route.specialty}
+          onBack={() => go({ v: 'dashboard' })}
+          onStart={(config) => go({ v: 'quiz', config })}
+        />
+      )}
+
+      {route.v === 'quiz' && (
         <Quiz
-          systemKey={view.system}
-          onBack={() => setView({ name: 'systems', specialty: view.specialty })}
+          config={route.config}
+          onExit={() => go({ v: 'dashboard' })}
+          onReviewWrong={() => go({ v: 'reviewList', view: 'wrong' })}
+          onReviewRedFlag={() => go({ v: 'reviewList', view: 'redFlag' })}
+          onRepeat={() =>
+            go({ v: 'quiz', config: { ...route.config, questions: shuffle(route.config.questions) } })
+          }
+          onPracticeWeak={(topics) => {
+            const set = new Set(topics)
+            const pool = allQuestions.filter((q) => set.has(q.topic))
+            practiceQuestions(pool, 'Weak topics', route.config.specialty)
+          }}
+          onNewCustom={() => go({ v: 'builder', specialty: 'Mixed' })}
+        />
+      )}
+
+      {route.v === 'reviewHub' && (
+        <ReviewHub onBack={() => go({ v: 'dashboard' })} onOpen={(view) => go({ v: 'reviewList', view })} />
+      )}
+
+      {route.v === 'reviewList' && (
+        <ReviewList
+          view={route.view}
+          onBack={() => go({ v: 'reviewHub' })}
+          onPractice={(qs, label) => practiceQuestions(qs, label)}
+          onOpenSingle={(q) => practiceQuestions([q], q.topic, q.specialty)}
         />
       )}
     </div>
