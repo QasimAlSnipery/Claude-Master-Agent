@@ -1,0 +1,310 @@
+===PAGE 1===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+Pleural Diseases
+Anatomy and Physiology of the pleura:
+The pleura is a serous membrane covering the lungs, mediastinum, diaphragm, and inner
+chest wall. It consists of the visceral pleura, which envelops the lung surface and
+interlobar fissures, and the parietal pleura, which lines the thoracic cavity and is
+subdivided into costal, mediastinal, and diaphragmatic components. Both layers contain
+mesothelial cells that secrete lubricating fluid to allow smooth respiratory movement. The
+visceral and parietal pleura meet at the lung root, where the mediastinal pleura reflects
+laterally over the hilum and forms the pulmonary ligament posteriorly.
+The narrow pleural space between the two layers contains a small amount of fluid and is
+completely separated between right and left by the mediastinum. Blood supply is
+primarily from the intercostal arteries, with venous drainage to the chest wall veins. The
+parietal pleura is richly innervated by intercostal nerves, producing somatic pain with
+trauma or tumor invasion, whereas the visceral, mediastinal, and diaphragmatic pleura are
+supplied mainly by the phrenic nerve.
+Normal pleural fluid volume is approximately 0.25 mL/kg, with a turnover of 0.15
+mL/kg/hour. Fluid dynamics are governed by Starling forces, capillary permeability,
+lymphatic drainage, and negative intrathoracic pressure. Fluid is filtered mainly from
+parietal pleural capillaries and reabsorbed by parietal lymphatics. Disruption of these
+mechanisms leads to pleural effusion. The pleural fluid’s main functions are to reduce
+friction, maintain lung–chest wall apposition, and ensure effective mechanical coupling
+during breathing.
+Common pleural disorders
+1. Pneumothorax
+2. Hydrothorax including empyema thoracis
+3. Hydropneumothorax
+4. Hemothorax is discussed in thoracic trauma lecture
+5. Tumors
+Pneumothorax
+Overview
+• Abnormal presence of air within the pleural cavity
+• Results in dissociation of the parietal and visceral pleura leading to a disruption of lung
+mechanics.
+• Lung compression reduces lung compliance, volumes, and diffusion capacity and
+causes ventilation-perfusion mismatch and poor gas exchange
+1
+===PAGE 2===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+Types of pneumothoraxes
+1. Spontaneous: Primary spontaneous pneumothorax
+2. Secondary spontaneous pneumothorax; due to underlying lung disease such as:
+Chronic obstructive pulmonary disease, Bronchiolitis, Pneumocystis infection, Cystic
+fibrosis, Asthma, Necrotizing pneumonia, Tuberculosis infection, Congenital cysts,
+Pulmonary fibrosis, Catamenial
+3. Trauma Blunt thoracic injury, Penetrating injury
+4. Iatrogenic as in Barotrauma of mechanical ventilation, Percutaneous transthoracic
+lung biopsy, Central venous catheterization
+5. Thoracotomy/thoracostomy
+6. Others, such as in Bronchopleural fistula, Esophageal perforation
+Tension Pneumothorax
+• If pneumothorax is left untreated, air can accumulate without decompressing
+adequately, leading to high positive pleural pressures, causing severe lung collapse,
+compression of the mediastinum with deviation to the contralateral side causing great
+vessels and heart compression, and ultimately hemodynamic compromise.
+• Patients in tension pneumothorax require immediate clinical diagnosis, followed by
+needle decompression in the second intercostal space at the midclavicular line, followed
+by tube thoracostomy.
+Etiology of Pneumothorax
+Primary Spontaneous Pneumothorax (PSP): no underlying trauma or iatrogenic cause
+for p pneumothorax could be identified, Incidence is 7.4/100,000 (male ) and
+1.2/100,000 (females annually. PSP is caused by the rupture of small blebs (bullae)
+usually in apices of the upper or lower lobes, allowing air to leak into the pleural cavity.
+About 80 % of patients will demonstrate emphysema-like changes on CT scan. PSP
+occurs most commonly in thin tall young male patients. Smoking and atmospheric
+pressure changes are also risk factors.
+Secondary Spontaneous Pneumothorax: known underlying lung disease. Incidence is
+6.3/100,000 (men) and 2.0/100,000 (women) annually. Underlying disease causing lung
+parenchymal rupture and pneumothorax.
+Clinical Presentation
+Sudden onset ipsilateral pleuritic chest pain and dyspnea (most common), associated with
+tachypnoea, and tachycardia.
+2
+===PAGE 3===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+Physical examination: may be normal if the pneumothorax is small i.e. <25 % of the
+lung is collapsed. Decreased breath sounds, and hyperresonance on the affected side (not
+always present), Subcutaneous emphysema may present in traumatic pneumothorax
+Tension pneumothorax: cases would present with signs of respiratory distress ( severe
+dyspnea, peripheral and/or central cyanosis, tachypnea, distended neck veins,
+tachycardia, hypotension also presents with tracheal deviation to the contralateral side
+Rarely: pneumomediastinum or pneumopericardium(Hamman’s sign).
+Diagnosis:
+This is established by an upright chest X-ray. If clinical signs of tension pneumothorax is
+present chest X-ray confirmation should be omitted and immediate decompression should
+ensue. Pneumothorax in supine patients accumulates into the dependent regions of the anterior
+and subdiaphragmatic pleura and may be detected as a deep sulcus sign.
+Although CT scan is the gold-standard for diagnosis, it is not necessary for the majority of
+patients with first episode spontaneous pneumothorax since it does not change the management.
+Ultrasound is also an accurate, rapid and non-invasive test, yet requires operator experience.
+Management
+• The etiology largely dictates both immediate and definitive management.
+Conservative Observation mainly in PSP: Reserved for asymptomatic patients with a
+small pneumothorax who are unlikely to have an ongoing air leak. Follow-up
+radiography should be obtained within 24–48 hours to document improvement.
+Supplemental oxygen can help decrease the alveolar pressure of nitrogen in the body,
+thus creating a gradient to reabsorb the air from the pleura (mostly composed of nitrogen)
+into the alveoli and tissues. Conservative management re-expands the lung at an average
+rate of 2.2 % / day with a 79 % success rate. Failure for the pneumothorax to resolve in
+48 hours needs intervention.
+• Aspiration: A small cannula can be used to aspirate pleural air, with a success rate of 75
+and 40 % for a primary and secondary spontaneous pneumothorax, respectively. This
+technique is rarely used. Can be attached to a Heimlich one-way valve or a three-way
+stop-cock with a large syringe.
+• Percutaneous Catheters: Small-caliber tube thoracostomy can be performed
+percutaneously via the Seldinger technique and attached to either a Heimlich one-way
+valve or suction. Use is limited to a spontaneous pneumothorax with limited respiratory
+symptoms.
+3
+===PAGE 4===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+• Tube Thoracostomy: Large-bore chest tubes are the standard of care for the treatment of
+traumatic pneumothoraces, unstable patients, persistent or large air leaks and associated
+effusions or haemothorax.
+Recurrence after spontaneous pneumothorax is 30 % after the first episode, with the
+majority occurring within 2 years . Independent risk factors for recurrence include:
+pulmonary fibrosis, age >60 years, increased height/weight rati]. Recurrence rate
+increases after each episode.
+• Surgery: Guidelines recommend waiting at least 3–5 days for resolution of a
+spontaneous pneumothorax before considering definitive surgical management. A
+bullectomy can be performed preferably via a VATS approach with a success rate >95 %.
+Other options including open thoracotomy and axillary approaches.
+Indications for Operative Intervention:
+1. Persistent air leak (> 5 days) or failure of lung to fully re-expand with chest tube
+drainage
+2. Hemopneumothorax
+3. Recurrent ipsilateral pneumothorax
+4. Bilateral spontaneous pneumothorax
+5. First occurrence of contralateral pneumothorax
+6. At-risk activities/professions (i.e., pilots, divers)
+7. Poor access to medical treatment or follow-up
+•Pleurodesis: Although surgery as definitive management of recurrent secondary
+pneumothoraces is preferred, pleurodesis with talc, bleomycin or doxycycline remains an
+option.
+Pleural Effusions
+Is an abnormal collection of fluid in the pleural space Can be transudative (low protein)
+or exudative (high protein). Benign pleural effusions are twice as common as malignant
+pleural effusions.
+Empyema Thoracis
+DEFINITIONS Empyema, from the Greek, is defined simply as “pus in the pleural
+cavity.” The precursor of empyema is bacterial pneumonia and subsequent
+parapneumonic effusion.
+4
+===PAGE 5===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+Causes:
+1. Pulmonary infections: Complicated and unresolved pneumonia, Bronchiectasis,
+Tuberculosis, Lung abscess, intra-pleural ruptured hydatid cyst
+2. Aspiration of pleural effusion for any cause may end by empyema if infected
+3. Trauma: Blunt and penetrating chest trauma, thoracic surgery, esophageal surgery ,
+4. Extra pulmonary causes: Subphrenic abscess
+Clinical features:
+There are symptoms of pus at any site like swinging pyrexia with generalize malaise,
+purulent productive cough, chest pain. Parapneumonic effusions occur in 20–60% of
+patients hospitalized for bacterial pneumonia; 5–10% of these parapneumonic effusions
+progress to empyema. The mortality rate of empyema is significant: 25–75% in the
+elderly and debilitated.
+Parapneumonic effusions are exudative and progress through three stages to an
+empyema:
+1. First or exudative stage, characterized by relatively low LDH, normal glucose, and
+normal pH of the pleural filud.
+2. Second or fibropurulent stage evolves with invasion of pleural fluid by bacteria,
+increased fibrin deposition, cellular debris, and white blood cells with the ultimate
+formation of limiting fibrin membranes producing loculations
+3. Third or organization stage occurs as fibroblasts grow into the exudative fibrin sheet
+coating the visceral and parietal pleura with an inelastic membrane or pleural “peel”
+encasing the lung and rendering it functionless and it’s the most difficult stage for
+treatment.
+Investigations:
+1.Haematological Leukocytosis, elevated C. reactive protein and ESR
+2.Standard posterior-anterior and lateral chest radiography shows pleural effusion,
+hydropneumothorax, fibrothorax in late stages
+3. Pleural fluid first must be determined as exudative or transudative, which is
+accomplished by examination of pleural fluid obtained by thoracentesis criteria based on
+levels of lactate dehydrogenase (LDH) and protein concentrations: an exudate as having
+any one of the following characteristics:
+A. pleural fluid protein divided by serum protein concentration greater than 0.5,
+B. pleural fluid LDH concentration divided by serum LDH concentration greater than
+0.6,
+C. pleural fluid LDH concentration greater than two thirds of the upper limit of normal
+serum LDH concentration, and
+D. A pH less than 7.0.
+5
+===PAGE 6===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+4. Ultrasonography is widely available in most institutions and frequently employed
+after the initial chest X-ray. Ultrasound is rapid, portable, and less expensive than a chest
+CT scan which is some time is necessary to identify the loculation.
+5) Chest CT scan
+Empyema is determined by analysis of the pleural fluid, and treatment is guided by
+radiological assessment
+MEDICAL MANAGEMENT
+Medical management or conservative noninterventional therapy is rarely effective and
+often contraindicated for management of empyema. Thoracentesis and culture
+sensitivity–based antibiotic therapy are appropriate and generally successful for stage I
+parapneumonic effusions but not stage II effusions or stage III empyema.
+Drainage of the pleural space by radiologically guided catheters or surgical drainage must
+be employed for successful management of empyema. Tube thoracostomy using a large-
+bore chest tube (32–38 Fr) was the initial intervention when empyema was established.
+After chest tube placement, fibrinolytics are administered until the pleural space is
+cleared radiographically and the patient’s clinical condition is improved. Streptokinase
+was initially used. Subsequently, urokinase was used and found to be more efficacious.
+SURGICAL MANAGEMENT
+About 20–30% require a surgical drainage procedure:
+I) Thoracoscopy and debridement should be the next therapeutic maneuver after
+attempted fibrinolysis. VATS must accomplish two therapeutic goals to be successful: (1)
+establish a unified pleural space and (2) ensure total reexpansion of the lung parenchyma
+with obliteration of the pleural cavity
+II) Decortication via a thoracotomy should be performed when the third or fibrotic stage
+of empyema is suggested by CT scan that reveals visceral pleural enhancement without
+fibrin septation in multiple areas of loculation. Decortication refers to the process of
+peeling this restrictive fibrous layer from the pleura, promoting lung reexpansion and
+improving thoracic excursion
+III) Open widow thoracostomy sometimes required
+Malignant Pleural Effusions
+Up to 22% of pleural effusions are caused by malignant disease. Affected patients with
+advanced neoplastic diseases experience considerable morbidity as a result of these
+pleural fluid collections.
+ETIOLOGY
+This may be due to primary or secondary tumors of the pleura with seeding of the
+6
+===PAGE 7===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+intrapleural space and lymphatic obstruction. Of pleural neoplasms, 95% arise from a
+metastatic source, with lung and breast carcinoma accounting for 75% of all cases. Other
+common causes are lymphoma, gastric cancer, and ovarian cancer. Adenocarcinomas of
+unknown primary constitute a distinct entity in patients in whom the source of the pleural
+malignancy is never found. They are associated with exposure to environmental tobacco
+smoke.
+Clinical features and Physical Findings:
+Patients with malignant pleural effusions are typically symptomatic and complain of
+dyspnea, cough, or chest pain. The discomfort often is independent of respiration and but
+is aggravated by activity. With invasive pleural metastases, the affected nerve roots may
+radiate pain.
+Physical findings indicating pleural effusion are decreased tactile fremitus and dullness to
+percussion on examination of the posterior chest.
+Imaging
+1) Early evidence of pleural effusion by chest radiograph is costo-diaphragmatic sulcus
+blunting caused by as little as 125 ml of fluid.
+2) Computed tomography (CT) multiple pleural nodules and nodular pleural thickening
+are generally limited to effusions of malignant etiology.
+3)Thoracic ultrasound shows the optimal site for diagnostic thoracentesis of a small
+pleural effusion. It also helps select ideal entry points for thoracoscopes or pleural biopsy
+instruments by avoiding adhesions.
+Diagnostic Procedures
+The diagnosis of pleural effusion is confirmed by thoracentesis. Practically all malignant
+pleural effusions are exudates. Criteria sets to classify effusions as exudative
+Pleural Cytology and Biopsy
+Cytological evaluations with standard staining (Papanicolaou’s smears) generally confirm
+malignant pleural effusions. When standard pleural effusion cytology is nondiagnostic,
+pleural needle biopsy is indicated
+TREATMENT
+The optimal treatment for malignant pleural effusion is controversial. The best goal to
+achieve is drainage of the fluid and prevention of recurrence by Chemical pleurodesis by
+talc powder or chemotherapy drugs like Bleomycien or By irritant agents like
+Tetracycline .
+7
+===PAGE 8===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+Chylothorax
+Definition: Chylothorax is the presence of lymph fluid in the pleural space.
+Chylothorax may be iatrogenic, traumatic, or spontaneous because of congenital or
+acquired disorders. Early recognition is crucial to preventing serious complications of
+chronic lymphatic loss. Initial drainage, combined with measures to reduce chyle flow
+and maintain nutrition, may resolve the condition. For cases that do not show prompt
+response, particularly in the postoperative or trauma setting, early surgical ligation of the
+thoracic duct should be performed with the expectation of prompt resolution.
+Thoracoscopy offers a minimally invasive approach and warrants consideration by
+experienced surgeons. Other alternatives require consideration of the underlying etiology,
+consideration of the patient’s medical condition and prognosis, and an understanding of
+the limitations of these approaches.
+Tumors of the Pleura: Malignant Pleural:
+Primary tumors of the pleura are very rare. There are two main types:
+1. Malignant Pleural Mesothelioma (MPM): most common primary tumor of the
+pleura. Highly aggressive tumor with grave prognosis.
+2. Localized Fibrous Tumor of the Pleura: significantly less aggressive than MPM,
+also referred to as “localized mesothelioma.”
+Epidemiology: Strong association with asbestos exposure (>80 % o cases), with 20-years
+latency until the development of MM. 5:1 Male predominance, with peak incidence in the
+sixth and seventh decade. Other causes: radiation, mineral fibers, simian virus 40.
+Clinical Presentation
+• Dyspnea
+• Pain secondary to chest wall invasion and involvement of somatic nerves of the
+parietal pleura
+• Malignant pleural effusion
+• Pleural thickening, subtle pleural masses on radiographic images, Thick, restrictive
+pleural rind (late finding) with encasement of the lung
+Work-Up
+• CT chest with IV contrast +/− FDG-PET
+8
+===PAGE 9===
+Professor Dr Aram Baram, The Pleura | 2025-2026
+• MRI as an adjunct to determine depth of chest wall invasion
+• or diaphragmatic involvement
+• Thoracocentesis of malignant effusion: cytology and elevated pleural hyaluronic acid
+have a 50 % diagnostic accuracy.
+• Gold standard for diagnosis is thoracoscopic pleural biopsy of about 80 % Diagnostic
+accuracy
+Management
+• Most patients present with locally advanced disease and not amenable to surgical
+treatment options.
+• Surgery: Extra pleural Pneumonectomy (EPP): en-bloc resection of the lung, visceral
+pleura, parietal pleura, pericardium, hemidiaphragm. Surgery is reserved for patients with
+localized and selected locally advanced disease. Surgery is provided in the context of
+multi-modality therapy (neoadjuvant or adjuvant chemotherapy and adjuvant whole
+thorax radiation therapy), with improvement in overall survival and disease-free survival
+depending on tumor histopathology and regimen.
+.
+9
