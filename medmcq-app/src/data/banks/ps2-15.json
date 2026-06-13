@@ -1,405 +1,462 @@
 [
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Schizophrenia & Other Psychotic Disorders 1",
-    "sourceFile": "1.1 Schizophrenia & Other Psychotic Disorders 1.pdf",
-    "topic": "First-episode psychosis management",
-    "subtopic": "Antipsychotic initiation",
-    "difficulty": "Medium",
-    "questionType": "Management",
-    "clinicalStem": "A 22-year-old male university student is brought to the emergency department by his flatmates who report he has been awake for 4 days, barricading his door and shouting that government agents have installed cameras in his room. He is speaking rapidly, appears frightened, and reports hearing voices telling him to protect himself. He has no prior psychiatric history. Vital signs are normal. Urine drug screen is negative. Physical examination is unremarkable. He agrees to take oral medication. Which of the following is the most appropriate initial pharmacological management?",
-    "options": [
-      "Oral haloperidol 5 mg with oral lorazepam 1-2 mg",
-      "Intramuscular haloperidol 10 mg as a single loading dose",
-      "Oral risperidone 2 mg with a plan to titrate slowly",
-      "Oral clozapine 25 mg twice daily",
-      "Oral lithium 400 mg twice daily"
-    ],
-    "correctAnswerIndex": 2,
-    "explanation": "In first-episode psychosis, low-dose atypical antipsychotics such as risperidone are first-line because first-episode patients are highly sensitive to extrapyramidal side effects and require lower doses than chronically ill patients. Starting at 2 mg and titrating slowly optimises tolerability and adherence. Clozapine is reserved for treatment-resistant schizophrenia after two adequate antipsychotic trials. Lithium is a mood stabiliser, not an antipsychotic.",
-    "wrongAnswerExplanations": [
-      "Haloperidol plus lorazepam is used for acute agitation requiring rapid sedation; this patient is cooperative and oral medication has been accepted, so high-potency typical antipsychotic plus benzodiazepine is excessive as a first step.",
-      "IM haloperidol at 10 mg is an aggressive intervention for a patient who is accepting oral medication; it risks severe extrapyramidal side effects including dystonia in an antipsychotic-naive young man.",
-      "Correct — oral risperidone 2 mg is an appropriate low-dose atypical antipsychotic start for a cooperative first-episode patient.",
-      "Clozapine is restricted to treatment-resistant schizophrenia and requires agranulocytosis monitoring; it is absolutely contraindicated as a first-line agent.",
-      "Lithium treats bipolar disorder; it has no primary antipsychotic efficacy and is inappropriate here."
-    ],
-    "clinicalPearl": "First-episode psychosis patients require lower antipsychotic doses and are disproportionately vulnerable to EPS — start low, go slow with an atypical agent.",
-    "keyClue": "No prior psychiatric history, cooperative, accepting oral medication — first-episode, low-dose atypical is appropriate.",
-    "commonExamTrap": "Choosing clozapine because the symptoms are severe — clozapine is never first-line regardless of severity.",
-    "missedConcept": "The principle that first-episode psychosis patients are antipsychotic-naive and EPS-sensitive, requiring cautious low-dose initiation.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["first-episode psychosis", "antipsychotics", "risperidone", "schizophrenia", "management"]
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Schizophrenia & Other Psychotic Disorders 2",
-    "sourceFile": "1.2 Schizophrenia & Other Psychotic Disorders 2.pdf",
-    "topic": "Neuroleptic malignant syndrome",
-    "subtopic": "Recognition and emergency management",
-    "difficulty": "Hard",
-    "questionType": "Emergency",
-    "clinicalStem": "A 35-year-old man with schizophrenia was started on depot fluphenazine 5 days ago after refusing oral medication. He is brought to A&E by his carer, who reports he became confused yesterday. On examination: temperature 39.8°C, BP 160/98 mmHg, HR 118 bpm, diaphoresis, diffuse lead-pipe rigidity on passive movement of all limbs, and GCS 13/15. Investigations show CK 12,400 U/L, WBC 14.2 × 10⁹/L, creatinine 178 µmol/L. What is the single most important immediate management step?",
-    "options": [
-      "Administer oral dantrolene 25 mg and monitor in the psychiatric ward",
-      "Stop the antipsychotic and transfer to a medical high-dependency unit for supportive care",
-      "Administer IV lorazepam to reduce rigidity and observe for 4 hours",
-      "Switch to oral clozapine urgently as it has a lower risk of NMS",
-      "Perform lumbar puncture to exclude infective meningitis before stopping antipsychotic"
-    ],
-    "correctAnswerIndex": 1,
-    "explanation": "Neuroleptic malignant syndrome (NMS) is a life-threatening reaction to antipsychotics characterised by hyperthermia, rigidity, autonomic instability, and altered consciousness, confirmed here by markedly elevated CK and developing renal impairment. The single most important step is immediate cessation of the offending antipsychotic and transfer to HDU/ICU for aggressive supportive care including IV fluids, cooling, and monitoring for rhabdomyolysis-induced acute kidney injury. Dantrolene and bromocriptine may be added but are adjuncts; supportive care in an appropriate environment is paramount.",
-    "wrongAnswerExplanations": [
-      "Oral dantrolene alone on a psychiatric ward is dangerously inadequate — NMS can be fatal without intensive medical support and IV access for fluids and cooling.",
-      "Correct — immediate antipsychotic cessation and HDU transfer is the cornerstone of NMS management.",
-      "IV lorazepam reduces rigidity transiently but does not treat NMS; observing for 4 hours without stopping the antipsychotic risks progression to multi-organ failure.",
-      "Switching to clozapine is contraindicated in acute NMS — all antipsychotics must be stopped and the patient must recover fully before any rechallenge is considered.",
-      "Lumbar puncture to exclude meningitis is reasonable if the diagnosis is genuinely uncertain, but the combination of antipsychotic exposure, hyperthermia, lead-pipe rigidity, and CK >10,000 U/L makes NMS the clear diagnosis; delaying antipsychotic cessation for LP is dangerous."
-    ],
-    "clinicalPearl": "NMS triad = hyperthermia + lead-pipe rigidity + altered consciousness after antipsychotic exposure — stop the drug immediately and transfer to ICU/HDU.",
-    "keyClue": "Lead-pipe rigidity, hyperthermia, CK 12,400 U/L, and recent antipsychotic initiation are pathognomonic of NMS.",
-    "commonExamTrap": "Continuing the antipsychotic while 'treating' the fever, or switching to clozapine — any antipsychotic can cause NMS and all must be stopped.",
-    "missedConcept": "NMS is a medical emergency requiring HDU-level care, not management on a psychiatric ward.",
-    "isRedFlagQuestion": true,
-    "redFlagReason": "NMS is potentially fatal; delayed recognition and failure to stop the antipsychotic or transfer to HDU are associated with multi-organ failure and death."
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Schizophrenia & Other Psychotic Disorders 2",
-    "sourceFile": "1.2 Schizophrenia & Other Psychotic Disorders 2.pdf",
-    "topic": "Treatment-resistant schizophrenia",
-    "subtopic": "Clozapine initiation criteria",
-    "difficulty": "Medium",
-    "questionType": "Management",
-    "clinicalStem": "A 28-year-old woman with schizophrenia has been treated for 4 years. She has had adequate trials of olanzapine (18 months, optimised dose, good adherence confirmed by plasma levels) and aripiprazole (14 months, optimised dose). Both trials resulted in persistent positive symptoms including paranoid delusions and command hallucinations; she remains unable to care for herself. She has no personal or family history of epilepsy and no cardiac history. Blood results today: normal FBC, ECG shows QTc 390 ms. She consents to the next step. What is the most appropriate pharmacological escalation?",
-    "options": [
-      "Add lithium augmentation to her current aripiprazole",
-      "Switch to depot risperidone injections to ensure adherence",
-      "Initiate clozapine with regular FBC monitoring",
-      "Add haloperidol to aripiprazole for a combination typical/atypical strategy",
-      "Increase aripiprazole to above-licence dose and review in 3 months"
-    ],
-    "correctAnswerIndex": 2,
-    "explanation": "Treatment-resistant schizophrenia is defined as failure of at least two adequate antipsychotic trials (adequate dose, adequate duration, confirmed adherence). This patient meets criteria, and clozapine is the only antipsychotic with proven efficacy in treatment-resistant schizophrenia. Regular FBC monitoring (minimum weekly for 18 weeks, then fortnightly) is mandatory because of the risk of agranulocytosis. The QTc is normal and there are no contraindications.",
-    "wrongAnswerExplanations": [
-      "Lithium augmentation can be considered for incomplete response but is not the evidence-based next step after two failed antipsychotic trials — clozapine is indicated.",
-      "Poor adherence has been excluded by plasma level monitoring; switching to depot addresses adherence, not treatment resistance.",
-      "Correct — clozapine is the evidence-based treatment for schizophrenia refractory to two adequate antipsychotic trials.",
-      "Combining two antipsychotics is not recommended as a treatment strategy for resistance; it increases side-effect burden without evidence of added efficacy.",
-      "Exceeding licensed doses increases adverse effects without evidence of improved efficacy; it is not appropriate management of treatment resistance."
-    ],
-    "clinicalPearl": "Clozapine is the gold-standard treatment for treatment-resistant schizophrenia — two failed adequate trials (confirmed by plasma levels) are the threshold for initiation.",
-    "keyClue": "Two adequate antipsychotic trials with confirmed adherence and persistent positive symptoms = treatment-resistant schizophrenia requiring clozapine.",
-    "commonExamTrap": "Switching to another atypical or adding a mood stabiliser instead of initiating clozapine after confirmed treatment resistance.",
-    "missedConcept": "Clozapine is not just another antipsychotic option — it has unique efficacy in treatment-resistant schizophrenia and should not be withheld when criteria are met.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["treatment-resistant schizophrenia", "clozapine", "management", "antipsychotics"]
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Schizophrenia & Other Psychotic Disorders 1",
-    "sourceFile": "1.1 Schizophrenia & Other Psychotic Disorders 1.pdf",
-    "topic": "Acute behavioural disturbance / rapid tranquillisation",
-    "subtopic": "Immediate pharmacological management",
-    "difficulty": "Hard",
-    "questionType": "Emergency",
-    "clinicalStem": "A 30-year-old man with known schizophrenia is brought to A&E by police after threatening neighbours with a knife. In the department he is shouting, throwing chairs, and has required physical restraint by four members of staff. He has no known drug allergies. He refuses oral medication. He weighs approximately 80 kg. His last antipsychotic dose was unknown. Vital signs pre-restraint: HR 110 bpm, SpO2 97%, RR 18. What is the most appropriate pharmacological intervention for rapid tranquillisation?",
-    "options": [
-      "Oral promethazine 50 mg and wait 30 minutes before reconsidering",
-      "IM lorazepam 2 mg alone",
-      "IV haloperidol 10 mg bolus",
-      "IM haloperidol 5 mg plus IM lorazepam 2 mg (given as separate injections)",
-      "IM olanzapine 10 mg plus IM lorazepam 2 mg simultaneously"
-    ],
-    "correctAnswerIndex": 3,
-    "explanation": "For rapid tranquillisation in a violently agitated patient refusing oral medication, IM haloperidol (5 mg) combined with IM lorazepam (2 mg), administered as separate injections, is a well-evidenced and widely recommended regimen. The combination provides antipsychotic and anxiolytic/sedative effects. IV haloperidol is not recommended outside ITU due to QT-prolongation risk. IM olanzapine combined with IM benzodiazepine is specifically contraindicated due to risk of fatal respiratory depression.",
-    "wrongAnswerExplanations": [
-      "Oral promethazine is a first-line option for a patient willing to accept oral medication, but this patient is violently refusing all oral treatment — parenteral rapid tranquillisation is required immediately.",
-      "IM lorazepam alone can be used but the combination with a butyrophenone provides more effective tranquillisation in psychotic agitation; monotherapy is less effective.",
-      "IV haloperidol carries significant QTc-prolongation and arrhythmia risk and is not recommended for rapid tranquillisation outside a monitored ITU environment.",
-      "Correct — IM haloperidol 5 mg plus IM lorazepam 2 mg as separate injections is a standard rapid tranquillisation regimen for violent psychotic agitation.",
-      "IM olanzapine combined with IM benzodiazepine is explicitly contraindicated due to the risk of fatal cardiorespiratory arrest — this combination must never be given."
-    ],
-    "clinicalPearl": "Never combine IM olanzapine with IM benzodiazepine — the combination carries a risk of fatal respiratory depression and cardiac arrest.",
-    "keyClue": "Violent patient refusing oral medication with known schizophrenia — rapid tranquillisation with IM combination is required; the IM olanzapine + BZD combination is contraindicated.",
-    "commonExamTrap": "Choosing IM olanzapine plus lorazepam because olanzapine is a familiar atypical — this combination is specifically and absolutely contraindicated.",
-    "missedConcept": "The fatal interaction between IM olanzapine and IM benzodiazepines, which is a high-yield contraindication in rapid tranquillisation protocols.",
-    "isRedFlagQuestion": true,
-    "redFlagReason": "Violent agitation with physical restraint is an acute emergency; incorrect rapid tranquillisation choices (especially IM olanzapine + IM benzodiazepine) can cause fatal respiratory depression."
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "ECT",
-    "sourceFile": "2 ECT.pdf",
-    "topic": "Electroconvulsive therapy indications",
-    "subtopic": "Emergency ECT",
-    "difficulty": "Medium",
-    "questionType": "Management",
-    "clinicalStem": "A 68-year-old woman with severe recurrent depression is admitted from a care home. She has stopped eating and drinking for 8 days, is mute, and lies in bed not responding to verbal stimuli. She has lost 7 kg in the past month. She has no family to give collateral history. Three previous admissions show she responded well to ECT. Psychiatry reviews her and diagnoses severe depressive episode with catatonic features. She has been trialled on sertraline for 6 weeks with no response prior to admission. Her sodium is 128 mmol/L. What is the most appropriate next management step?",
-    "options": [
-      "Increase sertraline to maximum dose and add mirtazapine for 4 more weeks",
-      "Start IV fluid resuscitation, NG feeding, and refer for urgent ECT",
-      "Commence lithium augmentation of antidepressant therapy",
-      "Initiate a benzodiazepine challenge (IV lorazepam) for catatonia and defer ECT",
-      "Transfer to ICU for total parenteral nutrition while awaiting antidepressant response"
-    ],
-    "correctAnswerIndex": 1,
-    "explanation": "This patient has life-threatening severe depression with catatonia — she is not eating or drinking, is mute, and has a hyponatraemia likely secondary to poor intake. ECT is the first-line treatment for severe depressive episodes with catatonic features, especially when there is immediate risk to life from refusal to eat or drink. Previous good response to ECT strengthens the indication. IV fluids and NG feeding address the acute medical compromise while ECT is being arranged urgently. Under the Mental Capacity Act / Mental Health Act, treatment can be given without consent when life is at risk.",
-    "wrongAnswerExplanations": [
-      "Further antidepressant trials are inappropriate when a patient is already medically compromised from not eating or drinking — ECT is needed urgently, not pharmacological escalation.",
-      "Correct — urgent ECT with immediate medical stabilisation (fluids, nutrition) is the appropriate management for life-threatening catatonic depression with previous ECT response.",
-      "Lithium augmentation takes weeks and is wholly inappropriate in a patient who is medically deteriorating and refusing intake.",
-      "A lorazepam challenge can diagnose and temporarily relieve catatonia, but this patient is already compromised and previous ECT response is established — ECT should not be deferred.",
-      "ICU for TPN without psychiatric treatment addresses the metabolic problem but ignores the psychiatric emergency; ECT must be the primary psychiatric intervention."
-    ],
-    "clinicalPearl": "ECT is the fastest and most effective treatment for severe depression with catatonia or life-threatening refusal to eat/drink — it can be given under emergency legal provisions without consent.",
-    "keyClue": "Severe depression, catatonia, 8-day refusal to eat/drink, previous ECT response, failed antidepressant — life-threatening indication for urgent ECT.",
-    "commonExamTrap": "Waiting for antidepressant response or trying augmentation when the patient is medically compromised — ECT is life-saving and must not be delayed.",
-    "missedConcept": "ECT indications include life-threatening severity (refusal to eat/drink, catatonia) as an emergency indication that overrides the usual 'try medications first' hierarchy.",
-    "isRedFlagQuestion": true,
-    "redFlagReason": "Refusal to eat and drink for 8 days with hyponatraemia is life-threatening; failure to recognise the emergency ECT indication risks death."
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Personality Disorders",
-    "sourceFile": "2 Personality Disorders.pdf",
-    "topic": "Borderline personality disorder — acute self-harm",
-    "subtopic": "Emergency management priorities",
-    "difficulty": "Medium",
-    "questionType": "Emergency",
-    "clinicalStem": "A 24-year-old woman with a documented history of emotionally unstable (borderline) personality disorder attends A&E at 2 am after taking 20 paracetamol tablets approximately 3 hours ago following an argument with her partner. She is tearful and says she 'didn't really want to die' but is now scared. She weighs 62 kg. Serum paracetamol level is above the treatment line on the nomogram. She has no hepatic disease. What is the immediate management priority?",
-    "options": [
-      "Perform a full mental state examination and refer to the psychiatric liaison team before any medical treatment",
-      "Discharge her with a follow-up outpatient psychology appointment given her known BPD and low lethality intent",
-      "Start N-acetylcysteine (NAC) infusion immediately according to weight-based protocol",
-      "Administer activated charcoal 50 g orally and observe for 4 hours",
-      "Obtain collateral history from her partner before making any management decisions"
-    ],
-    "correctAnswerIndex": 2,
-    "explanation": "Paracetamol level above the treatment line on the nomogram is an absolute indication for N-acetylcysteine (NAC) infusion regardless of the psychiatric diagnosis or perceived intent. Medical stabilisation must precede psychiatric assessment — a BPD diagnosis does not alter the medical emergency. NAC is the antidote that prevents hepatotoxicity and must be started promptly; efficacy diminishes significantly if delayed beyond 8–10 hours post-ingestion. Psychiatric review follows medical treatment.",
-    "wrongAnswerExplanations": [
-      "Psychiatric assessment is important but must not precede or delay medical treatment when there is confirmed paracetamol toxicity above the treatment threshold.",
-      "Discharging a patient with confirmed toxic paracetamol levels without medical treatment is potentially fatal and constitutes negligence regardless of psychiatric diagnosis.",
-      "Correct — NAC infusion is the life-saving intervention required immediately when paracetamol level exceeds the treatment line.",
-      "Activated charcoal is most effective within 1 hour of ingestion; at 3 hours it has limited utility for paracetamol and does not replace NAC when levels are above the treatment line.",
-      "Collateral history may be useful for psychiatric assessment but must never delay life-saving medical treatment."
-    ],
-    "clinicalPearl": "A personality disorder diagnosis never reduces the urgency of medical treatment — paracetamol above the treatment line requires immediate NAC regardless of intent or psychiatric history.",
-    "keyClue": "Paracetamol level above the treatment nomogram line at 3 hours post-ingestion — NAC is the immediate priority.",
-    "commonExamTrap": "Prioritising psychiatric review before medical treatment because the patient has BPD and stated low lethality intent — this leads to preventable hepatic failure.",
-    "missedConcept": "Medical emergencies take absolute priority over psychiatric assessment; the treatment nomogram, not psychiatric intent, drives NAC initiation.",
-    "isRedFlagQuestion": true,
-    "redFlagReason": "Paracetamol overdose above the treatment line causes fulminant hepatic failure if NAC is not started promptly — delay is life-threatening."
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "ECT",
-    "sourceFile": "2 ECT.pdf",
-    "topic": "ECT contraindications and risks",
-    "subtopic": "Pre-ECT anaesthetic assessment",
-    "difficulty": "Hard",
-    "questionType": "Management",
-    "clinicalStem": "A 72-year-old man with severe psychotic depression, resistant to two antidepressant trials, is being considered for ECT. His psychiatrist refers him for anaesthetic pre-assessment. His medical history includes hypertension (controlled), well-managed type 2 diabetes, and a left frontal meningioma identified on MRI 6 months ago, which is stable with no mass effect on current imaging. His neurologist reports no raised intracranial pressure. His MMSE is 24/30. Which of the following best describes the appropriate approach to ECT in this patient?",
-    "options": [
-      "ECT is absolutely contraindicated due to the intracranial meningioma and should never be offered",
-      "ECT can proceed after multidisciplinary assessment confirms no raised ICP, with careful anaesthetic monitoring",
-      "ECT must be deferred until the meningioma is surgically resected",
-      "ECT is contraindicated because his MMSE is below 28, indicating cognitive impairment",
-      "ECT may only be considered if he is under 70 years old; age 72 is a contraindication"
-    ],
-    "correctAnswerIndex": 1,
-    "explanation": "ECT has no absolute contraindications in modern practice. Raised intracranial pressure is the main risk with intracranial lesions because ECT transiently increases ICP. However, this patient's lesion is stable, there is no mass effect, and the neurologist has confirmed no raised ICP — making ECT feasible after MDT review. Careful anaesthetic management (hyperventilation, positioning) can mitigate ICP fluctuation. Age and mild cognitive impairment are not contraindications. The benefit of treating severe psychotic depression must be weighed against risk.",
-    "wrongAnswerExplanations": [
-      "There are no absolute contraindications to ECT — intracranial lesions without raised ICP are a relative consideration, not an absolute bar.",
-      "Correct — ECT can proceed with MDT agreement when ICP is confirmed to be normal, with appropriate anaesthetic precautions.",
-      "Surgical resection of a stable meningioma is not required before ECT — the key risk factor (raised ICP) has been excluded.",
-      "Mild cognitive impairment is a relative concern (ECT may worsen cognition temporarily) but is not a contraindication; it informs monitoring and consent, not a refusal to treat.",
-      "Age is not a contraindication to ECT; elderly patients with severe depression may have the most to gain, and ECT is frequently used safely in patients over 70."
-    ],
-    "clinicalPearl": "ECT has no absolute contraindications — raised ICP is the main risk with intracranial pathology, and if ICP is confirmed normal by neuroimaging and specialist review, ECT can proceed safely.",
-    "keyClue": "Stable meningioma, no mass effect, neurologist confirms no raised ICP — the key contraindication has been excluded, so ECT can proceed.",
-    "commonExamTrap": "Treating any intracranial pathology as an absolute ECT contraindication — the risk is raised ICP, not the lesion itself.",
-    "missedConcept": "ECT has no absolute contraindications; conditions like intracranial tumours are relative risks that require MDT assessment, not automatic exclusion.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["ECT", "contraindications", "intracranial pressure", "meningioma", "psychiatry"]
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Schizophrenia & Other Psychotic Disorders 2",
-    "sourceFile": "1.2 Schizophrenia & Other Psychotic Disorders 2.pdf",
-    "topic": "Clozapine adverse effects",
-    "subtopic": "Agranulocytosis — emergency recognition",
-    "difficulty": "Hard",
-    "questionType": "Emergency",
-    "clinicalStem": "A 40-year-old man with treatment-resistant schizophrenia has been stable on clozapine 400 mg/day for 8 months. He presents to his GP with a 3-day history of sore throat, fever (38.4°C), and feeling unwell. His most recent weekly FBC (10 days ago) showed WBC 4.8 × 10⁹/L and neutrophils 2.4 × 10⁹/L. Today's urgent FBC shows WBC 2.1 × 10⁹/L and absolute neutrophil count (ANC) 0.4 × 10⁹/L. What is the most appropriate immediate action?",
-    "options": [
-      "Prescribe a 5-day course of oral amoxicillin and repeat FBC in 1 week",
-      "Reduce clozapine dose by 50% and repeat FBC in 48 hours",
-      "Stop clozapine immediately and arrange urgent hospital admission for haematological assessment and monitoring",
-      "Continue clozapine and start prophylactic G-CSF (granulocyte colony-stimulating factor) in the community",
-      "Switch to olanzapine urgently while continuing FBC monitoring weekly"
-    ],
-    "correctAnswerIndex": 2,
-    "explanation": "An ANC below 0.5 × 10⁹/L constitutes agranulocytosis — a life-threatening clozapine emergency. Clozapine must be stopped immediately and must never be restarted. The patient requires urgent hospital admission for haematological review, infection management, and monitoring. G-CSF may be used in hospital under specialist guidance. Reducing the dose or switching to another antipsychotic while continuing clozapine is dangerous — the drug must be stopped at once.",
-    "wrongAnswerExplanations": [
-      "Treating the sore throat with antibiotics without stopping clozapine is dangerous; the ANC of 0.4 × 10⁹/L represents life-threatening agranulocytosis requiring immediate drug cessation.",
-      "Dose reduction is wholly inadequate — agranulocytosis mandates complete and permanent clozapine cessation, not dose reduction.",
-      "Correct — ANC < 0.5 × 10⁹/L is agranulocytosis; clozapine must be stopped immediately and the patient admitted urgently.",
-      "G-CSF is an adjunct therapy that may be used in hospital under specialist guidance, but cannot be commenced in the community without first stopping clozapine and admitting the patient.",
-      "Switching to olanzapine while clozapine is continued does not address the emergency — clozapine must be stopped completely and immediately."
-    ],
-    "clinicalPearl": "ANC < 0.5 × 10⁹/L on clozapine = agranulocytosis: stop clozapine immediately, admit urgently, and never rechallenge — this is a permanent contraindication.",
-    "keyClue": "ANC 0.4 × 10⁹/L with fever and sore throat in a clozapine patient — agranulocytosis requiring immediate cessation and emergency admission.",
-    "commonExamTrap": "Reducing the dose or starting antibiotics while continuing clozapine — any degree of agranulocytosis requires complete and immediate drug cessation.",
-    "missedConcept": "Clozapine agranulocytosis thresholds: neutrophils 1.5–2.0 = amber (increased monitoring), < 1.5 = stop clozapine, < 0.5 = agranulocytosis — emergency admission.",
-    "isRedFlagQuestion": true,
-    "redFlagReason": "Clozapine-induced agranulocytosis is potentially fatal if the drug is not stopped immediately; continued exposure in the context of ANC < 0.5 × 10⁹/L risks overwhelming sepsis."
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Personality Disorders",
-    "sourceFile": "2 Personality Disorders.pdf",
-    "topic": "Antisocial personality disorder",
-    "subtopic": "Risk assessment and management in clinical settings",
-    "difficulty": "Medium",
-    "questionType": "Management",
-    "clinicalStem": "A 32-year-old man with a documented history of antisocial personality disorder is referred to the community mental health team by his probation officer following release from prison for assault. He has a history of childhood conduct disorder. He reports no current suicidal ideation and no psychotic symptoms. He describes using alcohol daily and occasional cocaine. He is irritable during the interview and minimises his past violence, describing victims as 'deserving it'. His partner is present. What is the most important management priority at this stage?",
-    "options": [
-      "Prescribe antipsychotic medication to reduce his irritability and aggression",
-      "Conduct a structured risk assessment of violence and safeguarding of his partner, and refer to substance misuse services",
-      "Arrange urgent inpatient admission for risk management",
-      "Begin dialectical behaviour therapy (DBT) immediately",
-      "Diagnose comorbid bipolar disorder based on his irritability and refer to a mood disorders clinic"
-    ],
-    "correctAnswerIndex": 1,
-    "explanation": "In antisocial personality disorder, structured risk assessment for violence is the cornerstone of management, particularly given his history of violence, substance misuse, and minimisation of harm. Safeguarding his partner is a statutory duty given her presence and his history of assault. Substance misuse is a major modifiable risk factor for violence in ASPD and must be addressed through dedicated referral. There is no indication for antipsychotic medication, inpatient admission, or a diagnosis of bipolar disorder.",
-    "wrongAnswerExplanations": [
-      "Antipsychotics are not indicated for ASPD without comorbid psychosis; irritability alone does not justify antipsychotic prescribing.",
-      "Correct — structured violence risk assessment, partner safeguarding, and substance misuse referral are the priority management steps.",
-      "Inpatient admission is not indicated — there is no acute psychiatric emergency, and inpatient environments do not benefit ASPD in the absence of a comorbid treatable condition.",
-      "DBT is evidence-based for emotionally unstable (borderline) PD, not ASPD; it is not the immediate management priority here.",
-      "Irritability in ASPD does not indicate bipolar disorder — diagnosing a mood disorder without meeting criteria is harmful and may result in inappropriate prescribing."
-    ],
-    "clinicalPearl": "In ASPD, the priority is structured violence risk assessment, partner/third-party safeguarding, and addressing modifiable risk factors (especially substance misuse) — not pharmacotherapy.",
-    "keyClue": "History of violence, substance misuse, partner present, minimisation of aggression — structured risk assessment and safeguarding are the immediate priorities.",
-    "commonExamTrap": "Prescribing antipsychotics for irritability in ASPD without comorbid psychosis — irritability is not an indication for antipsychotics in this context.",
-    "missedConcept": "Risk to third parties (partner safeguarding) is a clinical and legal priority in ASPD management and must not be overlooked.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["antisocial personality disorder", "risk assessment", "safeguarding", "substance misuse", "management"]
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "ECT",
-    "sourceFile": "2 ECT.pdf",
-    "topic": "ECT consent and capacity",
-    "subtopic": "ECT under the Mental Health Act",
-    "difficulty": "Hard",
-    "questionType": "Ethics",
-    "clinicalStem": "A 55-year-old woman with severe depression is admitted under Section 3 of the Mental Health Act. She has not eaten for 12 days and requires NG feeding. She states she does not want ECT because 'it will damage my brain.' Her psychiatrist assesses her and concludes that her refusal is driven by the severe depression itself (she believes she deserves to die and that recovery is impossible). Her depressive nihilism is impairing her capacity to weigh the benefits of treatment. Her family strongly supports ECT. What is the most legally appropriate course of action in England and Wales?",
-    "options": [
-      "ECT cannot be given without consent under any circumstances — her refusal must be respected",
-      "ECT can be given under Section 58A of the Mental Health Act after a Second Opinion Appointed Doctor (SOAD) confirms it is appropriate",
-      "The family's consent is sufficient to proceed with ECT without further legal process",
-      "Apply to the Court of Protection for an emergency best-interests declaration before any ECT can proceed",
-      "ECT can be given immediately under Section 62 (urgent treatment) as this is a medical emergency"
-    ],
-    "correctAnswerIndex": 1,
-    "explanation": "Under the Mental Health Act 1983 (England and Wales), ECT for a detained patient who lacks capacity or is refusing is governed by Section 58A. ECT cannot be given to a refusing patient without a SOAD certificate, except in an emergency under Section 62. Since this is not an immediate life-threatening emergency requiring this exact moment's treatment, Section 58A applies: a SOAD must assess the patient and certify that ECT is appropriate and that the patient either lacks capacity or the SOAD overrides the refusal. Family consent alone has no legal standing under the MHA for detained patients.",
-    "wrongAnswerExplanations": [
-      "This is incorrect — ECT can be given without consent to detained patients under the Mental Health Act when statutory safeguards (SOAD under Section 58A) are met.",
-      "Correct — Section 58A of the MHA governs ECT for detained patients, requiring SOAD certification when the patient is refusing or lacks capacity.",
-      "Family consent has no legal authority to authorise treatment under the Mental Health Act for detained patients — it is not a substitute for SOAD certification.",
-      "The Court of Protection governs treatment under the Mental Capacity Act for informal patients who lack capacity — for a detained patient, the Mental Health Act provides the legal framework (Section 58A), not the Court of Protection.",
-      "Section 62 permits urgent ECT without SOAD when treatment is immediately necessary to save life or prevent serious deterioration; while this patient is deteriorating, she does not meet the threshold for bypassing the SOAD process entirely, which is reserved for cases requiring treatment this moment."
-    ],
-    "clinicalPearl": "ECT for detained patients refusing or lacking capacity requires a SOAD certificate under Section 58A MHA — family consent and best-interests declarations under the MCA do not apply to detained patients.",
-    "keyClue": "Detained patient (Section 3), refusing ECT, capacity impaired by depression, not an immediate life-or-death emergency — Section 58A SOAD process applies.",
-    "commonExamTrap": "Applying the Mental Capacity Act (Court of Protection) to a detained patient — the MHA takes precedence for detained patients, not the MCA.",
-    "missedConcept": "The distinction between MHA Section 58A (ECT, detained patients) and MCA best-interests (informal patients lacking capacity) is a key legal and ethical principle in ECT management.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["ECT", "Mental Health Act", "Section 58A", "SOAD", "consent", "capacity"]
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Schizophrenia & Other Psychotic Disorders 1",
-    "sourceFile": "1.1 Schizophrenia & Other Psychotic Disorders 1.pdf",
-    "topic": "Schizoaffective disorder vs schizophrenia",
-    "subtopic": "Pharmacological management",
-    "difficulty": "Medium",
-    "questionType": "Pharmacology",
-    "clinicalStem": "A 38-year-old woman presents with a 2-year history of episodes combining prominent auditory hallucinations and persecutory delusions with concurrent periods of elevated mood, decreased sleep, and grandiosity. Between episodes she has persistent low-grade auditory hallucinations. Her PANSS shows significant positive symptoms even in euthymic periods. Mood episodes do not account for the entire duration of her illness. She has never been adequately treated. Collateral history confirms no substance use. Which pharmacological strategy is most appropriate?",
-    "options": [
-      "Lithium monotherapy targeting mood stabilisation",
-      "SSRI antidepressant monotherapy to address affective symptoms",
-      "Antipsychotic monotherapy (e.g., olanzapine) targeting both psychotic and mood symptoms",
-      "Antipsychotic plus mood stabiliser (e.g., olanzapine plus sodium valproate)",
-      "No medication until further diagnostic clarity is achieved over the next 6 months"
-    ],
-    "correctAnswerIndex": 3,
-    "explanation": "Schizoaffective disorder requires treatment that addresses both psychotic and mood components. The evidence-based approach is an antipsychotic (to address continuous psychotic symptoms) combined with a mood stabiliser such as sodium valproate or lithium (to stabilise mood episodes). Antipsychotic monotherapy alone may be insufficient for the affective component. Mood stabiliser alone is insufficient for the psychotic symptoms that persist between episodes. Deferring treatment causes ongoing harm.",
-    "wrongAnswerExplanations": [
-      "Lithium monotherapy is insufficient for managing the psychotic symptoms of schizoaffective disorder, which persist between mood episodes.",
-      "SSRI monotherapy has no antipsychotic efficacy and may precipitate manic or psychotic exacerbation in schizoaffective disorder.",
-      "Antipsychotic monotherapy can address both components in some patients but the combination with a mood stabiliser provides more robust protection against affective relapse in schizoaffective disorder.",
-      "Correct — combination of antipsychotic plus mood stabiliser addresses both psychotic and affective dimensions of schizoaffective disorder.",
-      "Deferring treatment for a patient with a clear 2-year history meeting diagnostic criteria causes unnecessary suffering and increases relapse risk."
-    ],
-    "clinicalPearl": "Schizoaffective disorder typically requires both an antipsychotic (for persistent psychotic symptoms) and a mood stabiliser (for affective episodes) — monotherapy with either alone is usually insufficient.",
-    "keyClue": "Psychotic symptoms persisting between mood episodes, combined with recurrent mood episodes — schizoaffective disorder requiring dual pharmacotherapy.",
-    "commonExamTrap": "Treating schizoaffective disorder as either pure schizophrenia (antipsychotic only) or pure bipolar disorder (mood stabiliser only) — both components require targeted treatment.",
-    "missedConcept": "The diagnostic criterion that psychotic symptoms in schizoaffective disorder must exist independently of mood episodes distinguishes it from psychotic depression or bipolar with psychotic features.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["schizoaffective disorder", "pharmacology", "mood stabiliser", "antipsychotic", "management"]
-  },
-  {
-    "specialty": "Psychiatry & Neurology",
-    "subspecialty": "Psychiatry",
-    "sourceLecture": "Personality Disorders",
-    "sourceFile": "2 Personality Disorders.pdf",
-    "topic": "Emotionally unstable personality disorder — acute crisis",
-    "subtopic": "Safe prescribing and de-escalation",
-    "difficulty": "Hard",
-    "questionType": "Management",
-    "clinicalStem": "A 27-year-old woman with a well-established diagnosis of emotionally unstable (borderline) personality disorder is brought to A&E by ambulance after cutting her forearms superficially following a relationship argument. She has 14 previous A&E attendances in the past year, all following similar episodes. She is medically cleared. She is tearful but articulate, denies suicidal intent, and describes feeling 'empty and panicked.' The psychiatric liaison team assess her. She demands admission and asks for diazepam 'to calm down'. The team concludes there is no indication for inpatient admission. Which response best manages this presentation?",
-    "options": [
-      "Admit involuntarily under the Mental Health Act to prevent further self-harm",
-      "Prescribe regular diazepam for outpatient anxiolysis to reduce crisis frequency",
-      "Provide brief psychological first aid, crisis de-escalation, activate the crisis plan, and arrange early community follow-up",
-      "Discharge immediately without follow-up to avoid reinforcing help-seeking behaviour",
-      "Commence an SSRI and a regular antipsychotic at this A&E visit to reduce emotional dysregulation"
-    ],
-    "correctAnswerIndex": 2,
-    "explanation": "In emotionally unstable (borderline) personality disorder, repeated A&E attendances after self-harm are a recognised pattern. Evidence-based management avoids unnecessary hospitalisation (which can reinforce maladaptive behaviours), avoids benzodiazepine prescribing (high risk of dependence and misuse in BPD), and focuses on: brief de-escalation, activation of an existing crisis plan, referral to community mental health or crisis teams, and early follow-up. Pharmacotherapy is symptom-targeted and not commenced acutely in A&E.",
-    "wrongAnswerExplanations": [
-      "Involuntary admission is not indicated — she has no suicidal intent, is articulate, and inpatient admission for BPD crises without psychosis or severe depression can be harmful.",
-      "Regular benzodiazepines are contraindicated in BPD — high risk of dependence, escalating demands, and they do not address the underlying emotional dysregulation.",
-      "Correct — brief de-escalation, crisis plan activation, and early community follow-up is the evidence-based management approach for BPD crisis presentations.",
-      "Abrupt discharge without engagement or follow-up is harmful and increases risk of escalating self-harm — it misinterprets boundary-setting as abandonment.",
-      "Commencing medications acutely in A&E without a structured psychiatric review is inappropriate; pharmacotherapy in BPD is symptom-targeted and planned in a community setting."
-    ],
-    "clinicalPearl": "BPD crisis management prioritises de-escalation, crisis plan activation, and community follow-up — avoid benzodiazepines, unnecessary admission, and acute pharmacological loading in A&E.",
-    "keyClue": "BPD, superficial self-harm, medically cleared, demanding diazepam, no suicidal intent — de-escalation and crisis plan activation, not admission or benzodiazepines.",
-    "commonExamTrap": "Prescribing benzodiazepines to 'calm' a BPD patient in crisis — this reinforces maladaptive patterns and risks dependence; it is specifically not recommended.",
-    "missedConcept": "Consistent limit-setting combined with a structured crisis plan, not hospitalisation or sedative prescribing, is the evidence-based response to recurrent BPD crises in A&E.",
-    "isRedFlagQuestion": false,
-    "redFlagReason": "",
-    "tags": ["borderline personality disorder", "self-harm", "crisis management", "A&E", "benzodiazepines"]
-  }
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Schizophrenia & Other Psychotic Disorders 1",
+  "sourceFile": "1.1 Schizophrenia & Other Psychotic Disorders 1.pdf",
+  "topic": "First-episode psychosis management",
+  "subtopic": "Antipsychotic initiation",
+  "difficulty": "Medium",
+  "questionType": "Management",
+  "clinicalStem": "A 22-year-old male university student is brought to the emergency department by his flatmates who report he has been awake for 4 days, barricading his door and shouting that government agents have installed cameras in his room. He is speaking rapidly, appears frightened, and reports hearing voices telling him to protect himself. He has no prior psychiatric history. Vital signs are normal. Urine drug screen is negative. Physical examination is unremarkable. He agrees to take oral medication. Which of the following is the most appropriate initial pharmacological management?",
+  "options": [
+   "Oral haloperidol 5 mg with oral lorazepam 1-2 mg",
+   "Intramuscular haloperidol 10 mg as a single loading dose",
+   "Oral risperidone 2 mg with a plan to titrate slowly",
+   "Oral clozapine 25 mg twice daily",
+   "Oral lithium 400 mg twice daily"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "In first-episode psychosis, low-dose atypical antipsychotics such as risperidone are first-line because first-episode patients are highly sensitive to extrapyramidal side effects and require lower doses than chronically ill patients. Starting at 2 mg and titrating slowly optimises tolerability and adherence. Clozapine is reserved for treatment-resistant schizophrenia after two adequate antipsychotic trials. Lithium is a mood stabiliser, not an antipsychotic.",
+  "wrongAnswerExplanations": [
+   "Haloperidol plus lorazepam is used for acute agitation requiring rapid sedation; this patient is cooperative and oral medication has been accepted, so high-potency typical antipsychotic plus benzodiazepine is excessive as a first step.",
+   "IM haloperidol at 10 mg is an aggressive intervention for a patient who is accepting oral medication; it risks severe extrapyramidal side effects including dystonia in an antipsychotic-naive young man.",
+   "Correct — oral risperidone 2 mg is an appropriate low-dose atypical antipsychotic start for a cooperative first-episode patient.",
+   "Clozapine is restricted to treatment-resistant schizophrenia and requires agranulocytosis monitoring; it is absolutely contraindicated as a first-line agent.",
+   "Lithium treats bipolar disorder; it has no primary antipsychotic efficacy and is inappropriate here."
+  ],
+  "clinicalPearl": "First-episode psychosis patients require lower antipsychotic doses and are disproportionately vulnerable to EPS — start low, go slow with an atypical agent.",
+  "keyClue": "No prior psychiatric history, cooperative, accepting oral medication — first-episode, low-dose atypical is appropriate.",
+  "commonExamTrap": "Choosing clozapine because the symptoms are severe — clozapine is never first-line regardless of severity.",
+  "missedConcept": "The principle that first-episode psychosis patients are antipsychotic-naive and EPS-sensitive, requiring cautious low-dose initiation.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "first-episode psychosis",
+   "antipsychotics",
+   "risperidone",
+   "schizophrenia",
+   "management"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Schizophrenia & Other Psychotic Disorders 2",
+  "sourceFile": "1.2 Schizophrenia & Other Psychotic Disorders 2.pdf",
+  "topic": "Neuroleptic malignant syndrome",
+  "subtopic": "Recognition and emergency management",
+  "difficulty": "Hard",
+  "questionType": "Emergency",
+  "clinicalStem": "A 35-year-old man with schizophrenia was started on depot fluphenazine 5 days ago after refusing oral medication. He is brought to A&E by his carer, who reports he became confused yesterday. On examination: temperature 39.8°C, BP 160/98 mmHg, HR 118 bpm, diaphoresis, diffuse lead-pipe rigidity on passive movement of all limbs, and GCS 13/15. Investigations show CK 12,400 U/L, WBC 14.2 × 10⁹/L, creatinine 178 µmol/L. What is the single most important immediate management step?",
+  "options": [
+   "Administer oral dantrolene 25 mg and monitor in the psychiatric ward",
+   "Stop the antipsychotic and transfer to a medical high-dependency unit for supportive care",
+   "Administer IV lorazepam to reduce rigidity and observe for 4 hours",
+   "Switch to oral clozapine urgently as it has a lower risk of NMS",
+   "Perform lumbar puncture to exclude infective meningitis before stopping antipsychotic"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Neuroleptic malignant syndrome (NMS) is a life-threatening reaction to antipsychotics characterised by hyperthermia, rigidity, autonomic instability, and altered consciousness, confirmed here by markedly elevated CK and developing renal impairment. The single most important step is immediate cessation of the offending antipsychotic and transfer to HDU/ICU for aggressive supportive care including IV fluids, cooling, and monitoring for rhabdomyolysis-induced acute kidney injury. Dantrolene and bromocriptine may be added but are adjuncts; supportive care in an appropriate environment is paramount.",
+  "wrongAnswerExplanations": [
+   "Oral dantrolene alone on a psychiatric ward is dangerously inadequate — NMS can be fatal without intensive medical support and IV access for fluids and cooling.",
+   "Correct — immediate antipsychotic cessation and HDU transfer is the cornerstone of NMS management.",
+   "IV lorazepam reduces rigidity transiently but does not treat NMS; observing for 4 hours without stopping the antipsychotic risks progression to multi-organ failure.",
+   "Switching to clozapine is contraindicated in acute NMS — all antipsychotics must be stopped and the patient must recover fully before any rechallenge is considered.",
+   "Lumbar puncture to exclude meningitis is reasonable if the diagnosis is genuinely uncertain, but the combination of antipsychotic exposure, hyperthermia, lead-pipe rigidity, and CK >10,000 U/L makes NMS the clear diagnosis; delaying antipsychotic cessation for LP is dangerous."
+  ],
+  "clinicalPearl": "NMS triad = hyperthermia + lead-pipe rigidity + altered consciousness after antipsychotic exposure — stop the drug immediately and transfer to ICU/HDU.",
+  "keyClue": "Lead-pipe rigidity, hyperthermia, CK 12,400 U/L, and recent antipsychotic initiation are pathognomonic of NMS.",
+  "commonExamTrap": "Continuing the antipsychotic while 'treating' the fever, or switching to clozapine — any antipsychotic can cause NMS and all must be stopped.",
+  "missedConcept": "NMS is a medical emergency requiring HDU-level care, not management on a psychiatric ward.",
+  "isRedFlagQuestion": true,
+  "redFlagReason": "NMS is potentially fatal; delayed recognition and failure to stop the antipsychotic or transfer to HDU are associated with multi-organ failure and death.",
+  "tags": [
+   "neuroleptic malignant sy"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Schizophrenia & Other Psychotic Disorders 2",
+  "sourceFile": "1.2 Schizophrenia & Other Psychotic Disorders 2.pdf",
+  "topic": "Treatment-resistant schizophrenia",
+  "subtopic": "Clozapine initiation criteria",
+  "difficulty": "Medium",
+  "questionType": "Management",
+  "clinicalStem": "A 28-year-old woman with schizophrenia has been treated for 4 years. She has had adequate trials of olanzapine (18 months, optimised dose, good adherence confirmed by plasma levels) and aripiprazole (14 months, optimised dose). Both trials resulted in persistent positive symptoms including paranoid delusions and command hallucinations; she remains unable to care for herself. She has no personal or family history of epilepsy and no cardiac history. Blood results today: normal FBC, ECG shows QTc 390 ms. She consents to the next step. What is the most appropriate pharmacological escalation?",
+  "options": [
+   "Add lithium augmentation to her current aripiprazole",
+   "Switch to depot risperidone injections to ensure adherence",
+   "Initiate clozapine with regular FBC monitoring",
+   "Add haloperidol to aripiprazole for a combination typical/atypical strategy",
+   "Increase aripiprazole to above-licence dose and review in 3 months"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "Treatment-resistant schizophrenia is defined as failure of at least two adequate antipsychotic trials (adequate dose, adequate duration, confirmed adherence). This patient meets criteria, and clozapine is the only antipsychotic with proven efficacy in treatment-resistant schizophrenia. Regular FBC monitoring (minimum weekly for 18 weeks, then fortnightly) is mandatory because of the risk of agranulocytosis. The QTc is normal and there are no contraindications.",
+  "wrongAnswerExplanations": [
+   "Lithium augmentation can be considered for incomplete response but is not the evidence-based next step after two failed antipsychotic trials — clozapine is indicated.",
+   "Poor adherence has been excluded by plasma level monitoring; switching to depot addresses adherence, not treatment resistance.",
+   "Correct — clozapine is the evidence-based treatment for schizophrenia refractory to two adequate antipsychotic trials.",
+   "Combining two antipsychotics is not recommended as a treatment strategy for resistance; it increases side-effect burden without evidence of added efficacy.",
+   "Exceeding licensed doses increases adverse effects without evidence of improved efficacy; it is not appropriate management of treatment resistance."
+  ],
+  "clinicalPearl": "Clozapine is the gold-standard treatment for treatment-resistant schizophrenia — two failed adequate trials (confirmed by plasma levels) are the threshold for initiation.",
+  "keyClue": "Two adequate antipsychotic trials with confirmed adherence and persistent positive symptoms = treatment-resistant schizophrenia requiring clozapine.",
+  "commonExamTrap": "Switching to another atypical or adding a mood stabiliser instead of initiating clozapine after confirmed treatment resistance.",
+  "missedConcept": "Clozapine is not just another antipsychotic option — it has unique efficacy in treatment-resistant schizophrenia and should not be withheld when criteria are met.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "treatment-resistant schizophrenia",
+   "clozapine",
+   "management",
+   "antipsychotics"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Schizophrenia & Other Psychotic Disorders 1",
+  "sourceFile": "1.1 Schizophrenia & Other Psychotic Disorders 1.pdf",
+  "topic": "Acute behavioural disturbance / rapid tranquillisation",
+  "subtopic": "Immediate pharmacological management",
+  "difficulty": "Hard",
+  "questionType": "Emergency",
+  "clinicalStem": "A 30-year-old man with known schizophrenia is brought to A&E by police after threatening neighbours with a knife. In the department he is shouting, throwing chairs, and has required physical restraint by four members of staff. He has no known drug allergies. He refuses oral medication. He weighs approximately 80 kg. His last antipsychotic dose was unknown. Vital signs pre-restraint: HR 110 bpm, SpO2 97%, RR 18. What is the most appropriate pharmacological intervention for rapid tranquillisation?",
+  "options": [
+   "Oral promethazine 50 mg and wait 30 minutes before reconsidering",
+   "IM lorazepam 2 mg alone",
+   "IV haloperidol 10 mg bolus",
+   "IM haloperidol 5 mg plus IM lorazepam 2 mg (given as separate injections)",
+   "IM olanzapine 10 mg plus IM lorazepam 2 mg simultaneously"
+  ],
+  "correctAnswerIndex": 3,
+  "explanation": "For rapid tranquillisation in a violently agitated patient refusing oral medication, IM haloperidol (5 mg) combined with IM lorazepam (2 mg), administered as separate injections, is a well-evidenced and widely recommended regimen. The combination provides antipsychotic and anxiolytic/sedative effects. IV haloperidol is not recommended outside ITU due to QT-prolongation risk. IM olanzapine combined with IM benzodiazepine is specifically contraindicated due to risk of fatal respiratory depression.",
+  "wrongAnswerExplanations": [
+   "Oral promethazine is a first-line option for a patient willing to accept oral medication, but this patient is violently refusing all oral treatment — parenteral rapid tranquillisation is required immediately.",
+   "IM lorazepam alone can be used but the combination with a butyrophenone provides more effective tranquillisation in psychotic agitation; monotherapy is less effective.",
+   "IV haloperidol carries significant QTc-prolongation and arrhythmia risk and is not recommended for rapid tranquillisation outside a monitored ITU environment.",
+   "Correct — IM haloperidol 5 mg plus IM lorazepam 2 mg as separate injections is a standard rapid tranquillisation regimen for violent psychotic agitation.",
+   "IM olanzapine combined with IM benzodiazepine is explicitly contraindicated due to the risk of fatal cardiorespiratory arrest — this combination must never be given."
+  ],
+  "clinicalPearl": "Never combine IM olanzapine with IM benzodiazepine — the combination carries a risk of fatal respiratory depression and cardiac arrest.",
+  "keyClue": "Violent patient refusing oral medication with known schizophrenia — rapid tranquillisation with IM combination is required; the IM olanzapine + BZD combination is contraindicated.",
+  "commonExamTrap": "Choosing IM olanzapine plus lorazepam because olanzapine is a familiar atypical — this combination is specifically and absolutely contraindicated.",
+  "missedConcept": "The fatal interaction between IM olanzapine and IM benzodiazepines, which is a high-yield contraindication in rapid tranquillisation protocols.",
+  "isRedFlagQuestion": true,
+  "redFlagReason": "Violent agitation with physical restraint is an acute emergency; incorrect rapid tranquillisation choices (especially IM olanzapine + IM benzodiazepine) can cause fatal respiratory depression.",
+  "tags": [
+   "acute behavioural distur"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "ECT",
+  "sourceFile": "2 ECT.pdf",
+  "topic": "Electroconvulsive therapy indications",
+  "subtopic": "Emergency ECT",
+  "difficulty": "Medium",
+  "questionType": "Management",
+  "clinicalStem": "A 68-year-old woman with severe recurrent depression is admitted from a care home. She has stopped eating and drinking for 8 days, is mute, and lies in bed not responding to verbal stimuli. She has lost 7 kg in the past month. She has no family to give collateral history. Three previous admissions show she responded well to ECT. Psychiatry reviews her and diagnoses severe depressive episode with catatonic features. She has been trialled on sertraline for 6 weeks with no response prior to admission. Her sodium is 128 mmol/L. What is the most appropriate next management step?",
+  "options": [
+   "Increase sertraline to maximum dose and add mirtazapine for 4 more weeks",
+   "Start IV fluid resuscitation, NG feeding, and refer for urgent ECT",
+   "Commence lithium augmentation of antidepressant therapy",
+   "Initiate a benzodiazepine challenge (IV lorazepam) for catatonia and defer ECT",
+   "Transfer to ICU for total parenteral nutrition while awaiting antidepressant response"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "This patient has life-threatening severe depression with catatonia — she is not eating or drinking, is mute, and has a hyponatraemia likely secondary to poor intake. ECT is the first-line treatment for severe depressive episodes with catatonic features, especially when there is immediate risk to life from refusal to eat or drink. Previous good response to ECT strengthens the indication. IV fluids and NG feeding address the acute medical compromise while ECT is being arranged urgently. Under the Mental Capacity Act / Mental Health Act, treatment can be given without consent when life is at risk.",
+  "wrongAnswerExplanations": [
+   "Further antidepressant trials are inappropriate when a patient is already medically compromised from not eating or drinking — ECT is needed urgently, not pharmacological escalation.",
+   "Correct — urgent ECT with immediate medical stabilisation (fluids, nutrition) is the appropriate management for life-threatening catatonic depression with previous ECT response.",
+   "Lithium augmentation takes weeks and is wholly inappropriate in a patient who is medically deteriorating and refusing intake.",
+   "A lorazepam challenge can diagnose and temporarily relieve catatonia, but this patient is already compromised and previous ECT response is established — ECT should not be deferred.",
+   "ICU for TPN without psychiatric treatment addresses the metabolic problem but ignores the psychiatric emergency; ECT must be the primary psychiatric intervention."
+  ],
+  "clinicalPearl": "ECT is the fastest and most effective treatment for severe depression with catatonia or life-threatening refusal to eat/drink — it can be given under emergency legal provisions without consent.",
+  "keyClue": "Severe depression, catatonia, 8-day refusal to eat/drink, previous ECT response, failed antidepressant — life-threatening indication for urgent ECT.",
+  "commonExamTrap": "Waiting for antidepressant response or trying augmentation when the patient is medically compromised — ECT is life-saving and must not be delayed.",
+  "missedConcept": "ECT indications include life-threatening severity (refusal to eat/drink, catatonia) as an emergency indication that overrides the usual 'try medications first' hierarchy.",
+  "isRedFlagQuestion": true,
+  "redFlagReason": "Refusal to eat and drink for 8 days with hyponatraemia is life-threatening; failure to recognise the emergency ECT indication risks death.",
+  "tags": [
+   "electroconvulsive therap"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Personality Disorders",
+  "sourceFile": "2 Personality Disorders.pdf",
+  "topic": "Borderline personality disorder — acute self-harm",
+  "subtopic": "Emergency management priorities",
+  "difficulty": "Medium",
+  "questionType": "Emergency",
+  "clinicalStem": "A 24-year-old woman with a documented history of emotionally unstable (borderline) personality disorder attends A&E at 2 am after taking 20 paracetamol tablets approximately 3 hours ago following an argument with her partner. She is tearful and says she 'didn't really want to die' but is now scared. She weighs 62 kg. Serum paracetamol level is above the treatment line on the nomogram. She has no hepatic disease. What is the immediate management priority?",
+  "options": [
+   "Perform a full mental state examination and refer to the psychiatric liaison team before any medical treatment",
+   "Discharge her with a follow-up outpatient psychology appointment given her known BPD and low lethality intent",
+   "Start N-acetylcysteine (NAC) infusion immediately according to weight-based protocol",
+   "Administer activated charcoal 50 g orally and observe for 4 hours",
+   "Obtain collateral history from her partner before making any management decisions"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "Paracetamol level above the treatment line on the nomogram is an absolute indication for N-acetylcysteine (NAC) infusion regardless of the psychiatric diagnosis or perceived intent. Medical stabilisation must precede psychiatric assessment — a BPD diagnosis does not alter the medical emergency. NAC is the antidote that prevents hepatotoxicity and must be started promptly; efficacy diminishes significantly if delayed beyond 8–10 hours post-ingestion. Psychiatric review follows medical treatment.",
+  "wrongAnswerExplanations": [
+   "Psychiatric assessment is important but must not precede or delay medical treatment when there is confirmed paracetamol toxicity above the treatment threshold.",
+   "Discharging a patient with confirmed toxic paracetamol levels without medical treatment is potentially fatal and constitutes negligence regardless of psychiatric diagnosis.",
+   "Correct — NAC infusion is the life-saving intervention required immediately when paracetamol level exceeds the treatment line.",
+   "Activated charcoal is most effective within 1 hour of ingestion; at 3 hours it has limited utility for paracetamol and does not replace NAC when levels are above the treatment line.",
+   "Collateral history may be useful for psychiatric assessment but must never delay life-saving medical treatment."
+  ],
+  "clinicalPearl": "A personality disorder diagnosis never reduces the urgency of medical treatment — paracetamol above the treatment line requires immediate NAC regardless of intent or psychiatric history.",
+  "keyClue": "Paracetamol level above the treatment nomogram line at 3 hours post-ingestion — NAC is the immediate priority.",
+  "commonExamTrap": "Prioritising psychiatric review before medical treatment because the patient has BPD and stated low lethality intent — this leads to preventable hepatic failure.",
+  "missedConcept": "Medical emergencies take absolute priority over psychiatric assessment; the treatment nomogram, not psychiatric intent, drives NAC initiation.",
+  "isRedFlagQuestion": true,
+  "redFlagReason": "Paracetamol overdose above the treatment line causes fulminant hepatic failure if NAC is not started promptly — delay is life-threatening.",
+  "tags": [
+   "borderline personality d"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "ECT",
+  "sourceFile": "2 ECT.pdf",
+  "topic": "ECT contraindications and risks",
+  "subtopic": "Pre-ECT anaesthetic assessment",
+  "difficulty": "Hard",
+  "questionType": "Management",
+  "clinicalStem": "A 72-year-old man with severe psychotic depression, resistant to two antidepressant trials, is being considered for ECT. His psychiatrist refers him for anaesthetic pre-assessment. His medical history includes hypertension (controlled), well-managed type 2 diabetes, and a left frontal meningioma identified on MRI 6 months ago, which is stable with no mass effect on current imaging. His neurologist reports no raised intracranial pressure. His MMSE is 24/30. Which of the following best describes the appropriate approach to ECT in this patient?",
+  "options": [
+   "ECT is absolutely contraindicated due to the intracranial meningioma and should never be offered",
+   "ECT can proceed after multidisciplinary assessment confirms no raised ICP, with careful anaesthetic monitoring",
+   "ECT must be deferred until the meningioma is surgically resected",
+   "ECT is contraindicated because his MMSE is below 28, indicating cognitive impairment",
+   "ECT may only be considered if he is under 70 years old; age 72 is a contraindication"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "ECT has no absolute contraindications in modern practice. Raised intracranial pressure is the main risk with intracranial lesions because ECT transiently increases ICP. However, this patient's lesion is stable, there is no mass effect, and the neurologist has confirmed no raised ICP — making ECT feasible after MDT review. Careful anaesthetic management (hyperventilation, positioning) can mitigate ICP fluctuation. Age and mild cognitive impairment are not contraindications. The benefit of treating severe psychotic depression must be weighed against risk.",
+  "wrongAnswerExplanations": [
+   "There are no absolute contraindications to ECT — intracranial lesions without raised ICP are a relative consideration, not an absolute bar.",
+   "Correct — ECT can proceed with MDT agreement when ICP is confirmed to be normal, with appropriate anaesthetic precautions.",
+   "Surgical resection of a stable meningioma is not required before ECT — the key risk factor (raised ICP) has been excluded.",
+   "Mild cognitive impairment is a relative concern (ECT may worsen cognition temporarily) but is not a contraindication; it informs monitoring and consent, not a refusal to treat.",
+   "Age is not a contraindication to ECT; elderly patients with severe depression may have the most to gain, and ECT is frequently used safely in patients over 70."
+  ],
+  "clinicalPearl": "ECT has no absolute contraindications — raised ICP is the main risk with intracranial pathology, and if ICP is confirmed normal by neuroimaging and specialist review, ECT can proceed safely.",
+  "keyClue": "Stable meningioma, no mass effect, neurologist confirms no raised ICP — the key contraindication has been excluded, so ECT can proceed.",
+  "commonExamTrap": "Treating any intracranial pathology as an absolute ECT contraindication — the risk is raised ICP, not the lesion itself.",
+  "missedConcept": "ECT has no absolute contraindications; conditions like intracranial tumours are relative risks that require MDT assessment, not automatic exclusion.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "ECT",
+   "contraindications",
+   "intracranial pressure",
+   "meningioma",
+   "psychiatry"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Schizophrenia & Other Psychotic Disorders 2",
+  "sourceFile": "1.2 Schizophrenia & Other Psychotic Disorders 2.pdf",
+  "topic": "Clozapine adverse effects",
+  "subtopic": "Agranulocytosis — emergency recognition",
+  "difficulty": "Hard",
+  "questionType": "Emergency",
+  "clinicalStem": "A 40-year-old man with treatment-resistant schizophrenia has been stable on clozapine 400 mg/day for 8 months. He presents to his GP with a 3-day history of sore throat, fever (38.4°C), and feeling unwell. His most recent weekly FBC (10 days ago) showed WBC 4.8 × 10⁹/L and neutrophils 2.4 × 10⁹/L. Today's urgent FBC shows WBC 2.1 × 10⁹/L and absolute neutrophil count (ANC) 0.4 × 10⁹/L. What is the most appropriate immediate action?",
+  "options": [
+   "Prescribe a 5-day course of oral amoxicillin and repeat FBC in 1 week",
+   "Reduce clozapine dose by 50% and repeat FBC in 48 hours",
+   "Stop clozapine immediately and arrange urgent hospital admission for haematological assessment and monitoring",
+   "Continue clozapine and start prophylactic G-CSF (granulocyte colony-stimulating factor) in the community",
+   "Switch to olanzapine urgently while continuing FBC monitoring weekly"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "An ANC below 0.5 × 10⁹/L constitutes agranulocytosis — a life-threatening clozapine emergency. Clozapine must be stopped immediately and must never be restarted. The patient requires urgent hospital admission for haematological review, infection management, and monitoring. G-CSF may be used in hospital under specialist guidance. Reducing the dose or switching to another antipsychotic while continuing clozapine is dangerous — the drug must be stopped at once.",
+  "wrongAnswerExplanations": [
+   "Treating the sore throat with antibiotics without stopping clozapine is dangerous; the ANC of 0.4 × 10⁹/L represents life-threatening agranulocytosis requiring immediate drug cessation.",
+   "Dose reduction is wholly inadequate — agranulocytosis mandates complete and permanent clozapine cessation, not dose reduction.",
+   "Correct — ANC < 0.5 × 10⁹/L is agranulocytosis; clozapine must be stopped immediately and the patient admitted urgently.",
+   "G-CSF is an adjunct therapy that may be used in hospital under specialist guidance, but cannot be commenced in the community without first stopping clozapine and admitting the patient.",
+   "Switching to olanzapine while clozapine is continued does not address the emergency — clozapine must be stopped completely and immediately."
+  ],
+  "clinicalPearl": "ANC < 0.5 × 10⁹/L on clozapine = agranulocytosis: stop clozapine immediately, admit urgently, and never rechallenge — this is a permanent contraindication.",
+  "keyClue": "ANC 0.4 × 10⁹/L with fever and sore throat in a clozapine patient — agranulocytosis requiring immediate cessation and emergency admission.",
+  "commonExamTrap": "Reducing the dose or starting antibiotics while continuing clozapine — any degree of agranulocytosis requires complete and immediate drug cessation.",
+  "missedConcept": "Clozapine agranulocytosis thresholds: neutrophils 1.5–2.0 = amber (increased monitoring), < 1.5 = stop clozapine, < 0.5 = agranulocytosis — emergency admission.",
+  "isRedFlagQuestion": true,
+  "redFlagReason": "Clozapine-induced agranulocytosis is potentially fatal if the drug is not stopped immediately; continued exposure in the context of ANC < 0.5 × 10⁹/L risks overwhelming sepsis.",
+  "tags": [
+   "clozapine adverse effect"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Personality Disorders",
+  "sourceFile": "2 Personality Disorders.pdf",
+  "topic": "Antisocial personality disorder",
+  "subtopic": "Risk assessment and management in clinical settings",
+  "difficulty": "Medium",
+  "questionType": "Management",
+  "clinicalStem": "A 32-year-old man with a documented history of antisocial personality disorder is referred to the community mental health team by his probation officer following release from prison for assault. He has a history of childhood conduct disorder. He reports no current suicidal ideation and no psychotic symptoms. He describes using alcohol daily and occasional cocaine. He is irritable during the interview and minimises his past violence, describing victims as 'deserving it'. His partner is present. What is the most important management priority at this stage?",
+  "options": [
+   "Prescribe antipsychotic medication to reduce his irritability and aggression",
+   "Conduct a structured risk assessment of violence and safeguarding of his partner, and refer to substance misuse services",
+   "Arrange urgent inpatient admission for risk management",
+   "Begin dialectical behaviour therapy (DBT) immediately",
+   "Diagnose comorbid bipolar disorder based on his irritability and refer to a mood disorders clinic"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "In antisocial personality disorder, structured risk assessment for violence is the cornerstone of management, particularly given his history of violence, substance misuse, and minimisation of harm. Safeguarding his partner is a statutory duty given her presence and his history of assault. Substance misuse is a major modifiable risk factor for violence in ASPD and must be addressed through dedicated referral. There is no indication for antipsychotic medication, inpatient admission, or a diagnosis of bipolar disorder.",
+  "wrongAnswerExplanations": [
+   "Antipsychotics are not indicated for ASPD without comorbid psychosis; irritability alone does not justify antipsychotic prescribing.",
+   "Correct — structured violence risk assessment, partner safeguarding, and substance misuse referral are the priority management steps.",
+   "Inpatient admission is not indicated — there is no acute psychiatric emergency, and inpatient environments do not benefit ASPD in the absence of a comorbid treatable condition.",
+   "DBT is evidence-based for emotionally unstable (borderline) PD, not ASPD; it is not the immediate management priority here.",
+   "Irritability in ASPD does not indicate bipolar disorder — diagnosing a mood disorder without meeting criteria is harmful and may result in inappropriate prescribing."
+  ],
+  "clinicalPearl": "In ASPD, the priority is structured violence risk assessment, partner/third-party safeguarding, and addressing modifiable risk factors (especially substance misuse) — not pharmacotherapy.",
+  "keyClue": "History of violence, substance misuse, partner present, minimisation of aggression — structured risk assessment and safeguarding are the immediate priorities.",
+  "commonExamTrap": "Prescribing antipsychotics for irritability in ASPD without comorbid psychosis — irritability is not an indication for antipsychotics in this context.",
+  "missedConcept": "Risk to third parties (partner safeguarding) is a clinical and legal priority in ASPD management and must not be overlooked.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "antisocial personality disorder",
+   "risk assessment",
+   "safeguarding",
+   "substance misuse",
+   "management"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "ECT",
+  "sourceFile": "2 ECT.pdf",
+  "topic": "ECT consent and capacity",
+  "subtopic": "ECT under the Mental Health Act",
+  "difficulty": "Hard",
+  "questionType": "Ethics",
+  "clinicalStem": "A 55-year-old woman with severe depression is admitted under Section 3 of the Mental Health Act. She has not eaten for 12 days and requires NG feeding. She states she does not want ECT because 'it will damage my brain.' Her psychiatrist assesses her and concludes that her refusal is driven by the severe depression itself (she believes she deserves to die and that recovery is impossible). Her depressive nihilism is impairing her capacity to weigh the benefits of treatment. Her family strongly supports ECT. What is the most legally appropriate course of action in England and Wales?",
+  "options": [
+   "ECT cannot be given without consent under any circumstances — her refusal must be respected",
+   "ECT can be given under Section 58A of the Mental Health Act after a Second Opinion Appointed Doctor (SOAD) confirms it is appropriate",
+   "The family's consent is sufficient to proceed with ECT without further legal process",
+   "Apply to the Court of Protection for an emergency best-interests declaration before any ECT can proceed",
+   "ECT can be given immediately under Section 62 (urgent treatment) as this is a medical emergency"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Under the Mental Health Act 1983 (England and Wales), ECT for a detained patient who lacks capacity or is refusing is governed by Section 58A. ECT cannot be given to a refusing patient without a SOAD certificate, except in an emergency under Section 62. Since this is not an immediate life-threatening emergency requiring this exact moment's treatment, Section 58A applies: a SOAD must assess the patient and certify that ECT is appropriate and that the patient either lacks capacity or the SOAD overrides the refusal. Family consent alone has no legal standing under the MHA for detained patients.",
+  "wrongAnswerExplanations": [
+   "This is incorrect — ECT can be given without consent to detained patients under the Mental Health Act when statutory safeguards (SOAD under Section 58A) are met.",
+   "Correct — Section 58A of the MHA governs ECT for detained patients, requiring SOAD certification when the patient is refusing or lacks capacity.",
+   "Family consent has no legal authority to authorise treatment under the Mental Health Act for detained patients — it is not a substitute for SOAD certification.",
+   "The Court of Protection governs treatment under the Mental Capacity Act for informal patients who lack capacity — for a detained patient, the Mental Health Act provides the legal framework (Section 58A), not the Court of Protection.",
+   "Section 62 permits urgent ECT without SOAD when treatment is immediately necessary to save life or prevent serious deterioration; while this patient is deteriorating, she does not meet the threshold for bypassing the SOAD process entirely, which is reserved for cases requiring treatment this moment."
+  ],
+  "clinicalPearl": "ECT for detained patients refusing or lacking capacity requires a SOAD certificate under Section 58A MHA — family consent and best-interests declarations under the MCA do not apply to detained patients.",
+  "keyClue": "Detained patient (Section 3), refusing ECT, capacity impaired by depression, not an immediate life-or-death emergency — Section 58A SOAD process applies.",
+  "commonExamTrap": "Applying the Mental Capacity Act (Court of Protection) to a detained patient — the MHA takes precedence for detained patients, not the MCA.",
+  "missedConcept": "The distinction between MHA Section 58A (ECT, detained patients) and MCA best-interests (informal patients lacking capacity) is a key legal and ethical principle in ECT management.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "ECT",
+   "Mental Health Act",
+   "Section 58A",
+   "SOAD",
+   "consent",
+   "capacity"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Schizophrenia & Other Psychotic Disorders 1",
+  "sourceFile": "1.1 Schizophrenia & Other Psychotic Disorders 1.pdf",
+  "topic": "Schizoaffective disorder vs schizophrenia",
+  "subtopic": "Pharmacological management",
+  "difficulty": "Medium",
+  "questionType": "Pharmacology",
+  "clinicalStem": "A 38-year-old woman presents with a 2-year history of episodes combining prominent auditory hallucinations and persecutory delusions with concurrent periods of elevated mood, decreased sleep, and grandiosity. Between episodes she has persistent low-grade auditory hallucinations. Her PANSS shows significant positive symptoms even in euthymic periods. Mood episodes do not account for the entire duration of her illness. She has never been adequately treated. Collateral history confirms no substance use. Which pharmacological strategy is most appropriate?",
+  "options": [
+   "Lithium monotherapy targeting mood stabilisation",
+   "SSRI antidepressant monotherapy to address affective symptoms",
+   "Antipsychotic monotherapy (e.g., olanzapine) targeting both psychotic and mood symptoms",
+   "Antipsychotic plus mood stabiliser (e.g., olanzapine plus sodium valproate)",
+   "No medication until further diagnostic clarity is achieved over the next 6 months"
+  ],
+  "correctAnswerIndex": 3,
+  "explanation": "Schizoaffective disorder requires treatment that addresses both psychotic and mood components. The evidence-based approach is an antipsychotic (to address continuous psychotic symptoms) combined with a mood stabiliser such as sodium valproate or lithium (to stabilise mood episodes). Antipsychotic monotherapy alone may be insufficient for the affective component. Mood stabiliser alone is insufficient for the psychotic symptoms that persist between episodes. Deferring treatment causes ongoing harm.",
+  "wrongAnswerExplanations": [
+   "Lithium monotherapy is insufficient for managing the psychotic symptoms of schizoaffective disorder, which persist between mood episodes.",
+   "SSRI monotherapy has no antipsychotic efficacy and may precipitate manic or psychotic exacerbation in schizoaffective disorder.",
+   "Antipsychotic monotherapy can address both components in some patients but the combination with a mood stabiliser provides more robust protection against affective relapse in schizoaffective disorder.",
+   "Correct — combination of antipsychotic plus mood stabiliser addresses both psychotic and affective dimensions of schizoaffective disorder.",
+   "Deferring treatment for a patient with a clear 2-year history meeting diagnostic criteria causes unnecessary suffering and increases relapse risk."
+  ],
+  "clinicalPearl": "Schizoaffective disorder typically requires both an antipsychotic (for persistent psychotic symptoms) and a mood stabiliser (for affective episodes) — monotherapy with either alone is usually insufficient.",
+  "keyClue": "Psychotic symptoms persisting between mood episodes, combined with recurrent mood episodes — schizoaffective disorder requiring dual pharmacotherapy.",
+  "commonExamTrap": "Treating schizoaffective disorder as either pure schizophrenia (antipsychotic only) or pure bipolar disorder (mood stabiliser only) — both components require targeted treatment.",
+  "missedConcept": "The diagnostic criterion that psychotic symptoms in schizoaffective disorder must exist independently of mood episodes distinguishes it from psychotic depression or bipolar with psychotic features.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "schizoaffective disorder",
+   "pharmacology",
+   "mood stabiliser",
+   "antipsychotic",
+   "management"
+  ]
+ },
+ {
+  "specialty": "Psychiatry & Neurology",
+  "subspecialty": "Psychiatry",
+  "sourceLecture": "Personality Disorders",
+  "sourceFile": "2 Personality Disorders.pdf",
+  "topic": "Emotionally unstable personality disorder — acute crisis",
+  "subtopic": "Safe prescribing and de-escalation",
+  "difficulty": "Hard",
+  "questionType": "Management",
+  "clinicalStem": "A 27-year-old woman with a well-established diagnosis of emotionally unstable (borderline) personality disorder is brought to A&E by ambulance after cutting her forearms superficially following a relationship argument. She has 14 previous A&E attendances in the past year, all following similar episodes. She is medically cleared. She is tearful but articulate, denies suicidal intent, and describes feeling 'empty and panicked.' The psychiatric liaison team assess her. She demands admission and asks for diazepam 'to calm down'. The team concludes there is no indication for inpatient admission. Which response best manages this presentation?",
+  "options": [
+   "Admit involuntarily under the Mental Health Act to prevent further self-harm",
+   "Prescribe regular diazepam for outpatient anxiolysis to reduce crisis frequency",
+   "Provide brief psychological first aid, crisis de-escalation, activate the crisis plan, and arrange early community follow-up",
+   "Discharge immediately without follow-up to avoid reinforcing help-seeking behaviour",
+   "Commence an SSRI and a regular antipsychotic at this A&E visit to reduce emotional dysregulation"
+  ],
+  "correctAnswerIndex": 2,
+  "explanation": "In emotionally unstable (borderline) personality disorder, repeated A&E attendances after self-harm are a recognised pattern. Evidence-based management avoids unnecessary hospitalisation (which can reinforce maladaptive behaviours), avoids benzodiazepine prescribing (high risk of dependence and misuse in BPD), and focuses on: brief de-escalation, activation of an existing crisis plan, referral to community mental health or crisis teams, and early follow-up. Pharmacotherapy is symptom-targeted and not commenced acutely in A&E.",
+  "wrongAnswerExplanations": [
+   "Involuntary admission is not indicated — she has no suicidal intent, is articulate, and inpatient admission for BPD crises without psychosis or severe depression can be harmful.",
+   "Regular benzodiazepines are contraindicated in BPD — high risk of dependence, escalating demands, and they do not address the underlying emotional dysregulation.",
+   "Correct — brief de-escalation, crisis plan activation, and early community follow-up is the evidence-based management approach for BPD crisis presentations.",
+   "Abrupt discharge without engagement or follow-up is harmful and increases risk of escalating self-harm — it misinterprets boundary-setting as abandonment.",
+   "Commencing medications acutely in A&E without a structured psychiatric review is inappropriate; pharmacotherapy in BPD is symptom-targeted and planned in a community setting."
+  ],
+  "clinicalPearl": "BPD crisis management prioritises de-escalation, crisis plan activation, and community follow-up — avoid benzodiazepines, unnecessary admission, and acute pharmacological loading in A&E.",
+  "keyClue": "BPD, superficial self-harm, medically cleared, demanding diazepam, no suicidal intent — de-escalation and crisis plan activation, not admission or benzodiazepines.",
+  "commonExamTrap": "Prescribing benzodiazepines to 'calm' a BPD patient in crisis — this reinforces maladaptive patterns and risks dependence; it is specifically not recommended.",
+  "missedConcept": "Consistent limit-setting combined with a structured crisis plan, not hospitalisation or sedative prescribing, is the evidence-based response to recurrent BPD crises in A&E.",
+  "isRedFlagQuestion": false,
+  "redFlagReason": "",
+  "tags": [
+   "borderline personality disorder",
+   "self-harm",
+   "crisis management",
+   "A&E",
+   "benzodiazepines"
+  ]
+ }
 ]
