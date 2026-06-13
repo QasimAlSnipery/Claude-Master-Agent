@@ -6,7 +6,6 @@ import { SpecialtyCard } from '../components/dashboard/SpecialtyCard'
 
 interface Props {
   onOpenSpecialty: (s: Specialty) => void
-  onCustom: (s: Specialty | 'Mixed') => void
   onReviewHub: () => void
   onContinue: (s: Specialty) => void
 }
@@ -21,7 +20,7 @@ function StatPill({ label, value, tone = 'text-white', onClick }: { label: strin
   )
 }
 
-export function Dashboard({ onOpenSpecialty, onCustom, onReviewHub, onContinue }: Props) {
+export function Dashboard({ onOpenSpecialty, onReviewHub, onContinue }: Props) {
   const store = useStore()
   const stats = dashboardStats(store)
   const lastSpec = store.sessions[0]?.specialty
@@ -85,7 +84,6 @@ export function Dashboard({ onOpenSpecialty, onCustom, onReviewHub, onContinue }
             count={specialtyCount(meta.key)}
             stats={specialtyStats(store, meta.key)}
             onOpen={() => onOpenSpecialty(meta.key)}
-            onCustom={() => onCustom(meta.key)}
           />
         ))}
       </section>

@@ -58,7 +58,6 @@ export default function App() {
       {route.v === 'dashboard' && (
         <Dashboard
           onOpenSpecialty={(s) => go({ v: 'specialty', specialty: s })}
-          onCustom={(s) => go({ v: 'builder', specialty: s })}
           onReviewHub={() => go({ v: 'reviewHub' })}
           onContinue={(s) => quickStudy(s)}
         />

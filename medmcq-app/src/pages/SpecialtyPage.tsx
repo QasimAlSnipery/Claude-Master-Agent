@@ -1,6 +1,8 @@
 import type { Specialty } from '../data/types'
 import { questionsForSpecialty, topicsForSpecialty, subspecialtiesForSpecialty } from '../data/specialties'
 import { shuffle } from '../utils/quiz'
+import { useStore } from '../state/store'
+import { specialtyStats } from '../utils/analytics'
 import type { QuizConfig } from './Quiz'
 
 interface Props {
@@ -11,9 +13,11 @@ interface Props {
 }
 
 export function SpecialtyPage({ specialty, onBack, onStart, onCustom }: Props) {
+  const store = useStore()
   const all = questionsForSpecialty(specialty)
   const topics = topicsForSpecialty(specialty)
   const subspecs = subspecialtiesForSpecialty(specialty)
+  const stats = specialtyStats(store, specialty)
 
   function startStudy(count: number, mode: 'study' | 'exam' = 'study', filterTopic?: string, filterSub?: string) {
     let pool = all
@@ -29,6 +33,26 @@ export function SpecialtyPage({ specialty, onBack, onStart, onCustom }: Props) {
     })
   }
 
+  /** Resume where the user left off: unseen questions first, then the ones answered longest ago. */
+  function continueSession(count = 20) {
+    const ordered = [...all].sort((a, b) => {
+      const pa = store.progress[a.id]
+      const pb = store.progress[b.id]
+      const aa = pa?.attempts ?? 0
+      const ab = pb?.attempts ?? 0
+      if (aa !== ab) return aa - ab
+      return (pa?.lastAnsweredAt ?? 0) - (pb?.lastAnsweredAt ?? 0)
+    })
+    onStart({
+      questions: ordered.slice(0, Math.min(count, ordered.length)),
+      mode: 'study',
+      timed: false,
+      timeLimitMin: 20,
+      label: `${specialty} — continue`,
+      specialty,
+    })
+  }
+
   return (
     <div className="max-w-5xl mx-auto px-5 sm:px-8 py-8">
       <button onClick={onBack} className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-300 hover:text-white rounded-lg px-2.5 py-1.5 hover:bg-white/10 transition mb-6">
@@ -38,6 +62,24 @@ export function SpecialtyPage({ specialty, onBack, onStart, onCustom }: Props) {
 
       <h1 className="text-3xl sm:text-4xl font-extrabold text-white">{specialty}</h1>
       <p className="text-slate-400 mt-2 mb-6">{all.length} clinical questions · {topics.length} topics</p>
+
+      {/* continue where you left off */}
+      <button
+        onClick={() => continueSession(20)}
+        className="w-full mb-6 text-left rounded-2xl p-5 ring-1 ring-teal-400/40 bg-gradient-to-r from-teal-500/20 to-emerald-500/10 hover:from-teal-500/30 hover:to-emerald-500/20 transition-all flex items-center gap-4 group"
+      >
+        <span className="flex-shrink-0 grid place-items-center w-12 h-12 rounded-xl bg-white/10 ring-1 ring-white/15 text-teal-200">
+          <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.9} strokeLinecap="round" strokeLinejoin="round"><path d="M5 3l14 9-14 9V3z" /></svg>
+        </span>
+        <div className="flex-1">
+          <div className="text-xs font-semibold text-teal-200 uppercase tracking-wide">Continue where you left off</div>
+          <div className="text-lg font-bold text-white">
+            {stats.answered === 0 ? 'Start your first set' : `Resume — ${stats.answered}/${all.length} done, ${stats.accuracy}% accuracy`}
+          </div>
+          <div className="text-xs text-slate-300 mt-0.5">Picks up with questions you haven't seen yet →</div>
+        </div>
+        <svg className="w-5 h-5 text-teal-200 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+      </button>
 
       {/* quick start */}
       <div className="rounded-2xl bg-navy-800/50 ring-1 ring-white/10 p-5 mb-6">

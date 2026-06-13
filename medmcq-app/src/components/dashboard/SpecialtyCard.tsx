@@ -7,18 +7,23 @@ interface Props {
   count: number
   stats: SpecialtyStats
   onOpen: () => void
-  onCustom: () => void
 }
 
-export function SpecialtyCard({ meta, count, stats, onOpen, onCustom }: Props) {
+export function SpecialtyCard({ meta, count, stats, onOpen }: Props) {
   const disabled = !meta.available
 
   return (
-    <div
+    <button
+      type="button"
+      onClick={() => meta.available && onOpen()}
+      disabled={disabled}
+      aria-disabled={disabled}
       className={[
-        'group relative rounded-2xl p-5 ring-1 backdrop-blur-sm transition-all duration-300 bg-gradient-to-br flex flex-col',
+        'group relative text-left w-full rounded-2xl p-5 ring-1 backdrop-blur-sm transition-all duration-300 bg-gradient-to-br flex flex-col',
         meta.accent,
-        disabled ? 'opacity-60' : 'hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/30',
+        disabled
+          ? 'opacity-60 cursor-not-allowed'
+          : 'cursor-pointer hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/30 hover:ring-teal-400/70',
       ].join(' ')}
     >
       <span className={`absolute top-4 right-4 text-[11px] font-semibold tracking-wide px-2.5 py-1 rounded-full ${meta.available ? 'bg-teal-400/20 text-teal-200 ring-1 ring-teal-300/40' : 'bg-white/10 text-slate-300 ring-1 ring-white/15'}`}>
@@ -42,17 +47,15 @@ export function SpecialtyCard({ meta, count, stats, onOpen, onCustom }: Props) {
           {stats.weakestTopic && (
             <p className="mt-3 text-[11px] text-rose-300/90 truncate">Weakest: {stats.weakestTopic}</p>
           )}
-          <div className="mt-4 flex gap-2">
-            <button onClick={onOpen} className="flex-1 rounded-lg bg-white/10 ring-1 ring-white/15 px-3 py-2 text-sm font-semibold text-white hover:bg-white/15 transition">Continue</button>
-            <button onClick={onCustom} title="Custom quiz" className="rounded-lg bg-white/10 ring-1 ring-white/15 px-3 py-2 text-sm font-semibold text-white hover:bg-white/15 transition">
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h10M4 18h7" /></svg>
-            </button>
-          </div>
+          <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-teal-300 group-hover:gap-2 transition-all">
+            Open section
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </span>
         </>
       ) : (
         <p className="mt-4 text-[11px] text-slate-400">{meta.comingSoonNote}</p>
       )}
-    </div>
+    </button>
   )
 }
 
