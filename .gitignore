@@ -16,8 +16,13 @@ _theme_sections/.shopify_token
 
 # Source lecture PDFs (large, copyrighted) + extraction artifacts — keep local only
 surgery_pdfs/
+new_batch/
 pdf_text.json
 pdf_issues.json
+new_text.json
+new_issues.json
+gen_batches.json
+gen_batches_min.json
 
 # Node build artifacts for the MCQ app
 medmcq-app/node_modules/

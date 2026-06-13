@@ -1,92 +1,95 @@
-# ClinicalQ Bank — Surgery Edition (v1.1)
+# ClinicalQ Bank — Medical MCQ Platform (v2.0)
 
-A modern, case-based medical MCQ trainer. This version ships a **Surgery** bank of
-**582 clinical vignettes**, classified by **organ system**, generated from the Surgery
-lecture batch (Weeks 1–8). Medicine, Pediatrics, Gynecology and Primary Care appear on
-the dashboard as **Coming Soon** and are ready to switch on once their banks are added.
+A premium, case-based medical exam-prep platform. **1,098 clinical MCQs** across multiple
+specialties, with confidence tracking, red-flag review, a full custom quiz builder, study &
+exam modes, a detailed score report, and local progress persistence.
 
 ## Stack
-React 18 · TypeScript · Vite · Tailwind CSS v3.
+React 18 · TypeScript · Vite · Tailwind CSS v3. No backend — progress is stored in the browser.
 
 ## Run locally
 ```bash
 cd medmcq-app
 npm install
 npm run dev      # http://localhost:5173
-```
-Production build:
-```bash
-npm run build    # type-checks + bundles to dist/
-npm run preview  # serve the production build
+npm run build    # type-check + production bundle in dist/
 ```
 
-## User flow
-1. **Dashboard** — five specialty cards. Surgery is active; the rest are locked.
-2. **Organ-system menu** — 9 systems (each with its live question count) plus a
-   **Mixed paper — all systems** option.
-3. **Question-count picker** — 10 / 20 / 30 / 50 / 100 / All, capped to what the chosen
-   system actually has.
-4. **Quiz** — a freshly randomized set with **no repeats within the set**. Each question:
-   pick the single best answer → immediate green/red feedback → full **ExplanationPanel**
-   (why correct, option-by-option, **clinical pearl**, **source lecture + topic**).
-5. **Final score screen** — circular percentage, verdict band, correct/wrong/total, and
-   buttons to reshuffle a new set, change length/system, or return to the dashboard.
+## Specialties (dashboard)
+| Specialty | Questions | Status |
+|---|---|---|
+| Surgery | 582 | Active |
+| Gynecology (Obstetrics & Gynaecology) | 204 | Active |
+| Pediatrics / Child Care | 120 | Active |
+| Psychiatry & Neurology | 108 | Active |
+| Special Surgeries (ortho, urology, ENT, ophthal, neurosurg, plastics, paeds/cardiothoracic) | 84 | Active |
+| Medicine | 0 | Coming soon — no lectures supplied |
+| Primary Care | 0 | Coming soon — no lectures supplied |
 
-Every set is randomized on entry, so the same questions don't repeat back-to-back.
+## Features
+- **7-card dashboard** with global stats (answered, accuracy, today, bookmarked, wrong,
+  red-flag, needs-review), continue-where-you-left-off, recommended weak area, and per-card
+  completion %, accuracy % and weakest topic.
+- **Study mode** — answer one at a time, instant feedback, full explanation (why correct,
+  option-by-option, key clue, common exam trap, clinical pearl, source lecture), confidence
+  rating, bookmark, mark-difficult and per-question notes.
+- **Exam mode** — answer a whole set with no feedback, navigate freely, finish to a score
+  report, then review every answer with explanations.
+- **Confidence rating** — after each answer mark *I guessed / I was unsure / I knew it*.
+  Guessed or unsure (even when correct) adds the question to **Needs review**; *I knew it* on
+  a correct, not-repeatedly-missed question masters it.
+- **Red-flag review** — questions involving dangerous/urgent decisions are flagged; getting
+  one wrong shows an *Important clinical safety issue* box (why it's dangerous, the danger
+  clue, the correct urgent action) and adds it to a dedicated **Red-Flag Review**.
+- **Custom quiz builder** — filter by specialty, topic, subspecialty, difficulty, question
+  type and status (all / new / wrong / bookmarked / needs-review / red-flag / recent /
+  difficult), choose count, study or exam, timed/untimed, randomized/ordered. Live match
+  count and graceful empty-state with one-tap filter relaxation.
+- **Final score report** — score ring, correct/wrong/skipped, time + avg/question, accuracy
+  by specialty/difficulty/type, weak topics, missed concepts, red-flag alert box, and action
+  buttons (review wrong, review red-flag, repeat, practice weak topics, new custom, dashboard).
+- **Review hub** — Wrong · Red-flag · Needs review · Bookmarked · Difficult · Recently
+  answered, each practisable as a fresh quiz.
+- **Local persistence** — answer history, attempts, bookmarks, confidence, review lists,
+  notes and sessions survive refresh (localStorage `clinicalq:v2`).
 
-## Organ systems (Surgery)
-Gastrointestinal · Hepatobiliary, Pancreas & Spleen · Breast & Endocrine ·
-Vascular & Lymphatic · Trauma & Critical Care · Orthopaedics & MSK · Cardiothoracic ·
-Perioperative & Anaesthesia · Surgical Principles & Oncology.
+## Data model
+`MCQ` carries: `id, specialty, subspecialty, sourceLecture, sourceFile, topic, subtopic,
+difficulty, questionType, question, options[], correctAnswerIndex, explanation,
+wrongAnswerExplanations[], clinicalPearl, keyClue, commonExamTrap, missedConcept,
+isRedFlagQuestion, redFlagReason, tags[]`. User progress (`QuestionProgress`) is stored
+separately from question content.
 
 ## Project structure
 ```
 src/
   components/
-    Icon.tsx              # shared stroke-icon renderer
-    SpecialtyCard.tsx     # dashboard card (active / coming-soon)
-    SystemCard.tsx        # organ-system card
-    QuestionCard.tsx      # stem + options + answer states
-    ExplanationPanel.tsx  # verdict, explanations, pearl, source
-    Results.tsx           # final score screen
+    Icon.tsx
+    dashboard/SpecialtyCard.tsx
+    layout/Header.tsx
+    quiz/QuestionView.tsx · ConfidenceRating.tsx · RedFlagAlert.tsx
+    reports/FinalScoreReport.tsx
   data/
-    types.ts              # MCQ + SpecialtyMeta interfaces
-    systems.ts            # organ-system taxonomy + auto-classifier
-    surgeryQuestions.ts   # 62 hand-written seed questions
-    generated/
-      index.ts            # import.meta.glob — auto-aggregates every *.json batch
-      *.json              # 40 system-tagged question batches (520 questions)
-    specialties.ts        # merges + de-duplicates + classifies the full bank
+    types.ts · systems.ts · specialties.ts        # taxonomy, normalization, dedup
+    surgeryQuestions.ts                            # 62 hand-written seeds
+    generated/  index.ts + *.json                  # 520 surgery batches (import.meta.glob)
+    banks/      index.ts + *.json                  # 512 rich multi-specialty batches
+  state/store.ts                                   # localStorage store (useSyncExternalStore)
+  utils/analytics.ts · quiz.ts                     # stats, report, filters
   pages/
-    Dashboard.tsx
-    SystemSelect.tsx      # organ-system menu
-    Quiz.tsx              # count picker → play (no repeats) → results
-  App.tsx                 # view state machine
-  main.tsx
+    Dashboard · SpecialtyPage · QuizBuilder · Quiz · ReviewHub · ReviewList
+  App.tsx · main.tsx
 ```
 
-## How questions are stored & classified
-- Hand-written seed questions live in `surgeryQuestions.ts`.
-- Generated questions are plain **JSON arrays** under `data/generated/`. `generated/index.ts`
-  uses `import.meta.glob('./*.json')` to pick up **any** batch file automatically — no edits.
-- `specialties.ts` merges seed + generated, drops duplicate stems, and assigns each
-  question an organ-system key (`systems.ts` `classifySystem()` derives it from the
-  source lecture / topic when not already set).
+## How content is generated & graded
+Questions are produced by multi-agent generation grounded in the uploaded lecture files
+(filename + topic), then merged, **de-duplicated by stem**, and normalized. Surgery is
+sub-classified into organ systems; the new specialties carry rich tags (difficulty, type,
+subspecialty, red-flag). Adding more is drop-in: put a `*.json` array in `data/banks/` and
+it's picked up on the next build.
 
-## Adding more questions
-Drop a new `data/generated/whatever.json` file — an array of objects with keys
-`system, sourceLecture, topic, question, options[5], correctAnswerIndex,
-explanation, wrongAnswerExplanations[5], clinicalPearl`. It's picked up on next build.
-
-## Adding a new specialty
-1. Create `data/medicineQuestions.ts` (same shape as `surgeryQuestions.ts`) or a
-   `generated/`-style JSON folder.
-2. Register it in `specialties.ts` `questionBanks`.
-3. Flip `available: true` on that specialty in the `specialties` array.
-
-The quiz engine, randomization, scoring and explanation UI are specialty-agnostic, so a
-new bank lights up automatically.
-
-## Question data model
-`id`, `specialty`, `system`, `sourceLecture`, `topic`, `question`, 5 `options`,
-`correctAnswerIndex`, `explanation`, per-option `wrongAnswerExplanations[]`, `clinicalPearl`.
+## Activating Medicine & Primary Care
+No Medicine or Primary Care lecture batches were supplied (the "Primary health care" zip
+contained Surgery week 8–9 duplicates). Both appear as **Coming soon**. Send those lecture
+batches and they activate the same way — generate a `banks/*.json` set tagged with the
+specialty; the card flips to active automatically.
