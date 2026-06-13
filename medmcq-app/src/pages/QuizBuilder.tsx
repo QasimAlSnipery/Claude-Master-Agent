@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { Specialty, Difficulty, QuestionType } from '../data/types'
-import { specialties, topicsForSpecialty, subspecialtiesForSpecialty } from '../data/specialties'
+import { specialties, organsForSpecialty, allOrgans } from '../data/specialties'
 import { useStore } from '../state/store'
 import { matchingPool, defaultFilters, type QuizFilters, type QuizStatus } from '../utils/quiz'
 import type { QuizConfig } from './Quiz'
@@ -43,8 +43,10 @@ export function QuizBuilder({ initialSpecialty, onBack, onStart }: Props) {
   const [f, setF] = useState<QuizFilters>(() => defaultFilters(initialSpecialty))
 
   const availableSpecs = specialties.filter((s) => s.available).map((s) => s.key)
-  const topics = useMemo(() => (f.specialty === 'Mixed' ? [] : topicsForSpecialty(f.specialty)), [f.specialty])
-  const subspecs = useMemo(() => (f.specialty === 'Mixed' ? [] : subspecialtiesForSpecialty(f.specialty)), [f.specialty])
+  const organs = useMemo(
+    () => (f.specialty === 'Mixed' ? allOrgans() : organsForSpecialty(f.specialty)),
+    [f.specialty],
+  )
   const pool = useMemo(() => matchingPool(f, store), [f, store])
   const poolCount = pool.length
 
@@ -93,23 +95,13 @@ export function QuizBuilder({ initialSpecialty, onBack, onStart }: Props) {
           </div>
         </Field>
 
-        {topics.length > 0 && (
-          <Field label={`Topic ${f.topics.length ? `(${f.topics.length})` : ''}`}>
-            <div className="flex flex-wrap gap-2 max-h-40 overflow-y-auto scroll-thin">
-              {topics.slice(0, 60).map((t) => (
-                <Chip key={t.topic} active={f.topics.includes(t.topic)} onClick={() => patch({ topics: toggle(f.topics, t.topic) })}>
-                  {t.topic} <span className="opacity-60">{t.count}</span>
+        {organs.length > 0 && (
+          <Field label={`Organ ${f.organs.length ? `(${f.organs.length})` : ''}`}>
+            <div className="flex flex-wrap gap-2 max-h-48 overflow-y-auto scroll-thin">
+              {organs.map((o) => (
+                <Chip key={o.organ} active={f.organs.includes(o.organ)} onClick={() => patch({ organs: toggle(f.organs, o.organ) })}>
+                  {o.organ} <span className="opacity-60">{o.count}</span>
                 </Chip>
-              ))}
-            </div>
-          </Field>
-        )}
-
-        {subspecs.length > 1 && (
-          <Field label="Subspecialty">
-            <div className="flex flex-wrap gap-2">
-              {subspecs.map((s) => (
-                <Chip key={s} active={f.subspecialties.includes(s)} onClick={() => patch({ subspecialties: toggle(f.subspecialties, s) })}>{s}</Chip>
               ))}
             </div>
           </Field>
@@ -183,7 +175,7 @@ export function QuizBuilder({ initialSpecialty, onBack, onStart }: Props) {
           <div className="rounded-2xl bg-rose-500/10 ring-1 ring-rose-400/30 p-5">
             <p className="text-sm font-semibold text-rose-100 mb-3">No questions match these filters.</p>
             <div className="flex flex-wrap gap-2">
-              <button onClick={() => patch({ topics: [], subspecialties: [] })} className="rounded-lg bg-white/10 ring-1 ring-white/15 px-3 py-1.5 text-sm text-slate-100 hover:bg-white/15">Clear topics</button>
+              <button onClick={() => patch({ organs: [] })} className="rounded-lg bg-white/10 ring-1 ring-white/15 px-3 py-1.5 text-sm text-slate-100 hover:bg-white/15">Clear organs</button>
               <button onClick={() => patch({ difficulties: [], questionTypes: [] })} className="rounded-lg bg-white/10 ring-1 ring-white/15 px-3 py-1.5 text-sm text-slate-100 hover:bg-white/15">Include all difficulties & types</button>
               <button onClick={() => patch({ status: 'all' })} className="rounded-lg bg-white/10 ring-1 ring-white/15 px-3 py-1.5 text-sm text-slate-100 hover:bg-white/15">Use all questions</button>
             </div>

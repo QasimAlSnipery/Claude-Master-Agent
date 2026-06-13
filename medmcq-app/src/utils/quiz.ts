@@ -20,6 +20,7 @@ export type QuizStatus =
 
 export interface QuizFilters {
   specialty: Specialty | 'Mixed'
+  organs: string[]
   topics: string[]
   subspecialties: string[]
   difficulties: Difficulty[]
@@ -35,6 +36,7 @@ export interface QuizFilters {
 export function defaultFilters(specialty: Specialty | 'Mixed'): QuizFilters {
   return {
     specialty,
+    organs: [],
     topics: [],
     subspecialties: [],
     difficulties: [],
@@ -62,6 +64,7 @@ export function matchingPool(f: QuizFilters, s: StoreState): MCQ[] {
   let pool = allQuestions
 
   if (f.specialty !== 'Mixed') pool = pool.filter((q) => q.specialty === f.specialty)
+  if (f.organs.length) pool = pool.filter((q) => q.organ && f.organs.includes(q.organ))
   if (f.topics.length) pool = pool.filter((q) => f.topics.includes(q.topic))
   if (f.subspecialties.length)
     pool = pool.filter((q) => q.subspecialty && f.subspecialties.includes(q.subspecialty))

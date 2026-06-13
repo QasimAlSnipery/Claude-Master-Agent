@@ -33,6 +33,8 @@ export interface MCQ {
   subspecialty?: string
   /** Surgery organ-system key (legacy taxonomy), optional. */
   system?: string
+  /** Organ / body region this question concerns (e.g. "Thyroid", "Heart & Circulation"). */
+  organ?: string
   sourceLecture: string
   sourceFile?: string
   sourcePage?: number

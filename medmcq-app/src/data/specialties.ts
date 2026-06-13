@@ -3,6 +3,7 @@ import { surgeryQuestions } from './surgeryQuestions'
 import { generatedQuestions } from './generated'
 import { rawBankQuestions } from './banks'
 import { classifySystem, systemLabel } from './systems'
+import { classifyOrgan } from './organs'
 
 const RED_FLAG_RE =
   /torsion|isch[ae]mi|ruptur|tension pneumo|\bsepsis\b|septic|\bshock\b|h[ae]morrhage|perforat|compartment|cauda equina|airway|resuscitat|ectopic|strangulat|necroti[sz]ing|meningitis|\bstroke\b|\bMI\b|myocardial|suicid|eclampsia|tamponade|anaphyla|pulmonary embol|emergenc|raised ICP|dka|diabetic ketoacid/i
@@ -99,7 +100,7 @@ function buildAllQuestions(): MCQ[] {
     const key = `${q.specialty}|${stemKey(q)}`
     if (seen.has(key)) continue
     seen.add(key)
-    out.push(q)
+    out.push({ ...q, organ: classifyOrgan(q) })
   }
   return out
 }
@@ -127,6 +128,20 @@ export function subspecialtiesForSpecialty(s: Specialty): string[] {
   const set = new Set<string>()
   for (const q of allQuestions) if (q.specialty === s && q.subspecialty) set.add(q.subspecialty)
   return [...set].sort()
+}
+
+/** Organ groups present in a specialty, with counts, sorted by count desc. */
+export function organsForSpecialty(s: Specialty): { organ: string; count: number }[] {
+  const m = new Map<string, number>()
+  for (const q of allQuestions) if (q.specialty === s) m.set(q.organ ?? 'General & Other', (m.get(q.organ ?? 'General & Other') ?? 0) + 1)
+  return [...m.entries()].map(([organ, count]) => ({ organ, count })).sort((a, b) => b.count - a.count)
+}
+
+/** All organ groups across the whole bank (for the Mixed builder), with counts. */
+export function allOrgans(): { organ: string; count: number }[] {
+  const m = new Map<string, number>()
+  for (const q of allQuestions) m.set(q.organ ?? 'General & Other', (m.get(q.organ ?? 'General & Other') ?? 0) + 1)
+  return [...m.entries()].map(([organ, count]) => ({ organ, count })).sort((a, b) => b.count - a.count)
 }
 
 export const specialties: SpecialtyMeta[] = [
