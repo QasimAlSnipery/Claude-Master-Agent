@@ -14,7 +14,10 @@ body,
 
 body {
   margin: 0;
-  background: radial-gradient(1200px 600px at 50% -10%, #15234a 0%, #0a0f1f 55%, #070b16 100%);
+  background-color: #0a0f1f;
+  background-image: radial-gradient(120% 90% at 50% -20%, #14213f 0%, #0b1124 45%, #090d1a 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #e6edf6;
   font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
