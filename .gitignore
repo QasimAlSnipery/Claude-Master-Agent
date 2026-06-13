@@ -27,3 +27,9 @@ gen_batches_min.json
 # Node build artifacts for the MCQ app
 medmcq-app/node_modules/
 medmcq-app/dist/
+
+new2/
+v3_text.json
+v3_issues.json
+wave_*.json
+gen_batches_v3.json

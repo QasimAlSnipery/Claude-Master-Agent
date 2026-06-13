@@ -1,8 +1,8 @@
-# ClinicalQ Bank — Medical MCQ Platform (v2.0)
+# ClinicalQ Bank — Medical MCQ Platform (v3.0)
 
-A premium, case-based medical exam-prep platform. **1,098 clinical MCQs** across multiple
-specialties, with confidence tracking, red-flag review, a full custom quiz builder, study &
-exam modes, a detailed score report, and local progress persistence.
+A premium, case-based medical exam-prep platform. **~3,170 clinical MCQs** across all seven
+specialties (≥400 each), with confidence tracking, red-flag review, a full custom quiz
+builder, study & exam modes, a detailed score report, and local progress persistence.
 
 ## Stack
 React 18 · TypeScript · Vite · Tailwind CSS v3. No backend — progress is stored in the browser.
@@ -15,16 +15,16 @@ npm run dev      # http://localhost:5173
 npm run build    # type-check + production bundle in dist/
 ```
 
-## Specialties (dashboard)
-| Specialty | Questions | Status |
+## Specialties (dashboard) — all seven active
+| Specialty | Questions | Subspecialties |
 |---|---|---|
-| Surgery | 582 | Active |
-| Gynecology (Obstetrics & Gynaecology) | 204 | Active |
-| Pediatrics / Child Care | 120 | Active |
-| Psychiatry & Neurology | 108 | Active |
-| Special Surgeries (ortho, urology, ENT, ophthal, neurosurg, plastics, paeds/cardiothoracic) | 84 | Active |
-| Medicine | 0 | Coming soon — no lectures supplied |
-| Primary Care | 0 | Coming soon — no lectures supplied |
+| Surgery | 582 | 9 organ systems |
+| Gynecology (Obstetrics & Gynaecology) | 456 | Obstetrics / Gynaecology |
+| Pediatrics / Child Care | 454 | — |
+| Psychiatry & Neurology | 439 | Psychiatry / Neurology |
+| Medicine | 419 | Cardiology, Endocrinology, Gastroenterology, Respiratory, Radiology, Geriatric, Theory |
+| Primary Care | 408 | Dermatology, Primary Health Care, Rheumatology |
+| Special Surgeries | 404 | ENT, Ophthalmology, Plastic Surgery |
 
 ## Features
 - **7-card dashboard** with global stats (answered, accuracy, today, bookmarked, wrong,
