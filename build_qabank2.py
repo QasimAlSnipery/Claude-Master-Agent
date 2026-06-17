@@ -110,7 +110,7 @@ for ch in chapters:
         group=[]
         used = BAR_H + DIV_H + PAD*2
         j=i
-        while j < len(qs) and len(group) < 5:
+        while j < len(qs) and len(group) < 12:
             qf=q_para(qs[j]); af=a_para(qs[j],accent)
             qh=meas(qf,CW); ah=meas(af,CW-6)
             add = qh+GAP_Q+ah+GAP_A
@@ -135,23 +135,16 @@ for pg in pages:
     c.setFillColor(accent); c.rect(LM, y-26, CW, 26, fill=1, stroke=0)
     p=Paragraph(f'{ch["num"]}. {esc(ch["title"])}', bar_style); p.wrap(CW-12,26); p.drawOn(c, LM+8, y-20)
     y-=26+8
-    # questions
-    qh_sum=0
-    qtop=y
+    # questions (flow from top)
     for (q,qf,af,qh,ah) in group:
         qf.wrap(CW,qh); qf.drawOn(c, LM, y-qh); y-=qh+GAP_Q
-    # compute answers block height
-    ablock = DIV_H+6 + sum(ah for (_,_,_,_,ah) in group) + GAP_A*len(group)
-    # pin answers to bottom
-    ay = BM + ablock
-    # divider bar
-    c.setFillColor(accent); c.rect(LM, ay-DIV_H, CW, DIV_H, fill=1, stroke=0)
-    dp=Paragraph('&#9660; ANSWERS — check yourself', div_style); dp.wrap(CW-12,DIV_H); dp.drawOn(c, LM+8, ay-DIV_H+4)
-    # light tint background behind answers
-    abg_top=ay-DIV_H-2
-    ay2=ay-DIV_H-6
+    # separator bar straight after the questions
+    y -= 6
+    c.setFillColor(accent); c.rect(LM, y-DIV_H, CW, DIV_H, fill=1, stroke=0)
+    dp=Paragraph('&#9660; ANSWERS — check yourself', div_style); dp.wrap(CW-12,DIV_H); dp.drawOn(c, LM+8, y-DIV_H+4)
+    y -= DIV_H+6
     for (q,qf,af,qh,ah) in group:
-        af.wrap(CW-6,ah); af.drawOn(c, LM+3, ay2-ah); ay2-=ah+GAP_A
+        af.wrap(CW-6,ah); af.drawOn(c, LM+3, y-ah); y-=ah+GAP_A
     c.showPage()
 c.save()
 print("BUILT",OUT,"| pages",len(pages),"| chapters",len(chapters),
