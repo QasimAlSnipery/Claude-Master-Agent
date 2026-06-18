@@ -20,7 +20,7 @@ def esc(t):
     t=(t or '').replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')
     return re.sub(r'\*\*(.+?)\*\*',r'<b>\1</b>',t)
 def q_para(q):
-    opts="<br/>".join(f'<b>{L}.</b> {esc(q["options"][L])}' for L in "ABCDEFG" if L in q["options"])
+    opts="<br/>".join(f'<b>{L}.</b> {esc(q["options"][L])}' for L in sorted(q["options"]))
     return Paragraph(f'<b>Q{esc(q["qnum"])}.</b> {esc(q["stem"])}<br/>{opts}',qst)
 def a_para(q,acc):
     hexc='#%02x%02x%02x'%(int(acc.red*255),int(acc.green*255),int(acc.blue*255))
