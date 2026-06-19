@@ -31,18 +31,19 @@ r.italic = True; r.font.size = Pt(13)
 
 meta = doc.add_paragraph()
 meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r = meta.add_run("Total length: ~60 seconds  |  6 clips x 10 seconds  |  Style: stop-motion claymation  |  For AI video generation")
+r = meta.add_run("Total length: ~60 seconds  |  6 clips x 10 seconds  |  Style: stop-motion claymation  |  Audience: adults 55+  |  For AI video generation")
 r.font.size = Pt(10); r.font.color.rgb = RGBColor(100, 100, 100)
 
 doc.add_paragraph()
 
 heading("HOW TO USE THIS DOCUMENT", 13, (60, 60, 60))
 doc.add_paragraph(
-    "Each clip below is 10 seconds long. The 'What is happening' breakdown describes the action "
-    "second-by-second so you can hand each clip to ChatGPT and ask it to write a detailed AI-video "
-    "generation prompt (for Kling, Runway, Sora, or Pika). Keep the claymation look consistent across "
-    "every clip: soft modeling-clay texture, visible thumb-print detail, warm studio lighting, slight "
-    "stop-motion jitter, shallow depth of field."
+    "Each clip is 10 seconds long. Every clip has a NARRATION SCRIPT of about 18-20 words - this is the "
+    "exact wording the voiceover should read in those 10 seconds. The pace is slow, warm, and clear "
+    "because the audience is adults aged 55 and older. The first 5 clips educate; the final clip sells. "
+    "The 'What is happening' breakdown describes the visuals so you can hand each clip to ChatGPT and ask "
+    "it to write a detailed AI-video prompt (for Kling, Runway, Sora, or Pika). Keep the claymation look "
+    "consistent across every clip."
 )
 
 heading("VISUAL STYLE - KEEP THIS THE SAME IN EVERY CLIP", 13, (60, 60, 60))
@@ -68,7 +69,8 @@ clips = [
             "6-8s: We arrive inside the leg: a soft squishy clay tunnel. First glimpse of the nerve bundles running through it.",
             "8-10s: Settle on the nerves - they are swollen, glowing angry red-orange, clearly inflamed and twitching.",
         ],
-        "vo": 'VO: "Deep inside your leg, something is wrong..."',
+        "narration": "Deep inside your legs are tiny nerves. As we age, they can swell, ache, and slowly lose their protection.",
+        "words": 19,
     },
     {
         "title": "CLIP 2 - THE INFLAMED NERVES IN PAIN (0:10-0:20)",
@@ -80,7 +82,8 @@ clips = [
             "16-18s: The whole bundle pulses red in unison, like a heartbeat of pain.",
             "18-20s: Nerve 1 looks toward camera, eyes worried, and speaks.",
         ],
-        "vo": 'Nerve 1 (shaky): "Why do we keep burning... tingling... going numb?"   |   VO: "Your nerves are under attack."',
+        "narration": "When nerves get inflamed, you feel it - burning, tingling, numbness, that pins-and-needles ache in your feet and hands.",
+        "words": 20,
     },
     {
         "title": "CLIP 3 - THE VILLAINS: OXIDATIVE STRESS (0:20-0:30)",
@@ -92,7 +95,8 @@ clips = [
             "26-28s: The nerves shrink back, huddling together, dimming, overwhelmed.",
             "28-30s: Nerve 3 shouts out in fear.",
         ],
-        "vo": 'Nerve 3: "These stressors never stop - we can\'t protect ourselves!"   |   VO: "Oxidative stress wears your nerves down."',
+        "narration": "The cause? Tiny invaders called free radicals. Every single day, they attack your nerves and wear down their natural defenses.",
+        "words": 20,
     },
     {
         "title": "CLIP 4 - THE CRY FOR SUPPORT (0:30-0:40)",
@@ -104,7 +108,8 @@ clips = [
             "36-38s: A tiny glimmer of gold appears far off in the tunnel - hope on the way.",
             "38-40s: The nerves notice the light; their eyes widen.",
         ],
-        "vo": 'Nerve 1 (weak): "We need support... something to shield us."   |   VO: "They need real backup."',
+        "narration": "Left unprotected, your nerves grow weaker over time. They need real support - a strong shield against this daily, ongoing damage.",
+        "words": 20,
     },
     {
         "title": "CLIP 5 - THE HERO ARRIVES: ALPHA LIPOIC ACID (0:40-0:50)",
@@ -116,7 +121,8 @@ clips = [
             "46-48s: A warm golden shield-glow spreads over each nerve, wrapping them in protection.",
             "48-50s: ALA speaks, confident and kind.",
         ],
-        "vo": 'ALA: "I\'ve got you. I\'m Alpha Lipoic Acid - a powerful antioxidant."   |   VO: "Fights free radicals. Supports healthy nerves."',
+        "narration": "Meet Alpha Lipoic Acid - a powerful antioxidant. It fights those free radicals and helps protect your nerves, naturally.",
+        "words": 18,
     },
     {
         "title": "CLIP 6 - RELIEF + PRODUCT + CTA (0:50-1:00)",
@@ -128,18 +134,24 @@ clips = [
             "56-58s: A clay-style Romira Alpha Lipoic Acid bottle rises into frame; the nerve characters cheer around it.",
             "58-60s: On-screen text appears: 'Romira Alpha Lipoic Acid - Support your nerves, naturally.' with 'romira.store'.",
         ],
-        "vo": 'Nerve 2 (happy): "The tingling... it\'s calming down!"   |   VO: "Romira Alpha Lipoic Acid. Support your nerves - naturally. romira.store"',
+        "narration": "Give your nerves the support they deserve. Try Romira Alpha Lipoic Acid today - visit romira.store and feel the difference.",
+        "words": 20,
     },
 ]
 
 for c in clips:
     heading(c["title"], 14, (180, 60, 0), after=2)
     p = doc.add_paragraph(); label(p, "Summary: "); p.add_run(c["summary"])
-    p = doc.add_paragraph(); label(p, "What is happening (second-by-second):")
+
+    p = doc.add_paragraph()
+    label(p, "NARRATION (read slowly - " + str(c["words"]) + " words):")
+    p = doc.add_paragraph()
+    r = p.add_run('"' + c["narration"] + '"')
+    r.bold = True; r.font.size = Pt(12); r.font.color.rgb = RGBColor(0, 90, 40)
+
+    p = doc.add_paragraph(); label(p, "What is happening on screen (second-by-second):")
     for b in c["beats"]:
         bp = doc.add_paragraph(style="List Bullet"); bp.add_run(b)
-    p = doc.add_paragraph(); label(p, "Voiceover / dialogue: ")
-    r = p.add_run(c["vo"]); r.italic = True
     doc.add_paragraph()
 
 heading("TIP FOR CHATGPT PROMPTING", 13, (60, 60, 60))
@@ -149,6 +161,6 @@ doc.add_paragraph(
     "Keep the stop-motion clay style consistent.' Generate all 6, then stitch the clips in order."
 )
 
-out = os.path.join(os.path.expanduser("~"), "Downloads", "Romira_ALA_Claymation_Storyboard.docx")
+out = os.path.join(os.path.expanduser("~"), "Downloads", "Romira_ALA_Claymation_Storyboard_v2.docx")
 doc.save(out)
 print("SAVED:", out)
