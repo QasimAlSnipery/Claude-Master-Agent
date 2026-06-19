@@ -69,8 +69,8 @@ clips = [
             "6-8s: We arrive inside the leg: a soft squishy clay tunnel. First glimpse of the nerve bundles running through it.",
             "8-10s: Settle on the nerves - they are swollen, glowing angry red-orange, clearly inflamed and twitching.",
         ],
-        "narration": "Deep inside your legs are tiny nerves. As we age, they can swell, ache, and slowly lose their protection.",
-        "words": 19,
+        "narration": "Deep inside your legs run tiny, delicate nerves. As the years pass, they can swell, ache, and slowly lose their natural protection, leaving them exposed.",
+        "words": 25,
     },
     {
         "title": "CLIP 2 - THE INFLAMED NERVES IN PAIN (0:10-0:20)",
@@ -82,8 +82,8 @@ clips = [
             "16-18s: The whole bundle pulses red in unison, like a heartbeat of pain.",
             "18-20s: Nerve 1 looks toward camera, eyes worried, and speaks.",
         ],
-        "narration": "When nerves get inflamed, you feel it - burning, tingling, numbness, that pins-and-needles ache in your feet and hands.",
-        "words": 20,
+        "narration": "When your nerves become inflamed, you truly feel it - the burning, the tingling, the numbness, those pins-and-needles aching in your feet and hands.",
+        "words": 25,
     },
     {
         "title": "CLIP 3 - THE VILLAINS: OXIDATIVE STRESS (0:20-0:30)",
@@ -95,8 +95,8 @@ clips = [
             "26-28s: The nerves shrink back, huddling together, dimming, overwhelmed.",
             "28-30s: Nerve 3 shouts out in fear.",
         ],
-        "narration": "The cause? Tiny invaders called free radicals. Every single day, they attack your nerves and wear down their natural defenses.",
-        "words": 20,
+        "narration": "But what causes this? Tiny invaders called free radicals. Every single day, they attack your nerves, slowly wearing down the natural defenses that protect them.",
+        "words": 25,
     },
     {
         "title": "CLIP 4 - THE CRY FOR SUPPORT (0:30-0:40)",
@@ -108,8 +108,8 @@ clips = [
             "36-38s: A tiny glimmer of gold appears far off in the tunnel - hope on the way.",
             "38-40s: The nerves notice the light; their eyes widen.",
         ],
-        "narration": "Left unprotected, your nerves grow weaker over time. They need real support - a strong shield against this daily, ongoing damage.",
-        "words": 20,
+        "narration": "Left unprotected, your nerves grow weaker and fragile over time. They need real support - a strong, steady shield to defend them against this daily damage.",
+        "words": 25,
     },
     {
         "title": "CLIP 5 - THE HERO ARRIVES: ALPHA LIPOIC ACID (0:40-0:50)",
@@ -121,8 +121,8 @@ clips = [
             "46-48s: A warm golden shield-glow spreads over each nerve, wrapping them in protection.",
             "48-50s: ALA speaks, confident and kind.",
         ],
-        "narration": "Meet Alpha Lipoic Acid - a powerful antioxidant. It fights those free radicals and helps protect your nerves, naturally.",
-        "words": 18,
+        "narration": "Now meet Alpha Lipoic Acid - a powerful, natural antioxidant. It truly hunts down those free radicals, neutralizes them, and helps protect your nerves from within.",
+        "words": 25,
     },
     {
         "title": "CLIP 6 - RELIEF + PRODUCT + CTA (0:50-1:00)",
@@ -134,8 +134,8 @@ clips = [
             "56-58s: A clay-style Romira Alpha Lipoic Acid bottle rises into frame; the nerve characters cheer around it.",
             "58-60s: On-screen text appears: 'Romira Alpha Lipoic Acid - Support your nerves, naturally.' with 'romira.store'.",
         ],
-        "narration": "Give your nerves the support they deserve. Try Romira Alpha Lipoic Acid today - visit romira.store and feel the difference.",
-        "words": 20,
+        "narration": "So give your nerves the real support they deserve. Try Romira Alpha Lipoic Acid today - visit romira.store and finally feel the difference for yourself.",
+        "words": 25,
     },
 ]
 
@@ -161,6 +161,6 @@ doc.add_paragraph(
     "Keep the stop-motion clay style consistent.' Generate all 6, then stitch the clips in order."
 )
 
-out = os.path.join(os.path.expanduser("~"), "Downloads", "Romira_ALA_Claymation_Storyboard_v2.docx")
+out = os.path.join(os.path.expanduser("~"), "Downloads", "Romira_ALA_Claymation_Storyboard_v3.docx")
 doc.save(out)
 print("SAVED:", out)
