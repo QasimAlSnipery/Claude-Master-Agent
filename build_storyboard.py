@@ -31,7 +31,7 @@ r.italic = True; r.font.size = Pt(13)
 
 meta = doc.add_paragraph()
 meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r = meta.add_run("Total length: ~60 seconds  |  6 clips x 10 seconds  |  Style: stop-motion claymation  |  Audience: adults 55+  |  For AI video generation")
+r = meta.add_run("Total length: ~70 seconds  |  7 clips x 10 seconds  |  Style: stop-motion claymation  |  Audience: adults 55+  |  For AI video generation")
 r.font.size = Pt(10); r.font.color.rgb = RGBColor(100, 100, 100)
 
 doc.add_paragraph()
@@ -104,35 +104,48 @@ clips = [
         "beats": [
             "30-32s: The nerves are huddled, dim, drooping. Lighting goes cooler and darker.",
             "32-34s: One nerve sinks down, almost giving up. Soft, sad tone.",
-            "34-36s: Nerve 1 lifts its head and looks up, searching for something.",
-            "36-38s: A tiny glimmer of gold appears far off in the tunnel - hope on the way.",
-            "38-40s: The nerves notice the light; their eyes widen.",
+            "34-36s: Nerve 1 lifts its head and looks up, searching - but the tunnel stays dark and empty.",
+            "36-38s: The nerves huddle closer together, dim and discouraged.",
+            "38-40s: They reach their lowest point - tired, fragile, and alone.",
         ],
         "narration": "Left unprotected, your nerves grow weaker and fragile over time. They need real support - a strong, steady shield to defend them against this daily damage.",
         "words": 25,
     },
     {
-        "title": "CLIP 5 - THE HERO ARRIVES: ALPHA LIPOIC ACID (0:40-0:50)",
+        "title": "CLIP 5 - REAL LIFE IMPACT (0:40-0:50)",
+        "summary": "Agitate the problem with relatable, everyday moments - how nerve trouble quietly affects sleep, walking, and daily comfort. Ends with the first glimmer of hope.",
+        "beats": [
+            "40-42s: A clay person lies in bed at night, tossing and turning, unable to sleep as the leg glows red.",
+            "42-44s: The clay person takes slow, careful steps, wincing, one hand pressed to the leg.",
+            "44-46s: Back inside the leg: the nerves flare red with each painful moment, mirroring the struggle above.",
+            "46-48s: The nerves sag, tired and discouraged - the mood is heavy and quiet.",
+            "48-50s: Far down the tunnel, a tiny warm glimmer of gold appears - the first sign of hope.",
+        ],
+        "narration": "Maybe you've felt it too - trouble sleeping, aching while walking, struggling to enjoy simple days. Nerve discomfort can quietly steal your comfort, freedom, and peace.",
+        "words": 25,
+    },
+    {
+        "title": "CLIP 6 - THE HERO ARRIVES: ALPHA LIPOIC ACID (0:50-1:00)",
         "summary": "The glowing golden ALA molecule rolls in, scatters the villains, and protects the nerves.",
         "beats": [
-            "40-42s: The golden ALA molecule rolls in, radiating warm light. The tunnel brightens.",
-            "42-44s: ALA sweeps through - its glow scatters and dissolves the grey free-radical sparks.",
-            "44-46s: ALA turns to the nerves with a friendly smile and a little wave.",
-            "46-48s: A warm golden shield-glow spreads over each nerve, wrapping them in protection.",
-            "48-50s: ALA speaks, confident and kind.",
+            "50-52s: The golden ALA molecule rolls in, radiating warm light. The tunnel brightens.",
+            "52-54s: ALA sweeps through - its glow scatters and dissolves the grey free-radical sparks.",
+            "54-56s: ALA turns to the nerves with a friendly smile and a little wave.",
+            "56-58s: A warm golden shield-glow spreads over each nerve, wrapping them in protection.",
+            "58-60s: ALA settles in among the nerves, calm and confident.",
         ],
         "narration": "Now meet Alpha Lipoic Acid - a powerful, natural antioxidant. It truly hunts down those free radicals, neutralizes them, and helps protect your nerves from within.",
         "words": 25,
     },
     {
-        "title": "CLIP 6 - RELIEF + PRODUCT + CTA (0:50-1:00)",
+        "title": "CLIP 7 - RELIEF + PRODUCT + CTA (1:00-1:10)",
         "summary": "The nerves heal and glow gold again, then the clay Romira bottle appears with the call to action.",
         "beats": [
-            "50-52s: The red inflammation fades. The nerves return to a calm, healthy gold glow.",
-            "52-54s: Nerves stretch tall, stop sparking, and smile - the tingling is gone.",
-            "54-56s: Camera pulls back as the whole nerve tunnel glows warm and healthy.",
-            "56-58s: A clay-style Romira Alpha Lipoic Acid bottle rises into frame; the nerve characters cheer around it.",
-            "58-60s: On-screen text appears: 'Romira Alpha Lipoic Acid - Support your nerves, naturally.' with 'romira.store'.",
+            "60-62s: The red inflammation fades. The nerves return to a calm, healthy gold glow.",
+            "62-64s: Nerves stretch tall, stop sparking, and smile - the tingling is gone.",
+            "64-66s: Camera pulls back as the whole nerve tunnel glows warm and healthy.",
+            "66-68s: A clay-style Romira Alpha Lipoic Acid bottle rises into frame; the nerve characters cheer around it.",
+            "68-70s: On-screen text appears: 'Romira Alpha Lipoic Acid - Support your nerves, naturally.' with 'romira.store'.",
         ],
         "narration": "So give your nerves the real support they deserve. Try Romira Alpha Lipoic Acid today - visit romira.store and finally feel the difference for yourself.",
         "words": 25,
@@ -161,6 +174,6 @@ doc.add_paragraph(
     "Keep the stop-motion clay style consistent.' Generate all 6, then stitch the clips in order."
 )
 
-out = os.path.join(os.path.expanduser("~"), "Downloads", "Romira_ALA_Claymation_Storyboard_v3.docx")
+out = os.path.join(os.path.expanduser("~"), "Downloads", "Romira_ALA_Claymation_Storyboard_v4.docx")
 doc.save(out)
 print("SAVED:", out)
